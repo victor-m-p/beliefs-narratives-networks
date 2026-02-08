@@ -18,3 +18,5 @@ See the README in each subdirectory for details:
 
 - [OtreeAnalysis/README.md](OtreeAnalysis/README.md) — Analysis pipeline: scripts, data flow, and figure generation
 - [otreesurvey/README.md](otreesurvey/README.md) — Survey instrument: setup, deployment, and environment variables
+
+The survey instrument uses a separate Whisper transcription server for voice input: [voice-whisper-server](https://github.com/victor-m-p/voice-whisper-server).

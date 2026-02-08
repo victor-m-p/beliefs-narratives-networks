@@ -17,7 +17,7 @@ Before running or deploying, the following environment variables must be set (in
 
 ### Whisper transcription endpoint
 
-The interview pages support voice input via a speech-to-text service. The endpoint URL is set as `WHISPER_TRANSCRIPTION_ENDPOINT` in the following templates and must be replaced with your own deployment URL before use:
+The interview pages support voice input via a speech-to-text service ([voice-whisper-server](https://github.com/victor-m-p/voice-whisper-server)). The endpoint URL is set as `WHISPER_TRANSCRIPTION_ENDPOINT` in the following templates and must be replaced with your own deployment URL before use:
 
 - `InterviewMain.html`
 - `InterviewTest.html`
