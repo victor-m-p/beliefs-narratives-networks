@@ -1,0 +1,347 @@
+{% extends "global/Page.html" %} {% load static %} {% block scripts %}
+<script src="{% static 'otreesurvey_app/canvasflex.js' %}?v=20250930"></script>
+{% endblock %} {% block styles %}
+<style>
+  .instruction-card {
+    border: 1px solid #e6e6e6;
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  }
+  .eyebrow {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0.25rem 0 0.5rem;
+  }
+
+  #canvasContainer {
+    position: relative;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto 15px auto;
+  }
+  canvas {
+    border: 2px solid #111;
+    border-radius: 4px;
+    display: block;
+  }
+
+  #edgeSelectionPanel {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: #fafafa;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    padding: 14px 16px;
+    z-index: 10;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+  .edge-btn {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+  }
+  .edge-btn.positive {
+    background: #998ec3;
+  }
+  .edge-btn.negative {
+    background: #f1a340;
+  }
+  .edge-btn.other {
+    background: #999;
+  }
+
+  /* Review box */
+  #reviewBox {
+    margin-top: 15px;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #f9f9f9;
+  }
+  #reviewQuestion {
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  #nextNodeBtn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .chip {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    color: #111;
+    font-weight: 700;
+  }
+  .chip-blue {
+    background: #8cc7caaa;
+  }
+  .chip-purple {
+    background: #e9e3f5;
+  }
+  .chip-orange {
+    background: #fff1de;
+  }
+</style>
+{% endblock %} {% block content %}
+<div class="instruction-card">
+  <p class="eyebrow">Did you forget anything?</p>
+  <p>
+    It is very important for us to understand how things relate for you. Please
+    go through each circle one by one and consider whether you may have
+    forgotten to connect it to anything. Anything that it thing
+    <span class="chip chip-purple">goes together with</span>, or
+    <span class="chip chip-orange">is in conflict with</span>? You can still
+    move circles and add/remove connections at any time. Click the
+    <b>Next</b> button below the canvas to go to the next circle.
+  </p>
+</div>
+
+<div id="canvasContainer">
+  <canvas id="dragCanvas" width="900" height="600"></canvas>
+
+  <!-- Edge selection panel -->
+  <div id="edgeSelectionPanel">
+    <div id="edgeStatement"></div>
+    <div>
+      <button id="selectPositive" type="button" class="edge-btn positive">
+        Positively
+      </button>
+      <button id="selectNegative" type="button" class="edge-btn negative">
+        Negatively
+      </button>
+      <button id="selectOther" type="button" class="edge-btn other">
+        Other relation
+      </button>
+    </div>
+  </div>
+</div>
+
+<div id="reviewBox">
+  <p id="reviewQuestion"></p>
+  <button id="nextNodeBtn" type="button">Next</button>
+</div>
+
+<input type="hidden" id="positions" name="positions_3" />
+<input type="hidden" id="edges" name="edges_3" />
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+    const canvas = document.getElementById("dragCanvas");
+    const ctx = canvas.getContext("2d");
+
+    const beliefLabels = {{ belief_labels_json|safe }};
+    const priorEdges   = {{ belief_edges|safe }};
+    const priorPoints  = {{ belief_points|safe }};
+
+    // --- Build nodes (no central node)
+    const points = beliefLabels.map((label, i) => ({
+      label,
+      x: priorPoints[i].x,
+      y: priorPoints[i].y,
+      radius: priorPoints[i].radius
+    }));
+
+    // --- Rehydrate edges
+    let edges = (priorEdges || []).map(e => {
+      const from = points.find(p => p.label === e.from);
+      const to   = points.find(p => p.label === e.to);
+      return from && to ? { from, to, polarity: e.polarity, timestamp: e.timestamp ?? null } : null;
+    }).filter(Boolean);
+
+    // --- State
+    let draggingPoint = null, maybeDragPoint = null, wasDragging = false;
+    let offsetX = 0, offsetY = 0;
+    let selectedPoint = null, pendingEdge = null;
+    let currentIndex = 0;
+
+    // --- Helpers
+    function makeLine(html){ return `<p class="line" style="margin:0;line-height:1.3">${html}</p>`; }
+
+    function drawCanvas(){
+      // base graph
+      NoOverlap.drawGraph(ctx, canvas, { points, edges, selectedPoint }, {
+        edge: { positive:"#998ec3", negative:"#f1a340", other:"#666666" }
+      });
+
+      // highlight current node (non-blocking)
+      const p = points[currentIndex];
+      if (p){
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, (p.radius ?? (NoOverlap.DRAW_DEFAULTS?.node?.defaultRadius || 20)) + 6, 0, 2*Math.PI);
+        ctx.strokeStyle = "red";
+        ctx.lineWidth = 3;
+        ctx.stroke();
+      }
+    }
+
+    function getMousePos(e){
+      const r = canvas.getBoundingClientRect();
+      return { x: e.clientX - r.left, y: e.clientY - r.top };
+    }
+
+    function findPoint(pos){
+      const defR = NoOverlap.DRAW_DEFAULTS?.node?.defaultRadius || 20;
+      return points.find(p => Math.hypot(p.x - pos.x, p.y - pos.y) <= (p.radius ?? defR));
+    }
+
+    // --- Edge selection panel
+    const panel   = document.getElementById("edgeSelectionPanel");
+    const stmtBox = document.getElementById("edgeStatement");
+    const btnPos  = document.getElementById("selectPositive");
+    const btnNeg  = document.getElementById("selectNegative");
+    const btnOth  = document.getElementById("selectOther");
+
+    function openEdgePanel(a, b){
+      pendingEdge = { from:a, to:b, polarity:null };
+      stmtBox.innerHTML = makeLine(`"<b>${a.label}</b>"`) + makeLine(`and`) + makeLine(`"<b>${b.label}</b>"`) + makeLine(`relate:`);
+      panel.style.display = "flex";
+    }
+    function closeEdgePanel(){ pendingEdge=null; panel.style.display="none"; drawCanvas(); }
+    function finalizeEdge(pol){
+      if (!pendingEdge) return;
+      pendingEdge.polarity = pol;
+      pendingEdge.timestamp = new Date().toISOString();
+      edges.push(pendingEdge);
+      closeEdgePanel();
+    }
+    btnPos.addEventListener("click", ()=>finalizeEdge("positive"));
+    btnNeg.addEventListener("click", ()=>finalizeEdge("negative"));
+    btnOth.addEventListener("click", ()=>finalizeEdge("other"));
+
+    // --- Review stepper (non-blocking)
+    function updateReviewQuestion(){
+      const node = points[currentIndex];
+      document.getElementById("reviewQuestion").textContent =
+        `Did you forget to connect “${node.label}” to anything?`;
+      drawCanvas();
+    }
+    document.getElementById("nextNodeBtn").addEventListener("click", ()=>{
+      currentIndex = (currentIndex + 1);
+      if (currentIndex >= points.length){
+        // done -> save & submit
+        document.getElementById("positions").value = JSON.stringify(points);
+        document.getElementById("edges").value = JSON.stringify(
+          edges.map(ev => ({ from: ev.from.label, to: ev.to.label, polarity: ev.polarity, timestamp: ev.timestamp ?? null }))
+        );
+        document.querySelector("form").submit();
+        return;
+      }
+      updateReviewQuestion();
+    });
+
+    // --- Mouse interactions (same as your working page)
+    canvas.addEventListener("mousedown", (e)=>{
+      const pos = getMousePos(e);
+      const hit = findPoint(pos);
+      maybeDragPoint = hit || null;
+      wasDragging = false;
+      if (hit){
+        offsetX = pos.x - hit.x;
+        offsetY = pos.y - hit.y;
+        canvas.style.cursor = "grabbing";
+      }
+    });
+
+    canvas.addEventListener("mousemove", (e)=>{
+      const pos = getMousePos(e);
+
+      // hover feedback (cursor + hover ring handled by canvasflex)
+      const hoveringAny = NoOverlap.findPoint(pos, points);
+      if (NoOverlap.setHovered(canvas, hoveringAny)) drawCanvas();
+      if (!draggingPoint) canvas.style.cursor = hoveringAny ? "grab" : "default";
+
+      // start drag if appropriate
+      if (!draggingPoint && maybeDragPoint) draggingPoint = maybeDragPoint;
+
+      if (draggingPoint){
+        const newX = pos.x - offsetX;
+        const newY = pos.y - offsetY;
+        NoOverlap.tryMove(
+          draggingPoint,
+          newX,
+          newY,
+          points,
+          drawCanvas,
+          undefined,
+          (pt)=>NoOverlap.flash(pt, drawCanvas)
+        );
+        wasDragging = true;
+      }
+    });
+
+    canvas.addEventListener("mouseup", (e)=>{
+      const pos = getMousePos(e);
+      const hit = findPoint(pos);
+
+      canvas.style.cursor = "default";
+
+      if (!wasDragging && hit){
+        if (!selectedPoint){
+          selectedPoint = hit;
+        } else if (selectedPoint === hit){
+          selectedPoint = null;
+        } else {
+          // toggle existing edge or open selector
+          const exists = edges.find(ev =>
+            (ev.from === selectedPoint && ev.to === hit) ||
+            (ev.from === hit && ev.to === selectedPoint)
+          );
+          if (exists){
+            edges.splice(edges.indexOf(exists), 1);
+            selectedPoint = null;
+          } else {
+            openEdgePanel(selectedPoint, hit);
+            selectedPoint = null;
+          }
+        }
+        drawCanvas();
+      }
+
+      // click on blank space: close panel or just deselect
+      if (!wasDragging && !hit){
+        if (pendingEdge) closeEdgePanel();
+        else if (selectedPoint){ selectedPoint = null; drawCanvas(); }
+      }
+
+      draggingPoint = null; maybeDragPoint = null; wasDragging = false;
+    });
+
+    canvas.addEventListener("mouseleave", ()=>{
+      if (NoOverlap.clearHovered(canvas)) drawCanvas();
+      if (canvas.style.cursor !== "grabbing") canvas.style.cursor = "default";
+    });
+
+    // Esc closes panel first, then deselects
+    document.addEventListener("keydown", (e)=>{
+      if (e.key === "Escape"){
+        if (pendingEdge) closeEdgePanel();
+        else if (selectedPoint){ selectedPoint = null; drawCanvas(); }
+      }
+    });
+
+    // --- Init
+    updateReviewQuestion();
+  });
+</script>
+{% endblock %}

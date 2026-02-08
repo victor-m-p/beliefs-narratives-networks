@@ -1,0 +1,61 @@
+{% extends "global/Page.html" %} {% block styles %}
+<style>
+  .card {
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    border-radius: 12px;
+    padding: 14px 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    margin: 0 auto 14px;
+    max-width: 900px;
+  }
+  .eyebrow {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #111;
+    margin: 0 0 6px;
+  }
+  .muted {
+    color: #555;
+  }
+  .items {
+    margin: 10px 0 0;
+    padding-left: 1.25rem;
+  }
+  .items li {
+    margin: 6px 0;
+    line-height: 1.3;
+    color: #111;
+    font-weight: 600;
+  }
+</style>
+{% endblock %} {% block content %}
+
+<div class="card">
+  <p class="eyebrow">Training exercise</p>
+  <p class="muted">
+    Please read the short story below carefully. A few short statements were
+    extracted from this text. In the next steps you will practice placing these
+    statements on a screen and creating supporting and conflicting connections.
+  </p>
+</div>
+
+<div class="card">
+  <p class="eyebrow">Vignette</p>
+  <p class="muted">{{ vignette_html }}</p>
+</div>
+
+<div class="card">
+  <p class="eyebrow">Extracted statements</p>
+  <p class="muted">
+    The following statements were extracted based on the short story above. You
+    will use these in the next practice step.
+  </p>
+  <ol class="items">
+    {% for item in training_items %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ol>
+</div>
+
+{{ next_button }} {% endblock %}

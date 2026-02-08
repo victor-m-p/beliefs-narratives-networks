@@ -1,0 +1,13 @@
+otree==6.0.0b13 # new version for live methods 
+django>=3.1,<5.0 # this is for voice handling
+psycopg2>=2.8.4
+sentry-sdk>=0.7.9
+
+# LLM + prompt handling
+openai>=1.0.0
+python-dotenv>=1.0.0
+pydantic>=1.10
+instructor>=0.3.0
+tenacity>=8.2.2
+jinja2==2.11.3      
+markupsafe==1.1.1

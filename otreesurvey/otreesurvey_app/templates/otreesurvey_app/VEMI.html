@@ -1,0 +1,235 @@
+{% extends "global/Page.html" %} {% block styles %}
+<style>
+  .instruction-card {
+    max-width: 900px;
+    margin: 0 auto 14px auto;
+    border: 1px solid #e6e6e6;
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 14px 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  }
+  .eyebrow {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111;
+    margin: 0.25rem 0 0.5rem;
+  }
+  .muted {
+    color: #666;
+  }
+
+  .belief-row {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .belief-row:nth-of-type(even) {
+    background: #f7f7f7;
+  }
+  .belief-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #111;
+  }
+
+  .slider-col {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .scale-anchors {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #777;
+  }
+
+  .likert-slider {
+    width: 100%;
+    height: 14px;
+    border-radius: 7px;
+    background: #e0e0e0;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  .likert-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #111;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  .likert-slider::-moz-range-thumb {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #111;
+    border: 2px solid #fff;
+    cursor: pointer;
+  }
+  .likert-slider::-moz-range-track {
+    background: transparent;
+  }
+  .likert-slider.pristine::-webkit-slider-thumb,
+  .likert-slider.pristine::-moz-range-thumb {
+    background: #bbb;
+  }
+
+  .slider-readout {
+    text-align: center;
+    font-size: 0.95rem;
+    color: #111;
+    min-height: 18px;
+  }
+
+  .otree-btn-next {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+</style>
+{% endblock %} {% block content %}
+<div class="instruction-card">
+  <p class="eyebrow">Motivations to eat less meat (questionnaire)</p>
+  <p>
+    Please rate the importance of each of the following
+    <b>reasons for you to eat less meat or animal products</b>.
+    <i
+      >Even if you don’t intend to change your diet, please answer all items.</i
+    >
+  </p>
+  <p class="muted">
+    Scale: Not important · Moderately important · Very important
+  </p>
+</div>
+
+<form method="post" id="vemi-form" novalidate>
+  <div id="vemiList"></div>
+  <input type="hidden" id="vemi_responses" name="vemi_responses" />
+  {{ next_button }}
+</form>
+{% endblock %} {% block scripts %}
+<script>
+  (function(){
+    // From vars_for_template (Python): could be [{item,domain}], [{t,d}], or ["text","H"]
+    const RAW = {{ vemi_items_json|safe }};
+
+    // Robust accessors
+    const getItemText   = it => it?.item ?? it?.t ?? (Array.isArray(it) ? it[0] : undefined);
+    const getItemDomain = it => it?.domain ?? it?.d ?? (Array.isArray(it) ? it[1] : undefined);
+    const getItemIndex  = (it, i) => it?.index ?? (i + 1);
+
+    // Normalize list
+    const VEMI = RAW.map((it, i) => ({
+      index:  getItemIndex(it, i),
+      item:   getItemText(it),
+      domain: getItemDomain(it)
+    }));
+
+    if (VEMI.some(x => !x.item)) {
+      console.error('vemi_items_json unexpected shape:', RAW);
+    }
+
+    const list = document.getElementById('vemiList');
+
+    // Buckets
+    function catLabel(v){
+      v = Number(v);
+      if (v <= 25) return "Not important";
+      if (v >= 75) return "Very important";
+      return "Moderately important";
+    }
+
+    // Paint from LEFT (0 → value)
+    function paintFromLeft(slider, v){
+      const min = Number(slider.min) || 0;
+      const max = Number(slider.max) || 100;
+      const vv  = Math.max(min, Math.min(max, Number(v)));
+      const pct = ((vv - min) / (max - min)) * 100;
+      slider.style.background =
+        `linear-gradient(to right,#111 0%,#111 ${pct}%,#e0e0e0 ${pct}%,#e0e0e0 100%)`;
+    }
+
+    // Build rows
+    VEMI.forEach((it, i) => {
+      const row = document.createElement('div');
+      row.className = 'belief-row';
+      row.innerHTML = `
+        <div class="belief-text">${i+1}. ${getItemText(it) ?? ''}</div>
+        <div class="slider-col">
+          <div class="scale-anchors">
+            <span>Not important</span>
+            <span>Moderately important</span>
+            <span>Very important</span>
+          </div>
+          <input type="range" class="likert-slider pristine" id="slider_${i}" min="0" max="100" step="1"/>
+          <div class="slider-readout" id="readout_${i}">Please adjust the slider</div>
+        </div>`;
+      list.appendChild(row);
+
+      const slider  = row.querySelector('input');
+      const readout = row.querySelector('.slider-readout');
+
+      // Start fully LEFT but not answered
+      slider.value = slider.min || 0;
+      slider.dataset.answered = "0";
+      slider.style.background = '#ccc'; // neutral until moved
+
+      slider.addEventListener('input', () => {
+        slider.classList.remove('pristine');
+        slider.dataset.answered = "1";
+        paintFromLeft(slider, slider.value);
+        readout.innerHTML = `Selected: <b>${catLabel(slider.value)}</b> — ${Math.round(slider.value)} / 100`;
+        readout.style.color = '#111';
+        updateNext();
+      });
+    });
+
+    // Next gating
+    const nextBtn = document.getElementById('nextButton') || document.querySelector('.otree-btn-next');
+    function allAnswered(){ return VEMI.every((_,i)=>document.getElementById(`slider_${i}`).dataset.answered==="1"); }
+    function updateNext(){
+      const ok = allAnswered();
+      if (nextBtn){
+        nextBtn.style.opacity = ok ? '1' : '.5';
+        nextBtn.style.pointerEvents = ok ? 'auto' : 'none';
+      }
+    }
+    updateNext();
+
+    // Save JSON on submit
+    const hidden = document.getElementById('vemi_responses');
+    if (nextBtn){
+      nextBtn.addEventListener('click', (e)=>{
+        if (!allAnswered()){
+          e.preventDefault();
+          alert('Please move every slider before continuing.');
+          return;
+        }
+        const payload = VEMI.map((it, i) => {
+          const s = document.getElementById(`slider_${i}`);
+          return {
+            index:  it.index,
+            item:   getItemText(it),
+            domain: getItemDomain(it),
+            value:  Number(s.value) // 0..100
+          };
+        });
+        hidden.value = JSON.stringify(payload);
+        // allow submit
+      }, {capture:true});
+    }
+  })();
+</script>
+
+{% endblock %}

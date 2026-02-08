@@ -1,0 +1,49 @@
+\setlength{\LTleft}{0pt}
+\setlength{\LTright}{0pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.05}
+\begingroup\small
+\begin{longtable}{r r >{\raggedright\arraybackslash}p{0.44\textwidth} >{\raggedright\arraybackslash}p{0.44\textwidth}}
+\toprule
+Topic & n & Keywords & Representative Docs \\
+\midrule
+\endfirsthead
+\toprule
+Topic & n & Keywords & Representative Docs \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{Continued on next page} \\
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+-1 & 664 & OUTLIER & I enjoy eating meat, Meat-eating is a family tradition, I have no moral issues eating meat \\
+0 & 244 & chicken, fish, eat chicken, turkey, eat, chicken fish, chicken eat, chicken turkey, prefer, eat fish & I mostly eat chicken, I eat chicken, beef, and pork, I alternate beef and turkey weekly \\
+1 & 232 & consumption, meat, red meat, red, meat consumption, limit, try, cut, reduce, reducing & Doctor recommended I eat lean beef, I have meatless meals to save money, I try to limit meat to once daily \\
+2 & 210 & expensive, meat, meat expensive, choices, prices, meat prices, cost, influences, convenient, eating & Red meat is expensive, Vegetarian options are unaffordable, Meat can be expensive for me \\
+3 & 154 & protein, meat protein, believe, protein meat, believe meat, meat, source, iron, eat meat protein, meat good & I eat meat for protein, Meat is high in protein, Easier to get protein from meat \\
+4 & 123 & animal, welfare, animal welfare, concerned animal, concerned animal welfare, concerned, welfare concerned, animal welfare concerned, animals, welfare concerned animal & I am concerned about animal rights, Concern for animal welfare, I am concerned about animal welfare \\
+5 & 122 & husband, wife, meat health, reasons, red meat, red, meat, meat husband, friends, partner & My wife prefers red meat, My mother is health conscious, My husband eats less red meat \\
+6 & 111 & want, weight, motivated, weight want, lose, motivated health, lose weight, healthy, health, lose weight want & I am motivated by health concerns, I want to stay healthy, I want to be healthy \\
+7 & 110 & family, family eats, family eats meat, eats, eats meat, meat family, meat family eats, meat, eats meat family, eats meat regularly & My family eats meat, My family eats meat like I do, Family plans meals around meat \\
+8 & 110 & vegetarian, vegan, vegetarian meals, vegetarians, meals, years, vegan vegetarian, friends, vegetarian vegan, veganism & I enjoy veggie burgers, I became vegetarian, No vegetarians in my social circle \\
+9 & 107 & health, cholesterol, concerned health, concerned, concerns, health concerns, health concerned, heart, concerned health concerned, cholesterol concerned & I have health concerns, My health focus has increased with age, I discuss health risks with my friend \\
+10 & 105 & avoid, avoid eating, pork, pork avoid, meats avoid, processed, avoid pork, avoid red meat, avoid red, meat avoid & I avoid too much processed meat, I avoid big portions of meat, I avoid factory-farmed meat \\
+11 & 99 & health, concerns, red meat, red, unhealthy, health concerns, meat, meat unhealthy, digestive, concerns red & I believe pork is unhealthy, Health risks are associated with eating too much meat, I think excess meat is unhealthy \\
+12 & 96 & friends, family, friends eat, friends eat meat, meat friends, family friends, friends family, family friends eat, friends family eat, eat meat & My parents served meat with dinner, My family and friends eat a lot of meat, Family and friends eat much more meat \\
+13 & 94 & protein, want protein, want, protein want, protein want protein, want protein want, need, need protein, protein diet, high protein & I want to get enough protein, I want to hit protein goals, I want to consume a lot of protein \\
+14 & 93 & times, week eat, week, meat times, eat meat times, week eat meat, weekly, eat, weekly eat, times week & I eat beef four or five times weekly, I eat red meat up to twice a week, I eat meat once or twice a week \\
+15 & 92 & dislike, meals, picky, picky eater, meat, like, meatfree, eater, meat dislike, meatless & I like exploring meatless dishes, I do not eat meat, I have never considered not eating meat \\
+16 & 88 & environmental, concerned, impact, environmental impact, concerned environmental, environment, concerned environmental impact, impact concerned, environmental impact concerned, environment concerned & I care about sustainability, I care about the environment, I am concerned about environmental impacts \\
+17 & 84 & like taste meat, like taste, meat meat, like, taste meat meat, taste meat, meat tastes, taste, tastes, incomplete & Meat tastes great with meals, Meat tastes good to me, Meat goes well with foods like pasta or rice \\
+18 & 76 & day eat, day, day eat meat, meat day eat, meat day, eat meat day, daily eat, daily, daily eat meat, eat meat & I eat meat every day, I eat one large meal daily, I eat bacon every day \\
+19 & 74 & meat meals, meals eat meat, meat meal, meals eat, meals, eat meat meals, meat meals eat, eat meat, meal, eat meat meal & I eat meat for dinner most days, I usually have meat at breakfast, I eat meat with most meals \\
+20 & 72 & plantbased, vegetables, plantbased meals, balance, balance meat, meals, eat plantbased, eat vegetables, plantbased foods, try & I want lighter or more vegetable meals sometimes, I enjoy vegetables and salads, I include plant-based meals for health \\
+21 & 67 & crave, meat crave, like, crave meat, meat, different, kinds meat, kinds, meat eat, available & I eat meat when craving it, I crave meat sometimes, I really like processed meats \\
+22 & 63 & grew, grew eating, raised, grew eating meat, raised eating, eating, eating meat, meat grew, raised eating meat, meat grew eating & I was raised eating pork, I grew up in a hunting family, I grew up eating meat-centered meals \\
+23 & 60 & eat meat regularly, meat regularly, regularly, meat regularly eat, regularly eat, regularly eat meat, eat meat, meat eat meat, eat, meat eat & I eat various meats regularly, I eat meat regularly, I have always been a meat eater \\
+24 & 56 & diet, balanced, balanced diet, want, variety, eat healthier, mindful, healthier, want balanced, food & Doctor required me to watch fat intake, I cannot stick to eating only salads, I want proper nutrition \\
+25 & 52 & enjoy taste meat, enjoy taste, meat enjoy, taste meat enjoy, meat enjoy taste, enjoy, taste meat, taste, meat enjoy flavor, flavor & I enjoy the taste of meat, I enjoy the flavor of some meats, I enjoy pleasant meat aromas during cooking \\
+\end{longtable}
+\endgroup

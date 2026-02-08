@@ -1,0 +1,416 @@
+{% extends "global/Page.html" %} {% block content %}
+
+<h3>Test voice input</h3>
+
+<!-- Single prompt bubble (same styling as your chat history) -->
+<div
+  id="chat-history"
+  class="border rounded p-3 mb-3"
+  style="max-height: 300px; overflow-y: auto"
+>
+  <div class="mb-3">
+    <p
+      class="interviewer"
+      style="background: #f0f0f0; padding: 8px; border-radius: 8px"
+    >
+      <strong>Interviewer:</strong>
+      On the next page you will see an interface like this one. To make sure
+      that everything is working correctly, please press the "Start Recording"
+      button and say a few words. When you have verified that the transcription
+      works you can proceed to the interview. If nothing comes to mind you can
+      try something like: "This is a brief test of whether my audio is
+      transmitted and transcribed accurately"
+    </p>
+  </div>
+</div>
+
+<!-- Keep the SAME input structure as the working page -->
+<!-- Text input (hidden until "Prefer writing?") -->
+<div id="typed-response" class="form-group mt-3" style="display: none">
+  <label for="current_answer">Your Answer:</label>
+  <textarea
+    id="current_answer"
+    name="current_answer"
+    class="form-control"
+    rows="4"
+  ></textarea>
+</div>
+
+<!-- Hidden voice transcription input -->
+<input type="hidden" id="voice_answer" name="voice_answer" />
+
+<!-- Hidden REAL form field that oTree will save -->
+<input type="hidden" id="id_interview_test" name="interview_test" />
+
+<!-- Transcript preview (exactly like working page) -->
+<div id="transcript-review" class="card mt-3" style="display: none">
+  <div class="card-body">
+    <div class="d-flex justify-content-between align-items-center mb-2">
+      <strong>Transcript preview</strong>
+      <button
+        id="edit-transcript-btn"
+        type="button"
+        class="btn btn-sm btn-outline-secondary"
+      >
+        Edit
+      </button>
+    </div>
+    <p id="transcript-text" class="mb-2" style="white-space: pre-wrap"></p>
+    <textarea
+      id="transcript-editor"
+      class="form-control"
+      rows="3"
+      style="display: none"
+    ></textarea>
+    <div class="text-muted small mt-2">
+      Please skim and correct if needed. If you are happy click "Proceed to the
+      interview".
+    </div>
+  </div>
+</div>
+
+<div class="mt-3 text-center">
+  <!-- Recording button -->
+  <button id="recordButton" type="button" class="btn btn-secondary btn-lg">
+    🎤 Start Recording
+  </button>
+
+  <!-- Recording saved -->
+  <span id="recordingSaved" style="display: none; margin-left: 10px">
+    ✅ Recording saved (<span id="recordDuration"></span>s)
+    <button
+      id="listenBackBtn"
+      type="button"
+      class="btn btn-sm btn-outline-info"
+      style="margin-left: 8px"
+    >
+      🎧 Listen back
+    </button>
+  </span>
+
+  <!-- Hidden playback -->
+  <audio id="playback" style="display: none"></audio>
+
+  <!-- Toggle mode -->
+  <button id="toggle-input-mode" type="button" class="btn btn-link">
+    Prefer writing?
+  </button>
+</div>
+
+<!-- Submit button -->
+<div class="mt-4 text-center">
+  <button
+    id="submit-button"
+    type="submit"
+    class="btn btn-primary btn-lg"
+    disabled
+  >
+    Proceed to the interview
+  </button>
+
+  <div
+    id="transcribing-message"
+    class="text-muted mt-2"
+    style="display: none; font-size: 0.9em"
+  >
+    ⏳ Transcribing your answer, please wait...
+  </div>
+
+  <div id="loading-spinner" class="mt-3" style="display: none">
+    <div class="spinner-border text-secondary" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+    <div>Saving your feedback…</div>
+  </div>
+</div>
+
+<style>
+  #chat-history p {
+    margin-bottom: 0.3em;
+  }
+  .interviewer {
+    background: #f0f0f0;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  .recording-active {
+    background-color: #dc3545 !important;
+    color: white;
+    animation: pulse 1s infinite;
+  }
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(220, 53, 69, 0.9);
+    }
+    100% {
+      box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
+    }
+  }
+</style>
+
+<script>
+  // ---- This is almost identical to your WORKING page, only the submit maps into interview_feedback ----
+  let mediaRecorder;
+  let audioChunks = [];
+  let isRecording = false;
+  let isProcessingTranscript = false;
+  let hasRecordedBefore = false;
+  let isPlaying = false;
+  let timer;
+  let recordedTime = 0;
+  let lastInputType = null; // Track last interaction
+
+  const recordButton = document.getElementById('recordButton');
+  const toggleInputButton = document.getElementById('toggle-input-mode');
+  const textBox = document.getElementById('typed-response');
+  const submitButton = document.getElementById('submit-button');
+  const savedMessage = document.getElementById('recordingSaved');
+  const listenBackBtn = document.getElementById('listenBackBtn');
+  const playback = document.getElementById('playback');
+  const transcribingMsg = document.getElementById('transcribing-message');
+  const spinner = document.getElementById('loading-spinner');
+
+  // Transcript preview refs
+  const transcriptReview = document.getElementById('transcript-review');
+  const transcriptText = document.getElementById('transcript-text');
+  const transcriptEditor = document.getElementById('transcript-editor');
+  const editTranscriptBtn = document.getElementById('edit-transcript-btn');
+
+  // --- Load mode preference (same as working page) ---
+  let inputMode = localStorage.getItem('inputMode') || 'voice';
+  applyInputMode(inputMode);
+
+  function applyInputMode(mode) {
+    if (mode === 'text') {
+      recordButton.style.display = 'none';
+      savedMessage.style.display = 'none';
+      playback.style.display = 'none';
+      textBox.style.display = 'block';
+      transcriptReview.style.display = 'none'; // hide transcript UI if typing
+      toggleInputButton.textContent = 'Prefer speaking?';
+    } else {
+      recordButton.style.display = 'inline-block';
+      textBox.style.display = 'none';
+      toggleInputButton.textContent = 'Prefer writing?';
+    }
+    localStorage.setItem('inputMode', mode);
+    inputMode = mode;
+    updateSubmitButtonState();
+  }
+
+  toggleInputButton.addEventListener('click', () => {
+    applyInputMode(inputMode === 'voice' ? 'text' : 'voice');
+  });
+
+  // --- Voice recording setup (same structure as working page) ---
+  navigator.mediaDevices
+    .getUserMedia({ audio: true })
+    .then((stream) => {
+      mediaRecorder = new MediaRecorder(stream);
+
+      mediaRecorder.addEventListener('dataavailable', (event) => {
+        audioChunks.push(event.data);
+      });
+
+      mediaRecorder.addEventListener('stop', () => {
+        const audioBlob = new Blob(audioChunks, { type: 'audio/webm' });
+        audioChunks = [];
+        const audioURL = URL.createObjectURL(audioBlob);
+        playback.src = audioURL;
+
+        // no more base64 → no more saving audio to oTree
+        console.log('🎧 Recorded audio size (bytes):', audioBlob.size);
+
+        document.getElementById('recordDuration').textContent = recordedTime;
+        savedMessage.style.display = 'inline';
+        playback.style.display = 'none';
+
+        hasRecordedBefore = true;
+        lastInputType = 'voice';
+        recordButton.textContent = '🔴 Record Again';
+        recordButton.classList.remove('recording-active');
+
+        // Reset transcript preview while we process a new one
+        transcriptReview.style.display = 'none';
+        transcriptText.textContent = '';
+        transcriptEditor.value = '';
+        document.getElementById('voice_answer').value = '';
+        updateSubmitButtonState();
+
+        isProcessingTranscript = true;
+        submitButton.disabled = true;
+        transcribingMsg.style.display = 'block';
+
+        const formData = new FormData();
+        formData.append('audio', audioBlob, 'recording.webm');
+
+        fetch('WHISPER_TRANSCRIPTION_ENDPOINT', {
+          method: 'POST',
+          body: formData,
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.transcript) {
+              // Save transcript, show preview, allow edits
+              document.getElementById('voice_answer').value = data.transcript;
+              transcriptText.textContent = data.transcript;
+              transcriptEditor.value = data.transcript;
+              transcriptReview.style.display = 'block';
+              console.log('✅ Transcript saved:', data.transcript);
+              updateSubmitButtonState();
+            }
+          })
+          .catch((err) => {
+            console.error('❌ Audio upload failed:', err);
+            alert(
+              "We couldn't transcribe your recording. You can try again or switch to writing."
+            );
+          })
+          .finally(() => {
+            isProcessingTranscript = false;
+            transcribingMsg.style.display = 'none';
+            updateSubmitButtonState();
+          });
+      });
+
+      recordButton.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (!isRecording) {
+          audioChunks = [];
+          mediaRecorder.start();
+          isRecording = true;
+          recordedTime = 0;
+          recordButton.textContent = '🛑 Stop Recording';
+          recordButton.classList.add('recording-active');
+          timer = setInterval(() => recordedTime++, 1000);
+        } else {
+          mediaRecorder.stop();
+          clearInterval(timer);
+          isRecording = false;
+        }
+      });
+    })
+    .catch((err) => {
+      console.error('❌ Microphone access denied:', err);
+      alert('Microphone access is required for voice input.');
+    });
+
+  // --- Transcript edit toggle (same) ---
+  editTranscriptBtn.addEventListener('click', () => {
+    const editing = transcriptEditor.style.display !== 'none';
+    if (editing) {
+      // Done editing
+      transcriptEditor.style.display = 'none';
+      transcriptText.style.display = 'block';
+      editTranscriptBtn.textContent = 'Edit';
+
+      // Sync back
+      const value = (transcriptEditor.value || '').trim();
+      transcriptText.textContent = value;
+      document.getElementById('voice_answer').value = value;
+      lastInputType = 'voice';
+      updateSubmitButtonState();
+    } else {
+      // Start editing
+      transcriptEditor.style.display = 'block';
+      transcriptText.style.display = 'none';
+      editTranscriptBtn.textContent = 'Done';
+      transcriptEditor.focus();
+    }
+  });
+
+  // Keep hidden field in sync while editing
+  transcriptEditor.addEventListener('input', () => {
+    document.getElementById('voice_answer').value = transcriptEditor.value;
+    lastInputType = 'voice';
+    updateSubmitButtonState();
+  });
+
+  // --- Listen back button toggle (same) ---
+  listenBackBtn.addEventListener('click', () => {
+    if (!isPlaying) {
+      playback.play();
+      listenBackBtn.textContent = '⏹ Stop';
+      isPlaying = true;
+    } else {
+      playback.pause();
+      playback.currentTime = 0;
+      listenBackBtn.textContent = '🎧 Listen back';
+      isPlaying = false;
+    }
+  });
+  playback.addEventListener('ended', () => {
+    listenBackBtn.textContent = '🎧 Listen back';
+    isPlaying = false;
+  });
+
+  // --- Enable/disable submit (same) ---
+  function updateSubmitButtonState() {
+    const hasText =
+      (document.getElementById('current_answer')?.value.trim() || '') !== '';
+    const hasVoice =
+      (document.getElementById('voice_answer').value.trim() || '') !== '';
+    if (inputMode === 'text') {
+      submitButton.disabled = !hasText;
+    } else {
+      submitButton.disabled =
+        isProcessingTranscript || (!hasVoice && !isRecording);
+    }
+  }
+
+  // Track last input type
+  document.getElementById('current_answer')?.addEventListener('input', () => {
+    lastInputType = 'text';
+    updateSubmitButtonState();
+  });
+
+  // --- Auto-scroll chat (same) ---
+  const chatHistory = document.getElementById('chat-history');
+  chatHistory.scrollTop = chatHistory.scrollHeight;
+
+  // --- Submit: COPY ANSWER INTO interview_feedback, then submit (the only real change) ---
+  const form =
+    document.querySelector('form.otree-form') || document.querySelector('form');
+  if (form) {
+    form.addEventListener('submit', function (e) {
+      const textVal =
+        document.getElementById('current_answer')?.value.trim() || '';
+      const voiceVal =
+        document.getElementById('voice_answer').value.trim() || '';
+
+      if (isProcessingTranscript) {
+        e.preventDefault();
+        alert('Please wait, transcribing your voice answer...');
+        return;
+      }
+      if (!textVal && !voiceVal) {
+        e.preventDefault();
+        alert('Please provide a text or voice answer before proceeding.');
+        return;
+      }
+
+      // Choose which to save into the REAL field
+      const feedbackField = document.getElementById('id_interview_test');
+      if (lastInputType === 'text' && textVal) {
+        feedbackField.value = textVal;
+      } else if (lastInputType === 'voice' && voiceVal) {
+        feedbackField.value = voiceVal;
+      } else {
+        // fallback: whichever exists
+        feedbackField.value = textVal || voiceVal;
+      }
+
+      // (Optional) clear the other UI fields, not required
+      submitButton.disabled = true;
+      spinner.style.display = 'block';
+
+      setTimeout(() => form.submit(), 300);
+      e.preventDefault();
+    });
+  }
+</script>
+
+{% endblock %}

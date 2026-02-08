@@ -1,0 +1,247 @@
+{% extends "global/Page.html" %} {% block content %}
+
+<h3>Interview about how things relate for you</h3>
+
+{% if current_pair_labels %}
+<p>
+  Thank you for drawing your own network of how meat-eating motivations are
+  connected to each other for you. To better understand how things relate for
+  you, we would love to hear you describe a few in your own words. On this page
+  an AI will conduct a brief interview with you. Please record your responses
+  below, like you did in the first interview.
+</p>
+
+<p>
+  <strong>Current pair:</strong>
+  {{ current_pair_labels.0 }} &mdash; {{ current_pair_labels.1 }}
+</p>
+{% endif %}
+
+<!-- Chat History -->
+<div
+  id="chat-history"
+  class="border rounded p-3 mb-3"
+  style="max-height: 300px; overflow-y: auto"
+>
+  {% for entry in conversation %}
+  <div class="mb-3">
+    <p class="interviewer">
+      <strong>Interviewer:</strong> {{ entry.question }}
+    </p>
+    {% if entry.answer %}
+    <p class="participant"><strong>You:</strong> {{ entry.answer }}</p>
+    {% endif %} {% if entry.scale_question %}
+    <p class="interviewer">
+      <strong>Interviewer:</strong> {{ entry.scale_question }}
+    </p>
+    {% endif %} {% if entry.connection_choice_text %}
+    <p class="participant">
+      <strong>You:</strong> {{ entry.connection_choice_text }}
+    </p>
+    {% endif %}
+  </div>
+  {% endfor %}
+
+  <!-- Scale question + options integrated into chat -->
+  <div class="mb-3">
+    <p class="interviewer">
+      <strong>Interviewer:</strong> {{ scale_question }}
+    </p>
+
+    <div class="mt-2 d-flex flex-wrap gap-2" id="connection-choices">
+      <button
+        type="button"
+        class="btn btn-outline-secondary flex-fill connection-btn"
+        data-value="support"
+        data-label="They support each other."
+      >
+        They support each other
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-secondary flex-fill connection-btn"
+        data-value="conflict"
+        data-label="They conflict with each other."
+      >
+        They conflict with each other
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-secondary flex-fill connection-btn"
+        data-value="unclear"
+        data-label="They are not clearly connected."
+      >
+        They are not clearly connected
+      </button>
+    </div>
+
+    <!-- Preview of the participant's choice as part of the chat -->
+    <p class="participant mt-2" id="choice-preview" style="display: none">
+      <strong>You:</strong>
+      <span id="choice-preview-text"></span>
+    </p>
+  </div>
+</div>
+
+<!-- Hidden field bound to Player.pair_connection_choice -->
+<input
+  type="hidden"
+  id="id_pair_connection_choice"
+  name="pair_connection_choice"
+/>
+
+<!-- Progress -->
+<div class="progress mt-4" style="height: 20px">
+  <div
+    id="progress-bar"
+    class="progress-bar"
+    role="progressbar"
+    style="width: {{ progress_percentage }}%;"
+    aria-valuenow="{{ current_turn }}"
+    aria-valuemin="1"
+    aria-valuemax="{{ max_turns }}"
+  >
+    Interview progress: {{ current_turn }} / {{ max_turns }}
+  </div>
+</div>
+
+<!-- Submit button -->
+<div class="mt-4 text-center">
+  <button id="submit-button" type="submit" class="btn btn-primary btn-lg">
+    Submit Answer
+  </button>
+
+  <div id="loading-spinner" class="mt-3" style="display: none">
+    <div class="spinner-border text-secondary" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+    <div>Saving your answer and loading the next pair...</div>
+  </div>
+</div>
+
+<style>
+  #chat-history p {
+    margin-bottom: 0.3em;
+  }
+  .interviewer {
+    background: #f0f0f0;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  .participant {
+    background: #d4f7d4;
+    padding: 8px;
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+  .connection-btn.active {
+    border-width: 2px;
+    font-weight: 600;
+  }
+</style>
+
+<script>
+  const connectionButtons = document.querySelectorAll('.connection-btn');
+  const connectionInput = document.getElementById('id_pair_connection_choice');
+  const submitButton = document.getElementById('submit-button');
+  const spinner = document.getElementById('loading-spinner');
+  const choicePreview = document.getElementById('choice-preview');
+  const choicePreviewText = document.getElementById('choice-preview-text');
+
+  // --- Helper: scroll chat box to bottom ---
+  function scrollChatToBottom() {
+    const chat = document.getElementById('chat-history');
+    if (chat) {
+      chat.scrollTop = chat.scrollHeight;
+    }
+  }
+
+  // --- Save viewport scroll position before leaving the page ---
+  function saveScrollPosition() {
+    try {
+      const y = window.scrollY || window.pageYOffset || 0;
+      localStorage.setItem('interviewScrollTop', String(y));
+    } catch (e) {
+      // ignore if localStorage unavailable
+    }
+  }
+
+  // --- Handle choice clicks ---
+  connectionButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const value = btn.dataset.value || '';
+      const label = btn.dataset.label || '';
+
+      if (!value) return;
+
+      if (connectionInput) {
+        connectionInput.value = value;
+      }
+
+      // visual highlight
+      connectionButtons.forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      // show "You:" line in chat
+      if (choicePreview && choicePreviewText) {
+        choicePreviewText.textContent = label;
+        choicePreview.style.display = 'block';
+      }
+
+      // scroll the chat window so the new "You:" line is visible
+      scrollChatToBottom();
+    });
+  });
+
+  // --- Validate on submit + show spinner ---
+  const form =
+    document.querySelector('form.otree-form') || document.querySelector('form');
+  if (form) {
+    form.addEventListener('submit', function (e) {
+      const connVal = connectionInput ? connectionInput.value.trim() : '';
+      if (!connVal) {
+        e.preventDefault();
+        alert('Please choose how the two things relate before proceeding.');
+        return;
+      }
+
+      // 🔹 Save viewport scroll position before leaving
+      saveScrollPosition();
+
+      submitButton.disabled = true;
+      if (spinner) spinner.style.display = 'block';
+
+      // tiny delay so spinner becomes visible before navigation
+      setTimeout(() => form.submit(), 300);
+      e.preventDefault();
+    });
+  }
+
+  // --- Auto-scroll chat inside the box ---
+  scrollChatToBottom();
+
+  // --- Restore page scroll position OR fall back to "scroll chat into view" ---
+  window.addEventListener('load', function () {
+    try {
+      const saved = localStorage.getItem('interviewScrollTop');
+      if (saved !== null) {
+        const y = parseInt(saved, 10);
+        if (!isNaN(y)) {
+          window.scrollTo(0, y);
+        }
+        localStorage.removeItem('interviewScrollTop');
+        return; // don't do the old jump if we restored
+      }
+    } catch (e) {
+      // ignore
+    }
+
+    const chat = document.getElementById('chat-history');
+    if (chat) {
+      chat.scrollIntoView({ block: 'start' });
+      scrollChatToBottom();
+    }
+  });
+</script>
+
+{% endblock %}

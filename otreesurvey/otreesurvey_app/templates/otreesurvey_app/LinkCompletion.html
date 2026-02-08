@@ -1,0 +1,31 @@
+{% extends "global/Page.html" %} {% block content %}
+
+<h3>Thank you for participating!</h3>
+<p>
+  You have completed all parts of this study. You will now be redirected back to
+  Prolific to finalize your participation.
+</p>
+<p>
+  If the redirection does not happen automatically, please click
+  <a id="manual-link" href="">this link</a>.
+</p>
+
+{% endblock %} {% block scripts %}
+<script>
+  console.log('js_vars:', js_vars);
+  const url = js_vars.url;
+
+  const link = document.getElementById('manual-link');
+  if (link && url) {
+    // Make the fallback link usable right away
+    link.href = url;
+
+    // Wait 5 seconds, then auto-redirect
+    setTimeout(function () {
+      window.location.href = url;
+    }, 5000);
+  } else {
+    console.error('No URL in js_vars.url');
+  }
+</script>
+{% endblock %}

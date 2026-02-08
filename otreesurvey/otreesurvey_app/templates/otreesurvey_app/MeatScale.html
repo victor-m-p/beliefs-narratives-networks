@@ -1,0 +1,480 @@
+{% extends "global/Page.html" %} {% block styles %}
+<link rel="stylesheet" href="{{ static 'global.css' }}" />
+<style>
+  .container {
+    max-width: 920px;
+    margin: 0 auto;
+  }
+
+  .section-card {
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    border-radius: 12px;
+    padding: 8px 0; /* rows have own padding */
+    margin-bottom: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  }
+
+  .section-header {
+    padding: 12px 16px 4px;
+  }
+  .section-label {
+    font-weight: 1000;
+    color: #111;
+    margin: 0;
+  }
+  .muted {
+    color: #555;
+  }
+
+  /* Row layout: Text | Slider */
+  .qrow {
+    display: grid;
+    grid-template-columns: 1fr minmax(260px, 420px); /* slider column stays compact */
+    gap: 16px;
+    align-items: center;
+    padding: 12px 16px;
+    border-top: 1px solid #eee;
+  }
+  .qrow:nth-of-type(even) {
+    background: #f7f7f7;
+  }
+
+  .qtext {
+    color: #111;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  .qtext small {
+    font-weight: 400;
+  }
+
+  .slider-col {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .scale-anchors {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #777;
+    margin-bottom: 2px;
+    white-space: nowrap;
+  }
+
+  /* Slider styling (same family as your other pages) */
+  .likert-slider {
+    width: 100%;
+    height: 14px;
+    border-radius: 7px;
+    background: #e0e0e0; /* JS paints gradient on input */
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  .likert-slider:focus-visible {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.08);
+  }
+
+  /* Thumb */
+  .likert-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 26px;
+    height: 26px;
+    background: #111;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  .likert-slider::-moz-range-thumb {
+    width: 26px;
+    height: 26px;
+    background: #111;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  .likert-slider::-moz-range-track {
+    height: 14px;
+    border-radius: 7px;
+    background: transparent;
+  }
+
+  /* Pristine */
+  .likert-slider.pristine {
+    background: #ccc;
+  }
+  .likert-slider.pristine::-webkit-slider-thumb,
+  .likert-slider.pristine::-moz-range-thumb {
+    background: #bbb;
+  }
+
+  .slider-readout {
+    text-align: center;
+    font-size: 10pt;
+    color: #999;
+    min-height: 18px;
+  }
+
+  /* Keep Next nicely spaced */
+  form#meat-form {
+    margin-bottom: 18px;
+  }
+
+  @media (max-width: 720px) {
+    .qrow {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+{% endblock %} {% block content %}
+<!-- INTRO / WHAT'S NEXT -->
+<div class="section-card">
+  <div class="section-header">
+    <p class="section-label">What’s next</p>
+    <p class="muted" style="margin: 6px 0 0">
+      The last part of the survey will consist of a few questionnaires and
+      demographic questions. First, we’d like to ask about your meat-eating
+      frequency and your feelings about meat-eating.
+    </p>
+  </div>
+</div>
+
+<form method="post" id="meat-form" class="container">
+  <!-- FREQUENCY -->
+  <div class="section-card">
+    <div class="section-header">
+      <p class="section-label">Your meat-eating frequency</p>
+      <p class="muted" style="margin: 6px 0 0">
+        The first three questions are about your meat-eating frequency,
+        <b>present</b>, <b>past</b>, and <b>future</b>.
+      </p>
+    </div>
+
+    <!-- keep oTree fields hidden -->
+    <div style="display: none">{{ form.meat_consumption_present }}</div>
+    <div style="display: none">{{ form.meat_consumption_past }}</div>
+    <div style="display: none">{{ form.meat_consumption_future }}</div>
+
+    <div class="qrow">
+      <div class="qtext">
+        <b>How often do you eat any meat in an average week?</b>
+        <br />
+        <small class="muted">
+          <i
+            >(“Meat” includes chicken, fish, beef, pork, lamb, mutton, goat, and
+            other meat products.)</i
+          >
+        </small>
+      </div>
+      <div class="slider-col">
+        <div class="scale-anchors">
+          <span>Never</span><span>Every day</span>
+        </div>
+        <input
+          type="range"
+          class="likert-slider"
+          id="slider_present"
+          min="1"
+          max="100"
+          step="1"
+        />
+        <div class="slider-readout" id="readout_present">
+          Please move the slider
+        </div>
+      </div>
+    </div>
+
+    <div class="qrow">
+      <div class="qtext">
+        <b>Try to recall your meat-eating habits 5 years ago.</b>
+        How often did you eat any meat in an average week back then?
+      </div>
+      <div class="slider-col">
+        <div class="scale-anchors">
+          <span>Never</span><span>Every day</span>
+        </div>
+        <input
+          type="range"
+          class="likert-slider"
+          id="slider_past"
+          min="1"
+          max="100"
+          step="1"
+        />
+        <div class="slider-readout" id="readout_past">
+          Please move the slider
+        </div>
+      </div>
+    </div>
+
+    <div class="qrow">
+      <div class="qtext">
+        <b>Now imagine 5 years from now.</b>
+        How often do you think you’ll eat any meat in an average week?
+      </div>
+      <div class="slider-col">
+        <div class="scale-anchors">
+          <span>Never</span><span>Every day</span>
+        </div>
+        <input
+          type="range"
+          class="likert-slider"
+          id="slider_future"
+          min="1"
+          max="100"
+          step="1"
+        />
+        <div class="slider-readout" id="readout_future">
+          Please move the slider
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DISSONANCE -->
+  <div class="section-card">
+    <div class="section-header">
+      <p class="section-label">Feelings about your meat-eating</p>
+      <p class="muted" style="margin: 6px 0 0">
+        The next two questions any <b>dissonance</b> or <b>conflict</b> you may
+        feel.
+      </p>
+    </div>
+
+    <!-- keep oTree fields hidden -->
+    <div style="display: none">{{ form.dissonance_personal }}</div>
+    <div style="display: none">{{ form.dissonance_social }}</div>
+
+    <div class="qrow">
+      <div class="qtext">
+        <b
+          >I experience no conflict at all between
+          <i>my personal beliefs/values</i>
+          and my meat-eating behavior
+        </b>
+      </div>
+      <div class="slider-col">
+        <div class="scale-anchors">
+          <span>Strongly disagree</span><span>Strongly agree</span>
+        </div>
+        <input
+          type="range"
+          class="likert-slider"
+          id="slider_diss_personal"
+          min="0"
+          max="100"
+          step="1"
+        />
+        <div class="slider-readout" id="readout_diss_personal">
+          Please move the slider
+        </div>
+      </div>
+    </div>
+
+    <div class="qrow">
+      <div class="qtext">
+        <b
+          >I experience no conflict at all between my
+          <i>social environment</i> and my meat-eating behavior</b
+        >
+      </div>
+      <div class="slider-col">
+        <div class="scale-anchors">
+          <span>Strongly disagree</span><span>Strongly agree</span>
+        </div>
+        <input
+          type="range"
+          class="likert-slider"
+          id="slider_diss_social"
+          min="0"
+          max="100"
+          step="1"
+        />
+        <div class="slider-readout" id="readout_diss_social">
+          Please move the slider
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{ next_button }}
+</form>
+
+<script>
+  (function () {
+    // ---- EXACT label sets you specified ----
+    const CATS_FREQ = [
+      'Never',
+      'Less than once a week',
+      'One or two days a week',
+      'Three or four days a week',
+      'Five or six days a week',
+      'Every day',
+    ];
+
+    const CATS_DISS = [
+      'Strongly disagree',
+      'Disagree',
+      'Somewhat disagree',
+      'Neither agree nor disagree',
+      'Slightly agree',
+      'Agree',
+      'Strongly agree',
+    ];
+
+    // Map a numeric value to a bucket label
+    function bucketLabel(val, buckets, min, max) {
+      const n = buckets.length;
+      const v = Math.max(min, Math.min(max, Number(val)));
+      const frac = (v - min) / (max - min); // 0..1
+      const idx = Math.min(n - 1, Math.floor(frac * n));
+      return buckets[idx];
+    }
+
+    // Paint track from the LEFT (0 -> value)
+    function paintFromLeft(slider, value) {
+      const min = Number(slider.min) || 0;
+      const max = Number(slider.max) || 100;
+      const v = Math.max(min, Math.min(max, Number(value)));
+      const pct = ((v - min) / (max - min)) * 100;
+      const color = '#111';
+      slider.style.background = `linear-gradient(to right, ${color} 0%, ${color} ${pct}%, #e0e0e0 ${pct}%, #e0e0e0 100%)`;
+    }
+
+    // Bind one slider to its hidden field + readout
+    function bindSlider({
+      sliderId,
+      hiddenName,
+      readoutId,
+      min = 0,
+      max = 100,
+      buckets,
+    }) {
+      const slider = document.getElementById(sliderId);
+      const hidden = document.querySelector('[name="' + hiddenName + '"]');
+      const readout = document.getElementById(readoutId);
+
+      // Start all the way left but "unanswered"
+      slider.value = slider.min || min;
+      slider.dataset.pristine = '1';
+      slider.classList.add('pristine');
+      slider.style.background = '#ccc'; // neutral until first move
+      if (readout) {
+        readout.style.color = '#999';
+      }
+
+      // Prefill support (when navigating back)
+      if (hidden && hidden.value !== '') {
+        slider.value = hidden.value;
+        slider.dataset.pristine = '0';
+        slider.classList.remove('pristine');
+        paintFromLeft(slider, slider.value);
+        if (readout) {
+          const lbl = bucketLabel(slider.value, buckets, min, max);
+          readout.innerHTML = `Selected: <b>${lbl}</b> — ${Math.round(
+            slider.value
+          )} / 100`;
+          readout.style.color = '#111';
+        }
+        touched.add(sliderId);
+      }
+
+      slider.addEventListener('input', () => {
+        if (slider.dataset.pristine === '1') {
+          slider.dataset.pristine = '0';
+          slider.classList.remove('pristine');
+        }
+        paintFromLeft(slider, slider.value);
+        const lbl = bucketLabel(slider.value, buckets, min, max);
+        if (hidden) hidden.value = slider.value;
+        if (readout) {
+          readout.innerHTML = `Selected: <b>${lbl}</b> — ${Math.round(
+            slider.value
+          )} / 100`;
+          readout.style.color = '#111';
+        }
+        touched.add(sliderId);
+        updateNextButton();
+      });
+    }
+
+    // Require all 5 sliders
+    const touched = new Set();
+    function updateNextButton() {
+      const nextButton = document.querySelector('.otree-btn-next');
+      if (!nextButton) return;
+      const allMoved = touched.size >= 5;
+      nextButton.disabled = !allMoved;
+      nextButton.style.opacity = allMoved ? '1' : '0.5';
+      nextButton.style.pointerEvents = allMoved ? 'auto' : 'none';
+    }
+
+    // ---- Bind all sliders ----
+    // Frequency (min=1..100)
+    bindSlider({
+      sliderId: 'slider_present',
+      hiddenName: 'meat_consumption_present',
+      readoutId: 'readout_present',
+      min: 1,
+      max: 100,
+      buckets: CATS_FREQ,
+    });
+    bindSlider({
+      sliderId: 'slider_past',
+      hiddenName: 'meat_consumption_past',
+      readoutId: 'readout_past',
+      min: 1,
+      max: 100,
+      buckets: CATS_FREQ,
+    });
+    bindSlider({
+      sliderId: 'slider_future',
+      hiddenName: 'meat_consumption_future',
+      readoutId: 'readout_future',
+      min: 1,
+      max: 100,
+      buckets: CATS_FREQ,
+    });
+
+    // Dissonance (0..100 mapped to 7 buckets)
+    bindSlider({
+      sliderId: 'slider_diss_personal',
+      hiddenName: 'dissonance_personal',
+      readoutId: 'readout_diss_personal',
+      min: 0,
+      max: 100,
+      buckets: CATS_DISS,
+    });
+    bindSlider({
+      sliderId: 'slider_diss_social',
+      hiddenName: 'dissonance_social',
+      readoutId: 'readout_diss_social',
+      min: 0,
+      max: 100,
+      buckets: CATS_DISS,
+    });
+
+    // Guard submit
+    const form = document.getElementById('meat-form');
+    if (form) {
+      form.addEventListener('submit', function (e) {
+        if (touched.size < 5) {
+          e.preventDefault();
+          alert('Please move every slider to select a value.');
+        }
+      });
+    }
+
+    updateNextButton();
+  })();
+</script>
+
+{% endblock %}

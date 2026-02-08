@@ -1,0 +1,80 @@
+{% extends "global/Page.html" %} {% block styles %}
+<style>
+  /* ── Card look used across the survey ───────────────────────────── */
+  .card {
+    border: 1px solid #e6e6e6;
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin-bottom: 18px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  }
+  .card h2 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #111;
+  }
+  .muted {
+    color: #666;
+    font-size: 0.95rem;
+  }
+  .hint {
+    font-style: italic;
+    margin: 0.25rem 0 0 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  /* ── Align formfields cleanly inside the card ───────────────────── */
+  .form-field {
+    margin-bottom: 14px;
+  }
+  .form-field label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  /* (let oTree’s widgets render as usual) */
+
+  .otree-btn-next {
+    margin-top: 8px;
+  }
+</style>
+{% endblock %} {% block content %}
+
+<div class="card">
+  <h2>Tell us a bit about yourself</h2>
+  <p class="muted">
+    This final section contains a few demographic questions. Your answers will
+    be kept confidential and used only in aggregate.
+  </p>
+
+  <div class="form-field">{{ formfield 'age' }}</div>
+
+  <div class="form-field">{{ formfield 'gender' }}</div>
+
+  <div class="form-field">{{ formfield 'education' }}</div>
+
+  <div class="form-field">{{ formfield 'politics' }}</div>
+
+  <div class="form-field">
+    {{ formfield 'state' }}
+    <p class="hint">
+      If this is not applicable to you or you prefer not to answer, select
+      <b>“Not&nbsp;Applicable”</b>.
+    </p>
+  </div>
+
+  <div class="form-field">
+    {{ formfield 'zipcode' }}
+    <p class="hint">
+      If this is not applicable to you or you prefer not to answer, enter
+      <b>ABCDE</b>.
+    </p>
+  </div>
+
+  {{ next_button }}
+</div>
+
+{% endblock %}

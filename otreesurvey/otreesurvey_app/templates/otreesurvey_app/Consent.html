@@ -1,0 +1,233 @@
+{% extends "global/Page.html" %} {% block styles %}
+<link rel="stylesheet" href="{{ static 'global.css' }}" />
+{% endblock %} {% block content %} {% if wave == 'w1' %}
+<!-- ===================== WAVE 1 CONSENT ===================== -->
+<div class="card bg-light m-3">
+  <div class="card-body">
+    <p>Dear participant,</p>
+    <p>
+      The purpose of this study is to investigate how people adapt their beliefs
+      and behaviors about different issues. Your participation will involve an
+      interview about meat-eating habits and motivativations with a Large
+      Language Model (LLM, OpenAI GPT-4). The same LLM will try to summarize
+      your habits and motivations. The study is conducted by researchers from
+      the Complexity Science Hub. Your participation in this study is entirely
+      voluntary and you may withdraw at any time.
+    </p>
+
+    <!-- Always-visible short summary -->
+    <p>
+      <b>
+        The study will have two waves, one now (Dec. 9th) and one in a week
+        (Dec. 16th). The first wave will take 30-35 minutes and you will receive
+        7 USD. The second wave will take 50-55 minutes and you will receive 15
+        USD. You might be invited for an additional third wave in January.
+      </b>
+      You may refuse or redraw your consent at any time.
+    </p>
+
+    <!-- Toggle button -->
+    <button id="toggle-btn" class="btn btn-primary" type="button">
+      Read more
+    </button>
+
+    <!-- Hidden expandable content -->
+    <div id="more-text" style="display: none; margin-top: 1em">
+      <p>
+        You are being asked to take part in this study because you are at least
+        18 years old. This study has been reviewed by the University of New
+        Mexico ethics committee (UNM IRB 2501179238A001) and by the ethics
+        committee of the Technical University of Vienna.
+      </p>
+
+      <p>
+        There are no foreseeable risks associated with this study, but some
+        individuals may experience discomfort. You may withdraw from the study
+        at any time without penalty. You may also ask us to remove your data
+        from the study. Study participation is not expected to have any other
+        impacts on your lifestyle. If you have any negative experiences during
+        the study, please contact the study coordinators Mirta Galesic and
+        Victor Møller Poulsen at
+        <a href="mailto:collectivemindslab@gmail.com">
+          collectivemindslab@gmail.com </a
+        >.
+      </p>
+
+      <p>
+        All metadata collected in this study that could identify you—such as
+        your Prolific ID—will be kept strictly confidential and will only be
+        disclosed with your explicit permission. This identifying information is
+        stored separately from your survey responses and will not be included in
+        any published or shared data.
+      </p>
+
+      <p>
+        When using LLM to summarize your responses, your data might be stored
+        for up to 30 days on OpenAI servers for abuse monitoring. Your platform
+        ID will only be used for compensation and will not be connected to your
+        answers.
+        <b>
+          Please do not include any personal, sensitive, or identifiable
+          information in your written responses (e.g., names, addresses, or
+          references to specific people or events that could reveal your
+          identity).
+        </b>
+      </p>
+
+      <p>
+        Your fully anonymized data may be analyzed and shared in an Open Data
+        Repository, accessible to other researchers for non-commercial,
+        scientific use. This complies with EU data protection policies and
+        supports transparency and reproducibility in academic research.
+        Aggregated or anonymized findings may also be published or shared to
+        support scientific conclusions.
+      </p>
+
+      <p>
+        If you complete the study but decide that you want your data removed,
+        please contact the study coordinators Mirta Galesic and Victor Poulsen
+        at
+        <a href="mailto:collectivemindslab@gmail.com">
+          collectivemindslab@gmail.com
+        </a>
+        within 30 days after the survey completion.
+      </p>
+    </div>
+
+    <div style="margin-top: 1em"></div>
+
+    <p>
+      I have read the information provided above and have had the opportunity to
+      get answers to all relevant questions. By clicking “I consent” I indicate
+      my voluntary agreement to participate in this research study.
+    </p>
+
+    {{ formfield 'consent_given' }}
+  </div>
+</div>
+
+{% elif wave == 'w2' %}
+<!-- ===================== WAVE 2 CONSENT (CURRENTLY IDENTICAL TO WAVE 1) ===================== -->
+<div class="card bg-light m-3">
+  <div class="card-body">
+    <p>Dear participant,</p>
+    <p>
+      You are invited to take part in the second wave of this study, which
+      investigates how people adapt their beliefs and behaviors about different
+      issues over time. In this wave, your participation will again involve an
+      interview about meat-eating habits and motivations with a Large Language
+      Model (LLM, OpenAI GPT-4). The same LLM may also generate summaries of
+      your responses. The study is conducted by researchers from the Complexity
+      Science Hub. Your participation in this study is entirely voluntary and
+      you may withdraw at any time.
+    </p>
+
+    <!-- Always-visible short summary -->
+    <p>
+      <b>
+        This second wave will take approximately 50–55 minutes. You will receive
+        15 USD for completing this wave. You may be invited to participate in an
+        additional third wave in January.
+      </b>
+      You may refuse or withdraw your consent at any time.
+    </p>
+
+    <!-- Toggle button -->
+    <button id="toggle-btn" class="btn btn-primary" type="button">
+      Read more
+    </button>
+
+    <!-- Hidden expandable content -->
+    <div id="more-text" style="display: none; margin-top: 1em">
+      <p>
+        You are being asked to take part in this study because you are at least
+        18 years old. This study has been reviewed by the University of New
+        Mexico ethics committee (UNM IRB 2501179238A001) and by the ethics
+        committee of the Technical University of Vienna.
+      </p>
+
+      <p>
+        There are no foreseeable risks associated with this study, but some
+        individuals may experience discomfort. You may withdraw from the study
+        at any time without penalty. You may also ask us to remove your data
+        from the study. Study participation is not expected to have any other
+        impacts on your lifestyle. If you have any negative experiences during
+        the study, please contact the study coordinators Mirta Galesic and
+        Victor Møller Poulsen at
+        <a href="mailto:collectivemindslab@gmail.com">
+          collectivemindslab@gmail.com </a
+        >.
+      </p>
+
+      <p>
+        All metadata collected in this study that could identify you—such as
+        your Prolific ID—will be kept strictly confidential and will only be
+        disclosed with your explicit permission. This identifying information is
+        stored separately from your survey responses and will not be included in
+        any published or shared data.
+      </p>
+
+      <p>
+        When using LLM to summarize your responses, your data might be stored
+        for up to 30 days on OpenAI servers for abuse monitoring. Your platform
+        ID will only be used for compensation and will not be connected to your
+        answers.
+        <b>
+          Please do not include any personal, sensitive, or identifiable
+          information in your written responses (e.g., names, addresses, or
+          references to specific people or events that could reveal your
+          identity).
+        </b>
+      </p>
+
+      <p>
+        Your fully anonymized data may be analyzed and shared in an Open Data
+        Repository, accessible to other researchers for non-commercial,
+        scientific use. This complies with EU data protection policies and
+        supports transparency and reproducibility in academic research.
+        Aggregated or anonymized findings may also be published or shared to
+        support scientific conclusions.
+      </p>
+
+      <p>
+        If you complete the study but decide that you want your data removed,
+        please contact the study coordinators Mirta Galesic and Victor Poulsen
+        at
+        <a href="mailto:collectivemindslab@gmail.com">
+          collectivemindslab@gmail.com
+        </a>
+        within 30 days after the survey completion.
+      </p>
+    </div>
+
+    <div style="margin-top: 1em"></div>
+
+    <p>
+      I have read the information provided above and have had the opportunity to
+      get answers to all relevant questions. By clicking “I consent” I indicate
+      my voluntary agreement to participate in this research study.
+    </p>
+
+    {{ formfield 'consent_given' }}
+  </div>
+</div>
+{% endif %} {{ next_button }}
+
+<script>
+  const btn = document.getElementById('toggle-btn');
+  const moreText = document.getElementById('more-text');
+
+  if (btn && moreText) {
+    btn.addEventListener('click', () => {
+      if (moreText.style.display === 'none') {
+        moreText.style.display = 'block';
+        btn.textContent = 'Hide details';
+      } else {
+        moreText.style.display = 'none';
+        btn.textContent = 'Read more';
+      }
+    });
+  }
+</script>
+
+{% endblock %}

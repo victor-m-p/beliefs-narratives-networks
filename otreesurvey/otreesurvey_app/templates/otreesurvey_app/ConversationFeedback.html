@@ -1,0 +1,520 @@
+{% extends "global/Page.html" %} {% load otree static %} {% block styles %}
+<style>
+  .belief-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem 0.75rem;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .belief-row:nth-of-type(even) {
+    background: #f7f7f7;
+  }
+
+  .belief-text {
+    color: #111;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+
+  .slider-col {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .scale-anchors {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #777;
+    margin-bottom: 4px;
+    white-space: nowrap;
+  }
+
+  .likert-slider {
+    width: 100%;
+    height: 14px;
+    border-radius: 7px;
+    background: linear-gradient(to right, #e0e0e0 0%, #e0e0e0 100%);
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  .likert-slider:focus-visible {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.08);
+  }
+
+  .likert-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 26px;
+    height: 26px;
+    background: #111;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+
+  .likert-slider::-moz-range-thumb {
+    width: 26px;
+    height: 26px;
+    background: #111;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+
+  .likert-slider::-moz-range-track {
+    height: 14px;
+    border-radius: 7px;
+    background: transparent;
+  }
+
+  .likert-slider.pristine::-webkit-slider-thumb,
+  .likert-slider.pristine::-moz-range-thumb {
+    background: #bbb;
+  }
+
+  .slider-readout {
+    text-align: center;
+    font-size: 10pt;
+    color: #999;
+    min-height: 18px;
+    margin-top: 6px;
+  }
+
+  .instructions {
+    border: 1px solid #e6e6e6;
+    background: #fafafa;
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .instructions .muted {
+    color: #555;
+  }
+
+  #error-message {
+    display: none;
+  }
+
+  #llmStatus {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+</style>
+{% endblock %} {% block content %}
+
+<div class="instructions">
+  <h3>Your experience with the conversation</h3>
+  <p class="muted">
+    Thank you for completing the interview. Before we move on, we would like to
+    ask a few quick questions about how the conversational interview felt for
+    you. Please move each slider to select your answer.
+  </p>
+</div>
+
+<div id="llmStatus">
+  🔄 The AI is analyzing your interview in the background…
+</div>
+
+<div id="error-message" class="alert alert-danger" role="alert">
+  Please answer all questions before continuing.
+</div>
+
+<form method="post" id="conv-feedback-form" novalidate>
+  <!-- Q1 -->
+  <div class="belief-row" data-q="q1">
+    <div class="belief-text">
+      1. How was your overall experience with the conversational survey?
+    </div>
+    <div class="slider-col">
+      <div class="scale-anchors">
+        <span>Terrible</span>
+        <span>Excellent</span>
+      </div>
+
+      <input
+        type="range"
+        class="likert-slider pristine"
+        id="slider_q1"
+        name="conv_overall_0_100"
+        min="0"
+        max="100"
+        step="1"
+        required
+      />
+      <div class="slider-readout" id="readout_q1">Please adjust the slider</div>
+      <input type="hidden" id="cat_q1" name="conv_overall_cat" />
+    </div>
+  </div>
+
+  <!-- Q2 -->
+  <div class="belief-row" data-q="q2">
+    <div class="belief-text">
+      2. The questions in the interview were relevant.
+    </div>
+    <div class="slider-col">
+      <div class="scale-anchors">
+        <span>Strongly disagree</span>
+        <span>Strongly agree</span>
+      </div>
+
+      <input
+        type="range"
+        class="likert-slider pristine"
+        id="slider_q2"
+        name="conv_relevant_0_100"
+        min="0"
+        max="100"
+        step="1"
+        required
+      />
+      <div class="slider-readout" id="readout_q2">Please adjust the slider</div>
+      <input type="hidden" id="cat_q2" name="conv_relevant_cat" />
+    </div>
+  </div>
+
+  <!-- Q3 -->
+  <div class="belief-row" data-q="q3">
+    <div class="belief-text">
+      3. It was easy to express my thoughts in the interview format.
+    </div>
+    <div class="slider-col">
+      <div class="scale-anchors">
+        <span>Strongly disagree</span>
+        <span>Strongly agree</span>
+      </div>
+
+      <input
+        type="range"
+        class="likert-slider pristine"
+        id="slider_q3"
+        name="conv_easy_chat_0_100"
+        min="0"
+        max="100"
+        step="1"
+        required
+      />
+      <div class="slider-readout" id="readout_q3">Please adjust the slider</div>
+      <input type="hidden" id="cat_q3" name="conv_easy_chat_cat" />
+    </div>
+  </div>
+
+  <!-- Q4 -->
+  <div class="belief-row" data-q="q4">
+    <div class="belief-text">
+      4. I felt comfortable enough during the conversation to honestly describe
+      my habits and motivations.
+    </div>
+    <div class="slider-col">
+      <div class="scale-anchors">
+        <span>Strongly disagree</span>
+        <span>Strongly agree</span>
+      </div>
+
+      <input
+        type="range"
+        class="likert-slider pristine"
+        id="slider_q4"
+        name="conv_comfort_0_100"
+        min="0"
+        max="100"
+        step="1"
+        required
+      />
+      <div class="slider-readout" id="readout_q4">Please adjust the slider</div>
+      <input type="hidden" id="cat_q4" name="conv_comfort_cat" />
+    </div>
+  </div>
+
+  <!-- Q5 -->
+  <div class="belief-row" data-q="q5">
+    <div class="belief-text">
+      5. Interacting with the AI model felt creepy or intrusive.
+    </div>
+    <div class="slider-col">
+      <div class="scale-anchors">
+        <span>Strongly disagree</span>
+        <span>Strongly agree</span>
+      </div>
+
+      <input
+        type="range"
+        class="likert-slider pristine"
+        id="slider_q5"
+        name="conv_creepy_0_100"
+        min="0"
+        max="100"
+        step="1"
+        required
+      />
+      <div class="slider-readout" id="readout_q5">Please adjust the slider</div>
+      <input type="hidden" id="cat_q5" name="conv_creepy_cat" />
+    </div>
+  </div>
+
+  <!-- Optional open feedback -->
+  <div class="mt-3">
+    <label for="id_conv_open_feedback">
+      <strong>
+        Any other feedback that could help us improve the interview? (optional)
+      </strong>
+    </label>
+    <textarea
+      id="id_conv_open_feedback"
+      name="conv_open_feedback"
+      class="form-control"
+      rows="4"
+      placeholder="You can leave this blank if you have nothing to add."
+    ></textarea>
+  </div>
+
+  <div class="mt-4 text-center">{{ next_button }}</div>
+</form>
+
+<script>
+  // ====== LIVE / LLM STATE (GLOBAL) ======
+  let llmDone = false; // becomes true ONLY when msg.done === true
+
+  function liveRecv(msg) {
+    const el = document.getElementById('llmStatus');
+    if (!el || !msg) return;
+
+    if (msg.done === true) {
+      llmDone = true;
+      el.textContent =
+        '✅ AI analysis complete. You can now continue to the next part.';
+      el.style.color = '#1a7f37';
+
+      // safely call updater if it's been defined
+      if (window.updateConvFeedbackNext) {
+        window.updateConvFeedbackNext();
+      }
+    } else if (msg.done === false) {
+      el.textContent =
+        '⚠️ We are having trouble analyzing your interview. Please wait a moment while we try again.';
+      el.style.color = '#b54708';
+
+      // Optional retry
+      setTimeout(() => {
+        try {
+          liveSend({ retry: true });
+        } catch (e) {
+          console.error('liveSend retry failed:', e);
+        }
+      }, 5000);
+    }
+  }
+
+  // ====== PAGE LOGIC ======
+  document.addEventListener('DOMContentLoaded', function () {
+    // Kick off background LLM call once page loads
+    try {
+      liveSend({ start: true });
+    } catch (e) {
+      console.error('liveSend not available or failed:', e);
+    }
+
+    const QUESTIONS = [
+      {
+        key: 'q1',
+        labels: [
+          'Terrible',
+          'Not good',
+          'Average / Neutral',
+          'Good',
+          'Excellent',
+        ],
+      },
+      {
+        key: 'q2',
+        labels: [
+          'Strongly disagree',
+          'Somewhat disagree',
+          'Neither agree nor disagree',
+          'Somewhat agree',
+          'Strongly agree',
+        ],
+      },
+      {
+        key: 'q3',
+        labels: [
+          'Strongly disagree',
+          'Somewhat disagree',
+          'Neither agree nor disagree',
+          'Somewhat agree',
+          'Strongly agree',
+        ],
+      },
+      {
+        key: 'q4',
+        labels: [
+          'Strongly disagree',
+          'Somewhat disagree',
+          'Neither agree nor disagree',
+          'Somewhat agree',
+          'Strongly agree',
+        ],
+      },
+      {
+        key: 'q5',
+        labels: [
+          'Strongly disagree',
+          'Somewhat disagree',
+          'Neither agree nor disagree',
+          'Somewhat agree',
+          'Strongly agree',
+        ],
+      },
+    ];
+
+    function paintFromLeft(slider, value) {
+      const min = Number(slider.min) || 0;
+      const max = Number(slider.max) || 100;
+      const v = Math.max(min, Math.min(max, Number(value)));
+      const pct = ((v - min) / (max - min)) * 100;
+      const color = '#424242';
+
+      slider.style.background = `linear-gradient(to right,
+          ${color} 0%, ${color} ${pct}%,
+          #e0e0e0 ${pct}%, #e0e0e0 100%)`;
+    }
+
+    function bucketIndex(value, nBuckets) {
+      const v = Math.max(0, Math.min(100, Number(value)));
+      const width = 100 / nBuckets;
+      let idx = Math.floor(v / width);
+      if (idx >= nBuckets) idx = nBuckets - 1;
+      return idx;
+    }
+
+    const touched = new Set();
+    const total = QUESTIONS.length;
+
+    const errorMessage = document.getElementById('error-message');
+
+    const nextBtn =
+      document.getElementById('nextButton') ||
+      document.querySelector('.otree-btn-next');
+
+    // helper message under the button
+    const llmGateMessage = document.createElement('div');
+    llmGateMessage.id = 'llmGateMessage';
+    llmGateMessage.style.marginTop = '0.5rem';
+    llmGateMessage.style.fontSize = '0.9rem';
+    llmGateMessage.style.color = '#555';
+
+    if (nextBtn && nextBtn.parentNode) {
+      nextBtn.parentNode.appendChild(llmGateMessage);
+    }
+
+    function canProceed() {
+      return touched.size >= total && llmDone;
+    }
+
+    // expose globally so liveRecv can call it
+    window.updateConvFeedbackNext = function updateConvFeedbackNext() {
+      const btn = nextBtn;
+      if (!btn) return;
+
+      const allSlidersAnswered = touched.size >= total;
+      const ok = canProceed();
+
+      btn.disabled = !ok;
+      btn.style.opacity = ok ? '1' : '0.5';
+      btn.style.pointerEvents = ok ? 'auto' : 'none';
+
+      if (!allSlidersAnswered) {
+        llmGateMessage.textContent = '';
+      } else if (allSlidersAnswered && !llmDone) {
+        llmGateMessage.textContent =
+          'You have answered all questions. Please wait a moment while the AI finishes analyzing your interview.';
+      } else if (ok) {
+        llmGateMessage.textContent = '';
+      }
+    };
+
+    function setupQuestion(conf) {
+      const key = conf.key;
+      const labels = conf.labels;
+      const slider = document.getElementById('slider_' + key);
+      const readout = document.getElementById('readout_' + key);
+      const hidden = document.getElementById('cat_' + key);
+      if (!slider || !readout || !hidden) return;
+
+      function applyValue(v, fromUser) {
+        paintFromLeft(slider, v);
+        const i = bucketIndex(v, labels.length);
+        const label = labels[i];
+        const catValue = i + 1;
+
+        readout.innerHTML = `Selected: <b>${label}</b> — ${Math.round(
+          v
+        )} / 100`;
+        readout.style.color = '#111';
+        hidden.value = catValue;
+
+        if (fromUser && slider.classList.contains('pristine')) {
+          slider.classList.remove('pristine');
+        }
+      }
+
+      // init: fully left, neutral track
+      slider.value = slider.min || 0;
+      slider.dataset.pristine = '1';
+      slider.classList.add('pristine');
+      slider.style.background = '#ccc';
+
+      slider.addEventListener('input', function (e) {
+        applyValue(e.target.value, true);
+        touched.add(key);
+        window.updateConvFeedbackNext();
+      });
+    }
+
+    QUESTIONS.forEach(setupQuestion);
+    window.updateConvFeedbackNext();
+
+    const form = document.getElementById('conv-feedback-form');
+    if (form) {
+      form.addEventListener('submit', function (e) {
+        const allSlidersAnswered = touched.size >= total;
+
+        if (!allSlidersAnswered) {
+          e.preventDefault();
+          if (errorMessage) {
+            errorMessage.style.display = 'block';
+          }
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          return;
+        }
+
+        if (!llmDone) {
+          e.preventDefault();
+          alert(
+            'We are still analyzing your interview in the background.\n\n' +
+              'Please wait a moment until the AI analysis is complete. ' +
+              'The message at the top will show a green checkmark when it is ready.'
+          );
+          window.updateConvFeedbackNext();
+          return;
+        }
+
+        if (errorMessage) {
+          errorMessage.style.display = 'none';
+        }
+      });
+    }
+  });
+</script>
+
+{% endblock %}

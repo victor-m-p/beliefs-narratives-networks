@@ -1,0 +1,364 @@
+{% block styles %}
+<style>
+  /* Layout */
+  .belief-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* left text | right slider */
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem 0.75rem;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .belief-row:nth-of-type(even) {
+    background: #f7f7f7;
+  }
+
+  .belief-text {
+    color: #111;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+
+  /* Slider column */
+  .slider-col {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  /* Anchors above each slider */
+  .scale-anchors {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #777;
+    margin-bottom: 4px;
+    white-space: nowrap;
+  }
+
+  /* Slider track + thumb — thicker & easier to click */
+  .likert-slider {
+    width: 100%;
+    height: 14px; /* was 6px */
+    border-radius: 7px; /* match new height */
+    background: linear-gradient(to right, #e0e0e0 0%, #e0e0e0 100%);
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  .likert-slider:focus-visible {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.08);
+  }
+
+  /* WebKit thumb (Chrome/Safari/Edge) */
+  .likert-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 26px; /* was 18px */
+    height: 26px; /* was 18px */
+    background: #111;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+
+  /* Firefox thumb */
+  .likert-slider::-moz-range-thumb {
+    width: 26px; /* was 18px */
+    height: 26px; /* was 18px */
+    background: #111;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+
+  /* Firefox track */
+  .likert-slider::-moz-range-track {
+    height: 14px; /* was 6px (or transparent) */
+    border-radius: 7px;
+    background: transparent; /* JS paints the gradient */
+  }
+
+  /* Untouched look (lighter thumb) */
+  .likert-slider.pristine::-webkit-slider-thumb,
+  .likert-slider.pristine::-moz-range-thumb {
+    background: #bbb;
+  }
+
+  /* WebKit thumb */
+  .likert-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background: #111;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  /* Firefox thumb */
+  .likert-slider::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    background: #111;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  /* Firefox track */
+  .likert-slider::-moz-range-track {
+    height: 6px;
+    border-radius: 4px;
+    background: transparent;
+  }
+
+  .slider-readout {
+    text-align: center;
+    font-size: 10pt;
+    color: #999;
+    min-height: 18px;
+    margin-top: 6px; /* sits under the slider */
+  }
+
+  /* Instructions + transcript button */
+  .instructions {
+    border: 1px solid #e6e6e6;
+    background: #fafafa;
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .instructions .muted {
+    color: #555;
+  }
+
+  .btn-primary {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  #transcript-container {
+    display: none;
+    margin-bottom: 1rem;
+    border: 1px solid #e6e6e6;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #f9f9f9;
+  }
+</style>
+{% endblock %} {% block content %}
+<div class="instructions">
+  <h3>How accurate are these statements?</h3>
+  <p class="muted">
+    The following are short AI-extracted summaries that are extracted based on
+    the interview we just had. There are also attention checks on this page. We
+    are interested in learning how accurately you feel that each of these
+    <b>accurately reflect what you said in the interview</b>.
+  </p>
+  <p>
+    <b>Your task:</b> Move each slider to rate <b>how accurately</b> each
+    statement reflects what you said in the interview.
+  </p>
+  <p class="muted">
+    Scale: <b>0 (Not accurate at all)</b> to <b>100 (Very accurate)</b>.
+  </p>
+  <p class="muted">
+    Focus only on how accurate each statement is. You will get the chance to
+    rate how relevant each statement is later.
+  </p>
+</div>
+
+<button
+  type="button"
+  id="toggle-transcript"
+  class="btn-primary"
+  style="margin-bottom: 1rem"
+>
+  Show transcript
+</button>
+
+<div id="transcript-container">
+  <h3>Interview transcript</h3>
+  <ul style="list-style-type: none; padding: 0; margin: 0">
+    {% for pair in transcript %}
+    <li style="margin-bottom: 1rem">
+      <strong>Q:</strong> {{ pair.question }}<br />
+      <strong>A:</strong> {{ pair.answer }}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<form method="post" id="belief-form" novalidate>
+  {% for item in belief_items %}
+  <div class="belief-row" data-index="{{ item.index }}">
+    <div class="belief-text">{{ item.belief }}</div>
+    <div class="slider-col">
+      <!-- anchors above each slider -->
+      <div class="scale-anchors">
+        <span>Not accurate at all</span>
+        <span>Very accurate</span>
+      </div>
+
+      <input
+        type="range"
+        class="likert-slider"
+        name="belief_accuracy_{{ item.index }}"
+        id="slider_{{ forloop.counter }}"
+        min="0"
+        max="100"
+        step="1"
+        oninput="handleSliderInput{{ forloop.counter }}(this.value)"
+        {%
+        if
+        item.rating
+        !="None"
+        %}
+        value="{{ item.rating }}"
+        {%
+        endif
+        %}
+        required
+      />
+      <div class="slider-readout" id="sliderValue{{ forloop.counter }}">
+        {% if item.rating != None %} Selected:
+        <b>
+          {% if item.rating < 20 %}Not accurate at all {% elif item.rating < 40
+          %}Not accurate {% elif item.rating < 60 %}Somewhat accurate {% elif
+          item.rating < 80 %}Accurate {% else %}Very accurate{% endif %}
+        </b>
+        — {{ item.rating }} / 100 {% else %} Please adjust the slider {% endif
+        %}
+      </div>
+    </div>
+  </div>
+  {% endfor %} {{ next_button }}
+</form>
+
+<script>
+  (function() {
+    // bucket labels
+    function accuracyLabel(v) {
+      v = Number(v);
+      if (v < 20) return 'Not accurate at all';
+      if (v < 40) return 'Not accurate';
+      if (v < 60) return 'Somewhat accurate';
+      if (v < 80) return 'Accurate';
+      return 'Very accurate';
+    }
+
+    // left-fill paint (0 ➜ value)
+    function paintFromLeft(slider, value) {
+      const min = Number(slider.min) || 0;
+      const max = Number(slider.max) || 100;
+      const v   = Math.max(min, Math.min(max, Number(value)));
+      const pct = ((v - min) / (max - min)) * 100;
+      const color = '#424242';
+
+      slider.style.background =
+        `linear-gradient(to right,
+          ${color} 0%, ${color} ${pct}%,
+          #e0e0e0 ${pct}%, #e0e0e0 100%)`;
+    }
+
+    const touched = new Set();
+    const total = {{ belief_items|length }};
+
+    function updateNext() {
+      const btn = document.getElementById('nextButton') || document.querySelector('.otree-btn-next');
+      if (!btn) return;
+      const ok = touched.size >= total;
+      btn.disabled = !ok;
+      btn.style.opacity = ok ? '1' : '0.5';
+      btn.style.pointerEvents = ok ? 'auto' : 'none';
+    }
+
+    // per-slider handlers
+    {% for item in belief_items %}
+    window.handleSliderInput{{ forloop.counter }} = function(value) {
+      const idx = {{ forloop.counter }};
+      const slider  = document.getElementById('slider_' + idx);
+      const readout = document.getElementById('sliderValue' + idx);
+
+      if (slider.dataset.pristine === '1') {
+        slider.dataset.pristine = '0';
+        slider.classList.remove('pristine');
+      }
+
+      paintFromLeft(slider, value);
+      readout.innerHTML = `Selected: <b>${accuracyLabel(value)}</b> — ${Math.round(value)} / 100`;
+      readout.style.color = '#111';
+
+      touched.add(idx);
+      updateNext();
+    };
+    {% endfor %}
+
+    // init sliders (prefills vs pristine)
+    document.querySelectorAll('.likert-slider').forEach((slider, i) => {
+      const idx = i + 1;
+      const readout = document.getElementById('sliderValue' + idx);
+
+      // treat server-provided value as a real answer when coming back
+      const prefilled = slider.hasAttribute('value') && slider.getAttribute('value') !== '';
+
+      if (prefilled) {
+        const v = slider.getAttribute('value');
+        slider.value = v;                     // reflect attribute into the control
+        slider.classList.remove('pristine');
+        paintFromLeft(slider, v);
+        readout.innerHTML = `Selected: <b>${accuracyLabel(v)}</b> — ${Math.round(v)} / 100`;
+        readout.style.color = '#111';
+        touched.add(idx);                     // counts as answered
+      } else {
+        // start all the way LEFT but still "unanswered"
+        slider.value = slider.min || 0;       // thumb at left
+        slider.dataset.pristine = '1';
+        slider.classList.add('pristine');     // lighter thumb via CSS
+        slider.style.background = '#ccc';     // neutral track (no colored fill)
+        // leave the existing "Please adjust the slider" text alone
+      }
+    });
+
+
+    // block submit until all moved
+    const form = document.getElementById('belief-form');
+    const errorMessage = document.getElementById('error-message');
+    if (form) {
+      form.addEventListener('submit', function(e) {
+        if (touched.size < total) {
+          e.preventDefault();
+          errorMessage.style.display = 'block';
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+          errorMessage.style.display = 'none';
+        }
+      });
+    }
+
+    updateNext();
+
+    // transcript toggle
+    const toggle = document.getElementById('toggle-transcript');
+    const transcript = document.getElementById('transcript-container');
+    if (toggle && transcript) {
+      toggle.addEventListener('click', function() {
+        const hidden = transcript.style.display === 'none' || transcript.style.display === '';
+        transcript.style.display = hidden ? 'block' : 'none';
+        toggle.textContent = hidden ? 'Hide transcript' : 'Show transcript';
+      });
+    }
+  })();
+</script>
+{% endblock %}

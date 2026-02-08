@@ -1,0 +1,428 @@
+{% extends "global/Page.html" %} {% load static %} {% block scripts %}
+<script src="{% static 'otreesurvey_app/canvasflex.js' %}?v=2025092302"></script>
+{% endblock %} {% block styles %}
+<style>
+  /* ---------- Instruction card ---------- */
+  .instruction-card {
+    border: 1px solid #e6e6e6;
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  }
+  .eyebrow {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111;
+    margin: 0.25rem 0 0.5rem;
+  }
+
+  /* ---------- Chips ---------- */
+  .chip {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    color: #111;
+    font-weight: 700;
+  }
+  .chip-blue {
+    background: #8cc7caaa;
+  }
+  .chip-orange {
+    background: #fff1de;
+  }
+  .chip-purple {
+    background: #e9e3f5;
+  }
+
+  /* ---------- Layout ---------- */
+  .canvas-row {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin: 0 0 15px 0;
+  }
+
+  #canvasContainer {
+    position: relative;
+    width: 585px;
+    margin: 0;
+  }
+  #dragCanvas {
+    border: 2px solid #111;
+    border-radius: 4px;
+    display: block;
+    width: 585px;
+    height: 585px;
+  }
+
+  /* ---------- Right-side help panel ---------- */
+  .help-panel {
+    flex: 0 0 340px;
+    min-height: 585px;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    border-radius: 12px;
+    padding: 14px 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    position: sticky;
+    top: 10px;
+  }
+  .help-panel h4 {
+    margin: 0 0 8px 0;
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: #111;
+  }
+  .help-panel ol {
+    margin: 0.25rem 0 0.25rem 1.25rem;
+  }
+
+  /* ---------- Soft warning toast ---------- */
+  #soft-warning {
+    display: none;
+    position: relative;
+    top: 20px;
+    padding: 10px 14px;
+    border: 1px solid #e6a700;
+    background: #fff7e6;
+    border-radius: 8px;
+    color: #663c00;
+    font-weight: 600;
+    z-index: 20;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    max-width: 585px;
+    text-align: left;
+  }
+
+  /* ---------- Transcript toggle ---------- */
+  .btn-primary {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  #transcript-container {
+    display: none; /* hidden by default */
+    margin-bottom: 1rem;
+    border: 1px solid #e6e6e6;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #f9f9f9;
+  }
+</style>
+{% endblock %} {% block content %}
+<div class="instruction-card">
+  <p class="eyebrow">Which things are in conflict with each other?</p>
+  <p>
+    On the previous page you connected things that support each other. We are
+    also interested in things are in conflict with each other. Please connect
+    <span class="chip chip-blue">blue circles</span> that
+    <span class="chip chip-orange">conflict with each other</span> for you
+    personally. By conflict we mean that one thing contradicts or undermines
+    another. Focus only on
+    <span class="chip chip-orange">conflicting</span> relations.
+  </p>
+  <p class="muted">
+    <i>
+      Note: You can view your interview transcript by clicking the button below.
+    </i>
+  </p>
+</div>
+
+<!-- Transcript toggle + container -->
+<button
+  type="button"
+  id="toggle-transcript"
+  class="btn-primary"
+  style="margin-bottom: 1rem"
+>
+  Show transcript
+</button>
+
+<div id="transcript-container">
+  <h3>Interview transcript</h3>
+  <ul style="list-style-type: none; padding: 0; margin: 0">
+    {% for pair in transcript %}
+    <li style="margin-bottom: 1rem">
+      <strong>Q:</strong> {{ pair.question }}<br />
+      <strong>A:</strong> {{ pair.answer }}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="canvas-row">
+  <div>
+    <div id="canvasContainer">
+      <canvas id="dragCanvas" width="585" height="585"></canvas>
+    </div>
+
+    <p id="soft-warning"></p>
+  </div>
+
+  <aside class="help-panel" aria-label="How to connect circles">
+    <h4>How to connect circles</h4>
+    <ol>
+      <li>
+        Click a <span class="chip chip-blue">blue circle</span> to select it.
+      </li>
+      <li>
+        Click another <span class="chip chip-blue">blue circle</span> to create
+        a <span class="chip chip-orange">conflict</span> connection.
+      </li>
+      <li>Click the same pair again to remove the connection.</li>
+    </ol>
+    <p style="margin-top: 0.5rem; color: #555">
+      <i>You can still move circles if this helps you organize things.</i>
+    </p>
+  </aside>
+</div>
+
+<input type="hidden" id="positions" name="positions_3" />
+<input type="hidden" id="edges" name="edges_3" />
+
+{{ next_button }}
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+    const canvas = document.getElementById("dragCanvas");
+    const ctx = canvas.getContext("2d");
+
+    // Data from backend
+    const beliefLabels = {{ belief_labels_json|safe }};
+    const priorPoints  = {{ belief_points|safe }};
+    const priorPositiveEdges = {{ belief_edges_json|safe }};
+
+    // Build nodes
+    const points = beliefLabels.map((label, i) => ({
+      label,
+      x: priorPoints[i].x,
+      y: priorPoints[i].y
+    }));
+
+    // Start with no visible edges (we hide positives)
+    let edges = [];
+
+    // --- Core state ---
+    let selectedPoint = null;
+    let softWarnedOnce = false;
+    let warningCooldownActive = false;
+
+    // --- Drag config ---
+    const DRAG_PX = (NoOverlap.UI && NoOverlap.UI.dragThresholdPx) || 6;
+    const LONGPRESS_MS = (NoOverlap.UI && NoOverlap.UI.longPressMs) || 180;
+    let candidateDragPoint = null;
+    let draggingPoint = null;
+    let downInfo = null;
+    let wasDragging = false;
+
+    function drawCanvas(){
+      NoOverlap.drawGraph(ctx, canvas, { points, edges, selectedPoint }, {
+        edge: { positive: "#998ec3", negative: "#f1a340", other: "#666666" }
+      });
+    }
+
+    function getMousePos(e){
+      const r = canvas.getBoundingClientRect();
+      return { x: e.clientX - r.left, y: e.clientY - r.top };
+    }
+
+    function findPoint(pos){
+      const defaultR = NoOverlap.DRAW_DEFAULTS?.node?.defaultRadius || 15;
+      return points.find(p => Math.hypot(p.x - pos.x, p.y - pos.y) <= (p.radius ?? defaultR));
+    }
+
+    // --- Click to toggle a negative edge ---
+    function toggleEdge(a, b){
+      if (a === b) return; // no self-edges
+      const existing = edges.find(e =>
+        (e.from === a && e.to === b) || (e.from === b && e.to === a)
+      );
+      if (existing){
+        edges.splice(edges.indexOf(existing), 1);
+      } else {
+        edges.push({
+          from: a,
+          to: b,
+          polarity: "negative",
+          timestamp: new Date().toISOString()
+        });
+      }
+    }
+
+    // --- Mouse interactions ---
+    canvas.addEventListener("mousedown", e=>{
+      const pos = getMousePos(e);
+      const hit = findPoint(pos);
+      candidateDragPoint = hit || null;
+      draggingPoint = null;
+      wasDragging = false;
+      downInfo = { x: pos.x, y: pos.y, t: performance.now() };
+    });
+
+    canvas.addEventListener("mousemove", e=>{
+      const pos = getMousePos(e);
+      if (!draggingPoint) {
+        const hoveringAny = NoOverlap.findPoint(pos, points);
+        if (NoOverlap.setHovered(canvas, hoveringAny)) drawCanvas();
+        canvas.style.cursor = hoveringAny ? "grab" : "default";
+      }
+
+      if (!draggingPoint && candidateDragPoint && downInfo) {
+        const dx = pos.x - downInfo.x, dy = pos.y - downInfo.y;
+        const dist = Math.hypot(dx, dy);
+        const held = performance.now() - downInfo.t;
+        if (dist >= DRAG_PX || held >= LONGPRESS_MS) {
+          draggingPoint = candidateDragPoint;
+          canvas.style.cursor = "grabbing";
+        }
+      }
+
+      if (draggingPoint){
+        NoOverlap.tryMove(
+          draggingPoint, pos.x, pos.y, points, drawCanvas, undefined,
+          (pt) => NoOverlap.flash(pt, drawCanvas)
+        );
+        wasDragging = true;
+      }
+    });
+
+    canvas.addEventListener("mouseup", evt=>{
+      const pos = getMousePos(evt), hit = findPoint(pos);
+      if (!wasDragging && hit){
+        if (!selectedPoint){
+          selectedPoint = hit;
+        } else if (selectedPoint === hit){
+          selectedPoint = null;
+        } else {
+          toggleEdge(selectedPoint, hit);
+          selectedPoint = null;
+        }
+        drawCanvas();
+      }
+      if (!wasDragging && !hit){
+        if (selectedPoint){ selectedPoint = null; drawCanvas(); }
+      }
+      candidateDragPoint = null;
+      draggingPoint = null;
+      downInfo = null;
+      wasDragging = false;
+      canvas.style.cursor = "default";
+    });
+
+    canvas.addEventListener("mouseleave", ()=>{
+      if (NoOverlap.clearHovered(canvas)) drawCanvas();
+      candidateDragPoint = null;
+      draggingPoint = null;
+      downInfo = null;
+      wasDragging = false;
+      if (canvas.style.cursor !== "grabbing") canvas.style.cursor = "default";
+    });
+
+    document.addEventListener("keydown", (e)=>{
+      if (e.key === "Escape" && selectedPoint){
+        selectedPoint = null; drawCanvas();
+      }
+    });
+
+    // --- Validation ---
+    const R = NoOverlap.DRAW_DEFAULTS?.node?.defaultRadius || 15;
+    function pointInsideCanvas(p){
+      const r = p.radius ?? R;
+      return (
+        p.x - r >= 0 && p.x + r <= canvas.width &&
+        p.y - r >= 0 && p.y + r <= canvas.height
+      );
+    }
+    function allInsideBox(){ return points.every(pointInsideCanvas); }
+
+    function normalizeEdge(e){
+      const s1 = e.stance_1 ?? (e.from && e.from.label) ?? e.from;
+      const s2 = e.stance_2 ?? (e.to   && e.to.label)   ?? e.to;
+      return {
+        stance_1: s1,
+        stance_2: s2,
+        polarity: e.polarity ?? 'other',
+        timestamp: e.timestamp ?? null
+      };
+    }
+
+    // --- Submit handler on Next button: always show soft warning once, then continue ---
+    const nextBtn = document.querySelector(".otree-btn-next");
+    if (nextBtn) {
+      nextBtn.addEventListener("click", function(e){
+        if (warningCooldownActive) {
+          e.preventDefault();
+          return;
+        }
+
+        e.preventDefault();
+
+        if (!allInsideBox()){
+          alert("Please drag all circles into the square before continuing.");
+          return;
+        }
+
+        // First submit: always show the soft warning
+        if (!softWarnedOnce) {
+          const warn = document.getElementById("soft-warning");
+          if (warn){
+            warn.innerHTML =
+  'Please take one last look and ensure:' +
+  '<ol style="margin-top: 6px; margin-bottom: 6px; padding-left: 1.25rem;">' +
+    '<li>All things that you feel are in conflict with each other are connected</li>' +
+    '<li>No things that you feel support each other are connected</li>' +
+  '</ol>' +
+  'Click "Next" again when you are ready to continue.';
+            warn.style.display = "block";
+            warn.scrollIntoView({ behavior: "smooth", block: "center" });
+          }
+          softWarnedOnce = true;
+
+          // Brief cooldown to soak up double-clicks
+          warningCooldownActive = true;
+          nextBtn.disabled = true;
+          setTimeout(() => {
+            warningCooldownActive = false;
+            nextBtn.disabled = false;
+          }, 1200);
+
+          return;
+        }
+
+        // Second (or later) submit: proceed and save
+        const merged = [
+          ...(priorPositiveEdges || []).map(normalizeEdge),
+          ...edges.map(normalizeEdge) // negatives from point-refs
+        ];
+
+        document.getElementById("positions").value = JSON.stringify(points);
+        document.getElementById("edges").value = JSON.stringify(merged);
+
+        nextBtn.closest("form").submit();
+      });
+    }
+
+    // Transcript toggle
+    const toggle = document.getElementById("toggle-transcript");
+    const transcriptEl = document.getElementById("transcript-container");
+    if (toggle && transcriptEl) {
+      toggle.addEventListener("click", function () {
+        const hidden =
+          transcriptEl.style.display === "none" ||
+          transcriptEl.style.display === "";
+        transcriptEl.style.display = hidden ? "block" : "none";
+        toggle.textContent = hidden ? "Hide transcript" : "Show transcript";
+      });
+    }
+
+    drawCanvas();
+  });
+</script>
+{% endblock %}

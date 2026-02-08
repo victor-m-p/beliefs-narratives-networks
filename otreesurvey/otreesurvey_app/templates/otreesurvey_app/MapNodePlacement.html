@@ -1,0 +1,537 @@
+{% extends "global/Page.html" %} {% load static %} {% block scripts %}
+<script src="{% static 'otreesurvey_app/canvasflex.js' %}?v=20250812338"></script>
+{% endblock %} {% block styles %}
+<style>
+  /* ---------- General instructions ---------- */
+  .instructions {
+    border: 1px solid #e6e6e6;
+    background: #fafafa;
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .instructions h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.05rem;
+    color: #111;
+  }
+  .instructions p {
+    margin: 0.35rem 0;
+    color: #333;
+  }
+  .muted {
+    color: #555;
+    line-height: 1.5;
+  }
+  .eyebrow {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111;
+    margin: 0.25rem 0 0.5rem;
+  }
+
+  /* ---------- LLM status banner ---------- */
+  #llmStatus {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 0.25rem 0 1rem 0;
+  }
+
+  /* ---------- Chips / pills ---------- */
+  .pill {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-weight: 700;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    color: #111;
+    line-height: 1.2;
+  }
+  .pill-blue {
+    background: #8cc7caaa;
+  }
+
+  /* ---------- Layout: canvas left + staging column right ---------- */
+  .play-and-stage {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin: 0 0 15px 0;
+  }
+
+  /* ---------- Canvas ---------- */
+  #dragCanvas {
+    border: 2px solid #111;
+    border-radius: 4px;
+    display: block;
+    width: 585px;
+    height: 585px;
+    flex: 0 0 585px;
+  }
+
+  /* ---------- Staging column ---------- */
+  .stage {
+    flex: 0 0 340px;
+    height: 585px;
+    overflow: auto;
+    border: 1px dashed #c9ced8;
+    border-radius: 8px;
+    padding: 10px;
+    background: #f6f7fb;
+  }
+  .stage h4 {
+    margin: 0 0 8px 0;
+    font-size: 0.95rem;
+    color: #333;
+    font-weight: 700;
+  }
+  .stage-item {
+    user-select: none;
+    cursor: grab;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 999px;
+    padding: 6px 12px 6px 40px;
+    margin: 8px 0;
+    position: relative;
+    word-break: break-word;
+  }
+  .stage-item:active {
+    cursor: grabbing;
+  }
+  .stage-item .dot {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #8cc7ca;
+    border: none;
+  }
+
+  /* ---------- Canvas drop affordance ---------- */
+  #dragCanvas.drop-ok {
+    box-shadow: 0 0 0 3px rgba(60, 130, 246, 0.35) inset;
+  }
+
+  .btn-primary {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  #transcript-container {
+    display: none;
+    margin-bottom: 1rem;
+    border: 1px solid #e6e6e6;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #f9f9f9;
+  }
+
+  /* Gate message under Next */
+  #llmGateMessage {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+  }
+</style>
+{% endblock %} {% block content %}
+
+<div class="instructions">
+  <p class="eyebrow">Which things go together?</p>
+  <p>
+    <b>Your task:</b> Place things that go together closer to each other. Do
+    this based on how things go together for you personally.
+  </p>
+  <p class="muted">
+    <i>
+      Note: You can view your interview transcript by clicking the button below.
+    </i>
+  </p>
+</div>
+
+<div id="llmStatus">
+  🔄 The AI is analyzing your interview in the background…
+</div>
+
+<button
+  type="button"
+  id="toggle-transcript"
+  class="btn-primary"
+  style="margin-bottom: 1rem"
+>
+  Show transcript
+</button>
+
+<div id="transcript-container">
+  <h3>Interview transcript</h3>
+  <ul style="list-style-type: none; padding: 0; margin: 0">
+    {% for pair in transcript %}
+    <li style="margin-bottom: 1rem">
+      <strong>Q:</strong> {{ pair.question }}<br />
+      <strong>A:</strong> {{ pair.answer }}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="play-and-stage">
+  <canvas id="dragCanvas" width="585" height="585"></canvas>
+
+  <div id="stage" class="stage" aria-label="Drag items from here into the box">
+    <h4>Drag into the box →</h4>
+  </div>
+</div>
+
+<input type="hidden" name="positions_1" id="positions_1" />
+{{ next_button }}
+<div id="llmGateMessage"></div>
+
+<script>
+  // IMPORTANT: this must be a valid JSON array in your vars_for_template:
+  // belief_labels_json = json.dumps(labels, ensure_ascii=False)
+  const beliefLabels = {{ belief_labels_json|safe }};
+</script>
+
+<script>
+  // ==========================
+  // LIVE / LLM STATE (GLOBAL)
+  // ==========================
+  let llmDone = false;
+
+  // Gate refresher callable from liveRecv (which is global)
+  window._updateNextGate = null;
+
+  function liveRecv(msg) {
+    const el = document.getElementById('llmStatus');
+    if (!el || !msg) return;
+
+    if (msg.done === true) {
+      llmDone = true;
+      el.textContent = '✅ AI analysis complete. You can continue.';
+      el.style.color = '#1a7f37';
+
+      if (typeof window._updateNextGate === 'function') {
+        window._updateNextGate();
+      }
+    } else if (msg.done === false) {
+      llmDone = false;
+      el.textContent =
+        '⚠️ We had trouble analyzing your interview. Please wait while we try again.';
+      el.style.color = '#b54708';
+
+      setTimeout(() => {
+        try {
+          liveSend({ retry: true });
+        } catch (e) {}
+      }, 4000);
+
+      if (typeof window._updateNextGate === 'function') {
+        window._updateNextGate();
+      }
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    // Kick off background edge LLM call
+    try {
+      liveSend({ start: true });
+    } catch (e) {}
+
+    const canvas = document.getElementById('dragCanvas');
+    const ctx = canvas.getContext('2d');
+    const stageEl = document.getElementById('stage');
+
+    const nextButton =
+      document.getElementById('nextButton') ||
+      document.querySelector('.otree-btn-next') ||
+      document.querySelector('button[type=submit]');
+
+    const llmGateMessage = document.getElementById('llmGateMessage');
+
+    function updateNextGate() {
+      if (!nextButton) return;
+
+      // button is only enabled when BOTH:
+      // (a) all nodes placed inside canvas
+      // (b) llmDone === true
+      const allPlaced = allPointsInsideCanvas();
+      const ok = allPlaced && llmDone;
+
+      nextButton.disabled = !ok;
+      nextButton.style.opacity = ok ? '1' : '0.5';
+      nextButton.style.pointerEvents = ok ? 'auto' : 'none';
+
+      if (!allPlaced) {
+        llmGateMessage.textContent = '';
+      } else if (allPlaced && !llmDone) {
+        llmGateMessage.textContent =
+          'You have placed all statements. Please wait a moment while the AI finishes analyzing your interview.';
+      } else {
+        llmGateMessage.textContent = '';
+      }
+    }
+
+    // Expose gate refresher for liveRecv
+    window._updateNextGate = updateNextGate;
+
+    // === Use library default radius everywhere ===
+    const R =
+      (window.NoOverlap &&
+        NoOverlap.DRAW_DEFAULTS &&
+        NoOverlap.DRAW_DEFAULTS.node &&
+        NoOverlap.DRAW_DEFAULTS.node.defaultRadius) ||
+      15;
+
+    function buildStage(labels) {
+      stageEl.innerHTML = '<h4>Drag into the box →</h4>';
+
+      // If beliefLabels is not an array, this will fail silently in some browsers.
+      // So we guard lightly:
+      if (!Array.isArray(labels)) {
+        console.error('beliefLabels is not an array:', labels);
+        return;
+      }
+
+      labels.forEach((label, idx) => {
+        const el = document.createElement('div');
+        el.className = 'stage-item';
+        el.setAttribute('draggable', 'true');
+        el.dataset.label = label;
+        el.dataset.idx = String(idx);
+        el.innerHTML = '<span class="dot" aria-hidden="true"></span>' + label;
+
+        el.addEventListener('dragstart', (ev) => {
+          ev.dataTransfer.setData('text/plain', JSON.stringify({ label, idx }));
+
+          const dragImg = document.createElement('canvas');
+          dragImg.width = dragImg.height = 2 * R + 8;
+          const c = dragImg.getContext('2d');
+          c.beginPath();
+          c.arc(dragImg.width / 2, dragImg.height / 2, R, 0, Math.PI * 2);
+          c.fillStyle = '#8cc7ca';
+          c.fill();
+          ev.dataTransfer.setDragImage(
+            dragImg,
+            dragImg.width / 2,
+            dragImg.height / 2
+          );
+        });
+
+        stageEl.appendChild(el);
+      });
+    }
+
+    buildStage(beliefLabels);
+
+    const inStage = new Set(beliefLabels.map((_, i) => i));
+    let pointsOnCanvas = [];
+
+    function drawCanvas() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      NoOverlap.drawGraph(ctx, canvas, { points: pointsOnCanvas });
+    }
+
+    function getMousePos(evt, targetCanvas) {
+      const rect = targetCanvas.getBoundingClientRect();
+      return { x: evt.clientX - rect.left, y: evt.clientY - rect.top };
+    }
+
+    function pointInsideCanvas(p) {
+      const r = p.radius ?? R;
+      return (
+        p.x - r >= 0 &&
+        p.x + r <= canvas.width &&
+        p.y - r >= 0 &&
+        p.y + r <= canvas.height
+      );
+    }
+
+    function allPointsInsideCanvas() {
+      if (pointsOnCanvas.length !== beliefLabels.length) return false;
+      return pointsOnCanvas.every(pointInsideCanvas);
+    }
+
+    function findNearestFreeSpot(canvas, points, startX, startY) {
+      const R = NoOverlap?.DRAW_DEFAULTS?.node?.defaultRadius ?? 15;
+      const MIN_DIST = 2 * R + 2;
+
+      const clamp = (x, y) => ({
+        x: Math.max(R, Math.min(canvas.width - R, x)),
+        y: Math.max(R, Math.min(canvas.height - R, y)),
+      });
+
+      let c0 = clamp(startX, startY);
+      if (!NoOverlap.isTooClose(c0.x, c0.y, points, null, MIN_DIST)) {
+        return c0;
+      }
+
+      const MAX_R = Math.max(canvas.width, canvas.height);
+      const RAD_STEP = Math.max(2, Math.floor(R / 2));
+      const ANG_STEP = 15 * (Math.PI / 180);
+
+      for (let rad = RAD_STEP; rad <= MAX_R; rad += RAD_STEP) {
+        for (let th = 0; th < Math.PI * 2; th += ANG_STEP) {
+          const cx = startX + rad * Math.cos(th);
+          const cy = startY + rad * Math.sin(th);
+          const c = clamp(cx, cy);
+          if (!NoOverlap.isTooClose(c.x, c.y, points, null, MIN_DIST)) {
+            return c;
+          }
+        }
+      }
+      return { x: canvas.width / 2, y: canvas.height / 2 };
+    }
+
+    canvas.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      canvas.classList.add('drop-ok');
+    });
+    canvas.addEventListener('dragleave', () => {
+      canvas.classList.remove('drop-ok');
+    });
+    canvas.addEventListener('drop', (e) => {
+      e.preventDefault();
+      canvas.classList.remove('drop-ok');
+
+      const data = e.dataTransfer.getData('text/plain');
+      if (!data) return;
+
+      const parsed = JSON.parse(data);
+      const label = parsed.label;
+      const idx = parsed.idx;
+
+      if (!inStage.has(Number(idx))) return;
+
+      const pos = getMousePos(e, canvas);
+      const spot = findNearestFreeSpot(canvas, pointsOnCanvas, pos.x, pos.y);
+
+      const p = { label, x: spot.x, y: spot.y };
+      pointsOnCanvas.push(p);
+
+      NoOverlap.flash(p, drawCanvas, 120);
+
+      const item = stageEl.querySelector(`.stage-item[data-idx="${idx}"]`);
+      if (item) item.remove();
+      inStage.delete(Number(idx));
+
+      drawCanvas();
+      updateNextGate();
+    });
+
+    let draggingPoint = null;
+    let offsetX = 0,
+      offsetY = 0;
+
+    function findPoint(pos) {
+      const defR = NoOverlap.DRAW_DEFAULTS?.node?.defaultRadius || R;
+      return pointsOnCanvas.find(
+        (p) => Math.hypot(p.x - pos.x, p.y - pos.y) <= (p.radius ?? defR)
+      );
+    }
+
+    canvas.addEventListener('mousedown', function (e) {
+      const pos = getMousePos(e, canvas);
+      const hit = findPoint(pos);
+      if (hit) {
+        draggingPoint = hit;
+        offsetX = pos.x - hit.x;
+        offsetY = pos.y - hit.y;
+        canvas.style.cursor = 'grabbing';
+      }
+    });
+
+    canvas.addEventListener('mousemove', function (e) {
+      const pos = getMousePos(e, canvas);
+
+      const hoveringAny = NoOverlap.findPoint(pos, pointsOnCanvas);
+      if (NoOverlap.setHovered(canvas, hoveringAny)) drawCanvas();
+      if (!draggingPoint)
+        canvas.style.cursor = hoveringAny ? 'grab' : 'default';
+
+      if (draggingPoint) {
+        const newX = pos.x - offsetX;
+        const newY = pos.y - offsetY;
+
+        NoOverlap.tryMove(
+          draggingPoint,
+          newX,
+          newY,
+          pointsOnCanvas,
+          drawCanvas,
+          undefined,
+          (pt) => NoOverlap.flash(pt, drawCanvas)
+        );
+      }
+    });
+
+    canvas.addEventListener('mouseup', function () {
+      draggingPoint = null;
+      canvas.style.cursor = 'default';
+      updateNextGate();
+    });
+
+    canvas.addEventListener('mouseleave', function () {
+      if (NoOverlap.clearHovered(canvas)) drawCanvas();
+      if (canvas.style.cursor !== 'grabbing') canvas.style.cursor = 'default';
+      draggingPoint = null;
+      updateNextGate();
+    });
+
+    // Submit (gated)
+    const form = document.querySelector('form');
+
+    if (nextButton) {
+      nextButton.disabled = true; // start disabled until ok
+      updateNextGate();
+
+      nextButton.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        if (!allPointsInsideCanvas()) {
+          alert('Please drag all statements into the box before continuing.');
+          return;
+        }
+
+        if (!llmDone) {
+          alert(
+            'The AI is still analyzing your interview in the background.\n\n' +
+              'Please wait a moment — the green checkmark will appear when it is ready.'
+          );
+          updateNextGate();
+          return;
+        }
+
+        document.getElementById('positions_1').value =
+          JSON.stringify(pointsOnCanvas);
+        form.submit();
+      });
+    }
+
+    // Transcript toggle
+    const toggle = document.getElementById('toggle-transcript');
+    const transcriptEl = document.getElementById('transcript-container');
+    if (toggle && transcriptEl) {
+      toggle.addEventListener('click', function () {
+        const hidden =
+          transcriptEl.style.display === 'none' ||
+          transcriptEl.style.display === '';
+        transcriptEl.style.display = hidden ? 'block' : 'none';
+        toggle.textContent = hidden ? 'Hide transcript' : 'Show transcript';
+      });
+    }
+
+    drawCanvas();
+  });
+</script>
+
+{% endblock %}

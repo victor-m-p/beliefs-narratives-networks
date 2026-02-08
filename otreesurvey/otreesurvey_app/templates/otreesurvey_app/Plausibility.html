@@ -1,0 +1,471 @@
+{% extends "global/Page.html" %} {% load otree %} {% block styles %}
+<style>
+  .instruction-card,
+  .items-card {
+    max-width: 900px;
+    margin: 0 auto 14px auto;
+    border: 1px solid #e6e6e6;
+    border-radius: 12px;
+    padding: 14px 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  }
+  .instruction-card {
+    background: #fafafa;
+  }
+  .items-card {
+    background: #fff;
+  }
+
+  .eyebrow {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111;
+    margin: 0.25rem 0 0.5rem;
+  }
+
+  .pair-row {
+    display: grid;
+    gap: 10px;
+    padding: 12px 8px;
+    border-bottom: 1px solid #efefef;
+  }
+  .pair-row:last-child {
+    border-bottom: 0;
+  }
+
+  .sentence {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.45;
+    color: #111;
+  }
+
+  .slider-block {
+    display: grid;
+    gap: 8px;
+    justify-items: center;
+  }
+  .scale-anchors {
+    display: flex;
+    justify-content: space-between;
+    color: #777;
+    font-weight: 700;
+    font-size: 0.95rem;
+    width: 100%;
+    max-width: 720px;
+  }
+
+  /* Slider look */
+  .likert-slider {
+    width: 100%;
+    max-width: 720px;
+    height: 14px;
+    border-radius: 7px;
+    background: #e0e0e0; /* neutral before any move */
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  .likert-slider:focus-visible {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.08);
+  }
+
+  .likert-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #111;
+    border: 2px solid #fff;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  }
+  .likert-slider::-moz-range-thumb {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #111;
+    border: 2px solid #fff;
+    cursor: pointer;
+  }
+  .likert-slider::-moz-range-track {
+    height: 14px;
+    border-radius: 7px;
+    background: transparent;
+  }
+
+  /* Untouched visual state (lighter thumb) */
+  .likert-slider.pristine::-webkit-slider-thumb,
+  .likert-slider.pristine::-moz-range-thumb {
+    background: #bbb;
+  }
+
+  .readout {
+    font-size: 0.95rem;
+    color: #111;
+    min-height: 1.2em;
+    text-align: center;
+  }
+
+  .reason {
+    width: 100%;
+    max-width: 720px;
+    min-height: 70px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    padding: 10px 12px;
+  }
+  .helper {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 6px;
+  }
+
+  .chip {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    font-weight: 700;
+  }
+  .chip-grey {
+    background: #efefef;
+  }
+  .chip-purple {
+    background: #e9e3f5;
+  }
+  .chip-orange {
+    background: #fff1de;
+  }
+
+  /* Next is always clickable; we show inline guidance instead */
+  .otree-btn-next {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* Inline status line + spinner */
+  .submit-status {
+    max-width: 900px;
+    margin: 8px auto 0;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #444;
+  }
+  .submit-status.warn {
+    color: #b22;
+  }
+  .submit-status.muted {
+    color: #666;
+  }
+  .spinner {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: -2px;
+    border: 2px solid #ccc;
+    border-top-color: #666;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+{% endblock %} {% block content %}
+<div class="instruction-card">
+  <p class="eyebrow">How do things relate to each other?</p>
+  <p>
+    You already organized things on the canvas and created both
+    <span class="chip chip-purple">supporting</span> and
+    <span class="chip chip-orange">conflicting</span> connections. Now consider
+    a few selected pairs of statements one more time.
+  </p>
+  <p>
+    <b>Your task:</b> Use the slider to rate how you feel that things relate to
+    each other. Then in your own words describe how you feel that they relate to
+    each other. It may be that they have a
+    <span class="chip chip-purple">supporting</span> or a
+    <span class="chip chip-orange">conflicting</span> relation, that they
+    <span class="chip chip-grey">do not relate at all</span>, or it might be
+    that some other description is more appropriate. We are interested in
+    understanding how you experience relations between things.
+  </p>
+  <p class="muted">
+    <b>Note:</b> It can be difficult to think about how things relate. Remember
+    that by <span class="chip chip-purple">supporting</span> connections we mean
+    things that reinforce or encourage each other, and by
+    <span class="chip chip-orange">conflicting</span> we mean that they
+    contradict or undermine each other. We are interested not in the things
+    themselves, but how they relate to each other.
+  </p>
+</div>
+
+<div class="items-card">
+  <div id="pairsList"></div>
+</div>
+
+<input
+  type="hidden"
+  id="plausibility_motivation_evaluations"
+  name="plausibility_motivation_evaluations"
+/>
+
+<div
+  id="submitStatus"
+  class="submit-status"
+  role="status"
+  aria-live="polite"
+></div>
+
+{{ next_button }} {% endblock %} {% block scripts %}
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+    // ---- Data ----
+    const PAIRS = {{ pairs_json|safe }};
+
+    // Colors
+    const COL_NEG  = "#f1a340";  // negative
+    const COL_POS  = "#998ec3";  // positive
+    const COL_NONE = "#666666";  // neutral
+    const NEUTRAL_BAND = 20;     // ±20 is "Not at all"
+
+    // ---- DOM ----
+    const form      = document.querySelector('form');
+    const nextBtn   = document.querySelector('button[type="submit"], .otree-btn-next');
+    const statusEl  = document.getElementById('submitStatus');
+    const hiddenOut = document.getElementById('plausibility_motivation_evaluations');
+    const list      = document.getElementById('pairsList');
+
+    // ---- Helpers ----
+    function setStatus(kind, html){
+      if (!statusEl) return;
+      statusEl.className = 'submit-status' + (kind ? ' ' + kind : '');
+      statusEl.innerHTML = html || '';
+    }
+
+    function binLabelSigned(v){
+      v = Number(v);
+      if (v <= -60) return "Strongly conflicting";
+      if (v <  -NEUTRAL_BAND) return "Weakly conflicting";
+      if (Math.abs(v) <= NEUTRAL_BAND) return "Neither";
+      if (v <   60) return "Weakly supporting";
+      return "Strongly supporting";
+    }
+
+    // Fill from the center (0) outwards, using grey in the neutral band.
+    function paintFromZero(slider, value){
+      const min = Number(slider.min) || -100;
+      const max = Number(slider.max) ||  100;
+      const v   = Math.max(min, Math.min(max, Number(value)));
+      const pct = ((v - min) / (max - min)) * 100; // value position
+      const mid = ((0 - min) / (max - min)) * 100; // center (50 for -100..100)
+
+      if (v === 0){
+        slider.style.background = 'linear-gradient(to right,#e0e0e0 0%,#e0e0e0 100%)';
+        return;
+      }
+
+      const neutral = Math.abs(v) <= NEUTRAL_BAND;
+      const color   = neutral ? COL_NONE : (v > 0 ? COL_POS : COL_NEG);
+
+      if (v > 0){
+        slider.style.background =
+          `linear-gradient(to right,
+            #e0e0e0 0%,
+            #e0e0e0 ${mid}%,
+            ${color} ${mid}%,
+            ${color} ${pct}%,
+            #e0e0e0 ${pct}%,
+            #e0e0e0 100%)`;
+      } else {
+        slider.style.background =
+          `linear-gradient(to right,
+            #e0e0e0 0%,
+            #e0e0e0 ${pct}%,
+            ${color} ${pct}%,
+            ${color} ${mid}%,
+            #e0e0e0 ${mid}%,
+            #e0e0e0 100%)`;
+      }
+    }
+
+    // Build one row
+    function buildRow(i, A, B){
+      const el = document.createElement('div');
+      el.className = 'pair-row';
+      el.innerHTML = `
+        <div class="sentence">
+          The relation between<b> “${A}”</b> and <b>“${B}”</b> is best described as:
+        </div>
+        <div class="slider-block">
+          <div class="scale-anchors" aria-hidden="true">
+            <span>Strongly conflicting</span>
+            <span>Weakly conflicting</span>
+            <span>Neither</span>
+            <span>Weakly supporting</span>
+            <span>Strongly supporting</span>
+          </div>
+          <input type="range" class="likert-slider pristine" id="slider_${i}" min="-100" max="100" step="1" value="0" />
+          <div class="readout" id="readout_${i}">Please move the slider</div>
+          <textarea
+            class="reason"
+            id="reason_${i}"
+            placeholder="In your own words, how do these relate (or not)?"
+            required
+          ></textarea>
+          <div class="helper">
+          </div>
+        </div>
+      `;
+
+      // Wire up
+      const s = el.querySelector(`#slider_${i}`);
+      const r = el.querySelector(`#readout_${i}`);
+
+      // Start centered (0) but not yet answered (neutral track + lighter thumb)
+      s.dataset.answered = "0";
+      s.value = "0";
+      s.classList.add('pristine');
+      s.style.background = '#e0e0e0';
+
+      s.addEventListener('input', () => {
+        s.classList.remove('pristine');
+        s.dataset.answered = "1";
+        paintFromZero(s, s.value);
+
+        const v = Number(s.value);
+        const signed = (v > 0 ? '+' : '') + Math.round(v);
+        r.innerHTML = `Selected: <b>${binLabelSigned(v)}</b> — ${signed} / 100`;
+
+        maybeHintReady();
+      });
+
+      return el;
+    }
+
+    // Render
+    PAIRS.forEach((p,i) => list.appendChild(buildRow(i, p[0], p[1])));
+
+    // Validation helpers
+    function slidersOk(){
+      for (let i=0; i<PAIRS.length; i++){
+        const s = document.getElementById(`slider_${i}`);
+        if (!s || s.dataset.answered !== "1") return false;
+      }
+      return true;
+    }
+    function reasonsOk(){
+      for (let i=0; i<PAIRS.length; i++){
+        const t = document.getElementById(`reason_${i}`);
+        if (!t || !t.value || !t.value.trim()) return false;
+      }
+      return true;
+    }
+
+    function scrollToFirstIncomplete(){
+      for (let i=0; i<PAIRS.length; i++){
+        const s = document.getElementById(`slider_${i}`);
+        const t = document.getElementById(`reason_${i}`);
+        const sliderIncomplete = !s || s.dataset.answered !== "1";
+        const reasonIncomplete = !t || !t.value || !t.value.trim();
+
+        if (sliderIncomplete || reasonIncomplete){
+          const target = reasonIncomplete ? t : s;
+          target?.scrollIntoView({behavior:'smooth', block:'center'});
+          target?.focus({preventScroll:true});
+          break;
+        }
+      }
+    }
+
+    // Optional visual hint (does not block clicking)
+    function maybeHintReady(){
+      const ok = slidersOk() && reasonsOk() && llmDone;
+      nextBtn?.classList.toggle('looks-disabled', !ok);
+    }
+
+    // Build output payload
+    function bucketFor(v){
+      if (v <= -60) return "Strongly conflicting";
+      if (v <  -NEUTRAL_BAND) return "Weakly conflicting";
+      if (Math.abs(v) <= NEUTRAL_BAND) return "Neither";
+      if (v <   60) return "Weakly supportive";
+      return "Strongly supportive";
+    }
+    function typeFor(v){
+      if (v <  -NEUTRAL_BAND) return 2; // negative
+      if (v >   NEUTRAL_BAND) return 1; // positive
+      return 0;                         // neutral
+    }
+    function buildPayload(){
+      return PAIRS.map((pair, i) => {
+        const s = document.getElementById(`slider_${i}`);
+        const r = document.getElementById(`reason_${i}`);
+        const v = Number(s.value);
+        return {
+          pair,
+          slider: v,                 // -100..+100
+          bucket: bucketFor(v),
+          type: typeFor(v),
+          reason: (r?.value || '').trim()
+        };
+      });
+    }
+
+    // Submit behavior: allow click any time, but guide if not ready
+    let llmDone = false;
+
+    function handleTrySubmit(e){
+      const ok1 = slidersOk();
+      const ok2 = reasonsOk();
+
+      if (!ok1 || !ok2){
+        e.preventDefault();
+        setStatus(
+          'warn',
+          'Please move every slider and describe in your own words how you experience each pair before continuing.'
+        );
+        scrollToFirstIncomplete();
+        return false;
+      }
+
+      if (!llmDone){
+        e.preventDefault();
+        setStatus(
+          'muted',
+          `<span class="spinner" aria-hidden="true"></span> Please wait a few seconds while a background check finishes…`
+        );
+        return false;
+      }
+
+      // Ready → pack + submit
+      hiddenOut.value = JSON.stringify(buildPayload());
+      setStatus('', '');
+      return true;
+    }
+
+    nextBtn?.addEventListener('click', handleTrySubmit, {capture:true});
+    form?.addEventListener('submit', handleTrySubmit, {capture:true});
+
+    // Background task: start + receive
+    if (typeof liveSend === 'function') {
+      try { liveSend({ start: true }); } catch (_) {}
+    }
+    window.liveRecv = function(msg){
+      if (msg && msg.done){
+        llmDone = true;
+        maybeHintReady();
+        if (statusEl && statusEl.textContent.includes('Please wait')){
+          setStatus('', 'Background check finished — you can continue.');
+          setTimeout(() => setStatus('', ''), 1500);
+        }
+      }
+    };
+  });
+</script>
+{% endblock %}

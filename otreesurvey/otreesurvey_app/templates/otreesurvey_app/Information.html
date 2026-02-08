@@ -1,0 +1,97 @@
+{% extends "global/Page.html" %} {% block styles %}
+<link rel="stylesheet" href="{{ static 'global.css' }}" />
+<style>
+  /* Demo-only styles to show the buttons exactly as on the interview page */
+  .recording-active {
+    background-color: #dc3545 !important;
+    color: #fff !important;
+    animation: pulse 1s infinite;
+  }
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(220, 53, 69, 0.9);
+    }
+    100% {
+      box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
+    }
+  }
+  .demo-buttons {
+    display: grid;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .demo-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .demo-caption {
+    min-width: 140px;
+    color: #555;
+  }
+  .demo-buttons button {
+    pointer-events: none;
+  } /* prevent clicks on info page */
+</style>
+{% endblock %} {% block content %}
+
+<div class="card bg-light m-3">
+  <div class="card-body">
+    <p>
+      In the first part of the experiment you will be interviewed by an AI about
+      your meat-eating habits and motivations. On the next page, please allow
+      your internet browser to use your microphone if at all possible. If this
+      is not possible, you can write your responses instead.
+    </p>
+  </div>
+</div>
+
+<div class="card bg-light m-3">
+  <div class="card-body">
+    <p class="mb-2">
+      On the next page you will see a recording button with the text "Start
+      Recording". When you press it, it will turn red and show the text "Stop
+      Recording". When you click "Stop Recording" you will see a transcript
+      after a few seconds. If you are happy with the transcript, press the blue
+      "Submit Answer" button. Otherwise you can edit the transcription or make a
+      new recording.
+    </p>
+
+    <!-- Exact-looking demo buttons -->
+    <div class="demo-buttons">
+      <div class="demo-row">
+        <span class="demo-caption">Start recording:</span>
+        <button type="button" class="btn btn-secondary btn-lg">
+          🎤 Start Recording
+        </button>
+      </div>
+      <div class="demo-row">
+        <span class="demo-caption">While recording:</span>
+        <button type="button" class="btn btn-secondary btn-lg recording-active">
+          🛑 Stop Recording
+        </button>
+      </div>
+      <div class="demo-row">
+        <span class="demo-caption">Submit Answer:</span>
+        <button type="button" class="btn btn-primary btn-lg">
+          Submit Answer
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card bg-light m-3">
+  <div class="card-body">
+    <p>
+      On the next page we will make sure that everything works correctly before
+      we begin the real interview. When you are ready click the blue "Next"
+      button.
+    </p>
+  </div>
+</div>
+
+{{ next_button }} {% endblock %}

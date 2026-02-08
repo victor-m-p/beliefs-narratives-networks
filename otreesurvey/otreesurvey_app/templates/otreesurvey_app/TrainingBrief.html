@@ -1,0 +1,47 @@
+{% extends "global/Page.html" %} {% block styles %}
+<style>
+  .card {
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    border-radius: 12px;
+    padding: 14px 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    margin: 0 auto 14px;
+    max-width: 900px;
+  }
+  .eyebrow {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #111;
+    margin: 0 0 6px;
+  }
+  .muted {
+    color: #555;
+    line-height: 1.5;
+  }
+</style>
+{% endblock %} {% block content %}
+
+<div class="card">
+  <p class="eyebrow">Practice exercise</p>
+
+  {% if wave == 'w1' %}
+  <p class="muted">
+    In the next steps, you will complete a practice exercises. The task is meant
+    to be engaging, but it may take a little practice to get used to. You will
+    be shown 3 stories about different people and create connections between
+    short statements extracted from these stories. This practice will take about
+    15 minutes. Afterwards, you will carry out the same task using your own
+    statements about meat eating.
+  </p>
+  {% elif wave == 'w2' %}
+  <p class="muted">
+    In the next steps, you will complete a short practice exercise to refresh
+    the task. You will see 1 story and create connections between short
+    statements extracted from it. Afterwards, you will carry out the same task
+    using your own statements about meat eating.
+  </p>
+  {% endif %}
+</div>
+
+{{ next_button }} {% endblock %}

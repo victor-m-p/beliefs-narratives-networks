@@ -1,0 +1,788 @@
+{% extends "global/Page.html" %} {% load static %} {% block scripts %}
+<script src="{% static 'otreesurvey_app/canvasflex.js' %}?v=20251001"></script>
+{% endblock %} {% block styles %}
+<style>
+  .instruction-card {
+    border: 1px solid #e6e6e6;
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 12px 14px;
+    margin: 0 auto 12px;
+    max-width: 1100px;
+  }
+  .instruction-card h2 {
+    margin: 0 0 6px;
+    font-size: 1.15rem;
+  }
+
+  .compare-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    max-width: 1100px;
+    margin: 0 auto 16px;
+  }
+  .panel {
+    border: 1px solid #e6e6e6;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    padding: 10px;
+    transition: border-color 0.12s, box-shadow 0.12s;
+  }
+  .panel header {
+    text-align: center;
+    font-weight: 800;
+    margin: 6px 0 10px;
+  }
+  .panel.selected {
+    border-color: #666;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.12);
+  }
+
+  .canvasBox {
+    position: relative;
+    width: 100%;
+  }
+  canvas {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 0;
+  }
+
+  .legend {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 8px;
+  }
+  .legend .swatch {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+
+  .panel-rate {
+    margin-top: 10px;
+  }
+  .slider-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 6px;
+  }
+  .slider-title {
+    font-weight: 700;
+    color: #111;
+    font-size: 0.98rem;
+  }
+  .slider-value {
+    display: none !important;
+    min-width: 0;
+  }
+
+  .likert-slider {
+    width: 100%;
+    height: 14px;
+    border-radius: 7px;
+    background: #e0e0e0;
+    outline: none;
+    appearance: none;
+    margin: 4px 0 2px;
+  }
+  .likert-slider:focus-visible {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.08);
+  }
+  .likert-slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    background: #111;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  .likert-slider::-moz-range-thumb {
+    width: 22px;
+    height: 22px;
+    background: #111;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  .likert-slider::-moz-range-track {
+    height: 14px;
+    border-radius: 7px;
+    background: transparent;
+  }
+  .likert-slider.pristine {
+    background: #ccc;
+  }
+  .likert-slider.pristine::-webkit-slider-thumb,
+  .likert-slider.pristine::-moz-range-thumb {
+    background: #bbb;
+  }
+
+  .tick-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 4px;
+  }
+  .tick {
+    position: relative;
+    flex: 0 0 auto;
+    text-align: center;
+    color: #555;
+    font-size: 0.88rem;
+    min-width: 70px;
+  }
+  .tick::before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 10px;
+    background: #bbb;
+    margin: 0 auto 4px;
+  }
+  .tick:first-child {
+    text-align: left;
+    min-width: 80px;
+  }
+  .tick:first-child::before {
+    margin-left: 0;
+  }
+  .tick:last-child {
+    text-align: right;
+    min-width: 80px;
+  }
+  .tick:last-child::before {
+    margin-right: 0;
+  }
+
+  .choice-actions {
+    max-width: 1100px;
+    margin: 8px auto 0;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .big-select {
+    flex: 1 1 260px;
+    max-width: 420px;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 18px;
+    font-weight: 800;
+    font-size: 1.05rem;
+    cursor: pointer;
+    background: #f7f7f7;
+    color: #222;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.06s, box-shadow 0.06s, filter 0.06s;
+  }
+  .big-select:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  }
+  .big-select:active {
+    transform: translateY(0);
+    filter: brightness(0.98);
+  }
+  .big-select.selected {
+    background: #eee;
+    outline: 2px solid #666;
+    color: #111;
+  }
+
+  .choice-block {
+    max-width: 1100px;
+    margin: 10px auto 0;
+  }
+  .choice-question {
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.05rem;
+    color: #111;
+    margin: 6px 0 10px;
+  }
+
+  #explainWrap {
+    max-width: 1100px;
+    width: 100%;
+    margin: 12px auto 24px;
+    display: block;
+    overflow: visible;
+    max-height: 0;
+    opacity: 0;
+    padding: 0 14px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    scroll-margin-bottom: 96px;
+    transition: max-height 0.25s ease, opacity 0.25s ease, padding 0.25s ease,
+      border-color 0.25s ease;
+  }
+  #explainWrap.open {
+    opacity: 1;
+    padding: 12px 14px 22px;
+    border-color: #e6e6e6;
+  }
+
+  #inlineWarn {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #b22;
+  }
+
+  .otree-btn-next.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+</style>
+{% endblock %} {% block content %}
+
+<div class="instruction-card">
+  <h2>Which network best describes your meat-eating influences?</h2>
+  <p>
+    Thank you for completing the interview on how things relate. We will now
+    present you with pairs of networks that might describe how different things
+    relate to each other for you. Please take a careful look at the two networks
+    below and rate how well they describe your meat-eating influences. Only the
+    connections differ, so focus on comparing these. You will compare 6 pairs of
+    networks in total.
+  </p>
+  <p>
+    <b>Your task:</b> Rate how well each network captures how things relate for
+    you. Then pick the one you think is more accurate overall and briefly
+    explain why you prefer it over the other one.
+  </p>
+</div>
+
+<div class="compare-wrap">
+  <!-- Left -->
+  <div class="panel" id="panelLeft">
+    <header>Network 1</header>
+    <div class="canvasBox"><canvas id="leftCanvas"></canvas></div>
+    <div class="legend">
+      <span class="swatch" style="background: #998ec3"></span>Supporting
+      &nbsp;&nbsp;<span class="swatch" style="background: #f1a340"></span
+      >Conflicting
+    </div>
+    <div class="panel-rate" id="rateLeft">
+      <div class="slider-row">
+        <div class="slider-title">
+          How well does this describe your meat-eating influences?
+        </div>
+        <div class="slider-value"><span id="leftOut">—</span>/100</div>
+      </div>
+      <input
+        id="leftUI"
+        class="likert-slider pristine"
+        type="range"
+        min="0"
+        max="100"
+        step="1"
+      />
+      <div class="tick-bar" aria-hidden="true">
+        <div class="tick">Not at all</div>
+        <div class="tick">Moderately</div>
+        <div class="tick">Perfectly</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right -->
+  <div class="panel" id="panelRight">
+    <header>Network 2</header>
+    <div class="canvasBox"><canvas id="rightCanvas"></canvas></div>
+    <div class="legend">
+      <span class="swatch" style="background: #998ec3"></span>Supporting
+      &nbsp;&nbsp;<span class="swatch" style="background: #f1a340"></span
+      >Conflicting
+    </div>
+    <div class="panel-rate" id="rateRight">
+      <div class="slider-row">
+        <div class="slider-title">
+          How well does this describe your meat-eating influences?
+        </div>
+        <div class="slider-value"><span id="rightOut">—</span>/100</div>
+      </div>
+      <input
+        id="rightUI"
+        class="likert-slider pristine"
+        type="range"
+        min="0"
+        max="100"
+        step="1"
+      />
+      <div class="tick-bar" aria-hidden="true">
+        <div class="tick">Not at all</div>
+        <div class="tick">Moderately</div>
+        <div class="tick">Perfectly</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div
+  class="choice-block"
+  role="radiogroup"
+  aria-label="Which network overall is most accurate?"
+>
+  <p class="choice-question">
+    Which network overall describes your meat-eating influences most accurately?
+  </p>
+  <div class="choice-actions">
+    <button
+      type="button"
+      class="big-select"
+      id="choose1"
+      role="radio"
+      aria-checked="false"
+    >
+      Select Network 1
+    </button>
+    <button
+      type="button"
+      class="big-select"
+      id="choose2"
+      role="radio"
+      aria-checked="false"
+    >
+      Select Network 2
+    </button>
+  </div>
+</div>
+
+<!-- Explanation (text only) -->
+<div id="explainWrap">
+  <p id="explainQuestion" style="font-weight: 800; margin-bottom: 8px">
+    Please tell us why you prefer Network 1 over Network 2.
+  </p>
+
+  <div id="typed-response" class="form-group mt-2">
+    <label for="current_answer">Your Answer:</label>
+    <textarea id="current_answer" class="form-control" rows="4"></textarea>
+  </div>
+
+  <div id="inlineWarn"></div>
+</div>
+
+<!-- Hidden outputs -->
+<input
+  type="hidden"
+  id="network_compare_choice"
+  name="network_compare_choice"
+/>
+<input
+  type="hidden"
+  id="network_compare_reason"
+  name="network_compare_reason"
+/>
+<input
+  type="hidden"
+  id="network_compare_mapping"
+  name="network_compare_mapping"
+/>
+<input
+  type="hidden"
+  id="network_compare_rating_1"
+  name="network_compare_rating_1"
+/>
+<input
+  type="hidden"
+  id="network_compare_rating_2"
+  name="network_compare_rating_2"
+/>
+
+{{ next_button }}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // ---- Data from backend ----
+    const labels = {{ labels_json|safe }};
+    const leftEdges = {{ left_edges_json|safe }};
+    const rightEdges = {{ right_edges_json|safe }};
+    const leftId = {{ left_id_json|safe }}; // 'user' | 'llm' | 'llm_random'
+    const rightId = {{ right_id_json|safe }};
+    const srcPoints = {{ positions_src_json|safe }};
+    const SRC_W = {{ positions_src_w }};
+    const SRC_H = {{ positions_src_h }};
+
+    // ---- palette / drawing config ----
+    const palette = {
+      labelFont: '11px system-ui, -apple-system, Segoe UI, Roboto, Arial',
+      labelMaxWidth: 150,
+      labelLineHeight: 14,
+      edge: {
+        positive: '#998ec3',
+        negative: '#f1a340',
+        other: '#666666',
+        minWidth: 3,
+        maxWidth: 3,
+      },
+      node: { defaultRadius: 16 },
+      borderWidth: 0,
+      borderColor: 'transparent',
+    };
+
+    function setupCanvas(canvas) {
+      const dpr = window.devicePixelRatio || 1;
+      const box = canvas.parentElement;
+      const css = Math.floor(box.clientWidth);
+      canvas.width = Math.floor(css * dpr);
+      canvas.height = Math.floor(css * dpr);
+      canvas.style.width = css + 'px';
+      canvas.style.height = css + 'px';
+      const ctx = canvas.getContext('2d');
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      return { ctx, size: css };
+    }
+
+    function buildUserPoints(size, labels, srcPoints, srcW, srcH) {
+      const by = Object.fromEntries(
+        (srcPoints || []).map((p) => [String(p.label), p]),
+      );
+      const sx = size / (srcW || size);
+      const sy = size / (srcH || size);
+      const s = Math.min(sx, sy);
+      const R_SRC_DEFAULT = 15;
+
+      return labels.map((lab) => {
+        const p = by[String(lab)];
+        if (!p) {
+          const r0 = R_SRC_DEFAULT * s;
+          const r = Math.max(6, Math.round(r0));
+          return { label: lab, x: size / 2, y: size / 2, radius: r };
+        }
+        const rSrc = p.radius != null ? p.radius : R_SRC_DEFAULT;
+        const r = Math.max(6, Math.round(rSrc * s));
+        const x = Math.min(size - r, Math.max(r, p.x * sx));
+        const y = Math.min(size - r, Math.max(r, p.y * sy));
+        return { label: lab, x, y, radius: r };
+      });
+    }
+
+    function scalePalette(base, scale) {
+      const p = JSON.parse(JSON.stringify(base));
+      const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
+      const ewMin = (base.edge?.minWidth ?? 3) * scale;
+      const ewMax = (base.edge?.maxWidth ?? 3) * scale;
+      p.edge.minWidth = clamp(ewMin, 1, 4);
+      p.edge.maxWidth = clamp(ewMax, 1, 4);
+      const fontPx = 11 * scale;
+      const lhPx = 14 * scale;
+      p.labelFont = `${Math.max(
+        9,
+        Math.round(fontPx),
+      )}px system-ui, -apple-system, Segoe UI, Roboto, Arial`;
+      p.labelLineHeight = Math.max(12, Math.round(lhPx));
+      const nd = (base.node?.defaultRadius ?? 16) * scale;
+      p.node.defaultRadius = clamp(nd, 6, 18);
+      return p;
+    }
+
+    function rehydrateEdges(raw, points) {
+      const by = Object.fromEntries(points.map((p) => [p.label, p]));
+      return (raw || [])
+        .map((e) => {
+          const s1 = e.stance_1 ?? e.from;
+          const s2 = e.stance_2 ?? e.to;
+          const from = by[s1];
+          const to = by[s2];
+          if (!from || !to) return null;
+          return {
+            from,
+            to,
+            polarity: e.polarity || 'other',
+            strength: 50,
+          };
+        })
+        .filter(Boolean);
+    }
+
+    function suppressDefaultLabelForBottom(points) {
+      if (!points.length) return null;
+      let idx = 0;
+      for (let i = 1; i < points.length; i++) {
+        if (points[i].y > points[idx].y) idx = i;
+      }
+      const p = points[idx];
+      p._realLabel = p.label;
+      p.label = '';
+      return p;
+    }
+
+    function wrapText(ctx, text, maxWidth) {
+      const words = String(text).split(/\s+/);
+      const lines = [];
+      let line = '';
+      for (const w of words) {
+        const test = line ? line + ' ' + w : w;
+        if (ctx.measureText(test).width <= maxWidth) line = test;
+        else {
+          if (line) lines.push(line);
+          line = w;
+        }
+      }
+      if (line) lines.push(line);
+      return lines;
+    }
+
+    function drawLabelBelow(ctx, point, pal) {
+      if (!point || !point._realLabel) return;
+      ctx.save();
+      ctx.font = pal.labelFont;
+      ctx.fillStyle = '#111';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'top';
+      const lh = pal.labelLineHeight || 14;
+      const r = point.radius || (pal.node && pal.node.defaultRadius) || 16;
+      const lines = wrapText(
+        ctx,
+        point._realLabel,
+        pal.labelMaxWidth || 150,
+      );
+      const startY = point.y + r + 6;
+      for (let i = 0; i < lines.length; i++) {
+        ctx.fillText(lines[i], point.x, startY + i * lh);
+      }
+      ctx.restore();
+    }
+
+    function drawBoth() {
+      const leftEl = document.getElementById('leftCanvas');
+      const rightEl = document.getElementById('rightCanvas');
+      const L = setupCanvas(leftEl);
+      const R = setupCanvas(rightEl);
+
+      const ptsLeft = buildUserPoints(
+        L.size,
+        labels,
+        srcPoints,
+        SRC_W,
+        SRC_H,
+      );
+      const ptsRight = buildUserPoints(
+        R.size,
+        labels,
+        srcPoints,
+        SRC_W,
+        SRC_H,
+      );
+
+      const eLeft = rehydrateEdges(leftEdges, ptsLeft);
+      const eRight = rehydrateEdges(rightEdges, ptsRight);
+
+      const bottomL = suppressDefaultLabelForBottom(ptsLeft);
+      const bottomR = suppressDefaultLabelForBottom(ptsRight);
+
+      const sL = L.size / (SRC_W || L.size);
+      const sR = R.size / (SRC_W || R.size);
+      const palL = scalePalette(palette, sL);
+      const palR = scalePalette(palette, sR);
+
+      NoOverlap.drawGraph(L.ctx, leftEl, { points: ptsLeft, edges: eLeft }, palL);
+      NoOverlap.drawGraph(
+        R.ctx,
+        rightEl,
+        { points: ptsRight, edges: eRight },
+        palR,
+      );
+
+      drawLabelBelow(L.ctx, bottomL, palL);
+      drawLabelBelow(R.ctx, bottomR, palR);
+    }
+
+    drawBoth();
+    window.addEventListener('resize', drawBoth);
+
+    // ---- sliders + choice ----
+    const next =
+      document.querySelector('button[type=submit], .otree-btn-next');
+    const hidChoice = document.getElementById('network_compare_choice');
+    const hidReason = document.getElementById('network_compare_reason');
+    const hidMap = document.getElementById('network_compare_mapping');
+    const hidRate1 = document.getElementById('network_compare_rating_1');
+    const hidRate2 = document.getElementById('network_compare_rating_2');
+
+    function paintFromCenter(sl, value) {
+      const min = +sl.min || 0;
+      const max = +sl.max || 100;
+      const mid = (min + max) / 2;
+      const v = +value;
+      const color = '#111';
+      const left =
+        v < mid ? Math.max(0, 50 + ((v - mid) / (mid - min)) * 50) : 50;
+      const right =
+        v < mid ? 50 : Math.min(100, 50 + ((v - mid) / (max - mid)) * 50);
+      sl.style.background = `linear-gradient(to right,#e0e0e0 0%,#e0e0e0 ${left}%,${color} ${left}%,${color} ${right}%,#e0e0e0 ${right}%,#e0e0e0 100%)`;
+    }
+
+    function initSlider(id, outId, hidden) {
+      const s = document.getElementById(id);
+      const out = document.getElementById(outId);
+      function pristine() {
+        s.classList.add('pristine');
+        s.dataset.pristine = '1';
+        s.style.background = '#ccc';
+        out.textContent = '—';
+        hidden.value = '';
+      }
+      function chosen(v) {
+        s.classList.remove('pristine');
+        s.dataset.pristine = '0';
+        paintFromCenter(s, v);
+        out.textContent = String(Math.round(v));
+        hidden.value = String(Math.round(v));
+      }
+      if (hidden.value && !isNaN(+hidden.value)) {
+        s.value = hidden.value;
+        chosen(hidden.value);
+      } else {
+        pristine();
+      }
+      s.addEventListener('input', (e) => {
+        chosen(e.target.value);
+        updateNext();
+      });
+      return { isChosen: () => s.dataset.pristine !== '1' };
+    }
+
+    const leftSlider = initSlider('leftUI', 'leftOut', hidRate1);
+    const rightSlider = initSlider('rightUI', 'rightOut', hidRate2);
+
+    const btn1 = document.getElementById('choose1');
+    const btn2 = document.getElementById('choose2');
+    const panelL = document.getElementById('panelLeft');
+    const panelR = document.getElementById('panelRight');
+    const explain = document.getElementById('explainWrap');
+    const explainQuestion = document.getElementById('explainQuestion');
+    const warn = document.getElementById('inlineWarn');
+
+    let choice = null;
+
+    function hasExplanation() {
+      const textVal =
+        document.getElementById('current_answer')?.value.trim() || '';
+      return !!textVal;
+    }
+
+    function updateNext() {
+      const ok =
+        !!choice &&
+        leftSlider.isChosen() &&
+        rightSlider.isChosen() &&
+        hasExplanation();
+
+      if (!next) return;
+      if (ok) {
+        next.classList.remove('disabled');
+        if (warn) warn.style.display = 'none';
+      } else {
+        next.classList.add('disabled');
+      }
+    }
+
+    function openExplainCard() {
+      explain.classList.add('open');
+      requestAnimationFrame(() => {
+        explain.style.maxHeight = explain.scrollHeight + 24 + 'px';
+      });
+    }
+
+    function updateExplainQuestion() {
+      if (!choice) return;
+      const preferred =
+        choice === '1' ? 'Network 1' : 'Network 2';
+      const other = choice === '1' ? 'Network 2' : 'Network 1';
+      explainQuestion.textContent =
+        'Please tell us why you prefer ' +
+        preferred +
+        ' over ' +
+        other +
+        '.';
+    }
+
+    function choose(which) {
+      choice = which;
+      btn1.classList.toggle('selected', which === '1');
+      btn2.classList.toggle('selected', which === '2');
+      panelL.classList.toggle('selected', which === '1');
+      panelR.classList.toggle('selected', which === '2');
+      btn1.setAttribute('aria-checked', String(which === '1'));
+      btn2.setAttribute('aria-checked', String(which === '2'));
+
+      openExplainCard();
+      updateExplainQuestion();
+      updateNext();
+
+      setTimeout(() => {
+        explain.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 120);
+    }
+
+    btn1.addEventListener('click', () => choose('1'));
+    btn2.addEventListener('click', () => choose('2'));
+
+    // text input tracking
+    document
+      .getElementById('current_answer')
+      ?.addEventListener('input', () => {
+        updateNext();
+      });
+
+    updateNext();
+
+    // ---- pack data & validate on next ----
+    if (next) {
+      next.addEventListener(
+        'click',
+        function (e) {
+          if (!choice || !leftSlider.isChosen() || !rightSlider.isChosen()) {
+            e.preventDefault();
+            if (warn) {
+              warn.textContent =
+                'Please rate both networks and choose which one you prefer.';
+              warn.style.display = 'block';
+              warn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+            return;
+          }
+
+          if (!hasExplanation()) {
+            e.preventDefault();
+            if (warn) {
+              warn.textContent =
+                'Please briefly explain why you prefer one network over the other.';
+              warn.style.display = 'block';
+              warn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+            return;
+          }
+
+          const chosenId = choice === '1' ? leftId : rightId;
+          const textVal =
+            document.getElementById('current_answer')?.value.trim() || '';
+
+          hidChoice.value = choice;
+          hidReason.value = textVal || '';
+          hidMap.value = chosenId;
+        },
+        { capture: true },
+      );
+    }
+  });
+</script>
+
+{% endblock %}

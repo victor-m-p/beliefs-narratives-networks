@@ -1,0 +1,653 @@
+{% extends "global/Page.html" %} {% load static %} {% block scripts %}
+<script src="{% static 'otreesurvey_app/canvasflex.js' %}?v=20251001"></script>
+{% endblock %} {% block styles %}
+<style>
+  .card {
+    border: 1px solid #e6e6e6;
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 12px 14px;
+    margin-bottom: 12px;
+  }
+  .card h3 {
+    margin: 0 0 6px;
+    font-size: 1.05rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .panel {
+    border: 1px solid #e6e6e6;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    padding: 10px;
+  }
+  .panel header {
+    text-align: center;
+    font-weight: 800;
+    margin: 4px 0 8px;
+  }
+  .canvasBox {
+    position: relative;
+    width: 100%;
+  }
+  canvas {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 0;
+  }
+  .legend {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 6px;
+  }
+  .legend .sw {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+  .stepper {
+    margin: 10px auto 0;
+    text-align: center;
+    max-width: 1100px;
+  }
+  .pill {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #ece8f7;
+    font-weight: 800;
+  }
+  .actions {
+    max-width: 1100px;
+    margin: 10px auto 0;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .big {
+    flex: 1 1 260px;
+    max-width: 420px;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 18px;
+    font-weight: 800;
+    font-size: 1.05rem;
+    cursor: pointer;
+    background: #f7f7f7;
+    color: #222;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.06s, box-shadow 0.06s, filter 0.06s;
+  }
+  .big:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  }
+  .big:active {
+    transform: translateY(0);
+    filter: brightness(0.98);
+  }
+  .otree-btn-next {
+    display: none;
+  }
+
+  .instruction-card,
+  .items-card {
+    max-width: 900px;
+    margin: 0 auto 14px auto;
+    border: 1px solid #e6e6e6;
+    border-radius: 12px;
+    padding: 14px 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  }
+  .instruction-card {
+    background: #fafafa;
+  }
+  .items-card {
+    background: #fff;
+  }
+  .eyebrow {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111;
+    margin: 0.25rem 0 0.5rem;
+  }
+
+  /* Comment card */
+  .comment-card {
+    max-width: 1100px;
+    margin: 14px auto 0;
+    border: 1px solid #e6e6e6;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    padding: 0;
+  }
+  .comment-full {
+    display: block;
+    width: 100%;
+    min-height: 110px;
+    border: none;
+    border-radius: 12px;
+    padding: 14px 16px;
+    font: inherit;
+    color: #111;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.03);
+    resize: vertical;
+  }
+  .comment-full:focus {
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.03),
+      0 0 0 3px rgba(0, 0, 0, 0.06);
+  }
+  .comment-help {
+    max-width: 1100px;
+    margin: 6px auto 0;
+    color: #666;
+    font-size: 0.9rem;
+    padding: 0 2px;
+    min-height: 1.2em;
+  }
+</style>
+{% endblock %} {% block content %}
+<div class="card">
+  <h2>Which connections are more accurate?</h2>
+  <p style="margin: 0">
+    We’ll highlight one circle at a time on both networks. For each highlighted
+    circle, choose the network that best captures how it’s connected to the
+    others.
+  </p>
+</div>
+
+<div class="grid">
+  <div class="panel">
+    <header>Network 1</header>
+    <div class="canvasBox"><canvas id="leftCanvas"></canvas></div>
+    <div class="legend">
+      <span class="sw" style="background: #998ec3"></span>Positive&nbsp;&nbsp;
+      <span class="sw" style="background: #f1a340"></span>Negative
+    </div>
+  </div>
+  <div class="panel">
+    <header>Network 2</header>
+    <div class="canvasBox"><canvas id="rightCanvas"></canvas></div>
+    <div class="legend">
+      <span class="sw" style="background: #998ec3"></span>Positive&nbsp;&nbsp;
+      <span class="sw" style="background: #f1a340"></span>Negative
+    </div>
+  </div>
+</div>
+
+<div class="stepper">
+  <div style="font-weight: 800">
+    Node <span id="stepNum">1</span> of <span id="stepTotal">3</span>
+  </div>
+  <div style="margin-top: 6px">
+    Focus on all connections to and from:
+    <span class="pill" id="focusTag"></span>
+  </div>
+</div>
+
+<div class="actions">
+  <button type="button" class="big" id="pickLeft">
+    Network 1 is more accurate
+  </button>
+  <button type="button" class="big" id="pickRight">
+    Network 2 is more accurate
+  </button>
+</div>
+
+<br />
+
+<!-- Comment box that clears AFTER a choice is made (but saves into trials) -->
+<div class="comment-card">
+  <textarea
+    id="overall_comment"
+    class="comment-full"
+    name="node_compare_comment"
+    placeholder="(Optional) Tell us more about your choice…"
+  ></textarea>
+</div>
+<div id="commentStatus" class="comment-help" aria-live="polite"></div>
+
+<input type="hidden" id="nodewise_compare_trials" name="node_compare_pernode" />
+
+<!-- Safe JSON payloads -->
+<script type="application/json" id="labels-data">
+  {{ labels_json|safe }}
+</script>
+<script type="application/json" id="userEdges-data">
+  {{ user_edges_json|safe }}
+</script>
+<script type="application/json" id="llmEdges-data">
+  {{ llm_edges_json|safe }}
+</script>
+<script type="application/json" id="sampledNodes-data">
+  {{ sampled_nodes_json|safe }}
+</script>
+<script type="application/json" id="userOnLeft-data">
+  {{ user_on_left_js|safe }}
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // ----- comment helpers -----
+    const commentBox = document.getElementById('overall_comment');
+    const commentStatus = document.getElementById('commentStatus');
+    const grow = (el) => {
+      el.style.height = 'auto';
+      el.style.height = el.scrollHeight + 'px';
+    };
+    const flash = (msg) => {
+      if (!commentStatus) return;
+      commentStatus.textContent = msg || '';
+      if (msg)
+        setTimeout(() => {
+          commentStatus.textContent = '';
+        }, 1400);
+    };
+    if (commentBox) {
+      grow(commentBox);
+      commentBox.addEventListener('input', () => grow(commentBox));
+    }
+
+    // ----- data -----
+    const labels = JSON.parse(
+      document.getElementById('labels-data').textContent || '[]'
+    );
+    const userEdges = JSON.parse(
+      document.getElementById('userEdges-data').textContent || '[]'
+    );
+    const llmEdges = JSON.parse(
+      document.getElementById('llmEdges-data').textContent || '[]'
+    );
+    const sampled = JSON.parse(
+      document.getElementById('sampledNodes-data').textContent || '[]'
+    );
+    const userOnLeft = JSON.parse(
+      document.getElementById('userOnLeft-data').textContent || 'true'
+    );
+
+    const leftCanvas = document.getElementById('leftCanvas');
+    const rightCanvas = document.getElementById('rightCanvas');
+    const stepNum = document.getElementById('stepNum');
+    const stepTotal = document.getElementById('stepTotal');
+    const focusTag = document.getElementById('focusTag');
+    const outTrials = document.getElementById('nodewise_compare_trials');
+
+    const leftRaw = userOnLeft ? userEdges : llmEdges;
+    const rightRaw = userOnLeft ? llmEdges : userEdges;
+
+    stepTotal.textContent = String(sampled.length || 3);
+
+    // ----- palettes -----
+    const paletteBright = {
+      labelFont: '11px system-ui,-apple-system,Segoe UI,Roboto,Arial',
+      labelColor: '#222',
+      labelMaxWidth: 150,
+      labelLineHeight: 14,
+      node: {
+        defaultRadius: 16,
+        orange: '#5CA4A9',
+        orangeSelected: '#8CC7CA',
+        grey: '#999',
+        greySelected: '#777',
+        stroke: '#000',
+        strokeWidth: 2,
+      },
+      edge: {
+        positive: '#998ec3',
+        negative: '#f1a340',
+        other: '#666666',
+        minWidth: 3,
+        maxWidth: 3,
+      },
+    };
+    const paletteDim = {
+      ...paletteBright,
+      labelColor: '#999',
+      node: {
+        ...paletteBright.node,
+        orange: '#d7ecee',
+        orangeSelected: '#d7ecee',
+        grey: '#ddd',
+        greySelected: '#ddd',
+      },
+      edge: {
+        positive: 'rgba(153,142,195,0.16)',
+        negative: 'rgba(241,163,64,0.16)',
+        other: 'rgba(102,102,102,0.10)',
+        minWidth: 2,
+        maxWidth: 2,
+      },
+    };
+
+    // ----- canvas helpers -----
+    function setupCanvas(canvas) {
+      const dpr = window.devicePixelRatio || 1;
+      const box = canvas.parentElement;
+      const css = Math.floor(box.clientWidth);
+      canvas.width = Math.floor(css * dpr);
+      canvas.height = Math.floor(css * dpr);
+      canvas.style.width = css + 'px';
+      canvas.style.height = css + 'px';
+      const ctx = canvas.getContext('2d');
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      return { ctx, size: css };
+    }
+    function buildRingPoints(size, labels, margin = 72) {
+      const cx = size / 2,
+        cy = size / 2,
+        r = Math.min(size, size) / 2 - margin;
+      const step = (2 * Math.PI) / Math.max(1, labels.length),
+        start = 0;
+      return labels.map((lab, i) => ({
+        label: lab,
+        x: cx + r * Math.cos(start + i * step),
+        y: cy + r * Math.sin(start + i * step),
+        radius: 16,
+      }));
+    }
+    function rehydrateEdges(raw, points) {
+      const by = Object.fromEntries(points.map((p) => [p.label, p]));
+      return (raw || [])
+        .map((e) => {
+          const f = by[e.from],
+            t = by[e.to];
+          if (!f || !t) return null;
+          return {
+            from: f,
+            to: t,
+            polarity: e.polarity || 'other',
+            strength: 50,
+          };
+        })
+        .filter(Boolean);
+    }
+
+    // --- local label dodge (matches NoOverlap) ---
+    const DEFAULTS = NoOverlap?.DRAW_DEFAULTS || {
+      labelFont: '14px sans-serif',
+      labelLineHeight: 18,
+      labelMaxWidth: 180,
+      labelGap: 4,
+      node: { defaultRadius: 20 },
+      dodge: {
+        passes: 22,
+        maxShift: 70,
+        separatePad: 2,
+        preferAbovePenalty: 0.6,
+      },
+    };
+    function wrapText(ctx, text, maxWidth) {
+      const words = String(text || '').split(/\s+/),
+        lines = [];
+      let line = '';
+      for (const w of words) {
+        const test = line ? line + ' ' + w : w;
+        if (ctx.measureText(test).width <= maxWidth) line = test;
+        else {
+          if (line) lines.push(line);
+          line = w;
+        }
+      }
+      if (line) lines.push(line);
+      return lines;
+    }
+    function measureLabel(ctx, p, opts, position = 'above') {
+      const o = { ...DEFAULTS, ...opts },
+        n = { ...DEFAULTS.node, ...(opts?.node || {}) };
+      const r = p.radius ?? n.defaultRadius;
+      ctx.font = o.labelFont;
+      const lines = wrapText(ctx, String(p.label || ''), o.labelMaxWidth);
+      let widest = 0;
+      for (const ln of lines)
+        widest = Math.max(widest, ctx.measureText(ln).width);
+      const w = widest,
+        h = lines.length * o.labelLineHeight;
+      let top =
+        position === 'above'
+          ? p.y - r / 1.5 - o.labelGap - h
+          : p.y + r + o.labelGap;
+      const leftCentered = (xCenter) => Math.round(xCenter - w / 2);
+      return {
+        lines,
+        w,
+        h,
+        top,
+        leftCentered,
+        lineHeight: o.labelLineHeight,
+        position,
+      };
+    }
+    const overlap = (a, b) =>
+      !(
+        a.right <= b.left ||
+        b.right <= a.left ||
+        a.bottom <= b.top ||
+        b.bottom <= a.top
+      );
+    function rectFor(rec, dx, position) {
+      const m = rec.mByPos[position];
+      const left = m.leftCentered(rec.p.x + dx);
+      return { left, right: left + m.w, top: m.top, bottom: m.top + m.h };
+    }
+    function totalOverlapsFor(index, info, dxs, posStates) {
+      let count = 0;
+      const a = rectFor(info[index], dxs[index], posStates[index]);
+      for (let j = 0; j < info.length; j++) {
+        if (j === index) continue;
+        const b = rectFor(info[j], dxs[j], posStates[j]);
+        if (overlap(a, b)) count++;
+      }
+      return count;
+    }
+    function computeDodges(ctx, canvas, points, opts) {
+      const o = { ...DEFAULTS, ...opts },
+        dset = o.dodge || DEFAULTS.dodge;
+      const info = points.map((p) => ({
+        p,
+        mByPos: {
+          above: measureLabel(ctx, p, o, 'above'),
+          below: measureLabel(ctx, p, o, 'below'),
+        },
+      }));
+      const dxs = info.map(() => 0),
+        posStates = info.map(() => 'above');
+      for (let it = 0; it < (dset.passes || 22); it++) {
+        let moved = false;
+        for (let i = 0; i < info.length; i++) {
+          if (posStates[i] === 'below' || info[i].p._lockAbove) continue;
+          const before = totalOverlapsFor(i, info, dxs, posStates);
+          if (before === 0) continue;
+          const old = posStates[i];
+          posStates[i] = 'below';
+          const after = totalOverlapsFor(i, info, dxs, posStates);
+          if (!(after + (dset.preferAbovePenalty ?? 0.6) < before))
+            posStates[i] = old;
+          else moved = true;
+        }
+        for (let i = 0; i < info.length; i++) {
+          for (let j = i + 1; j < info.length; j++) {
+            const a = rectFor(info[i], dxs[i], posStates[i]),
+              b = rectFor(info[j], dxs[j], posStates[j]);
+            if (!overlap(a, b)) continue;
+            const xOverlap =
+              Math.min(a.right, b.right) - Math.max(a.left, b.left);
+            const shift = Math.ceil(xOverlap / 2) + (dset.separatePad ?? 2);
+            if (info[i].p.x <= info[j].p.x) {
+              dxs[i] -= shift;
+              dxs[j] += shift;
+            } else {
+              dxs[i] += shift;
+              dxs[j] -= shift;
+            }
+            const mx = dset.maxShift ?? 70;
+            dxs[i] = Math.max(-mx, Math.min(mx, dxs[i]));
+            dxs[j] = Math.max(-mx, Math.min(mx, dxs[j]));
+            moved = true;
+          }
+        }
+        if (!moved) break;
+      }
+      return {
+        dxMap: new Map(info.map((rec, i) => [rec.p, dxs[i]])),
+        posMap: new Map(info.map((rec, i) => [rec.p, posStates[i]])),
+        mByPosMap: new Map(info.map((rec) => [rec.p, rec.mByPos])),
+      };
+    }
+    function drawLabelAt(ctx, p, m, dx, opts = {}, bold = false) {
+      const o = { ...DEFAULTS, ...opts };
+      ctx.font = (bold ? 'bold ' : '') + o.labelFont;
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'top';
+      ctx.fillStyle = o.labelColor || '#111';
+      const xCenter = p.x + (dx || 0);
+      for (let i = 0; i < m.lines.length; i++) {
+        const y = m.top + i * m.lineHeight;
+        ctx.fillText(m.lines[i], xCenter, y);
+      }
+    }
+
+    function renderFocused(canvas, labels, rawEdges, focusLabel) {
+      const { ctx, size } = setupCanvas(canvas);
+      const points = buildRingPoints(size, labels);
+      const edges = rehydrateEdges(rawEdges, points);
+
+      const { dxMap, posMap, mByPosMap } = computeDodges(
+        ctx,
+        canvas,
+        points,
+        paletteBright
+      );
+
+      const focus = points.find((p) => p.label === focusLabel);
+      const incEdges = focus
+        ? edges.filter((e) => e.from === focus || e.to === focus)
+        : [];
+      const incNodes = new Set(
+        focus
+          ? [
+              focus,
+              ...incEdges.map((e) => e.from),
+              ...incEdges.map((e) => e.to),
+            ]
+          : []
+      );
+
+      NoOverlap.clearAndFrame(ctx, canvas, {
+        ...paletteBright,
+        borderWidth: 0,
+        borderColor: 'transparent',
+      });
+
+      NoOverlap.drawEdges(ctx, edges, paletteDim);
+      points.forEach((p) => NoOverlap.drawNode(ctx, p, null, paletteDim));
+
+      points.forEach((p) => {
+        if (incNodes.has(p)) return;
+        const dx = dxMap.get(p) || 0,
+          pos = posMap.get(p) || 'above',
+          m = mByPosMap.get(p)[pos];
+        drawLabelAt(ctx, p, m, dx, paletteDim, false);
+      });
+
+      if (focus) {
+        NoOverlap.drawEdges(ctx, incEdges, paletteBright);
+        incNodes.forEach((p) =>
+          NoOverlap.drawNode(ctx, p, null, paletteBright)
+        );
+
+        incNodes.forEach((p) => {
+          const dx = dxMap.get(p) || 0,
+            pos = posMap.get(p) || 'above',
+            m = mByPosMap.get(p)[pos];
+          drawLabelAt(ctx, p, m, dx, paletteBright, p === focus);
+        });
+
+        const R = focus.radius ?? DEFAULTS.node.defaultRadius;
+        ctx.beginPath();
+        ctx.arc(focus.x, focus.y, R + 6, 0, 2 * Math.PI);
+        ctx.lineWidth = 3;
+        ctx.strokeStyle = '#d33';
+        ctx.stroke();
+      }
+    }
+
+    // ----- stepper -----
+    let idx = 0;
+    const trials = [];
+    const leftEdges = userOnLeft ? userEdges : llmEdges;
+    const rightEdges = userOnLeft ? llmEdges : userEdges;
+
+    function drawBoth() {
+      const focus = sampled[idx];
+      stepNum.textContent = String(idx + 1);
+      focusTag.textContent = focus || '';
+      renderFocused(leftCanvas, labels, leftEdges, focus);
+      renderFocused(rightCanvas, labels, rightEdges, focus);
+      // do NOT clear comment here; we only clear after saving (on click)
+    }
+
+    function record(side) {
+      const focus = sampled[idx];
+      const chosenSource =
+        side === 'left'
+          ? userOnLeft
+            ? 'user'
+            : 'llm'
+          : userOnLeft
+          ? 'llm'
+          : 'user';
+
+      const comment = (commentBox?.value || '').trim();
+
+      trials.push({
+        focus_label: focus,
+        choice: side === 'left' ? '1' : '2',
+        chosen_source: chosenSource,
+        left_source: userOnLeft ? 'user' : 'llm',
+        right_source: userOnLeft ? 'llm' : 'user',
+        comment, // ← saved per node
+        at: new Date().toISOString(),
+      });
+
+      // Clear and shrink the textarea for the next node
+      if (commentBox) {
+        commentBox.value = '';
+        grow(commentBox);
+      }
+
+      idx++;
+      if (idx >= sampled.length) {
+        outTrials.value = JSON.stringify(trials);
+        document.querySelector('form').submit();
+      } else {
+        drawBoth();
+      }
+    }
+
+    document
+      .getElementById('pickLeft')
+      .addEventListener('click', () => record('left'));
+    document
+      .getElementById('pickRight')
+      .addEventListener('click', () => record('right'));
+
+    drawBoth();
+    window.addEventListener('resize', drawBoth);
+  });
+</script>
+{% endblock %}

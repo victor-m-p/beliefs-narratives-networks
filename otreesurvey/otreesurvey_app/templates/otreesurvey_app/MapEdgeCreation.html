@@ -1,0 +1,522 @@
+{% extends "global/Page.html" %} {% load static %} {% block scripts %}
+<script src="{% static 'otreesurvey_app/canvasflex.js' %}?v=2025092301"></script>
+{% endblock %} {% block styles %}
+<style>
+  /* --- card, chips, canvas frame --- */
+  .instruction-card {
+    border: 1px solid #e6e6e6;
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  }
+  .eyebrow {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111;
+    margin: 0.25rem 0 0.5rem;
+  }
+  .chip {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    color: #111;
+    font-weight: 700;
+  }
+  .chip-blue {
+    background: #8cc7caaa;
+  }
+  .chip-purple {
+    background: #e9e3f5;
+  }
+  .chip-orange {
+    background: #fff1de;
+  }
+
+  .btn-primary {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .instructions {
+    display: none;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    margin-top: 0.75rem;
+  }
+
+  #canvasContainer {
+    position: relative;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto 15px auto;
+  }
+  canvas {
+    border: 2px solid #111;
+    border-radius: 4px;
+    display: block;
+  }
+
+  /* --- Edge panel (hidden on load) --- */
+  #edgeSelectionPanel {
+    display: none; /* JS will toggle to flex */
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: #fafafa;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    padding: 14px 16px;
+    z-index: 10;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+
+    /* centered column layout */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: max-content;
+    max-width: min(720px, 95%);
+    gap: 10px;
+  }
+
+  .edge-panel-text {
+    color: #222;
+  }
+  .edge-panel-text .line {
+    margin: 0;
+    line-height: 1.3;
+  }
+  .edge-panel-text .line b {
+    font-weight: 800;
+  }
+
+  .edge-panel-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .edge-btn {
+    border: none;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    transition: transform 0.06s, box-shadow 0.06s, filter 0.06s;
+  }
+  .edge-btn:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+    transform: translateY(-1px);
+  }
+  .edge-btn:active {
+    transform: translateY(0);
+    filter: brightness(0.98);
+  }
+  .edge-btn:focus {
+    outline: 2px solid rgba(0, 0, 0, 0.25);
+    outline-offset: 2px;
+  }
+
+  .edge-btn.positive {
+    background: #998ec3;
+  } /* Positively / Reinforces */
+  .edge-btn.negative {
+    background: #f1a340;
+  } /* Negatively / Opposes */
+  .edge-btn.other {
+    background: #999;
+  } /* Other relation */
+</style>
+{% endblock %} {% block content %}
+<div class="instruction-card">
+  <p class="eyebrow">Which things influence each other?</p>
+  <p>
+    Like in the practice, create connections between
+    <span class="chip chip-blue">one blue circle</span> and
+    <span class="chip chip-blue">another blue circle</span> wherever they
+    clearly relate. For example if they
+    <span class="chip chip-grey">influence each other</span>, that is if they
+    <span class="chip chip-purple">go together</span>, or
+    <span class="chip chip-orange">are in conflict</span>. If two circles are
+    clearly related but this cannot be expressed as
+    <span class="chip chip-purple">positive</span> or
+    <span class="chip chip-orange">negative</span> you can use the
+    <span class="chip chip-grey">other relation</span> option. You can connect
+    any pair of blue circles.
+  </p>
+  <p>
+    <b
+      >Please take a few minutes to carefully consider which things influence
+      each other or clearly relate. This part of the survey is very
+      important!</b
+    >
+  </p>
+  <p>
+    <i
+      >You can still move circles around the canvas if this helps you organize
+      things</i
+    >
+  </p>
+
+  <button
+    id="toggle-instructions"
+    type="button"
+    class="btn-primary"
+    style="margin-top: 0.5rem"
+  >
+    How to connect circles (instructions)
+  </button>
+
+  <div id="instruction-container" class="instructions">
+    <ol style="margin: 0.25rem 0 0.25rem 1.25rem">
+      <li>
+        Click a <span class="chip chip-blue">blue circle</span> to select it.
+      </li>
+      <li>
+        Click another <span class="chip chip-blue">blue circle</span> to create
+        a connection.
+      </li>
+      <li>A box will pop up in the bottom right corner.</li>
+      <li>
+        Choose between <span class="chip chip-purple">positive</span>,
+        <span class="chip chip-orange">negative</span>, or some
+        <span class="chip chip-grey">other relation</span>.
+      </li>
+    </ol>
+    <p class="muted" style="margin: 0.35rem 0 0 0">
+      <i
+        >Made a connection by mistake? Click the same two circles again to
+        remove it.</i
+      >
+    </p>
+  </div>
+</div>
+
+<div id="canvasContainer">
+  <canvas id="dragCanvas" width="900" height="600"></canvas>
+
+  <!-- Edge selection panel -->
+  <div id="edgeSelectionPanel">
+    <div class="edge-panel-text" id="edgeStatement"></div>
+    <div class="edge-panel-buttons">
+      <button id="selectPositive" type="button" class="edge-btn positive">
+        Positively
+      </button>
+      <button id="selectNegative" type="button" class="edge-btn negative">
+        Negatively
+      </button>
+      <button id="selectOther" type="button" class="edge-btn other">
+        Other relation
+      </button>
+    </div>
+  </div>
+</div>
+
+<input type="hidden" id="positions" name="positions_2" />
+<input type="hidden" id="edges" name="edges_2" />
+
+<p
+  id="soft-warning"
+  style="
+    display: none;
+    position: relative;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 14px;
+    border: 1px solid #e6a700;
+    background: #fff7e6;
+    border-radius: 8px;
+    color: #663c00;
+    font-weight: 600;
+    z-index: 20;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    max-width: 80%;
+    text-align: center;
+  "
+>
+  Take one last look and connect any blue circles that clearly relate. Click
+  “Next” again to continue.
+</p>
+
+{{ next_button }}
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+    const canvas = document.getElementById("dragCanvas");
+    const ctx = canvas.getContext("2d");
+
+    // Server-provided data
+    const beliefLabels = {{ belief_labels_json|safe }};
+    const priorEdges   = {{ belief_edges|safe }};
+    const priorPoints  = {{ belief_points|safe }};
+
+    // Toggle instructions
+    document.getElementById("toggle-instructions").addEventListener("click", (ev)=>{
+      const box = document.getElementById("instruction-container");
+      const hidden = box.style.display === "" || box.style.display === "none";
+      box.style.display = hidden ? "block" : "none";
+      ev.currentTarget.textContent = hidden ? "Hide Instructions" : "Show Instructions";
+    });
+
+    // Build only BLUE nodes (no central node)
+    const points = beliefLabels.map((label, i) => ({
+      label,
+      x: priorPoints[i].x,
+      y: priorPoints[i].y,
+      radius: priorPoints[i].radius
+    }));
+
+    // Helper: is label a belief (present in this page)?
+    const labelSet = new Set(beliefLabels);
+
+    // Rehydrate edges, but ONLY those between two belief nodes (drop any central edges)
+    let edges = (priorEdges || [])
+      .filter(e => labelSet.has(e.from) && labelSet.has(e.to))
+      .map(e => {
+        const from = points.find(p => p.label === e.from);
+        const to   = points.find(p => p.label === e.to);
+        return from && to ? { from, to, polarity: e.polarity, timestamp: e.timestamp ?? null } : null;
+      })
+      .filter(Boolean);
+
+    // State
+    let selectedPoint = null, pendingEdge = null, softWarnedOnce = false;
+
+    // Drag threshold settings (reads from NoOverlap.UI if you set it in canvasflex.js)
+    const DRAG_PX     = (NoOverlap.UI && NoOverlap.UI.dragThresholdPx) || 6;
+    const LONGPRESS_MS= (NoOverlap.UI && NoOverlap.UI.longPressMs)     || 180;
+
+    // Drag state
+    let candidateDragPoint = null; // point under cursor on mousedown
+    let draggingPoint = null;      // becomes non-null after threshold
+    let downInfo = null;           // {x,y,t}
+    let wasDragging = false;
+
+    function drawCanvas(){
+      NoOverlap.drawGraph(ctx, canvas, { points, edges, selectedPoint }, {
+        edge: { positive: "#998ec3", negative: "#f1a340", other: "#666666" }
+      });
+    }
+
+    function getMousePos(e){
+      const r = canvas.getBoundingClientRect();
+      return { x: e.clientX - r.left, y: e.clientY - r.top };
+    }
+
+    function findPoint(pos){
+      const defaultR = NoOverlap.DRAW_DEFAULTS?.node?.defaultRadius || 20;
+      return points.find(p => Math.hypot(p.x - pos.x, p.y - pos.y) <= (p.radius ?? defaultR));
+    }
+
+    // Edge panel
+    const panel   = document.getElementById("edgeSelectionPanel");
+    const stmtBox = document.getElementById("edgeStatement");
+    const btnPos  = document.getElementById("selectPositive");
+    const btnNeg  = document.getElementById("selectNegative");
+    const btnOth  = document.getElementById("selectOther");
+
+    function makeLine(html){ return `<p class="line">${html}</p>`; }
+
+    function markPendingSelected(pe, val){
+      if (!pe) return;
+      if (pe.from) pe.from.selected = !!val;
+      if (pe.to)   pe.to.selected   = !!val;
+    }
+
+    function openEdgePanel(a, b){
+      pendingEdge = { from: a, to: b, polarity: null };
+      markPendingSelected(pendingEdge, true);
+      drawCanvas();
+
+      // Pairwise relation prompt
+      stmtBox.innerHTML =
+        makeLine(`<b>"${a.label}"</b>`) +
+        makeLine(`and`) +
+        makeLine(`<b>"${b.label}"</b>`) +
+        makeLine(`relate:`);
+
+      panel.style.display = "flex";
+    }
+
+    function closeEdgePanel(clearSel = true){
+      if (clearSel) markPendingSelected(pendingEdge, false);
+      pendingEdge = null;
+      panel.style.display = "none";
+      drawCanvas();
+    }
+
+    function finalizeEdge(polarity){
+      if (!pendingEdge) return;
+      pendingEdge.polarity = polarity;
+      pendingEdge.timestamp = new Date().toISOString();
+      edges.push(pendingEdge);
+      closeEdgePanel(true);
+    }
+
+    btnPos.addEventListener("click", () => finalizeEdge("positive"));
+    btnNeg.addEventListener("click", () => finalizeEdge("negative"));
+    btnOth.addEventListener("click", () => finalizeEdge("other"));
+
+    // Interactions (with drag threshold)
+    canvas.addEventListener("mousedown", e=>{
+      const pos = getMousePos(e);
+      const hit = findPoint(pos);
+      candidateDragPoint = hit || null;
+      draggingPoint = null;
+      wasDragging = false;
+      downInfo = { x: pos.x, y: pos.y, t: performance.now() };
+    });
+
+    canvas.addEventListener("mousemove", e=>{
+      const pos = getMousePos(e);
+
+      // hover highlight & cursor when not dragging
+      if (!draggingPoint) {
+        const hoveringAny = NoOverlap.findPoint(pos, points);
+        if (NoOverlap.setHovered(canvas, hoveringAny)) drawCanvas();
+        canvas.style.cursor = hoveringAny ? "grab" : "default";
+      }
+
+      // upgrade to dragging only after threshold distance or long-press
+      if (!draggingPoint && candidateDragPoint && downInfo) {
+        const dx = pos.x - downInfo.x, dy = pos.y - downInfo.y;
+        const dist = Math.hypot(dx, dy);
+        const held = performance.now() - downInfo.t;
+        if (dist >= DRAG_PX || held >= LONGPRESS_MS) {
+          draggingPoint = candidateDragPoint;
+          canvas.style.cursor = "grabbing";
+        }
+      }
+
+      if (draggingPoint){
+        NoOverlap.tryMove(
+          draggingPoint, pos.x, pos.y, points, drawCanvas, undefined,
+          (pt) => NoOverlap.flash(pt, drawCanvas)
+        );
+        wasDragging = true;
+      }
+    });
+
+    canvas.addEventListener("mouseup", evt=>{
+      const pos = getMousePos(evt), hit = findPoint(pos);
+
+      // treat as click only if we never started dragging
+      if (!wasDragging && hit){
+        if (!selectedPoint){
+          selectedPoint = hit;
+        } else if (selectedPoint === hit){
+          selectedPoint = null; // deselect self
+        } else {
+          const exists = edges.find(e =>
+            (e.from === selectedPoint && e.to === hit) ||
+            (e.from === hit && e.to === selectedPoint)
+          );
+          if (exists){
+            edges.splice(edges.indexOf(exists), 1);
+            selectedPoint = null;
+          } else {
+            openEdgePanel(selectedPoint, hit);
+            selectedPoint = null;
+          }
+        }
+        drawCanvas();
+      }
+
+      if (!wasDragging && !hit){
+        if (pendingEdge) closeEdgePanel(true);
+        else if (selectedPoint){ selectedPoint = null; drawCanvas(); }
+      }
+
+      // reset
+      candidateDragPoint = null;
+      draggingPoint = null;
+      downInfo = null;
+      wasDragging = false;
+      canvas.style.cursor = "default";
+    });
+
+    // optional: tidy up on leave
+    canvas.addEventListener("mouseleave", ()=>{
+      if (NoOverlap.clearHovered(canvas)) drawCanvas();
+      candidateDragPoint = null;
+      draggingPoint = null;
+      downInfo = null;
+      wasDragging = false;
+      if (canvas.style.cursor !== "grabbing") canvas.style.cursor = "default";
+    });
+
+    // Esc closes panel first, then deselects
+    document.addEventListener("keydown", (e)=>{
+      if (e.key === "Escape"){
+        if (pendingEdge) closeEdgePanel(true);
+        else if (selectedPoint){ selectedPoint = null; drawCanvas(); }
+      }
+    });
+
+    function allInsideBox(){
+      return points.every(p => p.x >= 0 && p.x <= canvas.width && p.y >= 0 && p.y <= canvas.height);
+    }
+
+    // Submit: gentle nudge once if zero edges OR any isolated node
+    document.querySelector("button[type=submit], .otree-btn-next").addEventListener("click", e=>{
+    e.preventDefault();
+
+    if (!allInsideBox()){
+        alert("Please drag all circles into the square before continuing.");
+        return;
+    }
+    if (pendingEdge){
+        alert("Please finish or cancel the connection you are creating before continuing.");
+        return;
+    }
+
+    // Compute degree of each node
+    const degree = new Map(points.map(p => [p.label, 0]));
+    edges.forEach(ev => {
+        degree.set(ev.from.label, (degree.get(ev.from.label) || 0) + 1);
+        degree.set(ev.to.label,   (degree.get(ev.to.label)   || 0) + 1);
+    });
+    const isolated = [...degree.entries()].filter(([_, d]) => d === 0).map(([label]) => label);
+
+    // Nudge if there are isolated nodes
+    if (isolated.length > 0 && !softWarnedOnce){
+        const warn = document.getElementById("soft-warning");
+        if (warn){
+        warn.textContent =
+            "Some circles have no connections yet. Please take another look. Click “Next” again when you are ready to continue.";
+        warn.style.display = "block";
+        }
+        softWarnedOnce = true;
+        return;
+    }
+
+    document.getElementById("positions").value = JSON.stringify(points);
+    document.getElementById("edges").value = JSON.stringify(
+        edges.map(ev => ({
+        from: ev.from.label,
+        to: ev.to.label,
+        polarity: ev.polarity,
+        timestamp: ev.timestamp ?? null
+        }))
+    );
+    document.querySelector("form").submit();
+    });
+
+    drawCanvas();
+  });
+</script>
+{% endblock %}

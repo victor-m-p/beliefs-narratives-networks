@@ -1,0 +1,236 @@
+{% extends "global/Page.html" %} {% block styles %}
+<style>
+  .instruction-card {
+    max-width: 900px;
+    margin: 0 auto 14px auto;
+    border: 1px solid #e6e6e6;
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 14px 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  }
+  .eyebrow {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111;
+    margin: 0.25rem 0 0.5rem;
+  }
+  .muted {
+    color: #666;
+  }
+
+  .belief-row {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* left statement | right slider */
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .belief-row:nth-of-type(even) {
+    background: #f7f7f7;
+  }
+
+  .belief-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #111;
+  }
+
+  .slider-col {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  /* Three anchors above the slider */
+  .scale-anchors {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #777;
+  }
+
+  .likert-slider {
+    width: 100%;
+    height: 14px;
+    border-radius: 7px;
+    background: #e0e0e0;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  .likert-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #111;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  .likert-slider::-moz-range-thumb {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #111;
+    border: 2px solid #fff;
+    cursor: pointer;
+  }
+  .likert-slider::-moz-range-track {
+    background: transparent;
+  }
+  .likert-slider.pristine::-webkit-slider-thumb,
+  .likert-slider.pristine::-moz-range-thumb {
+    background: #bbb;
+  }
+
+  .slider-readout {
+    text-align: center;
+    font-size: 0.95rem;
+    color: #111;
+    min-height: 18px;
+  }
+
+  /* Disable Next until valid */
+  .otree-btn-next {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+</style>
+{% endblock %} {% block content %}
+<div class="instruction-card">
+  <p class="eyebrow">Motivations to eat more meat (questionnaire)</p>
+  <p>
+    Below there is a list of reasons to eat meat and other animal products like
+    eggs and dairy. Please rate how important different reasons are for you,
+    personally. You should give a range of ratings to indicate the reasons that
+    are especially important for you, those that are relatively unimportant, and
+    those that are moderately important.
+  </p>
+  <p class="muted">
+    Scale: Least important · Moderately important · Most important
+  </p>
+  <p class="muted" style="margin-top: 0.35rem">
+    <i
+      >If you do not currently eat meat, answer based on the reasons you might
+      or would have to eat meat. You can also rate all items as least
+      important.</i
+    >
+  </p>
+</div>
+
+<form method="post" id="memi-form" novalidate>
+  <div id="memiList"></div>
+  <input type="hidden" id="memi_responses" name="memi_responses" />
+  {{ next_button }}
+</form>
+{% endblock %} {% block scripts %}
+<script>
+  (function(){
+    // Provided by vars_for_template
+    const RAW = {{ memi_items_json|safe }};
+
+    // Robust accessors
+    const getText   = it => it?.item ?? it?.t ?? (Array.isArray(it) ? it[0] : undefined);
+    const getDomain = it => it?.domain ?? it?.d ?? (Array.isArray(it) ? it[1] : undefined);
+    const getIndex  = (it, i) => it?.index ?? (i + 1);
+
+    // Normalize list
+    const MEMI = RAW.map((it, i) => ({ index: getIndex(it,i), item: getText(it), domain: getDomain(it) }));
+
+    const list = document.getElementById('memiList');
+
+    function catLabel(v){
+      v = Number(v);
+      if (v <= 25) return "Least important";
+      if (v >= 75) return "Most important";
+      return "Moderately important";
+    }
+
+    // Paint track from the LEFT (0 → value)
+    function paintFromLeft(slider, v){
+      const min = Number(slider.min) || 0;
+      const max = Number(slider.max) || 100;
+      const pct = ((Math.max(min, Math.min(max, Number(v))) - min) / (max - min)) * 100;
+      slider.style.background =
+        `linear-gradient(to right,#111 0%,#111 ${pct}%,#e0e0e0 ${pct}%,#e0e0e0 100%)`;
+    }
+
+    // Build rows
+    MEMI.forEach((it, i) => {
+      const row = document.createElement('div');
+      row.className = 'belief-row';
+      row.innerHTML = `
+        <div class="belief-text">${i+1}. ${getText(it) ?? ''}</div>
+        <div class="slider-col">
+          <div class="scale-anchors">
+            <span>Least important</span>
+            <span>Moderately important</span>
+            <span>Most important</span>
+          </div>
+          <input type="range" class="likert-slider pristine" id="slider_${i}" min="0" max="100" step="1" />
+          <div class="slider-readout" id="readout_${i}">Please adjust the slider</div>
+        </div>`;
+      list.appendChild(row);
+
+      const slider  = row.querySelector('input');
+      const readout = row.querySelector('.slider-readout');
+
+      // Start LEFT but still "unanswered"
+      slider.value = slider.min || 0;
+      slider.dataset.answered = "0";
+      slider.style.background = '#ccc'; // neutral until moved
+
+      slider.addEventListener('input', () => {
+        slider.classList.remove('pristine');
+        slider.dataset.answered = "1";
+        paintFromLeft(slider, slider.value);
+        readout.innerHTML = `Selected: <b>${catLabel(slider.value)}</b> — ${Math.round(slider.value)} / 100`;
+        readout.style.color = '#111';
+        updateNext();
+      });
+    });
+
+    // Gate Next until all sliders touched
+    const nextBtn = document.getElementById('nextButton') || document.querySelector('.otree-btn-next');
+    function allAnswered(){ return MEMI.every((_,i)=>document.getElementById(`slider_${i}`).dataset.answered==="1"); }
+    function updateNext(){
+      const ok = allAnswered();
+      if (nextBtn){
+        nextBtn.style.opacity = ok ? '1' : '.5';
+        nextBtn.style.pointerEvents = ok ? 'auto' : 'none';
+      }
+    }
+    updateNext();
+
+    // Pack JSON on submit
+    const hidden = document.getElementById('memi_responses');
+    if (nextBtn){
+      nextBtn.addEventListener('click', (e)=>{
+        if (!allAnswered()){
+          e.preventDefault();
+          alert('Please move every slider before continuing.');
+          return;
+        }
+        const payload = MEMI.map((it, i) => {
+          const s = document.getElementById(`slider_${i}`);
+          return {
+            index: it.index,
+            item:  getText(it),
+            domain: getDomain(it),
+            value: Number(s.value) // 0..100
+          };
+        });
+        hidden.value = JSON.stringify(payload);
+        // allow submit
+      }, {capture:true});
+    }
+  })();
+</script>
+
+{% endblock %}

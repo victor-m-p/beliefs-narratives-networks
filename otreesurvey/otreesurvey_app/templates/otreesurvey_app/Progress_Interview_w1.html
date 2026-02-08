@@ -1,0 +1,57 @@
+{% extends "global/Page.html" %} {% block styles %}
+<style>
+  .checkpoint-card{
+    max-width:900px;margin:0 auto 18px auto;
+    border:1px solid #e6e6e6;background:#fafafa;border-radius:12px;
+    padding:16px 18px;box-shadow:0 1px 3px rgba(0,0,0,.06);
+  }
+  .title{font-size:1.25rem;font-weight:800;margin:0 0 .5rem 0;color:#111;}
+  .bar-wrap{background:#eee;border-radius:999px;height:12px;overflow:hidden;}
+  .bar-fill{height:100%;background:#111;width:{{ percent }}%;}
+  .steps{max-width:900px;margin:0 auto;list-style:none;padding:0;}
+  .step{display:flex;align-items:center;gap:10px;padding:10px 6px;border-bottom:1px solid #eee;}
+  .step:last-child{border-bottom:0;}
+  .icon{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.9rem;}
+  .done   .icon{background:#1bb76e;color:#fff;}   /* check */
+  .current .icon{background:#111;color:#fff;}     /* dot  */
+  .upcoming .icon{background:#ddd;color:#777;}    /* box  */
+  .label{font-weight:700;color:#111;}
+  .hint{color:#666;font-size:.95rem;margin-left:auto;}
+</style>
+{% endblock %} {% block content %}
+<div class="checkpoint-card">
+  <p class="title">Your progress</p>
+  <div class="bar-wrap" aria-hidden="true">
+    <div class="bar-fill"></div>
+  </div>
+  <p class="hint" style="margin: 0.5rem 0 0 0">{{ percent }}% complete</p>
+</div>
+
+<ul class="steps">
+  <li class="step done">
+    <div class="icon">✓</div>
+    <div class="label">Meat-eating interview (main part 1)</div>
+    <div class="hint">Completed</div>
+  </li>
+
+  <li class="step current">
+    <div class="icon">•</div>
+    <div class="label">Practice drawing networks (main part 2)</div>
+    <div class="hint">Up next</div>
+  </li>
+
+  <li class="step upcoming">
+    <div class="icon">▢</div>
+    <div class="label">Draw your own network (main part 3)</div>
+    <div class="hint">Upcoming</div>
+  </li>
+
+  <li class="step upcoming">
+    <div class="icon">▢</div>
+    <div class="label">Questionnaires</div>
+    <div class="hint">Upcoming</div>
+  </li>
+</ul>
+
+<div style="max-width: 900px; margin: 12px auto 0 auto">{{ next_button }}</div>
+{% endblock %}

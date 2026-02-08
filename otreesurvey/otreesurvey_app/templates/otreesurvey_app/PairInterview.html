@@ -1,0 +1,87 @@
+{% extends "global/Page.html" %} {% block content %}
+
+<h3>Talking About Pairs of Beliefs</h3>
+
+<p>
+  Below you see several pairs of statements about meat-eating. For each pair,
+  please describe in your own words how you see these two statements relating to
+  each other. There are no right or wrong answers.
+</p>
+
+<input
+  type="hidden"
+  id="pair_open_responses_json"
+  name="pair_open_responses_json"
+/>
+
+{% for p in pairs %}
+<div class="card mb-3">
+  <div class="card-body">
+    <h5 class="card-title">Pair {{ forloop.counter }} of {{ total_pairs }}</h5>
+
+    <p>
+      <strong>Statement A:</strong>
+      <span class="pair-label-a">{{ p.label_a }}</span>
+    </p>
+    <p>
+      <strong>Statement B:</strong>
+      <span class="pair-label-b">{{ p.label_b }}</span>
+    </p>
+
+    <label for="resp_{{ p.index }}">
+      In your own words, how do these two relate to each other?
+    </label>
+    <textarea
+      class="form-control mt-2"
+      id="resp_{{ p.index }}"
+      rows="3"
+      data-pair-index="{{ p.index }}"
+    >
+{{ p.response }}</textarea
+    >
+  </div>
+</div>
+{% endfor %}
+
+<div class="mt-3 text-end">
+  <button type="submit" class="btn btn-primary">Continue</button>
+</div>
+
+<script>
+  (function () {
+    const form =
+      document.querySelector('form.otree-form') ||
+      document.querySelector('form');
+    const hiddenField = document.getElementById('pair_open_responses_json');
+
+    if (!form || !hiddenField) return;
+
+    form.addEventListener('submit', function (e) {
+      const textareas = document.querySelectorAll('textarea[data-pair-index]');
+      const results = [];
+
+      textareas.forEach(function (ta) {
+        const response = ta.value.trim();
+
+        // Find the surrounding card and read the labels from the DOM
+        const card = ta.closest('.card');
+        const labelAEl = card.querySelector('.pair-label-a');
+        const labelBEl = card.querySelector('.pair-label-b');
+
+        const labelA = labelAEl ? labelAEl.textContent.trim() : '';
+        const labelB = labelBEl ? labelBEl.textContent.trim() : '';
+
+        results.push({
+          pair: [labelA, labelB],
+          response: response,
+        });
+      });
+
+      hiddenField.value = JSON.stringify(results);
+      // Optional: require non-empty answers per pair here
+      // and call e.preventDefault() if some are empty.
+    });
+  })();
+</script>
+
+{% endblock %}

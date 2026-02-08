@@ -1,0 +1,451 @@
+{% extends "global/Page.html" %} {% load static %} {% block scripts %}
+<script src="{% static 'otreesurvey_app/canvasflex.js' %}?v=20251005"></script>
+{% endblock %} {% block styles %}
+<style>
+  .page-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .layout {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+  }
+  .col-text {
+    flex: 1 1 55%;
+    min-width: 320px;
+  }
+  .col-canvas {
+    flex: 1 1 45%;
+    min-width: 320px;
+  }
+
+  .instruction-card {
+    border: 1px solid #e6e6e6;
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  }
+  .eyebrow {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111;
+    margin: 0.25rem 0 0.5rem;
+  }
+  .step-list {
+    margin: 0.35rem 0 0.5rem 1.25rem;
+    padding: 0;
+  }
+  .step-list li {
+    margin: 0.35rem 0;
+  }
+  .chip {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    color: #111;
+    font-weight: 700;
+  }
+  .chip-blue {
+    background: #8cc7caaa;
+  }
+  .chip-purple {
+    background: #e9e3f5;
+  }
+  .chip-orange {
+    background: #fff1de;
+  }
+  .chip-grey {
+    background: #efefef;
+  }
+
+  #canvasContainer {
+    position: relative;
+    width: 450px;
+    height: 300px;
+    margin: 0 auto 12px;
+  }
+  canvas {
+    border: 2px solid #111;
+    border-radius: 4px;
+    display: block;
+  }
+
+  #edgeSelectionPanel {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: #fafafa;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    padding: 14px 16px;
+    z-index: 10;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: max-content;
+    max-width: min(720px, 95%);
+    gap: 10px;
+  }
+  .edge-btn {
+    border: none;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  }
+  .edge-btn.positive {
+    background: #998ec3;
+  }
+  .edge-btn.negative {
+    background: #f1a340;
+  }
+  .edge-btn.other {
+    background: #999;
+  }
+
+  #llmStatus {
+    color: #555;
+    font-size: 0.95rem;
+    margin-top: 6px;
+  }
+  @media (max-width: 900px) {
+    .layout {
+      flex-direction: column;
+    }
+  }
+</style>
+{% endblock %} {% block content %}
+<div class="page-wrap">
+  <div class="layout">
+    <div class="col-text">
+      <div class="instruction-card">
+        <p class="eyebrow">Practice: Connecting circles</p>
+        <p>
+          <b>Please read the following carefully</b>. Later in this study we
+          will ask you to first judge some summaries of things you said in the
+          interview and connect things that relate to each other. First we want
+          to make sure you know how to connect things. Your task is to make
+          connections between
+          <span class="chip chip-blue">blue circles</span> if they
+          <i>influence each other</i>
+          <span class="chip chip-purple">positively</span> or
+          <span class="chip chip-orange">negatively</span>. You make connections
+          by clicking first one
+          <span class="chip chip-blue">blue circle</span> and then another
+          <span class="chip chip-blue">blue circle</span>. In this example
+          please connect the following:
+        </p>
+        <ol class="step-list">
+          <li>
+            Connect <span class="chip chip-blue">Bike to work</span>
+            <span class="chip chip-purple">positively</span> with
+            <span class="chip chip-blue">Getting exercise</span>.
+          </li>
+          <li>
+            Connect <span class="chip chip-blue">Drive to work</span>
+            <span class="chip chip-purple">positively</span> with
+            <span class="chip chip-blue">Getting to work quickly</span>.
+          </li>
+          <li>
+            Connect <span class="chip chip-blue">Bike to work</span>
+            <span class="chip chip-orange">negatively</span> with
+            <span class="chip chip-blue">Getting to work quickly</span>.
+          </li>
+          <li>
+            Connect <span class="chip chip-blue">Drive to work</span>
+            <span class="chip chip-orange">negatively</span> with
+            <span class="chip chip-blue">Getting exercise</span>.
+          </li>
+        </ol>
+        <p>
+          <b>Tips:</b> You can move circles at any time. Click the same two
+          circles again to remove a connection.
+        </p>
+
+        <div id="llmStatus">
+          🔄 The AI is analyzing your interview in the background…
+        </div>
+      </div>
+    </div>
+
+    <div class="col-canvas">
+      <div id="canvasContainer">
+        <canvas id="dragCanvas" width="450" height="300"></canvas>
+
+        <div id="edgeSelectionPanel">
+          <div class="edge-panel-text" id="edgeStatement"></div>
+          <div class="edge-panel-buttons">
+            <button id="selectPositive" type="button" class="edge-btn positive">
+              Positively
+            </button>
+            <button id="selectNegative" type="button" class="edge-btn negative">
+              Negatively
+            </button>
+            <button id="selectOther" type="button" class="edge-btn other">
+              Other relation
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <input type="hidden" id="practice_positions" name="practice_positions" />
+      <input type="hidden" id="practice_edges" name="practice_edges" />
+      {{ next_button }}
+    </div>
+  </div>
+</div>
+
+<script>
+  /* ====== GLOBAL live state (must be global for oTree) ====== */
+  let llmDone = false;
+  function liveRecv(msg){
+    if (msg && msg.done === true){
+      llmDone = true;
+      const el = document.getElementById('llmStatus');
+      if (el) el.textContent = '✅ AI analysis complete!';
+    } else if (msg && msg.done === false){
+      const el = document.getElementById('llmStatus');
+      if (el) el.textContent = '⚠️ AI analysis failed (we’ll retry later).';
+    }
+  }
+
+  /* ====== Page behavior ====== */
+  document.addEventListener("DOMContentLoaded", function () {
+    // Kick off the background LLM task
+    liveSend({start:true});
+
+    const canvas = document.getElementById("dragCanvas");
+    const ctx = canvas.getContext("2d");
+    const LABELS = {{ practice_labels_json|safe }};
+
+    // --- Layout & state
+    function layoutCircle(labels, canvas, nodeRadius=20, margin=28){
+      const cx = canvas.width/2, cy = canvas.height/2;
+      const r = Math.min(canvas.width, canvas.height)/2 - (nodeRadius + margin);
+      const step = (2*Math.PI) / labels.length;
+      return labels.map((label, i) => {
+        const angle = -Math.PI/2 + i*step;
+        return { label, x: Math.round(cx + r*Math.cos(angle)), y: Math.round(cy + r*Math.sin(angle)), radius: nodeRadius };
+      });
+    }
+
+    const points = layoutCircle(LABELS, canvas, 20, 28);
+    let edges = [];
+
+    // Drawing wrapper (uses your canvasflex.js helpers)
+    function drawCanvas(){
+      NoOverlap.drawGraph(ctx, canvas, { points, edges, selectedPoint }, {
+        edge: { positive: "#998ec3", negative: "#f1a340", other: "#666666" }
+      });
+    }
+
+    // Helpers
+    function getMousePos(evt){
+      const r = canvas.getBoundingClientRect();
+      return { x: evt.clientX - r.left, y: evt.clientY - r.top };
+    }
+    function findPoint(pos){
+      const defR = NoOverlap.DRAW_DEFAULTS?.node?.defaultRadius || 20;
+      return points.find(p => Math.hypot(p.x-pos.x,p.y-pos.y) <= (p.radius ?? defR));
+    }
+
+    // Edge panel
+    const panel   = document.getElementById("edgeSelectionPanel");
+    const stmtBox = document.getElementById("edgeStatement");
+    const btnPos  = document.getElementById("selectPositive");
+    const btnNeg  = document.getElementById("selectNegative");
+    const btnOther= document.getElementById("selectOther");
+
+    const makeLine = html => `<p class="line" style="margin:0;line-height:1.3">${html}</p>`;
+    function markPendingSelected(pe, val){
+      if (!pe) return;
+      if (pe.from) pe.from.selected = !!val;
+      if (pe.to)   pe.to.selected   = !!val;
+    }
+    function openEdgePanel(a,b){
+      pendingEdge = { from:a, to:b, polarity:null };
+      markPendingSelected(pendingEdge,true);
+      drawCanvas();
+      stmtBox.innerHTML =
+        makeLine(`<b>"${a.label}"</b>`) +
+        makeLine(`and`) +
+        makeLine(`<b>"${b.label}"</b>`) +
+        makeLine(`influence each other:`);
+      panel.style.display = "flex";
+    }
+    function closeEdgePanel(clearSel=true){
+      if (clearSel) markPendingSelected(pendingEdge,false);
+      pendingEdge = null;
+      panel.style.display="none";
+      drawCanvas();
+    }
+    function finalizeEdge(polarity){
+      if (!pendingEdge) return;
+      pendingEdge.polarity = polarity;
+      pendingEdge.timestamp = new Date().toISOString();
+      edges.push(pendingEdge);
+      closeEdgePanel(true);
+    }
+    btnPos.addEventListener("click", ()=>finalizeEdge("positive"));
+    btnNeg.addEventListener("click", ()=>finalizeEdge("negative"));
+    btnOther.addEventListener("click", ()=>finalizeEdge("other"));
+
+    // Interaction state with drag threshold
+    const DRAG_PX = (NoOverlap.UI && NoOverlap.UI.dragThresholdPx) || 6;
+    const LONGPRESS_MS = (NoOverlap.UI && NoOverlap.UI.longPressMs) || 180;
+
+    let selectedPoint = null;
+    let pendingEdge = null;
+
+    let candidateDragPoint = null;
+    let draggingPoint = null;
+    let downInfo = null;
+    let wasDragging = false;
+
+    canvas.addEventListener("mousedown", (evt) => {
+      const pos = getMousePos(evt);
+      const hit = findPoint(pos);
+      candidateDragPoint = hit || null;
+      draggingPoint = null;
+      wasDragging = false;
+      downInfo = { x: pos.x, y: pos.y, t: performance.now() };
+      if (hit) canvas.style.cursor = "grabbing";
+    });
+
+    canvas.addEventListener("mousemove", (evt) => {
+      const pos = getMousePos(evt);
+
+      if (!draggingPoint){
+        const hoveringAny = NoOverlap.findPoint(pos, points);
+        if (NoOverlap.setHovered(canvas, hoveringAny)) drawCanvas();
+        canvas.style.cursor = hoveringAny ? "grab" : "default";
+      }
+
+      if (!draggingPoint && candidateDragPoint && downInfo){
+        const dx = pos.x - downInfo.x;
+        const dy = pos.y - downInfo.y;
+        const dist = Math.hypot(dx,dy);
+        const held = performance.now() - downInfo.t;
+        if (dist >= DRAG_PX || held >= LONGPRESS_MS) draggingPoint = candidateDragPoint;
+      }
+
+      if (draggingPoint){
+        NoOverlap.tryMove(
+          draggingPoint, pos.x, pos.y, points, drawCanvas, undefined,
+          (pt)=>NoOverlap.flash(pt, drawCanvas)
+        );
+        wasDragging = true;
+      }
+    });
+
+    canvas.addEventListener("mouseup", (evt) => {
+      const pos = getMousePos(evt);
+      const hit = findPoint(pos);
+
+      if (!wasDragging && hit){
+        if (!selectedPoint) {
+          selectedPoint = hit;
+        } else if (selectedPoint === hit) {
+          selectedPoint = null;
+        } else {
+          const exists = edges.find(e =>
+            (e.from === selectedPoint && e.to === hit) ||
+            (e.from === hit && e.to === selectedPoint)
+          );
+          if (exists){
+            edges.splice(edges.indexOf(exists), 1);
+            selectedPoint = null;
+          } else {
+            openEdgePanel(selectedPoint, hit);
+            selectedPoint = null;
+          }
+        }
+        drawCanvas();
+      }
+
+      if (!wasDragging && !hit){
+        if (pendingEdge) closeEdgePanel(true);
+        else if (selectedPoint){ selectedPoint = null; drawCanvas(); }
+      }
+
+      candidateDragPoint = null;
+      draggingPoint = null;
+      downInfo = null;
+      wasDragging = false;
+      canvas.style.cursor = "default";
+    });
+
+    canvas.addEventListener("mouseleave", () => {
+      if (NoOverlap.clearHovered(canvas)) drawCanvas();
+      candidateDragPoint = null; draggingPoint = null; downInfo = null; wasDragging = false;
+      if (canvas.style.cursor !== "grabbing") canvas.style.cursor = "default";
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape"){
+        if (pendingEdge) closeEdgePanel(true);
+        else if (selectedPoint){ selectedPoint = null; drawCanvas(); }
+      }
+    });
+
+    // Validation helpers
+    function findEdge(a,b){ return edges.find(e => (e.from.label===a && e.to.label===b) || (e.from.label===b && e.to.label===a)); }
+    function edgePolarity(a,b){ const e = findEdge(a,b); return e ? e.polarity : null; }
+    function allInsideBox(){ return points.every(p => p.x>=0 && p.x<=canvas.width && p.y>=0 && p.y<=canvas.height); }
+
+    // Next button behavior with LLM gate
+    document.querySelector("button[type=submit], .otree-btn-next").addEventListener("click", e => {
+      e.preventDefault();
+
+      if (!llmDone){
+        alert("The AI analysis is still running in the background.\nPlease wait a few seconds before continuing.");
+        return;
+      }
+      if (!allInsideBox()){
+        alert("Please drag all circles into the square before continuing."); return;
+      }
+      if (pendingEdge){
+        alert("Please finish or cancel the connection you are creating before continuing."); return;
+      }
+
+      const L_BIKE="Bike to work", L_DRIVE="Drive to work",
+            L_QUICK="Getting to work quickly", L_EXERCISE="Getting exercise";
+
+      const requirements = [
+        { a:L_BIKE,  b:L_EXERCISE, pol:"positive", msg:'Connect "Bike to work" and "Getting exercise" positively.' },
+        { a:L_DRIVE, b:L_QUICK,    pol:"positive", msg:'Connect "Drive to work" and "Getting to work quickly" positively.' },
+        { a:L_BIKE,  b:L_QUICK,    pol:"negative", msg:'Connect "Bike to work" and "Getting to work quickly" negatively.' },
+        { a:L_DRIVE, b:L_EXERCISE, pol:"negative", msg:'Connect "Drive to work" and "Getting exercise" negatively.' },
+      ];
+
+      const missing = [];
+      for (const r of requirements){
+        if (edgePolarity(r.a, r.b) !== r.pol) missing.push(r.msg);
+      }
+      if (missing.length){
+        alert("Almost there!\n\nTo continue, please:\n• " + missing.join("\n• "));
+        return;
+      }
+
+      // Save outputs
+      document.getElementById("practice_positions").value = JSON.stringify(points);
+      document.getElementById("practice_edges").value = JSON.stringify(
+        edges.map(e => ({ from:e.from.label, to:e.to.label, polarity:e.polarity, timestamp:e.timestamp ?? null }))
+      );
+
+      document.querySelector("form").submit();
+    });
+
+    drawCanvas();
+  });
+</script>
+{% endblock %}

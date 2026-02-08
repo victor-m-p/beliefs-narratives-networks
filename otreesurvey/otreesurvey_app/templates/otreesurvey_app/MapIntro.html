@@ -1,0 +1,83 @@
+{% extends "global/Page.html" %} {% block styles %}
+<style>
+  .card {
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    border-radius: 12px;
+    padding: 14px 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    margin: 0 auto 14px;
+    max-width: 900px;
+  }
+  .eyebrow {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #111;
+    margin: 0 0 6px;
+  }
+  .muted {
+    color: #555;
+  }
+  .items {
+    margin: 10px 0 0;
+    padding-left: 1.25rem;
+  }
+  .items li {
+    margin: 6px 0;
+    line-height: 1.3;
+    color: #111;
+    font-weight: 600;
+  }
+  .transcript-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .transcript-list li {
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+  }
+</style>
+{% endblock %} {% block content %}
+
+<div class="card">
+  <p class="eyebrow">Next: working with your own statements</p>
+  <p class="muted">
+    Thank you for completing the practice task. In the next steps, you will
+    first place <b>your own statements</b> based on how they go together for you
+    personally. Then you will create <b>supporting</b> and
+    <b>conflicting</b> connections between them, like in the practice exercise.
+  </p>
+</div>
+
+<div class="card">
+  <p class="eyebrow">Your interview transcript</p>
+  <p class="muted">
+    Below you can see the questions and answers from your interview for your
+    reference.
+  </p>
+  <ul class="transcript-list">
+    {% for pair in transcript %}
+    <li>
+      <strong>Q:</strong> {{ pair.question }}<br />
+      <strong>A:</strong> {{ pair.answer }}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="card">
+  <p class="eyebrow">Your statements</p>
+  <p class="muted">
+    These are the short summary statements that were extracted from your
+    interview and which you rated as accurate. You will work with these on the
+    next pages.
+  </p>
+  <ol class="items">
+    {% for stmt in own_statements %}
+    <li>{{ stmt }}</li>
+    {% endfor %}
+  </ol>
+</div>
+
+{{ next_button }} {% endblock %}
