@@ -1,10 +1,10 @@
 # beliefs-narratives-networks
 
-Code and survey instrument for a preprint studying belief networks elicited through LLM-adaptive semi-structured interviews, participant curation, and topic modelling across two longitudinal waves.
+Code and survey instrument for "Visual Network tool: Individual belief networks from LLM-guided interviews and a visual canvas" preprint (Victor Poulsen, Peter Steiglechner, Henrik Olsson, Mirta Galesic).
 
 ## Refactoring note
 
-Between 2026-02-06 and 2026-02-08, the codebase was refactored with Claude Code to separate sensitive participant data from shareable analysis outputs, sanitize all scripts for public release, and remove hardcoded secrets. All analysis scripts were verified, reproduced, and rerun by Victor Moller Poulsen.
+Between 2026-02-06 and 2026-02-08, the codebase was refactored with Claude Code to separate sensitive participant data from shareable analysis outputs, sanitize all scripts for public release, and remove hardcoded secrets. All analysis scripts were verified, reproduced, and rerun by Victor Møller Poulsen.
 
 ## Repository structure
 
