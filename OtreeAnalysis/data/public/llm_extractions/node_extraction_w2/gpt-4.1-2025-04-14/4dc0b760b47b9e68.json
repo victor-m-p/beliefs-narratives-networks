@@ -1,0 +1,44 @@
+[
+  {
+    "stance": "I eat meat 2-4 times a week",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "I eat small portions of meat",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "I want to get enough protein",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "I want to get enough iron",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "I am concerned about environmental impacts",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "I am influenced by vegan and vegetarian friends",
+    "type": "SOCIAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "My social contacts discuss animal welfare",
+    "type": "SOCIAL",
+    "category": "MOTIVATION",
+    "effect": "DECREASE"
+  }
+]

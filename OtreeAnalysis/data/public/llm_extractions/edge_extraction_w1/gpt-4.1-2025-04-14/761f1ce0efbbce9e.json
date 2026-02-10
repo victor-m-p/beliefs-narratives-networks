@@ -1,0 +1,122 @@
+[
+  {
+    "stance_1": "I eat poultry two or three times a week",
+    "stance_2": "People I spend time with eat similar to me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states that people they spend time with have similar eating habits, which supports the frequency of poultry consumption."
+  },
+  {
+    "stance_1": "I eat red meat one or two times a week",
+    "stance_2": "I limit red meat to two servings a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The explicit limit on red meat consumption directly supports the reported frequency of eating red meat."
+  },
+  {
+    "stance_1": "I eat red meat one or two times a week",
+    "stance_2": "People I spend time with eat similar to me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee reports similar habits among their social circle, supporting their frequency of red meat consumption."
+  },
+  {
+    "stance_1": "I eat things in moderation",
+    "stance_2": "I limit red meat to two servings a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Limiting red meat is given as an example of eating in moderation."
+  },
+  {
+    "stance_1": "I eat things in moderation",
+    "stance_2": "I try to eat protein to feel strong",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Consuming protein for strength is balanced by the stated principle of moderation."
+  },
+  {
+    "stance_1": "I eat things in moderation",
+    "stance_2": "People I spend time with eat similar to me",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Moderation is implied as a shared value since eating habits are similar."
+  },
+  {
+    "stance_1": "I needed more protein during pregnancy",
+    "stance_2": "I was vegetarian for 19 years",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "The need for more protein during pregnancy is explicitly given as the reason for ending 19 years of vegetarianism."
+  },
+  {
+    "stance_1": "Fish is good for my heart and brain",
+    "stance_2": "I eat fish one to two times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The health benefits of fish are stated as a motivation for its consumption."
+  },
+  {
+    "stance_1": "I try to eat protein to feel strong",
+    "stance_2": "I eat poultry two or three times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Poultry is a protein source and is consumed to support strength."
+  },
+  {
+    "stance_1": "I try to eat protein to feel strong",
+    "stance_2": "I eat red meat one or two times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Red meat provides protein, supporting the goal of feeling strong."
+  },
+  {
+    "stance_1": "I try to eat protein to feel strong",
+    "stance_2": "I eat fish one to two times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Eating fish is in line with the motivation to consume protein for strength."
+  },
+  {
+    "stance_1": "I try to eat protein to feel strong",
+    "stance_2": "What motivates my mother to be vegetarian is that she is an animal rights activist",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee and their mother have different core motivations for their dietary habits, leading to debates."
+  },
+  {
+    "stance_1": "My mother is an animal rights activist",
+    "stance_2": "People I spend time with eat similar to me",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The mother, as a vegetarian for animal rights, is contrasted with the interviewee's more omnivorous social circle."
+  },
+  {
+    "stance_1": "I was vegetarian for 19 years",
+    "stance_2": "What motivates my mother to be vegetarian is that she is an animal rights activist",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The history of vegetarianism may be influenced by the mother's activism, though this is not directly stated."
+  },
+  {
+    "stance_1": "I eat red meat one or two times a week",
+    "stance_2": "What motivates my mother to be vegetarian is that she is an animal rights activist",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee's meat consumption is in conflict with their mother's animal activist vegetarianism, leading to debates."
+  }
+]

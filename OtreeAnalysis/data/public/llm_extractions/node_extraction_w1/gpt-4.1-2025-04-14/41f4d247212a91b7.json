@@ -1,0 +1,56 @@
+[
+  {
+    "stance": "I eat beef at least four times a week",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "I have easy access to frozen beef",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "I believe beef is nutritious and filling",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "I am not interested in eating less beef",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "Negative information about beef is political",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "My sister prefers chicken or fish",
+    "type": "SOCIAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "My sister is motivated by health concerns",
+    "type": "SOCIAL",
+    "category": "MOTIVATION",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "I eat chicken or fish at family gatherings",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "Some family members avoid venison for taste reasons",
+    "type": "SOCIAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  }
+]

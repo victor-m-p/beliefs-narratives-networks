@@ -1,0 +1,42 @@
+[
+  {
+    "stance_1": "Climate change is not a big problem to me",
+    "stance_2": "I would stop eating meat if prices became unaffordable",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "If climate change is not seen as a problem, price is the only factor that could motivate the interviewee to stop eating meat, as explicitly stated."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states enjoyment as the motivation for eating meat regularly."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "Most of my family and friends eat meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The interviewee reports most close contacts eat meat, supporting a shared norm of regular meat consumption."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I would stop eating meat if prices became unaffordable",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Enjoyment is identified as the motivation for eating meat, but the interviewee says only high prices would make them stop, indicating a conflict between motivation and a limiting factor."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "Most of my family and friends eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Enjoyment is stated as the primary motivation for both the interviewee and their social circle to eat meat."
+  }
+]

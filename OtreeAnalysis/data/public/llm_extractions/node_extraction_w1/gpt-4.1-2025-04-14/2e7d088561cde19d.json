@@ -1,0 +1,50 @@
+[
+  {
+    "stance": "I mostly eat chicken",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "I prefer chicken over other meats",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "Eating red meat upsets my stomach",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "My significant other eats mostly chicken",
+    "type": "SOCIAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "My significant other has Crohn's and IBS",
+    "type": "SOCIAL",
+    "category": "MOTIVATION",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "Being around my significant other made me eat less red meat",
+    "type": "SOCIAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "My family eats red meat more often than I do",
+    "type": "SOCIAL",
+    "category": "BEHAVIOR",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "My mom makes chicken breast for me at gatherings",
+    "type": "SOCIAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  }
+]

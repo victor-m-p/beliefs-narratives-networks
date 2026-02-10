@@ -1,0 +1,42 @@
+[
+  {
+    "stance_1": "I am more mindful of eating habits due to environmental impact",
+    "stance_2": "I consider environmental impact of eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly connects being more mindful of eating habits to considering the environmental impact of eating meat."
+  },
+  {
+    "stance_1": "I am more mindful of eating habits due to environmental impact",
+    "stance_2": "I eat meat several times a week",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Being mindful of environmental impact could conflict with eating meat several times a week, but the interviewee notes their habits haven't changed, so the conflict is mild."
+  },
+  {
+    "stance_1": "I consider environmental impact of eating meat",
+    "stance_2": "I eat meat several times a week",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 25,
+    "justification": "The interviewee considers the environmental impact but still eats meat several times a week, suggesting some tension between belief and behavior."
+  },
+  {
+    "stance_1": "I buy pork because it is budget friendly",
+    "stance_2": "I prefer chicken or fish to red meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Preferring chicken or fish to red meat, but buying pork for budget reasons, reflects a conflict between preference and cost-driven behavior."
+  },
+  {
+    "stance_1": "I eat meat for protein",
+    "stance_2": "I eat meat several times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Eating meat for protein supports eating meat several times a week."
+  }
+]

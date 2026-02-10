@@ -1,0 +1,138 @@
+[
+  {
+    "stance_1": "I buy meat because it is easy to store",
+    "stance_2": "I eat meat five to six days a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states that the practicality and storability of meat is a main reason they eat it frequently."
+  },
+  {
+    "stance_1": "I buy meat because it is easy to store",
+    "stance_2": "I have limited storage for fresh vegetables",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly links limited storage for fresh vegetables to choosing meat, which is easier to store."
+  },
+  {
+    "stance_1": "I buy meat because it is easy to store",
+    "stance_2": "I have transportation challenges for grocery shopping",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee mentions transportation difficulties as a reason for infrequent shopping, reinforcing the need for easily stored foods like meat."
+  },
+  {
+    "stance_1": "I buy meat because it is easy to store",
+    "stance_2": "I want to try more plant-based recipes",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "The convenience of storing meat makes it harder to implement the desire to try more plant-based recipes, which often require fresher ingredients."
+  },
+  {
+    "stance_1": "I eat meat five to six days a week",
+    "stance_2": "I have environmental concerns about eating meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Eating meat frequently is in tension with the interviewee\u2019s environmental concerns, which motivate reducing meat consumption."
+  },
+  {
+    "stance_1": "I eat meat five to six days a week",
+    "stance_2": "I have health concerns about eating meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee states a desire to eat less meat for health reasons, conflicting with current high consumption."
+  },
+  {
+    "stance_1": "I eat meat five to six days a week",
+    "stance_2": "I feel better when I eat less meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "The interviewee feels better eating less meat, which conflicts with their frequent meat consumption."
+  },
+  {
+    "stance_1": "I eat meat five to six days a week",
+    "stance_2": "I have already cut out most beef",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Cutting out most beef suggests some reduction, but overall high meat consumption remains, showing partial conflict."
+  },
+  {
+    "stance_1": "I have environmental concerns about eating meat",
+    "stance_2": "I want to try more plant-based recipes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Environmental concerns are a stated motivation for wanting to try more plant-based recipes."
+  },
+  {
+    "stance_1": "I have environmental concerns about eating meat",
+    "stance_2": "I have already cut out most beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Environmental concerns support the reduction of beef consumption, as beef is often seen as environmentally impactful."
+  },
+  {
+    "stance_1": "I have health concerns about eating meat",
+    "stance_2": "I feel better when I eat less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states that health concerns and feeling better when eating less meat are linked."
+  },
+  {
+    "stance_1": "I have health concerns about eating meat",
+    "stance_2": "I want to try more plant-based recipes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Health concerns motivate the desire to try more plant-based recipes."
+  },
+  {
+    "stance_1": "I have health concerns about eating meat",
+    "stance_2": "I have already cut out most beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Health concerns are a reason for reducing meat, including cutting out most beef."
+  },
+  {
+    "stance_1": "I have limited storage for fresh vegetables",
+    "stance_2": "I want to try more plant-based recipes",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that limited storage for fresh vegetables makes it difficult to implement plant-based meals."
+  },
+  {
+    "stance_1": "I have limited storage for fresh vegetables",
+    "stance_2": "I have transportation challenges for grocery shopping",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Both are practical limitations that together restrict the ability to buy and store fresh, plant-based foods."
+  },
+  {
+    "stance_1": "I have transportation challenges for grocery shopping",
+    "stance_2": "I want to try more plant-based recipes",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Transportation issues limit grocery trips, making it harder to buy fresh ingredients needed for plant-based meals."
+  },
+  {
+    "stance_1": "I have already cut out most beef",
+    "stance_2": "I want to try more plant-based recipes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 45,
+    "justification": "Cutting out beef is a step towards more plant-based eating, supporting the desire to try more plant-based recipes."
+  }
+]

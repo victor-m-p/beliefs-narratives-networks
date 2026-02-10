@@ -1,0 +1,170 @@
+[
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I eat meat 2 or 3 times a week",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee was vegan/vegetarian for years and is concerned about animal welfare, which conflicts with currently eating meat, even if only 2 or 3 times a week."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I keep kosher and eat kosher meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The interviewee notes keeping kosher and eating kosher meat; kosher slaughter is sometimes seen as more humane by adherents, which may help reconcile animal welfare concerns."
+  },
+  {
+    "stance_1": "I am concerned about environmental impact",
+    "stance_2": "I eat meat 2 or 3 times a week",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Interviewee explicitly mentions awareness of environmental impacts of meat and has reduced meat consumption, indicating conflict."
+  },
+  {
+    "stance_1": "I am concerned about environmental impact",
+    "stance_2": "I have financial limitations",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Both financial limitations and environmental concern have led to reduced meat consumption, supporting each other."
+  },
+  {
+    "stance_1": "I am concerned about environmental impact",
+    "stance_2": "I pack non-meat lunches for my children",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Packing non-meat lunches is consistent with environmental concern, though this is not stated as the primary reason."
+  },
+  {
+    "stance_1": "I am concerned about environmental impact",
+    "stance_2": "I want to improve my child's iron levels",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 45,
+    "justification": "Environmental concerns about reducing meat consumption conflict with the need to feed a child meat for anemia."
+  },
+  {
+    "stance_1": "I am concerned about environmental impact",
+    "stance_2": "I prepare meat for family meals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Despite environmental concerns, the interviewee prepares meat for family meals, indicating a conflict."
+  },
+  {
+    "stance_1": "I eat meat 2 or 3 times a week",
+    "stance_2": "I have financial limitations",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states explicitly that financial limitations have led to eating less meat."
+  },
+  {
+    "stance_1": "I eat meat 2 or 3 times a week",
+    "stance_2": "I prepare meat for family meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The frequency of eating meat is directly linked to preparing meat for family meals."
+  },
+  {
+    "stance_1": "I have financial limitations",
+    "stance_2": "I pack non-meat lunches for my children",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Interviewee explicitly says financial constraints led to packing non-meat lunches."
+  },
+  {
+    "stance_1": "I have health concerns about eating meat",
+    "stance_2": "I eat meat 2 or 3 times a week",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Interviewee expresses health concerns about eating meat multiple times weekly, indicating some conflict."
+  },
+  {
+    "stance_1": "I have health concerns about eating meat",
+    "stance_2": "I want to improve my child's iron levels",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "There is tension between health concerns about meat and the need to feed meat to a child for anemia."
+  },
+  {
+    "stance_1": "I have health concerns about eating meat",
+    "stance_2": "My family is motivated by health concerns",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Both the interviewee and their family are motivated by health-related dietary choices."
+  },
+  {
+    "stance_1": "I keep kosher and eat kosher meat",
+    "stance_2": "I prepare meat for family meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The family only eats kosher meat, so preparing meat for family meals involves kosher meat."
+  },
+  {
+    "stance_1": "I pack non-meat lunches for my children",
+    "stance_2": "I prepare meat for family meals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Packing non-meat lunches contrasts with preparing meat for family meals, showing adaptation to context."
+  },
+  {
+    "stance_1": "I prepare meat for family meals",
+    "stance_2": "My child prefers meat-based meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee prepares meat for family meals because the child prefers meat-based meals."
+  },
+  {
+    "stance_1": "I prepare meat for family meals",
+    "stance_2": "My husband prefers meals with meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The husband prefers meals with meat, motivating the interviewee to prepare meat for family meals."
+  },
+  {
+    "stance_1": "I want to improve my child's iron levels",
+    "stance_2": "My child prefers meat-based meals",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The child's preference for meat-based meals makes it easier to provide the iron needed for anemia."
+  },
+  {
+    "stance_1": "I was vegan/vegetarian for years",
+    "stance_2": "I am concerned about animal welfare",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Being vegan/vegetarian is explicitly linked to concern for animal welfare."
+  },
+  {
+    "stance_1": "I was vegan/vegetarian for years",
+    "stance_2": "I eat meat 2 or 3 times a week",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Past veganism/vegetarianism conflicts with current meat consumption."
+  },
+  {
+    "stance_1": "My child prefers meat-based meals",
+    "stance_2": "My husband prefers meals with meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Both the child and husband prefer meat-based meals, reinforcing the family's meat-eating patterns."
+  }
+]

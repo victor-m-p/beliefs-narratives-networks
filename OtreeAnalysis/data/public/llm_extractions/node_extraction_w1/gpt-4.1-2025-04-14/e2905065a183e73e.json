@@ -1,0 +1,86 @@
+[
+  {
+    "stance": "I am concerned about environmental impact",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "I try to eat more sustainably",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "I have no moral qualms about eating meat",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "I still eat meat",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "I avoid buying beef at the grocery store",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "I order beef at restaurants",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "I switch to non-meat alternatives if available",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "I buy chicken when on sale",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "Chicken meatless alternatives are not satisfactory",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "Meatless substitutes are often indistinguishable from meat",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "I cook mostly with chicken or meat substitutes at home",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "I am concerned plant-based substitutes are highly processed",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "Social contacts have restrictive diets",
+    "type": "SOCIAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "Some friends only eat ethically sourced meat",
+    "type": "SOCIAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "stance": "I eat meat regularly",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "I limit red meat to once a week",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "I try to eat healthier",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "I choose chicken, turkey, or fish over beef",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "I want to get enough protein",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "My husband tries to eat 100 grams of protein daily",
+    "type": "SOCIAL",
+    "category": "BEHAVIOR",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "I cook most meals at home",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "My extended family eats more red meat",
+    "type": "SOCIAL",
+    "category": "BEHAVIOR",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "My friends substitute turkey or chicken for beef",
+    "type": "SOCIAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  }
+]

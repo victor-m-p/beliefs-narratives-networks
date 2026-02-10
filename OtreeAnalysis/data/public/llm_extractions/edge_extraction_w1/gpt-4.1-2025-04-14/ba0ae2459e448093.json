@@ -1,0 +1,82 @@
+[
+  {
+    "stance_1": "I believe chicken, turkey, and fish are healthier",
+    "stance_2": "I eat chicken, turkey, and fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The belief that chicken, turkey, and fish are healthier directly supports the choice to eat those meats."
+  },
+  {
+    "stance_1": "I believe chicken, turkey, and fish are healthier",
+    "stance_2": "I eat little or no beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The belief that chicken, turkey, and fish are healthier than beef supports reducing beef consumption."
+  },
+  {
+    "stance_1": "I have digestive problems with beef",
+    "stance_2": "I eat little or no beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "Digestive problems with beef explicitly motivate the reduction of beef consumption."
+  },
+  {
+    "stance_1": "I have digestive problems with beef",
+    "stance_2": "I eat chicken, turkey, and fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Digestive problems with beef support the choice to eat other meats that do not cause issues."
+  },
+  {
+    "stance_1": "I want to stay healthy",
+    "stance_2": "I believe chicken, turkey, and fish are healthier",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The desire to stay healthy supports the belief in eating healthier meats."
+  },
+  {
+    "stance_1": "I want to stay healthy",
+    "stance_2": "I eat chicken, turkey, and fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The desire to stay healthy supports the choice of healthier meats."
+  },
+  {
+    "stance_1": "I want to stay healthy",
+    "stance_2": "I eat little or no beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The desire to stay healthy supports reducing beef, which is perceived as less healthy."
+  },
+  {
+    "stance_1": "I want to stay healthy",
+    "stance_2": "I have digestive problems with beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Digestive problems with beef are tied to health concerns which support avoiding beef."
+  },
+  {
+    "stance_1": "I eat chicken, turkey, and fish",
+    "stance_2": "My wife changed her eating habits with me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee's eating habits influenced his wife to also eat chicken, turkey, and fish."
+  },
+  {
+    "stance_1": "I eat little or no beef",
+    "stance_2": "My wife changed her eating habits with me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee's reduction in beef consumption influenced his wife's similar change."
+  }
+]

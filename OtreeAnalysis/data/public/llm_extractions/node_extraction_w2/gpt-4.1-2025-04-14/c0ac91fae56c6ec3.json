@@ -1,0 +1,56 @@
+[
+  {
+    "stance": "I eat some kind of meat every day",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "I prefer chicken and turkey over beef",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "I choose lean cuts of beef",
+    "type": "PERSONAL",
+    "category": "BEHAVIOR",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "I avoid saturated fat for health reasons",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "My husband's health problems motivate me to avoid fat",
+    "type": "SOCIAL",
+    "category": "MOTIVATION",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "I like vegetable dishes",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "I dislike greasy food",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "DECREASE"
+  },
+  {
+    "stance": "It is hard to cook vegetable dishes for one person",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "INCREASE"
+  },
+  {
+    "stance": "Weight Watchers encourages eating chicken and turkey",
+    "type": "PERSONAL",
+    "category": "MOTIVATION",
+    "effect": "INCREASE"
+  }
+]

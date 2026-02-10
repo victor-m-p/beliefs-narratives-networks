@@ -1,0 +1,74 @@
+[
+  {
+    "stance_1": "Economic limitations can reduce meat consumption",
+    "stance_2": "Everyone I spend time with eats meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee explicitly states that economic limitations are the only reason their social group might not eat meat regularly, showing a direct connection."
+  },
+  {
+    "stance_1": "Everyone I spend time with eats meat regularly",
+    "stance_2": "I always eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee's own meat-eating habits are explicitly stated to be consistent with those of their social group."
+  },
+  {
+    "stance_1": "I always eat meat",
+    "stance_2": "I believe meat is necessary for health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The belief that meat is necessary for health supports the behavior of always eating meat; this connection is directly stated."
+  },
+  {
+    "stance_1": "I always eat meat",
+    "stance_2": "I avoid non-organic, non-pasture-raised meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The interviewee describes eating meat daily but expresses a preference for organic, pasture-raised sources, suggesting that their meat-eating is channeled through this preference."
+  },
+  {
+    "stance_1": "I always eat meat",
+    "stance_2": "I am concerned about lab-grown or 3D printed meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee states both that they always eat meat and that they avoid certain types (lab-grown, 3D printed), showing their ongoing consumption is shaped by these concerns."
+  },
+  {
+    "stance_1": "I always eat meat",
+    "stance_2": "I am concerned about meat origin and labeling",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee's ongoing meat consumption is coupled with concern about meat origin and labeling, influencing their choices."
+  },
+  {
+    "stance_1": "I avoid non-organic, non-pasture-raised meat",
+    "stance_2": "I am concerned about lab-grown or 3D printed meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The concern about unnatural meat directly supports the avoidance of non-organic, non-pasture-raised, and lab-grown/3D printed meat."
+  },
+  {
+    "stance_1": "I avoid non-organic, non-pasture-raised meat",
+    "stance_2": "I am concerned about meat origin and labeling",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The avoidance of non-organic, non-pasture-raised meat is explicitly linked to concerns about origin and labeling in the interview."
+  },
+  {
+    "stance_1": "I am concerned about lab-grown or 3D printed meat",
+    "stance_2": "I am concerned about meat origin and labeling",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee's concern about unnatural and misrepresented meat is explicitly tied to broader concerns about origin and labeling."
+  }
+]

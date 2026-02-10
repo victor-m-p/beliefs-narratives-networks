@@ -1,0 +1,58 @@
+[
+  {
+    "stance_1": "A family member eats only white meat",
+    "stance_2": "I cook white meat for my family",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee states they cook white meat for their family because a family member eats only white meat."
+  },
+  {
+    "stance_1": "A family member eats only white meat",
+    "stance_2": "I avoid cooking different meals for my family",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee avoids cooking different meals, leading to everyone eating white meat due to the family member's preference."
+  },
+  {
+    "stance_1": "A family member eats only white meat",
+    "stance_2": "I eat meat three days a week",
+    "polarity": "implicit",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "The frequency and type of meat the interviewee eats is influenced by the family member's dietary restriction, but the connection is only implied."
+  },
+  {
+    "stance_1": "A family member eats only white meat",
+    "stance_2": "I believe in eating a balanced diet",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "A belief in eating everything for balance may conflict with the restriction to only white meat, which is less diverse."
+  },
+  {
+    "stance_1": "I avoid cooking different meals for my family",
+    "stance_2": "I cook white meat for my family",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states that cooking only white meat is to avoid making different meals for family members."
+  },
+  {
+    "stance_1": "I avoid cooking different meals for my family",
+    "stance_2": "I believe in eating a balanced diet",
+    "polarity": "implicit",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Avoiding different meals may conflict with the ideal of a balanced diet if it restricts variety, but the interviewee seems to rationalize it as still balanced."
+  },
+  {
+    "stance_1": "I cook white meat for my family",
+    "stance_2": "I believe in eating a balanced diet",
+    "polarity": "implicit",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Cooking mainly white meat may limit dietary variety, which could implicitly conflict with the belief in a balanced diet, but the interviewee does not perceive a strong conflict."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "stance_1": "I believe my body needs nutrients from meat",
+    "stance_2": "I eat chicken, turkey, fish, or beef daily",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The belief that their body needs nutrients from meat directly supports their daily meat consumption."
+  },
+  {
+    "stance_1": "I eat chicken, turkey, fish, or beef daily",
+    "stance_2": "I try to balance my diet with meat and vegetarian products",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating meat daily is part of the interviewee's attempt to balance their diet."
+  },
+  {
+    "stance_1": "I have added plant-based meals to my diet",
+    "stance_2": "I try to balance my diet with meat and vegetarian products",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Adding plant-based meals is a direct part of balancing between meat and vegetarian products."
+  },
+  {
+    "stance_1": "Eating meat keeps me fuller longer",
+    "stance_2": "I believe my body needs nutrients from meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The belief that meat is needed for the body is supported by the practical effect of feeling fuller longer."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I eat chicken, turkey, fish, or beef daily",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Enjoyment of eating meat helps explain and reinforce the daily consumption habit."
+  },
+  {
+    "stance_1": "I like the taste of plant-based meals",
+    "stance_2": "I have added plant-based meals to my diet",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Liking the taste of plant-based meals supports the addition of plant-based meals to the diet."
+  },
+  {
+    "stance_1": "Plant-based meals are easy to prepare",
+    "stance_2": "I have added plant-based meals to my diet",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Ease of preparation is a stated reason for including plant-based meals in the diet."
+  },
+  {
+    "stance_1": "Plant-based meals feel lighter than meat meals",
+    "stance_2": "I have added plant-based meals to my diet",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Preferring lighter meals sometimes is a reason given for choosing plant-based meals."
+  },
+  {
+    "stance_1": "Plant-based meals now taste as good as meat",
+    "stance_2": "I have added plant-based meals to my diet",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Improved taste of plant-based meals supports their inclusion in the diet."
+  },
+  {
+    "stance_1": "Plant-based meals now taste as good as meat",
+    "stance_2": "I like the taste of plant-based meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Stating that plant-based meals taste as good as meat supports liking their taste."
+  },
+  {
+    "stance_1": "Plant-based meals are easy to prepare",
+    "stance_2": "I like the taste of plant-based meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "Ease of preparation and liking taste are both reasons given for including plant-based meals, and they are mentioned together."
+  },
+  {
+    "stance_1": "Plant-based meals feel lighter than meat meals",
+    "stance_2": "I like the taste of plant-based meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "Liking the taste and the lighter feeling of plant-based meals are both reasons for eating them, mentioned together."
+  },
+  {
+    "stance_1": "Plant-based meals now taste as good as meat",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The interviewee values both meat and improved plant-based meal taste, suggesting both can be enjoyable."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I have added plant-based meals to my diet",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "Enjoyment of meat is stated as a reason for not considering cutting it out; yet, plant-based meals are still included, suggesting a mild conflict."
+  },
+  {
+    "stance_1": "I believe my body needs nutrients from meat",
+    "stance_2": "I have added plant-based meals to my diet",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Belief in needing meat nutrients could conflict with adding plant-based meals, but interviewee reconciles this by balancing both."
+  }
+]

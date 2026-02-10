@@ -1,0 +1,106 @@
+[
+  {
+    "stance_1": "I am concerned about digesting meat as I get older",
+    "stance_2": "I stopped eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that concern about digesting meat as they get older was a motivation for stopping eating meat."
+  },
+  {
+    "stance_1": "I eat mainly vegetables, beans, and lentils",
+    "stance_2": "I stopped eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee's current plant-based diet is a direct result of having stopped eating meat."
+  },
+  {
+    "stance_1": "I learned meat labeled lean can still have high fat",
+    "stance_2": "I stopped eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The realization about lean meats still having high fat content is explicitly cited as a motivation for stopping eating meat."
+  },
+  {
+    "stance_1": "I reintroduced salmon due to financial limitations",
+    "stance_2": "I stopped eating meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Reintroducing salmon due to financial limitations conflicts with the initial stance of having stopped eating meat."
+  },
+  {
+    "stance_1": "I eat salmon to avoid hunger",
+    "stance_2": "I reintroduced salmon due to financial limitations",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states they eat salmon for bulk and to avoid hunger, which is a direct consequence of reintroducing salmon due to financial limitations."
+  },
+  {
+    "stance_1": "I eat salmon to avoid hunger",
+    "stance_2": "I stopped eating meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating salmon to avoid hunger is in conflict with the stance of having stopped eating meat, as it represents a partial reversal."
+  },
+  {
+    "stance_1": "I eat mainly vegetables, beans, and lentils",
+    "stance_2": "I reintroduced salmon due to financial limitations",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The reintroduction of salmon due to financial limitations is a deviation from the otherwise plant-based diet."
+  },
+  {
+    "stance_1": "I eat mainly vegetables, beans, and lentils",
+    "stance_2": "I eat salmon to avoid hunger",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Eating salmon to avoid hunger is a deviation from the main stance of eating mainly vegetables, beans, and lentils."
+  },
+  {
+    "stance_1": "I stopped eating meat",
+    "stance_2": "My family stopped eating meat together",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states that the family stopped eating meat together, supporting the individual's decision."
+  },
+  {
+    "stance_1": "I stopped eating meat",
+    "stance_2": "My sister does not eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee notes that their sister also does not eat meat, possibly influenced by their own decision, suggesting supportive influence."
+  },
+  {
+    "stance_1": "My family stopped eating meat together",
+    "stance_2": "My sister does not eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The sister's behavior is part of the broader family pattern of not eating meat."
+  },
+  {
+    "stance_1": "I stopped eating meat",
+    "stance_2": "There are many meat alternatives available",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The availability of meat alternatives is mentioned as making it easier to not eat meat, supporting the stance."
+  },
+  {
+    "stance_1": "I eat mainly vegetables, beans, and lentils",
+    "stance_2": "There are many meat alternatives available",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "The reliance on plant foods and mention of alternatives suggests that availability of meat alternatives supports the plant-based diet."
+  }
+]

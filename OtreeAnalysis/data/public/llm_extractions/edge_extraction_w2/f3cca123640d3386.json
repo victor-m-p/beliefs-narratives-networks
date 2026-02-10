@@ -1,0 +1,122 @@
+[
+  {
+    "stance_1": "I am concerned about fat and calorie content",
+    "stance_2": "I choose lean meats",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states that concern about fat and calorie content motivates the choice of lean meats."
+  },
+  {
+    "stance_1": "I am concerned about fat and calorie content",
+    "stance_2": "I want to lose weight",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee links concern about fat and calorie content with wanting to lose weight as a key motivator."
+  },
+  {
+    "stance_1": "I am concerned about fat and calorie content",
+    "stance_2": "I eat plant-based meat substitutes",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Choosing plant-based meat substitutes is partly supported by concern for fat and calorie content, as discussed in the interview."
+  },
+  {
+    "stance_1": "I choose lean meats",
+    "stance_2": "I want to lose weight",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The choice of lean meats is directly motivated by the desire to lose weight."
+  },
+  {
+    "stance_1": "I choose lean meats",
+    "stance_2": "I eat plant-based meat substitutes",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The shift to both lean meats and plant-based substitutes reflects the same overall motivation for healthier eating."
+  },
+  {
+    "stance_1": "I choose lean meats",
+    "stance_2": "I eat red meat about once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The reduction in red meat consumption and the focus on lean meats are linked as part of a dietary change."
+  },
+  {
+    "stance_1": "I eat plant-based meat substitutes",
+    "stance_2": "I eat red meat about once a week",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Eating plant-based substitutes represents a reduction in red meat, indicating a conflicting relationship."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I eat plant-based meat substitutes",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Concern about animal welfare is mentioned as a reason for shifting attitudes, indirectly supporting plant-based alternatives."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I like the taste of meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Enjoying the taste of meat potentially conflicts with concern about animal welfare, as acknowledged in shifting attitudes."
+  },
+  {
+    "stance_1": "I am concerned about meat prices",
+    "stance_2": "I eat plant-based meat substitutes",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The rising price of meat could support increasing use of plant-based substitutes, as implied in the transcript."
+  },
+  {
+    "stance_1": "I like the taste of meat",
+    "stance_2": "I eat plant-based meat substitutes",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The interviewee explicitly expresses uncertainty about the healthiness and taste satisfaction of plant-based alternatives compared to meat."
+  },
+  {
+    "stance_1": "I like the taste of meat",
+    "stance_2": "I choose lean meats",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "The interviewee tries to choose lean meats that still satisfy taste preferences, suggesting supportive alignment."
+  },
+  {
+    "stance_1": "I make compromises to accommodate family preferences",
+    "stance_2": "My family eats a lot of red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The need to compromise is directly due to the family's preference for eating a lot of red meat."
+  },
+  {
+    "stance_1": "I make compromises to accommodate family preferences",
+    "stance_2": "I choose lean meats",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Compromising for the family's preferences can make it difficult to consistently choose lean meats, as stated by the interviewee."
+  },
+  {
+    "stance_1": "I make compromises to accommodate family preferences",
+    "stance_2": "I eat plant-based meat substitutes",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Family preferences for red meat make it challenging to serve plant-based substitutes, implying a conflict."
+  }
+]

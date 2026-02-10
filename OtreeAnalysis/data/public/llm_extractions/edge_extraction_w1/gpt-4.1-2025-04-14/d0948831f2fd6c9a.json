@@ -1,0 +1,122 @@
+[
+  {
+    "stance_1": "Eating meat is culturally accepted",
+    "stance_2": "People close to me eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that cultural acceptance is a motivation for people around them eating meat regularly."
+  },
+  {
+    "stance_1": "Eating meat is culturally accepted",
+    "stance_2": "I eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The cultural acceptance of eating meat supports the interviewee's regular meat consumption."
+  },
+  {
+    "stance_1": "I eat a lot of chicken",
+    "stance_2": "I eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Eating a lot of chicken is a direct example of eating meat regularly."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I have not thought about reducing meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee states they eat meat regularly and have not considered reducing it, showing these stances mutually reinforce each other."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I think meat is good for my body",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The belief that meat is good for the body supports the behavior of eating meat regularly."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I think meat is important to eat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that they think meat is important to eat and they eat it regularly."
+  },
+  {
+    "stance_1": "I think meat is good for my body",
+    "stance_2": "I think meat is important to eat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 75,
+    "justification": "Believing meat is good for the body supports the stance that it is important to eat meat."
+  },
+  {
+    "stance_1": "I value high protein foods",
+    "stance_2": "I eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states that high protein is a key reason they eat meat regularly."
+  },
+  {
+    "stance_1": "I value high protein foods",
+    "stance_2": "I think meat is good for my body",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "High protein is cited as a reason meat is good for the body."
+  },
+  {
+    "stance_1": "I value high protein foods",
+    "stance_2": "I think meat is important to eat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Valuing high protein foods implicitly supports the belief that meat is important to eat, since meat is framed as a primary high protein food."
+  },
+  {
+    "stance_1": "I value low calorie foods",
+    "stance_2": "I eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee explicitly mentions low calories as a reason for eating meat regularly, especially chicken."
+  },
+  {
+    "stance_1": "I value low calorie foods",
+    "stance_2": "I think meat is good for my body",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Low calorie content is cited as a reason why meat is good for the body."
+  },
+  {
+    "stance_1": "I value low calorie foods",
+    "stance_2": "I value high protein foods",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Both low calorie and high protein are explicitly listed as important, reinforcing each other as co-motivations."
+  },
+  {
+    "stance_1": "People close to me eat meat regularly",
+    "stance_2": "I eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The interviewee notes that people around them eat meat regularly, which likely reinforces their own behavior."
+  },
+  {
+    "stance_1": "People close to me eat meat regularly",
+    "stance_2": "I think meat is important to eat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 55,
+    "justification": "Shared behavior among close contacts implicitly supports the belief in the importance of eating meat."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "stance_1": "I am cautious about what I eat",
+    "stance_2": "I am concerned about my health",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 80,
+    "justification": "Being cautious about what one eats is strongly supported by concern for health, as stated by the interviewee."
+  },
+  {
+    "stance_1": "I am cautious about what I eat",
+    "stance_2": "I am concerned about environmental impact",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee explicitly mentions caution in food choices due to concerns about environmental impact."
+  },
+  {
+    "stance_1": "I am cautious about what I eat",
+    "stance_2": "I eat meat for almost every meal",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Being cautious about food and eating meat for almost every meal are in some tension, as caution might suggest limiting certain foods."
+  },
+  {
+    "stance_1": "I am concerned about environmental impact",
+    "stance_2": "I eat meat for almost every meal",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The interviewee notes concern about environmental impact and admits this sometimes influences meat purchasing, which conflicts with frequent meat consumption."
+  },
+  {
+    "stance_1": "I am concerned about my health",
+    "stance_2": "I eat meat for almost every meal",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Concern about health is somewhat in conflict with eating meat for almost every meal, as the interviewee expresses wariness about meat's effects on health."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "I eat meat for almost every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that enjoyment of taste motivates frequent meat consumption."
+  },
+  {
+    "stance_1": "I eat meat for almost every meal",
+    "stance_2": "Meat helps me gain weight",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee includes meat in meals to help with weight gain."
+  },
+  {
+    "stance_1": "I eat meat for almost every meal",
+    "stance_2": "Meat helps me stay full",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee mentions staying full as a reason for frequent meat consumption."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "Meat helps me gain weight",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Enjoying the taste and seeking benefits like weight gain jointly motivate meat consumption."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "Meat helps me stay full",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Enjoying taste and value of satiety both support meat consumption."
+  },
+  {
+    "stance_1": "I am concerned about my health",
+    "stance_2": "Meat helps me gain weight",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Concern about health may conflict with eating meat for weight gain if perceived as unhealthy."
+  },
+  {
+    "stance_1": "I am concerned about my health",
+    "stance_2": "Meat helps me stay full",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 20,
+    "justification": "Concern about health could conflict with eating meat for fullness if the healthiness of meat is questioned."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "stance_1": "Eating meat is a long-standing habit",
+    "stance_2": "I do not try to lower my meat intake",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Explicitly, the interviewee states that eating meat is something they've always done and that they do not make any efforts to reduce intake, showing the habit supports the lack of reduction."
+  },
+  {
+    "stance_1": "Eating meat is a long-standing habit",
+    "stance_2": "I eat meat for most meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly links eating meat for most meals to it being a long-standing habit."
+  },
+  {
+    "stance_1": "Eating meat is a long-standing habit",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee mentions both enjoyment of taste and habit as motivations, reinforcing regular meat consumption."
+  },
+  {
+    "stance_1": "Eating meat is a long-standing habit",
+    "stance_2": "My social contacts eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Interviewee indicates everyone grew up eating meat and continues to do so, so personal and social habits reinforce one another."
+  },
+  {
+    "stance_1": "I do not try to lower my meat intake",
+    "stance_2": "I eat meat for most meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Stating that they do not try to lower intake supports eating meat frequently."
+  },
+  {
+    "stance_1": "I do not try to lower my meat intake",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Enjoyment of taste plausibly supports the lack of motivation to reduce intake."
+  },
+  {
+    "stance_1": "I do not try to lower my meat intake",
+    "stance_2": "My social contacts eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Social environment where meat eating is normal supports not attempting to reduce intake."
+  },
+  {
+    "stance_1": "I eat meat for most meals",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Interviewee explicitly says they eat meat because they like the taste."
+  },
+  {
+    "stance_1": "I eat meat for most meals",
+    "stance_2": "My social contacts eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Interviewee states that everyone around them eats meat regularly, supporting frequent meat consumption."
+  },
+  {
+    "stance_1": "I am open to reducing meat if evidence is convincing",
+    "stance_2": "I do not try to lower my meat intake",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Currently, the interviewee does not try to lower intake but is open to doing so if presented with convincing evidence, indicating a potential conflict if evidence arises."
+  }
+]

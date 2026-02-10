@@ -1,0 +1,50 @@
+[
+  {
+    "stance_1": "I am concerned about additives and preservatives in food",
+    "stance_2": "I eat meat every day",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Concern about additives and preservatives in food may conflict with eating meat every day, as processed meats often contain such additives, though not directly stated."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I eat meat every day",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly expresses concern about animal welfare and guilt about eating meat, which conflicts with eating meat every day."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I have felt guilty about eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Explicitly stated that concern for animal welfare is a source of guilt about eating meat."
+  },
+  {
+    "stance_1": "I enjoy meat as an important part of meals",
+    "stance_2": "I eat meat every day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The enjoyment of meat as an important part of meals directly supports eating meat every day."
+  },
+  {
+    "stance_1": "I enjoy meat as an important part of meals",
+    "stance_2": "I have felt guilty about eating meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee enjoys eating meat but also feels guilty about it, creating an explicit internal conflict."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "Most people around me eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee explicitly states that most people around them eat meat, supporting their own daily meat consumption."
+  }
+]

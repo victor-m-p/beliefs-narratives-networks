@@ -1,0 +1,74 @@
+[
+  {
+    "stance_1": "Eating meat is normal in my culture",
+    "stance_2": "I do not plan to reduce meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The belief that eating meat is normal in the interviewee's culture explicitly supports the stance that they do not plan to reduce meat consumption."
+  },
+  {
+    "stance_1": "Eating meat is normal in my culture",
+    "stance_2": "I eat meat every day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The perception of meat eating as a cultural norm explicitly supports the behavior of eating meat every day."
+  },
+  {
+    "stance_1": "I believe meat is necessary for health",
+    "stance_2": "I do not plan to reduce meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee states that meat is essential for health, which explicitly supports their refusal to reduce meat consumption."
+  },
+  {
+    "stance_1": "I believe meat is necessary for health",
+    "stance_2": "I eat meat every day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The belief in the necessity of meat for health explicitly supports the daily consumption of meat."
+  },
+  {
+    "stance_1": "I do not know how to cook",
+    "stance_2": "I eat meat every day",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Despite not knowing how to cook, the interviewee still eats meat every day, suggesting an implicit support, possibly due to reliance on others or processed foods."
+  },
+  {
+    "stance_1": "I do not know how to cook",
+    "stance_2": "My family cooks meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "The family's regular preparation of meat may compensate for the interviewee's lack of cooking skills."
+  },
+  {
+    "stance_1": "I do not plan to reduce meat consumption",
+    "stance_2": "I eat meat every day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Stating a refusal to reduce meat consumption directly supports the daily practice of eating meat."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "My family cooks meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The family's regular cooking of meat implicitly supports the behavior of eating meat every day."
+  },
+  {
+    "stance_1": "Eating meat is normal in my culture",
+    "stance_2": "My family cooks meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "The family's regular meat cooking is consistent with and implicitly supports the cultural norm of meat eating."
+  }
+]

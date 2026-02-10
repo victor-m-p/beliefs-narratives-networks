@@ -1,0 +1,66 @@
+[
+  {
+    "stance_1": "Cheap meat products are widely available",
+    "stance_2": "I eat meat every day",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The availability of cheap meat products could support the habit of eating meat every day, as affordability makes daily consumption easier."
+  },
+  {
+    "stance_1": "Cheap meat products are widely available",
+    "stance_2": "My family eats meat at every meal",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The wide availability of inexpensive meat helps enable families to serve meat at every meal."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I love the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Explicitly, the interviewee states that love of meat's taste motivates eating meat daily."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "My family eats meat at every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "There is explicit evidence that both the interviewee and their family eat meat very frequently, suggesting a supportive environment."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I try to substitute turkey for beef",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "Trying to substitute turkey for beef implies some reduction or modification in meat-eating habits, which somewhat conflicts with eating meat every day."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I need to eat more fish",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Expressing a need to eat more fish suggests the current pattern (eating meat every day) does not prioritize fish, so there's an implicit conflict."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "My family eats meat at every meal",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "A family environment that serves meat at every meal likely supports and reinforces the enjoyment of meat's taste."
+  },
+  {
+    "stance_1": "I try to substitute turkey for beef",
+    "stance_2": "I need to eat more fish",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 22,
+    "justification": "Both stances suggest attempts to modify or diversify meat intake for health or variety, implying a supportive relationship."
+  }
+]

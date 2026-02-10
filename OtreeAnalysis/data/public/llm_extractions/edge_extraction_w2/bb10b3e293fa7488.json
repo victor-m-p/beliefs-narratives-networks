@@ -1,0 +1,178 @@
+[
+  {
+    "stance_1": "I am an advocate for animal rights",
+    "stance_2": "I am morally conflicted about eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee's advocacy for animal rights directly contributes to their moral conflict about eating meat."
+  },
+  {
+    "stance_1": "I am an advocate for animal rights",
+    "stance_2": "I eat beef about once a week",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Being an advocate for animal rights conflicts with eating beef regularly."
+  },
+  {
+    "stance_1": "I am an advocate for animal rights",
+    "stance_2": "I eat chicken several times a week",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Being an advocate for animal rights conflicts with eating chicken frequently."
+  },
+  {
+    "stance_1": "I am an advocate for animal rights",
+    "stance_2": "I try to minimize animal suffering",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Advocacy for animal rights supports efforts to minimize animal suffering."
+  },
+  {
+    "stance_1": "I am an advocate for animal rights",
+    "stance_2": "I buy humanely certified eggs",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Advocacy for animal rights supports purchasing humanely certified eggs to reduce suffering."
+  },
+  {
+    "stance_1": "I am morally conflicted about eating meat",
+    "stance_2": "I eat beef about once a week",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Feeling moral conflict about eating meat is at odds with eating beef regularly."
+  },
+  {
+    "stance_1": "I am morally conflicted about eating meat",
+    "stance_2": "I eat chicken several times a week",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Moral conflict about eating meat is in tension with eating chicken frequently."
+  },
+  {
+    "stance_1": "I am morally conflicted about eating meat",
+    "stance_2": "I try to minimize animal suffering",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Moral conflict about eating meat supports efforts to minimize animal suffering."
+  },
+  {
+    "stance_1": "I buy humanely certified eggs",
+    "stance_2": "I try to minimize animal suffering",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Buying humanely certified eggs is an explicit example of trying to minimize animal suffering."
+  },
+  {
+    "stance_1": "I believe people cannot be healthy without meat",
+    "stance_2": "I eat beef about once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Belief that health requires meat supports eating beef."
+  },
+  {
+    "stance_1": "I believe people cannot be healthy without meat",
+    "stance_2": "I eat chicken several times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Belief that meat is necessary for health supports regular consumption of chicken."
+  },
+  {
+    "stance_1": "I believe people cannot be healthy without meat",
+    "stance_2": "My partner has dietary restrictions requiring meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The belief that meat is necessary for health is justified by the partner's dietary restrictions."
+  },
+  {
+    "stance_1": "I am the main decision maker for food",
+    "stance_2": "My partner has dietary restrictions requiring meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "As the main decision maker, the interviewee accounts for their partner's dietary restrictions."
+  },
+  {
+    "stance_1": "I am the main decision maker for food",
+    "stance_2": "Preparing two separate meals is untenable",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Being the main food decision maker and finding two meals untenable reinforces preparing only one meal type."
+  },
+  {
+    "stance_1": "I am the main decision maker for food",
+    "stance_2": "I eat chicken several times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "As the main decision maker, the interviewee's preferences and constraints result in eating chicken several times weekly."
+  },
+  {
+    "stance_1": "I am the main decision maker for food",
+    "stance_2": "I eat beef about once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The main decision maker status supports the pattern of eating beef once a week."
+  },
+  {
+    "stance_1": "My partner has dietary restrictions requiring meat",
+    "stance_2": "I eat chicken several times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The partner's need for meat influences eating chicken several times a week."
+  },
+  {
+    "stance_1": "My partner has dietary restrictions requiring meat",
+    "stance_2": "I eat beef about once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The partner's dietary needs support eating beef weekly."
+  },
+  {
+    "stance_1": "Preparing two separate meals is untenable",
+    "stance_2": "I eat chicken several times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The impracticality of preparing two meals leads to regular chicken consumption."
+  },
+  {
+    "stance_1": "Preparing two separate meals is untenable",
+    "stance_2": "I eat beef about once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The impracticality of two meals supports eating beef as part of shared meals."
+  },
+  {
+    "stance_1": "I try to minimize animal suffering",
+    "stance_2": "I eat chicken several times a week",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Eating chicken frequently undermines efforts to minimize animal suffering."
+  },
+  {
+    "stance_1": "I try to minimize animal suffering",
+    "stance_2": "I eat beef about once a week",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Eating beef contradicts the stance of minimizing animal suffering."
+  }
+]

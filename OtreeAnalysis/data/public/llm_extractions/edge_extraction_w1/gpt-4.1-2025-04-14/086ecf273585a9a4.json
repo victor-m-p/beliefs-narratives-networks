@@ -1,0 +1,162 @@
+[
+  {
+    "stance_1": "Chicken and pork are less expensive",
+    "stance_2": "I am trying to cut down on red meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The cost of chicken and pork being lower supports the reduction of red meat, as these alternatives are more financially appealing."
+  },
+  {
+    "stance_1": "Chicken and pork are less expensive",
+    "stance_2": "I eat chicken, beef, and pork regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Regular consumption of chicken and pork is supported by their lower cost, making them more accessible."
+  },
+  {
+    "stance_1": "Chicken and pork are less expensive",
+    "stance_2": "I want to eat leaner meats for health",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The lower cost of chicken and pork may indirectly support the choice to eat leaner meats, as these meats are both lean and affordable."
+  },
+  {
+    "stance_1": "Chicken and pork are less expensive",
+    "stance_2": "I feel better with less red meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Lower cost of chicken and pork may support feeling better with less red meat by making the shift more sustainable."
+  },
+  {
+    "stance_1": "Chicken and pork are less expensive",
+    "stance_2": "I am seeking plant-based alternatives",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Finding chicken and pork less expensive could make it less likely to shift fully to plant-based options, creating a mild conflict."
+  },
+  {
+    "stance_1": "I am concerned about environmental impact",
+    "stance_2": "I am seeking plant-based alternatives",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states seeking plant-based alternatives is motivated by environmental concerns."
+  },
+  {
+    "stance_1": "I am concerned about environmental impact",
+    "stance_2": "I am trying to cut down on red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states environmental concerns have contributed to reducing red meat consumption."
+  },
+  {
+    "stance_1": "I am concerned about environmental impact",
+    "stance_2": "I want to eat leaner meats for health",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Environmental and health motivations are both cited as reasons for changing meat choices; the two concerns reinforce this dietary shift."
+  },
+  {
+    "stance_1": "I am concerned about environmental impact",
+    "stance_2": "I feel better with less red meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The shift linked to environmental concern also results in feeling better, implicitly supporting the reduction."
+  },
+  {
+    "stance_1": "I am concerned about environmental impact",
+    "stance_2": "I eat chicken, beef, and pork regularly",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Environmental concern motivates reducing overall meat consumption, which is in mild conflict with eating all types of meat regularly."
+  },
+  {
+    "stance_1": "I am trying to cut down on red meat",
+    "stance_2": "I feel better with less red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states feeling better as a consequence of cutting down on red meat."
+  },
+  {
+    "stance_1": "I am trying to cut down on red meat",
+    "stance_2": "I want to eat leaner meats for health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Desire to eat leaner meats for health is directly stated as a reason for cutting down on red meat."
+  },
+  {
+    "stance_1": "I am trying to cut down on red meat",
+    "stance_2": "I am seeking plant-based alternatives",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The effort to reduce red meat consumption supports exploring plant-based alternatives."
+  },
+  {
+    "stance_1": "I am trying to cut down on red meat",
+    "stance_2": "I eat chicken, beef, and pork regularly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Eating chicken, beef, and pork regularly is somewhat in conflict with trying to cut down on red meat, as beef and pork are red meats."
+  },
+  {
+    "stance_1": "I feel better with less red meat",
+    "stance_2": "I want to eat leaner meats for health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Feeling better with less red meat is a direct result of wanting to eat leaner meats for health."
+  },
+  {
+    "stance_1": "I feel better with less red meat",
+    "stance_2": "I am seeking plant-based alternatives",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Feeling better with less red meat may reinforce seeking plant-based alternatives."
+  },
+  {
+    "stance_1": "I feel better with less red meat",
+    "stance_2": "I eat chicken, beef, and pork regularly",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Feeling better with less red meat suggests conflict with maintaining regular consumption of all meats."
+  },
+  {
+    "stance_1": "I want to eat leaner meats for health",
+    "stance_2": "I am seeking plant-based alternatives",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The health motivation behind lean meats can also support seeking plant-based options for perceived health benefits."
+  },
+  {
+    "stance_1": "I want to eat leaner meats for health",
+    "stance_2": "I eat chicken, beef, and pork regularly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 35,
+    "justification": "Desiring leaner meats for health is in mild tension with regularly eating beef and pork, which are not always lean."
+  },
+  {
+    "stance_1": "I am seeking plant-based alternatives",
+    "stance_2": "I eat chicken, beef, and pork regularly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Seeking plant-based alternatives is in explicit conflict with regular meat consumption."
+  }
+]

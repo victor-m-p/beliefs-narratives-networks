@@ -1,0 +1,74 @@
+[
+  {
+    "stance_1": "Health concerns could make me stop eating meat",
+    "stance_2": "I eat meat regularly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states that the only thing that would make them stop eating meat is a health concern, suggesting a conflict between regular meat-eating and potential health concerns."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I enjoy the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states that enjoyment of the taste is a primary reason for eating meat regularly."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "Meat is easy to prepare",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The ease of preparation is given as a supporting reason for eating meat regularly."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "Most friends and family eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The interviewee describes a social environment where eating meat is the norm, supporting their own regular meat consumption."
+  },
+  {
+    "stance_1": "Health concerns could make me stop eating meat",
+    "stance_2": "I do not think meat is bad for you",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee says they don't think meat is bad for you, but if it were proven otherwise (health concern), they would consider stopping, indicating a conflict."
+  },
+  {
+    "stance_1": "I would eat more meat if not for health concerns",
+    "stance_2": "I limit meat intake for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states they limit intake for health reasons and would eat more if not for those concerns."
+  },
+  {
+    "stance_1": "I would eat more meat if not for health concerns",
+    "stance_2": "I enjoy the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee enjoys the taste so much that they would eat more if not for health concerns."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "I limit meat intake for health reasons",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Desire to eat more (due to enjoying taste) is in tension with limiting intake for health."
+  },
+  {
+    "stance_1": "I limit meat intake for health reasons",
+    "stance_2": "I eat meat regularly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Limiting intake for health reasons acts as a check on otherwise regular and potentially higher meat consumption."
+  }
+]

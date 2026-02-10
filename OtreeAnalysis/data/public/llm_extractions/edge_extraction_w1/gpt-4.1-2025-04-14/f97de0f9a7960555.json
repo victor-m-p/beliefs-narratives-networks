@@ -1,0 +1,178 @@
+[
+  {
+    "stance_1": "Animal welfare concerns me",
+    "stance_2": "I support non-cruel animal farming",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly connects concern for animal welfare to supporting non-cruel animal farming methods."
+  },
+  {
+    "stance_1": "I am open to meat alternatives",
+    "stance_2": "I do not need to eat meat every day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee's openness to meat alternatives is explicitly supported by their belief that they do not need to eat meat every day."
+  },
+  {
+    "stance_1": "I am open to meat alternatives",
+    "stance_2": "Plant-based diets are sufficient",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee expresses openness to meat alternatives and states that plant-based diets are sufficient, showing these stances support each other."
+  },
+  {
+    "stance_1": "I grew up eating meat",
+    "stance_2": "My family ate meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "The interviewee explicitly states that growing up eating meat was due to their family eating meat regularly."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I grew up eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The habit of eating meat daily is explicitly linked to having grown up in a family that ate meat regularly."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "My family ate meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee's daily meat-eating habit is explicitly attributed to the influence of their family who ate meat regularly."
+  },
+  {
+    "stance_1": "Eating meat is comforting",
+    "stance_2": "I am used to eating meat with meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The comfort of eating meat is explicitly tied to being used to having meat with meals."
+  },
+  {
+    "stance_1": "Eating meat is comforting",
+    "stance_2": "I eat meat every day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The comfort derived from eating meat supports the habit of eating meat every day."
+  },
+  {
+    "stance_1": "I am used to eating meat with meals",
+    "stance_2": "I eat meat every day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Being used to eating meat with meals explicitly supports the daily meat-eating habit."
+  },
+  {
+    "stance_1": "I do not need to eat meat every day",
+    "stance_2": "I eat meat every day",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The belief that daily meat consumption is unnecessary conflicts with the actual behavior of eating meat every day."
+  },
+  {
+    "stance_1": "I do not need to eat meat every day",
+    "stance_2": "Reducing meat could help me lose weight",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Believing that daily meat consumption is unnecessary supports the idea that reducing meat could help with weight loss."
+  },
+  {
+    "stance_1": "I do not need to eat meat every day",
+    "stance_2": "Plant-based diets are sufficient",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The belief that daily meat is unnecessary is explicitly supported by the belief that plant-based diets are sufficient."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Enjoying the taste of meat supports the behavior of eating meat daily."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "Meat gives me energy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The belief that meat gives energy supports daily consumption of meat."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "Meat is filling",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Belief that meat is filling supports eating meat every day."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "Meat provides protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The belief that meat provides protein supports eating meat every day."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "Eating meat is comforting",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The comfort associated with eating meat supports the daily habit."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I am used to eating meat with meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Habit and familiarity support daily meat consumption."
+  },
+  {
+    "stance_1": "I do not need to eat meat every day",
+    "stance_2": "I am open to meat alternatives",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Not needing meat every day supports openness to meat alternatives."
+  },
+  {
+    "stance_1": "Animal welfare concerns me",
+    "stance_2": "I eat meat every day",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Concern for animal welfare is in tension with the daily consumption of meat, though the conflict is not strongly emphasized by the interviewee."
+  },
+  {
+    "stance_1": "Animal welfare concerns me",
+    "stance_2": "I support non-cruel animal farming",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Directly stated alignment between concern for animal welfare and support for non-cruel farming."
+  },
+  {
+    "stance_1": "I do not need to eat meat every day",
+    "stance_2": "I grew up eating meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Believing meat is unnecessary every day conflicts with the habitual pattern established in upbringing."
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "stance_1": "I am aware of the environmental impact of meat",
+    "stance_2": "I eat meat every day",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Interviewee states awareness of environmental impact does not lead to major changes and continues eating meat daily, indicating a conflict."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I eat meat every day",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "Concern for animal welfare is acknowledged but does not prevent daily meat eating, showing a conflict."
+  },
+  {
+    "stance_1": "I sometimes replace meat with protein shakes",
+    "stance_2": "I am aware of the environmental impact of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Interviewee occasionally replaces meat with shakes when reminded of environmental concerns, suggesting support."
+  },
+  {
+    "stance_1": "I sometimes replace meat with protein shakes",
+    "stance_2": "I am concerned about animal welfare",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Protein shakes are used as a substitute, which could be supported by animal welfare concerns, though not directly stated."
+  },
+  {
+    "stance_1": "I use meat to meet protein needs",
+    "stance_2": "I eat meat every day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Eating meat daily is directly motivated by the need to meet protein requirements."
+  },
+  {
+    "stance_1": "I value convenience in meal preparation",
+    "stance_2": "I eat meat every day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Convenience in meal prep supports the habit of eating meat daily."
+  },
+  {
+    "stance_1": "I use meat to meet protein needs",
+    "stance_2": "I value convenience in meal preparation",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Meat is chosen for both its protein content and convenience, mutually reinforcing these stances."
+  },
+  {
+    "stance_1": "I sometimes replace meat with protein shakes",
+    "stance_2": "I use meat to meet protein needs",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Protein shakes are used as an alternative to meat for meeting protein needs."
+  },
+  {
+    "stance_1": "I sometimes replace meat with protein shakes",
+    "stance_2": "I eat meat every day",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "Occasionally replacing meat with shakes somewhat conflicts with eating meat every day, though habit prevails."
+  },
+  {
+    "stance_1": "I am aware of the environmental impact of meat",
+    "stance_2": "Some friends limit meat for health or environment",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "Interviewee and friends share awareness of environmental reasons for limiting meat."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "Some friends limit meat for health or environment",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Some friends limit meat due to animal welfare, in line with the interviewee's stated concern."
+  }
+]

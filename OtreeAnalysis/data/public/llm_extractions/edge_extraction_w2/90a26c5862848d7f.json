@@ -1,0 +1,306 @@
+[
+  {
+    "stance_1": "I aim for 90% meatless meals",
+    "stance_2": "I eat meat infrequently",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states aiming for 90% meatless meals is part of their infrequent meat-eating habit."
+  },
+  {
+    "stance_1": "I eat meat to meet protein needs",
+    "stance_2": "I eat meat infrequently",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The interviewee eats meat infrequently, but when they do, it's mainly for protein, showing some conflict between limiting meat and protein needs."
+  },
+  {
+    "stance_1": "I aim for 90% meatless meals",
+    "stance_2": "I eat meat to meet protein needs",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Aiming for 90% meatless meals conflicts somewhat with eating meat for protein needs, as protein needs occasionally override the meatless goal."
+  },
+  {
+    "stance_1": "I avoid red meat",
+    "stance_2": "I mostly eat white meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "The interviewee explicitly states they avoid red meat and mostly eat white meat."
+  },
+  {
+    "stance_1": "I avoid red meat",
+    "stance_2": "I eat meat to meet protein needs",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The interviewee eats meat (white meat) for protein, while avoiding red meat."
+  },
+  {
+    "stance_1": "I limit meat for conservation reasons",
+    "stance_2": "I am concerned about environmental impact of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Limiting meat for conservation is directly tied to environmental concerns about meat."
+  },
+  {
+    "stance_1": "I limit meat for religious reasons",
+    "stance_2": "I limit meat for personal beliefs",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Religious belief is one of several personal beliefs motivating meat limitation."
+  },
+  {
+    "stance_1": "I limit meat for religious reasons",
+    "stance_2": "I limit meat for conservation reasons",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The interviewee's religious and conservation motivations both support limiting meat, sometimes intertwined."
+  },
+  {
+    "stance_1": "I limit meat for religious reasons",
+    "stance_2": "I eat meat infrequently",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly cites religion as a reason for infrequent meat consumption."
+  },
+  {
+    "stance_1": "I limit meat for conservation reasons",
+    "stance_2": "I eat meat infrequently",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Conservation is explicitly stated as a motivation for infrequent meat-eating."
+  },
+  {
+    "stance_1": "I limit meat for personal beliefs",
+    "stance_2": "I eat meat infrequently",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Personal beliefs are an explicit motivation for infrequent meat-eating."
+  },
+  {
+    "stance_1": "I limit meat for health reasons",
+    "stance_2": "I eat meat infrequently",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Health is an explicit motivator for infrequent meat-eating."
+  },
+  {
+    "stance_1": "I limit meat due to animal welfare concerns",
+    "stance_2": "I eat meat infrequently",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Animal welfare is an explicit motivator for infrequent meat-eating."
+  },
+  {
+    "stance_1": "I do not trust commercial meat production",
+    "stance_2": "I limit meat due to animal welfare concerns",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Distrust in commercial production is explicitly tied to animal welfare concerns."
+  },
+  {
+    "stance_1": "I do not trust commercial meat production",
+    "stance_2": "I eat meat infrequently",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Distrust in commercial production supports infrequent meat-eating."
+  },
+  {
+    "stance_1": "I avoid red meat",
+    "stance_2": "I limit meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The avoidance of red meat is explicitly tied to health concerns."
+  },
+  {
+    "stance_1": "I avoid red meat",
+    "stance_2": "Research links saturated fat to health risks",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Avoiding red meat is justified by research on saturated fat health risks."
+  },
+  {
+    "stance_1": "I mostly eat white meat",
+    "stance_2": "I limit meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Preferring white meat is explicitly tied to health motivations."
+  },
+  {
+    "stance_1": "I mostly eat white meat",
+    "stance_2": "Research links saturated fat to health risks",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Preference for white meat is supported by research on saturated fats in red meat."
+  },
+  {
+    "stance_1": "I aim for 90% meatless meals",
+    "stance_2": "I want to avoid dependence on meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Aiming for meatless meals is explicitly described as a way to avoid dependence on meat."
+  },
+  {
+    "stance_1": "I eat meat to meet protein needs",
+    "stance_2": "I want to avoid dependence on meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Needing meat for protein at times runs counter to the desire to avoid dependence on meat."
+  },
+  {
+    "stance_1": "I eat meat infrequently",
+    "stance_2": "I want to avoid dependence on meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Infrequent meat-eating is explicitly motivated by a desire to avoid dependence on meat."
+  },
+  {
+    "stance_1": "I feel guilty eating too much meat",
+    "stance_2": "I eat meat infrequently",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Guilt over eating too much meat motivates infrequent meat-eating."
+  },
+  {
+    "stance_1": "I feel guilty eating too much meat",
+    "stance_2": "I want to avoid dependence on meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Desire to avoid dependence on meat and feelings of guilt over eating too much meat are directly linked."
+  },
+  {
+    "stance_1": "I limit meat for health reasons",
+    "stance_2": "Research links saturated fat to health risks",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Limiting meat for health is explicitly supported by research linking saturated fat to health risks."
+  },
+  {
+    "stance_1": "I want to live longer through dietary choices",
+    "stance_2": "I limit meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Desiring longevity is explicitly linked to limiting meat for health."
+  },
+  {
+    "stance_1": "I want to live longer through dietary choices",
+    "stance_2": "Research links saturated fat to health risks",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Desiring longevity is explicitly supported by research on saturated fats."
+  },
+  {
+    "stance_1": "I have chronic medical conditions affecting digestion",
+    "stance_2": "I eat meat infrequently",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Chronic medical conditions affecting digestion support infrequent meat-eating."
+  },
+  {
+    "stance_1": "I have chronic medical conditions affecting digestion",
+    "stance_2": "I feel guilty eating too much meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Digestive issues and guilt about meat-eating are implicitly related, as both discourage high meat intake."
+  },
+  {
+    "stance_1": "I limit meat for conservation reasons",
+    "stance_2": "I am concerned about environmental impact of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Conservation reasons are directly tied to environmental impact concerns."
+  },
+  {
+    "stance_1": "I want to avoid dependence on meat",
+    "stance_2": "I want people to embrace the plant-based, flexitarian lifestyle for health, wellness, environmental, and financial benefits",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Avoiding dependence on meat aligns with advocacy for plant-based, flexitarian lifestyles."
+  },
+  {
+    "stance_1": "I am concerned about environmental impact of meat",
+    "stance_2": "I want people to embrace the plant-based, flexitarian lifestyle for health, wellness, environmental, and financial benefits",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Environmental concern is an explicit reason for advocating plant-based, flexitarian lifestyles."
+  },
+  {
+    "stance_1": "I limit meat for health reasons",
+    "stance_2": "I want people to embrace the plant-based, flexitarian lifestyle for health, wellness, environmental, and financial benefits",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Health reasons supporting meat limitation align with advocating plant-based, flexitarian diets for health."
+  },
+  {
+    "stance_1": "I limit meat for conservation reasons",
+    "stance_2": "I want people to embrace the plant-based, flexitarian lifestyle for health, wellness, environmental, and financial benefits",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Conservation motivations for limiting meat support advocacy for plant-based, flexitarian diets."
+  },
+  {
+    "stance_1": "I limit meat for religious reasons",
+    "stance_2": "I want people to embrace the plant-based, flexitarian lifestyle for health, wellness, environmental, and financial benefits",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee's religious motivations for limiting meat align with their advocacy for plant-based, flexitarian lifestyles."
+  },
+  {
+    "stance_1": "I limit meat for personal beliefs",
+    "stance_2": "I want people to embrace the plant-based, flexitarian lifestyle for health, wellness, environmental, and financial benefits",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Personal beliefs motivating meat limitation align with advocating plant-based, flexitarian diets."
+  },
+  {
+    "stance_1": "I limit meat due to animal welfare concerns",
+    "stance_2": "I want people to embrace the plant-based, flexitarian lifestyle for health, wellness, environmental, and financial benefits",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Animal welfare concerns support advocacy for plant-based, flexitarian diets."
+  },
+  {
+    "stance_1": "I eat meat to meet protein needs",
+    "stance_2": "I want people to embrace the plant-based, flexitarian lifestyle for health, wellness, environmental, and financial benefits",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Eating meat for protein sometimes conflicts with the ideal of a plant-based, flexitarian lifestyle."
+  }
+]

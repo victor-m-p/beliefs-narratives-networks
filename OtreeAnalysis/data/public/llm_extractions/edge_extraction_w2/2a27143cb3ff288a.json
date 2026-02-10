@@ -1,0 +1,42 @@
+[
+  {
+    "stance_1": "I eat meat one to three times per week",
+    "stance_2": "Meal choices are based on cravings or preferences",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The frequency of meat-eating is directly explained as being driven by cravings or preferences."
+  },
+  {
+    "stance_1": "I sometimes eat ground turkey instead of ground beef",
+    "stance_2": "My wife sometimes chooses ground turkey for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee states that the choice to eat ground turkey is likely influenced by his wife's health-oriented decision."
+  },
+  {
+    "stance_1": "I sometimes eat ground turkey instead of ground beef",
+    "stance_2": "Meal choices are based on cravings or preferences",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Switching between ground beef and turkey is partly based on meal preference, as meals are chosen by what sounds good."
+  },
+  {
+    "stance_1": "I sometimes eat ground turkey instead of ground beef",
+    "stance_2": "I eat meat one to three times per week",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Eating ground turkey instead of beef is part of the interviewee's overall moderate meat consumption."
+  },
+  {
+    "stance_1": "Meal choices are based on cravings or preferences",
+    "stance_2": "My wife sometimes chooses ground turkey for health reasons",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Meal choices are mostly based on preferences, but sometimes health motivations like the wife's influence the specific choices."
+  }
+]

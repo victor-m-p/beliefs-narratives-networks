@@ -1,0 +1,58 @@
+[
+  {
+    "stance_1": "I am curious about animal welfare",
+    "stance_2": "I eat all types of meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "A growing curiosity about animal welfare may conflict with eating all types of meat, as concerns about animal conditions could prompt reconsideration of meat consumption."
+  },
+  {
+    "stance_1": "I am curious about animal welfare",
+    "stance_2": "I enjoy the taste of meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Enjoyment of meat may come into conflict with curiosity about animal welfare if ethical concerns arise, but this tension is only emerging for the interviewee."
+  },
+  {
+    "stance_1": "I eat all types of meat",
+    "stance_2": "I enjoy the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The enjoyment of the taste and texture of meat strongly supports the behavior of eating all types of meat."
+  },
+  {
+    "stance_1": "I eat all types of meat",
+    "stance_2": "I grew up in a meat-eating household",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Growing up in a meat-eating household directly supports the current behavior of eating all types of meat."
+  },
+  {
+    "stance_1": "I eat all types of meat",
+    "stance_2": "I understand pork is unhealthy",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Understanding that pork is unhealthy somewhat conflicts with eating all types of meat, as the interviewee mentions possibly cutting back on pork."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "I grew up in a meat-eating household",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Growing up in a meat-eating household likely fostered enjoyment of the taste of meat."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "I understand pork is unhealthy",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Enjoyment of meat may conflict with understanding pork is unhealthy, but the evidence for this conflict is weak."
+  }
+]

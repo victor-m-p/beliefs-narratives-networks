@@ -1,0 +1,66 @@
+[
+  {
+    "stance_1": "Cheese causes digestive issues for me",
+    "stance_2": "I eat meat with most meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states that cheese causes digestive issues, which makes meat a more viable protein source and supports eating meat with most meals."
+  },
+  {
+    "stance_1": "Cultural norms support eating meat",
+    "stance_2": "I eat meat with most meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee mentions that cultural factors in rural NC support meat-eating, which reinforces eating meat with most meals."
+  },
+  {
+    "stance_1": "I am concerned about eating too much fat",
+    "stance_2": "I plan to cut out fatty meats",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Concern about eating too much fat explicitly motivates the plan to cut out fatty meats."
+  },
+  {
+    "stance_1": "I eat meat with most meals",
+    "stance_2": "I want to meet protein requirements",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states that meeting protein requirements is a main reason for eating meat with most meals."
+  },
+  {
+    "stance_1": "I seek a balanced diet",
+    "stance_2": "I eat meat with most meals",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The interviewee suggests that previous high-meat diets (Atkins/Keto) were unbalanced and is now seeking a more balanced diet, which may conflict with eating meat with most meals."
+  },
+  {
+    "stance_1": "I seek a balanced diet",
+    "stance_2": "I plan to cut out fatty meats",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "The desire for a balanced diet supports the plan to cut out fatty meats, as it would improve the nutritional balance."
+  },
+  {
+    "stance_1": "I seek a balanced diet",
+    "stance_2": "I want to meet protein requirements",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee explicitly mentions balance and the importance of getting enough protein as compatible goals."
+  },
+  {
+    "stance_1": "I want to meet protein requirements",
+    "stance_2": "My husband dislikes veggie burgers",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "The husband\u2019s dislike for veggie burgers leads to using meat to meet protein requirements."
+  }
+]

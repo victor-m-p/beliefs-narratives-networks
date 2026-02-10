@@ -1,0 +1,146 @@
+[
+  {
+    "stance_1": "I am motivated by environmental concerns",
+    "stance_2": "I want to avoid eating meat at every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee directly states that environmental motivation is a reason for wanting to reduce meat at every meal."
+  },
+  {
+    "stance_1": "I am motivated by environmental concerns",
+    "stance_2": "I want to eat less red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly says environmental concerns motivate eating less red meat."
+  },
+  {
+    "stance_1": "I find meat convenient to eat",
+    "stance_2": "I want to avoid eating meat at every meal",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The convenience of meat is described as a challenge to eating less meat at every meal."
+  },
+  {
+    "stance_1": "I find meat convenient to eat",
+    "stance_2": "I want to eat less fast food",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee links the convenience of fast food (often meat-based) to difficulties in reducing fast food intake."
+  },
+  {
+    "stance_1": "I find meat convenient to eat",
+    "stance_2": "I want to eat less red meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Convenience of meat is described as a challenge to reducing red meat consumption."
+  },
+  {
+    "stance_1": "I have health concerns about meat consumption",
+    "stance_2": "I want to avoid eating meat at every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Health concerns are a primary reason for wanting to avoid meat at every meal."
+  },
+  {
+    "stance_1": "I have health concerns about meat consumption",
+    "stance_2": "I want to eat less red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Health concerns are a main motivation for wanting to eat less red meat."
+  },
+  {
+    "stance_1": "I have health concerns about meat consumption",
+    "stance_2": "My mom eats less meat for her health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee's health concerns echo their mom's health-driven meat reduction."
+  },
+  {
+    "stance_1": "I like the taste of meat",
+    "stance_2": "I want to avoid eating meat at every meal",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The enjoyment of meat taste is explicitly described as a challenge to reducing meat at every meal."
+  },
+  {
+    "stance_1": "I like the taste of meat",
+    "stance_2": "I want to eat less fast food",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee likes the taste of fast food meats, which makes cutting back harder."
+  },
+  {
+    "stance_1": "I like the taste of meat",
+    "stance_2": "I want to eat less red meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee says taste is a challenge in eating less red meat."
+  },
+  {
+    "stance_1": "I want to avoid eating meat at every meal",
+    "stance_2": "I want to eat less fast food",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Both stances are part of the broader goal to reduce meat intake, often overlapping in practice."
+  },
+  {
+    "stance_1": "I want to avoid eating meat at every meal",
+    "stance_2": "I want to eat less red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating less red meat is directly stated as part of eating less meat at every meal."
+  },
+  {
+    "stance_1": "I want to eat less fast food",
+    "stance_2": "I want to eat less red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Cutting fast food is described as part of eating less red meat."
+  },
+  {
+    "stance_1": "My boyfriend eats less meat than me",
+    "stance_2": "My boyfriend prefers vegetables",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The boyfriend eats less meat because he prefers vegetables, as directly stated."
+  },
+  {
+    "stance_1": "My boyfriend eats less meat than me",
+    "stance_2": "My boyfriend grew up eating less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "His childhood eating patterns are described as a reason for eating less meat now."
+  },
+  {
+    "stance_1": "My boyfriend eats less meat than me",
+    "stance_2": "I want to avoid eating meat at every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The boyfriend's support for eating less meat reinforces the interviewee's goal."
+  },
+  {
+    "stance_1": "My mom eats less meat for her health",
+    "stance_2": "I have health concerns about meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The mom's health-driven changes model the interviewee's own health concerns."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I like eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states eating meat daily and that they like eating meat, indicating a strong supportive relationship."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "Meat is a good source of protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly cites protein as a reason for daily meat consumption, showing strong support."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "Meat is cheap",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly cites cost as a reason for eating meat daily."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "Meat is easy to cook",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly mentions ease of cooking as a reason for eating meat daily."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "My social contacts eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee directly states that everyone around them eats meat regularly, supporting their own daily meat-eating."
+  },
+  {
+    "stance_1": "I like eating meat",
+    "stance_2": "My social contacts like eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states both their own and their social contacts' liking for meat, indicating mutual support."
+  },
+  {
+    "stance_1": "Meat is a good source of protein",
+    "stance_2": "Meat is cheap",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Both attributes (nutrition and cost) are cited as reasons for meat consumption, supporting a practical motivation."
+  },
+  {
+    "stance_1": "Meat is a good source of protein",
+    "stance_2": "Meat is easy to cook",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Both are presented as practical advantages that support the choice to eat meat."
+  },
+  {
+    "stance_1": "Meat is cheap",
+    "stance_2": "Meat is easy to cook",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Both attributes are presented together as practical reasons for meat consumption."
+  },
+  {
+    "stance_1": "My social contacts eat meat regularly",
+    "stance_2": "My social contacts like eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that their social contacts eat meat because they like it."
+  }
+]

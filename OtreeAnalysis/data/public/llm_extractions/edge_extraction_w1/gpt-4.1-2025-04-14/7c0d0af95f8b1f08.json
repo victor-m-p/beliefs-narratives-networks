@@ -1,0 +1,98 @@
+[
+  {
+    "stance_1": "Cost influences my meat choices",
+    "stance_2": "Availability influences my meat choices",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly mentions that both cost and availability together influence their choices about meat."
+  },
+  {
+    "stance_1": "I cook for my household",
+    "stance_2": "My family eats the same meat I cook",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "It is explicitly stated that the interviewee cooks and the family eats what is cooked."
+  },
+  {
+    "stance_1": "I cook for my household",
+    "stance_2": "My family prefers red meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The interviewee cooks mostly poultry but the family would prefer more red meat, which suggests some conflict."
+  },
+  {
+    "stance_1": "I eat meat at least once a day",
+    "stance_2": "I eat mostly chicken or poultry",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states eating meat daily, and specifies that it is usually chicken or poultry."
+  },
+  {
+    "stance_1": "I eat mostly chicken or poultry",
+    "stance_2": "I raise my own chickens",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee says much of the poultry they eat comes from their own flock, supporting this link."
+  },
+  {
+    "stance_1": "I eat mostly chicken or poultry",
+    "stance_2": "My family prefers red meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "It is explicitly stated that the interviewee eats mostly chicken or poultry, while the family would prefer more red meat."
+  },
+  {
+    "stance_1": "Flavor is important to my family",
+    "stance_2": "My family prefers red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "The family prefers red meat due to its flavor, as explicitly stated."
+  },
+  {
+    "stance_1": "I value meat for protein",
+    "stance_2": "Meat is filling for me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee cites both protein and satiety as reasons for eating meat, supporting each other."
+  },
+  {
+    "stance_1": "I eat mostly chicken or poultry",
+    "stance_2": "Cost influences my meat choices",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The interviewee is willing to change meat type based on cost, which could reinforce eating more poultry if it's cheaper."
+  },
+  {
+    "stance_1": "I eat mostly chicken or poultry",
+    "stance_2": "Availability influences my meat choices",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The interviewee links meat type to availability, which may contribute to mostly eating poultry."
+  },
+  {
+    "stance_1": "I raise my own chickens",
+    "stance_2": "Availability influences my meat choices",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Raising chickens increases availability of chicken, directly affecting meat choices."
+  },
+  {
+    "stance_1": "I raise my own chickens",
+    "stance_2": "Cost influences my meat choices",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Raising chickens likely reduces the cost of poultry, supporting the choice to eat more poultry."
+  }
+]

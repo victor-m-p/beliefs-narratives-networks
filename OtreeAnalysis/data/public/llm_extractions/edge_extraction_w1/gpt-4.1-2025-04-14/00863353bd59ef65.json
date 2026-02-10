@@ -1,0 +1,50 @@
+[
+  {
+    "stance_1": "Good vegetarian options are limited",
+    "stance_2": "I rarely eat meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Limited vegetarian options in the community make it harder to maintain a low-meat diet."
+  },
+  {
+    "stance_1": "I do not like the taste of most meat",
+    "stance_2": "I rarely eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that disliking the taste of meat is a reason for rarely eating it."
+  },
+  {
+    "stance_1": "I do not like the taste of most meat",
+    "stance_2": "I eat chicken or beef for protein",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Disliking the taste of meat conflicts with eating chicken or beef for protein, as the latter is an exception made only when necessary."
+  },
+  {
+    "stance_1": "I eat chicken or beef for protein",
+    "stance_2": "I want to get enough protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states they eat chicken or beef when they feel they need protein."
+  },
+  {
+    "stance_1": "I rarely eat meat",
+    "stance_2": "I eat chicken or beef for protein",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Eating chicken or beef for protein is described as an exception to the overall pattern of rarely eating meat."
+  },
+  {
+    "stance_1": "My partner eats a lot of meat",
+    "stance_2": "Social contacts like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "It is explicitly stated that the partner eats a lot of meat because he likes the taste."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "stance_1": "I am concerned about the environment",
+    "stance_2": "I have stopped eating beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states environmental concern as the main reason for stopping beef consumption."
+  },
+  {
+    "stance_1": "Beef prices have increased",
+    "stance_2": "I have stopped eating beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states that increased beef prices contributed to stopping beef consumption."
+  },
+  {
+    "stance_1": "I enjoy veggie burgers instead of beef",
+    "stance_2": "I have stopped eating beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly says they enjoy veggie burgers and have replaced beef with them."
+  },
+  {
+    "stance_1": "I believe eating less meat may be healthier",
+    "stance_2": "I have stopped eating beef",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "The interviewee links reduced meat intake with better health, which supports stopping beef, though not the sole reason."
+  },
+  {
+    "stance_1": "I eat meat with breakfast regularly",
+    "stance_2": "I like the taste of meat in the morning",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Enjoying the taste of meat in the morning directly supports the habit of eating meat at breakfast."
+  },
+  {
+    "stance_1": "I eat meat with breakfast regularly",
+    "stance_2": "Meat is easy to cook for breakfast",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Ease of cooking meat for breakfast facilitates and supports the regular breakfast meat habit."
+  },
+  {
+    "stance_1": "I eat meat with breakfast regularly",
+    "stance_2": "Protein should be part of my diet",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The belief that protein is necessary supports the regular inclusion of meat at breakfast."
+  },
+  {
+    "stance_1": "I eat meat with breakfast regularly",
+    "stance_2": "My family served meat at meals growing up",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Growing up with family meals including meat likely influenced the regular breakfast habit, but this is only implied."
+  },
+  {
+    "stance_1": "I enjoy veggie burgers instead of beef",
+    "stance_2": "I like the taste of meat in the morning",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Preference for veggie burgers over beef contrasts with the enjoyment of meat taste, but only in the context of beef."
+  },
+  {
+    "stance_1": "I have stopped eating beef",
+    "stance_2": "I like the taste of meat in the morning",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Enjoying the taste of meat may conflict with stopping beef, though the interviewee still consumes other meats."
+  },
+  {
+    "stance_1": "I believe eating less meat may be healthier",
+    "stance_2": "I like the taste of meat in the morning",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Thinking less meat is healthier may conflict with liking meat in the morning, but this conflict is only implied."
+  },
+  {
+    "stance_1": "I believe eating less meat may be healthier",
+    "stance_2": "Protein should be part of my diet",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Belief that reducing meat is healthy may conflict with the stance that protein (implied from meat) is necessary, but evidence is weak."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "stance_1": "I eat meat if I have it available",
+    "stance_2": "I eat meat out of habit",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that eating meat is habitual and occurs when meat is available, showing strong supportive connection."
+  },
+  {
+    "stance_1": "I eat meat if I have it available",
+    "stance_2": "I enjoy the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoying the taste of meat implicitly supports eating meat when it is available, as enjoyment motivates consumption."
+  },
+  {
+    "stance_1": "I eat meat if I have it available",
+    "stance_2": "I enjoy the texture of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoying the texture of meat implicitly supports eating meat when available, as enjoyment of texture motivates consumption."
+  },
+  {
+    "stance_1": "I eat meat if I have it available",
+    "stance_2": "My family and friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The interviewee and their social contacts share regular meat-eating habits, implying a mutual reinforcement."
+  },
+  {
+    "stance_1": "I eat meat if I have it available",
+    "stance_2": "My social contacts eat meat out of habit",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Regular, habitual meat eating by social contacts supports similar habits in the interviewee."
+  },
+  {
+    "stance_1": "I eat meat out of habit",
+    "stance_2": "I enjoy the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Enjoyment of taste supports the development and maintenance of the habit of eating meat."
+  },
+  {
+    "stance_1": "I eat meat out of habit",
+    "stance_2": "I enjoy the texture of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Enjoyment of texture supports the maintenance of meat-eating as a habit."
+  },
+  {
+    "stance_1": "I eat meat out of habit",
+    "stance_2": "My family and friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states both they and their social contacts eat meat habitually, showing clear mutual reinforcement."
+  },
+  {
+    "stance_1": "I eat meat out of habit",
+    "stance_2": "My social contacts eat meat out of habit",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "It is explicitly stated that both the interviewee and their social contacts eat meat out of habit, revealing strong mutual reinforcement."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "I enjoy the texture of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Both reasons are explicitly mentioned as motivations for meat consumption, and typically co-occur as preferences."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "My family and friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Family and friends regularly eating meat may reinforce enjoyment and normalization of meat's taste."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "My social contacts eat meat out of habit",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Social contacts\u2019 habitual meat eating could reinforce the interviewee's own enjoyment of taste by normalizing the behavior."
+  },
+  {
+    "stance_1": "I enjoy the texture of meat",
+    "stance_2": "My family and friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Family and friends eating meat regularly likely reinforce shared enjoyment, including of texture."
+  },
+  {
+    "stance_1": "I enjoy the texture of meat",
+    "stance_2": "My social contacts eat meat out of habit",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Social contacts\u2019 habitual meat eating likely reinforces shared enjoyment of meat\u2019s sensory qualities."
+  },
+  {
+    "stance_1": "My family and friends eat meat regularly",
+    "stance_2": "My social contacts eat meat out of habit",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that their family and friends eat meat out of habit, showing strong direct reinforcement."
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "stance_1": "Ecological factors of cattle production are important",
+    "stance_2": "I eat red meat 3-4 times a week",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Concern about ecological factors of cattle production conflicts with frequent red meat consumption."
+  },
+  {
+    "stance_1": "Ecological factors of cattle production are important",
+    "stance_2": "I partake in vegan meals at family gatherings",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Awareness of ecological factors may support willingness to partake in vegan meals."
+  },
+  {
+    "stance_1": "I eat meat for protein",
+    "stance_2": "I eat red meat 3-4 times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly states protein as a motivation for eating meat, which supports frequent red meat consumption."
+  },
+  {
+    "stance_1": "I eat meat for taste",
+    "stance_2": "I eat red meat 3-4 times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee lists taste as a reason for eating meat, supporting frequent red meat consumption."
+  },
+  {
+    "stance_1": "I eat meat for texture",
+    "stance_2": "I eat red meat 3-4 times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee cites texture as a reason for meat consumption, supporting eating red meat regularly."
+  },
+  {
+    "stance_1": "I enjoy the aroma of cooking meat",
+    "stance_2": "I eat red meat 3-4 times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Enjoyment of the aroma of cooking meat encourages regular red meat consumption."
+  },
+  {
+    "stance_1": "I eat meat for protein",
+    "stance_2": "I eat turkey or chicken for some meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Protein need supports consumption of various meats, including turkey and chicken."
+  },
+  {
+    "stance_1": "I eat meat for taste",
+    "stance_2": "I eat turkey or chicken for some meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Taste as a motivation supports eating turkey or chicken."
+  },
+  {
+    "stance_1": "I eat meat for texture",
+    "stance_2": "I eat turkey or chicken for some meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Preference for texture supports eating turkey or chicken."
+  },
+  {
+    "stance_1": "I enjoy the aroma of cooking meat",
+    "stance_2": "I eat turkey or chicken for some meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Enjoying the aroma of cooking meat supports eating turkey or chicken."
+  },
+  {
+    "stance_1": "I partake in vegan meals at family gatherings",
+    "stance_2": "My son is vegan for spiritual beliefs",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states participating in vegan meals due to his son's spiritual veganism."
+  }
+]

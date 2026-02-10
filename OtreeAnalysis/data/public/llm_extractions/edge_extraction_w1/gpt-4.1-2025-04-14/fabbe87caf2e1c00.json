@@ -1,0 +1,146 @@
+[
+  {
+    "stance_1": "I avoid meat once a week",
+    "stance_2": "I eat meat once a day",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Eating meat once a day and avoiding meat once a week are routines that conflict; one is about regular consumption, the other about deliberate abstention."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I limit meat for animal welfare reasons",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Enjoying eating meat conflicts with limiting meat for animal welfare, as pleasure in eating meat makes reduction harder."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I limit meat for environmental reasons",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "The enjoyment of meat conflicts with limiting it for environmental reasons, as pleasure in eating meat undermines motivation to limit."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I limit meat for health reasons",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Enjoyment of meat conflicts with limiting for health reasons, as pleasure and desire to eat work against self-imposed limits."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I reduced pork consumption",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Enjoying eating meat conflicts with reducing pork consumption, as reduction is likely a sacrifice given enjoyment."
+  },
+  {
+    "stance_1": "I limit meat for animal welfare reasons",
+    "stance_2": "I reduced pork consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly links animal welfare concerns to reduced pork consumption."
+  },
+  {
+    "stance_1": "I limit meat for environmental reasons",
+    "stance_2": "I avoid meat once a week",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Limiting meat for environmental reasons supports the behavior of avoiding meat once a week."
+  },
+  {
+    "stance_1": "I limit meat for health reasons",
+    "stance_2": "I avoid meat once a week",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Limiting meat for health reasons supports the practice of avoiding meat once a week."
+  },
+  {
+    "stance_1": "I limit meat for animal welfare reasons",
+    "stance_2": "I avoid meat once a week",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Limiting meat for animal welfare reasons supports avoiding meat once a week."
+  },
+  {
+    "stance_1": "I limit meat for environmental reasons",
+    "stance_2": "I limit meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The interviewee cites both health and environmental reasons as motivations for limiting meat, supporting each other."
+  },
+  {
+    "stance_1": "I limit meat for animal welfare reasons",
+    "stance_2": "I limit meat for environmental reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Animal welfare and environmental reasons are jointly cited as motivations for limiting meat."
+  },
+  {
+    "stance_1": "I limit meat for animal welfare reasons",
+    "stance_2": "I limit meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Animal welfare and health reasons are jointly cited as motivations for limiting meat."
+  },
+  {
+    "stance_1": "I reduced pork consumption",
+    "stance_2": "I limit meat for environmental reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "Environmental concerns contributed to reduced pork consumption, as discussed in the interview."
+  },
+  {
+    "stance_1": "I reduced pork consumption",
+    "stance_2": "I limit meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Health is one of the limiting motivations and may contribute to reduced pork consumption."
+  },
+  {
+    "stance_1": "Social contacts avoid meat for animal welfare",
+    "stance_2": "I limit meat for animal welfare reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "Interviewee explicitly states being influenced by others' animal welfare motivations."
+  },
+  {
+    "stance_1": "Social contacts avoid meat for animal welfare",
+    "stance_2": "I reduced pork consumption",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Social contacts' animal welfare concerns likely support interviewee's reduction in pork."
+  },
+  {
+    "stance_1": "Social contacts avoid meat for environmental reasons",
+    "stance_2": "I limit meat for environmental reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Interviewee notes hearing environmental reasons from others and shares this as their own motivation."
+  },
+  {
+    "stance_1": "Social contacts avoid meat for health reasons",
+    "stance_2": "I limit meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Interviewee notes health concerns from others and cites health as a reason for limiting meat."
+  }
+]

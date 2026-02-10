@@ -1,0 +1,98 @@
+[
+  {
+    "stance_1": "I eat poultry most of the time",
+    "stance_2": "I enjoy the taste of poultry",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that their preference for poultry is based on taste, supporting frequent poultry consumption."
+  },
+  {
+    "stance_1": "I eat poultry most of the time",
+    "stance_2": "I try to increase protein intake",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states they are increasing protein intake and poultry is a primary protein source, so these stances support each other."
+  },
+  {
+    "stance_1": "I eat poultry most of the time",
+    "stance_2": "I value the versatility of poultry",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that poultry's versatility is a reason for eating it often."
+  },
+  {
+    "stance_1": "I enjoy the taste of poultry",
+    "stance_2": "I value the versatility of poultry",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee ties both taste and versatility as the main motivations for choosing poultry."
+  },
+  {
+    "stance_1": "I enjoy the taste of poultry",
+    "stance_2": "My housemates enjoy poultry",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Interviewee and housemates both enjoy poultry, reinforcing each other's preferences."
+  },
+  {
+    "stance_1": "I enjoy the taste of poultry",
+    "stance_2": "My housemates value taste and versatility of chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Interviewee and housemates share similar motivations of taste and versatility for choosing poultry."
+  },
+  {
+    "stance_1": "I try to increase protein intake",
+    "stance_2": "I value the versatility of poultry",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Versatility of poultry makes it easier to include in diets aimed at increasing protein, providing implicit support."
+  },
+  {
+    "stance_1": "My housemates enjoy poultry",
+    "stance_2": "My housemates value taste and versatility of chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Housemates' enjoyment of poultry is explicitly attributed to taste and versatility."
+  },
+  {
+    "stance_1": "My housemates enjoy poultry",
+    "stance_2": "We occasionally have meatless meals when busy",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Housemates enjoy meat and rarely have meatless meals, only doing so out of necessity, indicating a mild conflict."
+  },
+  {
+    "stance_1": "My housemates value taste and versatility of chicken",
+    "stance_2": "We occasionally have meatless meals when busy",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Preference for taste and versatility of chicken makes meatless meals less desirable, except for convenience, creating an implicit conflict."
+  },
+  {
+    "stance_1": "I eat poultry most of the time",
+    "stance_2": "We occasionally have meatless meals when busy",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Frequent poultry consumption contrasts with only occasional meatless meals, which are not motivated by preference."
+  },
+  {
+    "stance_1": "I enjoy the taste of poultry",
+    "stance_2": "We occasionally have meatless meals when busy",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Enjoyment of poultry makes meatless meals less desirable, so such meals occur only when necessary."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "stance_1": "I have cut back on some types of meat",
+    "stance_2": "I use meat substitutes at home",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states using meat substitutes as part of cutting back on meat."
+  },
+  {
+    "stance_1": "I have cut back on some types of meat",
+    "stance_2": "I visualize the animal when eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee directly links visualizing the animal with being able to avoid eating meat."
+  },
+  {
+    "stance_1": "I have cut back on some types of meat",
+    "stance_2": "I live alone and only feed myself",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that living alone makes it easier to cut back on meat."
+  },
+  {
+    "stance_1": "Eating meat is a family tradition",
+    "stance_2": "I have cut back on some types of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee notes being the only one in the family to cut back on meat, conflicting with family tradition."
+  },
+  {
+    "stance_1": "I eat fish and chicken sometimes",
+    "stance_2": "I have cut back on some types of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Cutting back on some meats is compatible with still eating certain types like fish and chicken, as specified by the interviewee."
+  },
+  {
+    "stance_1": "I have cut back on some types of meat",
+    "stance_2": "Some family members hunt for food",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Family members hunting for food contrasts with the interviewee's reduction in meat consumption."
+  },
+  {
+    "stance_1": "I have cut back on some types of meat",
+    "stance_2": "Some family members hunt for trophies",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Family members hunting for trophies also contrasts with the interviewee's reduced meat intake."
+  },
+  {
+    "stance_1": "Eating meat is a family tradition",
+    "stance_2": "I use meat substitutes at home",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Using meat substitutes at home is implicitly in tension with the family tradition of eating meat."
+  },
+  {
+    "stance_1": "I live alone and only feed myself",
+    "stance_2": "I use meat substitutes at home",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Living alone makes it easier for the interviewee to use meat substitutes as there are no conflicting preferences."
+  },
+  {
+    "stance_1": "I live alone and only feed myself",
+    "stance_2": "Eating meat is a family tradition",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Living alone enables the interviewee to depart from family tradition and eat less meat."
+  }
+]

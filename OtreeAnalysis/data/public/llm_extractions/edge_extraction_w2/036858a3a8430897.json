@@ -1,0 +1,106 @@
+[
+  {
+    "stance_1": "I believe meat is my natural diet",
+    "stance_2": "I grew up eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly links growing up eating meat to believing it is their natural diet."
+  },
+  {
+    "stance_1": "I believe meat is my natural diet",
+    "stance_2": "I feel a healthy meal includes meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Belief in meat as a natural diet supports the view that a healthy meal includes meat."
+  },
+  {
+    "stance_1": "I believe meat is my natural diet",
+    "stance_2": "Meat is a good source of protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "The naturalness of eating meat is supported by the belief that it is a good source of protein."
+  },
+  {
+    "stance_1": "I eat chicken regularly",
+    "stance_2": "I love the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Regular chicken consumption is supported by enjoyment of meat taste."
+  },
+  {
+    "stance_1": "I eat pork occasionally",
+    "stance_2": "I love the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Occasional pork eating is supported by a general love for meat taste."
+  },
+  {
+    "stance_1": "I eat red meat regularly",
+    "stance_2": "I love the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee explicitly connects loving the taste of red meat to eating it regularly."
+  },
+  {
+    "stance_1": "I feel a healthy meal includes meat",
+    "stance_2": "Meat is a good source of protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states a healthy meal includes protein, which is provided by meat."
+  },
+  {
+    "stance_1": "I grew up eating meat",
+    "stance_2": "Most close family eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly links their upbringing to their family's shared meat-eating habits."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "Most close family eat meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "A family culture of meat eating likely supports enjoyment of meat taste."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "Some family members are vegan",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The love for meat taste contrasts with some family members' veganism, though not strongly conflicted as there is respect for dietary choices."
+  },
+  {
+    "stance_1": "Meat is a good source of protein",
+    "stance_2": "Most close family eat meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Belief in the nutritional value of meat supports the family's meat-eating habits."
+  },
+  {
+    "stance_1": "Most close family eat meat",
+    "stance_2": "Some family members are vegan",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "It is explicitly stated that while most of the family eats meat, some are vegan, showing a clear dietary divide."
+  },
+  {
+    "stance_1": "Social contacts are motivated by animal welfare",
+    "stance_2": "Some family members are vegan",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee gives animal welfare as the explicit motivation for veganism in some family members."
+  }
+]

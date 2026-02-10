@@ -1,0 +1,26 @@
+[
+  {
+    "stance_1": "Eating meat is part of my diet",
+    "stance_2": "I eat meat almost every night",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Eating meat being part of the diet directly supports eating meat almost every night, as stated by the interviewee."
+  },
+  {
+    "stance_1": "Eating meat is part of my diet",
+    "stance_2": "Most people I know eat meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The social environment where most people eat meat may implicitly reinforce the interviewee's view that eating meat is a normal part of the diet."
+  },
+  {
+    "stance_1": "I am a philosophical Buddhist",
+    "stance_2": "I eat meat almost every night",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee states that being a philosophical Buddhist leads them to consider their actions, implying some conflict with eating meat almost every night."
+  }
+]

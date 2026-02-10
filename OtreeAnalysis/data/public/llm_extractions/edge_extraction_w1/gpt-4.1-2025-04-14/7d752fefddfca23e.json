@@ -1,0 +1,66 @@
+[
+  {
+    "stance_1": "I add more fish for health benefits",
+    "stance_2": "I eat every type of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The interviewee explicitly states that they eat every type of meat and specifically adds more fish for health reasons, showing an additive relationship."
+  },
+  {
+    "stance_1": "I eat every type of meat",
+    "stance_2": "I was raised eating meat with every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee directly links their current behavior (eating every type of meat) to their upbringing (meat with every meal)."
+  },
+  {
+    "stance_1": "I eat every type of meat",
+    "stance_2": "My family and friends always include meat in meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee states both personal and social patterns of always including meat in meals, suggesting mutual reinforcement."
+  },
+  {
+    "stance_1": "Eating meat is a tradition in my family",
+    "stance_2": "I was raised eating meat with every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The tradition of meat-eating in the family is directly tied to being raised with meat at every meal."
+  },
+  {
+    "stance_1": "Eating meat is a tradition in my family",
+    "stance_2": "My family and friends always include meat in meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The tradition supports the widespread practice of always including meat in meals among family and friends."
+  },
+  {
+    "stance_1": "I was raised eating meat with every meal",
+    "stance_2": "My family and friends always include meat in meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Being raised with meat at every meal is directly reflected in current group practices."
+  },
+  {
+    "stance_1": "Eating meat is a tradition in my family",
+    "stance_2": "I eat every type of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Family tradition supports the interviewee's wide-ranging meat consumption, though not stated as the sole reason."
+  },
+  {
+    "stance_1": "Eating meat is a tradition in my family",
+    "stance_2": "I add more fish for health benefits",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Seeking health benefits by adding fish introduces a new motivation that is somewhat distinct from simple tradition, suggesting a weak conflict."
+  }
+]

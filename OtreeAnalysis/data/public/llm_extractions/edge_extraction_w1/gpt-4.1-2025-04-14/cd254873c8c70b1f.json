@@ -1,0 +1,138 @@
+[
+  {
+    "stance_1": "I crave meat more during holidays",
+    "stance_2": "I eat more meat during holidays",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee states that cravings for meat increase during holidays and that meat consumption rises, indicating a supportive relationship."
+  },
+  {
+    "stance_1": "I eat more meat during holidays",
+    "stance_2": "Social gatherings encourage meat eating",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly connects eating more meat during holidays with gatherings requiring more meat, showing social gatherings support increased consumption."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I eat more meat during holidays",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Enjoyment of meat supports the tendency to eat more during holidays when opportunities arise."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "Social gatherings encourage meat eating",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The interviewee is motivated to eat meat both by enjoyment and by social gatherings, indicating supportive motivations."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I crave meat more during holidays",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Enjoyment of meat is likely to increase cravings, especially when the opportunity is greater during holidays."
+  },
+  {
+    "stance_1": "I overeat meat portions",
+    "stance_2": "I eat more meat during holidays",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee mentions both overeating portions and increased consumption during holidays, suggesting a supportive relationship."
+  },
+  {
+    "stance_1": "I overeat meat portions",
+    "stance_2": "I want to be healthier",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Overeating meat portions conflicts with the desire to be healthier, as stated by the interviewee."
+  },
+  {
+    "stance_1": "I want to be healthier",
+    "stance_2": "I eat more meat during holidays",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Eating more meat, especially in large portions, is explicitly described as conflicting with the desire to be healthier."
+  },
+  {
+    "stance_1": "I want to be healthier",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee enjoys eating meat but also wants to be healthier and expresses tension about this."
+  },
+  {
+    "stance_1": "I want to be healthier",
+    "stance_2": "Social gatherings encourage meat eating",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Social gatherings encouraging more meat consumption may undermine health goals, though this is more implied than explicit."
+  },
+  {
+    "stance_1": "I want to be healthier",
+    "stance_2": "My family and friends eat a lot of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "The interviewee notes that both themselves and their social contacts want to be healthier, despite eating a lot of meat, indicating a conflict."
+  },
+  {
+    "stance_1": "I want to be healthier",
+    "stance_2": "Social contacts want to be healthier",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee and their social contacts share a desire to be healthier, explicitly stated as a common motivation."
+  },
+  {
+    "stance_1": "My brother is reducing meat for health",
+    "stance_2": "I want to be healthier",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The brother's health-motivated reduction in meat parallels the interviewee's health motivations, supporting each other."
+  },
+  {
+    "stance_1": "My brother is reducing meat for health",
+    "stance_2": "Social contacts want to be healthier",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The brother's reduction in meat for health reasons aligns with the general health motivations of social contacts."
+  },
+  {
+    "stance_1": "My brother is reducing meat for health",
+    "stance_2": "My family and friends eat a lot of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The brother's attempt to reduce meat contrasts with the general tendency of family and friends to eat a lot of meat."
+  },
+  {
+    "stance_1": "My family and friends eat a lot of meat",
+    "stance_2": "Social gatherings encourage meat eating",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Family and friends eating a lot of meat is reinforced by social gatherings that encourage meat eating."
+  },
+  {
+    "stance_1": "My family and friends eat a lot of meat",
+    "stance_2": "Social contacts want to be healthier",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "The interviewee notes that their family and friends eat a lot of meat but also want to be healthier, indicating a conflict."
+  }
+]

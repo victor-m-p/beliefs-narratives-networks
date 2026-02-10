@@ -1,0 +1,154 @@
+[
+  {
+    "stance_1": "I am concerned about my health",
+    "stance_2": "I eat more chicken and fish than red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Interviewee explicitly states concern for health motivates eating more chicken and fish instead of red meat."
+  },
+  {
+    "stance_1": "I am concerned about my health",
+    "stance_2": "I eat red meat less often",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "Interviewee explicitly states reducing red meat is due to health concerns."
+  },
+  {
+    "stance_1": "I am concerned about my health",
+    "stance_2": "I try to cut back on processed meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Interviewee explicitly links reducing processed meat to health concerns."
+  },
+  {
+    "stance_1": "I am fond of chicken, turkey, and fish",
+    "stance_2": "I eat more chicken and fish than red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Interviewee explicitly mentions fondness for these meats as a reason for increasing their consumption."
+  },
+  {
+    "stance_1": "I do not control grocery shopping or meal planning",
+    "stance_2": "I eat red meat less often",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Interviewee states lack of control over shopping and meal planning makes cutting back red meat harder."
+  },
+  {
+    "stance_1": "I do not control grocery shopping or meal planning",
+    "stance_2": "I try to cut back on processed meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Interviewee states success in reducing processed meat is limited by not controlling shopping/meal planning."
+  },
+  {
+    "stance_1": "I do not control grocery shopping or meal planning",
+    "stance_2": "I want to improve cholesterol and blood work",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Not controlling food choices conflicts with health goals like improving cholesterol."
+  },
+  {
+    "stance_1": "I do not control grocery shopping or meal planning",
+    "stance_2": "I want to avoid later health problems",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Lack of control over food choices inhibits efforts to avoid later health problems."
+  },
+  {
+    "stance_1": "I eat more chicken and fish than red meat",
+    "stance_2": "I eat red meat less often",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Eating more chicken/fish instead of red meat directly supports eating less red meat."
+  },
+  {
+    "stance_1": "I eat red meat less often",
+    "stance_2": "I try to cut back on processed meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Cutting back on both red and processed meat are parallel actions reflecting a shared reduction effort."
+  },
+  {
+    "stance_1": "I eat red meat less often",
+    "stance_2": "I want to improve cholesterol and blood work",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Interviewee explicitly links eating less red meat to improving cholesterol and blood work."
+  },
+  {
+    "stance_1": "I eat red meat less often",
+    "stance_2": "I want to avoid later health problems",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Interviewee explicitly connects less red meat consumption to avoiding future health problems."
+  },
+  {
+    "stance_1": "I like hot dogs and sandwich meats",
+    "stance_2": "I try to cut back on processed meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Liking hot dogs and sandwich meats conflicts with the effort to reduce processed meat."
+  },
+  {
+    "stance_1": "I make decisions based on available information",
+    "stance_2": "I am concerned about my health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Interviewee explicitly states health decisions are based on available information."
+  },
+  {
+    "stance_1": "I make decisions based on available information",
+    "stance_2": "I want to improve cholesterol and blood work",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Interviewee uses information to guide efforts to improve cholesterol and blood work."
+  },
+  {
+    "stance_1": "I make decisions based on available information",
+    "stance_2": "I want to avoid later health problems",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Interviewee uses information to guide efforts to avoid later health problems."
+  },
+  {
+    "stance_1": "I try to cut back on processed meat",
+    "stance_2": "I want to improve cholesterol and blood work",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Processed meat reduction is implicitly linked to improving cholesterol/blood work as part of health goals."
+  },
+  {
+    "stance_1": "I try to cut back on processed meat",
+    "stance_2": "I want to avoid later health problems",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Processed meat reduction is implicitly linked to avoiding later health problems."
+  },
+  {
+    "stance_1": "I want to avoid later health problems",
+    "stance_2": "I want to improve cholesterol and blood work",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Improving cholesterol and blood work is explicitly mentioned as a way to avoid later health problems."
+  }
+]

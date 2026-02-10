@@ -1,0 +1,82 @@
+[
+  {
+    "stance_1": "Chicken is filling and tastes good",
+    "stance_2": "I love the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 75,
+    "justification": "The interviewee's enjoyment of the taste of meat is reinforced by chicken being described as filling and tasting good."
+  },
+  {
+    "stance_1": "Chicken is filling and tastes good",
+    "stance_2": "My family eats chicken frequently",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The frequent consumption of chicken by the family is explicitly justified by chicken being filling and tasting good."
+  },
+  {
+    "stance_1": "Health concerns about diabetes affect my meat-eating",
+    "stance_2": "I need to eat less meat for my health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The need to eat less meat is explicitly motivated by concerns about diabetes."
+  },
+  {
+    "stance_1": "I eat meat at least twice a day",
+    "stance_2": "I love the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly connects their frequent meat consumption to loving the taste of meat."
+  },
+  {
+    "stance_1": "I eat meat at least twice a day",
+    "stance_2": "I need to eat less meat for my health",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating meat at least twice a day conflicts with the stated need to eat less meat for health reasons."
+  },
+  {
+    "stance_1": "I eat meat at least twice a day",
+    "stance_2": "Health concerns about diabetes affect my meat-eating",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Frequent meat consumption is in tension with health concerns about diabetes."
+  },
+  {
+    "stance_1": "I eat meat at least twice a day",
+    "stance_2": "I believe eating meat is natural",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Belief that eating meat is natural supports the frequent consumption of meat."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "I believe eating meat is natural",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Belief that eating meat is natural reinforces the enjoyment and justification for loving meat's taste."
+  },
+  {
+    "stance_1": "My family eats chicken frequently",
+    "stance_2": "I eat meat at least twice a day",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The family environment of frequent chicken consumption likely supports the interviewee's high meat intake."
+  },
+  {
+    "stance_1": "TV commercials influence my meat choices",
+    "stance_2": "I eat meat at least twice a day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The interviewee states that TV commercials influence their choices and, by implication, support their frequent meat consumption."
+  }
+]

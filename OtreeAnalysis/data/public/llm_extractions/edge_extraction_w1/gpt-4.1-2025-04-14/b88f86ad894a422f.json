@@ -1,0 +1,138 @@
+[
+  {
+    "stance_1": "I choose chicken, turkey, or fish over beef",
+    "stance_2": "I limit red meat to once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Limiting red meat and choosing chicken, turkey, or fish over beef are directly linked as alternative choices for health reasons."
+  },
+  {
+    "stance_1": "I choose chicken, turkey, or fish over beef",
+    "stance_2": "I try to eat healthier",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Choosing poultry or fish over beef is explicitly motivated by trying to eat healthier."
+  },
+  {
+    "stance_1": "I cook most meals at home",
+    "stance_2": "I limit red meat to once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Cooking at home allows the interviewee to control meal content and thus limit red meat intake."
+  },
+  {
+    "stance_1": "I cook most meals at home",
+    "stance_2": "I choose chicken, turkey, or fish over beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Cooking at home enables the interviewee to select chicken, turkey, or fish instead of beef."
+  },
+  {
+    "stance_1": "I cook most meals at home",
+    "stance_2": "My husband tries to eat 100 grams of protein daily",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Cooking at home allows the interviewee to plan meals that help her husband reach his protein target."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I want to get enough protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Eating meat regularly is explicitly motivated by the desire to meet protein intake goals."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "My husband tries to eat 100 grams of protein daily",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Both the interviewee and her husband eat meat regularly to achieve protein intake goals."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I try to eat healthier",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 55,
+    "justification": "The interviewee balances regular meat consumption with health-motivated choices, such as limiting red meat."
+  },
+  {
+    "stance_1": "I try to eat healthier",
+    "stance_2": "I limit red meat to once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Limiting red meat is explicitly done to support a healthier diet."
+  },
+  {
+    "stance_1": "I try to eat healthier",
+    "stance_2": "I want to get enough protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee balances health goals with the need to consume enough protein, combining both motivations in meal planning."
+  },
+  {
+    "stance_1": "I want to get enough protein",
+    "stance_2": "My husband tries to eat 100 grams of protein daily",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Both the interviewee and her husband aim for high protein intake, supporting each other's dietary approach."
+  },
+  {
+    "stance_1": "I want to get enough protein",
+    "stance_2": "I limit red meat to once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee limits red meat but still meets protein goals through other meats and legumes."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I limit red meat to once a week",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Limiting red meat partially conflicts with eating meat regularly; the interviewee eats meat but restricts certain types."
+  },
+  {
+    "stance_1": "I cook most meals at home",
+    "stance_2": "My extended family eats more red meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee controls her home meals and limits red meat, unlike her extended family who eats more red meat and less home-cooked food."
+  },
+  {
+    "stance_1": "I limit red meat to once a week",
+    "stance_2": "My extended family eats more red meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee's choice to limit red meat contrasts with her extended family's higher red meat consumption."
+  },
+  {
+    "stance_1": "I cook most meals at home",
+    "stance_2": "My friends substitute turkey or chicken for beef",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 45,
+    "justification": "Both the interviewee and her friends substitute poultry for beef, which is easier when cooking at home, though this is only implied."
+  },
+  {
+    "stance_1": "I choose chicken, turkey, or fish over beef",
+    "stance_2": "My friends substitute turkey or chicken for beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "Both the interviewee and her friends substitute poultry for beef."
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "stance_1": "I believe meat is essential for health",
+    "stance_2": "I eat meat with every meal",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 80,
+    "justification": "Believing meat is essential for health supports the behavior of eating meat with every meal."
+  },
+  {
+    "stance_1": "I believe meat is essential for health",
+    "stance_2": "I feel healthier when I eat more meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly links feeling healthier with the belief that meat is essential for thriving health."
+  },
+  {
+    "stance_1": "I believe meat is essential for health",
+    "stance_2": "I want to eat less meat for animal welfare",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The desire to eat less meat for animal welfare is in conflict with the belief that meat is essential for health, as the interviewee says they would eat less meat if they believed it would support their health."
+  },
+  {
+    "stance_1": "I eat meat with every meal",
+    "stance_2": "I feel healthier when I eat more meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Interviewee says eating more meat makes them feel better, supporting their behavior of eating meat with every meal."
+  },
+  {
+    "stance_1": "I eat meat with every meal",
+    "stance_2": "I want to eat less meat for animal welfare",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee wants to eat less meat for animal welfare but continues to eat meat with every meal due to perceived health needs."
+  },
+  {
+    "stance_1": "I eat meat with every meal",
+    "stance_2": "My family eats meat with most meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee was raised eating meat-centered meals and their family still eats meat with most meals, supporting their own behavior."
+  },
+  {
+    "stance_1": "I eat meat with every meal",
+    "stance_2": "I was raised eating meat-centered meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly connects their current eating habits to being raised with meat-centered meals."
+  },
+  {
+    "stance_1": "I feel healthier when I eat more meat",
+    "stance_2": "I want to eat less meat for animal welfare",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The desire to eat less meat for animal welfare is undermined by the experience of feeling healthier when eating more meat."
+  },
+  {
+    "stance_1": "I feel healthier when I eat more meat",
+    "stance_2": "I was raised eating meat-centered meals",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Being raised with meat-centered meals may have contributed to the interviewee's association between meat and health, though this is not explicitly stated."
+  },
+  {
+    "stance_1": "I want to eat less meat for animal welfare",
+    "stance_2": "I was raised eating meat-centered meals",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Being raised in a meat-centered environment may make it more difficult for the interviewee to act on their desire to eat less meat."
+  },
+  {
+    "stance_1": "My family eats meat with most meals",
+    "stance_2": "I was raised eating meat-centered meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly says their family's current habits mirror how they were raised, reinforcing each other."
+  }
+]

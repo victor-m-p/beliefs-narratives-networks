@@ -1,0 +1,178 @@
+[
+  {
+    "stance_1": "I avoid eating too much meat",
+    "stance_2": "I eat meat once a day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee states they eat meat once a day and also that they try not to eat too much meat, indicating the frequency is a result of their avoidance."
+  },
+  {
+    "stance_1": "I avoid eating too much meat",
+    "stance_2": "I have difficulty digesting meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Avoiding eating too much meat is explicitly linked to difficulty digesting meat."
+  },
+  {
+    "stance_1": "I avoid eating too much meat",
+    "stance_2": "I prefer leaner cuts of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The effort to avoid too much meat is supported by the preference for leaner cuts, as both are strategies to eat healthier."
+  },
+  {
+    "stance_1": "I avoid eating too much meat",
+    "stance_2": "I try to eat healthier as I get older",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The desire to avoid too much meat is explicitly related to trying to eat healthier."
+  },
+  {
+    "stance_1": "I have difficulty digesting meat",
+    "stance_2": "I try to eat healthier as I get older",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Difficulty digesting meat likely motivates the pursuit of healthier eating habits."
+  },
+  {
+    "stance_1": "I have trouble chewing tough cuts of meat",
+    "stance_2": "I prefer leaner cuts of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Preference for leaner cuts is partly due to difficulty chewing tougher cuts."
+  },
+  {
+    "stance_1": "I have trouble chewing tough cuts of meat",
+    "stance_2": "I avoid eating too much meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Trouble chewing tough cuts may implicitly support avoidance of eating too much meat."
+  },
+  {
+    "stance_1": "I was advised not to eat too much protein",
+    "stance_2": "I avoid eating too much meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Advice to limit protein intake supports avoiding too much meat."
+  },
+  {
+    "stance_1": "I was advised not to eat too much protein",
+    "stance_2": "I eat meat once a day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "Advice to limit protein may contribute to eating meat only once a day."
+  },
+  {
+    "stance_1": "I was advised not to eat too much protein",
+    "stance_2": "I try to eat healthier as I get older",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Advice to limit protein intake supports the broader goal of eating healthier."
+  },
+  {
+    "stance_1": "I prefer leaner cuts of meat",
+    "stance_2": "I try to eat healthier as I get older",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Preference for leaner cuts is explicitly linked to the goal of eating healthier as the interviewee ages."
+  },
+  {
+    "stance_1": "I believe protein in meat is good",
+    "stance_2": "I was advised not to eat too much protein",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Belief in the benefits of protein in meat conflicts with advice to limit protein intake."
+  },
+  {
+    "stance_1": "I believe protein in meat is good",
+    "stance_2": "I avoid eating too much meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Belief that protein is good may conflict with the aim of avoiding too much meat."
+  },
+  {
+    "stance_1": "I believe protein in meat is good",
+    "stance_2": "I try to eat healthier as I get older",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Belief in the health benefits of protein supports the goal of eating healthier."
+  },
+  {
+    "stance_1": "I have trouble chewing tough cuts of meat",
+    "stance_2": "I eat meat once a day",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Trouble chewing tough cuts may limit meat intake frequency."
+  },
+  {
+    "stance_1": "Meat is a staple in my family meals",
+    "stance_2": "My family and friends eat a lot of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Meat being a staple in family meals directly supports the family's tendency to eat a lot of meat."
+  },
+  {
+    "stance_1": "I try to eat healthier as I get older",
+    "stance_2": "Meat is a staple in my family meals",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Trying to eat healthier is implicitly at odds with family tradition of meat-heavy meals."
+  },
+  {
+    "stance_1": "I avoid eating too much meat",
+    "stance_2": "Meat is a staple in my family meals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Avoiding too much meat is explicitly contrasted with the family habit of making meat a staple."
+  },
+  {
+    "stance_1": "I avoid eating too much meat",
+    "stance_2": "My family and friends eat a lot of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Interviewee directly contrasts their avoidance of meat with the high consumption by family and friends."
+  },
+  {
+    "stance_1": "I eat meat once a day",
+    "stance_2": "Meat is a staple in my family meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Eating meat daily is consistent with family meals where meat is a staple."
+  },
+  {
+    "stance_1": "I eat meat once a day",
+    "stance_2": "My family and friends eat a lot of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 35,
+    "justification": "Interviewee's daily meat intake is in line with a social environment where meat is frequently consumed."
+  },
+  {
+    "stance_1": "I try to eat healthier as I get older",
+    "stance_2": "My family and friends eat a lot of meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Efforts to eat healthier may conflict with family and friends' high meat consumption."
+  }
+]

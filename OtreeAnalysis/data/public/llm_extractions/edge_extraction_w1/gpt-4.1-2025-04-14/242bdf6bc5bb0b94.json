@@ -1,0 +1,146 @@
+[
+  {
+    "stance_1": "I am chronically anemic",
+    "stance_2": "I decreased meat eating for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The interviewee decreased meat eating for health reasons, and being anemic is a health condition that later influenced more meat eating."
+  },
+  {
+    "stance_1": "I am chronically anemic",
+    "stance_2": "My doctor recommended I eat lean beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "The doctor\u2019s recommendation to eat lean beef is directly because the interviewee is chronically anemic."
+  },
+  {
+    "stance_1": "I am chronically anemic",
+    "stance_2": "I eat meat at least once a day",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Being anemic and needing to maintain hemoglobin levels supports the regular consumption of meat."
+  },
+  {
+    "stance_1": "I decreased meat eating for health reasons",
+    "stance_2": "My doctor recommended I eat lean beef",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Decreasing meat for health reasons conflicts with later being recommended to eat more lean beef for health."
+  },
+  {
+    "stance_1": "I decreased meat eating for health reasons",
+    "stance_2": "I eat meat at least once a day",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Decreasing meat consumption for health reasons is in tension with eating meat daily."
+  },
+  {
+    "stance_1": "I eat meat at least once a day",
+    "stance_2": "I have no philosophical problem with eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Having no philosophical issue with meat supports regular meat consumption."
+  },
+  {
+    "stance_1": "I eat meat at least once a day",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Liking the taste of meat supports eating it regularly."
+  },
+  {
+    "stance_1": "I eat meat at least once a day",
+    "stance_2": "My family grew up eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Growing up in a family where meat eating is the norm supports eating meat daily."
+  },
+  {
+    "stance_1": "I eat meat at least once a day",
+    "stance_2": "Meat eating is a habit in my family",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The family habit of meat eating supports the interviewee\u2019s daily consumption."
+  },
+  {
+    "stance_1": "I eat meat at least once a day",
+    "stance_2": "Some relatives hunt and eat wild game",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Having relatives who hunt and eat meat supports a meat-inclusive environment."
+  },
+  {
+    "stance_1": "I have no philosophical problem with eating meat",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Liking the taste and having no philosophical issues are mutually supportive."
+  },
+  {
+    "stance_1": "I have no philosophical problem with eating meat",
+    "stance_2": "My family grew up eating meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Family tradition of eating meat supports a lack of philosophical opposition."
+  },
+  {
+    "stance_1": "I have no philosophical problem with eating meat",
+    "stance_2": "Meat eating is a habit in my family",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The habitual nature of meat eating in the family supports not having philosophical objections."
+  },
+  {
+    "stance_1": "I like the taste of meat",
+    "stance_2": "My family grew up eating meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Growing up in a meat-eating family likely supports developing a taste for meat."
+  },
+  {
+    "stance_1": "I like the taste of meat",
+    "stance_2": "Meat eating is a habit in my family",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The family\u2019s habit of eating meat supports liking its taste."
+  },
+  {
+    "stance_1": "Meat eating is a habit in my family",
+    "stance_2": "My family grew up eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Meat eating being a family habit is directly supported by the family growing up eating meat."
+  },
+  {
+    "stance_1": "Meat eating is a habit in my family",
+    "stance_2": "Some relatives hunt and eat wild game",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Family members hunting and eating wild game reinforces meat eating as a family habit."
+  },
+  {
+    "stance_1": "My family grew up eating meat",
+    "stance_2": "Some relatives hunt and eat wild game",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Relatives hunting and eating game is an example of the family\u2019s meat-eating tradition."
+  }
+]

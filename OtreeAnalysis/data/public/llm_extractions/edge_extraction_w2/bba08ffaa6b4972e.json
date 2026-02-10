@@ -1,0 +1,106 @@
+[
+  {
+    "stance_1": "I am concerned about gout complications",
+    "stance_2": "I am concerned about high uric acid",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly connects high uric acid to gout complications, showing direct support."
+  },
+  {
+    "stance_1": "I am concerned about gout complications",
+    "stance_2": "I eat red meat sparingly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states eating little red meat is motivated by gout concerns."
+  },
+  {
+    "stance_1": "I am concerned about high uric acid",
+    "stance_2": "I eat red meat sparingly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee states sparing red meat consumption is due to high uric acid concerns."
+  },
+  {
+    "stance_1": "I eat chicken and white meat regularly",
+    "stance_2": "I eat red meat sparingly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Regular white meat and sparing red meat consumption are complementary behaviors."
+  },
+  {
+    "stance_1": "I have health complications",
+    "stance_2": "I eat red meat sparingly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly links health complications to eating red meat sparingly."
+  },
+  {
+    "stance_1": "I have health complications",
+    "stance_2": "I am concerned about gout complications",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Health complications are specified as gout in the interview."
+  },
+  {
+    "stance_1": "I have health complications",
+    "stance_2": "I am concerned about high uric acid",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "High uric acid is described as a health complication motivating reduced red meat consumption."
+  },
+  {
+    "stance_1": "I have health complications",
+    "stance_2": "I eat chicken and white meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "The health complications likely motivate the preference for white meat over red meat."
+  },
+  {
+    "stance_1": "I prefer the taste of white meat",
+    "stance_2": "I eat chicken and white meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states taste preference for white meat influences eating habits."
+  },
+  {
+    "stance_1": "I prefer the taste of white meat",
+    "stance_2": "I eat red meat sparingly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Preference for white meat taste may support eating less red meat."
+  },
+  {
+    "stance_1": "My wife wants to maintain low cholesterol",
+    "stance_2": "I eat chicken and white meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "White meat is generally lower in cholesterol, aligning with the wife's goal."
+  },
+  {
+    "stance_1": "My wife wants to maintain low cholesterol",
+    "stance_2": "I eat red meat sparingly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Eating red meat sparingly aligns with maintaining low cholesterol, as mentioned regarding his wife."
+  },
+  {
+    "stance_1": "Red meat consumption is hyper-fixated in society",
+    "stance_2": "I eat red meat sparingly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee's sparing red meat consumption is contrasted with a societal norm of high red meat fixation."
+  }
+]

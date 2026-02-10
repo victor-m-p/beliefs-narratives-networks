@@ -1,0 +1,58 @@
+[
+  {
+    "stance_1": "I eat meat for dinner most days",
+    "stance_2": "Meat fills me up",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that eating meat for dinner is motivated by the feeling that meat fills them up."
+  },
+  {
+    "stance_1": "I eat meat for dinner most days",
+    "stance_2": "Meat is tasty",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee directly says that taste is a reason for eating meat at dinner."
+  },
+  {
+    "stance_1": "I eat meat for dinner most days",
+    "stance_2": "Meat makes me feel fulfilled",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee says eating meat makes them feel fulfilled, supporting the habit of eating meat for dinner."
+  },
+  {
+    "stance_1": "I sometimes make meatless dinners",
+    "stance_2": "I want a lighter meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states that wanting a lighter meal is a reason for making meatless dinners."
+  },
+  {
+    "stance_1": "I sometimes make meatless dinners",
+    "stance_2": "I want to explore meatless dishes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states that curiosity about meatless dishes motivates making meatless dinners."
+  },
+  {
+    "stance_1": "I want a lighter meal",
+    "stance_2": "Meat fills me up",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Wanting a lighter meal suggests avoiding the filling quality of meat, which conflicts with the motivation for eating meat for fullness."
+  },
+  {
+    "stance_1": "I want to explore meatless dishes",
+    "stance_2": "I eat meat for dinner most days",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Curiosity about meatless dishes motivates not having meat, which implicitly conflicts with the routine of eating meat most days."
+  }
+]

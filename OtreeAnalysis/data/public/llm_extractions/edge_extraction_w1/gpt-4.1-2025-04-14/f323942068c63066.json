@@ -1,0 +1,106 @@
+[
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I eat meat at most meals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The interviewee explicitly expresses concern about animal welfare and also eats meat at most meals, indicating a conflict between their consumption and their concerns."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I feel guilty about animal suffering",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Feeling guilty about animal suffering and expressing concern about animal welfare are directly supportive and mutually reinforcing."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "Social contacts are vegan for animal welfare",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The interviewee\u2019s concern for animal welfare is implicitly supported by their awareness that social contacts are vegan for the same reason."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I love the taste of meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Loving the taste of meat makes it harder to act on concern for animal welfare, creating internal conflict."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I believe meat is important for health",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Believing meat is important for health can conflict with concern for animal welfare when considering dietary changes."
+  },
+  {
+    "stance_1": "I eat meat at most meals",
+    "stance_2": "I love the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly connects frequent meat-eating with loving the taste of meat."
+  },
+  {
+    "stance_1": "I eat meat at most meals",
+    "stance_2": "I believe meat is important for health",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Believing meat is important for health supports eating meat frequently, though this is not made explicit."
+  },
+  {
+    "stance_1": "I eat meat at most meals",
+    "stance_2": "I feel guilty about animal suffering",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee explicitly mentions eating lots of meat while also feeling guilty about animal suffering, indicating personal conflict."
+  },
+  {
+    "stance_1": "I feel guilty about animal suffering",
+    "stance_2": "I love the taste of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states guilt over animal suffering while also loving meat, showing internal conflict."
+  },
+  {
+    "stance_1": "I feel guilty about animal suffering",
+    "stance_2": "Social contacts are vegan for animal welfare",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 45,
+    "justification": "Interviewee discusses feeling guilty and explicitly references social contacts who are vegan for animal welfare reasons, suggesting supportive influence."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "I believe meat is important for health",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Loving meat and believing it is important for health provide mutually reinforcing justifications, though this is only implied."
+  },
+  {
+    "stance_1": "I believe meat is important for health",
+    "stance_2": "Social contacts are vegan for animal welfare",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Belief in meat\u2019s health importance conflicts with the vegan stance for animal welfare, as the positions are motivated by different priorities."
+  },
+  {
+    "stance_1": "I feel guilty about animal suffering",
+    "stance_2": "I believe meat is important for health",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Feeling guilty about animal suffering conflicts with a belief that meat is important for health, as each pulls dietary choices in different directions."
+  }
+]

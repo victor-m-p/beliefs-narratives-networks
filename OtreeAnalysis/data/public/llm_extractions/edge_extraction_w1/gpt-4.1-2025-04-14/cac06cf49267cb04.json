@@ -1,0 +1,98 @@
+[
+  {
+    "stance_1": "Budget influences my meat choices",
+    "stance_2": "I buy chicken and pork to cook at home",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Interviewee explicitly states that budget is a reason for buying chicken and pork."
+  },
+  {
+    "stance_1": "Budget influences my meat choices",
+    "stance_2": "I buy meat when it is on sale",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee directly states that price and sales drive their meat-buying behavior."
+  },
+  {
+    "stance_1": "Budget influences my meat choices",
+    "stance_2": "I eat minimal red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Interviewee states budget is a main reason for their minimal red meat consumption."
+  },
+  {
+    "stance_1": "I am aware of beef's carbon footprint",
+    "stance_2": "I eat minimal red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Interviewee mentions awareness of beef's carbon footprint in the context of eating less red meat, though says it's not the main reason."
+  },
+  {
+    "stance_1": "I buy chicken and pork to cook at home",
+    "stance_2": "I eat minimal red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Preferring and buying chicken and pork supports eating minimal red meat."
+  },
+  {
+    "stance_1": "I buy chicken and pork to cook at home",
+    "stance_2": "I prefer chicken and pork to red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Interviewee directly links their purchasing habits to their taste preference for chicken and pork over red meat."
+  },
+  {
+    "stance_1": "I buy meat when it is on sale",
+    "stance_2": "Budget influences my meat choices",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Buying meat on sale is explicitly stated as a budget-driven action."
+  },
+  {
+    "stance_1": "I eat minimal red meat",
+    "stance_2": "I prefer chicken and pork to red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Strong explicit connection between preference for chicken/pork and minimal red meat consumption."
+  },
+  {
+    "stance_1": "I eat minimal red meat",
+    "stance_2": "Most of my social circle eats red meat regularly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Interviewee's minimal red meat consumption contrasts with the habits of their social circle who eat it regularly."
+  },
+  {
+    "stance_1": "I eat minimal red meat",
+    "stance_2": "My partner prefers high protein meat meals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Interviewee's own lower red meat consumption is contrasted explicitly with their partner's preference for high protein meat meals."
+  },
+  {
+    "stance_1": "I prefer chicken and pork to red meat",
+    "stance_2": "Most of my social circle eats red meat regularly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Interviewee's preference for chicken and pork is contrasted explicitly with the preference for red meat in their social circle."
+  },
+  {
+    "stance_1": "I prefer chicken and pork to red meat",
+    "stance_2": "My partner prefers high protein meat meals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Interviewee prefers less red meat and more chicken/pork, while partner prefers more high-protein (meat-heavy) meals."
+  }
+]

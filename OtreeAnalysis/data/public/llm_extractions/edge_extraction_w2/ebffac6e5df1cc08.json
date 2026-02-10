@@ -1,0 +1,170 @@
+[
+  {
+    "stance_1": "Chicken is easy to prepare",
+    "stance_2": "I buy chicken as my main protein source",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly says choosing chicken as a main protein source is because it is easier to prepare."
+  },
+  {
+    "stance_1": "Chicken is easy to prepare",
+    "stance_2": "I eat a lot of chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The ease of preparation directly supports eating a lot of chicken."
+  },
+  {
+    "stance_1": "I buy chicken as my main protein source",
+    "stance_2": "I eat a lot of chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The habit of buying chicken as a main protein source directly leads to eating a lot of chicken."
+  },
+  {
+    "stance_1": "I do not consider reasons to eat less meat",
+    "stance_2": "I enjoy meals with beef and chicken",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Enjoyment of beef and chicken supports not considering reasons to eat less meat."
+  },
+  {
+    "stance_1": "I do not consider reasons to eat less meat",
+    "stance_2": "Meat-eating is traditional in my community",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The tradition of meat-eating in the community is explicitly given as a reason not to consider eating less meat."
+  },
+  {
+    "stance_1": "I do not consider reasons to eat less meat",
+    "stance_2": "My social circle has similar meat-eating habits",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Having a social circle with similar habits supports not considering reasons to eat less meat."
+  },
+  {
+    "stance_1": "I eat more beef in spring and summer",
+    "stance_2": "I grill meat more in warm months",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Eating more beef in spring and summer is explicitly linked to grilling more during these months."
+  },
+  {
+    "stance_1": "I enjoy meals with beef and chicken",
+    "stance_2": "I buy chicken as my main protein source",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoying meals with beef and chicken supports the choice to buy chicken as a main protein source."
+  },
+  {
+    "stance_1": "I enjoy meals with beef and chicken",
+    "stance_2": "I eat a lot of chicken",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoyment of chicken meals supports eating a lot of chicken."
+  },
+  {
+    "stance_1": "Meat-eating is traditional in my community",
+    "stance_2": "My social circle has similar meat-eating habits",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that tradition drives similar habits across their social circle."
+  },
+  {
+    "stance_1": "Meat-eating is traditional in my community",
+    "stance_2": "I do not consider reasons to eat less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Tradition is explicitly linked to not considering reasons to reduce meat consumption."
+  },
+  {
+    "stance_1": "Meat-eating is traditional in my community",
+    "stance_2": "I buy chicken as my main protein source",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Tradition of meat-eating plausibly supports the choice of chicken as a primary protein source."
+  },
+  {
+    "stance_1": "Meat-eating is traditional in my community",
+    "stance_2": "I eat a lot of chicken",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Traditional meat-eating likely supports habits like eating a lot of chicken."
+  },
+  {
+    "stance_1": "Meat-eating is traditional in my community",
+    "stance_2": "I enjoy meals with beef and chicken",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Traditional patterns support enjoying beef and chicken meals."
+  },
+  {
+    "stance_1": "Meat-eating is traditional in my community",
+    "stance_2": "I eat more beef in spring and summer",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Traditional meat-eating can support seasonal variation in beef consumption."
+  },
+  {
+    "stance_1": "My social circle has similar meat-eating habits",
+    "stance_2": "I buy chicken as my main protein source",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Shared habits in the social circle support individual choices like buying chicken as the main protein."
+  },
+  {
+    "stance_1": "My social circle has similar meat-eating habits",
+    "stance_2": "I eat a lot of chicken",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Similar habits in the social circle support eating a lot of chicken."
+  },
+  {
+    "stance_1": "My social circle has similar meat-eating habits",
+    "stance_2": "I enjoy meals with beef and chicken",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Shared enjoyment in the social circle supports individual enjoyment of beef and chicken."
+  },
+  {
+    "stance_1": "My social circle has similar meat-eating habits",
+    "stance_2": "I eat more beef in spring and summer",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Shared habits plausibly support seasonal beef consumption."
+  },
+  {
+    "stance_1": "My social circle has similar meat-eating habits",
+    "stance_2": "I grill meat more in warm months",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Cultural similarity supports seasonal grilling."
+  },
+  {
+    "stance_1": "I grill meat more in warm months",
+    "stance_2": "I enjoy meals with beef and chicken",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Grilling is associated with beef and chicken meals, supporting enjoyment."
+  }
+]

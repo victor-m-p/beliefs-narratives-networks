@@ -1,0 +1,122 @@
+[
+  {
+    "stance_1": "I am concerned about health impacts of meat",
+    "stance_2": "I avoid highly processed meats",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly cites health concerns as the main reason for avoiding highly processed meats."
+  },
+  {
+    "stance_1": "I am concerned about health impacts of meat",
+    "stance_2": "I avoid pork",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Avoidance of pork is likely motivated by health concerns, as with processed meats, though it is not stated as directly."
+  },
+  {
+    "stance_1": "I am concerned about health impacts of meat",
+    "stance_2": "I eat meat every evening",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Eating meat daily could be seen as in tension with health concerns, but the interviewee rationalizes it as healthy if unprocessed, making the conflict weak."
+  },
+  {
+    "stance_1": "I am concerned about health impacts of meat",
+    "stance_2": "I want to get enough protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Getting enough protein is framed as a key health motivation by the interviewee."
+  },
+  {
+    "stance_1": "I am concerned about health impacts of meat",
+    "stance_2": "I prefer unprocessed fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Preference for unprocessed fish is explicitly connected to health concerns about additives."
+  },
+  {
+    "stance_1": "I am concerned about unethical animal farming",
+    "stance_2": "I am influenced by friends who are vegetarians or vegans",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Interviewee directly states that conversations with vegetarian/vegan friends have increased their concern about animal welfare."
+  },
+  {
+    "stance_1": "I am concerned about unethical animal farming",
+    "stance_2": "I eat meat every evening",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee recognizes a conflict between their ethical concerns and their continued meat consumption."
+  },
+  {
+    "stance_1": "I am concerned about unethical animal farming",
+    "stance_2": "I like the taste of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee explicitly states that taste is a reason for continuing to eat meat despite ethical concerns."
+  },
+  {
+    "stance_1": "I am concerned about unethical animal farming",
+    "stance_2": "My respect for animals has grown",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Growing respect for animals is explicitly tied to increased concern about unethical animal farming."
+  },
+  {
+    "stance_1": "I am influenced by friends who are vegetarians or vegans",
+    "stance_2": "My respect for animals has grown",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee states that their respect for animals has grown as a result of friendships with vegetarians and vegans."
+  },
+  {
+    "stance_1": "I eat fish occasionally",
+    "stance_2": "I prefer unprocessed fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states they avoid processed fish and prefer it in its natural form when they do eat fish."
+  },
+  {
+    "stance_1": "I eat meat every evening",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee mentions taste as a motivation for eating meat regularly."
+  },
+  {
+    "stance_1": "I eat meat every evening",
+    "stance_2": "I want to get enough protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Eating meat every evening is explicitly justified by the desire to get enough protein."
+  },
+  {
+    "stance_1": "I like the taste of meat",
+    "stance_2": "I want to get enough protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Both taste and protein needs are cited as main reasons for eating meat."
+  },
+  {
+    "stance_1": "I would stop eating meat if advised by a doctor",
+    "stance_2": "I eat meat every evening",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states they would only stop eating meat for medical reasons, despite current habits."
+  }
+]

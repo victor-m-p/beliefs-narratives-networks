@@ -1,0 +1,82 @@
+[
+  {
+    "stance_1": "Chicken is easy to cook",
+    "stance_2": "Convenience matters when choosing meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly links chicken being easy to cook as a key reason it is convenient and therefore chosen frequently."
+  },
+  {
+    "stance_1": "Chicken is easy to cook",
+    "stance_2": "My family eats meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The family\u2019s routine of eating chicken is implicitly supported by chicken being easy to cook."
+  },
+  {
+    "stance_1": "Chicken is easy to cook",
+    "stance_2": "I eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The ease of cooking chicken likely contributes to the interviewee eating meat regularly, as chicken is a staple."
+  },
+  {
+    "stance_1": "Chicken is easy to cook",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "The enjoyment of many chicken dishes and their ease of preparation implicitly reinforce the preference for meat."
+  },
+  {
+    "stance_1": "Convenience matters when choosing meat",
+    "stance_2": "I eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Convenience in preparation supports the regular inclusion of meat in meals."
+  },
+  {
+    "stance_1": "Convenience matters when choosing meat",
+    "stance_2": "My family eats meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "The family\u2019s regular meat consumption is likely supported by the importance placed on convenience."
+  },
+  {
+    "stance_1": "Convenience matters when choosing meat",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 45,
+    "justification": "The interviewee states that taste is most important, but that convenience also matters\u2014both factors support meat eating."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that taste is a key reason for eating meat regularly."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "My family eats meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly describes their own and their family\u2019s regular meat eating as linked habits."
+  },
+  {
+    "stance_1": "I like the taste of meat",
+    "stance_2": "My family eats meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The family\u2019s regular meat consumption likely reinforces the interviewee\u2019s enjoyment of meat."
+  }
+]

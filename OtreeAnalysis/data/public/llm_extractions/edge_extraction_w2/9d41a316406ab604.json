@@ -1,0 +1,82 @@
+[
+  {
+    "stance_1": "I am influenced by family and friends",
+    "stance_2": "I am influenced by social contacts eating less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly notes being influenced by friends who cut back on meat, which encourages their own reduction in meat consumption."
+  },
+  {
+    "stance_1": "I am influenced by health documentaries",
+    "stance_2": "I am motivated by health concerns",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee directly mentions that health documentaries made them more mindful about eating meat for health reasons."
+  },
+  {
+    "stance_1": "I am influenced by social contacts eating less meat",
+    "stance_2": "I sometimes skip meat in meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Seeing friends cut back on meat encouraged the interviewee to try meat-free meals, supporting their skipping meat."
+  },
+  {
+    "stance_1": "I am motivated by convenience",
+    "stance_2": "I sometimes skip meat in meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee explicitly states that if meat is less convenient to prepare, they are more likely to skip it."
+  },
+  {
+    "stance_1": "I am motivated by cost",
+    "stance_2": "I sometimes skip meat in meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee mentions cost as a factor in meal choices and sometimes skipping meat, indicating a supportive relationship."
+  },
+  {
+    "stance_1": "I am motivated by cravings",
+    "stance_2": "I eat meat once or twice a day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee\u2019s cravings are mentioned as a direct motivation for eating meat regularly."
+  },
+  {
+    "stance_1": "I am motivated by health concerns",
+    "stance_2": "I sometimes skip meat in meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Health concerns are a stated reason for choosing meat-free or lighter meals."
+  },
+  {
+    "stance_1": "I am motivated by convenience",
+    "stance_2": "I eat meat once or twice a day",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Convenience sometimes leads the interviewee to skip meat, which can conflict with eating meat daily."
+  },
+  {
+    "stance_1": "Meat is normal in my culture",
+    "stance_2": "I eat meat once or twice a day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explains that meat is a regular part of their culture, supporting regular meat consumption."
+  },
+  {
+    "stance_1": "Meat is normal in my culture",
+    "stance_2": "I sometimes skip meat in meals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "Cultural norms around regular meat consumption may conflict with skipping meat in meals, even if the interviewee is flexible."
+  }
+]

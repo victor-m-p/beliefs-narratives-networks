@@ -1,0 +1,50 @@
+[
+  {
+    "stance_1": "I am a picky eater",
+    "stance_2": "I do not eat many fruits or vegetables",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly says being a picky eater results in limited food options, including not eating many fruits or vegetables."
+  },
+  {
+    "stance_1": "I am a picky eater",
+    "stance_2": "I eat meat in most meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee says their pickiness limits their options, making them rely on meat for meals."
+  },
+  {
+    "stance_1": "I am a picky eater",
+    "stance_2": "I only eat certain kinds of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee directly connects being picky with only eating certain kinds of meat."
+  },
+  {
+    "stance_1": "I am a picky eater",
+    "stance_2": "Texture is important in my food choices",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Being a picky eater is reinforced by texture sensitivity, which influences meat selection."
+  },
+  {
+    "stance_1": "I eat meat in most meals",
+    "stance_2": "I only eat certain kinds of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee says they eat meat in most meals but only certain kinds, directly linking frequency and selectivity."
+  },
+  {
+    "stance_1": "I only eat certain kinds of meat",
+    "stance_2": "Texture is important in my food choices",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The reason for eating only certain kinds of meat is explicitly stated as texture preference."
+  }
+]

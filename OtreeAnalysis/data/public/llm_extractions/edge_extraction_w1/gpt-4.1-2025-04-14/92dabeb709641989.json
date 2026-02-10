@@ -1,0 +1,130 @@
+[
+  {
+    "stance_1": "I eat meat with every meal",
+    "stance_2": "I grew up eating meat with every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee states that their current habit of eating meat with every meal is a direct continuation of their upbringing."
+  },
+  {
+    "stance_1": "I eat meat with every meal",
+    "stance_2": "Meat is a staple in my cultural cuisine",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly links cultural cuisine to the regular inclusion of meat in meals."
+  },
+  {
+    "stance_1": "I eat meat with every meal",
+    "stance_2": "Meals without meat feel incomplete",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee states meals feel incomplete without meat, which supports eating meat with every meal."
+  },
+  {
+    "stance_1": "I eat meat with every meal",
+    "stance_2": "My family eats meat with every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee's family eating meat with every meal reinforces their own similar habit."
+  },
+  {
+    "stance_1": "I eat meat with every meal",
+    "stance_2": "I want a high protein diet",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The desire for a high protein diet is a stated motivation for eating meat with every meal."
+  },
+  {
+    "stance_1": "I eat meat with every meal",
+    "stance_2": "I care about the environment",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Caring about the environment is in some tension with eating meat with every meal due to environmental concerns about meat production."
+  },
+  {
+    "stance_1": "I eat meat with every meal",
+    "stance_2": "I prefer to buy meat from local sources",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The interviewee considers sourcing meat locally as a way to reconcile meat consumption with environmental concerns."
+  },
+  {
+    "stance_1": "I grew up eating meat with every meal",
+    "stance_2": "Meat is a staple in my cultural cuisine",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee describes growing up in a culture where meat is a staple, showing strong support between upbringing and culture."
+  },
+  {
+    "stance_1": "I grew up eating meat with every meal",
+    "stance_2": "My family eats meat with every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee's family practices directly shaped their upbringing."
+  },
+  {
+    "stance_1": "I grew up eating meat with every meal",
+    "stance_2": "Meals without meat feel incomplete",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The habitual presence of meat growing up contributes to the sense that meals without meat are incomplete."
+  },
+  {
+    "stance_1": "I want a high protein diet",
+    "stance_2": "Meals without meat feel incomplete",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Meat is seen as essential for achieving a high protein diet, making meals without meat feel incomplete."
+  },
+  {
+    "stance_1": "I want a high protein diet",
+    "stance_2": "I prefer to buy meat from local sources",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Preferring local sources is a way to meet protein needs more sustainably, though only implied."
+  },
+  {
+    "stance_1": "Meat is a staple in my cultural cuisine",
+    "stance_2": "My family eats meat with every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The family\u2019s regular meat consumption is attributed to cultural cuisine norms."
+  },
+  {
+    "stance_1": "Meat is a staple in my cultural cuisine",
+    "stance_2": "Meals without meat feel incomplete",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The cultural norm of including meat supports the feeling that meals without meat are incomplete."
+  },
+  {
+    "stance_1": "I care about the environment",
+    "stance_2": "I prefer to buy meat from local sources",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly connects environmental concern with a preference for local meat sourcing."
+  },
+  {
+    "stance_1": "I care about the environment",
+    "stance_2": "Meat is a staple in my cultural cuisine",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Cultural meat consumption can be in tension with environmental concern, though this is only weakly implied."
+  }
+]

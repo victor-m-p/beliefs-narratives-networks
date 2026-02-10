@@ -1,0 +1,90 @@
+[
+  {
+    "stance_1": "I eat meat at most meals",
+    "stance_2": "I enjoy the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states that they eat meat frequently because they enjoy the taste."
+  },
+  {
+    "stance_1": "I eat meat at most meals",
+    "stance_2": "My social contacts eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee and their social contacts both eat meat regularly; shared routines reinforce this behavior."
+  },
+  {
+    "stance_1": "I eat meat at most meals",
+    "stance_2": "My social contacts enjoy the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The enjoyment of meat among social contacts is likely to reinforce the interviewee's own frequent meat consumption."
+  },
+  {
+    "stance_1": "I eat meat at most meals",
+    "stance_2": "Some family members choose lean meats",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Some family members choosing lean meats for health reasons may implicitly contrast with the interviewee's frequent and less selective meat consumption."
+  },
+  {
+    "stance_1": "I eat meat at most meals",
+    "stance_2": "Some family members have health concerns about meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Health concerns among family members about meat could potentially conflict with the interviewee's habit of eating meat at most meals."
+  },
+  {
+    "stance_1": "I eat meat at most meals",
+    "stance_2": "I would reduce meat if it became too expensive",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly states that the only reason they would cut back on meat would be for financial reasons, which conflicts with their current frequent consumption."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "My social contacts enjoy the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "It is explicitly stated that both the interviewee and their social contacts enjoy the taste of meat, reinforcing each other's preferences."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "My social contacts eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 55,
+    "justification": "Shared enjoyment of meat supports the regular consumption of meat among both the interviewee and their social contacts."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "I would reduce meat if it became too expensive",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Despite enjoying meat, the interviewee would only consider reducing consumption due to cost, suggesting a conflict between enjoyment and potential financial constraints."
+  },
+  {
+    "stance_1": "My social contacts eat meat regularly",
+    "stance_2": "My social contacts enjoy the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee directly connects their social contacts' regular meat consumption to their enjoyment of its taste."
+  },
+  {
+    "stance_1": "Some family members choose lean meats",
+    "stance_2": "Some family members have health concerns about meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "It is explicitly stated that some family members switch to lean meats due to health concerns about meat."
+  }
+]

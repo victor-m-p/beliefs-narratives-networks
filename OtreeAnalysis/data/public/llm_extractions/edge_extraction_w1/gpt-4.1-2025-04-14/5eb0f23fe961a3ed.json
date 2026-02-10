@@ -1,0 +1,90 @@
+[
+  {
+    "stance_1": "I am aware fake meat sounds unappealing",
+    "stance_2": "I enjoy many types of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "A strong enjoyment of many types of meat plausibly supports finding fake meat unappealing, as stated by the interviewee."
+  },
+  {
+    "stance_1": "I have an aversion to fruits and vegetables",
+    "stance_2": "I enjoy many types of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that their aversion to fruits and vegetables leads them to eat more meat and enjoy many types."
+  },
+  {
+    "stance_1": "I have an aversion to fruits and vegetables",
+    "stance_2": "I try to get enough protein each day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee indicates that given their aversion to fruits and vegetables, they try to get sufficient protein, likely from meat."
+  },
+  {
+    "stance_1": "I enjoy many types of meat",
+    "stance_2": "Meat tastes good to me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The enjoyment of many types of meat is explicitly attributed to the taste being good."
+  },
+  {
+    "stance_1": "I enjoy many types of meat",
+    "stance_2": "My husband cooks for me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee states that their husband is a good cook and this increases the enjoyment and variety of meat consumed."
+  },
+  {
+    "stance_1": "I enjoy many types of meat",
+    "stance_2": "I try to get enough protein each day",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Enjoying many types of meat likely helps with the goal of getting enough protein, though this is only implicitly supported."
+  },
+  {
+    "stance_1": "I have an aversion to fruits and vegetables",
+    "stance_2": "Meat tastes good to me",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Aversion to fruits and vegetables and positive feelings toward meat taste both contribute to preference for a meat-heavy diet."
+  },
+  {
+    "stance_1": "I have an aversion to fruits and vegetables",
+    "stance_2": "My husband cooks for me",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "The husband cooking helps the interviewee manage their aversions and eat more enjoyably."
+  },
+  {
+    "stance_1": "Meat tastes good to me",
+    "stance_2": "I try to get enough protein each day",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Finding meat tasty likely helps with the motivation to get enough protein, as meat is a main protein source."
+  },
+  {
+    "stance_1": "Meat tastes good to me",
+    "stance_2": "My husband cooks for me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee explicitly attributes increased enjoyment of food, including meat, to their husband's cooking."
+  },
+  {
+    "stance_1": "My husband cooks for me",
+    "stance_2": "I try to get enough protein each day",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Having someone cook varied meals likely facilitates getting enough protein, though not directly stated."
+  }
+]

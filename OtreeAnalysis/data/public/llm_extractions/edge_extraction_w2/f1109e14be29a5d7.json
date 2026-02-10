@@ -1,0 +1,146 @@
+[
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I avoid eating lamb and veal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that avoidance of lamb and veal is due to concerns about animal welfare."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I avoid eating fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly avoids eating fish due to a personal connection with pet fish and concern for animal welfare."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I eat chicken regularly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee expresses conflict and heavy heart about eating chicken due to animal welfare concerns."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I eat meat to manage anemia",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee eats meat despite animal welfare concerns, due to health needs, showing an explicit conflict."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I limit red meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Limiting red meat is partially motivated by animal welfare concerns."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I love the taste of bacon",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee expresses distress at loving bacon despite animal welfare concerns, indicating conflict."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "My son is vegetarian for animal welfare",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Both the interviewee and their son are motivated by animal welfare; the interviewee expresses respect for this."
+  },
+  {
+    "stance_1": "I eat chicken regularly",
+    "stance_2": "I eat meat to manage anemia",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee eats chicken specifically to manage anemia, making these stances mutually reinforcing."
+  },
+  {
+    "stance_1": "I eat meat to manage anemia",
+    "stance_2": "I limit red meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee eats some meat for health but limits red meat, indicating a balance between health and dietary restraint."
+  },
+  {
+    "stance_1": "I avoid eating lamb and veal",
+    "stance_2": "I limit red meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Avoiding specific red meats (lamb, veal) is part of limiting overall red meat consumption."
+  },
+  {
+    "stance_1": "I eat chicken regularly",
+    "stance_2": "I limit red meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee eats chicken more frequently as a substitute for limiting red meat consumption."
+  },
+  {
+    "stance_1": "I love the taste of bacon",
+    "stance_2": "I limit red meat consumption",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee loves bacon but limits its consumption, showing a conflict between desire and dietary restraint."
+  },
+  {
+    "stance_1": "I love the taste of bacon",
+    "stance_2": "I eat chicken regularly",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Preferring bacon but eating more chicken implies some conflict in taste preferences versus actual consumption."
+  },
+  {
+    "stance_1": "I love the taste of bacon",
+    "stance_2": "I eat meat to manage anemia",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Enjoying bacon supports eating meat, which is also done for anemia management, though this is not the primary reason."
+  },
+  {
+    "stance_1": "I limit red meat consumption",
+    "stance_2": "My husband reduces red meat for health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Both the interviewee and their husband limit red meat; this is a shared household practice."
+  },
+  {
+    "stance_1": "I limit red meat consumption",
+    "stance_2": "Social expectations to serve meat at meals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Limiting red meat conflicts with social expectations to serve meat at meals, making hosting challenging."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "Social expectations to serve meat at meals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee feels frustrated by social pressure to serve meat, which conflicts with animal welfare concerns."
+  },
+  {
+    "stance_1": "I avoid eating fish",
+    "stance_2": "Social expectations to serve meat at meals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Social expectations to serve meat create discomfort for the interviewee, especially around fish, due to animal connections."
+  }
+]

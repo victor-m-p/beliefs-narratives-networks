@@ -1,0 +1,122 @@
+[
+  {
+    "stance_1": "I believe meat is good for me",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Believing meat is good for you supports enjoying eating it, as positive beliefs about health benefits reinforce enjoyment."
+  },
+  {
+    "stance_1": "I crave meat",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Explicitly, craving meat and enjoying eating it are mutually reinforcing experiences stated by the interviewee."
+  },
+  {
+    "stance_1": "I crave meat",
+    "stance_2": "I eat meat with every meal",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Craving meat implicitly supports the behavior of eating it with every meal."
+  },
+  {
+    "stance_1": "I eat meat with every meal",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states enjoyment of meat and that they eat it with every meal, showing strong mutual reinforcement."
+  },
+  {
+    "stance_1": "I eat meat with every meal",
+    "stance_2": "I grew up eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly links their current habit of eating meat with every meal to having grown up eating meat."
+  },
+  {
+    "stance_1": "I eat meat with every meal",
+    "stance_2": "My parents taught me meat is important",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that parental teachings about the importance of meat influenced their current eating habits."
+  },
+  {
+    "stance_1": "I eat meat with every meal",
+    "stance_2": "My family eats meat with every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states that both they and their family eat meat with every meal."
+  },
+  {
+    "stance_1": "I eat meat with every meal",
+    "stance_2": "My friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee explicitly relates their own and their friends' regular meat-eating habits."
+  },
+  {
+    "stance_1": "I eat meat with every meal",
+    "stance_2": "Some friends eat meat for protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Explicitly stated: some friends eat meat for protein, supporting the frequency of meat consumption."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I think meat gives me energy",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Belief that meat gives energy supports enjoyment of eating it, as positive effects reinforce enjoyment."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I grew up eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly connects their enjoyment of meat to having grown up eating it."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "My parents taught me meat is important",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Parental teaching about importance of meat implicitly supports enjoyment, as it frames meat positively."
+  },
+  {
+    "stance_1": "I grew up eating meat",
+    "stance_2": "My parents taught me meat is important",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly links growing up eating meat to parental teachings about its importance."
+  },
+  {
+    "stance_1": "I grew up eating meat",
+    "stance_2": "My family eats meat with every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee's upbringing with meat consumption is reflected in their family's current habits."
+  },
+  {
+    "stance_1": "Meat made me sick during pregnancy",
+    "stance_2": "I could not eat meat during pregnancy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "It is explicitly stated that meat caused sickness during pregnancy, leading to inability to eat it."
+  }
+]

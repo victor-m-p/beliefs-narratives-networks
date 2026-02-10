@@ -1,0 +1,66 @@
+[
+  {
+    "stance_1": "Friends and family eat a wider variety of meats",
+    "stance_2": "I eat ground beef, chicken, turkey, fish regularly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee notes that friends and family eat a wider variety of meats, while they themselves stick to a narrower set, indicating a conflict in breadth of meat-eating habits."
+  },
+  {
+    "stance_1": "I choose meat based on presentation and versatility",
+    "stance_2": "I avoid meat that looks or smells bad",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Choosing meat based on presentation and versatility supports the avoidance of meat that looks or smells bad, as both relate to sensory and practical qualities."
+  },
+  {
+    "stance_1": "I choose meat based on presentation and versatility",
+    "stance_2": "I eat ground beef, chicken, turkey, fish regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Preference for certain meats is likely influenced by their presentation and versatility."
+  },
+  {
+    "stance_1": "I choose meat based on presentation and versatility",
+    "stance_2": "I avoid pork",
+    "polarity": "implicit",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The avoidance of pork may be partially explained by presentation or versatility, though this is not directly stated."
+  },
+  {
+    "stance_1": "I think about how much meat I eat",
+    "stance_2": "Social contacts motivate me to consider my health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that social contacts motivate them to think about health and how much meat to eat."
+  },
+  {
+    "stance_1": "I think about how much meat I eat",
+    "stance_2": "Meat is an essential part of my meals",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Considering how much meat is eaten may be in tension with the belief that meat is essential, suggesting a potential conflict."
+  },
+  {
+    "stance_1": "Meat is an essential part of my meals",
+    "stance_2": "I eat ground beef, chicken, turkey, fish regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The belief that meat is essential is directly reflected in the regular consumption of several types of meat."
+  },
+  {
+    "stance_1": "Meat is an essential part of my meals",
+    "stance_2": "I avoid pork",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Even though meat is essential, the interviewee makes an exception for pork, suggesting overall support for meat eating but selectivity in types."
+  }
+]

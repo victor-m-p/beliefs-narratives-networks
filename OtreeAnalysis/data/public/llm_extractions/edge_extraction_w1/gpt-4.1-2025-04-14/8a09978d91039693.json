@@ -1,0 +1,42 @@
+[
+  {
+    "stance_1": "I am vegetarian",
+    "stance_2": "I do not want to promote animal killing",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The desire not to promote animal killing is a primary stated reason for becoming vegetarian."
+  },
+  {
+    "stance_1": "I am vegetarian",
+    "stance_2": "I enjoy being vegetarian",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Enjoyment of being vegetarian supports maintaining vegetarianism."
+  },
+  {
+    "stance_1": "I am vegetarian",
+    "stance_2": "I watched documentaries on animal welfare",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Watching documentaries raised awareness and motivated the shift to vegetarianism."
+  },
+  {
+    "stance_1": "I am vegetarian",
+    "stance_2": "My parents are vegetarian",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Having vegetarian parents likely supports the interviewee\u2019s vegetarianism, though this is not stated as a primary reason."
+  },
+  {
+    "stance_1": "I watched documentaries on animal welfare",
+    "stance_2": "I do not want to promote animal killing",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Watching documentaries led to concerns about animal killing."
+  }
+]

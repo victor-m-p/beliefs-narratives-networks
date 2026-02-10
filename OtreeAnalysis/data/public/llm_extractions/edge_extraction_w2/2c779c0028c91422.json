@@ -1,0 +1,130 @@
+[
+  {
+    "stance_1": "Friends appreciate when I cook meat for them",
+    "stance_2": "I cook and prepare various meats",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states that friends appreciate when he cooks meat, which is directly supported by his habit of preparing various meats."
+  },
+  {
+    "stance_1": "I cook and prepare various meats",
+    "stance_2": "My family consumes lots of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee prepares various meats and states that his family consumes lots of meat; these practices reinforce each other in the family context."
+  },
+  {
+    "stance_1": "I cook and prepare various meats",
+    "stance_2": "Preparing meat is central to family gatherings",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Preparing meat is described as both a personal activity and central to family gatherings, showing strong mutual support."
+  },
+  {
+    "stance_1": "I cook and prepare various meats",
+    "stance_2": "Meat is a big part of my culture",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Preparing meat is directly linked to cultural tradition, described as a big part of the interviewee's culture."
+  },
+  {
+    "stance_1": "I eat less beef due to high cost",
+    "stance_2": "Meat consumption is influenced by price",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly says beef consumption decreased due to high cost, showing direct causation."
+  },
+  {
+    "stance_1": "I eat less beef due to high cost",
+    "stance_2": "Meat consumption is influenced by availability",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Availability and price are both given as reasons for reduced beef/meat consumption, indicating direct support."
+  },
+  {
+    "stance_1": "I eat less beef due to high cost",
+    "stance_2": "My family consumes lots of meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The tradition of high family meat consumption is undermined by reduced beef consumption due to cost, though the conflict is partial rather than absolute."
+  },
+  {
+    "stance_1": "I want to consume a lot of protein",
+    "stance_2": "I prefer whole foods over supplements",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The desire for protein is directly linked to the preference for whole foods, as the interviewee prefers meat to supplements for protein intake."
+  },
+  {
+    "stance_1": "I want to consume a lot of protein",
+    "stance_2": "It is hard to get enough protein from non-meat sources",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee cites difficulty in getting enough protein from non-meat sources as a reason for wanting to consume meat."
+  },
+  {
+    "stance_1": "I want to consume a lot of protein",
+    "stance_2": "I cook and prepare various meats",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Cooking and preparing various meats is partly motivated by the desire to consume a lot of protein."
+  },
+  {
+    "stance_1": "I want to consume a lot of protein",
+    "stance_2": "My family consumes lots of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "High family meat consumption and the desire for protein support each other, though only implicitly."
+  },
+  {
+    "stance_1": "It is hard to get enough protein from non-meat sources",
+    "stance_2": "I prefer whole foods over supplements",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Difficulty obtaining enough protein from non-meat sources reinforces the preference for whole foods (meat) over supplements."
+  },
+  {
+    "stance_1": "Meat is a big part of my culture",
+    "stance_2": "My family consumes lots of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Meat consumption is described as both a cultural and family norm, with each supporting the other."
+  },
+  {
+    "stance_1": "Meat is a big part of my culture",
+    "stance_2": "Preparing meat is central to family gatherings",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Cultural significance of meat directly supports its central role in family gatherings."
+  },
+  {
+    "stance_1": "Meat consumption is influenced by price",
+    "stance_2": "Meat consumption is influenced by availability",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Price and availability are both stated as key factors influencing meat consumption."
+  },
+  {
+    "stance_1": "My family consumes lots of meat",
+    "stance_2": "Preparing meat is central to family gatherings",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Family gatherings centered around preparing meat reinforce high family meat consumption."
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "stance_1": "I am mindful of environmental impact",
+    "stance_2": "I might reduce meat for environmental reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that being mindful of environmental impact is a reason for possibly reducing meat consumption."
+  },
+  {
+    "stance_1": "I am mindful of environmental impact",
+    "stance_2": "I might reduce meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Being mindful of environmental impact plausibly supports considering meat reduction for environmental (and somewhat health) reasons."
+  },
+  {
+    "stance_1": "I am mindful of health factors",
+    "stance_2": "I might reduce meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states being mindful of health factors is a reason for possibly reducing meat consumption."
+  },
+  {
+    "stance_1": "I am mindful of health factors",
+    "stance_2": "I might reduce meat for environmental reasons",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Being mindful of health factors is generally supportive of health-motivated reductions, but the link to environmental reasons is less direct but plausible."
+  },
+  {
+    "stance_1": "I am mindful of health factors",
+    "stance_2": "I want to get enough protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly mentions balancing health with ensuring enough protein intake."
+  },
+  {
+    "stance_1": "I am mindful of health factors",
+    "stance_2": "I choose lean meats like chicken or fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Choosing lean meats is explicitly described as a health-motivated behavior."
+  },
+  {
+    "stance_1": "I am mindful of health factors",
+    "stance_2": "I include plant-based proteins in meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Including plant-based proteins is described as part of a health-conscious approach."
+  },
+  {
+    "stance_1": "I am mindful of health factors",
+    "stance_2": "I eat meat a few times a week",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Eating meat only a few times a week is implicitly supported by health-conscious reasoning."
+  },
+  {
+    "stance_1": "I want to get enough protein",
+    "stance_2": "I choose lean meats like chicken or fish",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Choosing lean meats is partly motivated by a desire to get enough protein."
+  },
+  {
+    "stance_1": "I want to get enough protein",
+    "stance_2": "I include plant-based proteins in meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Including plant-based proteins is explicitly described as a way to ensure adequate protein."
+  },
+  {
+    "stance_1": "I want to get enough protein",
+    "stance_2": "I eat meat a few times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Eating meat a few times a week is explicitly described as a way to help meet protein needs."
+  },
+  {
+    "stance_1": "I eat meat a few times a week",
+    "stance_2": "I might reduce meat for health reasons",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Current frequency of meat consumption stands in mild tension with contemplating further reduction for health reasons."
+  },
+  {
+    "stance_1": "I eat meat a few times a week",
+    "stance_2": "I might reduce meat for environmental reasons",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Current frequency of meat consumption stands in mild tension with contemplating further reduction for environmental reasons."
+  },
+  {
+    "stance_1": "I choose lean meats like chicken or fish",
+    "stance_2": "I eat meat a few times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee links selective meat choices (lean meats) to the limited frequency of meat consumption."
+  },
+  {
+    "stance_1": "I include plant-based proteins in meals",
+    "stance_2": "I eat meat a few times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Including plant-based proteins supports lower frequency of meat consumption."
+  },
+  {
+    "stance_1": "I might reduce meat for environmental reasons",
+    "stance_2": "I might reduce meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee explicitly links health and environmental motivations for considering meat reduction."
+  },
+  {
+    "stance_1": "I enjoy the flavor of meat",
+    "stance_2": "I might reduce meat for health reasons",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoyment of meat flavor creates tension with the idea of reducing meat for health reasons."
+  },
+  {
+    "stance_1": "I enjoy the flavor of meat",
+    "stance_2": "I might reduce meat for environmental reasons",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoyment of meat flavor creates tension with the idea of reducing meat for environmental reasons."
+  },
+  {
+    "stance_1": "I enjoy the flavor of meat",
+    "stance_2": "I eat meat a few times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Enjoyment of flavor is an explicit motivation for eating meat at current frequency."
+  },
+  {
+    "stance_1": "I enjoy the flavor of meat",
+    "stance_2": "Meat is convenient for meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Flavor and convenience are co-stated as main motivations for eating meat."
+  },
+  {
+    "stance_1": "I enjoy the flavor of meat",
+    "stance_2": "I want to get enough protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoyment of flavor and protein needs are both described as motivations; the link is supportive but implicit."
+  },
+  {
+    "stance_1": "I enjoy the flavor of meat",
+    "stance_2": "I choose lean meats like chicken or fish",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoyment and selective choice of meat likely work together to shape current consumption, but this is only implicit."
+  },
+  {
+    "stance_1": "I enjoy the flavor of meat",
+    "stance_2": "I include plant-based proteins in meals",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Enjoying meat flavor may make plant-based substitutions less appealing, but the evidence is thin."
+  },
+  {
+    "stance_1": "Meat is convenient for meals",
+    "stance_2": "I eat meat a few times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Convenience is an explicit reason for including meat in meals."
+  },
+  {
+    "stance_1": "Meat is convenient for meals",
+    "stance_2": "I might reduce meat for health reasons",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Convenience motivation is mildly in tension with the idea of reducing meat for health reasons."
+  },
+  {
+    "stance_1": "Meat is convenient for meals",
+    "stance_2": "I might reduce meat for environmental reasons",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Convenience motivation is mildly in tension with the idea of reducing meat for environmental reasons."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "stance_1": "I dislike how animals are treated",
+    "stance_2": "I eat meat with most meals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The interviewee explicitly expresses dislike for animal treatment but continues to eat meat with most meals, indicating a conflict."
+  },
+  {
+    "stance_1": "I eat meat with most meals",
+    "stance_2": "I was raised eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee directly links their high meat consumption to being raised eating meat."
+  },
+  {
+    "stance_1": "I eat meat with most meals",
+    "stance_2": "Meat tastes good to me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Enjoyment of meat's taste explicitly supports frequent meat consumption."
+  },
+  {
+    "stance_1": "I eat meat with most meals",
+    "stance_2": "Most people around me eat meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The shared habit among peers likely reinforces the interviewee's frequent meat consumption."
+  },
+  {
+    "stance_1": "I was raised eating meat",
+    "stance_2": "Most people around me eat meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Being raised eating meat and most peers eating meat both stem from a similar cultural/social background."
+  }
+]

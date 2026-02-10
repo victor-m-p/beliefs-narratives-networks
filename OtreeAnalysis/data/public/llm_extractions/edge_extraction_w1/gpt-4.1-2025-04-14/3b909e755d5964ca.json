@@ -1,0 +1,138 @@
+[
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I do not eat red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states ethical concern for animal welfare as a reason for not eating red meat."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I eat poultry and fish",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states feeling guilt eating poultry and fish because of animal welfare concerns, indicating a conflict between this behavior and their beliefs."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I purchase humane certified animal products",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states they purchase humane certified animal products to align with their concern for animal welfare."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I feel guilt about eating poultry and fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee feels guilt about eating poultry and fish for animal welfare reasons."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I prioritize my health over ethics",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee expresses conflict between prioritizing health and their animal welfare ethics."
+  },
+  {
+    "stance_1": "I do not eat red meat",
+    "stance_2": "I eat poultry and fish",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The stance of not eating red meat contrasts with the choice to eat poultry and fish, reflecting a selective dietary restriction."
+  },
+  {
+    "stance_1": "I do not eat red meat",
+    "stance_2": "I have severe anemia",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Not eating red meat is related to past vegetarianism and severe anemia, which led to dietary changes."
+  },
+  {
+    "stance_1": "I do not eat red meat",
+    "stance_2": "I prioritize my health over ethics",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Although the interviewee does not eat red meat for ethical reasons, they now prioritize health over ethics in some dietary choices, indicating tension."
+  },
+  {
+    "stance_1": "I do not eat red meat",
+    "stance_2": "My partner avoids most red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee and their partner both avoid red meat for similar ethical and health reasons."
+  },
+  {
+    "stance_1": "I eat poultry and fish",
+    "stance_2": "I feel guilt about eating poultry and fish",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee feels guilt about eating poultry and fish, indicating conflict between behavior and emotions."
+  },
+  {
+    "stance_1": "I eat poultry and fish",
+    "stance_2": "I have severe anemia",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states eating poultry and fish is due to health needs related to severe anemia."
+  },
+  {
+    "stance_1": "I eat poultry and fish",
+    "stance_2": "I prioritize my health over ethics",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The decision to eat poultry and fish is explicitly supported by the need to prioritize health over ethics."
+  },
+  {
+    "stance_1": "I eat poultry and fish",
+    "stance_2": "I purchase humane certified animal products",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee tries to mitigate the ethical impact of eating poultry and fish by purchasing humane certified products."
+  },
+  {
+    "stance_1": "I feel guilt about eating poultry and fish",
+    "stance_2": "I prioritize my health over ethics",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Feeling guilt about eating poultry and fish conflicts with prioritizing health over ethics."
+  },
+  {
+    "stance_1": "I have severe anemia",
+    "stance_2": "I prioritize my health over ethics",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "Severe anemia directly leads to prioritizing health over ethical concerns, as clearly stated."
+  },
+  {
+    "stance_1": "I have severe anemia",
+    "stance_2": "I purchase humane certified animal products",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "While not directly connected, the interviewee's health needs lead them to eat animal products, and they mitigate ethical concerns by choosing humane options."
+  },
+  {
+    "stance_1": "I prioritize my health over ethics",
+    "stance_2": "I purchase humane certified animal products",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly describes prioritizing health but still choosing humane certified products to align as much as possible with their ethical beliefs."
+  }
+]

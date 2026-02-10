@@ -1,0 +1,74 @@
+[
+  {
+    "stance_1": "I avoid red meat",
+    "stance_2": "I find red meat too expensive",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that the expense of red meat is a reason for avoiding it."
+  },
+  {
+    "stance_1": "I avoid red meat",
+    "stance_2": "I find red meat too fatty",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee directly says they avoid red meat because it is too fatty."
+  },
+  {
+    "stance_1": "I eat chicken breast regularly",
+    "stance_2": "I eat meat to stay full longer",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee eats chicken breast as their main form of meat, explicitly to stay full longer."
+  },
+  {
+    "stance_1": "I eat chicken breast regularly",
+    "stance_2": "I avoid red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The preference for chicken breast over red meat supports the behavior of avoiding red meat."
+  },
+  {
+    "stance_1": "I eat chicken breast regularly",
+    "stance_2": "I find red meat too expensive",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The choice of chicken breast is justified by red meat being more expensive."
+  },
+  {
+    "stance_1": "I eat chicken breast regularly",
+    "stance_2": "I find red meat too fatty",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Chicken breast is preferred as it is not fatty, in contrast to red meat."
+  },
+  {
+    "stance_1": "I enjoy meals without meat",
+    "stance_2": "Meals without meat do not keep me full",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee enjoys meatless meals but finds they do not keep them full, indicating a direct conflict."
+  },
+  {
+    "stance_1": "I eat meat to stay full longer",
+    "stance_2": "Meals without meat do not keep me full",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The need to stay full is explicitly stated as a reason for eating meat, reinforced by the experience of not staying full after meatless meals."
+  },
+  {
+    "stance_1": "If I cook protein my mom eats it",
+    "stance_2": "I eat chicken breast regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "When the interviewee cooks protein (likely chicken breast), their mom eats it, showing a supportive relationship in shared meals."
+  }
+]

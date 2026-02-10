@@ -1,0 +1,42 @@
+[
+  {
+    "stance_1": "I am set in my eating habits",
+    "stance_2": "I would not eat less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states being set in their eating habits and refusing to eat less meat, showing a direct supportive connection."
+  },
+  {
+    "stance_1": "I eat all meat",
+    "stance_2": "Meat is important protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Believing meat is an important protein implicitly supports the choice to eat all types of meat."
+  },
+  {
+    "stance_1": "I eat all meat",
+    "stance_2": "I would not eat less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee's stated behavior of eating all meat is supported by their explicit refusal to consider eating less meat."
+  },
+  {
+    "stance_1": "I am set in my eating habits",
+    "stance_2": "I eat all meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Being set in eating habits explicitly supports the behavior of eating all types of meat."
+  },
+  {
+    "stance_1": "I am set in my eating habits",
+    "stance_2": "Meat is important protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Assigning an important nutritional value to meat supports being set in the habit of eating it, though this link is implied."
+  }
+]

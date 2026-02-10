@@ -1,0 +1,242 @@
+[
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I avoid beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Interviewee explicitly links concerns about animal welfare and beef production with their avoidance of beef."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I buy chicken at the grocery store",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Concern for animal welfare may conflict with buying chicken, as the interviewee questions humane treatment of livestock including chickens."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I choose meat for health reasons",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Choosing meat for health may sometimes conflict with animal welfare concerns, as the interviewee expresses worry about humane treatment but continues to eat animal products for health."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I prefer organic meat when possible",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Choosing organic meat is likely supported by animal welfare concerns, as organic standards often include animal welfare measures."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I prefer wild game for taste",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Preference for wild game may be implicitly supported by animal welfare concerns, as wild game is perceived as more humane."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I avoid processed meat products",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Concern for animal welfare may support avoidance of processed meat, which often involves large-scale, less humane production."
+  },
+  {
+    "stance_1": "I buy bison instead of beef",
+    "stance_2": "I avoid beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Interviewee explicitly states choosing bison as an alternative to beef and avoiding beef."
+  },
+  {
+    "stance_1": "I buy bison instead of beef",
+    "stance_2": "I choose meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Interviewee states bison is chosen over beef for health reasons."
+  },
+  {
+    "stance_1": "I buy bison instead of beef",
+    "stance_2": "I buy chicken at the grocery store",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Both behaviors are part of a reduced-beef, healthier diet pattern."
+  },
+  {
+    "stance_1": "I buy chicken at the grocery store",
+    "stance_2": "I choose meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Interviewee explicitly states chicken is chosen for health reasons."
+  },
+  {
+    "stance_1": "I buy chicken at the grocery store",
+    "stance_2": "I avoid beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "Interviewee substitutes chicken for beef as a health-motivated behavior."
+  },
+  {
+    "stance_1": "I buy chicken at the grocery store",
+    "stance_2": "I try to eat fish weekly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Both chicken and fish are chosen as part of a health-conscious meat-eating pattern."
+  },
+  {
+    "stance_1": "I buy chicken at the grocery store",
+    "stance_2": "I avoid processed meat products",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Buying chicken (fresh meat) and avoiding processed meats are part of a fresh, health-oriented diet."
+  },
+  {
+    "stance_1": "I avoid beef",
+    "stance_2": "I try to eat fish weekly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Fish is included in the diet as a substitute for red meat, supporting avoidance of beef."
+  },
+  {
+    "stance_1": "I avoid beef",
+    "stance_2": "I avoid processed meat products",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Avoiding both beef and processed meats are driven by a shared motivation for health and possibly animal welfare."
+  },
+  {
+    "stance_1": "I avoid beef",
+    "stance_2": "I choose meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Interviewee explicitly states health is the main motivator for avoiding beef."
+  },
+  {
+    "stance_1": "I avoid beef",
+    "stance_2": "I prefer organic meat when possible",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Avoidance of beef and preference for organic meat both stem from health and possibly ethical concerns."
+  },
+  {
+    "stance_1": "I avoid beef",
+    "stance_2": "I prefer wild game for taste",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Avoiding beef and preferring wild game are both related to concerns about quality, health, and taste."
+  },
+  {
+    "stance_1": "I avoid beef",
+    "stance_2": "I eat wild game regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Avoiding beef and eating wild game act as complementary behaviors for taste, health, and ethical reasons."
+  },
+  {
+    "stance_1": "I avoid processed meat products",
+    "stance_2": "I choose meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Interviewee explicitly states health is a reason for avoiding processed meats."
+  },
+  {
+    "stance_1": "I avoid processed meat products",
+    "stance_2": "I try to eat fish weekly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Avoiding processed meats and eating fish weekly are both consistent with a health-oriented diet."
+  },
+  {
+    "stance_1": "I choose meat for health reasons",
+    "stance_2": "I try to eat fish weekly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Interviewee explicitly states health is the main motivator for eating fish weekly."
+  },
+  {
+    "stance_1": "I eat wild game regularly",
+    "stance_2": "I prefer wild game for taste",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Interviewee explicitly states wild game is eaten for its taste and flavor."
+  },
+  {
+    "stance_1": "I eat wild game regularly",
+    "stance_2": "I choose meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Wild game is perceived as healthier, supporting its regular consumption."
+  },
+  {
+    "stance_1": "I eat wild game regularly",
+    "stance_2": "I avoid beef",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Preference for wild game and avoidance of beef are both part of a shift toward perceived healthier and tastier meats."
+  },
+  {
+    "stance_1": "I eat wild game regularly",
+    "stance_2": "I buy chicken at the grocery store",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 20,
+    "justification": "Interviewee supplements wild game with chicken, as part of a diversified meat diet for health."
+  },
+  {
+    "stance_1": "I prefer organic meat when possible",
+    "stance_2": "I choose meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Interviewee explicitly connects choosing organic meat with health motivations."
+  },
+  {
+    "stance_1": "I prefer wild game for taste",
+    "stance_2": "I choose meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Interviewee explicitly states both taste and health are motivators for choosing wild game."
+  },
+  {
+    "stance_1": "I try to eat fish weekly",
+    "stance_2": "I choose meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Interviewee explicitly connects weekly fish consumption with health reasons."
+  },
+  {
+    "stance_1": "My social contacts avoid processed meat",
+    "stance_2": "My social contacts are motivated by health concerns",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Interviewee explicitly states health concerns motivate avoidance of processed meat among social contacts."
+  }
+]

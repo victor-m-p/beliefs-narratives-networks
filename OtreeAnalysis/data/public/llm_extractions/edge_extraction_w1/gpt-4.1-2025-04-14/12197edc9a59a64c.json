@@ -1,0 +1,98 @@
+[
+  {
+    "stance_1": "I am aware of environmental impacts of meat",
+    "stance_2": "I was raised to believe animals are for consumption",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Being aware of the environmental impacts of meat conflicts with being raised to believe animals are for consumption, as the former introduces potential concerns about the practice."
+  },
+  {
+    "stance_1": "I do not enjoy the taste of meat",
+    "stance_2": "I eat meat for health reasons",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly states they do not enjoy the taste of meat but eat it for health reasons, showing a conflict between enjoyment and motivation."
+  },
+  {
+    "stance_1": "I do not enjoy the taste of meat",
+    "stance_2": "I eat meat to get protein",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states they eat meat for protein despite not enjoying the taste, indicating a conflict between taste preference and nutritional motivation."
+  },
+  {
+    "stance_1": "I do not enjoy the taste of meat",
+    "stance_2": "I eat meat when it is available on campus",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee chooses to eat meat on campus when available, even though they do not enjoy the taste, indicating a behavior that conflicts with preference."
+  },
+  {
+    "stance_1": "I eat meat for health reasons",
+    "stance_2": "I eat meat to get protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly connects eating meat for health to its protein content, showing strong support between these stances."
+  },
+  {
+    "stance_1": "I eat meat for health reasons",
+    "stance_2": "I think meat contains iron",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee mentions iron as a possible health benefit of meat, supporting the health motivation."
+  },
+  {
+    "stance_1": "I eat meat for health reasons",
+    "stance_2": "I was raised to believe animals are for consumption",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "The upbringing that animals are for consumption implicitly supports the idea that eating meat is normal and healthy."
+  },
+  {
+    "stance_1": "I eat meat to get protein",
+    "stance_2": "I think meat contains iron",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Both protein and iron are mentioned as reasons for considering meat healthy, supporting each other as nutritional motivations."
+  },
+  {
+    "stance_1": "I eat meat when it is available on campus",
+    "stance_2": "I eat meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee chooses meat on campus due to the belief that it is good for them, linking availability and health motivation."
+  },
+  {
+    "stance_1": "I eat meat when it is available on campus",
+    "stance_2": "I eat meat to get protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Choosing meat when available is supported by the desire to get protein, as explicitly stated."
+  },
+  {
+    "stance_1": "I eat meat when it is available on campus",
+    "stance_2": "I was raised to believe animals are for consumption",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Upbringing to see animals as food supports the tendency to eat meat when available."
+  },
+  {
+    "stance_1": "I was raised to believe animals are for consumption",
+    "stance_2": "My family are big meat eaters",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that their family culture and upbringing reinforce the belief that animals are for consumption."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "stance_1": "God told Noah it was okay to eat meat",
+    "stance_2": "I am concerned about harming animals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The interviewee cites God's permission as what makes eating meat acceptable despite feeling hurt about harming animals, revealing an explicit conflict between religious justification and animal welfare concerns."
+  },
+  {
+    "stance_1": "God told Noah it was okay to eat meat",
+    "stance_2": "I eat meat almost every day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee explicitly states that God's permission is the main reason she is able to eat meat, supporting her frequent meat consumption."
+  },
+  {
+    "stance_1": "God told Noah it was okay to eat meat",
+    "stance_2": "My family and friends eat meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Religious justification for meat-eating is likely shared within a community where meat consumption is common, implicitly supporting collective habits."
+  },
+  {
+    "stance_1": "I am concerned about harming animals",
+    "stance_2": "I eat meat almost every day",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee expresses distress about harming animals but still eats meat almost daily, showing a strong explicit conflict."
+  },
+  {
+    "stance_1": "I am concerned about harming animals",
+    "stance_2": "I like the taste of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "She loves animals and is hurt by harming them, yet enjoys eating their meat, showing explicit internal conflict."
+  },
+  {
+    "stance_1": "I cook meat for my husband",
+    "stance_2": "My husband likes eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee directly states that she cooks meat primarily because her husband likes it."
+  },
+  {
+    "stance_1": "I cook meat for my husband",
+    "stance_2": "I eat meat almost every day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Cooking meat for her husband is a principal reason for frequent meat consumption."
+  },
+  {
+    "stance_1": "I eat meat almost every day",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee enjoys the taste of meat, which directly supports her frequent consumption."
+  },
+  {
+    "stance_1": "I eat meat almost every day",
+    "stance_2": "My family and friends eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The interviewee and her social circle all eat meat, indicating mutual reinforcement of the habit."
+  },
+  {
+    "stance_1": "I like the taste of meat",
+    "stance_2": "My husband likes eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 45,
+    "justification": "Both she and her husband enjoy meat, which supports its regular presence in their meals."
+  },
+  {
+    "stance_1": "I like the taste of meat",
+    "stance_2": "My family and friends eat meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Enjoyment of meat is likely shared or reinforced by a social environment where everyone eats meat."
+  },
+  {
+    "stance_1": "My family and friends eat meat",
+    "stance_2": "My husband likes eating meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Her husband is part of her family/friends group, and his preference for meat reflects and supports the wider group's habits."
+  }
+]

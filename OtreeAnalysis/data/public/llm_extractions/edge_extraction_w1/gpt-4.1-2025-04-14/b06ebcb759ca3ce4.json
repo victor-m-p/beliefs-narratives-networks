@@ -1,0 +1,58 @@
+[
+  {
+    "stance_1": "I am motivated by health improvements",
+    "stance_2": "I eat mostly animal-based meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Interviewee explicitly states that health improvements are the main motivation for eating mostly animal-based meals."
+  },
+  {
+    "stance_1": "I am motivated by health improvements",
+    "stance_2": "My health improves as I eat this way",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The motivation for the diet is explicitly linked to continued health improvements."
+  },
+  {
+    "stance_1": "I eat mostly animal-based meals",
+    "stance_2": "My health improves as I eat this way",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly credits their animal-based diet for health improvements."
+  },
+  {
+    "stance_1": "I feel current nutritional advice is misleading",
+    "stance_2": "I eat mostly animal-based meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee chooses to eat animal-based meals partly because they distrust mainstream nutritional advice."
+  },
+  {
+    "stance_1": "I feel current nutritional advice is misleading",
+    "stance_2": "My health improves as I eat this way",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Improved health despite going against mainstream advice implicitly supports the stance that current advice is misleading."
+  },
+  {
+    "stance_1": "I feel current nutritional advice is misleading",
+    "stance_2": "I am motivated by health improvements",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Motivation for health improvements and success contradicts mainstream advice, reinforcing the stance that advice is misleading."
+  },
+  {
+    "stance_1": "My friends are interested in ketogenic diets",
+    "stance_2": "My friends notice my health changes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Friends' interest in diets is explicitly attributed to noticing the interviewee's health changes."
+  }
+]

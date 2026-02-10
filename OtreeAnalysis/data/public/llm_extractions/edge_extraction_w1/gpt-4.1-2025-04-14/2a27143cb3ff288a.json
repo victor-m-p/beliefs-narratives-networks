@@ -1,0 +1,74 @@
+[
+  {
+    "stance_1": "I eat meat less than I used to",
+    "stance_2": "I eat more chicken than before",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states that eating more chicken is part of eating less meat overall."
+  },
+  {
+    "stance_1": "I eat meat less than I used to",
+    "stance_2": "I plan meals with my wife",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Meal planning with his wife implicitly supports their shift toward eating less meat over time."
+  },
+  {
+    "stance_1": "I eat meat less than I used to",
+    "stance_2": "I believe grilled chicken is healthier than beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Belief that grilled chicken is healthier supports the conscious shift to eating less (red) meat."
+  },
+  {
+    "stance_1": "I eat meat when I feel like it",
+    "stance_2": "I plan meals with my wife",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Interviewee explicitly mentions that meal planning is based on what they feel like eating."
+  },
+  {
+    "stance_1": "I eat more chicken than before",
+    "stance_2": "I believe grilled chicken is healthier than beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Interviewee states they eat more chicken partly due to belief in its health benefits over beef."
+  },
+  {
+    "stance_1": "I only eat ground beef or ground turkey",
+    "stance_2": "I eat meat when I feel like it",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Preference for ground meats aligns with the flexible, as-desired approach to eating meat."
+  },
+  {
+    "stance_1": "I only eat ground beef or ground turkey",
+    "stance_2": "I plan meals with my wife",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The types of meat eaten are influenced by the meals planned with his wife."
+  },
+  {
+    "stance_1": "My children eat chicken and fish",
+    "stance_2": "I eat more chicken than before",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Interviewee notes that both he and his children eat more chicken and fish, indicating parallel and mutually reinforcing habits."
+  },
+  {
+    "stance_1": "My children eat chicken and fish",
+    "stance_2": "I eat meat less than I used to",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "The shift in both the interviewee and his children to eating more chicken/fish and less meat suggests mutually supportive changes."
+  }
+]

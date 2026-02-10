@@ -1,0 +1,98 @@
+[
+  {
+    "stance_1": "I eat meat if it is on hand",
+    "stance_2": "I eat whatever I am craving",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee states that eating meat depends both on cravings and what is available, making these two stances mutually supportive."
+  },
+  {
+    "stance_1": "I eat meat if it is on hand",
+    "stance_2": "I make meat dishes for my family",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The interviewee makes meat dishes when the family wants it and if meat is available, showing a supportive, situational link."
+  },
+  {
+    "stance_1": "I eat whatever I am craving",
+    "stance_2": "I make meat dishes for my family",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 35,
+    "justification": "Interviewee's choices are influenced by cravings and family preferences, explicitly mentioning both as motivators."
+  },
+  {
+    "stance_1": "I do not like fatty meats",
+    "stance_2": "I prefer lean meats",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Stated preference for leaner meats and dislike for fatty meats are directly supportive."
+  },
+  {
+    "stance_1": "I have not tried to eat less meat",
+    "stance_2": "I make meat dishes for my family",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Regularly making meat dishes for family supports not having attempted to eat less meat."
+  },
+  {
+    "stance_1": "I have not tried to eat less meat",
+    "stance_2": "I eat whatever I am craving",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Making food choices based on cravings is cited as a reason for not trying to eat less meat."
+  },
+  {
+    "stance_1": "I have not tried to eat less meat",
+    "stance_2": "I eat meat if it is on hand",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "Opportunistic eating (if meat is available) supports not having made deliberate moves to reduce meat intake."
+  },
+  {
+    "stance_1": "I have not tried to eat less meat",
+    "stance_2": "My husband and son want to eat more meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Family demand for meat may implicitly support not trying to reduce household meat consumption."
+  },
+  {
+    "stance_1": "I do not like fatty meats",
+    "stance_2": "I eat whatever I am craving",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Preference for leaner meats is likely reflected in cravings, supporting the alignment between food preferences and cravings."
+  },
+  {
+    "stance_1": "I prefer lean meats",
+    "stance_2": "I eat whatever I am craving",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Preference for lean meats guides cravings, creating a supportive relationship."
+  },
+  {
+    "stance_1": "I prefer lean meats",
+    "stance_2": "I eat meat if it is on hand",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "If lean meats are available, preference guides their consumption, supporting this relationship."
+  },
+  {
+    "stance_1": "I do not like fatty meats",
+    "stance_2": "I eat meat if it is on hand",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "If only fatty meat is on hand, the interviewee might avoid it, but generally, their dislike for fatty meat supports selective consumption."
+  }
+]

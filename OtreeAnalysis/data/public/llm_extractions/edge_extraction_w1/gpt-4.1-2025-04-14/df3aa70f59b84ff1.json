@@ -1,0 +1,114 @@
+[
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I am vegan",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee states that concern for animal welfare is a major reason for being vegan."
+  },
+  {
+    "stance_1": "I am vegan",
+    "stance_2": "I do not eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "The interviewee directly equates being vegan with not eating meat."
+  },
+  {
+    "stance_1": "I am vegan",
+    "stance_2": "I have no interest in eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee connects being vegan with having no interest in eating meat."
+  },
+  {
+    "stance_1": "I am vegan",
+    "stance_2": "I want to be more health conscious",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that being vegan is motivated by wanting to be more health conscious."
+  },
+  {
+    "stance_1": "I am vegan",
+    "stance_2": "I can get protein from plants",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee states that being vegan is supported by the ability to get protein from plants."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I do not eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee says concern about animal welfare is a major reason for not eating meat."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I want to be more health conscious",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee lists both animal welfare and health consciousness as motivations, supporting each other in their dietary choice."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I can get protein from plants",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The ability to get protein from plants helps support an animal welfare-motivated avoidance of animal products."
+  },
+  {
+    "stance_1": "I do not eat meat",
+    "stance_2": "I have no interest in eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee states a lack of interest in eating meat as a reason for not eating meat."
+  },
+  {
+    "stance_1": "I do not eat meat",
+    "stance_2": "I want to be more health conscious",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee says health consciousness is a major reason for not eating meat."
+  },
+  {
+    "stance_1": "I do not eat meat",
+    "stance_2": "I can get protein from plants",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee supports not eating meat by stating they can get protein from plant sources."
+  },
+  {
+    "stance_1": "I have no interest in eating meat",
+    "stance_2": "I want to be more health conscious",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The interviewee's lack of interest in meat is aligned with health consciousness, as both are given as reasons for their dietary choices."
+  },
+  {
+    "stance_1": "I have no interest in eating meat",
+    "stance_2": "I can get protein from plants",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Getting protein from plants supports the lack of interest in eating meat, as it removes a possible reason for consuming meat."
+  },
+  {
+    "stance_1": "I can get protein from plants",
+    "stance_2": "I want to be more health conscious",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee explicitly connects plant-based protein with their goal of being health conscious."
+  }
+]

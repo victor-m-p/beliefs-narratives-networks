@@ -1,0 +1,130 @@
+[
+  {
+    "stance_1": "I am concerned about cancer risk from red meat",
+    "stance_2": "I am concerned about negative health effects",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Concern about cancer risk is a specific instance of concern about negative health effects, directly supporting it."
+  },
+  {
+    "stance_1": "I am concerned about negative health effects",
+    "stance_2": "I consume red meat three to four times a week",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Concern about negative health effects conflicts with the behavior of regularly consuming red meat."
+  },
+  {
+    "stance_1": "I am concerned about cancer risk from red meat",
+    "stance_2": "I consume red meat three to four times a week",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Concern about cancer risk from red meat conflicts with the frequent consumption of red meat."
+  },
+  {
+    "stance_1": "I believe red meat boosts muscle mass",
+    "stance_2": "I want to increase my protein intake",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Belief that red meat boosts muscle mass supports the desire to increase protein intake, as muscle mass is linked to protein."
+  },
+  {
+    "stance_1": "I believe red meat boosts muscle mass",
+    "stance_2": "My male coworkers eat meat for protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The belief that red meat boosts muscle mass aligns with the idea that men eat meat for protein, implicitly supporting each other."
+  },
+  {
+    "stance_1": "I consume red meat three to four times a week",
+    "stance_2": "I want to increase my protein intake",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Frequent red meat consumption is directly motivated by a desire to increase protein intake."
+  },
+  {
+    "stance_1": "Female family members are concerned about health risks",
+    "stance_2": "Female family members eat vegetarian diets",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "It is explicitly stated that female family members' health concerns motivate their vegetarian diets."
+  },
+  {
+    "stance_1": "Female family members are concerned about health risks",
+    "stance_2": "I am concerned about negative health effects",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Both the interviewee and their female family members share concerns about health risks, which are likely mutually reinforcing."
+  },
+  {
+    "stance_1": "I am concerned about negative health effects",
+    "stance_2": "I want to increase my protein intake",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "Desire for more protein (usually via red meat) may conflict with concerns about negative health effects from red meat."
+  },
+  {
+    "stance_1": "I am concerned about cancer risk from red meat",
+    "stance_2": "Female family members are concerned about health risks",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Both the interviewee and female family members cite cancer risk as a health concern, supporting each other's stances."
+  },
+  {
+    "stance_1": "I consume red meat three to four times a week",
+    "stance_2": "My upbringing included regular meat eating",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee's current meat consumption is explicitly linked to their upbringing."
+  },
+  {
+    "stance_1": "My male coworkers eat a lot of meat",
+    "stance_2": "My male coworkers eat meat for protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "It is explicitly stated that male coworkers' meat consumption is motivated by protein intake."
+  },
+  {
+    "stance_1": "I want to increase my protein intake",
+    "stance_2": "My male coworkers eat meat for protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Both the interviewee and their male coworkers share a motivation to eat meat for protein, supporting each other."
+  },
+  {
+    "stance_1": "I consume red meat three to four times a week",
+    "stance_2": "My male coworkers eat a lot of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The interviewee's frequent meat consumption aligns with observed patterns among male coworkers, suggesting social reinforcement."
+  },
+  {
+    "stance_1": "I consume red meat three to four times a week",
+    "stance_2": "I believe red meat boosts muscle mass",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The belief that red meat boosts muscle mass supports frequent consumption."
+  },
+  {
+    "stance_1": "My upbringing included regular meat eating",
+    "stance_2": "My male coworkers eat a lot of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The interviewee's upbringing and current social context both reinforce meat consumption, indicating implicit support."
+  }
+]

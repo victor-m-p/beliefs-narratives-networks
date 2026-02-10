@@ -1,0 +1,130 @@
+[
+  {
+    "stance_1": "A family member is vegan for animal welfare reasons",
+    "stance_2": "I eat meat regularly out of habit",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Having a vegan family member for animal welfare reasons contrasts with the interviewee's habitual meat-eating, though this is not a source of conflict for the interviewee."
+  },
+  {
+    "stance_1": "A family member is vegan for animal welfare reasons",
+    "stance_2": "My family eats a lot of chicken",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "It is explicitly stated that only one family member is vegan for animal welfare reasons, while the rest of the family eats a lot of chicken, creating a contrast."
+  },
+  {
+    "stance_1": "A family member is vegan for animal welfare reasons",
+    "stance_2": "I love cooking with protein-rich foods",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The cousin's veganism for animal welfare reasons implicitly contrasts with the interviewee's enjoyment of cooking with all types of protein, including animal protein."
+  },
+  {
+    "stance_1": "A family member is vegan for animal welfare reasons",
+    "stance_2": "I cook meals with meat frequently",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "A vegan in the family for animal welfare reasons contrasts with the interviewee's frequent meat cooking."
+  },
+  {
+    "stance_1": "I choose chicken most of the time",
+    "stance_2": "I cook meals with meat frequently",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that frequent meat cooking mostly means cooking chicken."
+  },
+  {
+    "stance_1": "I choose chicken most of the time",
+    "stance_2": "I eat meat regularly out of habit",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Regular, habitual meat eating and choosing chicken most of the time are explicitly connected in the interviewee's routine."
+  },
+  {
+    "stance_1": "I choose chicken most of the time",
+    "stance_2": "My family eats a lot of chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee's and family's preference for chicken are explicitly linked and reinforce each other."
+  },
+  {
+    "stance_1": "I cook meals with meat frequently",
+    "stance_2": "I eat meat regularly out of habit",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Frequent meat cooking supports and is supported by habitual meat eating."
+  },
+  {
+    "stance_1": "I cook meals with meat frequently",
+    "stance_2": "I love cooking with protein-rich foods",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly connects frequent meat cooking to a love of cooking with protein-rich foods."
+  },
+  {
+    "stance_1": "I cook meals with meat frequently",
+    "stance_2": "I enjoy the flavor of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Enjoying the flavor of meat supports frequent meat cooking, as implied by the interviewee's responses."
+  },
+  {
+    "stance_1": "I cook meals with meat frequently",
+    "stance_2": "I switch to cheaper meats when necessary",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee explicitly describes switching meats (e.g., from salmon to sausages) to maintain meat cooking frequency despite price."
+  },
+  {
+    "stance_1": "I eat meat regularly out of habit",
+    "stance_2": "I enjoy the flavor of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The interviewee explicitly states that the flavor of meat is a key appeal, supporting habitual consumption."
+  },
+  {
+    "stance_1": "I eat meat regularly out of habit",
+    "stance_2": "I love cooking with protein-rich foods",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "The interviewee's love of cooking protein-rich foods supports their habitual, regular meat consumption."
+  },
+  {
+    "stance_1": "I enjoy the flavor of meat",
+    "stance_2": "I love cooking with protein-rich foods",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee explicitly connects flavor enhancement to the joy of cooking with proteins."
+  },
+  {
+    "stance_1": "I enjoy the flavor of meat",
+    "stance_2": "My family eats a lot of chicken",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 55,
+    "justification": "Enjoying meat's flavor may be supported by a family environment with frequent chicken meals."
+  },
+  {
+    "stance_1": "I love cooking with protein-rich foods",
+    "stance_2": "My family eats a lot of chicken",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Growing up in a family that eats a lot of chicken may have implicitly encouraged the interviewee's love for cooking with protein-rich foods."
+  }
+]

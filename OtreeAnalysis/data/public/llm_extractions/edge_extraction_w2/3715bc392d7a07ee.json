@@ -1,0 +1,58 @@
+[
+  {
+    "stance_1": "I eat all kinds of meat",
+    "stance_2": "I was raised eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that being raised eating meat is a reason for currently eating all kinds of meat."
+  },
+  {
+    "stance_1": "I eat all kinds of meat",
+    "stance_2": "My social contacts eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee reports that everyone they know eats meat, reinforcing their own meat-eating behavior."
+  },
+  {
+    "stance_1": "I eat all kinds of meat",
+    "stance_2": "Social contacts were taught to eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee says their social contacts were taught to eat meat in the same way as themselves, supporting their own behavior."
+  },
+  {
+    "stance_1": "I was raised eating meat",
+    "stance_2": "Social contacts were taught to eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that both themselves and their social contacts were taught to eat meat in the same way."
+  },
+  {
+    "stance_1": "My husband considered eating less meat",
+    "stance_2": "Eating less meat might be healthier",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "It is explicitly stated that the husband's consideration of eating less meat was motivated by the belief that it would be healthier."
+  },
+  {
+    "stance_1": "I eat all kinds of meat",
+    "stance_2": "My husband considered eating less meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "The husband's consideration of eating less meat contrasts with the interviewee's current behavior of eating all kinds of meat."
+  },
+  {
+    "stance_1": "I eat all kinds of meat",
+    "stance_2": "Eating less meat might be healthier",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "The idea that eating less meat might be healthier conflicts with the behavior of eating all kinds of meat, though this is not directly stated by the interviewee."
+  }
+]

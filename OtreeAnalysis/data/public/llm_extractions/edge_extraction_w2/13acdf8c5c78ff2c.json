@@ -1,0 +1,138 @@
+[
+  {
+    "stance_1": "I avoid eating pork",
+    "stance_2": "I believe pork is unhealthy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states avoiding pork because they believe it is unhealthy."
+  },
+  {
+    "stance_1": "I avoid eating pork",
+    "stance_2": "I was raised eating pork",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee reports being raised eating pork but now avoids it, indicating a shift and conflict between upbringing and current behavior."
+  },
+  {
+    "stance_1": "I avoid eating pork",
+    "stance_2": "My family eats pork",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee states their family eats pork while they avoid it, indicating a direct conflict."
+  },
+  {
+    "stance_1": "I eat chicken, beef, shrimp, and fish",
+    "stance_2": "I avoid eating pork",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee lists these meats as alternatives to pork, supporting the avoidance of pork."
+  },
+  {
+    "stance_1": "I eat chicken, beef, shrimp, and fish",
+    "stance_2": "I believe pork is unhealthy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Choosing other meats is explicitly tied to the belief that pork is unhealthy."
+  },
+  {
+    "stance_1": "I eat chicken, beef, shrimp, and fish",
+    "stance_2": "I want to improve my health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly connects eating these meats to their motivation to improve health."
+  },
+  {
+    "stance_1": "I want a clearer mind",
+    "stance_2": "I want to improve my health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly links dietary changes to both physical health and mental clarity."
+  },
+  {
+    "stance_1": "I crave fish more than before",
+    "stance_2": "I notice health benefits from eating fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The increased craving for fish is associated with perceived health benefits from eating fish."
+  },
+  {
+    "stance_1": "I crave fish more than before",
+    "stance_2": "I eat chicken, beef, shrimp, and fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee's increased craving for fish is reflected in their preference for fish among the meats they choose."
+  },
+  {
+    "stance_1": "I notice health benefits from eating fish",
+    "stance_2": "I want to improve my health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Noticing health benefits from fish supports their motivation to improve health."
+  },
+  {
+    "stance_1": "I want to live longer",
+    "stance_2": "I want to improve my health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The motivation to improve health is explicitly linked to the desire to live longer."
+  },
+  {
+    "stance_1": "I want to improve my health",
+    "stance_2": "I believe pork is unhealthy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Believing pork is unhealthy supports the desire to improve health by avoiding it."
+  },
+  {
+    "stance_1": "I want a clearer mind",
+    "stance_2": "I notice health benefits from eating fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee mentions both a clearer mind and health benefits from eating fish as results of dietary change."
+  },
+  {
+    "stance_1": "I want a clearer mind",
+    "stance_2": "I crave fish more than before",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "A desire for a clearer mind may be implicitly supported by craving and consuming more fish, since fish is associated with this benefit."
+  },
+  {
+    "stance_1": "I want a clearer mind",
+    "stance_2": "I eat chicken, beef, shrimp, and fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The explicit motivation for a clearer mind supports eating these meats, especially fish."
+  },
+  {
+    "stance_1": "I want to live longer",
+    "stance_2": "I notice health benefits from eating fish",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Perceived health benefits from fish implicitly support the motivation to live longer."
+  },
+  {
+    "stance_1": "I want to live longer",
+    "stance_2": "I eat chicken, beef, shrimp, and fish",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Choosing these meats, especially fish, is implicitly linked to the goal of longevity via better health."
+  }
+]

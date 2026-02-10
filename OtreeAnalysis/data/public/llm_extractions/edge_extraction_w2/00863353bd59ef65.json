@@ -1,0 +1,74 @@
+[
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "I cook several different meals to avoid eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Being a vegetarian requires the interviewee to prepare additional non-meat meals for themselves."
+  },
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "I do not like handling or smelling meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Dislike for handling or smelling meat supports the choice to be vegetarian, though it is not the primary reason."
+  },
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "I never liked the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "The interviewee explicitly states their vegetarianism is motivated by disliking the taste of meat."
+  },
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "I regularly cook meat-based meals for others",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Being a vegetarian conflicts with the need to regularly cook meat-based meals for others, as it is a challenge for the interviewee."
+  },
+  {
+    "stance_1": "I cook several different meals to avoid eating meat",
+    "stance_2": "I regularly cook meat-based meals for others",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The need to avoid eating meat and to accommodate others' preferences leads the interviewee to cook multiple meals."
+  },
+  {
+    "stance_1": "I do not like handling or smelling meat",
+    "stance_2": "I regularly cook meat-based meals for others",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Dislike for handling and smelling meat conflicts with having to regularly cook meat-based meals for others."
+  },
+  {
+    "stance_1": "I do not like handling or smelling meat",
+    "stance_2": "I cook several different meals to avoid eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Dislike for handling and smelling meat supports the motivation to cook separate meals to avoid eating meat."
+  },
+  {
+    "stance_1": "I do not like handling or smelling meat",
+    "stance_2": "I never liked the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The aversion to meat's taste is consistent with a dislike of its sensory qualities, including handling and smell."
+  },
+  {
+    "stance_1": "I cook several different meals to avoid eating meat",
+    "stance_2": "I never liked the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Dislike for the taste of meat motivates the effort to cook separate meals to avoid eating it."
+  }
+]

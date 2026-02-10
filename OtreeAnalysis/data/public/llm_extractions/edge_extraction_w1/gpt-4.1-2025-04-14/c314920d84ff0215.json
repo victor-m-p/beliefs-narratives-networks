@@ -1,0 +1,106 @@
+[
+  {
+    "stance_1": "I eat meat four times a week",
+    "stance_2": "I enjoy the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "The enjoyment of the taste of meat supports frequent meat consumption, as the interviewee explicitly states taste as a motivation."
+  },
+  {
+    "stance_1": "I eat meat four times a week",
+    "stance_2": "Meat is a part of family traditions",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The family tradition of eating meat supports the interviewee's frequency of meat consumption."
+  },
+  {
+    "stance_1": "I eat meat four times a week",
+    "stance_2": "My culture values meat-based dishes",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The cultural value placed on meat-based dishes supports the frequency of meat consumption."
+  },
+  {
+    "stance_1": "I eat meat four times a week",
+    "stance_2": "Price influences my choice of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The interviewee states that price affects which types of meat are chosen, influencing overall frequency and patterns of meat eating."
+  },
+  {
+    "stance_1": "I eat meat four times a week",
+    "stance_2": "Most of my friends and family eat meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "The shared practice among social contacts likely reinforces the interviewee's own frequent meat consumption."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "Meat is a part of family traditions",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 45,
+    "justification": "Family traditions around meat may reinforce enjoyment of its taste, as traditional dishes are associated with positive experiences."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "My culture values meat-based dishes",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Cultural emphasis on meat-based dishes likely enhances appreciation for the taste of meat."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "Meat substitutes do not taste acceptable to me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly contrasts enjoyment of real meat's taste with dislike for meat substitutes."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "Most of my friends and family eat meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Shared enjoyment of meat within the social circle may reinforce the interviewee's own preferences."
+  },
+  {
+    "stance_1": "Meat is a part of family traditions",
+    "stance_2": "My culture values meat-based dishes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly links family traditions to their cultural background, stating that many traditional dishes are meat-based."
+  },
+  {
+    "stance_1": "Meat is a part of family traditions",
+    "stance_2": "Most of my friends and family eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee describes family and friends sharing similar meat-eating traditions, reinforcing the stance."
+  },
+  {
+    "stance_1": "Meat substitutes do not taste acceptable to me",
+    "stance_2": "Most of my friends and family eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The interviewee explicitly generalizes dislike for substitutes to their broader social circle of meat eaters."
+  },
+  {
+    "stance_1": "My culture values meat-based dishes",
+    "stance_2": "Most of my friends and family eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee states that their group is from a culture that values meat, and most friends/family are meat eaters."
+  }
+]

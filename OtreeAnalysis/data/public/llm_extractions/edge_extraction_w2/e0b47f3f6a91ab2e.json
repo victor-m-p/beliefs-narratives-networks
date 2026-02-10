@@ -1,0 +1,154 @@
+[
+  {
+    "stance_1": "I am concerned about environmental impact",
+    "stance_2": "I am mindful of my meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly links environmental concerns to being mindful about meat consumption."
+  },
+  {
+    "stance_1": "I am concerned about environmental impact",
+    "stance_2": "I eat less meat than before",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly cites environmental concerns as a key reason for eating less meat."
+  },
+  {
+    "stance_1": "I am concerned about environmental impact",
+    "stance_2": "I follow a pescatarian diet",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The shift towards a pescatarian diet is partially motivated by environmental concerns."
+  },
+  {
+    "stance_1": "I am mindful of my meat consumption",
+    "stance_2": "I eat less meat than before",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Being mindful of meat consumption directly supports eating less meat."
+  },
+  {
+    "stance_1": "I am mindful of my meat consumption",
+    "stance_2": "My digestion improved with less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee explicitly connects mindful eating with improved digestion."
+  },
+  {
+    "stance_1": "I eat less meat than before",
+    "stance_2": "My digestion improved with less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee reports improved digestion as a result of eating less meat."
+  },
+  {
+    "stance_1": "I eat less meat than before",
+    "stance_2": "I find breaking meat-eating habits difficult",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The difficulty in breaking meat-eating habits is a challenge to eating less meat."
+  },
+  {
+    "stance_1": "I eat less meat than before",
+    "stance_2": "I have health concerns about eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Health concerns about eating meat are explicitly described as a primary reason for eating less meat."
+  },
+  {
+    "stance_1": "I eat less meat than before",
+    "stance_2": "I still eat red meat occasionally",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Occasionally eating red meat limits the extent of eating less meat."
+  },
+  {
+    "stance_1": "I find breaking meat-eating habits difficult",
+    "stance_2": "I am mindful of my meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Being mindful helps the interviewee manage the difficulty of breaking meat-eating habits."
+  },
+  {
+    "stance_1": "I find breaking meat-eating habits difficult",
+    "stance_2": "I still eat red meat occasionally",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Difficulty in breaking the habit is the stated reason for continued occasional red meat consumption."
+  },
+  {
+    "stance_1": "I follow a pescatarian diet",
+    "stance_2": "I still eat red meat occasionally",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "A pescatarian diet typically excludes red meat, so occasional red meat consumption is in tension with this stance."
+  },
+  {
+    "stance_1": "Family and friends are open to eating less meat",
+    "stance_2": "Family and friends have not changed meat habits",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Openness to change contrasts with the lack of actual change in meat-eating habits among family and friends."
+  },
+  {
+    "stance_1": "I am concerned about environmental impact",
+    "stance_2": "I find breaking meat-eating habits difficult",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Environmental concern motivates change, but difficulty breaking habits impedes acting on those concerns."
+  },
+  {
+    "stance_1": "I am mindful of my meat consumption",
+    "stance_2": "I follow a pescatarian diet",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 55,
+    "justification": "Adopting a pescatarian diet is supported by mindfulness about meat eating."
+  },
+  {
+    "stance_1": "I have health concerns about eating meat",
+    "stance_2": "I eat less meat than before",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Health concerns are explicitly described as the main motivator for eating less meat."
+  },
+  {
+    "stance_1": "I am mindful of my meat consumption",
+    "stance_2": "I still eat red meat occasionally",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Mindfulness allows for occasional, rather than complete, restriction of red meat."
+  },
+  {
+    "stance_1": "I follow a pescatarian diet",
+    "stance_2": "I have health concerns about eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Health concerns are explicitly cited as a motivation for adopting a pescatarian diet."
+  },
+  {
+    "stance_1": "I follow a pescatarian diet",
+    "stance_2": "I eat less meat than before",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Following a pescatarian diet directly results in eating less meat."
+  }
+]

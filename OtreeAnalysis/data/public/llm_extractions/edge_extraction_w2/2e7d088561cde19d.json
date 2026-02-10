@@ -1,0 +1,122 @@
+[
+  {
+    "stance_1": "Eating meat is a habit for me",
+    "stance_2": "I eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states eating meat is habitual and that they eat meat regularly; these stances directly reinforce each other."
+  },
+  {
+    "stance_1": "Eating meat is a habit for me",
+    "stance_2": "I eat chicken most of the time",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The habitual nature of meat eating supports the specific habit of eating chicken most of the time."
+  },
+  {
+    "stance_1": "Eating meat is a habit for me",
+    "stance_2": "I eat meat for protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Protein is mentioned as a reason by the interviewee's social group, aligning with the habitual consumption of meat."
+  },
+  {
+    "stance_1": "Family members eat any kind of meat",
+    "stance_2": "Most people I spend time with eat chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states that most people close to them eat chicken, while some family members eat other meats; these stances are compatible and reinforce a meat-eating environment."
+  },
+  {
+    "stance_1": "I am happy with the chicken I eat",
+    "stance_2": "I eat chicken most of the time",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly says they are happy with their chicken consumption and that chicken is their main meat."
+  },
+  {
+    "stance_1": "I am happy with the chicken I eat",
+    "stance_2": "I enjoy the versatility of chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The enjoyment of chicken's versatility supports the interviewee's happiness with their chicken consumption."
+  },
+  {
+    "stance_1": "I eat chicken most of the time",
+    "stance_2": "Red meat upsets my stomach",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly says red meat upsets their stomach, which supports their habit of eating chicken most of the time."
+  },
+  {
+    "stance_1": "I eat chicken most of the time",
+    "stance_2": "Pork upsets my stomach",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly says pork upsets their stomach, supporting their preference for chicken."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I eat chicken most of the time",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee's regular meat consumption is mainly comprised of chicken."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "Eating meat is a habit for me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Eating meat regularly is explicitly stated to be habitual."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "Most people I spend time with eat chicken",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The meat-eating environment in the interviewee's social group supports their regular meat consumption."
+  },
+  {
+    "stance_1": "I enjoy the versatility of chicken",
+    "stance_2": "I eat chicken most of the time",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee's enjoyment of chicken's versatility reinforces their frequent consumption of chicken."
+  },
+  {
+    "stance_1": "I eat meat for protein",
+    "stance_2": "Most people I spend time with eat chicken",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Protein as a motivation is shared among the interviewee's social group, supporting frequent chicken consumption."
+  },
+  {
+    "stance_1": "Non-meat options are expensive",
+    "stance_2": "I eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The interviewee says that they would consider non-meat options if they were less expensive, implying cost helps maintain their regular meat eating."
+  },
+  {
+    "stance_1": "Pork upsets my stomach",
+    "stance_2": "Red meat upsets my stomach",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Both pork and red meat are mentioned as causing stomach discomfort, reinforcing each other as reasons for avoidance."
+  }
+]

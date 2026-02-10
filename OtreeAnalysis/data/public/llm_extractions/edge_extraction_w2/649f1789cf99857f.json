@@ -1,0 +1,90 @@
+[
+  {
+    "stance_1": "Family members avoid pork",
+    "stance_2": "Family members believe pork is toxic",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The avoidance of pork by family members is explicitly justified by the belief that pork is toxic."
+  },
+  {
+    "stance_1": "Family members avoid pork",
+    "stance_2": "I am thinking about cutting pork out",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Interviewee's consideration to cut out pork is explicitly influenced by family members who avoid pork."
+  },
+  {
+    "stance_1": "Family members believe pork is toxic",
+    "stance_2": "I am thinking about cutting pork out",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Family's belief that pork is toxic explicitly supports the interviewee's contemplation of cutting pork out."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I have been consuming more meat after pregnancy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee's daily meat consumption is explicitly linked to increased meat intake after pregnancy."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "Meat fills me up",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating meat daily is explicitly supported by the feeling of fullness it provides."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "Meat provides me energy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating meat daily is explicitly linked to the energy it provides."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "Meat satisfies my cravings",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The satisfaction of cravings explicitly supports daily meat consumption."
+  },
+  {
+    "stance_1": "I want to rid my body of toxins",
+    "stance_2": "I want to start fasting",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The desire to rid the body of toxins explicitly motivates the intention to start fasting."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I want to rid my body of toxins",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Daily meat consumption is implicitly in tension with the desire to rid the body of toxins from all foods."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I want to start fasting",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Consuming meat daily is implicitly in conflict with the goal of fasting in the near future."
+  },
+  {
+    "stance_1": "I have been consuming more meat after pregnancy",
+    "stance_2": "I want to rid my body of toxins",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Increased meat consumption after pregnancy is implicitly at odds with the desire to cleanse the body of toxins."
+  }
+]

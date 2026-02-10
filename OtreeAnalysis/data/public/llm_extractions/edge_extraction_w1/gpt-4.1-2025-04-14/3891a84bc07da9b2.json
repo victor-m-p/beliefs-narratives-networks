@@ -1,0 +1,82 @@
+[
+  {
+    "stance_1": "I eat all kinds of meat except fish",
+    "stance_2": "I eat meat every other day",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Eating all kinds of meat except fish supports the routine of eating meat every other day, as dietary variety can sustain regular consumption."
+  },
+  {
+    "stance_1": "I eat all kinds of meat except fish",
+    "stance_2": "I do not eat steak",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The interviewee clarifies that while they eat all kinds of meat except fish, they do not eat steak, indicating a specific exception within their broader pattern."
+  },
+  {
+    "stance_1": "I eat all kinds of meat except fish",
+    "stance_2": "My family eats fish for protein",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee's avoidance of fish contrasts directly with their family's preference for fish, indicating a clear conflict."
+  },
+  {
+    "stance_1": "I eat all kinds of meat except fish",
+    "stance_2": "Taste is not important to me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The lack of importance placed on taste supports the willingness to eat various meats (except fish), as choices are not guided by taste."
+  },
+  {
+    "stance_1": "I eat meat every other day",
+    "stance_2": "I eat meat for protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Explicitly, the main reason for regular meat consumption is protein intake, directly connecting frequency to nutritional motivation."
+  },
+  {
+    "stance_1": "I eat meat for protein",
+    "stance_2": "Taste is not important to me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that protein is the main motivation and taste does not matter, showing strong alignment."
+  },
+  {
+    "stance_1": "I eat meat for protein",
+    "stance_2": "I would cut back if I had health issues",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The stance to reduce meat for health reasons is compatible with eating meat for protein, as both are rooted in health considerations."
+  },
+  {
+    "stance_1": "I eat meat for protein",
+    "stance_2": "My family eats fish for protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Both the interviewee and their family are motivated by protein, despite choosing different sources."
+  },
+  {
+    "stance_1": "I do not eat steak",
+    "stance_2": "Taste is not important to me",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Avoiding steak due to dislike of plain meat suggests taste does matter in some contexts, conflicting with the stated stance."
+  },
+  {
+    "stance_1": "I would cut back if I had health issues",
+    "stance_2": "I eat meat every other day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The willingness to cut back is contingent on health, showing that current frequency is tied to absence of health concerns."
+  }
+]

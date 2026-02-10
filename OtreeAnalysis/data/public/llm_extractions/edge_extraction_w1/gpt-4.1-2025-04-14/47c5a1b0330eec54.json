@@ -1,0 +1,42 @@
+[
+  {
+    "stance_1": "I eat meat with most meals",
+    "stance_2": "I prefer chicken for cost reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Eating meat with most meals is supported by choosing a meat (chicken) that is cost-effective, making frequent consumption more sustainable."
+  },
+  {
+    "stance_1": "I eat meat with most meals",
+    "stance_2": "I prefer chicken for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Eating meat frequently is supported by the belief that chicken is the healthiest meat, justifying regular consumption."
+  },
+  {
+    "stance_1": "I eat meat with most meals",
+    "stance_2": "My family avoids pork",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "Family avoidance of pork shapes the types of meat regularly eaten, contributing to eating other meats with most meals."
+  },
+  {
+    "stance_1": "I prefer chicken for health reasons",
+    "stance_2": "I prefer chicken for cost reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The preference for chicken is strongly supported by both cost and health motivations, as both are cited as reasons for this choice."
+  },
+  {
+    "stance_1": "My family avoids pork",
+    "stance_2": "My family is concerned about high blood pressure",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Family avoidance of pork is explicitly justified by concern about high blood pressure."
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "stance_1": "I am trying to limit beef and pork",
+    "stance_2": "I have heard beef and pork are unhealthy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Explicitly stated that hearing beef and pork are unhealthy is a motivation for limiting their consumption."
+  },
+  {
+    "stance_1": "I am trying to limit beef and pork",
+    "stance_2": "I have high blood pressure",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly cites high blood pressure as a reason for limiting beef and pork."
+  },
+  {
+    "stance_1": "I am trying to limit beef and pork",
+    "stance_2": "I want to be more healthy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The desire to be more healthy is directly stated as a motivation for limiting beef and pork."
+  },
+  {
+    "stance_1": "I am trying to limit beef and pork",
+    "stance_2": "I replace beef and pork with chicken, turkey, or fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The act of replacing beef and pork with other meats is a concrete method of limiting those meats."
+  },
+  {
+    "stance_1": "I am trying to limit beef and pork",
+    "stance_2": "I sometimes substitute meat with other protein sources",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Sometimes using other proteins is mentioned as a strategy for limiting beef and pork."
+  },
+  {
+    "stance_1": "I am trying to limit beef and pork",
+    "stance_2": "I need to find tasty protein substitutes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Finding tasty protein substitutes is described as necessary for succeeding in limiting beef and pork."
+  },
+  {
+    "stance_1": "I have heard beef and pork are unhealthy",
+    "stance_2": "I want to be more healthy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The belief that beef and pork are unhealthy supports the desire to be more healthy through diet choices."
+  },
+  {
+    "stance_1": "I have heard beef and pork are unhealthy",
+    "stance_2": "I have high blood pressure",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee connects health concerns (including high blood pressure) to the belief that beef and pork are unhealthy."
+  },
+  {
+    "stance_1": "I have high blood pressure",
+    "stance_2": "I want to be more healthy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The desire to improve health is directly linked to managing high blood pressure."
+  },
+  {
+    "stance_1": "I replace beef and pork with chicken, turkey, or fish",
+    "stance_2": "I need to find tasty protein substitutes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The need to find tasty substitutes supports the strategy of replacing beef and pork with other proteins."
+  },
+  {
+    "stance_1": "I sometimes substitute meat with other protein sources",
+    "stance_2": "I need to find tasty protein substitutes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The challenge of finding tasty substitutes supports the behavior of sometimes using other protein sources."
+  },
+  {
+    "stance_1": "I am trying to limit beef and pork",
+    "stance_2": "My sister encourages me to eat less beef and pork",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The sister's encouragement supports the interviewee's effort to limit beef and pork."
+  },
+  {
+    "stance_1": "I am trying to limit beef and pork",
+    "stance_2": "My sister is reducing beef for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "The sister's actions provide social support for the interviewee's behavior."
+  },
+  {
+    "stance_1": "I want to be more healthy",
+    "stance_2": "I need to find tasty protein substitutes",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The desire to be more healthy implies the need to find acceptable substitutes when limiting certain meats."
+  },
+  {
+    "stance_1": "I usually eat chicken or beef during the week",
+    "stance_2": "I am trying to limit beef and pork",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Currently eating beef frequently conflicts with the effort to limit beef consumption."
+  },
+  {
+    "stance_1": "I usually eat chicken or beef during the week",
+    "stance_2": "I replace beef and pork with chicken, turkey, or fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Eating chicken supports the behavior of replacing beef and pork with other meats."
+  },
+  {
+    "stance_1": "My sister encourages me to eat less beef and pork",
+    "stance_2": "My sister is reducing beef for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The sister's own reduction of beef and her encouragement to the interviewee are mutually reinforcing."
+  }
+]

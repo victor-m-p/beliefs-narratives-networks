@@ -1,0 +1,26 @@
+[
+  {
+    "stance_1": "I do not eat red meat",
+    "stance_2": "I do not like red meat and pork",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states they do not eat red meat because they do not like it."
+  },
+  {
+    "stance_1": "I do not like red meat and pork",
+    "stance_2": "I eat very little pork",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee states that they eat very little pork because they do not like it."
+  },
+  {
+    "stance_1": "I eat fish and poultry",
+    "stance_2": "I enjoy the taste of fish and poultry",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states their consumption of fish and poultry is motivated by enjoyment of the taste."
+  }
+]

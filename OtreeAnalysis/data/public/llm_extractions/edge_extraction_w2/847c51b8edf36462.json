@@ -1,0 +1,82 @@
+[
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I like meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee states explicitly that they eat meat every day and, when asked why, responds 'because I like it.' Liking meat supports eating it daily."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "Meat is my main protein source",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly says eating meat daily is their main source of protein. These stances support each other."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "My family and friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "The regular meat-eating habits of the interviewee's social group make it more likely and easier for the interviewee to eat meat every day."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "Eating meat feels normal in my group",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The interviewee says eating meat feels normal in their group, which supports their own habit of eating meat every day."
+  },
+  {
+    "stance_1": "I like meat",
+    "stance_2": "Meat is my main protein source",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee says they eat meat as their main protein source because they like it. Liking meat supports choosing it as a primary food."
+  },
+  {
+    "stance_1": "I like meat",
+    "stance_2": "My family and friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The interviewee assumes their family and friends eat meat regularly because they like it, which mirrors their own motivation."
+  },
+  {
+    "stance_1": "I like meat",
+    "stance_2": "Eating meat feels normal in my group",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "The interviewee's personal liking of meat aligns with the group norm, suggesting mutual reinforcement."
+  },
+  {
+    "stance_1": "Meat is my main protein source",
+    "stance_2": "My family and friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The interviewee's reliance on meat as a main protein source is facilitated by a household/social context where meat-eating is regular."
+  },
+  {
+    "stance_1": "Meat is my main protein source",
+    "stance_2": "Eating meat feels normal in my group",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The normalization of meat-eating within the group supports using meat as a main protein source."
+  },
+  {
+    "stance_1": "Eating meat feels normal in my group",
+    "stance_2": "My family and friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly connects the regular meat-eating of their social group to the sense that eating meat is normal in their group."
+  }
+]

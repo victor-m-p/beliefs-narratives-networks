@@ -1,0 +1,66 @@
+[
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I like how filling meat is",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Enjoying how filling meat is supports the regular consumption of meat."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Liking the taste of meat supports the habit of eating meat regularly."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I prioritize protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Prioritizing protein is a motivation for regular meat consumption."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "My social contacts eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Regular meat-eating among social contacts likely reinforces the interviewee's own regular meat consumption."
+  },
+  {
+    "stance_1": "I like how filling meat is",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Both liking the taste and how filling meat is are positive experiences that jointly encourage meat consumption."
+  },
+  {
+    "stance_1": "I like how filling meat is",
+    "stance_2": "I prioritize protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Finding meat filling and prioritizing protein are both reasons that could reinforce each other for eating meat."
+  },
+  {
+    "stance_1": "I like the taste of meat",
+    "stance_2": "I prioritize protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Liking the taste of meat and prioritizing protein are both motivations that can support meat consumption."
+  },
+  {
+    "stance_1": "I prioritize protein",
+    "stance_2": "My social contacts eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Prioritizing protein may be supported by a social environment where meat is regularly consumed."
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "stance_1": "I am concerned about heart health",
+    "stance_2": "I try to find a balance in meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee states that concern about heart health motivates them to try to find a balance in meat consumption."
+  },
+  {
+    "stance_1": "I appreciate animal sacrifice for meat",
+    "stance_2": "I try to find a balance in meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Appreciation for animal sacrifice is given as a reason for wanting to cut back on meat, motivating the interviewee to seek balance."
+  },
+  {
+    "stance_1": "I eat protein every day",
+    "stance_2": "I love the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states their enjoyment of meat as a motivation for daily protein consumption."
+  },
+  {
+    "stance_1": "I eat protein every day",
+    "stance_2": "I try to find a balance in meat consumption",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Eating protein every day could make balancing lower meat consumption more difficult, creating some conflict with the goal of moderation."
+  },
+  {
+    "stance_1": "I enjoy eating with family and partner",
+    "stance_2": "Social gatherings involve eating a lot of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly links enjoyment of eating with family and partner to social occasions involving a lot of meat."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "I try to find a balance in meat consumption",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The enjoyment of meat is presented as making it challenging to limit intake, which conflicts with the desire to find a balance."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "I appreciate animal sacrifice for meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Loving the taste of meat and feeling appreciative or conflicted about animal sacrifice are in tension, as one encourages eating and the other encourages restraint."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "I am concerned about heart health",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The enjoyment of meat is explicitly contrasted with health concerns that motivate cutting back."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "Social gatherings involve eating a lot of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Enjoyment of meat supports participation in social gatherings that feature plentiful meat."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "I enjoy eating with family and partner",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The enjoyment of meat likely enhances the positive feelings of sharing meals with loved ones, especially in meat-centric gatherings."
+  },
+  {
+    "stance_1": "My mother is health conscious about meat",
+    "stance_2": "My partner limits meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states both mother and partner are motivated by health to limit meat consumption."
+  },
+  {
+    "stance_1": "I try to find a balance in meat consumption",
+    "stance_2": "My partner limits meat consumption",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "The partner's limiting of meat consumption and the interviewee's effort to find a balance are aligned and mutually supportive."
+  },
+  {
+    "stance_1": "I try to find a balance in meat consumption",
+    "stance_2": "My mother is health conscious about meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "The mother's health consciousness and the interviewee's efforts to balance meat intake are mutually supportive and likely influence each other."
+  }
+]

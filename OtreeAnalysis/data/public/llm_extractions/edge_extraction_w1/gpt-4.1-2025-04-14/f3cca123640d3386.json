@@ -1,0 +1,178 @@
+[
+  {
+    "stance_1": "I cut back on red meat",
+    "stance_2": "I have health concerns",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that health concerns motivated cutting back on red meat."
+  },
+  {
+    "stance_1": "I cut back on red meat",
+    "stance_2": "I try to lose weight",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that weight loss is a reason for cutting back on red meat."
+  },
+  {
+    "stance_1": "I cut back on red meat",
+    "stance_2": "I used to eat double burgers or steak",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Cutting back on red meat conflicts with previously eating double burgers or steak."
+  },
+  {
+    "stance_1": "I cut back on red meat",
+    "stance_2": "I substitute red meat with tofu, chicken, and turkey",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Explicitly states that red meat was cut back and replaced with tofu, chicken, and turkey."
+  },
+  {
+    "stance_1": "I cut back on red meat",
+    "stance_2": "I eat red meat occasionally",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Cutting back on red meat is compatible with eating it occasionally, as described."
+  },
+  {
+    "stance_1": "I substitute red meat with tofu, chicken, and turkey",
+    "stance_2": "I focus on lean proteins like chicken and turkey",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Substituting red meat with chicken and turkey directly supports a focus on lean proteins."
+  },
+  {
+    "stance_1": "I focus on lean proteins like chicken and turkey",
+    "stance_2": "I eat fish, chicken, and turkey for nutrients",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Focusing on lean proteins is directly supported by eating fish, chicken, and turkey for nutrients."
+  },
+  {
+    "stance_1": "I focus on lean proteins like chicken and turkey",
+    "stance_2": "I eat one serving of meat per day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Focusing on lean proteins aligns with limiting meat intake to one serving per day."
+  },
+  {
+    "stance_1": "I eat one serving of meat per day",
+    "stance_2": "I used to eat double burgers or steak",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating one serving of meat per day conflicts with previously eating double burgers or steak."
+  },
+  {
+    "stance_1": "I eat red meat occasionally",
+    "stance_2": "I used to eat double burgers or steak",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating red meat only occasionally conflicts with previously eating it frequently."
+  },
+  {
+    "stance_1": "I have health concerns",
+    "stance_2": "I try to lose weight",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Health concerns are explicitly stated as the motivation for trying to lose weight."
+  },
+  {
+    "stance_1": "I believe nutrients can be obtained without meat",
+    "stance_2": "I substitute red meat with tofu, chicken, and turkey",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Belief in obtaining nutrients without meat supports the choice to substitute red meat with non-beef options."
+  },
+  {
+    "stance_1": "I believe nutrients can be obtained without meat",
+    "stance_2": "I try meat alternatives like Gardein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 65,
+    "justification": "Trying meat alternatives is supported by the belief that nutrients can be obtained without meat."
+  },
+  {
+    "stance_1": "I make meat alternatives for myself",
+    "stance_2": "I try meat alternatives like Gardein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly mentions making and trying meat alternatives."
+  },
+  {
+    "stance_1": "I make meat alternatives for myself",
+    "stance_2": "I prepare regular meat dishes for my family",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states they make meat alternatives for themselves and typical meat dishes for the family, showing a contrast."
+  },
+  {
+    "stance_1": "I substitute beef with mushrooms and vegetables",
+    "stance_2": "I believe nutrients can be obtained without meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Substituting beef with mushrooms and vegetables aligns with the belief that nutrients can be obtained without meat."
+  },
+  {
+    "stance_1": "I substitute beef with mushrooms and vegetables",
+    "stance_2": "I eat red meat occasionally",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Substituting beef with mushrooms and vegetables supports only eating red meat occasionally."
+  },
+  {
+    "stance_1": "I substitute beef with mushrooms and vegetables",
+    "stance_2": "I substitute red meat with tofu, chicken, and turkey",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 65,
+    "justification": "Substituting beef with plant-based sources and other meats both serve to reduce red meat intake."
+  },
+  {
+    "stance_1": "My family is not adventurous with food",
+    "stance_2": "My family prefers meat and potato dinners",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The family's lack of adventurousness with food supports their preference for traditional meat and potato meals."
+  },
+  {
+    "stance_1": "I prepare regular meat dishes for my family",
+    "stance_2": "My family prefers meat and potato dinners",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee prepares regular meat dishes to accommodate the family's preference for meat and potato dinners."
+  },
+  {
+    "stance_1": "I substitute beef with mushrooms and vegetables",
+    "stance_2": "I eat fish, chicken, and turkey for nutrients",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Both actions serve as alternatives to eating red meat, supporting each other."
+  },
+  {
+    "stance_1": "I focus on lean proteins like chicken and turkey",
+    "stance_2": "I try to lose weight",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 65,
+    "justification": "Focusing on lean proteins supports the goal of losing weight."
+  }
+]

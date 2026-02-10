@@ -1,0 +1,146 @@
+[
+  {
+    "stance_1": "I am concerned about diabetes",
+    "stance_2": "I have tried to avoid eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states they tried to avoid eating meat because of diabetes concerns."
+  },
+  {
+    "stance_1": "I am concerned about diabetes",
+    "stance_2": "My aunt avoids eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states that their aunt avoids eating meat due to diabetes, directly connecting the concern with the behavior."
+  },
+  {
+    "stance_1": "I am concerned about diabetes",
+    "stance_2": "My aunt is concerned about diabetes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "It is directly stated that both the interviewee and their aunt are concerned about diabetes."
+  },
+  {
+    "stance_1": "I eat meat at least twice a day",
+    "stance_2": "I enjoy the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Enjoying the taste of meat likely supports frequent meat consumption."
+  },
+  {
+    "stance_1": "I eat meat at least twice a day",
+    "stance_2": "Eating meat fills me up",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The feeling of fullness from meat consumption supports frequent eating."
+  },
+  {
+    "stance_1": "I eat meat at least twice a day",
+    "stance_2": "I want to get enough protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Desiring protein supports frequent meat consumption."
+  },
+  {
+    "stance_1": "I eat meat at least twice a day",
+    "stance_2": "My family eats meat together",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Family meals involving meat likely support frequent meat eating."
+  },
+  {
+    "stance_1": "I eat meat at least twice a day",
+    "stance_2": "Meat eating is a family tradition",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Family tradition likely encourages frequent meat consumption."
+  },
+  {
+    "stance_1": "I eat meat at least twice a day",
+    "stance_2": "I have tried to avoid eating meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Frequent meat eating is in conflict with efforts to avoid meat."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "Eating meat fills me up",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Enjoyment and satiety are both reasons that reinforce meat eating."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "I want to get enough protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoyment and nutritional motivations can reinforce each other as reasons for meat consumption."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "I have tried to avoid eating meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Enjoying the taste of meat makes avoiding meat more difficult."
+  },
+  {
+    "stance_1": "I have tried to avoid eating meat",
+    "stance_2": "Meat eating is a family tradition",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Family tradition of meat eating may make attempts to avoid meat more difficult."
+  },
+  {
+    "stance_1": "I have tried to avoid eating meat",
+    "stance_2": "My family eats meat together",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Family meals centered around meat may conflict with personal attempts to avoid meat."
+  },
+  {
+    "stance_1": "I have tried to avoid eating meat",
+    "stance_2": "My aunt avoids eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Both the interviewee and their aunt have tried to avoid meat, supporting each other's behavior."
+  },
+  {
+    "stance_1": "I have tried to avoid eating meat",
+    "stance_2": "My aunt is concerned about diabetes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The aunt's concern about diabetes and avoidance of meat is mirrored in the interviewee's own efforts."
+  },
+  {
+    "stance_1": "Meat eating is a family tradition",
+    "stance_2": "My family eats meat together",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Eating meat together is an expression of the family tradition."
+  },
+  {
+    "stance_1": "My aunt avoids eating meat",
+    "stance_2": "My aunt is concerned about diabetes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "It is explicitly stated that the aunt avoids meat because of diabetes concerns."
+  }
+]

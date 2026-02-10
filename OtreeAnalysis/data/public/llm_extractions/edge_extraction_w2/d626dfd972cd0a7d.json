@@ -1,0 +1,82 @@
+[
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I enjoy the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Eating meat every day is explicitly supported by enjoying the taste of meat."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I value the protein in meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Eating meat every day is explicitly supported by valuing the protein in meat."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "My family and friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Regular meat-eating by family and friends implicitly supports the interviewee's daily meat consumption through social norms."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I grew up eating meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 65,
+    "justification": "Growing up eating meat implicitly supports the habit of eating meat daily."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "I value the protein in meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Both taste and protein are cited as explicit, coexisting reasons for eating meat."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "My family and friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The enjoyment of meat's taste is likely shared among social contacts who eat meat regularly, reinforcing the behavior."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "I grew up eating meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Growing up eating meat likely fostered enjoyment of its taste, providing implicit support."
+  },
+  {
+    "stance_1": "I value the protein in meat",
+    "stance_2": "My family and friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The value placed on protein is shared among the interviewee and their social circle, supporting regular meat consumption."
+  },
+  {
+    "stance_1": "I value the protein in meat",
+    "stance_2": "I grew up eating meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Growing up eating meat may have fostered an appreciation for its nutritional value, including protein."
+  },
+  {
+    "stance_1": "I grew up eating meat",
+    "stance_2": "My family and friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "It is explicitly stated that both the interviewee and their social contacts grew up eating meat, reinforcing ongoing regular meat consumption."
+  }
+]

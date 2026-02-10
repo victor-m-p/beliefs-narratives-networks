@@ -1,0 +1,98 @@
+[
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that enjoyment of meat is a key reason for eating it daily."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "Meat fills me up",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The feeling that meat is filling supports the daily meat-eating habit."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "Meat is nutritious",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The belief that meat is nutritious is explicitly named as a reason for regular consumption."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I was worried about my health",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee considered reducing meat out of health worries, which conflicts with eating meat daily."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I was worried about my health",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The enjoyment of meat is explicitly named as the reason the interviewee did not reduce meat despite health worries."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "Meat fills me up",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Enjoyment and the filling quality of meat are both motivations cited for eating meat, which likely reinforce each other."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "Meat is nutritious",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Enjoyment and perceived nutrition are both cited as supporting regular meat consumption."
+  },
+  {
+    "stance_1": "Everyone I know eats as much meat as me",
+    "stance_2": "I eat meat every day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states that their social circle shares their habit of eating meat daily, reinforcing the behavior."
+  },
+  {
+    "stance_1": "Everyone I know eats as much meat as me",
+    "stance_2": "Social contacts like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee attributes the similar meat-eating habits of their social circle to enjoyment of taste."
+  },
+  {
+    "stance_1": "Everyone I know eats as much meat as me",
+    "stance_2": "Social contacts think meat is nutritious",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee attributes social contacts' meat eating to their belief in its nutrition."
+  },
+  {
+    "stance_1": "Meat is nutritious",
+    "stance_2": "Social contacts think meat is nutritious",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Both the interviewee and their social circle share the belief that meat is nutritious, reinforcing the stance."
+  },
+  {
+    "stance_1": "Social contacts like the taste of meat",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Both the interviewee and their social contacts are motivated by enjoyment of meat's taste, which mutually reinforces the stance."
+  }
+]

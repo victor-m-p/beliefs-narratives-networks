@@ -1,0 +1,74 @@
+[
+  {
+    "stance_1": "I balance protein with vegetables and salad",
+    "stance_2": "I eat beef, chicken, pork, and salmon regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee explicitly discusses balancing protein (from meat) with vegetables and salad, showing that regular meat consumption is integrated into a balanced diet."
+  },
+  {
+    "stance_1": "I balance protein with vegetables and salad",
+    "stance_2": "I enjoy the taste of beef and chicken",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoyment of beef and chicken likely supports regular inclusion of these proteins in a balanced diet, though this is implied rather than directly stated."
+  },
+  {
+    "stance_1": "I balance protein with vegetables and salad",
+    "stance_2": "I use dressings to enjoy white meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Using dressings to make white meat enjoyable supports including a greater variety of proteins in the balanced diet."
+  },
+  {
+    "stance_1": "I eat beef, chicken, pork, and salmon regularly",
+    "stance_2": "I enjoy the taste of beef and chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states their enjoyment of beef and chicken as a reason for eating these meats regularly."
+  },
+  {
+    "stance_1": "I eat beef, chicken, pork, and salmon regularly",
+    "stance_2": "I use dressings to enjoy white meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The use of dressings to make white meat enjoyable enables the interviewee to consume a wider variety of meats regularly."
+  },
+  {
+    "stance_1": "I eat beef, chicken, pork, and salmon regularly",
+    "stance_2": "I look for reduced price meat packages",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The practice of looking for reduced price meats directly supports the ability to eat these meats regularly."
+  },
+  {
+    "stance_1": "I eat beef, chicken, pork, and salmon regularly",
+    "stance_2": "I freeze meat to store for later use",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Freezing meat after buying it on sale enables regular consumption regardless of immediate need."
+  },
+  {
+    "stance_1": "I enjoy the taste of beef and chicken",
+    "stance_2": "I use dressings to enjoy white meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Dressings are explicitly used to make white meat enjoyable, aligning with the overall enjoyment of meat."
+  },
+  {
+    "stance_1": "I freeze meat to store for later use",
+    "stance_2": "I look for reduced price meat packages",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states buying reduced price meat and freezing it as a deliberate strategy."
+  }
+]

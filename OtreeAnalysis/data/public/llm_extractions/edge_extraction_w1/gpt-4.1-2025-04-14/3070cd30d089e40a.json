@@ -1,0 +1,42 @@
+[
+  {
+    "stance_1": "Eating meat is a habit for me",
+    "stance_2": "I include meat in my meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee states that eating meat is a habit, which directly supports the behavior of including meat in meals."
+  },
+  {
+    "stance_1": "Eating meat is a habit for me",
+    "stance_2": "Meat provides protein for my workouts",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "While the habit of eating meat and its function as a protein source are distinct, the established habit may be reinforced by its perceived health benefits for workouts."
+  },
+  {
+    "stance_1": "Eating meat is a habit for my social contacts",
+    "stance_2": "My social contacts include meat in their meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly connects social contacts' habitual meat-eating to their regular inclusion of meat in meals."
+  },
+  {
+    "stance_1": "I include meat in my meals",
+    "stance_2": "Meat provides protein for my workouts",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states that including meat in meals is motivated by its protein content for workouts."
+  },
+  {
+    "stance_1": "I include meat in my meals",
+    "stance_2": "My social contacts include meat in their meals",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Although not directly stated, the shared behavior between the interviewee and their social contacts suggests a weak implicit support."
+  }
+]

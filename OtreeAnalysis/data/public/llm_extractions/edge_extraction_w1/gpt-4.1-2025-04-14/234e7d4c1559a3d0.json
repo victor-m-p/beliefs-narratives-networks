@@ -1,0 +1,130 @@
+[
+  {
+    "stance_1": "I am motivated by my own stomach issues",
+    "stance_2": "I experienced acid reflux from some meats",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly says their stomach issues and acid reflux motivate their meat choices."
+  },
+  {
+    "stance_1": "I ate a lot of meat growing up",
+    "stance_2": "My mother ate a lot of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly links her high meat consumption growing up to her mother's eating habits."
+  },
+  {
+    "stance_1": "I have reduced red meat consumption",
+    "stance_2": "My husband eats less red meat for health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that her husband's reduction in red meat for health reasons influenced her own reduction."
+  },
+  {
+    "stance_1": "I have reduced red meat consumption",
+    "stance_2": "My husband is concerned about health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Her husband's health concerns are a direct motivator for her own reduction in red meat."
+  },
+  {
+    "stance_1": "I have reduced red meat consumption",
+    "stance_2": "I use different types of meat now",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The reduction in red meat is accompanied by increased use of other meats, showing a clear supportive relationship."
+  },
+  {
+    "stance_1": "I have reduced red meat consumption",
+    "stance_2": "I avoid pork",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee describes reducing both red meat and pork as part of a general reduction in certain meats, though not identical, the motivations overlap."
+  },
+  {
+    "stance_1": "I use different types of meat now",
+    "stance_2": "I eat a lot of chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The shift to using different types of meat supports eating more chicken, as described by the interviewee."
+  },
+  {
+    "stance_1": "I use different types of meat now",
+    "stance_2": "I avoid pork",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Using different types of meat is partly supported by avoiding pork."
+  },
+  {
+    "stance_1": "I use different types of meat now",
+    "stance_2": "My son eats little meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The interviewee mentions her son's low meat intake influences her to diversify meat usage."
+  },
+  {
+    "stance_1": "I have reduced red meat consumption",
+    "stance_2": "I eat a lot of chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee eats more chicken as part of reducing red meat consumption."
+  },
+  {
+    "stance_1": "I have reduced red meat consumption",
+    "stance_2": "I am motivated by my own stomach issues",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Personal health and stomach issues motivate the reduction in red meat."
+  },
+  {
+    "stance_1": "I have reduced red meat consumption",
+    "stance_2": "I experienced acid reflux from some meats",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Acid reflux from some meats, likely including red meat, supports reducing red meat consumption."
+  },
+  {
+    "stance_1": "I have reduced red meat consumption",
+    "stance_2": "I ate a lot of meat growing up",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The current reduction in red meat contrasts with eating a lot of meat while growing up."
+  },
+  {
+    "stance_1": "I eat a lot of chicken",
+    "stance_2": "My son eats little meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "The interviewee eats a lot of chicken, while her son eats little meat, showing a minor conflict in family meat consumption habits."
+  },
+  {
+    "stance_1": "I avoid pork",
+    "stance_2": "I am motivated by my own stomach issues",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly mentions pork being avoided due to personal stomach issues."
+  },
+  {
+    "stance_1": "I avoid pork",
+    "stance_2": "I experienced acid reflux from some meats",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Acid reflux from meats, specifically pork (bacon), supports avoiding pork."
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "stance_1": "I am concerned about health risks from fatty meats",
+    "stance_2": "I avoid fatty and fried meats",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The concern about health risks from fatty meats explicitly supports the avoidance of fatty and fried meats."
+  },
+  {
+    "stance_1": "I am concerned about health risks from fatty meats",
+    "stance_2": "I try to eat more lean meats",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The concern about fatty meats' health risks supports the choice to eat more lean meats."
+  },
+  {
+    "stance_1": "I am concerned about health risks from fatty meats",
+    "stance_2": "I eat meat every day",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Concern about health risks from certain meats can implicitly conflict with eating meat daily, but the interviewee resolves this by choosing lean meats."
+  },
+  {
+    "stance_1": "I avoid fatty and fried meats",
+    "stance_2": "I try to eat more lean meats",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Avoiding fatty and fried meats aligns with and supports trying to eat more lean meats."
+  },
+  {
+    "stance_1": "I cannot tolerate beans as before",
+    "stance_2": "I eat meat every day",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Reduced tolerance for beans implicitly supports eating meat daily to meet protein needs."
+  },
+  {
+    "stance_1": "I cannot tolerate beans as before",
+    "stance_2": "I want to get enough protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The inability to tolerate beans is explicitly linked to needing to get enough protein from other sources."
+  },
+  {
+    "stance_1": "I did not like meat when younger",
+    "stance_2": "I have increased my meat intake",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The interviewee explicitly states a shift from disliking meat to increasing intake."
+  },
+  {
+    "stance_1": "I did not like meat when younger",
+    "stance_2": "I enjoy certain types of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee notes always liking some types of meat even when generally disliking it as a child."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I have increased my meat intake",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Eating meat every day is directly supported by having increased meat intake over time."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I want to get enough protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Eating meat daily is explicitly motivated by the desire to get enough protein."
+  },
+  {
+    "stance_1": "I have increased my meat intake",
+    "stance_2": "I want to get enough protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Increasing meat intake is explicitly justified as a way to ensure sufficient protein."
+  },
+  {
+    "stance_1": "I believe non-meat foods lack enough protein",
+    "stance_2": "I want to get enough protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Belief that non-meat foods lack protein directly motivates effort to get enough protein from meat."
+  },
+  {
+    "stance_1": "I believe non-meat foods lack enough protein",
+    "stance_2": "I eat meat every day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Belief that non-meat foods lack protein supports daily meat consumption."
+  },
+  {
+    "stance_1": "I believe non-meat foods lack enough protein",
+    "stance_2": "I have increased my meat intake",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Belief in insufficient protein from non-meat foods supports increased meat intake."
+  },
+  {
+    "stance_1": "I believe non-meat foods lack enough protein",
+    "stance_2": "I cannot tolerate beans as before",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Reduced tolerance for beans, combined with the belief that non-meat foods lack protein, further justifies reliance on meat."
+  },
+  {
+    "stance_1": "I read health and nutrition information",
+    "stance_2": "I have increased my meat intake",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Reading health and nutrition information is described as a driver for increased meat intake."
+  },
+  {
+    "stance_1": "I read health and nutrition information",
+    "stance_2": "I want to get enough protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Reading health and nutrition information supports focus on protein intake."
+  },
+  {
+    "stance_1": "I read health and nutrition information",
+    "stance_2": "I believe non-meat foods lack enough protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Health and nutrition reading supports the belief that non-meat foods lack sufficient protein."
+  },
+  {
+    "stance_1": "I enjoy certain types of meat",
+    "stance_2": "Most people I know eat meat for enjoyment",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee explicitly enjoys certain meats, and this is consistent with the reported motivations of most people known to them."
+  }
+]

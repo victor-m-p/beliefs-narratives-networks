@@ -1,0 +1,106 @@
+[
+  {
+    "stance_1": "I eat all types of meat",
+    "stance_2": "I was raised vegetarian",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that after being raised vegetarian, they chose to eat all types of meat, indicating a strong conflict."
+  },
+  {
+    "stance_1": "I eat all types of meat",
+    "stance_2": "I wanted to eat meat as a child",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee states they always wanted to eat meat as a child and now they eat all types of meat, showing direct support."
+  },
+  {
+    "stance_1": "I include white meat in my meals",
+    "stance_2": "I want to be healthy while eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee includes white meat for health reasons while still eating meat, directly supporting this connection."
+  },
+  {
+    "stance_1": "I include white meat in my meals",
+    "stance_2": "I want high protein foods",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "White meat is chosen in part because it is high in protein, creating a supportive relationship."
+  },
+  {
+    "stance_1": "I want to be healthy while eating meat",
+    "stance_2": "I want high protein foods",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Seeking high protein foods is part of the interviewee's health motivation for meat choices."
+  },
+  {
+    "stance_1": "My mom avoids meat for animal welfare reasons",
+    "stance_2": "My mom is a vegetarian",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states their mother is vegetarian due to animal welfare concerns."
+  },
+  {
+    "stance_1": "I eat all types of meat",
+    "stance_2": "My mom is a vegetarian",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee's meat-eating habit directly contrasts with their mother's vegetarianism."
+  },
+  {
+    "stance_1": "I eat all types of meat",
+    "stance_2": "My mom avoids meat for animal welfare reasons",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee's choice to eat all types of meat conflicts with their mother's animal welfare motivation."
+  },
+  {
+    "stance_1": "I eat all types of meat",
+    "stance_2": "My friends eat meat for convenience",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The interviewee and their friends both eat meat, suggesting their habits are supported by social convenience, though not made explicit."
+  },
+  {
+    "stance_1": "I eat all types of meat",
+    "stance_2": "My friends eat meat for energy",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Both the interviewee and friends eat meat, possibly for similar reasons such as energy, though not directly stated."
+  },
+  {
+    "stance_1": "I was raised vegetarian",
+    "stance_2": "My mom is a vegetarian",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee was raised vegetarian because their mother is vegetarian."
+  },
+  {
+    "stance_1": "I was raised vegetarian",
+    "stance_2": "My mom avoids meat for animal welfare reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The mother's animal welfare reasons directly resulted in the interviewee being raised vegetarian."
+  },
+  {
+    "stance_1": "I was raised vegetarian",
+    "stance_2": "I wanted to eat meat as a child",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee was raised vegetarian but wanted to eat meat, showing a direct conflict."
+  }
+]

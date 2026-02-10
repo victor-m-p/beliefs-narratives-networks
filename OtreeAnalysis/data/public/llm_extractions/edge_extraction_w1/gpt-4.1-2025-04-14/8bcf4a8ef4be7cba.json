@@ -1,0 +1,98 @@
+[
+  {
+    "stance_1": "I am motivated by health",
+    "stance_2": "I eat a lot of vegetables",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee directly links health motivation to eating a lot of vegetables."
+  },
+  {
+    "stance_1": "I am motivated by price",
+    "stance_2": "I eat meat occasionally",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee explicitly states that price is a major reason for eating meat only occasionally."
+  },
+  {
+    "stance_1": "I am motivated by health",
+    "stance_2": "I eat meat occasionally",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The interviewee mentions health as a motivation for their limited meat consumption."
+  },
+  {
+    "stance_1": "I eat beef once a month",
+    "stance_2": "I eat meat occasionally",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating beef once a month is an explicit example of eating meat occasionally."
+  },
+  {
+    "stance_1": "I eat chicken once a week",
+    "stance_2": "I eat meat occasionally",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating chicken once a week exemplifies occasional meat consumption."
+  },
+  {
+    "stance_1": "I eat pork once a month",
+    "stance_2": "I eat meat occasionally",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating pork once a month is an explicit instance of occasional meat consumption."
+  },
+  {
+    "stance_1": "I do not eat much fast food",
+    "stance_2": "I value ethical meat sourcing",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 55,
+    "justification": "Preference for ethical sourcing aligns with avoiding fast food, which is less likely to meet ethical standards."
+  },
+  {
+    "stance_1": "I eat a lot of vegetables",
+    "stance_2": "I like vegetables",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee states they eat a lot of vegetables because they like them."
+  },
+  {
+    "stance_1": "I value ethical meat sourcing",
+    "stance_2": "I eat meat occasionally",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Preference for ethical sourcing is consistent with limiting meat consumption to trusted sources, supporting occasional consumption."
+  },
+  {
+    "stance_1": "I eat a lot of vegetables",
+    "stance_2": "I eat meat occasionally",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Eating a lot of vegetables is consistent with infrequent meat consumption."
+  },
+  {
+    "stance_1": "I eat a lot of vegetables",
+    "stance_2": "My family eats meat like I do",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Interviewee indicates family shares similar habits, likely including high vegetable consumption."
+  },
+  {
+    "stance_1": "I eat meat occasionally",
+    "stance_2": "My family eats meat like I do",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee states their family eats meat in a similar way, supporting their own pattern of occasional consumption."
+  }
+]

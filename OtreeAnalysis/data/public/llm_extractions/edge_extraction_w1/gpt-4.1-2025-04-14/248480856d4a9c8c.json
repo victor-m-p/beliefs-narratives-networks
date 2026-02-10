@@ -1,0 +1,162 @@
+[
+  {
+    "stance_1": "I buy grass-fed beef",
+    "stance_2": "I avoid large slaughterhouse meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states a preference for grass-fed beef as an alternative to meat from large slaughterhouses."
+  },
+  {
+    "stance_1": "I buy grass-fed beef",
+    "stance_2": "I value ethical treatment of animals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The preference for grass-fed beef is explicitly tied to the desire for animals to be treated more ethically."
+  },
+  {
+    "stance_1": "I avoid large slaughterhouse meat",
+    "stance_2": "I value ethical treatment of animals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Avoiding large slaughterhouse meat is explicitly justified by concerns for animal welfare and ethical treatment."
+  },
+  {
+    "stance_1": "I consider meat a healthy part of a meal",
+    "stance_2": "Meat is a good source of protein for me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly mentions that meat is considered healthy and a good source of protein."
+  },
+  {
+    "stance_1": "I eat beef and chicken regularly",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee's regular consumption of beef and chicken is explicitly linked to their enjoyment of eating meat."
+  },
+  {
+    "stance_1": "I eat beef and chicken regularly",
+    "stance_2": "My wife dislikes pork",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The choice to eat beef and chicken more often is explicitly influenced by the wife's dislike of pork."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "Meat tastes good to me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Enjoyment of meat is explicitly connected to its taste."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "My family likes eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee's enjoyment of meat aligns with their family's preference for eating meat."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "My wife's family raises cattle",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The enjoyment of meat is implicitly supported by a family environment involved in cattle raising."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "Meat is a good source of protein for me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee links enjoyment to both taste and protein content."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "Meat is a cultural staple for my family",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Meat enjoyment is explicitly embedded in the family\u2019s cultural practice."
+  },
+  {
+    "stance_1": "Meat is a cultural staple for my family",
+    "stance_2": "My wife's family raises cattle",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Meat's cultural importance is explicitly linked to the family's background in cattle raising."
+  },
+  {
+    "stance_1": "Meat is a good source of protein for me",
+    "stance_2": "Meat tastes good to me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Both taste and protein are cited as main motivations for meat consumption."
+  },
+  {
+    "stance_1": "Meat is a good source of protein for me",
+    "stance_2": "My family likes eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Protein content is given as a shared family motivation for eating meat."
+  },
+  {
+    "stance_1": "Meat tastes good to me",
+    "stance_2": "My family likes eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Taste is described as a central reason for the family\u2019s enjoyment of meat."
+  },
+  {
+    "stance_1": "Meat tastes good to me",
+    "stance_2": "Meat is a cultural staple for my family",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The pleasure from taste supports meat\u2019s cultural importance, though not explicitly stated."
+  },
+  {
+    "stance_1": "Meat tastes good to me",
+    "stance_2": "My wife's family raises cattle",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Taste might be reinforced by a family tradition of raising cattle, though this is only implied."
+  },
+  {
+    "stance_1": "Meat is a cultural staple for my family",
+    "stance_2": "My family likes eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The family's liking for meat is explicitly linked to its cultural role."
+  },
+  {
+    "stance_1": "I buy grass-fed beef",
+    "stance_2": "Meat is a cultural staple for my family",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Choosing specific meat sources may be influenced by the family\u2019s cultural connection to meat, but this is only implied."
+  },
+  {
+    "stance_1": "I buy grass-fed beef",
+    "stance_2": "My wife's family raises cattle",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Preference for grass-fed beef may be supported by the wife's family background in cattle raising, though this is not explicitly stated."
+  }
+]

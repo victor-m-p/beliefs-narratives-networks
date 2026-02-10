@@ -1,0 +1,98 @@
+[
+  {
+    "stance_1": "Everyone I know eats meat",
+    "stance_2": "Meat is a staple in my meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states that everyone they know eats meat and describes meat as a staple in their meals, explicitly linking social norms with personal practices."
+  },
+  {
+    "stance_1": "I crave meat",
+    "stance_2": "I eat meat once or twice a day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The craving for meat is given as a reason for eating meat frequently."
+  },
+  {
+    "stance_1": "I crave meat",
+    "stance_2": "Meat is a staple in my meals",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Craving meat supports the idea of meat being a staple food."
+  },
+  {
+    "stance_1": "I eat meat once or twice a day",
+    "stance_2": "Meat is a staple in my meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Eating meat daily is a clear sign that meat is considered a staple in the diet."
+  },
+  {
+    "stance_1": "I want protein from meat",
+    "stance_2": "Meat provides vitamins and minerals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee mentions both protein and other nutrients as motivations for eating meat."
+  },
+  {
+    "stance_1": "I want protein from meat",
+    "stance_2": "Meat is a staple in my meals",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 65,
+    "justification": "Wanting protein from meat supports the frequent inclusion of meat as a staple."
+  },
+  {
+    "stance_1": "I want protein from meat",
+    "stance_2": "I eat meat once or twice a day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The need for protein is given as a reason for eating meat daily."
+  },
+  {
+    "stance_1": "Meat is a staple in my meals",
+    "stance_2": "Meat is the main course in meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states that meat is the main course and a staple in meals."
+  },
+  {
+    "stance_1": "Meat is the main course in meals",
+    "stance_2": "Everyone I know eats meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 55,
+    "justification": "Social context where everyone eats meat supports the pattern of having meat as the main course."
+  },
+  {
+    "stance_1": "Meat is the main course in meals",
+    "stance_2": "I eat meat once or twice a day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Having meat as the main course supports frequent meat consumption."
+  },
+  {
+    "stance_1": "I hear about environmental reasons to reduce meat",
+    "stance_2": "I eat meat once or twice a day",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Hearing about environmental reasons to reduce meat is at odds with eating meat frequently, though the conflict is not strongly felt by the interviewee."
+  },
+  {
+    "stance_1": "I hear about environmental reasons to reduce meat",
+    "stance_2": "Meat is a staple in my meals",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Environmental arguments to reduce meat implicitly conflict with the idea of meat as a staple, though the interviewee does not express personal concern."
+  }
+]

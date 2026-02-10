@@ -1,0 +1,138 @@
+[
+  {
+    "stance_1": "I eat meat at almost every meal",
+    "stance_2": "I love the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The enjoyment of meat's taste directly supports eating it frequently, as stated by the interviewee."
+  },
+  {
+    "stance_1": "I eat meat at almost every meal",
+    "stance_2": "I try to have some balance",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Frequent meat consumption is in tension with the stated attempt to have balance, reflecting an explicit acknowledgment of excess."
+  },
+  {
+    "stance_1": "I eat meat at almost every meal",
+    "stance_2": "I realize meat is not always healthy",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The recognition that meat is not always healthy conflicts with eating it at almost every meal."
+  },
+  {
+    "stance_1": "I eat meat at almost every meal",
+    "stance_2": "I realize meat is not always good for animals",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Frequent meat eating implicitly conflicts with the realization that it is not always good for animals."
+  },
+  {
+    "stance_1": "I eat meat at almost every meal",
+    "stance_2": "I realize meat is not always good for the environment",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Frequent meat eating implicitly conflicts with the realization that it is not always good for the environment."
+  },
+  {
+    "stance_1": "I eat meat at almost every meal",
+    "stance_2": "Meat eating is a habit in my family",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Eating meat frequently is explicitly described as a family habit, reinforcing the behavior."
+  },
+  {
+    "stance_1": "I eat meat at almost every meal",
+    "stance_2": "My family eats similar meals to me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee and their family both eating similar meals with frequent meat reinforces the behavior."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "I try to have some balance",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Enjoying the taste of meat encourages consumption, which is in tension with the attempt to have balance."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "I realize meat is not always healthy",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 55,
+    "justification": "Loving the taste of meat and eating it often is implicitly in tension with realizing it is not always healthy."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "I realize meat is not always good for animals",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoyment of meat implicitly conflicts with the realization of its negative impact on animals."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "I realize meat is not always good for the environment",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoying meat implicitly conflicts with realizing its negative environmental impact."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "Meat eating is a habit in my family",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Habitual family meat eating supports and normalizes enjoyment of meat's taste."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "My family eats similar meals to me",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 55,
+    "justification": "The family eating similar meals, often with meat, supports the enjoyment of meat's taste."
+  },
+  {
+    "stance_1": "I try to have some balance",
+    "stance_2": "I realize meat is not always healthy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Awareness that meat is not always healthy supports the attempt to have balance."
+  },
+  {
+    "stance_1": "I try to have some balance",
+    "stance_2": "I realize meat is not always good for animals",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "The awareness of negative effects on animals may implicitly motivate a balanced approach."
+  },
+  {
+    "stance_1": "I try to have some balance",
+    "stance_2": "I realize meat is not always good for the environment",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Recognizing environmental concerns may implicitly support more balanced consumption."
+  },
+  {
+    "stance_1": "Meat eating is a habit in my family",
+    "stance_2": "My family eats similar meals to me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The family eating similar meals and meat eating being a habit is directly stated and mutually reinforcing."
+  }
+]

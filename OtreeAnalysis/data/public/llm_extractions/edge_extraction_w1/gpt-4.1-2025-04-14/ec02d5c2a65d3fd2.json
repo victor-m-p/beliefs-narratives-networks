@@ -1,0 +1,66 @@
+[
+  {
+    "stance_1": "I avoid beef and pork",
+    "stance_2": "I did not like the taste of pork and beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The explicit reason given for avoiding beef and pork is disliking their taste."
+  },
+  {
+    "stance_1": "I eat chicken for protein",
+    "stance_2": "I find it difficult to get enough protein as a vegetarian",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states eating chicken is easier for protein than being vegetarian."
+  },
+  {
+    "stance_1": "I eat chicken for protein",
+    "stance_2": "I only eat chicken and turkey",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating chicken for protein supports the choice to only eat chicken and turkey."
+  },
+  {
+    "stance_1": "I find it difficult to get enough protein as a vegetarian",
+    "stance_2": "I only eat chicken and turkey",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Difficulty getting enough protein as a vegetarian motivates the inclusion of chicken and turkey in the diet."
+  },
+  {
+    "stance_1": "I only eat chicken and turkey",
+    "stance_2": "I want to eat less meat for the environment",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 55,
+    "justification": "The desire to eat less meat for environmental reasons supports the choice to limit meat to chicken and turkey."
+  },
+  {
+    "stance_1": "I only eat chicken and turkey",
+    "stance_2": "My family and friends include options I can eat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee's dietary choice to only eat chicken and turkey leads family and friends to include appropriate options."
+  },
+  {
+    "stance_1": "I want to eat less meat for the environment",
+    "stance_2": "My family and friends include options I can eat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Family and friends' accommodation indirectly supports the interviewee's environmentally motivated diet."
+  },
+  {
+    "stance_1": "I find it difficult to get enough protein as a vegetarian",
+    "stance_2": "I want to eat less meat for the environment",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Difficulty getting enough protein as a vegetarian conflicts with the motivation to eat less meat for environmental reasons."
+  }
+]

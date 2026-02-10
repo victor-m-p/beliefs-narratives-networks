@@ -1,0 +1,162 @@
+[
+  {
+    "stance_1": "I am concerned about environmental impacts",
+    "stance_2": "Having information about sustainability influences me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee directly links increased information about sustainability to greater concern and mindful behavior regarding environmental impacts."
+  },
+  {
+    "stance_1": "I am concerned about environmental impacts",
+    "stance_2": "I eat meat a few times a week",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Being concerned about environmental impacts conflicts with eating meat regularly, even if the frequency is reduced."
+  },
+  {
+    "stance_1": "I am concerned about ethical issues",
+    "stance_2": "I eat meat a few times a week",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Ethical concerns about meat-eating are in tension with the continued inclusion of meat in the diet, even at a reduced frequency."
+  },
+  {
+    "stance_1": "I am concerned about health impacts",
+    "stance_2": "I choose plant-based protein instead of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly mentions health as a motivator for sometimes choosing plant-based protein over meat."
+  },
+  {
+    "stance_1": "I am concerned about health impacts",
+    "stance_2": "I eat meat a few times a week",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 45,
+    "justification": "Concern for health impacts is somewhat in conflict with eating meat regularly, though moderation is practiced."
+  },
+  {
+    "stance_1": "I am concerned about health impacts",
+    "stance_2": "I want to eat lighter meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The desire for lighter meals is explicitly linked to health motivations."
+  },
+  {
+    "stance_1": "I choose plant-based protein instead of meat",
+    "stance_2": "I want to eat lighter meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee states they choose plant-based protein when wanting lighter meals."
+  },
+  {
+    "stance_1": "I choose plant-based protein instead of meat",
+    "stance_2": "Meat helps me feel full and satisfied",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Choosing plant-based protein suggests sometimes forgoing the fullness and satisfaction attributed to meat, indicating a conflict of motivations."
+  },
+  {
+    "stance_1": "I eat meat a few times a week",
+    "stance_2": "I enjoy the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The enjoyment of meat's taste is a direct motivator for continuing to eat it several times a week."
+  },
+  {
+    "stance_1": "I eat meat a few times a week",
+    "stance_2": "Meat helps me feel full and satisfied",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The fullness and satisfaction from meat are given reasons for its continued consumption."
+  },
+  {
+    "stance_1": "I eat meat a few times a week",
+    "stance_2": "Meat is convenient to prepare",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Convenience is explicitly cited as a reason for eating meat."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "I want to eat lighter meals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Wanting lighter meals sometimes leads the interviewee to avoid meat despite enjoying its taste."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "I choose plant-based protein instead of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Choosing plant-based protein is sometimes in tension with enjoying the taste of meat."
+  },
+  {
+    "stance_1": "Having information about sustainability influences me",
+    "stance_2": "I am concerned about ethical issues",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee mentions that information about sustainability and ethics leads to more thoughtful decisions."
+  },
+  {
+    "stance_1": "Meat is convenient to prepare",
+    "stance_2": "I choose plant-based protein instead of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Choosing plant-based options sometimes occurs for convenience, but meat is also described as convenient, showing a nuanced and sometimes conflicting relationship."
+  },
+  {
+    "stance_1": "Meat helps me feel full and satisfied",
+    "stance_2": "I want to eat lighter meals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Desiring lighter meals may mean forgoing the fullness provided by meat."
+  },
+  {
+    "stance_1": "Social contacts have diverse eating habits",
+    "stance_2": "I eat meat a few times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The interviewee notes that being around others with diverse habits sometimes affects their own choices."
+  },
+  {
+    "stance_1": "Social contacts have diverse eating habits",
+    "stance_2": "I choose plant-based protein instead of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The interviewee mentions that being around people with different habits sometimes leads to choosing plant-based options."
+  },
+  {
+    "stance_1": "Social events and traditions include meat",
+    "stance_2": "I eat meat a few times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee says they usually eat meat during social or cultural events, supporting its consumption."
+  },
+  {
+    "stance_1": "Having information about sustainability influences me",
+    "stance_2": "I choose plant-based protein instead of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The interviewee notes that information about sustainability leads to more plant-based choices."
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "stance_1": "I do not fully believe benefits of eating less meat",
+    "stance_2": "I have been told to eat less meat to reduce inflammation",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee was told to eat less meat for health reasons but does not fully believe in these benefits, showing a direct conflict."
+  },
+  {
+    "stance_1": "I do not fully believe benefits of eating less meat",
+    "stance_2": "I lack discipline to eat less meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Not fully believing in the benefits reduces motivation, which supports a lack of discipline to change eating habits."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I lack discipline to eat less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly links eating meat regularly to a lack of discipline to reduce meat consumption."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I love the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states love of taste as a motivation for regular meat consumption."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "My social contacts have similar meat-eating habits",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states that both they and their social contacts eat meat regularly."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "Social contacts eat meat for taste",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee and their social contacts both cite taste as a reason for eating meat, showing shared motivation."
+  },
+  {
+    "stance_1": "I have been told to eat less meat to reduce inflammation",
+    "stance_2": "I eat meat regularly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Being told to eat less meat for health reasons conflicts with the behavior of eating meat regularly."
+  },
+  {
+    "stance_1": "My social contacts have similar meat-eating habits",
+    "stance_2": "Social contacts eat meat for taste",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Social contacts have similar habits and eat meat for taste\u2014showing a shared motivation."
+  },
+  {
+    "stance_1": "My social contacts have similar meat-eating habits",
+    "stance_2": "Social contacts eat meat to increase muscle",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The interviewee notes that social contacts eat meat for muscle gain, supporting similar meat-eating habits."
+  },
+  {
+    "stance_1": "My social contacts have similar meat-eating habits",
+    "stance_2": "Social contacts are influenced by religion to eat less meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Religious influence to eat less meat somewhat conflicts with the claim that social contacts have similar (regular) meat-eating habits."
+  },
+  {
+    "stance_1": "Social contacts are influenced by religion to eat less meat",
+    "stance_2": "Social contacts consider eating less meat for health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Religious beliefs and health considerations both motivate some social contacts to consider eating less meat."
+  },
+  {
+    "stance_1": "Social contacts consider eating less meat for health",
+    "stance_2": "Social contacts consider eating less meat to decrease cholesterol",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Decreasing cholesterol is cited as a specific health motivation for eating less meat."
+  },
+  {
+    "stance_1": "Social contacts eat meat to increase muscle",
+    "stance_2": "Social contacts consider eating less meat for health",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Eating meat to increase muscle conflicts with considering eating less meat for health, as the motivations may diverge."
+  }
+]

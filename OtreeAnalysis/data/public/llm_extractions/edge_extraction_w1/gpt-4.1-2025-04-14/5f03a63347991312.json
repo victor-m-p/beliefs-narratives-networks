@@ -1,0 +1,354 @@
+[
+  {
+    "stance_1": "I am motivated by health concerns",
+    "stance_2": "I am motivated to lower my cholesterol",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly links health concerns to lowering cholesterol as a key motivation for reducing red meat."
+  },
+  {
+    "stance_1": "I am motivated by health concerns",
+    "stance_2": "I try to cut back on meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee clearly states that health is the main reason for cutting back on meat."
+  },
+  {
+    "stance_1": "I am motivated by health concerns",
+    "stance_2": "My doctor advises me to eat less red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Doctor's advice to eat less red meat directly supports the health motivation for reducing red meat."
+  },
+  {
+    "stance_1": "I am motivated by health concerns",
+    "stance_2": "We discuss health benefits of eating less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee and their community frequently discuss the health benefits of reducing meat, reinforcing their health motivation."
+  },
+  {
+    "stance_1": "I am motivated by health concerns",
+    "stance_2": "We talk about reducing risk of type 2 diabetes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Reducing diabetes risk is cited as a health reason for eating less meat."
+  },
+  {
+    "stance_1": "I am motivated by health concerns",
+    "stance_2": "I hear about reducing inflammation by eating less red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Hearing about reduced inflammation reinforces health motivation for eating less red meat."
+  },
+  {
+    "stance_1": "I am motivated by health concerns",
+    "stance_2": "People in my community eat less red meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 65,
+    "justification": "Community-wide health motivation supports the trend of eating less red meat."
+  },
+  {
+    "stance_1": "I am motivated by health concerns",
+    "stance_2": "My community shares healthy recipes",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 65,
+    "justification": "Sharing healthy recipes supports mutual health motivations."
+  },
+  {
+    "stance_1": "I am motivated by health concerns",
+    "stance_2": "I eat more chicken and turkey than red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states eating more poultry is a health-driven alternative to red meat."
+  },
+  {
+    "stance_1": "I am motivated by health concerns",
+    "stance_2": "I eat red meat about once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating red meat only once a week is a direct result of health motivations."
+  },
+  {
+    "stance_1": "I am motivated by health concerns",
+    "stance_2": "I eat fish once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Fish is selected as a healthier alternative, supporting the health motivation."
+  },
+  {
+    "stance_1": "I try to cut back on meat",
+    "stance_2": "My doctor advises me to eat less red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee tries to cut back in direct response to doctor\u2019s advice."
+  },
+  {
+    "stance_1": "I try to cut back on meat",
+    "stance_2": "I eat more chicken and turkey than red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Cutting back on meat is operationalized as switching to chicken and turkey."
+  },
+  {
+    "stance_1": "I try to cut back on meat",
+    "stance_2": "I eat red meat about once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Eating red meat infrequently is a result of trying to cut back."
+  },
+  {
+    "stance_1": "I try to cut back on meat",
+    "stance_2": "We discuss health benefits of eating less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Discussing health benefits encourages trying to cut back on meat."
+  },
+  {
+    "stance_1": "I try to cut back on meat",
+    "stance_2": "People in my community eat less red meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Community norms of eating less red meat support the individual's attempt to cut back."
+  },
+  {
+    "stance_1": "I try to cut back on meat",
+    "stance_2": "We talk about reducing risk of type 2 diabetes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Reducing diabetes risk is a discussed motivation for cutting back."
+  },
+  {
+    "stance_1": "I try to cut back on meat",
+    "stance_2": "I eat fish once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Eating fish is an alternative to red meat as part of cutting back."
+  },
+  {
+    "stance_1": "Dining out is seen as a special occasion",
+    "stance_2": "I eat red meat about once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The weekly red meat meal often coincides with dining out on special occasions."
+  },
+  {
+    "stance_1": "Dining out is seen as a special occasion",
+    "stance_2": "Restaurants promote red meat on special occasions",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Restaurants' promotion of red meat aligns with dining out as a special occasion."
+  },
+  {
+    "stance_1": "Dining out is seen as a special occasion",
+    "stance_2": "People in my community eat less red meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "People eat less red meat at home but often eat more red meat when dining out on special occasions."
+  },
+  {
+    "stance_1": "Restaurants promote red meat on special occasions",
+    "stance_2": "People in my community eat less red meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Restaurants promoting red meat on special occasions runs counter to the community trend of eating less red meat at home."
+  },
+  {
+    "stance_1": "My community shares healthy recipes",
+    "stance_2": "People in my community eat less red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Sharing healthy recipes supports the trend of eating less red meat."
+  },
+  {
+    "stance_1": "My community shares healthy recipes",
+    "stance_2": "We discuss health benefits of eating less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Recipe sharing facilitates conversations about health benefits of reducing meat."
+  },
+  {
+    "stance_1": "My community shares healthy recipes",
+    "stance_2": "I eat more chicken and turkey than red meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The community's sharing of healthy recipes likely encourages alternatives like chicken and turkey."
+  },
+  {
+    "stance_1": "My doctor advises me to eat less red meat",
+    "stance_2": "We discuss health benefits of eating less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Doctor\u2019s advice feeds into health discussions about eating less meat."
+  },
+  {
+    "stance_1": "People in my community eat less red meat",
+    "stance_2": "We discuss health benefits of eating less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The community\u2019s reduction in red meat is reinforced by discussions of health benefits."
+  },
+  {
+    "stance_1": "People in my community eat less red meat",
+    "stance_2": "We talk about reducing risk of type 2 diabetes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Community discussions about diabetes risk support eating less red meat."
+  },
+  {
+    "stance_1": "People in my community eat less red meat",
+    "stance_2": "I eat more chicken and turkey than red meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The prevalence of reduced red meat in the community supports the individual's behavior."
+  },
+  {
+    "stance_1": "We discuss health benefits of eating less meat",
+    "stance_2": "We talk about reducing risk of type 2 diabetes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Health benefits discussed include reducing diabetes risk."
+  },
+  {
+    "stance_1": "We discuss health benefits of eating less meat",
+    "stance_2": "I hear about reducing inflammation by eating less red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Inflammation reduction is one of the health benefits discussed."
+  },
+  {
+    "stance_1": "We discuss health benefits of eating less meat",
+    "stance_2": "I am motivated to lower my cholesterol",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Lowering cholesterol is a health benefit discussed in relation to eating less meat."
+  },
+  {
+    "stance_1": "We discuss health benefits of eating less meat",
+    "stance_2": "I eat more chicken and turkey than red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Eating more poultry is discussed as a healthful alternative in community discussions."
+  },
+  {
+    "stance_1": "We discuss health benefits of eating less meat",
+    "stance_2": "I eat red meat about once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Eating red meat less often is discussed as beneficial for health."
+  },
+  {
+    "stance_1": "We talk about reducing risk of type 2 diabetes",
+    "stance_2": "I eat more chicken and turkey than red meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 55,
+    "justification": "Switching to poultry is suggested to reduce diabetes risk."
+  },
+  {
+    "stance_1": "We talk about reducing risk of type 2 diabetes",
+    "stance_2": "I eat red meat about once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "Eating less red meat is discussed as a means to reduce diabetes risk."
+  },
+  {
+    "stance_1": "I ate more lunch meat during COVID",
+    "stance_2": "I removed deli meats from my diet during COVID",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee moved from eating more lunch meat to removing deli meats, a clear conflict."
+  },
+  {
+    "stance_1": "I removed deli meats from my diet during COVID",
+    "stance_2": "I try to cut back on meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Removing deli meats supports the overall effort to cut back on meat."
+  },
+  {
+    "stance_1": "I hear about reducing inflammation by eating less red meat",
+    "stance_2": "I am motivated to lower my cholesterol",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 55,
+    "justification": "Both reducing inflammation and lowering cholesterol are cited as health outcomes from eating less red meat."
+  },
+  {
+    "stance_1": "I hear about reducing inflammation by eating less red meat",
+    "stance_2": "I try to cut back on meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Hearing about inflammation reduction supports motivation to cut back."
+  },
+  {
+    "stance_1": "I am motivated to lower my cholesterol",
+    "stance_2": "I try to cut back on meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly mentions cutting back on meat to lower cholesterol."
+  },
+  {
+    "stance_1": "I eat more chicken and turkey than red meat",
+    "stance_2": "I eat red meat about once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Eating red meat only once a week is consistent with favoring poultry over red meat."
+  },
+  {
+    "stance_1": "I eat more chicken and turkey than red meat",
+    "stance_2": "I eat fish once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Fish, chicken, and turkey are chosen as healthier alternatives to red meat."
+  },
+  {
+    "stance_1": "I eat red meat about once a week",
+    "stance_2": "I eat fish once a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "Fish and red meat are mentioned as part of a weekly meal plan, showing a balanced, reduced-red-meat approach."
+  }
+]

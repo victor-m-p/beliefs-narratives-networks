@@ -1,0 +1,162 @@
+[
+  {
+    "stance_1": "I am on a low-carb diet",
+    "stance_2": "I eat meat for protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly connects being on a low-carb diet with eating meat for protein."
+  },
+  {
+    "stance_1": "I am on a low-carb diet",
+    "stance_2": "I eat multiple meat products daily",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Being on a low-carb diet implicitly supports eating meat multiple times daily, as meat is a primary protein source in such diets."
+  },
+  {
+    "stance_1": "I am on a low-carb diet",
+    "stance_2": "I want to maintain healthy muscle mass",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "A low-carb diet is often linked to muscle maintenance goals, implying a supportive relationship."
+  },
+  {
+    "stance_1": "I eat meat for protein",
+    "stance_2": "I want to maintain healthy muscle mass",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states eating meat for protein to maintain muscle mass."
+  },
+  {
+    "stance_1": "I eat meat for satiety",
+    "stance_2": "I eat multiple meat products daily",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that satiety from meat supports frequent meat consumption."
+  },
+  {
+    "stance_1": "I eat meat for satiety",
+    "stance_2": "I feel meat gives me energy",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The feeling of satiety and energy from meat are closely linked, supporting each other."
+  },
+  {
+    "stance_1": "I eat meat for satiety",
+    "stance_2": "I think meat benefits my health",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Satiety from meat is part of the perceived health benefit, supporting the belief."
+  },
+  {
+    "stance_1": "I eat meat for protein",
+    "stance_2": "I think meat benefits my health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee links protein intake from meat to health benefits."
+  },
+  {
+    "stance_1": "I eat meat for protein",
+    "stance_2": "I eat multiple meat products daily",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Eating meat for protein supports the behavior of eating meat daily."
+  },
+  {
+    "stance_1": "I eat meat for satiety",
+    "stance_2": "My family eats meat for satiety",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Both the interviewee and their family eat meat for satiety, reinforcing each other's habits."
+  },
+  {
+    "stance_1": "I eat multiple meat products daily",
+    "stance_2": "I think meat benefits my health",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Eating meat daily is supported by the belief that it benefits health."
+  },
+  {
+    "stance_1": "I eat meat for protein",
+    "stance_2": "I feel meat gives me energy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee explicitly links protein from meat to feeling energized."
+  },
+  {
+    "stance_1": "I eat meat for satiety",
+    "stance_2": "I want to maintain healthy muscle mass",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 55,
+    "justification": "Satiety from meat supports the goal of maintaining muscle mass through adequate nutrition."
+  },
+  {
+    "stance_1": "I have considered reducing pork due to processing",
+    "stance_2": "I think processed pork is less healthy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly connects health concerns about processed pork to considering reducing its consumption."
+  },
+  {
+    "stance_1": "I understand environmental concerns about meat production",
+    "stance_2": "I prefer buying meat from small, local farms",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly associates environmental concerns with preferring small, local farms."
+  },
+  {
+    "stance_1": "I have considered reducing pork due to processing",
+    "stance_2": "I understand environmental concerns about meat production",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee states their reduction of pork is due to health, not environmental, concerns\u2014indicating a conflict."
+  },
+  {
+    "stance_1": "I think processed pork is less healthy",
+    "stance_2": "I understand environmental concerns about meat production",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Health concerns motivate pork reduction, not environmental issues, showing a conflict in motivational focus."
+  },
+  {
+    "stance_1": "I eat meat for protein",
+    "stance_2": "I eat meat for satiety",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Both protein and satiety are cited as reasons for meat consumption, with the interviewee presenting them together."
+  },
+  {
+    "stance_1": "My family eats similar amounts of meat",
+    "stance_2": "My family eats meat for satiety",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Family's similar meat consumption is explicitly tied to satiety as a motivation."
+  },
+  {
+    "stance_1": "My family eats similar amounts of meat",
+    "stance_2": "My family prefers taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Family's preference for taste supports their meat consumption patterns."
+  }
+]

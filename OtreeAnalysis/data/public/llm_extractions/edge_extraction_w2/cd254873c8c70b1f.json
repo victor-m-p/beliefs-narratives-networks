@@ -1,0 +1,58 @@
+[
+  {
+    "stance_1": "I eat meat three to four times a week",
+    "stance_2": "I enjoy the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee directly states that they enjoy the taste of meat and that meat plays a big role in their eating habits, supporting frequent meat consumption."
+  },
+  {
+    "stance_1": "I eat meat three to four times a week",
+    "stance_2": "Meat is filling to me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly mentions the filling nature of meat as a major motivation for eating it frequently."
+  },
+  {
+    "stance_1": "I eat meat three to four times a week",
+    "stance_2": "Meat is high in protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "The interviewee notes that protein content is a reason they feel full after eating meat, supporting their frequent consumption."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "Meat is filling to me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Both taste and filling quality are cited as main reasons for eating meat, reinforcing each other as motivations."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "Meat is high in protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "While not directly stated, enjoyment and recognition of protein content both contribute to positive attitudes toward meat eating."
+  },
+  {
+    "stance_1": "Meat is filling to me",
+    "stance_2": "Meat is high in protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly links the filling quality of meat to its high protein content."
+  },
+  {
+    "stance_1": "I eat meat three to four times a week",
+    "stance_2": "My brother has reduced his meat consumption",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee notes that their brother's reduction of meat has not influenced their own continued frequent meat-eating."
+  }
+]

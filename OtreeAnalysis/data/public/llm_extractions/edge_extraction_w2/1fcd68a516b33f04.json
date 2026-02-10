@@ -1,0 +1,122 @@
+[
+  {
+    "stance_1": "I eat meat sparingly",
+    "stance_2": "I eat meat three to four times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Eating meat three to four times a week is consistent with eating meat sparingly in the context provided."
+  },
+  {
+    "stance_1": "I eat meat sparingly",
+    "stance_2": "I have health concerns about eating too much meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Concern about health from too much meat supports eating meat sparingly."
+  },
+  {
+    "stance_1": "I eat meat sparingly",
+    "stance_2": "I try to keep my diet balanced",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Trying to keep a balanced diet reinforces the practice of eating meat sparingly."
+  },
+  {
+    "stance_1": "I eat meat sparingly",
+    "stance_2": "Meat is embedded in my culture and diet",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Cultural embedding of meat eating could conflict with the choice to eat meat sparingly."
+  },
+  {
+    "stance_1": "I sometimes eat meat when my wife cooks it",
+    "stance_2": "I eat meat sparingly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Eating meat due to wife's cooking can undermine the intention to eat meat sparingly."
+  },
+  {
+    "stance_1": "I sometimes eat meat when my wife cooks it",
+    "stance_2": "My wife is a heavy meat eater",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee eats meat when his wife cooks, and she is described as a heavy meat eater, directly supporting this link."
+  },
+  {
+    "stance_1": "I try to keep my diet balanced",
+    "stance_2": "I have health concerns about eating too much meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Health concerns about eating too much meat directly support the effort to keep a balanced diet."
+  },
+  {
+    "stance_1": "I try to keep my diet balanced",
+    "stance_2": "I avoid eating meat for dinner",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Avoiding meat for dinner is a way the interviewee implements a balanced diet."
+  },
+  {
+    "stance_1": "Meat is embedded in my culture and diet",
+    "stance_2": "Most friends and family eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Cultural embedding of meat eating is reflected in the frequent meat consumption by friends and family."
+  },
+  {
+    "stance_1": "My mom is a positive influence on my diet",
+    "stance_2": "I eat meat sparingly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee explicitly states his mom's change influenced his decision to eat meat sparingly."
+  },
+  {
+    "stance_1": "My mom is a positive influence on my diet",
+    "stance_2": "My mom reduced meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The mom's decision to reduce meat for health reasons is a direct influence on the interviewee's diet."
+  },
+  {
+    "stance_1": "My mom reduced meat due to lifestyle changes",
+    "stance_2": "My mom reduced meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Both reasons are presented as influencing the mom's dietary change."
+  },
+  {
+    "stance_1": "My mom reduced meat due to lifestyle changes",
+    "stance_2": "My mom is a positive influence on my diet",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The mom's lifestyle motivations for reducing meat are cited as influential on the interviewee."
+  },
+  {
+    "stance_1": "My mom reduced meat due to lifestyle changes",
+    "stance_2": "I eat meat sparingly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The mom's lifestyle-motivated reduction in meat influenced the interviewee's own decision to eat meat sparingly."
+  },
+  {
+    "stance_1": "My mom reduced meat for health reasons",
+    "stance_2": "I have health concerns about eating too much meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The mom's health-driven change and the interviewee's health concerns both reinforce reduced meat consumption."
+  }
+]

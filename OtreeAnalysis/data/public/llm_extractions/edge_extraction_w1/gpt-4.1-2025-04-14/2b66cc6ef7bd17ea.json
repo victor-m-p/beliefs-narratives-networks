@@ -1,0 +1,306 @@
+[
+  {
+    "stance_1": "Affordability limits my meat choices",
+    "stance_2": "Animal welfare is important to me",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states that financial constraints prevent them from prioritizing animal welfare in their meat purchases."
+  },
+  {
+    "stance_1": "Affordability limits my meat choices",
+    "stance_2": "I buy cheaper meat due to financial constraints",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee directly links affordability constraints to buying cheaper meat."
+  },
+  {
+    "stance_1": "Affordability limits my meat choices",
+    "stance_2": "I focus on meat quality within my budget",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee tries to get the best quality meat possible within the limits of affordability."
+  },
+  {
+    "stance_1": "Affordability limits my meat choices",
+    "stance_2": "I prefer free-range or pasture-raised animal products",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee says they would prefer free-range/pasture-raised products but affordability prevents this."
+  },
+  {
+    "stance_1": "Animal welfare is important to me",
+    "stance_2": "I prefer free-range or pasture-raised animal products",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Preference for free-range/pasture-raised products is motivated by concern for animal welfare."
+  },
+  {
+    "stance_1": "I avoid high carbohydrates from vegetables",
+    "stance_2": "I eat small quantities of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Eating small amounts of meat may be supported by a desire to avoid excess carbohydrates from non-meat sources."
+  },
+  {
+    "stance_1": "I avoid high carbohydrates from vegetables",
+    "stance_2": "I eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly states that they eat meat as an alternative to high-carb vegetables."
+  },
+  {
+    "stance_1": "I avoid high carbohydrates from vegetables",
+    "stance_2": "Meat is a good source of protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee chooses meat for protein to avoid vegetable-based carbohydrates."
+  },
+  {
+    "stance_1": "I dislike soy products",
+    "stance_2": "I believe soy increases estrogen in men",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Dislike of soy is directly justified by belief about estrogen effects."
+  },
+  {
+    "stance_1": "I dislike soy products",
+    "stance_2": "I eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 45,
+    "justification": "Dislike of soy as an alternative protein supports ongoing meat consumption."
+  },
+  {
+    "stance_1": "I eat eggs for protein",
+    "stance_2": "I eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Egg consumption for protein complements regular meat eating for protein."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I focus on meat quality within my budget",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee describes eating meat regularly and focusing on quality within their budget."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "Meat is a good source of protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Eating meat regularly is directly motivated by its protein content."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I increased meat intake for muscle growth",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Increased meat intake for muscle growth supports regular meat eating."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I avoid vegan diets due to deficiency concerns",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Avoidance of vegan diets due to deficiency concerns supports regular meat consumption."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I eat small quantities of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee clarifies they eat meat regularly but in small quantities."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "My mother eats meat for protein and nourishment",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Both the interviewee and their mother eat meat regularly for nourishment/protein."
+  },
+  {
+    "stance_1": "I eat small quantities of meat",
+    "stance_2": "I focus on meat quality within my budget",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Interviewee prioritizes quality over quantity, explicitly describing eating small amounts of higher quality meat."
+  },
+  {
+    "stance_1": "I eat small quantities of meat",
+    "stance_2": "I feel better after eating high-quality meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Feeling better after eating high-quality meat supports eating smaller, higher-quality portions."
+  },
+  {
+    "stance_1": "I increased meat intake for muscle growth",
+    "stance_2": "Meat is a good source of protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Increased meat intake for muscle growth is directly linked to meat's protein content."
+  },
+  {
+    "stance_1": "I increased meat intake for muscle growth",
+    "stance_2": "I avoid vegan diets due to deficiency concerns",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Avoidance of vegan diets is motivated by nutritional needs related to muscle growth."
+  },
+  {
+    "stance_1": "I prefer free-range or pasture-raised animal products",
+    "stance_2": "I focus on meat quality within my budget",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Preference for free-range/pasture-raised products is part of seeking higher quality meat within budget."
+  },
+  {
+    "stance_1": "I believe soy increases estrogen in men",
+    "stance_2": "I avoid vegan diets due to deficiency concerns",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Negative views on soy as a protein source reinforce avoidance of vegan diets."
+  },
+  {
+    "stance_1": "I believe soy increases estrogen in men",
+    "stance_2": "I dislike soy products",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Directly stated reason for disliking soy products."
+  },
+  {
+    "stance_1": "I buy cheaper meat due to financial constraints",
+    "stance_2": "I focus on meat quality within my budget",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Buying cheaper meat is a strategy to maintain some quality within financial constraints."
+  },
+  {
+    "stance_1": "I buy cheaper meat due to financial constraints",
+    "stance_2": "I prefer free-range or pasture-raised animal products",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Buying cheaper meat conflicts with the preference for more expensive free-range/pasture-raised products."
+  },
+  {
+    "stance_1": "I feel better after eating high-quality meat",
+    "stance_2": "I focus on meat quality within my budget",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Feeling better after eating high-quality meat supports the focus on quality within budget."
+  },
+  {
+    "stance_1": "I focus on meat quality within my budget",
+    "stance_2": "I prefer free-range or pasture-raised animal products",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Preference for these products is part of the focus on quality."
+  },
+  {
+    "stance_1": "I focus on meat quality within my budget",
+    "stance_2": "I eat small quantities of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Focusing on quality over quantity supports eating smaller amounts."
+  },
+  {
+    "stance_1": "I am aware of environmental concerns about meat",
+    "stance_2": "I eat meat regularly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Interviewee acknowledges environmental concerns but continues eating meat regularly, suggesting some conflict."
+  },
+  {
+    "stance_1": "I am aware of environmental concerns about meat",
+    "stance_2": "Animal welfare is important to me",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Concern for animal welfare is often related to awareness of environmental issues."
+  },
+  {
+    "stance_1": "I am aware of environmental concerns about meat",
+    "stance_2": "I prefer free-range or pasture-raised animal products",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Preference for ethically produced meat is linked to awareness of environmental and animal welfare issues."
+  },
+  {
+    "stance_1": "I am aware of environmental concerns about meat",
+    "stance_2": "Most social contacts prioritize nutrition and affordability",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "The interviewee notes a contrast between their awareness of environmental issues and their social context's lack of concern."
+  },
+  {
+    "stance_1": "I eat less beef due to mad cow disease",
+    "stance_2": "I eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The interviewee reduced but did not eliminate beef, continuing to eat other meats regularly."
+  },
+  {
+    "stance_1": "I eat less beef due to mad cow disease",
+    "stance_2": "I prefer free-range or pasture-raised animal products",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Health concerns about beef may motivate seeking safer, higher-quality products."
+  },
+  {
+    "stance_1": "I eat eggs for protein",
+    "stance_2": "Meat is a good source of protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Both eggs and meat are selected for their protein content."
+  },
+  {
+    "stance_1": "My mother eats meat for protein and nourishment",
+    "stance_2": "Meat is a good source of protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Mother eats meat for protein, reinforcing the stance that meat is a good protein source."
+  },
+  {
+    "stance_1": "I avoid vegan diets due to deficiency concerns",
+    "stance_2": "Meat is a good source of protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Avoiding vegan diets is motivated by the belief that meat provides necessary protein."
+  }
+]

@@ -1,0 +1,186 @@
+[
+  {
+    "stance_1": "I am not influenced by vegetarian friends",
+    "stance_2": "I do not consider reducing meat intake",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states their friends' vegetarianism has not influenced them, and also that they do not consider reducing meat intake, reinforcing each other."
+  },
+  {
+    "stance_1": "I am not influenced by vegetarian friends",
+    "stance_2": "I eat meat to get protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee asserts that vegetarian friends haven't influenced them, and they continue to eat meat for protein, showing a supportive connection."
+  },
+  {
+    "stance_1": "I am not influenced by vegetarian friends",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee maintains eating meat due to personal preference (taste), despite friends' influence, making these stances mutually reinforcing."
+  },
+  {
+    "stance_1": "I am not influenced by vegetarian friends",
+    "stance_2": "My family has always eaten meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee attributes their continued meat-eating to family habits, not friends, linking these stances positively."
+  },
+  {
+    "stance_1": "I do not consider reducing meat intake",
+    "stance_2": "I eat meat to get protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states they do not wish to reduce meat because they value the protein they get from it."
+  },
+  {
+    "stance_1": "I do not consider reducing meat intake",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Enjoyment of meat contributes to the interviewee's lack of consideration for reducing intake."
+  },
+  {
+    "stance_1": "I do not consider reducing meat intake",
+    "stance_2": "My family has always eaten meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Family tradition supports the interviewee's lack of interest in reducing meat intake."
+  },
+  {
+    "stance_1": "I dislike tofu",
+    "stance_2": "I do not consider reducing meat intake",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Disliking tofu, a common meat substitute, implicitly supports not considering reducing meat intake."
+  },
+  {
+    "stance_1": "I dislike tofu",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Preference for the taste of meat and dislike of tofu reinforce each other as expressions of food preference."
+  },
+  {
+    "stance_1": "I eat chicken most of the time",
+    "stance_2": "I eat meat to get protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Chicken is described as a preferred protein source, linking these stances."
+  },
+  {
+    "stance_1": "I eat chicken most of the time",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee enjoys the taste of chicken, supporting frequent consumption."
+  },
+  {
+    "stance_1": "I eat chicken most of the time",
+    "stance_2": "I like the texture of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Chicken is referenced as enjoyed for texture, supporting both stances."
+  },
+  {
+    "stance_1": "I eat meat to get protein",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Both stances are reasons given for eating meat, reinforcing each other."
+  },
+  {
+    "stance_1": "I eat meat to get protein",
+    "stance_2": "I like the texture of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Texture is mentioned as a reason for eating meat, supporting the general motivation."
+  },
+  {
+    "stance_1": "I eat meat to get protein",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Taste and protein are both cited as drivers of meat consumption."
+  },
+  {
+    "stance_1": "I eat traditional family meat dishes",
+    "stance_2": "My family has always eaten meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Family tradition directly supports eating traditional family meat dishes."
+  },
+  {
+    "stance_1": "I eat traditional family meat dishes",
+    "stance_2": "I eat meat to get protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Traditional dishes provide protein, implicitly supporting meat-eating for protein."
+  },
+  {
+    "stance_1": "I enjoy variety of meat dishes",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Enjoyment of variety and taste are both cited as pleasures of meat-eating."
+  },
+  {
+    "stance_1": "I enjoy variety of meat dishes",
+    "stance_2": "I like the texture of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Variety and texture are both mentioned as enjoyable aspects of meat."
+  },
+  {
+    "stance_1": "I sometimes choose meat without antibiotics",
+    "stance_2": "I eat meat to get protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "Choosing higher quality meat is linked to health/protein motivations."
+  },
+  {
+    "stance_1": "I sometimes choose meat without antibiotics",
+    "stance_2": "I do not consider reducing meat intake",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Choosing different sources of meat is an alternative to reducing intake, suggesting a positive link."
+  },
+  {
+    "stance_1": "I sometimes choose meat without antibiotics",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 20,
+    "justification": "Preference for quality meat may be related to taste motivations."
+  },
+  {
+    "stance_1": "I eat beef and pork occasionally",
+    "stance_2": "I eat chicken most of the time",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The frequency of chicken versus beef/pork consumption is explicitly contrasted."
+  }
+]

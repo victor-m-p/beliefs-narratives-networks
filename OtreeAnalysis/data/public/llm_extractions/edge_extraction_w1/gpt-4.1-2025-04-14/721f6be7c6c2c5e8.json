@@ -1,0 +1,74 @@
+[
+  {
+    "stance_1": "I believe eating meat is healthy",
+    "stance_2": "I believe eating meat provides necessary protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly links meat with both health and necessary protein, implying that the protein in meat is a core reason for its perceived healthiness."
+  },
+  {
+    "stance_1": "I believe eating meat is healthy",
+    "stance_2": "I eat meat every night for dinner",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The belief that meat is healthy likely supports the behavior of eating meat every night for dinner."
+  },
+  {
+    "stance_1": "I believe eating meat provides necessary protein",
+    "stance_2": "I eat meat every night for dinner",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The belief that meat provides necessary protein implicitly supports the practice of eating meat every night for dinner."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "Meat is satisfying and filling",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states both taste and satisfaction/filling qualities as reasons for enjoying meat."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "I eat meat every night for dinner",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Enjoying the taste of meat likely supports the regular behavior of eating meat every night."
+  },
+  {
+    "stance_1": "I was raised on a ranch",
+    "stance_2": "Eating meat is normal among my social contacts",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee makes clear that being raised on a ranch normalizes meat-eating in their social environment."
+  },
+  {
+    "stance_1": "I was raised on a ranch",
+    "stance_2": "I eat meat every night for dinner",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 65,
+    "justification": "Being raised on a ranch likely supports the behavior of eating meat every night for dinner."
+  },
+  {
+    "stance_1": "I was raised on a ranch",
+    "stance_2": "My friends and family eat meat at most meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The ranch upbringing is explicitly tied to the meat-eating habits of both the interviewee and their social group."
+  },
+  {
+    "stance_1": "Eating meat is normal among my social contacts",
+    "stance_2": "My friends and family eat meat at most meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that eating meat is normal and common in their social circles."
+  }
+]

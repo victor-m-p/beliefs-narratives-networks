@@ -1,0 +1,258 @@
+[
+  {
+    "stance_1": "Beef is easy to cook",
+    "stance_2": "I eat beef three to four days a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The ease of cooking beef supports frequent consumption."
+  },
+  {
+    "stance_1": "Beef is easy to cook",
+    "stance_2": "My family prefers beef",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Ease of preparation likely contributes to family preference for beef."
+  },
+  {
+    "stance_1": "Beef is easy to cook",
+    "stance_2": "Meat is easier with food allergies",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Ease of cooking beef is explicitly linked to managing food allergies."
+  },
+  {
+    "stance_1": "Beef is easy to cook",
+    "stance_2": "Social contacts eat Mexican cuisine often",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Beef's versatility and ease likely support its use in Mexican cuisine eaten by social contacts."
+  },
+  {
+    "stance_1": "Beef is easy to cook",
+    "stance_2": "Steak and beef help keep blood sugar steady",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The ease of preparing beef supports its use for managing blood sugar."
+  },
+  {
+    "stance_1": "Beef is easy to cook",
+    "stance_2": "I like the taste of beef",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Ease of cooking beef supports consumption, which in turn reinforces enjoyment of its taste."
+  },
+  {
+    "stance_1": "Childhood habits influence my eating",
+    "stance_2": "I crave familiar foods",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee states childhood habits and nostalgia drive cravings for familiar foods."
+  },
+  {
+    "stance_1": "Childhood habits influence my eating",
+    "stance_2": "Social contacts eat Mexican cuisine often",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Childhood experiences with family and social contacts shaped eating habits, including Mexican cuisine."
+  },
+  {
+    "stance_1": "Childhood habits influence my eating",
+    "stance_2": "My family prefers beef",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Family preferences, established in childhood, continue to influence current habits."
+  },
+  {
+    "stance_1": "I eat beef three to four days a week",
+    "stance_2": "I like the taste of beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Enjoyment of beef's taste is a strong motivator for frequent consumption."
+  },
+  {
+    "stance_1": "I eat beef three to four days a week",
+    "stance_2": "I need B12 from beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly mentions a nutritional need (B12) as a reason for eating beef often."
+  },
+  {
+    "stance_1": "I eat beef three to four days a week",
+    "stance_2": "I need high protein foods",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "A need for high protein is mentioned as a reason for frequent beef consumption."
+  },
+  {
+    "stance_1": "I eat beef three to four days a week",
+    "stance_2": "Steak and beef help keep blood sugar steady",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The interviewee explicitly links beef consumption to blood sugar management."
+  },
+  {
+    "stance_1": "I eat beef three to four days a week",
+    "stance_2": "My family prefers beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "Family preference for beef supports frequent consumption."
+  },
+  {
+    "stance_1": "I eat beef three to four days a week",
+    "stance_2": "Meat is easier with food allergies",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Beef is chosen frequently due to its simplicity for those with food allergies."
+  },
+  {
+    "stance_1": "I like the taste of beef",
+    "stance_2": "My family prefers beef",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Family preference for beef is likely reinforced by shared enjoyment of its taste."
+  },
+  {
+    "stance_1": "I like the taste of beef",
+    "stance_2": "Social contacts eat Mexican cuisine often",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Enjoyment of beef's taste supports its inclusion in Mexican cuisine, a common family/social preference."
+  },
+  {
+    "stance_1": "I like the taste of beef",
+    "stance_2": "I crave familiar foods",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Craving familiar foods explicitly includes a preference for the taste of beef."
+  },
+  {
+    "stance_1": "I like the taste of beef",
+    "stance_2": "Meat is easier with food allergies",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 45,
+    "justification": "Beef's taste and allergen simplicity both support choosing it."
+  },
+  {
+    "stance_1": "I need B12 from beef",
+    "stance_2": "I need high protein foods",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Both are nutritional motivations for eating beef."
+  },
+  {
+    "stance_1": "I need B12 from beef",
+    "stance_2": "Steak and beef help keep blood sugar steady",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Beef consumption for B12 and blood sugar management are both health-based reasons."
+  },
+  {
+    "stance_1": "I need high protein foods",
+    "stance_2": "Steak and beef help keep blood sugar steady",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "High protein intake is linked to blood sugar management."
+  },
+  {
+    "stance_1": "I have food allergies",
+    "stance_2": "Meat is easier with food allergies",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The explicit reason given for choosing meat is ease of managing food allergies."
+  },
+  {
+    "stance_1": "I have food allergies",
+    "stance_2": "I eat beef three to four days a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Beef is chosen frequently because it is easier to manage with food allergies."
+  },
+  {
+    "stance_1": "I have food allergies",
+    "stance_2": "I crave familiar foods",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Food allergies encourage sticking to familiar, safe foods."
+  },
+  {
+    "stance_1": "I have food allergies",
+    "stance_2": "Steak and beef help keep blood sugar steady",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Beef is chosen for both allergies and blood sugar management."
+  },
+  {
+    "stance_1": "Meat is easier with food allergies",
+    "stance_2": "Steak and beef help keep blood sugar steady",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Meat is chosen for both ease with allergies and blood sugar control."
+  },
+  {
+    "stance_1": "My family prefers beef",
+    "stance_2": "Social contacts eat Mexican cuisine often",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Beef preference is linked to eating habits shaped by shared Mexican cuisine."
+  },
+  {
+    "stance_1": "My family prefers beef",
+    "stance_2": "Steak and beef help keep blood sugar steady",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Family preference for beef supports using it for blood sugar management."
+  },
+  {
+    "stance_1": "Social contacts eat Mexican cuisine often",
+    "stance_2": "I crave familiar foods",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Craving familiar foods includes Mexican cuisine, which is common in social/family context."
+  },
+  {
+    "stance_1": "I try not to eat meat every day",
+    "stance_2": "I eat beef three to four days a week",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Trying not to eat meat every day is in tension with eating beef three to four days a week."
+  },
+  {
+    "stance_1": "Steaks are more expensive now",
+    "stance_2": "I eat beef three to four days a week",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "Rising steak prices could discourage beef consumption, though the interviewee says habits haven't changed."
+  }
+]

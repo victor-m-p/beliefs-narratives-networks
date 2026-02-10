@@ -1,0 +1,106 @@
+[
+  {
+    "stance_1": "Eating meat makes me feel run down",
+    "stance_2": "I try to lower my meat intake",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The feeling of being run down after eating meat explicitly supports the motivation to lower meat intake."
+  },
+  {
+    "stance_1": "I get protein from black beans",
+    "stance_2": "I try to lower my meat intake",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Getting protein from black beans supports the effort to lower meat intake by providing an alternative protein source."
+  },
+  {
+    "stance_1": "I get protein from black beans",
+    "stance_2": "I want meals that do not rely on meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Choosing black beans as a protein source supports the desire for meals not reliant on meat."
+  },
+  {
+    "stance_1": "I try to lower my meat intake",
+    "stance_2": "I want meals that do not rely on meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The desire for meals that do not rely on meat is directly aligned with the effort to lower meat intake."
+  },
+  {
+    "stance_1": "I try to lower my meat intake",
+    "stance_2": "I want to lower my meat intake for diabetes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Trying to lower meat intake is explicitly motivated by concerns about diabetes."
+  },
+  {
+    "stance_1": "I am cautious of the environment",
+    "stance_2": "I try to lower my meat intake",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Environmental caution is an explicit motivator for lowering meat intake."
+  },
+  {
+    "stance_1": "I feel pressure to fit in by eating meat",
+    "stance_2": "I try to lower my meat intake",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Feeling pressure to fit in by eating meat conflicts with the effort to reduce meat intake."
+  },
+  {
+    "stance_1": "I feel pressure to fit in by eating meat",
+    "stance_2": "My family and friends eat a lot of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The eating habits of family and friends contribute to the feeling of pressure to fit in by eating meat."
+  },
+  {
+    "stance_1": "I feel pressure to fit in by eating meat",
+    "stance_2": "My family and friends are used to eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The cultural and habitual meat consumption of family and friends is explicitly linked to the pressure felt by the interviewee to fit in."
+  },
+  {
+    "stance_1": "I eat ground chicken and turkey",
+    "stance_2": "I try to lower my meat intake",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Switching to ground chicken and turkey may be part of the strategy to lower meat intake or choose leaner meats, though not explicitly stated."
+  },
+  {
+    "stance_1": "I eat red meat a couple times a week",
+    "stance_2": "I try to lower my meat intake",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Consuming red meat, even if only a couple times a week, is in partial conflict with the goal to lower meat intake."
+  },
+  {
+    "stance_1": "I eat ground chicken and turkey",
+    "stance_2": "I eat red meat a couple times a week",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Eating mostly ground chicken/turkey but still occasionally eating red meat implies a partial conflict in reducing overall meat consumption."
+  },
+  {
+    "stance_1": "I want to lower my meat intake for diabetes",
+    "stance_2": "I eat red meat a couple times a week",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The goal to lower meat intake for diabetes is undermined by continuing to eat red meat a couple times a week."
+  }
+]

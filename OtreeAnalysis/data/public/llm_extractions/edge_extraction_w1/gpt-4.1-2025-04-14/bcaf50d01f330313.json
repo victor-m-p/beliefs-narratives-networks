@@ -1,0 +1,58 @@
+[
+  {
+    "stance_1": "I eat meat on occasion",
+    "stance_2": "I eat small amounts of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states they eat meat on occasion and in small quantities, showing these behaviors are strongly supportive of each other."
+  },
+  {
+    "stance_1": "I eat meat on occasion",
+    "stance_2": "I like balanced, healthy meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Eating meat on occasion is explicitly linked to a preference for balanced, healthy meals, as the interviewee chooses smaller meat portions for health reasons."
+  },
+  {
+    "stance_1": "I eat small amounts of meat",
+    "stance_2": "I like balanced, healthy meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly connects eating small amounts of meat to their desire for balanced, healthy meals."
+  },
+  {
+    "stance_1": "I like balanced, healthy meals",
+    "stance_2": "I sometimes eat vegetarian meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The choice to sometimes eat vegetarian meals is explicitly motivated by the desire for healthy, balanced meals."
+  },
+  {
+    "stance_1": "I like balanced, healthy meals",
+    "stance_2": "My social contacts prefer healthy, balanced meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee explicitly says that aiming for healthy, balanced meals is a shared value among themselves and their social contacts."
+  },
+  {
+    "stance_1": "I experimented with vegetarianism as a teenager",
+    "stance_2": "I was curious about being vegetarian",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states curiosity about vegetarianism as the motivation for experimenting with it as a teenager."
+  },
+  {
+    "stance_1": "I sometimes eat vegetarian meals",
+    "stance_2": "I like balanced, healthy meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Choosing vegetarian meals is explicitly connected to the preference for balanced, healthy meals."
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I eat meat every day",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee expresses concern about animal welfare while also eating meat daily, which creates a direct conflict between their behavior and ethical concerns."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I try to eat ethically sourced meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The concern for animal welfare explicitly motivates the effort to eat ethically sourced meat."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I have financial limitations",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee says financial limitations sometimes prevent them from acting on their animal welfare concerns through ethical sourcing."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I consider buying meat directly from farms",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Considering buying meat directly from farms is a way to address animal welfare concerns."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I feel meat gives me the best nutrition",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states their daily meat eating is motivated by perceived nutritional benefits."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I feel energized and healthy from eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The daily meat consumption is explicitly linked to feeling energized and healthy."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I have financial limitations",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Financial limitations may make meat a default, routine option, though this is only weakly supported in the transcript."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I try to eat ethically sourced meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 45,
+    "justification": "Eating meat every day can conflict with efforts to always eat ethically sourced meat, given ethical sourcing is not always possible."
+  },
+  {
+    "stance_1": "I feel meat gives me the best nutrition",
+    "stance_2": "I feel energized and healthy from eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly links feeling healthy and energized to the nutritional value of meat."
+  },
+  {
+    "stance_1": "I feel meat gives me the best nutrition",
+    "stance_2": "My family enjoys eating meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The family's enjoyment of meat is implicitly supported by their shared belief in its nutritional value."
+  },
+  {
+    "stance_1": "I feel meat gives me the best nutrition",
+    "stance_2": "My family values nutritional benefits of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "It is stated that both the interviewee and family value meat for its nutrition."
+  },
+  {
+    "stance_1": "I feel meat gives me the best nutrition",
+    "stance_2": "I try to eat ethically sourced meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Believing meat gives the best nutrition may make reducing or restricting meat intake (for ethical reasons) less likely."
+  },
+  {
+    "stance_1": "I feel energized and healthy from eating meat",
+    "stance_2": "My family enjoys eating meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "The family's enjoyment of meat and the interviewee's positive feelings from eating meat likely reinforce each other."
+  },
+  {
+    "stance_1": "I feel energized and healthy from eating meat",
+    "stance_2": "My family values nutritional benefits of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The family also values the nutritional and energizing effects of meat, as does the interviewee."
+  },
+  {
+    "stance_1": "I feel energized and healthy from eating meat",
+    "stance_2": "I try to eat ethically sourced meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Feeling energized from meat may make prioritizing ethical sourcing more challenging if it restricts options."
+  },
+  {
+    "stance_1": "I have financial limitations",
+    "stance_2": "I try to eat ethically sourced meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that financial limitations sometimes prevent them from eating ethically sourced meat."
+  },
+  {
+    "stance_1": "My family enjoys eating meat",
+    "stance_2": "My family values nutritional benefits of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The family enjoys eating meat and values its nutritional benefits, which are explicitly linked in the transcript."
+  }
+]

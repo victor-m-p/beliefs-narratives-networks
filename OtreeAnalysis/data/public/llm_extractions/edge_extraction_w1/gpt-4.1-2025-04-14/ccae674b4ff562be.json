@@ -1,0 +1,90 @@
+[
+  {
+    "stance_1": "Friends and family eat less meat than me",
+    "stance_2": "Friends and family eat more plant-based meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "It is explicitly stated that friends and family both eat less meat and more plant-based meals, indicating a supportive relationship."
+  },
+  {
+    "stance_1": "Friends and family eat less meat than me",
+    "stance_2": "I eat meat for one meal daily",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee eats meat daily, while friends and family eat less meat, which is a direct contrast."
+  },
+  {
+    "stance_1": "Friends and family eat more plant-based meals",
+    "stance_2": "I eat meat for one meal daily",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating more plant-based meals is in conflict with eating meat daily."
+  },
+  {
+    "stance_1": "Friends and family get sick of eating meat",
+    "stance_2": "Friends and family eat less meat than me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Friends and family eat less meat because they get sick of eating meat, which is explicitly stated."
+  },
+  {
+    "stance_1": "Friends and family feel too full from meat",
+    "stance_2": "Friends and family eat less meat than me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Friends and family eat less meat because they feel too full when they eat meat, as explicitly stated."
+  },
+  {
+    "stance_1": "I eat meat for one meal daily",
+    "stance_2": "I feel energized when I eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee eats meat daily and feels energized when doing so, indicating a direct supportive relationship."
+  },
+  {
+    "stance_1": "I eat meat for one meal daily",
+    "stance_2": "I feel fatigued without meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Eating meat daily is supported by the interviewee's belief that not eating meat leads to fatigue."
+  },
+  {
+    "stance_1": "I eat meat for one meal daily",
+    "stance_2": "I feel most healthy when I eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Eating meat daily is justified by the feeling of being most healthy when eating meat."
+  },
+  {
+    "stance_1": "I feel energized when I eat meat",
+    "stance_2": "I feel most healthy when I eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Feeling energized and feeling most healthy when eating meat are closely related and mutually supportive."
+  },
+  {
+    "stance_1": "I feel fatigued without meat",
+    "stance_2": "I feel most healthy when I eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Not eating meat leads to fatigue, reinforcing the belief that eating meat leads to feeling most healthy."
+  },
+  {
+    "stance_1": "I feel energized when I eat meat",
+    "stance_2": "I feel fatigued without meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Feeling energized with meat and fatigued without meat are explicitly contrasted and mutually supportive stances."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "stance_1": "I am motivated by animal welfare concerns",
+    "stance_2": "I feel empathy for animals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly links their empathy for animals to being motivated by animal welfare concerns."
+  },
+  {
+    "stance_1": "I am motivated by animal welfare concerns",
+    "stance_2": "I try to minimize meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee states that animal welfare motivates their efforts to minimize meat consumption."
+  },
+  {
+    "stance_1": "I crave the taste of meat",
+    "stance_2": "I try to minimize meat consumption",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee expresses a desire to minimize meat consumption but also admits to strong cravings for the taste, creating a conflict."
+  },
+  {
+    "stance_1": "I enjoy the flavor of meat",
+    "stance_2": "I try to minimize meat consumption",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Enjoying the flavor of meat is in direct tension with the effort to minimize consumption."
+  },
+  {
+    "stance_1": "I pick out chunks of meat from food",
+    "stance_2": "I try to minimize meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Picking out chunks of meat is a concrete behavior that supports the stance of minimizing meat consumption."
+  },
+  {
+    "stance_1": "I crave the taste of meat",
+    "stance_2": "I enjoy the flavor of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Craving the taste and enjoying the flavor are mutually reinforcing and explicitly connected in the interview."
+  },
+  {
+    "stance_1": "I am motivated by animal welfare concerns",
+    "stance_2": "I crave the taste of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee's motivation to reduce meat for animal welfare is in conflict with their cravings for meat."
+  },
+  {
+    "stance_1": "I am motivated by animal welfare concerns",
+    "stance_2": "I enjoy the flavor of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Enjoying meat flavor is in conflict with being motivated by animal welfare to reduce meat consumption."
+  },
+  {
+    "stance_1": "I feel empathy for animals",
+    "stance_2": "I crave the taste of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Empathy for animals creates sadness about eating meat, which conflicts with cravings for meat."
+  },
+  {
+    "stance_1": "I feel empathy for animals",
+    "stance_2": "I try to minimize meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Empathy for animals is part of the motivation to minimize meat consumption."
+  },
+  {
+    "stance_1": "I am motivated by animal welfare concerns",
+    "stance_2": "I pick out chunks of meat from food",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Motivation by animal welfare concerns leads to picking out meat from food."
+  },
+  {
+    "stance_1": "I feel empathy for animals",
+    "stance_2": "I pick out chunks of meat from food",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Empathy for animals likely supports the behavior of picking out meat chunks, as both are tied to reluctance to eat meat."
+  }
+]

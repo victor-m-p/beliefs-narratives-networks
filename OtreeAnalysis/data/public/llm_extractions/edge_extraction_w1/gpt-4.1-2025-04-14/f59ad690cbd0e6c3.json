@@ -1,0 +1,74 @@
+[
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I eat meat once or twice a week",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Concern for animal welfare is in tension with eating meat, even if infrequently."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I try to avoid red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Avoiding red meat is partly motivated by concern for animals, as stated in the transcript."
+  },
+  {
+    "stance_1": "I am concerned about health",
+    "stance_2": "I eat meat once or twice a week",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Concern for health motivates reduction but not total avoidance, so there is some conflict."
+  },
+  {
+    "stance_1": "I am concerned about health",
+    "stance_2": "I try to avoid red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Explicitly stated that avoiding red meat is motivated by health concerns."
+  },
+  {
+    "stance_1": "I am concerned about the environment",
+    "stance_2": "I try to avoid red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Avoiding red meat is motivated in part by environmental concerns as per the transcript."
+  },
+  {
+    "stance_1": "I eat meat once or twice a week",
+    "stance_2": "I try to avoid red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Eating meat only occasionally and especially avoiding red meat are closely linked behaviors."
+  },
+  {
+    "stance_1": "I feel alienated reducing meat",
+    "stance_2": "My friends and family eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Feeling alienated is explicitly described as resulting from being the only one reducing meat among friends and family."
+  },
+  {
+    "stance_1": "I feel alienated reducing meat",
+    "stance_2": "I try to avoid red meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The choice to avoid red meat contributes to the feeling of alienation, though not stated directly."
+  },
+  {
+    "stance_1": "I feel alienated reducing meat",
+    "stance_2": "I eat meat once or twice a week",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Eating much less meat than peers adds to feelings of alienation."
+  }
+]

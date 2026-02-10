@@ -1,0 +1,90 @@
+[
+  {
+    "stance_1": "I eat meat for convenience",
+    "stance_2": "I eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states they eat meat regularly and mentions convenience as a reason for doing so."
+  },
+  {
+    "stance_1": "I eat meat for protein",
+    "stance_2": "I eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly mentions protein as a motivation for eating meat regularly."
+  },
+  {
+    "stance_1": "I eat meat for convenience",
+    "stance_2": "I include meat for protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Both convenience and protein are given as reasons for including meat in the diet."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I try to balance meat with vegetables",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee states they eat meat regularly but also try to balance it with vegetables."
+  },
+  {
+    "stance_1": "I enjoy variety in my diet",
+    "stance_2": "I try to balance meat with vegetables",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Balancing meat with vegetables is motivated by the desire for variety in the diet, as stated by the interviewee."
+  },
+  {
+    "stance_1": "I focus on overall dietary balance",
+    "stance_2": "I try to balance meat with vegetables",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly says they focus on balance and try to balance meat with vegetables."
+  },
+  {
+    "stance_1": "I focus on overall dietary balance",
+    "stance_2": "I enjoy variety in my diet",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee connects enjoyment of variety with focusing on overall dietary balance."
+  },
+  {
+    "stance_1": "I try to eat vegetables for health",
+    "stance_2": "I try to balance meat with vegetables",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee balances meat with vegetables specifically for health reasons."
+  },
+  {
+    "stance_1": "I try to eat vegetables for health",
+    "stance_2": "I focus on overall dietary balance",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Eating vegetables for health supports the overall focus on dietary balance."
+  },
+  {
+    "stance_1": "I am more mindful about portion sizes",
+    "stance_2": "I focus on overall dietary balance",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Being mindful of portion sizes is an aspect of focusing on dietary balance, as influenced by conversations with others."
+  },
+  {
+    "stance_1": "I am more mindful about portion sizes",
+    "stance_2": "I try to balance meat with vegetables",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Mindfulness about portion sizes is connected to balancing meat with vegetables, based on the interviewee's reflection on conversations."
+  }
+]

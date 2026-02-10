@@ -1,0 +1,114 @@
+[
+  {
+    "stance_1": "I ate less meat in high school",
+    "stance_2": "I eat meat most days",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The stance of eating less meat in high school directly contrasts with the current habit of eating meat most days."
+  },
+  {
+    "stance_1": "I ate less meat in high school",
+    "stance_2": "I try to eat healthy",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Reducing meat intake in high school could be associated with a motivation to eat healthier, though this is not directly stated."
+  },
+  {
+    "stance_1": "I ate more vegetarian meals in a past relationship",
+    "stance_2": "I eat meat most days",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating more vegetarian meals in a past relationship is in tension with the current habit of eating meat most days."
+  },
+  {
+    "stance_1": "I ate more vegetarian meals in a past relationship",
+    "stance_2": "I ate less meat in high school",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Both stances reflect periods of reduced meat consumption, suggesting a supportive relationship."
+  },
+  {
+    "stance_1": "I eat meat for low carb protein",
+    "stance_2": "I eat meat most days",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Eating meat for low carb protein supports the behavior of eating meat most days."
+  },
+  {
+    "stance_1": "I eat meat for low carb protein",
+    "stance_2": "I try to eat healthy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Choosing meat for low carb protein aligns with the motivation of trying to eat healthy."
+  },
+  {
+    "stance_1": "I sometimes find vegetarian meals more interesting",
+    "stance_2": "I eat meat most days",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Finding vegetarian meals more interesting can conflict with the habit of eating meat most days, though this is only implied."
+  },
+  {
+    "stance_1": "I sometimes find vegetarian meals more interesting",
+    "stance_2": "I ate more vegetarian meals in a past relationship",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Enjoying vegetarian meals may have supported eating more vegetarian meals during the past relationship."
+  },
+  {
+    "stance_1": "I try to eat healthy",
+    "stance_2": "I eat meat most days",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Trying to eat healthy may conflict with eating meat most days, depending on individual beliefs about health; this is implied but not explicit."
+  },
+  {
+    "stance_1": "My family eats similar amounts of meat",
+    "stance_2": "I eat meat most days",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states that their family eats similar amounts of meat, reinforcing their own meat-eating frequency."
+  },
+  {
+    "stance_1": "My family eats similar amounts of meat",
+    "stance_2": "Some family eat more vegetarian meals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 45,
+    "justification": "Some family eating more vegetarian meals contrasts with the general trend of eating similar amounts of meat."
+  },
+  {
+    "stance_1": "Some family eat more vegetarian meals",
+    "stance_2": "Social contacts choose vegetarian for environment",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states that some family eat more vegetarian meals for the environment, showing direct support."
+  },
+  {
+    "stance_1": "Some family eat more vegetarian meals",
+    "stance_2": "Social contacts choose vegetarian for health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states that some family eat more vegetarian meals for health reasons, showing direct support."
+  },
+  {
+    "stance_1": "Social contacts choose vegetarian for environment",
+    "stance_2": "Social contacts choose vegetarian for health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee states these are both motivations for the same group, suggesting these reasons are often aligned."
+  }
+]

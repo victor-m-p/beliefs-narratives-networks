@@ -1,0 +1,122 @@
+[
+  {
+    "stance_1": "Getting protein is easier with meat",
+    "stance_2": "I feel meat is essential",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The belief that getting protein is easier with meat directly supports the belief that meat is essential."
+  },
+  {
+    "stance_1": "Getting protein is easier with meat",
+    "stance_2": "I feel weak without meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Feeling weak without meat is explicitly justified by the perceived ease of getting protein from meat."
+  },
+  {
+    "stance_1": "Getting protein is easier with meat",
+    "stance_2": "I eat every type of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Eating every type of meat is plausibly supported by the belief that meat is the easiest source of protein."
+  },
+  {
+    "stance_1": "Getting protein is easier with meat",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Enjoyment of meat may be supported by the belief that it provides easy protein, but this is only implicit."
+  },
+  {
+    "stance_1": "Getting protein is easier with meat",
+    "stance_2": "I am open to trying new meats",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Being open to new meats may be supported by the idea that all meat is a good protein source, though the link is weak and implicit."
+  },
+  {
+    "stance_1": "I eat every type of meat",
+    "stance_2": "I am open to trying new meats",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Explicitly, the interviewee states both that they eat all types of meat and are open to trying more, showing strong support."
+  },
+  {
+    "stance_1": "I eat every type of meat",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Enjoyment of meat supports the behavior of eating every type of meat."
+  },
+  {
+    "stance_1": "I eat every type of meat",
+    "stance_2": "I feel meat is essential",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The belief that meat is essential supports the behavior of eating every type of meat."
+  },
+  {
+    "stance_1": "I eat every type of meat",
+    "stance_2": "I feel weak without meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Feeling weak without meat supports the habitual consumption of all meat types."
+  },
+  {
+    "stance_1": "I am open to trying new meats",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Enjoyment of meat explicitly supports openness to trying new meats."
+  },
+  {
+    "stance_1": "I am open to trying new meats",
+    "stance_2": "I feel meat is essential",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "If meat is considered essential, being open to new meats is plausibly supported, though not directly stated."
+  },
+  {
+    "stance_1": "I am open to trying new meats",
+    "stance_2": "I feel weak without meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Feeling weak without meat may support trying new meats, though the evidence is thin."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I feel meat is essential",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Enjoyment of meat is supported by the belief that it is essential, though this is implicit."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I feel weak without meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Feeling weak without meat may make eating meat more enjoyable, though the link is implicit."
+  },
+  {
+    "stance_1": "I feel meat is essential",
+    "stance_2": "I feel weak without meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The belief that meat is essential is explicitly tied to feeling weak without it."
+  }
+]

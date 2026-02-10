@@ -1,0 +1,98 @@
+[
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I dislike animals being kept in poor conditions",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee directly links their concern for animal welfare with a dislike of poor conditions for animals."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoying eating meat is in mild tension with concern for animal welfare, though the interviewee reconciles this through preference for humane treatment."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "My family eats meat regularly",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Family tradition of eating meat is in some tension with the concern for animal welfare, though the tension is partly resolved by a shared preference for humane treatment."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I want to get more protein",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The desire for more protein through meat is in mild conflict with animal welfare concerns, as acknowledged by the interviewee."
+  },
+  {
+    "stance_1": "I dislike animals being kept in poor conditions",
+    "stance_2": "My family eats meat regularly",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Family tradition of eating meat could be in tension with dislike of poor animal conditions, but both share a concern for humane treatment."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I want to get more protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The enjoyment of eating meat and desire for more protein reinforce each other as motivations for meat consumption."
+  },
+  {
+    "stance_1": "I eat chicken often",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Eating chicken often directly supports the stated enjoyment of eating meat."
+  },
+  {
+    "stance_1": "I eat chicken often",
+    "stance_2": "I want to get more protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating chicken often supports the goal of increasing protein intake."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "My family eats meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Family tradition of eating meat supports enjoyment of meat."
+  },
+  {
+    "stance_1": "I eat chicken often",
+    "stance_2": "My family eats meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Family tradition plausibly supports frequent chicken consumption."
+  },
+  {
+    "stance_1": "Eating meat is not convenient",
+    "stance_2": "I want to get more protein",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Desire for more protein is undermined by the inconvenience of eating meat, as discussed by the interviewee."
+  },
+  {
+    "stance_1": "Eating meat is not convenient",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "The enjoyment of eating meat is somewhat in conflict with the stated inconvenience of eating meat."
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "stance_1": "I aim to eat less meat",
+    "stance_2": "I avoid meat at home",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee states that they avoid meat at home as a way to support their aim to eat less meat."
+  },
+  {
+    "stance_1": "I aim to eat less meat",
+    "stance_2": "I cook meat in small portions",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Cooking meat in small portions is mentioned as a strategy for reducing overall meat consumption."
+  },
+  {
+    "stance_1": "I aim to eat less meat",
+    "stance_2": "I eat meat when traveling",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Eating meat when traveling conflicts with the general aim to eat less meat, though the interviewee frames it as a compromise."
+  },
+  {
+    "stance_1": "I aim to eat less meat",
+    "stance_2": "I enjoy vegetarian meals more than meat meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Finding vegetarian meals more enjoyable supports the interviewee's aim to eat less meat."
+  },
+  {
+    "stance_1": "I aim to eat less meat",
+    "stance_2": "I seek new vegetarian recipes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Seeking new vegetarian recipes is described as part of the journey to reducing meat intake."
+  },
+  {
+    "stance_1": "I aim to eat less meat",
+    "stance_2": "I believe a plant-based diet is healthier",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Belief in the health benefits of plant-based diets motivates the aim to eat less meat."
+  },
+  {
+    "stance_1": "I aim to eat less meat",
+    "stance_2": "I am concerned about animal welfare",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Concern for animal welfare is a cited motivation for aiming to eat less meat."
+  },
+  {
+    "stance_1": "I aim to eat less meat",
+    "stance_2": "I am concerned about climate change",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Concern about climate change is explicitly mentioned as a motivation to reduce meat consumption."
+  },
+  {
+    "stance_1": "I aim to eat less meat",
+    "stance_2": "I educate others about plant-based protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee's efforts to educate others are part of their broader engagement with reducing meat consumption."
+  },
+  {
+    "stance_1": "I avoid meat at home",
+    "stance_2": "I cook meat in small portions",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "When meat is cooked at home, it is only in small portions, supporting the avoidance of meat."
+  },
+  {
+    "stance_1": "I avoid meat at home",
+    "stance_2": "I seek new vegetarian recipes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Seeking new vegetarian recipes helps avoid meat at home."
+  },
+  {
+    "stance_1": "I avoid meat at home",
+    "stance_2": "I enjoy vegetarian meals more than meat meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Enjoying vegetarian meals more supports the avoidance of meat at home."
+  },
+  {
+    "stance_1": "I cook meat in small portions",
+    "stance_2": "I enjoy vegetarian meals more than meat meals",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Preferring vegetarian meals leads to meat being a minor component when it is included."
+  },
+  {
+    "stance_1": "I cook meat in small portions",
+    "stance_2": "I seek new vegetarian recipes",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Cooking less meat correlates with seeking more vegetarian options."
+  },
+  {
+    "stance_1": "I enjoy vegetarian meals more than meat meals",
+    "stance_2": "I seek new vegetarian recipes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Enjoyment of vegetarian meals reinforces the motivation to find new vegetarian recipes."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I am concerned about climate change",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Both concerns are cited as ethical motivations for reducing meat consumption."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I believe a plant-based diet is healthier",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Health and animal welfare are presented as parallel motivations for plant-based eating."
+  },
+  {
+    "stance_1": "I am concerned about climate change",
+    "stance_2": "I believe a plant-based diet is healthier",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Both health and environmental benefits are cited as reasons for plant-based eating."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I cook meat in small portions",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 45,
+    "justification": "Concern for animal welfare implicitly supports reducing the amount of meat used."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I avoid meat at home",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Animal welfare concern is a stated motivation for avoiding meat at home."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I seek new vegetarian recipes",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Seeking vegetarian recipes is consistent with animal welfare motivations."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I enjoy vegetarian meals more than meat meals",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Preference for vegetarian meals aligns with concern for animal welfare."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I educate others about plant-based protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Educating others about plant-based protein is part of the interviewee's animal welfare-driven advocacy."
+  },
+  {
+    "stance_1": "I am concerned about climate change",
+    "stance_2": "I cook meat in small portions",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Concern for climate change implicitly supports using less meat in meals."
+  },
+  {
+    "stance_1": "I am concerned about climate change",
+    "stance_2": "I avoid meat at home",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly connects climate change concern to reducing meat at home."
+  },
+  {
+    "stance_1": "I am concerned about climate change",
+    "stance_2": "I seek new vegetarian recipes",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Seeking vegetarian recipes aligns with efforts to address climate change."
+  },
+  {
+    "stance_1": "I am concerned about climate change",
+    "stance_2": "I enjoy vegetarian meals more than meat meals",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoying vegetarian meals is compatible with climate change motivations."
+  },
+  {
+    "stance_1": "I am concerned about climate change",
+    "stance_2": "I educate others about plant-based protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Interviewee's concern for climate is part of their advocacy when educating others."
+  },
+  {
+    "stance_1": "I believe a plant-based diet is healthier",
+    "stance_2": "I avoid meat at home",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Belief in health benefits supports avoiding meat at home."
+  },
+  {
+    "stance_1": "I believe a plant-based diet is healthier",
+    "stance_2": "I cook meat in small portions",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Belief in health benefits implies using less meat in cooking."
+  },
+  {
+    "stance_1": "I believe a plant-based diet is healthier",
+    "stance_2": "I seek new vegetarian recipes",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Seeking new vegetarian recipes is implicitly supported by health motivations."
+  },
+  {
+    "stance_1": "I believe a plant-based diet is healthier",
+    "stance_2": "I enjoy vegetarian meals more than meat meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Enjoyment of vegetarian meals is explicitly linked to health motivations."
+  },
+  {
+    "stance_1": "I believe a plant-based diet is healthier",
+    "stance_2": "I educate others about plant-based protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Health motivations underlie the interviewee's educational efforts regarding plant-based proteins."
+  },
+  {
+    "stance_1": "I educate others about plant-based protein",
+    "stance_2": "Meat eating is a cultural norm among my social contacts",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee describes their education efforts as a reaction to the cultural norm of meat eating."
+  },
+  {
+    "stance_1": "I educate others about plant-based protein",
+    "stance_2": "Social contacts believe meat is necessary for protein",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that they educate others because of the belief that meat is necessary for protein."
+  },
+  {
+    "stance_1": "Meat eating is a cultural norm among my social contacts",
+    "stance_2": "Social contacts believe meat is necessary for protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The belief that meat is necessary for protein is described as part of the cultural norm."
+  }
+]

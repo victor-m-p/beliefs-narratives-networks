@@ -1,0 +1,50 @@
+[
+  {
+    "stance_1": "I am a picky eater",
+    "stance_2": "I mostly eat chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee states being a picky eater, which supports them mostly eating chicken as a preferred choice."
+  },
+  {
+    "stance_1": "I am a picky eater",
+    "stance_2": "I eat beef and bacon occasionally",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Being a picky eater supports only occasionally eating beef and bacon, as these are less preferred choices."
+  },
+  {
+    "stance_1": "I am a picky eater",
+    "stance_2": "Meat choices depend on availability",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee says their pickiness and the availability of what they like largely determine their meat choices."
+  },
+  {
+    "stance_1": "I eat beef and bacon occasionally",
+    "stance_2": "I mostly eat chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The preference for chicken and only occasional consumption of beef and bacon are consistent with stated eating habits."
+  },
+  {
+    "stance_1": "I mostly eat chicken",
+    "stance_2": "Meat choices depend on availability",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly states that availability supports mostly eating chicken."
+  },
+  {
+    "stance_1": "I eat beef and bacon occasionally",
+    "stance_2": "Meat choices depend on availability",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The occasional eating of beef and bacon is supported by the interviewee's statement that availability influences their choices."
+  }
+]

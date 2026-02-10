@@ -1,0 +1,202 @@
+[
+  {
+    "stance_1": "I cook large batches of meat for convenience",
+    "stance_2": "I have limited time for cooking",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee states that cooking large batches of meat helps save time, directly supporting the stance about limited time for cooking."
+  },
+  {
+    "stance_1": "I cook large batches of meat for convenience",
+    "stance_2": "Meat is convenient for meal prep",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Cooking large batches of meat is described as convenient for meal prep, explicitly linking the two stances."
+  },
+  {
+    "stance_1": "I eat chicken, fish, and seafood",
+    "stance_2": "I rarely eat pork and beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee clearly states a preference for chicken, fish, and seafood while rarely eating pork and beef."
+  },
+  {
+    "stance_1": "I eat chicken, fish, and seafood",
+    "stance_2": "Pork and beef upset my stomach",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "The interviewee avoids pork and beef due to stomach issues, supporting the preference for chicken, fish, and seafood."
+  },
+  {
+    "stance_1": "I eat chicken, fish, and seafood",
+    "stance_2": "My girlfriend prefers meals with meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee states eating meat more often when with his girlfriend, who prefers meat, supporting his choice to eat chicken, fish, and seafood."
+  },
+  {
+    "stance_1": "I have limited time for cooking",
+    "stance_2": "Meat is convenient for meal prep",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Limited time for cooking is a key reason meat is considered convenient for meal prep."
+  },
+  {
+    "stance_1": "I have limited time for cooking",
+    "stance_2": "I want to build muscle",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee mentions time constraints and building muscle as overlapping reasons for choosing meat."
+  },
+  {
+    "stance_1": "I want to build muscle",
+    "stance_2": "Meat is convenient for meal prep",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The convenience of meat for meal prep supports the goal of building muscle by making protein more accessible."
+  },
+  {
+    "stance_1": "I want to build muscle",
+    "stance_2": "Meat is more affordable than produce",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "The affordability of meat supports regular consumption, which aligns with the goal of building muscle, though this is only implied."
+  },
+  {
+    "stance_1": "I want to build muscle",
+    "stance_2": "I ate less meat while married to a semi-vegetarian",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states he eats more meat now to build muscle, while he ate less meat during his marriage, indicating conflict."
+  },
+  {
+    "stance_1": "I want to build muscle",
+    "stance_2": "I eat chicken, fish, and seafood",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Eating chicken, fish, and seafood is explicitly linked to building muscle by the interviewee."
+  },
+  {
+    "stance_1": "I want to build muscle",
+    "stance_2": "Pork and beef upset my stomach",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The avoidance of pork and beef due to stomach issues supports the focus on other meats for muscle building."
+  },
+  {
+    "stance_1": "I ate less meat while married to a semi-vegetarian",
+    "stance_2": "My girlfriend prefers meals with meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee's meat consumption increased with his girlfriend and decreased during marriage to a semi-vegetarian, showing a direct conflict."
+  },
+  {
+    "stance_1": "I ate less meat while married to a semi-vegetarian",
+    "stance_2": "I eat chicken, fish, and seafood",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Despite eating less meat overall, the interviewee still consumed chicken, fish, and seafood, supporting this choice."
+  },
+  {
+    "stance_1": "I ate less meat while married to a semi-vegetarian",
+    "stance_2": "I rarely eat pork and beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee ate less pork and beef while married to a semi-vegetarian, supporting the continued rarity of these meats in his diet."
+  },
+  {
+    "stance_1": "Meat is convenient for meal prep",
+    "stance_2": "Meat is more affordable than produce",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Meat's affordability is cited as a reason for its convenience in meal prep."
+  },
+  {
+    "stance_1": "Meat is more affordable than produce",
+    "stance_2": "Produce is expensive in the US",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Meat affordability is directly contrasted with the high price of produce in the US."
+  },
+  {
+    "stance_1": "Produce is expensive in the US",
+    "stance_2": "I cook large batches of meat for convenience",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "High produce prices implicitly support cooking more meat for convenience."
+  },
+  {
+    "stance_1": "Seafood is cheap and fresh in Thailand",
+    "stance_2": "I eat chicken, fish, and seafood",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Interviewee eats more seafood when in Thailand due to affordability and freshness."
+  },
+  {
+    "stance_1": "Seafood is cheap and fresh in Thailand",
+    "stance_2": "Produce is expensive in the US",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Produce is expensive in the US, while seafood is cheap in Thailand, highlighting a contrast in food choices based on geography."
+  },
+  {
+    "stance_1": "Friends and family are heavy meat eaters",
+    "stance_2": "I eat chicken, fish, and seafood",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Friends and family being heavy meat eaters supports an environment where eating meat, including chicken, fish, and seafood, is common, though the interviewee makes selective choices."
+  },
+  {
+    "stance_1": "Friends and family are heavy meat eaters",
+    "stance_2": "I rarely eat pork and beef",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee often avoids pork and beef despite friends and family eating these meats, indicating a conflict."
+  },
+  {
+    "stance_1": "My ex-wife viewed pork and beef as dirty meats",
+    "stance_2": "I rarely eat pork and beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The ex-wife's view of pork and beef as 'dirty' supports the interviewee's avoidance of these meats."
+  },
+  {
+    "stance_1": "My ex-wife viewed pork and beef as dirty meats",
+    "stance_2": "I ate less meat while married to a semi-vegetarian",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The ex-wife's stance about pork and beef aligns with lower meat consumption during the marriage."
+  },
+  {
+    "stance_1": "Pork and beef upset my stomach",
+    "stance_2": "I rarely eat pork and beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "The reason for rarely eating pork and beef is explicitly attributed to stomach discomfort."
+  }
+]

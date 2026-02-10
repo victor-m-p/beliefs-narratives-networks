@@ -1,0 +1,122 @@
+[
+  {
+    "stance_1": "Eating meat is a habit for me",
+    "stance_2": "I usually eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that eating meat is a habit and that they usually eat meat."
+  },
+  {
+    "stance_1": "I try to get plenty of protein",
+    "stance_2": "I usually eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee says they eat meat to get plenty of protein, directly linking the two stances."
+  },
+  {
+    "stance_1": "Eating meat is a habit for me",
+    "stance_2": "Meals growing up included meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee states that their habit of eating meat is shaped by meals growing up that included meat."
+  },
+  {
+    "stance_1": "I usually eat meat",
+    "stance_2": "Meals growing up included meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee's habit of eating meat now is explicitly connected to growing up with meals that included meat."
+  },
+  {
+    "stance_1": "Eating meat is a habit for me",
+    "stance_2": "My family and friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee describes both their own and their social group's regular meat-eating as habitual."
+  },
+  {
+    "stance_1": "My family and friends eat meat regularly",
+    "stance_2": "My social contacts eat meat out of habit",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly connects their social group's regular meat-eating to habit."
+  },
+  {
+    "stance_1": "Eating meat is a habit for me",
+    "stance_2": "My social contacts eat meat out of habit",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states both themselves and their social contacts eat meat out of habit."
+  },
+  {
+    "stance_1": "I am eating less food overall",
+    "stance_2": "I am eating less meat now",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The reduction in overall food intake directly supports eating less meat now."
+  },
+  {
+    "stance_1": "I am eating less meat now",
+    "stance_2": "I am trying to eat less red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating less meat now is explicitly linked to trying to eat less red meat."
+  },
+  {
+    "stance_1": "I am trying to eat less red meat",
+    "stance_2": "I believe white meat is healthier",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The move to less red meat is explicitly motivated by the belief that white meat is healthier."
+  },
+  {
+    "stance_1": "I am eating less meat now",
+    "stance_2": "I believe white meat is healthier",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Eating less meat and choosing healthier options is motivated by the belief in white meat's health benefits."
+  },
+  {
+    "stance_1": "I try to get plenty of protein",
+    "stance_2": "I am eating less meat now",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Eating less meat could make it harder to get plenty of protein, creating a potential conflict."
+  },
+  {
+    "stance_1": "I enjoy having meat as part of my meal",
+    "stance_2": "I am eating less meat now",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoying meat as part of the meal is in tension with the reduction of meat consumption."
+  },
+  {
+    "stance_1": "I enjoy having meat as part of my meal",
+    "stance_2": "I usually eat meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Enjoying meat as part of a meal supports the habit of usually eating meat."
+  },
+  {
+    "stance_1": "I enjoy having meat as part of my meal",
+    "stance_2": "Eating meat is a habit for me",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Enjoying meat likely reinforces the habit of eating meat."
+  }
+]

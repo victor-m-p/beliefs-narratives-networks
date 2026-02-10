@@ -1,0 +1,138 @@
+[
+  {
+    "stance_1": "I aim to eat smaller portions",
+    "stance_2": "I want to maintain good health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly links eating smaller portions to health motivations."
+  },
+  {
+    "stance_1": "I alternate beef and turkey weekly",
+    "stance_2": "I want to maintain good health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Alternating beef and turkey is explicitly tied to health motivations and dietary management."
+  },
+  {
+    "stance_1": "I eat chicken daily",
+    "stance_2": "I want to maintain good health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that eating chicken daily is part of making health-conscious choices."
+  },
+  {
+    "stance_1": "I have health challenges",
+    "stance_2": "I want to maintain good health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The desire to maintain good health is directly motivated by the presence of health challenges."
+  },
+  {
+    "stance_1": "I use an air fryer for chicken",
+    "stance_2": "I want to maintain good health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Using an air fryer instead of frying is explicitly tied to health motivations."
+  },
+  {
+    "stance_1": "I occasionally eat fried chicken as a treat",
+    "stance_2": "I want to maintain good health",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Occasionally eating fried chicken as a treat goes against the stated health motivations."
+  },
+  {
+    "stance_1": "I occasionally eat fried chicken as a treat",
+    "stance_2": "I use an air fryer for chicken",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Occasionally eating fried chicken as a treat is in tension with usually using an air fryer for health reasons."
+  },
+  {
+    "stance_1": "I have fond memories of family meals with meat",
+    "stance_2": "Southern cuisine was a staple growing up",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Fond memories are explicitly linked to growing up with Southern cuisine."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I have fond memories of family meals with meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The enjoyment of eating meat is explicitly linked to fond family memories involving meat."
+  },
+  {
+    "stance_1": "I do not feel guilty about eating meat",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Not feeling guilty about eating meat supports the enjoyment of it."
+  },
+  {
+    "stance_1": "I eat processed meats like hot dogs",
+    "stance_2": "I want to maintain good health",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee acknowledges processed meats are less healthy, conflicting with the health goal."
+  },
+  {
+    "stance_1": "I have health challenges",
+    "stance_2": "My family has health challenges",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee and their family both having health challenges is explicitly stated and mutually reinforcing."
+  },
+  {
+    "stance_1": "My family has health challenges",
+    "stance_2": "My family reduced fried and greasy foods",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Family members' health challenges are explicitly said to have motivated reduced consumption of fried and greasy foods."
+  },
+  {
+    "stance_1": "I have health challenges",
+    "stance_2": "I want to maintain good health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Health challenges motivate the desire to maintain good health."
+  },
+  {
+    "stance_1": "I want to maintain good health",
+    "stance_2": "My family reduced fried and greasy foods",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Reducing fried and greasy foods is directly motivated by health concerns, both for the interviewee and their family."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I do not feel guilty about eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Enjoyment of eating meat is supported by the absence of guilt."
+  },
+  {
+    "stance_1": "I aim to eat smaller portions",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoyment of eating meat may conflict with the intention to restrict portion sizes, though the evidence is moderate."
+  }
+]

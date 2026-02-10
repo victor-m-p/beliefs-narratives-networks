@@ -1,0 +1,82 @@
+[
+  {
+    "stance_1": "I am open to changing my habits for health",
+    "stance_2": "I think a balanced meal is healthier",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee directly states being open to changing habits because they think a balanced meal is healthier."
+  },
+  {
+    "stance_1": "I usually eat mostly meat",
+    "stance_2": "Meat tastes better to me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that taste is a reason for usually eating mostly meat."
+  },
+  {
+    "stance_1": "I usually eat mostly meat",
+    "stance_2": "I want more protein from meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that getting more protein is a motivation for eating mostly meat."
+  },
+  {
+    "stance_1": "I usually eat mostly meat",
+    "stance_2": "Most family members eat more meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee mentions that most family members eat more meat, supporting their own pattern of meat consumption."
+  },
+  {
+    "stance_1": "I usually eat mostly meat",
+    "stance_2": "I think a balanced meal is healthier",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The pattern of mostly eating meat is in tension with the belief that a balanced meal is healthier, though this is not directly stated."
+  },
+  {
+    "stance_1": "I usually eat mostly meat",
+    "stance_2": "I am open to changing my habits for health",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Being open to change for health implicitly conflicts with current habit of mostly eating meat."
+  },
+  {
+    "stance_1": "I usually eat mostly meat",
+    "stance_2": "I will eat more vegetables if they taste better",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Current habit of eating mostly meat is implicitly in tension with willingness to eat more vegetables if they taste better."
+  },
+  {
+    "stance_1": "I think a balanced meal is healthier",
+    "stance_2": "I will eat more vegetables if they taste better",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The desire for health through a balanced meal supports willingness to eat more vegetables if they are appealing."
+  },
+  {
+    "stance_1": "I am open to changing my habits for health",
+    "stance_2": "I will eat more vegetables if they taste better",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Openness to change for health is explicitly linked to willingness to eat more vegetables if they taste better."
+  },
+  {
+    "stance_1": "Meat tastes better to me",
+    "stance_2": "I will eat more vegetables if they taste better",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Preference for meat's taste is in explicit tension with willingness to eat more vegetables if vegetables taste better."
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I love the taste of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states feeling contradictory because they love the taste of meat but are a proponent for animal rights."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I seek ethically sourced meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee's concern for animal welfare directly supports their effort to seek ethically sourced meat."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I try to reduce meat intake",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Concern for animal welfare implicitly motivates reduction in meat intake, as described in the interview."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I was influenced by documentaries about animal welfare",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Watching documentaries about animal welfare explicitly increased the interviewee's empathy and concern for animals."
+  },
+  {
+    "stance_1": "I am influenced by documentaries about animal welfare",
+    "stance_2": "I stopped eating octopus after a documentary",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "The interviewee explicitly states that a documentary led to the decision to stop eating octopus."
+  },
+  {
+    "stance_1": "I have high cholesterol",
+    "stance_2": "I try to reduce meat intake",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee states high cholesterol as a reason for reducing meat intake."
+  },
+  {
+    "stance_1": "I am concerned about diabetes",
+    "stance_2": "I try to reduce meat intake",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Concern about diabetes is mentioned as a reason for reducing meat intake."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "I try to reduce meat intake",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee finds it difficult to reduce meat intake due to their love for its taste, creating an explicit conflict."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "My family enjoys eating all types of food",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 65,
+    "justification": "The interviewee and their family share a love for enjoying all types of food, including meat, which mutually reinforces this enjoyment."
+  },
+  {
+    "stance_1": "I seek ethically sourced meat",
+    "stance_2": "I try to reduce meat intake",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Seeking ethically sourced meat aligns with reducing overall meat intake as part of ethical consumption, though the connection is implicit."
+  },
+  {
+    "stance_1": "I stopped eating octopus after a documentary",
+    "stance_2": "I try to reduce meat intake",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee describes stopping eating octopus as a specific example of reducing meat intake based on ethical reflection after watching a documentary."
+  },
+  {
+    "stance_1": "My family enjoys eating all types of food",
+    "stance_2": "My family values animal welfare",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states that their family both enjoys all types of food and values animal welfare, which creates an explicit contradiction."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "My family values animal welfare",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee's concern for animal welfare is explicitly linked to family values."
+  }
+]

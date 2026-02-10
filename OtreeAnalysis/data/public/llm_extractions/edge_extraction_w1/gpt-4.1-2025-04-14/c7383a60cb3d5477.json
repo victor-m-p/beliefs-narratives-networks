@@ -1,0 +1,74 @@
+[
+  {
+    "stance_1": "I avoid fast food",
+    "stance_2": "I cook meat at home",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that cooking at home involves avoiding fast food."
+  },
+  {
+    "stance_1": "I avoid fast food",
+    "stance_2": "I try to eat meat in healthier ways",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly connects avoiding fast food with making healthier meat choices."
+  },
+  {
+    "stance_1": "I cook meat at home",
+    "stance_2": "I try to eat meat in healthier ways",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Cooking at home is explicitly linked to preparing meat in healthier ways."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I eat meat for dinner every night",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Enjoyment of eating meat supports the frequent consumption of meat for dinner."
+  },
+  {
+    "stance_1": "I feel healthy eating meat",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Feeling healthy from eating meat supports the enjoyment of eating meat."
+  },
+  {
+    "stance_1": "I feel healthy eating meat",
+    "stance_2": "I try to eat meat in healthier ways",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee reports health benefits from making their meat consumption healthier."
+  },
+  {
+    "stance_1": "I try to eat meat in healthier ways",
+    "stance_2": "My wife has liver issues",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Healthier meat choices are explicitly motivated by the wife's liver issues."
+  },
+  {
+    "stance_1": "Convenience motivates my social contacts to eat meat",
+    "stance_2": "I avoid fast food",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee avoids fast food whereas their social contacts are motivated by convenience to eat it."
+  },
+  {
+    "stance_1": "Convenience motivates my social contacts to eat meat",
+    "stance_2": "I cook meat at home",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee prefers cooking at home, in contrast to their social contacts' convenience-driven choices."
+  }
+]

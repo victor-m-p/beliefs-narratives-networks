@@ -1,0 +1,82 @@
+[
+  {
+    "stance_1": "Flavor and texture of meat are enjoyable",
+    "stance_2": "I eat meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Enjoying the flavor and texture of meat supports the habit of eating meat."
+  },
+  {
+    "stance_1": "I eat meat",
+    "stance_2": "I grew up eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that they grew up eating meat and continue to do so."
+  },
+  {
+    "stance_1": "I eat meat",
+    "stance_2": "Meat has a lot of protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "The nutritional value of meat (protein) is mentioned as a positive aspect, supporting the behavior of eating meat."
+  },
+  {
+    "stance_1": "I eat meat",
+    "stance_2": "My social contacts eat similar amounts of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states both they and their social contacts eat similar amounts of meat, suggesting social reinforcement."
+  },
+  {
+    "stance_1": "Flavor and texture of meat are enjoyable",
+    "stance_2": "My social contacts eat similar amounts of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explains that social contacts enjoy flavor and texture of meat, which supports similar meat-eating habits."
+  },
+  {
+    "stance_1": "I eat meat",
+    "stance_2": "I enjoy the versatility of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Stating that meat is versatile for cooking supports eating meat."
+  },
+  {
+    "stance_1": "I enjoy the versatility of meat",
+    "stance_2": "Meat has a lot of protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoying meat's versatility and its protein content both reinforce its desirability."
+  },
+  {
+    "stance_1": "I have meatless meals to save money",
+    "stance_2": "I try to find the best prices for meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Both behaviors are explicitly linked to saving money on groceries."
+  },
+  {
+    "stance_1": "I eat meat",
+    "stance_2": "I have meatless meals to save money",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "Eating meat and intentionally having meatless meals to save money are behaviors in tension, as one reduces meat intake for financial reasons."
+  },
+  {
+    "stance_1": "I have meatless meals to save money",
+    "stance_2": "I try to find the best prices for meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Both behaviors are explicitly motivated by a desire to save money on groceries."
+  }
+]

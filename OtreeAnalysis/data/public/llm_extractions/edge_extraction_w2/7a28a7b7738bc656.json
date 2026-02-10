@@ -1,0 +1,98 @@
+[
+  {
+    "stance_1": "I am worried about animals",
+    "stance_2": "I eat meat every day",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee eats meat daily but also expresses concern for animals, which are conflicting stances."
+  },
+  {
+    "stance_1": "I am worried about animals",
+    "stance_2": "I have considered cutting back on meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Concern for animals is given as a reason for considering cutting back on meat."
+  },
+  {
+    "stance_1": "I am worried about my health",
+    "stance_2": "I eat meat every day",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee eats meat daily but also expresses worry about health, which motivates consideration of eating less meat, showing a conflict."
+  },
+  {
+    "stance_1": "I am worried about my health",
+    "stance_2": "I have considered cutting back on meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Concern about health is explicitly stated as a reason for considering cutting back on meat."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I think meat is filling",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The belief that meat is filling likely supports eating meat daily."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I think meat is nutritious",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The belief that meat is nutritious likely supports the habit of eating it daily."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I think meat is tasty",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The belief that meat is tasty likely supports eating meat every day."
+  },
+  {
+    "stance_1": "I think meat is filling",
+    "stance_2": "I think meat is nutritious",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Both beliefs are positive attributes of meat and may reinforce each other as reasons to eat meat."
+  },
+  {
+    "stance_1": "I think meat is filling",
+    "stance_2": "I think meat is tasty",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Both beliefs are positive attributes and may reinforce each other as motivations to eat meat."
+  },
+  {
+    "stance_1": "I think meat is nutritious",
+    "stance_2": "I think meat is tasty",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Both beliefs are positive attributes and may reinforce each other as motivations to eat meat."
+  },
+  {
+    "stance_1": "I am worried about animals",
+    "stance_2": "I am worried about my health",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Both worries are reasons for considering reducing meat consumption, and may reinforce the motivation to cut back."
+  },
+  {
+    "stance_1": "I am worried about animals",
+    "stance_2": "My mom avoids meat",
+    "polarity": "implicit",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "The interviewee's concern for animals and the mom's avoidance of meat may be related, though the mom cites taste, the connection is weak but plausible."
+  }
+]

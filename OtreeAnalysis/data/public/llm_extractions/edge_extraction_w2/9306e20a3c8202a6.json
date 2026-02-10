@@ -1,0 +1,122 @@
+[
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "I am concerned about my health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that health concerns supported their decision to become vegetarian."
+  },
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "I am concerned about the environment",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee states that environmental concerns influenced their decision to become vegetarian."
+  },
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "I love animals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly connects their love for animals and desire to avoid inflicting suffering to their decision to become vegetarian."
+  },
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "I used to like eating red meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly contrasts their former enjoyment of red meat with their current vegetarianism, implying a conflict."
+  },
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "I connect with other vegetarians",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee states that being a vegetarian allows them to connect with other vegetarians."
+  },
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "My mom became a vegetarian",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee and their mom became vegetarians at similar times for similar reasons, indicating mutual support."
+  },
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "My partner became a vegetarian",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee and their partner became vegetarians together, supported by shared motivations."
+  },
+  {
+    "stance_1": "I am concerned about my health",
+    "stance_2": "I used to like eating red meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee links their former enjoyment of red meat with health concerns, suggesting conflict between the two."
+  },
+  {
+    "stance_1": "I am concerned about the environment",
+    "stance_2": "My partner became a vegetarian",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The partner was motivated by environmental concerns, as was the interviewee."
+  },
+  {
+    "stance_1": "I am concerned about the environment",
+    "stance_2": "My mom became a vegetarian",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 55,
+    "justification": "The mom became vegetarian for similar reasons, including environmental concern, though less directly stated."
+  },
+  {
+    "stance_1": "I love animals",
+    "stance_2": "My mom became a vegetarian",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The mom was a lifelong animal lover; this love for animals is a shared motivation for vegetarianism."
+  },
+  {
+    "stance_1": "I love animals",
+    "stance_2": "My partner became a vegetarian",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Both the interviewee and their partner were motivated by concern for animals."
+  },
+  {
+    "stance_1": "I connect with other vegetarians",
+    "stance_2": "My partner became a vegetarian",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The interviewee connects socially with other vegetarians, which includes their partner."
+  },
+  {
+    "stance_1": "I connect with other vegetarians",
+    "stance_2": "My mom became a vegetarian",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Connecting with other vegetarians implicitly includes the interviewee's mom, who is also a vegetarian."
+  },
+  {
+    "stance_1": "My mom became a vegetarian",
+    "stance_2": "My partner became a vegetarian",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Both became vegetarians at nearly the same time for similar reasons, indicating mutual support."
+  }
+]

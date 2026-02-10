@@ -1,0 +1,90 @@
+[
+  {
+    "stance_1": "I am vegan",
+    "stance_2": "I avoid all animal products",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "Being vegan explicitly includes avoiding all animal products."
+  },
+  {
+    "stance_1": "I am vegan",
+    "stance_2": "I have conversations about veganism with others",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee explicitly states that being vegan sparks conversations with others."
+  },
+  {
+    "stance_1": "I am vegan",
+    "stance_2": "I love animals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee became vegan due to love of animals, explicitly linking the two."
+  },
+  {
+    "stance_1": "I am vegan",
+    "stance_2": "I want good health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee mentions health as a motivation for veganism, explicitly linking their veganism and desire for good health."
+  },
+  {
+    "stance_1": "I am vegan",
+    "stance_2": "I experience social challenges eating out",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states that being vegan creates social challenges when eating out."
+  },
+  {
+    "stance_1": "Family members eat meat at gatherings",
+    "stance_2": "I experience social challenges eating out",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Social challenges are explicitly linked to family gatherings where meat is served."
+  },
+  {
+    "stance_1": "Family members eat meat at gatherings",
+    "stance_2": "I have conversations about veganism with others",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee discusses how their different diet leads to conversations at family gatherings."
+  },
+  {
+    "stance_1": "Family members eat meat at gatherings",
+    "stance_2": "Social contacts are interested in my health as a vegan",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Family gatherings provide a context where social contacts inquire about the interviewee's health as a vegan."
+  },
+  {
+    "stance_1": "I have conversations about veganism with others",
+    "stance_2": "Social contacts are interested in my health as a vegan",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly describes conversations where others inquire about their health due to veganism."
+  },
+  {
+    "stance_1": "I love animals",
+    "stance_2": "I avoid all animal products",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee avoids animal products out of love for animals."
+  },
+  {
+    "stance_1": "I want good health",
+    "stance_2": "Social contacts are interested in my health as a vegan",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee's health is a topic of interest for others, explicitly linked to veganism and health motivations."
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "stance_1": "I grew up eating meat",
+    "stance_2": "Most meals I eat include meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that eating meat in most meals is what they grew up doing."
+  },
+  {
+    "stance_1": "I like the protein from meat",
+    "stance_2": "Most meals I eat include meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee cites protein as a reason for including meat in most meals."
+  },
+  {
+    "stance_1": "I like the energy from meat",
+    "stance_2": "Most meals I eat include meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee specifically mentions energy from meat as a motivation for including meat in most meals."
+  },
+  {
+    "stance_1": "I like the taste of meat",
+    "stance_2": "Most meals I eat include meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee directly links liking the taste of meat to eating meat in most meals."
+  },
+  {
+    "stance_1": "I have considered reducing meat for environmental reasons",
+    "stance_2": "Most meals I eat include meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Considering reducing meat for environmental reasons conflicts with eating meat in most meals."
+  },
+  {
+    "stance_1": "I am aware of the environmental impact of meat",
+    "stance_2": "I have considered reducing meat for environmental reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee's awareness of environmental impacts is the reason for considering reduction."
+  },
+  {
+    "stance_1": "I like the energy from meat",
+    "stance_2": "I have considered reducing meat for environmental reasons",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Interviewee says liking energy from meat keeps them from wanting to reduce meat, conflicting with consideration to reduce."
+  },
+  {
+    "stance_1": "I like the protein from meat",
+    "stance_2": "I have considered reducing meat for environmental reasons",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The desire for protein is given as a reason not to reduce meat, conflicting with the stance of considering reduction."
+  },
+  {
+    "stance_1": "I like the taste of meat",
+    "stance_2": "I have considered reducing meat for environmental reasons",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Liking the taste of meat is cited as a reason not to reduce meat, conflicting with consideration to reduce."
+  },
+  {
+    "stance_1": "My friends and family eat meat",
+    "stance_2": "Most meals I eat include meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The shared environment of friends and family eating meat likely reinforces the interviewee's own high meat consumption."
+  },
+  {
+    "stance_1": "I am aware of the environmental impact of meat",
+    "stance_2": "I have considered reducing meat for environmental reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Awareness of environmental impacts leads directly to considering reduction."
+  },
+  {
+    "stance_1": "I grew up eating meat",
+    "stance_2": "My friends and family eat meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Growing up eating meat is likely reinforced by friends and family who also eat meat."
+  },
+  {
+    "stance_1": "I like the protein from meat",
+    "stance_2": "I like the energy from meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Protein and energy are both cited as valued outcomes from eating meat, suggesting a supportive relationship."
+  }
+]

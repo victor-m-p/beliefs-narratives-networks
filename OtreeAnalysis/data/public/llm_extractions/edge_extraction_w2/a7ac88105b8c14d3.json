@@ -1,0 +1,90 @@
+[
+  {
+    "stance_1": "I eat meat at two meals a day",
+    "stance_2": "I enjoy eating meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Enjoying eating meat supports the behavior of eating meat at two meals a day."
+  },
+  {
+    "stance_1": "I eat meat at two meals a day",
+    "stance_2": "I value high protein foods",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that high protein content is a reason for eating meat frequently."
+  },
+  {
+    "stance_1": "I eat meat at two meals a day",
+    "stance_2": "I believe meat is a complete protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The belief that meat is a complete protein is explicitly cited as a reason for eating meat at two meals a day."
+  },
+  {
+    "stance_1": "I eat meat at two meals a day",
+    "stance_2": "Most people around me eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "The norm of regular meat-eating among peers likely supports the interviewee's regular meat intake."
+  },
+  {
+    "stance_1": "I eat meat at two meals a day",
+    "stance_2": "Eating meat is the norm in my social circle",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee states that eating meat is the norm in their social circle, which explicitly supports their own habit."
+  },
+  {
+    "stance_1": "I eat meat at two meals a day",
+    "stance_2": "My husband prefers eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee explicitly states that their husband's preference supports their own frequent meat consumption."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "I value high protein foods",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Enjoyment of eating meat may be partly due to its high protein content, though not directly stated."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "Most people around me eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Enjoying eating meat may be supported by a social environment where most people eat meat, though this is only weakly implied."
+  },
+  {
+    "stance_1": "I enjoy eating meat",
+    "stance_2": "Eating meat is the norm in my social circle",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Enjoyment of eating meat is likely reinforced by its normative status in the social group."
+  },
+  {
+    "stance_1": "I value high protein foods",
+    "stance_2": "I believe meat is a complete protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee directly connects valuing high protein and believing meat is a complete protein as reasons for eating meat."
+  },
+  {
+    "stance_1": "Most people around me eat meat regularly",
+    "stance_2": "Eating meat is the norm in my social circle",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly equates most people eating meat with it being the norm."
+  }
+]

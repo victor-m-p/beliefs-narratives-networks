@@ -1,0 +1,74 @@
+[
+  {
+    "stance_1": "I am trying to cut out processed meats",
+    "stance_2": "I think processed meats are harmful",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states that they are trying to cut out processed meats because they believe they are more harmful."
+  },
+  {
+    "stance_1": "I am trying to cut out red meats",
+    "stance_2": "I want to improve my health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly connects their effort to cut out red meats with the desire to improve health and blood work."
+  },
+  {
+    "stance_1": "I am trying to cut out processed meats",
+    "stance_2": "I want to improve my health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Trying to cut out processed meats is directly linked to the goal of improving health, as stated by the interviewee."
+  },
+  {
+    "stance_1": "I eat meat in most meals",
+    "stance_2": "I am trying to cut out red meats",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The interviewee continues to eat meat in most meals while trying to reduce red meat, indicating a conflict between current behavior and desired reduction."
+  },
+  {
+    "stance_1": "I eat meat in most meals",
+    "stance_2": "I am trying to cut out processed meats",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Eating meat in most meals, some of which are processed, conflicts with the intention to cut processed meats."
+  },
+  {
+    "stance_1": "I eat meat in most meals",
+    "stance_2": "Most people I know eat all kinds of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee's eating pattern aligns with the observed norm in their social circle of eating all kinds of meat."
+  },
+  {
+    "stance_1": "I am trying to cut out red meats",
+    "stance_2": "Most people I know eat all kinds of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "The interviewee's attempt to reduce red meat contrasts with the behavior of most people they know, who eat all kinds of meat."
+  },
+  {
+    "stance_1": "I am trying to cut out processed meats",
+    "stance_2": "Most people I know eat all kinds of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "The interviewee's effort to cut out processed meats is at odds with the norm of most people they know eating all types of meat, including processed."
+  },
+  {
+    "stance_1": "I think processed meats are harmful",
+    "stance_2": "Most people I know eat all kinds of meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Believing processed meats are harmful subtly conflicts with the observation that most people eat all kinds, including processed meats."
+  }
+]

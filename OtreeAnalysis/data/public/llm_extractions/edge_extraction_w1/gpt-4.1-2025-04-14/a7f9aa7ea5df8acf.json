@@ -1,0 +1,170 @@
+[
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "I am concerned about animal rights",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states animal rights concerns as a primary motivation for being vegetarian."
+  },
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "I am concerned about animal welfare",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee connects animal welfare concerns directly to their decision to be vegetarian."
+  },
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "I am concerned about climate change",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly mentions climate change as a motivation for vegetarianism."
+  },
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "I am concerned about factory farm ethics",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Ethics of factory farming are cited as a direct motivator for becoming vegetarian."
+  },
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "I have food aversion",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee states that food aversion is one of the reasons for being vegetarian."
+  },
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "I have texture issues with meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Texture issues with meat are explicitly mentioned as a contributing factor to vegetarianism."
+  },
+  {
+    "stance_1": "I am concerned about animal rights",
+    "stance_2": "I am concerned about animal welfare",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Animal rights and welfare are closely related and often co-occur as concerns."
+  },
+  {
+    "stance_1": "I am concerned about animal rights",
+    "stance_2": "I am concerned about factory farm ethics",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Factory farm ethics are mentioned in the context of animal rights concerns."
+  },
+  {
+    "stance_1": "I am concerned about animal rights",
+    "stance_2": "I am concerned about climate change",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Both are cited as motivations for vegetarianism, though not directly linked to each other."
+  },
+  {
+    "stance_1": "I am concerned about animal rights",
+    "stance_2": "I have food aversion",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Both are given as motivations for vegetarianism but are not directly linked to each other."
+  },
+  {
+    "stance_1": "I am concerned about animal rights",
+    "stance_2": "I have texture issues with meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Both are cited as motivations for vegetarianism but are not directly connected."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I am concerned about factory farm ethics",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Concern for animal welfare is directly tied to concerns about factory farm ethics."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I am concerned about climate change",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Both are cited as motivators for vegetarianism but not directly linked."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I have food aversion",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 20,
+    "justification": "Both are listed as motivations for vegetarianism but are unrelated otherwise."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I have texture issues with meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 20,
+    "justification": "Both are motivations for vegetarianism but not directly connected."
+  },
+  {
+    "stance_1": "I am concerned about climate change",
+    "stance_2": "I am concerned about factory farm ethics",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Both are cited as concerns influencing vegetarianism but not directly linked."
+  },
+  {
+    "stance_1": "I am concerned about climate change",
+    "stance_2": "I have food aversion",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 20,
+    "justification": "Both are motivations for vegetarianism but are separate concerns."
+  },
+  {
+    "stance_1": "I am concerned about climate change",
+    "stance_2": "I have texture issues with meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 20,
+    "justification": "Both are motivations for vegetarianism but are not directly related."
+  },
+  {
+    "stance_1": "I am concerned about factory farm ethics",
+    "stance_2": "I have food aversion",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 20,
+    "justification": "Both are listed as motivations for vegetarianism but are not directly related."
+  },
+  {
+    "stance_1": "I am concerned about factory farm ethics",
+    "stance_2": "I have texture issues with meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 20,
+    "justification": "Both are motivations for vegetarianism but are not directly connected."
+  },
+  {
+    "stance_1": "I have food aversion",
+    "stance_2": "I have texture issues with meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Texture issues are cited as a form of food aversion, making this relationship explicit."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "stance_1": "I eat meat almost every day",
+    "stance_2": "I have financial limitations",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee states that due to finances, their diet is mostly meat, making the connection explicit and strong."
+  },
+  {
+    "stance_1": "I eat meat almost every day",
+    "stance_2": "I save vegan recipes",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Saving vegan recipes and planning to make vegan food conflicts with the current behavior of eating meat almost every day."
+  },
+  {
+    "stance_1": "I eat meat almost every day",
+    "stance_2": "I try to eat fruits and vegetables some days",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The desire and occasional attempt to eat fruits and vegetables some days is in conflict with the stated behavior of eating meat almost every day."
+  },
+  {
+    "stance_1": "I have financial limitations",
+    "stance_2": "I save vegan recipes",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states explicitly that financial limitations prevent them from eating less meat, which conflicts with their motivation and planning to eat vegan."
+  },
+  {
+    "stance_1": "I have financial limitations",
+    "stance_2": "I try to eat fruits and vegetables some days",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee mentions that financial limitations are a barrier to eating more fruits and vegetables instead of meat."
+  },
+  {
+    "stance_1": "I have financial limitations",
+    "stance_2": "I want to have more energy",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Financial limitations may hinder the ability to pursue a diet (such as more plant-based) that the interviewee believes might increase their energy."
+  },
+  {
+    "stance_1": "I have financial limitations",
+    "stance_2": "I want to maintain a healthy weight",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The interviewee\u2019s financial limitations may prevent following the dietary practices (such as reducing meat) that they believe help maintain a healthy weight."
+  },
+  {
+    "stance_1": "I save vegan recipes",
+    "stance_2": "I try to eat fruits and vegetables some days",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Saving vegan recipes supports the intention and occasional behavior of eating more fruits and vegetables."
+  },
+  {
+    "stance_1": "I save vegan recipes",
+    "stance_2": "I want to have more energy",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Saving vegan recipes and planning to make vegan food may be motivated by the desire for more energy, which is mentioned as a key motivation."
+  },
+  {
+    "stance_1": "I save vegan recipes",
+    "stance_2": "I want to maintain a healthy weight",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Saving vegan recipes and planning to make vegan food may be motivated by the desire to maintain a healthy weight, which is a stated motivation."
+  },
+  {
+    "stance_1": "I try to eat fruits and vegetables some days",
+    "stance_2": "I want to have more energy",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Eating more fruits and vegetables may be intended to support having more energy, as the interviewee cites energy as an important motivation."
+  },
+  {
+    "stance_1": "I try to eat fruits and vegetables some days",
+    "stance_2": "I want to maintain a healthy weight",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Trying to eat more fruits and vegetables is plausibly motivated by the desire to maintain a healthy weight, a stated motivation."
+  }
+]

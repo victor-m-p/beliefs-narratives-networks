@@ -1,0 +1,122 @@
+[
+  {
+    "stance_1": "I avoid saturated fat for health reasons",
+    "stance_2": "I choose lean cuts of beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states choosing lean beef is motivated by a desire to avoid saturated fat for health reasons."
+  },
+  {
+    "stance_1": "I avoid saturated fat for health reasons",
+    "stance_2": "I prefer chicken and turkey over beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states eating more chicken and turkey over beef because they are healthier, supporting the avoidance of saturated fat."
+  },
+  {
+    "stance_1": "I avoid saturated fat for health reasons",
+    "stance_2": "My husband's health problems motivate me to avoid fat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "The interviewee directly connects avoiding fat to her husband's heart problems."
+  },
+  {
+    "stance_1": "I dislike greasy food",
+    "stance_2": "I like vegetable dishes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee prefers vegetable dishes because they are less greasy, explicitly connecting the two stances."
+  },
+  {
+    "stance_1": "I dislike greasy food",
+    "stance_2": "I prefer chicken and turkey over beef",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Chicken and turkey are often less greasy than beef; her preference aligns with her dislike of greasy food."
+  },
+  {
+    "stance_1": "I dislike greasy food",
+    "stance_2": "I choose lean cuts of beef",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Choosing lean cuts of beef reduces greasiness, supporting her dislike of greasy food."
+  },
+  {
+    "stance_1": "I eat some kind of meat every day",
+    "stance_2": "I like vegetable dishes",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Eating meat daily and wishing for more vegetable dishes implies a mild conflict due to practical barriers, though not a strong contradiction."
+  },
+  {
+    "stance_1": "I like vegetable dishes",
+    "stance_2": "It is hard to cook vegetable dishes for one person",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly says she enjoys vegetable dishes but finds it difficult to prepare them for one, creating a direct conflict."
+  },
+  {
+    "stance_1": "I like vegetable dishes",
+    "stance_2": "I eat some kind of meat every day",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "The desire for vegetable dishes conflicts somewhat with eating meat daily, though the main barrier is convenience, not motivation."
+  },
+  {
+    "stance_1": "I like vegetable dishes",
+    "stance_2": "I dislike greasy food",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Vegetable dishes are preferred because they are less greasy, directly connecting enjoyment and dislike of grease."
+  },
+  {
+    "stance_1": "I prefer chicken and turkey over beef",
+    "stance_2": "Weight Watchers encourages eating chicken and turkey",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly mentions that Weight Watchers encourages chicken and turkey, which aligns with her preference."
+  },
+  {
+    "stance_1": "I choose lean cuts of beef",
+    "stance_2": "I prefer chicken and turkey over beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee chooses lean beef when eating beef, but generally prefers chicken/turkey, both actions taken for health reasons."
+  },
+  {
+    "stance_1": "It is hard to cook vegetable dishes for one person",
+    "stance_2": "I eat some kind of meat every day",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The difficulty in preparing single-serving vegetable dishes supports the routine of eating meat daily by default."
+  },
+  {
+    "stance_1": "My husband's health problems motivate me to avoid fat",
+    "stance_2": "I avoid saturated fat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "The interviewee explicitly attributes her fat avoidance to her husband's health."
+  },
+  {
+    "stance_1": "Weight Watchers encourages eating chicken and turkey",
+    "stance_2": "I prefer chicken and turkey over beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly connects Weight Watchers' zero points for chicken/turkey with her preference."
+  }
+]

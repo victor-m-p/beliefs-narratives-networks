@@ -1,0 +1,138 @@
+[
+  {
+    "stance_1": "I am considering eating more fruits and vegetables",
+    "stance_2": "I am considering smaller portions and less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Interviewee explicitly mentions both plans together as part of dietary modification."
+  },
+  {
+    "stance_1": "I am considering eating more fruits and vegetables",
+    "stance_2": "I plan to eat salads instead of meat at dinner",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Eating salads instead of meat directly supports the intention to eat more fruits and vegetables."
+  },
+  {
+    "stance_1": "I am considering eating more fruits and vegetables",
+    "stance_2": "I plan to eat vegetable soups",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Eating vegetable soups supports the intention to eat more fruits and vegetables."
+  },
+  {
+    "stance_1": "I am considering smaller portions and less meat",
+    "stance_2": "I eat meat with most meals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Current behavior of eating meat with most meals conflicts with the consideration to eat less meat and smaller portions."
+  },
+  {
+    "stance_1": "I am considering smaller portions and less meat",
+    "stance_2": "I plan to eat salads instead of meat at dinner",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Replacing meat with salads at dinner supports the plan to eat less meat and smaller portions."
+  },
+  {
+    "stance_1": "I am considering smaller portions and less meat",
+    "stance_2": "I plan to eat vegetable soups",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Eating vegetable soups is consistent with the plan to eat less meat and smaller portions."
+  },
+  {
+    "stance_1": "I eat meat with most meals",
+    "stance_2": "I feel deprived without meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Feeling deprived without meat supports eating meat with most meals."
+  },
+  {
+    "stance_1": "I eat meat with most meals",
+    "stance_2": "I was brought up eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Interviewee explicitly links upbringing to eating meat with most meals."
+  },
+  {
+    "stance_1": "I eat meat with most meals",
+    "stance_2": "My family are meat eaters",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Family norm of eating meat likely reinforces the interviewee's meat-eating behavior."
+  },
+  {
+    "stance_1": "I eat meat with most meals",
+    "stance_2": "My friends eat meat frequently",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "The interviewee's social circle eating meat frequently plausibly supports their own habit."
+  },
+  {
+    "stance_1": "I have gained weight recently",
+    "stance_2": "I am considering eating more fruits and vegetables",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Gaining weight is stated as a reason for considering dietary changes including more fruits and vegetables."
+  },
+  {
+    "stance_1": "I have gained weight recently",
+    "stance_2": "I am considering smaller portions and less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Weight gain is directly mentioned as a motivation for considering smaller portions and less meat."
+  },
+  {
+    "stance_1": "I have gained weight recently",
+    "stance_2": "I plan to eat salads instead of meat at dinner",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Weight gain motivates the plan to replace dinner meat with salads."
+  },
+  {
+    "stance_1": "I have gained weight recently",
+    "stance_2": "I plan to eat vegetable soups",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Weight gain motivates the plan to eat vegetable soups."
+  },
+  {
+    "stance_1": "I plan to eat salads instead of meat at dinner",
+    "stance_2": "I plan to eat vegetable soups",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Both are specific strategies supporting the broader dietary change the interviewee is considering."
+  },
+  {
+    "stance_1": "I was brought up eating meat",
+    "stance_2": "I feel deprived without meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Upbringing is cited as shaping the feeling of deprivation without meat."
+  },
+  {
+    "stance_1": "I was brought up eating meat",
+    "stance_2": "My family are meat eaters",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Family being meat eaters is directly tied to the interviewee's upbringing."
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "stance_1": "I am concerned about environmental impact of beef",
+    "stance_2": "I have eliminated red meat from my diet",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee explicitly mentions environmental concerns as a reason for cutting back on beef (red meat)."
+  },
+  {
+    "stance_1": "I am concerned about health",
+    "stance_2": "I have eliminated red meat from my diet",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Health concerns, explicitly related to colon cancer and digestion, are a direct reason for eliminating red meat."
+  },
+  {
+    "stance_1": "I am concerned about health",
+    "stance_2": "I avoid large portions of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states that eating less meat is related to health and avoiding complications from overindulgence."
+  },
+  {
+    "stance_1": "I am concerned about health",
+    "stance_2": "I eat chicken, turkey, pork, and fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The choice to eat only certain meats is explicitly attributed to health reasons."
+  },
+  {
+    "stance_1": "I am concerned about health",
+    "stance_2": "I have difficulty digesting red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Health concern is directly linked to the difficulty of digesting red meat."
+  },
+  {
+    "stance_1": "I am concerned about health",
+    "stance_2": "My wife supports eating less red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Both the interviewee and his wife share health motivations for eating less red meat."
+  },
+  {
+    "stance_1": "I eat chicken, turkey, pork, and fish",
+    "stance_2": "I enjoy eating chicken, turkey, pork, and fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly links enjoyment as a reason for eating these meats."
+  },
+  {
+    "stance_1": "I avoid large portions of meat",
+    "stance_2": "I want to get necessary vitamins from meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee states they eat small portions to balance vitamin intake and avoid negative effects."
+  },
+  {
+    "stance_1": "I have difficulty digesting red meat",
+    "stance_2": "I have eliminated red meat from my diet",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "Directly stated: difficulty digesting red meat led to its elimination."
+  },
+  {
+    "stance_1": "I enjoy eating chicken, turkey, pork, and fish",
+    "stance_2": "I want to get necessary vitamins from meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Enjoying meat and wanting its nutritional benefits likely reinforce each other."
+  },
+  {
+    "stance_1": "I have eliminated red meat from my diet",
+    "stance_2": "I want to get necessary vitamins from meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Eliminating red meat could conflict with a desire to get vitamins from all meat sources, but the interviewee balances this by eating other meats."
+  },
+  {
+    "stance_1": "I have eliminated red meat from my diet",
+    "stance_2": "I eat chicken, turkey, pork, and fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Eliminating red meat is directly linked to eating only the other meats listed."
+  },
+  {
+    "stance_1": "I have eliminated red meat from my diet",
+    "stance_2": "My wife supports eating less red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The wife supports and follows the reduced red meat diet, reinforcing the behavior."
+  },
+  {
+    "stance_1": "I have difficulty digesting red meat",
+    "stance_2": "My wife supports eating less red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The wife has similar digestive issues, supporting reduced red meat intake."
+  }
+]

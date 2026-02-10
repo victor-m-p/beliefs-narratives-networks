@@ -1,0 +1,74 @@
+[
+  {
+    "stance_1": "I eat meat at most meals",
+    "stance_2": "I eat meat for protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states eating meat at most meals is motivated by the desire for protein."
+  },
+  {
+    "stance_1": "I eat meat at most meals",
+    "stance_2": "I plan meals around meat sales",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states they eat meat at most meals and plan meals around sales to make this possible."
+  },
+  {
+    "stance_1": "I eat meat for protein",
+    "stance_2": "I believe meat is a complete protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly says they eat meat for protein and believe meat is a complete protein."
+  },
+  {
+    "stance_1": "I plan meals around meat sales",
+    "stance_2": "I think meat is expensive",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly says meal planning around sales is a response to meat being expensive."
+  },
+  {
+    "stance_1": "I eat meat at most meals",
+    "stance_2": "I think meat is expensive",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Eating meat at most meals is made more difficult by the belief that meat is expensive."
+  },
+  {
+    "stance_1": "Family members eat carnivore for weight loss",
+    "stance_2": "Family members eat carnivore for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Weight loss and health are both stated as motivations for family members eating carnivore."
+  },
+  {
+    "stance_1": "Family members eat carnivore for health reasons",
+    "stance_2": "Some family members are carnivore",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee says some family members eat carnivore for health reasons."
+  },
+  {
+    "stance_1": "Family members eat carnivore for weight loss",
+    "stance_2": "Some family members are carnivore",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee says some family members eat carnivore for weight loss."
+  },
+  {
+    "stance_1": "Family members who avoid meat are not health conscious",
+    "stance_2": "Some family members hardly eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee claims the family members who hardly eat meat are also not health conscious."
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "stance_1": "I believe meat is important for health",
+    "stance_2": "I believe meat provides valuable nutrients",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The belief that meat is important for health is explicitly supported by the belief that meat provides valuable nutrients."
+  },
+  {
+    "stance_1": "I believe meat is important for health",
+    "stance_2": "I eat meat at least once a day",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Believing meat is important for health implicitly supports the behavior of eating meat at least once a day."
+  },
+  {
+    "stance_1": "I believe meat is important for health",
+    "stance_2": "I love to eat meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Loving to eat meat could be implicitly reinforced by the belief that meat is important for health, though the evidence is not very strong."
+  },
+  {
+    "stance_1": "I believe meat is important for health",
+    "stance_2": "I miss meat if I don't eat it",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Missing meat if not eaten may be supported by the belief that meat is important for health, though this is only weakly implied."
+  },
+  {
+    "stance_1": "I believe meat is important for health",
+    "stance_2": "I want to get most of my protein from meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Wanting to get protein from meat is supported by the belief that meat is important for health."
+  },
+  {
+    "stance_1": "I believe meat provides valuable nutrients",
+    "stance_2": "I eat meat at least once a day",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Believing that meat provides valuable nutrients supports eating meat regularly."
+  },
+  {
+    "stance_1": "I believe meat provides valuable nutrients",
+    "stance_2": "I want to get most of my protein from meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The desire to get most protein from meat is explicitly supported by the belief that meat provides valuable nutrients."
+  },
+  {
+    "stance_1": "I eat meat at least once a day",
+    "stance_2": "I love to eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states loving to eat meat as a reason for eating meat daily."
+  },
+  {
+    "stance_1": "I eat meat at least once a day",
+    "stance_2": "I miss meat if I don't eat it",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Missing meat if not eaten supports eating meat daily."
+  },
+  {
+    "stance_1": "I eat meat at least once a day",
+    "stance_2": "I want to get most of my protein from meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee cites protein intake as a reason for eating meat daily."
+  },
+  {
+    "stance_1": "I live with my husband who eats meat regularly",
+    "stance_2": "I eat meat at least once a day",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Living with someone who eats meat regularly may implicitly support eating meat daily, though the evidence is moderate."
+  },
+  {
+    "stance_1": "I live with my husband who eats meat regularly",
+    "stance_2": "I love to eat meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Living with a regular meat-eater may reinforce loving to eat meat, but this is only weakly implied."
+  },
+  {
+    "stance_1": "I love to eat meat",
+    "stance_2": "I miss meat if I don't eat it",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Explicitly stated: enjoying meat and missing it are closely linked and supportive."
+  },
+  {
+    "stance_1": "I love to eat meat",
+    "stance_2": "I want to get most of my protein from meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The enjoyment of meat is cited alongside obtaining protein as a reason for eating it."
+  },
+  {
+    "stance_1": "I make vegetable dishes when my vegan daughter visits",
+    "stance_2": "I eat meat at least once a day",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "Making vegetable dishes for a vegan daughter is a context where the usual habit of eating meat daily is interrupted, indicating a minor conflict."
+  },
+  {
+    "stance_1": "I make vegetable dishes when my vegan daughter visits",
+    "stance_2": "I live with my husband who eats meat regularly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "Preparing vegetarian food for the daughter contrasts with the usual household pattern of regular meat consumption."
+  }
+]

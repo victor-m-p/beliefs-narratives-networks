@@ -1,0 +1,314 @@
+[
+  {
+    "stance_1": "Cooking and preparing meat is important to me",
+    "stance_2": "I eat meat at every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly links the importance of preparing meat with the frequency of eating it at every meal."
+  },
+  {
+    "stance_1": "Cooking and preparing meat is important to me",
+    "stance_2": "Meat is the main part of my meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The centrality of meat in meals makes cooking and preparation an important activity, as stated in the interview."
+  },
+  {
+    "stance_1": "Cooking and preparing meat is important to me",
+    "stance_2": "My family centers meals around meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Family tradition of meat-centric meals supports the importance of cooking and preparing meat."
+  },
+  {
+    "stance_1": "Cooking and preparing meat is important to me",
+    "stance_2": "My friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Friends' regular meat consumption implicitly supports the social value placed on meat preparation."
+  },
+  {
+    "stance_1": "Cooking and preparing meat is important to me",
+    "stance_2": "Eating meat is a family tradition",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The importance of preparing meat is supported by the family tradition of meat-focused meals."
+  },
+  {
+    "stance_1": "Cooking and preparing meat is important to me",
+    "stance_2": "I love the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The enjoyment of cooking and preparing meat is explicitly tied to loving the taste of meat."
+  },
+  {
+    "stance_1": "Cooking and preparing meat is important to me",
+    "stance_2": "I feel social enjoyment from eating meat with others",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 55,
+    "justification": "The social enjoyment from eating meat is supported by the ritual and care in preparing it."
+  },
+  {
+    "stance_1": "Cooking and preparing meat is important to me",
+    "stance_2": "Meat makes me feel satisfied",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Satisfaction from eating meat is partly derived from the preparation and craft."
+  },
+  {
+    "stance_1": "Eating meat is a family tradition",
+    "stance_2": "I eat meat at every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states that family tradition is a reason for frequent meat consumption."
+  },
+  {
+    "stance_1": "Eating meat is a family tradition",
+    "stance_2": "My family centers meals around meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "It is explicitly stated that family meals are centered around meat as a tradition."
+  },
+  {
+    "stance_1": "Eating meat is a family tradition",
+    "stance_2": "Meat is the main part of my meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Family tradition supports the central role of meat in the interviewee's meals."
+  },
+  {
+    "stance_1": "Eating meat is a family tradition",
+    "stance_2": "I feel social enjoyment from eating meat with others",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 45,
+    "justification": "Social enjoyment is reinforced by family tradition around meat."
+  },
+  {
+    "stance_1": "Eating meat is a family tradition",
+    "stance_2": "I love the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Loving the taste of meat is implicitly supported by family tradition making meat meals frequent and valued."
+  },
+  {
+    "stance_1": "Eating meat is a family tradition",
+    "stance_2": "Meat makes me feel satisfied",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The tradition of eating hearty meat-based meals supports the feeling of satisfaction."
+  },
+  {
+    "stance_1": "I do not enjoy plant-based meat alternatives",
+    "stance_2": "I eat meat at every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The dislike of plant-based alternatives supports continued meat consumption at every meal."
+  },
+  {
+    "stance_1": "I do not enjoy plant-based meat alternatives",
+    "stance_2": "I love the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Disliking plant-based alternatives is explicitly contrasted with loving the taste of real meat."
+  },
+  {
+    "stance_1": "I do not enjoy plant-based meat alternatives",
+    "stance_2": "Meat makes me feel satisfied",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Dissatisfaction with alternatives supports the satisfaction derived from real meat."
+  },
+  {
+    "stance_1": "I do not enjoy plant-based meat alternatives",
+    "stance_2": "Vegetarian coworker encourages me to reduce meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The encouragement from the vegetarian coworker conflicts with the interviewee's stated dislike of plant-based alternatives."
+  },
+  {
+    "stance_1": "I eat meat at every meal",
+    "stance_2": "I love the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee directly links frequency of meat eating to love for its taste."
+  },
+  {
+    "stance_1": "I eat meat at every meal",
+    "stance_2": "Meat is the main part of my meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Eating meat at every meal and having meat as the main part are directly tied."
+  },
+  {
+    "stance_1": "I eat meat at every meal",
+    "stance_2": "Meat makes me feel satisfied",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Feeling satisfied by meat is a reason for eating it at every meal."
+  },
+  {
+    "stance_1": "I eat meat at every meal",
+    "stance_2": "My family centers meals around meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Family meals centered around meat support the interviewee's habit of eating meat at every meal."
+  },
+  {
+    "stance_1": "I eat meat at every meal",
+    "stance_2": "My friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The friends' similar habits reinforce the interviewee's frequency of eating meat."
+  },
+  {
+    "stance_1": "I eat meat at every meal",
+    "stance_2": "I feel social enjoyment from eating meat with others",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Social enjoyment is explicitly tied to frequent shared meat consumption."
+  },
+  {
+    "stance_1": "I eat meat at every meal",
+    "stance_2": "Vegetarian coworker encourages me to reduce meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Coworker's encouragement to reduce meat conflicts with the interviewee's strong commitment to eating meat at every meal."
+  },
+  {
+    "stance_1": "I feel social enjoyment from eating meat with others",
+    "stance_2": "My friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly enjoys socializing over meat with friends who also eat meat regularly."
+  },
+  {
+    "stance_1": "I feel social enjoyment from eating meat with others",
+    "stance_2": "My family centers meals around meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Social enjoyment is explicitly tied to family meals centered around meat."
+  },
+  {
+    "stance_1": "I feel social enjoyment from eating meat with others",
+    "stance_2": "Meat is the main part of my meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The main role of meat in meals is connected to social enjoyment."
+  },
+  {
+    "stance_1": "I feel social enjoyment from eating meat with others",
+    "stance_2": "I love the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoying meat socially is supported by shared love for its taste."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "Meat is the main part of my meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Loving the taste of meat supports making it the centerpiece of meals."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "Meat makes me feel satisfied",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The satisfaction from eating meat is explicitly linked to loving its taste."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "Vegetarian coworker encourages me to reduce meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Coworker encouragement to eat less meat conflicts with the interviewee's strong positive feelings about meat's taste."
+  },
+  {
+    "stance_1": "Meat is the main part of my meals",
+    "stance_2": "Meat makes me feel satisfied",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Meat as the main part of meals is explicitly linked to the feeling of satisfaction after eating."
+  },
+  {
+    "stance_1": "Meat is the main part of my meals",
+    "stance_2": "My family centers meals around meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Family practice of centering meals around meat supports meat being the main part of the interviewee's meals."
+  },
+  {
+    "stance_1": "Meat is the main part of my meals",
+    "stance_2": "My friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Friends' regular meat eating supports the norm of meat-centered meals."
+  },
+  {
+    "stance_1": "Meat makes me feel satisfied",
+    "stance_2": "My family centers meals around meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Family meals centered on meat support feelings of satisfaction from meat."
+  },
+  {
+    "stance_1": "Meat makes me feel satisfied",
+    "stance_2": "Vegetarian coworker encourages me to reduce meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Coworker's encouragement to reduce meat conflicts with the satisfaction the interviewee gets from eating meat."
+  },
+  {
+    "stance_1": "My family centers meals around meat",
+    "stance_2": "My friends eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Both family and friends reinforce a meat-centric social environment."
+  },
+  {
+    "stance_1": "My friends eat meat regularly",
+    "stance_2": "Vegetarian coworker encourages me to reduce meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Coworker's encouragement to eat less meat is at odds with the regular meat consumption of the interviewee's social circle."
+  }
+]

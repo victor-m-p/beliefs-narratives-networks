@@ -1,0 +1,130 @@
+[
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I learned meat eating from my parents",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly connects their regular meat-eating habit to what they learned from their parents."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I believe meat keeps you strong and healthy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The belief that meat keeps you strong and healthy supports the behavior of eating meat regularly."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I eat meat to maintain muscle function",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The reason for eating meat to maintain muscle function directly supports eating meat regularly."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I eat meat to maintain a healthy weight",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The participant cites maintaining a healthy weight as a reason for eating meat, which supports their regular meat consumption."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "Most people I know eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states their meat-eating is similar to most people they know, indicating social reinforcement."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I felt low energy when eating less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The experience of low energy when eating less meat reinforces the behavior of eating meat regularly."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I felt socially isolated when eating less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Feeling socially isolated when eating less meat supports returning to regular meat consumption."
+  },
+  {
+    "stance_1": "I eat meat to maintain muscle function",
+    "stance_2": "I felt low energy when eating less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The belief that meat is needed for muscle and the experience of low energy when abstaining are mutually reinforcing."
+  },
+  {
+    "stance_1": "I eat meat to maintain a healthy weight",
+    "stance_2": "I felt low energy when eating less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The participant connects meat consumption with maintaining health and energy, evidenced by feeling low energy when eating less meat."
+  },
+  {
+    "stance_1": "I have tried eating less meat",
+    "stance_2": "I reduced meat intake due to high prices",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee directly states that their attempt to eat less meat was due to high prices."
+  },
+  {
+    "stance_1": "I have tried eating less meat",
+    "stance_2": "I felt low energy when eating less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The experience of low energy is a direct outcome of trying to eat less meat."
+  },
+  {
+    "stance_1": "I have tried eating less meat",
+    "stance_2": "I felt socially isolated when eating less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Feeling socially isolated is directly tied to the period of eating less meat."
+  },
+  {
+    "stance_1": "I have tried eating less meat",
+    "stance_2": "Trying new vegetable recipes made it easier to eat less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Trying new vegetable recipes was described as something that made eating less meat easier."
+  },
+  {
+    "stance_1": "I felt low energy when eating less meat",
+    "stance_2": "I felt socially isolated when eating less meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee describes both low energy and social isolation as co-occurring negative outcomes of eating less meat."
+  },
+  {
+    "stance_1": "I felt low energy when eating less meat",
+    "stance_2": "Trying new vegetable recipes made it easier to eat less meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "Trying new vegetable recipes made eating less meat easier, but low energy made it harder, indicating some conflict."
+  },
+  {
+    "stance_1": "I felt socially isolated when eating less meat",
+    "stance_2": "Trying new vegetable recipes made it easier to eat less meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 25,
+    "justification": "Social isolation made eating less meat harder, while trying new recipes made it easier, showing some implicit conflict."
+  }
+]

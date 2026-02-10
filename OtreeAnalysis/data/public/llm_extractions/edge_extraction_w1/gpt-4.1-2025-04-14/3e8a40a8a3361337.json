@@ -1,0 +1,42 @@
+[
+  {
+    "stance_1": "I am horrified by animal agriculture",
+    "stance_2": "I am vegan",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states that being horrified by animal agriculture motivated them to become vegan."
+  },
+  {
+    "stance_1": "I am vegan",
+    "stance_2": "I do activism for animals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly links their veganism with their participation in animal activism as a way to support their beliefs and cope with living with meat-eaters."
+  },
+  {
+    "stance_1": "I am vegan",
+    "stance_2": "I feel isolated by living with meat-eaters",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly states that being vegan in a meat-eating environment makes them feel isolated."
+  },
+  {
+    "stance_1": "I am vegan",
+    "stance_2": "I want to improve my health",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The interviewee describes improved health as a result of being vegan, which influenced others; this implies a supportive relationship between veganism and health motivation."
+  },
+  {
+    "stance_1": "I do activism for animals",
+    "stance_2": "I feel isolated by living with meat-eaters",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly states that activism helps to alleviate the feeling of isolation from living with meat-eaters."
+  }
+]

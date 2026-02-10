@@ -1,0 +1,66 @@
+[
+  {
+    "stance_1": "I am concerned about personal health",
+    "stance_2": "I eat meat for almost every meal",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee expresses concern about personal health and links this to a desire to reduce meat intake, which conflicts with eating meat for almost every meal."
+  },
+  {
+    "stance_1": "I am concerned about the environment",
+    "stance_2": "I eat meat for almost every meal",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The interviewee explicitly states that environmental concern motivates attempts to reduce meat consumption, which conflicts with eating meat at almost every meal."
+  },
+  {
+    "stance_1": "I am concerned about personal health",
+    "stance_2": "I occasionally skip meat for meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "The interviewee states that health concerns motivate efforts to skip meat for some meals."
+  },
+  {
+    "stance_1": "I am concerned about the environment",
+    "stance_2": "I occasionally skip meat for meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "Environmental concerns are given as a motivation for reducing meat intake, supporting skipping meat for some meals."
+  },
+  {
+    "stance_1": "I eat meat for almost every meal",
+    "stance_2": "I occasionally skip meat for meals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "Eating meat for almost every meal is in tension with skipping meat for some meals, although both behaviors are present."
+  },
+  {
+    "stance_1": "I eat meat for almost every meal",
+    "stance_2": "I like trying different types of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Frequent meat consumption is consistent with a stated interest in trying a variety of meats."
+  },
+  {
+    "stance_1": "I like trying different types of meat",
+    "stance_2": "I occasionally skip meat for meals",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Interest in trying a variety of meats may be in mild tension with skipping meat for some meals, though evidence is limited."
+  },
+  {
+    "stance_1": "I am concerned about personal health",
+    "stance_2": "My father reduced meat for blood pressure",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The interviewee's health concerns are similar to the father's motivation to reduce meat, supporting each other."
+  }
+]

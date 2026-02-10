@@ -1,0 +1,58 @@
+[
+  {
+    "stance_1": "I avoid cooking pork at home",
+    "stance_2": "My wife avoids pork",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states that avoiding cooking pork at home is a consequence of his wife's avoidance of pork."
+  },
+  {
+    "stance_1": "I am concerned about meat sourcing",
+    "stance_2": "I consider meat quality important",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee directly links concern about meat sourcing to the importance of meat quality."
+  },
+  {
+    "stance_1": "I am concerned about meat sourcing",
+    "stance_2": "My father buys meat directly from farms",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly cites his father's sourcing from farms as an example of concern for meat sourcing."
+  },
+  {
+    "stance_1": "I consider meat quality important",
+    "stance_2": "My father buys meat directly from farms",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The practice of buying meat directly from farms is given as an example of prioritizing meat quality."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I practice moderation in meat consumption",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The interviewee describes having no restrictions and eating meat regularly but also emphasizes moderation, which presents some tension."
+  },
+  {
+    "stance_1": "I include chicken and seafood in my diet",
+    "stance_2": "I practice moderation in meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The inclusion of chicken and seafood is explicitly described as part of a moderated meat consumption approach."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I include chicken and seafood in my diet",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Regular meat eating is described as including chicken and seafood as main components."
+  }
+]

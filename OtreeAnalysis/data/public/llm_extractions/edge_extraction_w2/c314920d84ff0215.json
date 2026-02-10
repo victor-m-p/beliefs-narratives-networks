@@ -1,0 +1,138 @@
+[
+  {
+    "stance_1": "Balanced diet is important to me",
+    "stance_2": "Eating too much meat is not healthy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly links limiting meat to health and emphasizes a balanced diet as key, suggesting these stances strongly reinforce each other."
+  },
+  {
+    "stance_1": "Balanced diet is important to me",
+    "stance_2": "I eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee describes their diet as balanced and includes meat as a regular component, explicitly supporting both stances."
+  },
+  {
+    "stance_1": "Balanced diet is important to me",
+    "stance_2": "We try to limit meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Explicitly mentions that limiting meat is motivated by the desire for a healthy, balanced diet, supporting both stances."
+  },
+  {
+    "stance_1": "I do not believe in meat substitutes",
+    "stance_2": "I eat meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly rejects substitutes for meat, reinforcing their regular meat consumption."
+  },
+  {
+    "stance_1": "I do not believe in meat substitutes",
+    "stance_2": "I love the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Explicitly states that meat substitutes are unappealing and that nothing tastes like meat, supporting love for meat's taste."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "Meat is part of Polish traditional dishes",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Interviewee directly links regular meat eating with Polish traditional cuisine, strongly supporting each other."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "My family loves Polish food with meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The family\u2019s love for Polish meat dishes is a clear support for regular meat consumption."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "My neighbors are meat eaters",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The shared meat-eating environment in the community supports the interviewee\u2019s regular meat consumption."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "We try to limit meat for health reasons",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Trying to limit meat for health reasons is at odds with regular meat consumption, creating a direct conflict."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I love the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The enjoyment of meat\u2019s taste is a clear motivation for regular meat consumption."
+  },
+  {
+    "stance_1": "I love the taste of meat",
+    "stance_2": "We try to limit meat for health reasons",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Loving the taste of meat makes limiting its consumption more difficult, so these stances are in conflict."
+  },
+  {
+    "stance_1": "Meat is part of Polish traditional dishes",
+    "stance_2": "My family loves Polish food with meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Polish traditional dishes containing meat are explicitly cited as a reason for the family\u2019s love of such food."
+  },
+  {
+    "stance_1": "Meat is part of Polish traditional dishes",
+    "stance_2": "My neighbors are meat eaters",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The local culture, influenced by Polish traditions, supports widespread meat consumption, including by neighbors."
+  },
+  {
+    "stance_1": "Meat is part of Polish traditional dishes",
+    "stance_2": "We try to limit meat for health reasons",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 65,
+    "justification": "Meat being central to tradition makes limiting consumption for health more challenging, implying some conflict."
+  },
+  {
+    "stance_1": "My family loves Polish food with meat",
+    "stance_2": "We try to limit meat for health reasons",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 65,
+    "justification": "Love of meat-heavy foods conflicts with attempts to limit meat for health."
+  },
+  {
+    "stance_1": "My neighbors are meat eaters",
+    "stance_2": "We try to limit meat for health reasons",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "A community where everyone eats meat may make it harder to limit meat intake, implying a weak conflict."
+  },
+  {
+    "stance_1": "Eating too much meat is not healthy",
+    "stance_2": "We try to limit meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Trying to limit meat is explicitly motivated by the belief that too much meat is unhealthy."
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I do not like eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly links their dislike of eating meat to concern for animal welfare."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I eat meat daily",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee expresses concern for animal welfare but still eats meat daily, indicating a conflict."
+  },
+  {
+    "stance_1": "I am concerned about environmental impact",
+    "stance_2": "I do not like eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states that environmental concerns contribute to their dislike of eating meat."
+  },
+  {
+    "stance_1": "I am concerned about environmental impact",
+    "stance_2": "I eat meat daily",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee is concerned about environmental impact but continues to eat meat daily, indicating a conflict."
+  },
+  {
+    "stance_1": "I do not like eating meat",
+    "stance_2": "I eat meat daily",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee directly states they do not like eating meat but eat it daily, showing a strong conflict."
+  },
+  {
+    "stance_1": "I eat meat daily",
+    "stance_2": "I feel meat provides proper nutrition",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee eats meat daily because they believe it provides proper nutrition."
+  },
+  {
+    "stance_1": "I eat meat daily",
+    "stance_2": "I have trouble eating carbohydrates",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating meat daily is explicitly linked to difficulty eating carbohydrates."
+  },
+  {
+    "stance_1": "I eat meat daily",
+    "stance_2": "I lost weight as a vegan",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Starting to eat meat daily is a direct response to having lost weight as a vegan."
+  },
+  {
+    "stance_1": "I eat meat daily",
+    "stance_2": "I want to gain weight",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating meat daily is motivated by the desire to gain weight."
+  },
+  {
+    "stance_1": "I eat meat daily",
+    "stance_2": "Prepared fake meat products are unhealthy",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The interviewee suggests fake meat products are unhealthy, supporting their choice to eat real meat daily."
+  },
+  {
+    "stance_1": "I feel meat provides proper nutrition",
+    "stance_2": "I lost weight as a vegan",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The belief that meat provides proper nutrition is reinforced by their experience of losing weight as a vegan."
+  },
+  {
+    "stance_1": "I feel meat provides proper nutrition",
+    "stance_2": "I want to gain weight",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee believes meat provides proper nutrition to help gain weight."
+  },
+  {
+    "stance_1": "I have trouble eating carbohydrates",
+    "stance_2": "I want to gain weight",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee's trouble with carbohydrates led to eating meat to gain weight."
+  },
+  {
+    "stance_1": "I lost weight as a vegan",
+    "stance_2": "I want to gain weight",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The experience of losing weight as a vegan motivated the desire to gain weight."
+  },
+  {
+    "stance_1": "I do not like eating meat",
+    "stance_2": "I want to gain weight",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The interviewee eats meat to gain weight despite not liking it, indicating a conflict."
+  },
+  {
+    "stance_1": "I do not like eating meat",
+    "stance_2": "I feel meat provides proper nutrition",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee believes meat provides nutrition but dislikes eating it, showing internal conflict."
+  },
+  {
+    "stance_1": "I do not like eating meat",
+    "stance_2": "I have trouble eating carbohydrates",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Dislike of meat is present, but trouble with carbohydrates might make meat one of the few viable options."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "Social contacts changed meat eating to support me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The interviewee's concern for animal welfare led them to ask others to stop eating meat."
+  },
+  {
+    "stance_1": "I do not like eating meat",
+    "stance_2": "Social contacts changed meat eating to support me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee's dislike of eating meat motivated them to ask others to change their meat-eating habits."
+  }
+]

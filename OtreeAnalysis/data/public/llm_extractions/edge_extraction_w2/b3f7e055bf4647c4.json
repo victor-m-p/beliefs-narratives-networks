@@ -1,0 +1,34 @@
+[
+  {
+    "stance_1": "I am used to eating meat",
+    "stance_2": "I eat meat with most meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states being used to eating meat as a reason for eating meat with most meals."
+  },
+  {
+    "stance_1": "I am used to eating meat",
+    "stance_2": "My family likes meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee links their habit of eating meat to family preferences and upbringing."
+  },
+  {
+    "stance_1": "I eat meat with most meals",
+    "stance_2": "My family likes meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states that their family's preference for meat is a reason for their own frequent meat consumption."
+  },
+  {
+    "stance_1": "I have considered eating less meat to save money",
+    "stance_2": "I try to find meat on sale",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly mentions wanting to save money as a motivation both for buying meat on sale and considering eating less meat."
+  }
+]

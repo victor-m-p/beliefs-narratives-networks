@@ -1,0 +1,90 @@
+[
+  {
+    "stance_1": "I am sensitive to meat texture",
+    "stance_2": "I sometimes eat only carbs and skip meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that sensitivity to meat texture leads to sometimes skipping the meat and only eating carbs."
+  },
+  {
+    "stance_1": "I am sensitive to meat texture",
+    "stance_2": "I include meat in meals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Sensitivity to meat texture sometimes results in not eating the meat included in meals, undermining the intention to include meat."
+  },
+  {
+    "stance_1": "I believe a balanced diet includes meat",
+    "stance_2": "I include meat in meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The belief that a balanced diet includes meat supports the behavior of including meat in meals."
+  },
+  {
+    "stance_1": "I eat less meat than I should",
+    "stance_2": "I include meat in meals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee feels they eat less meat than they should, which conflicts with the intention or practice of including meat in meals."
+  },
+  {
+    "stance_1": "I eat less meat than I should",
+    "stance_2": "I sometimes eat only carbs and skip meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Eating only carbs and skipping meat directly contributes to the feeling of eating less meat than the interviewee thinks they should."
+  },
+  {
+    "stance_1": "I include meat in meals",
+    "stance_2": "My family likes to eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states that including meat in meals is motivated by the family's preference for eating meat."
+  },
+  {
+    "stance_1": "I include meat in meals",
+    "stance_2": "I want to provide protein for my family",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The desire to provide protein for the family is a key reason for including meat in meals, as explicitly stated."
+  },
+  {
+    "stance_1": "I believe a balanced diet includes meat",
+    "stance_2": "I want to provide protein for my family",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The belief that meat is necessary for a balanced diet supports the motivation to provide protein for the family."
+  },
+  {
+    "stance_1": "I eat meat to get energy",
+    "stance_2": "I include meat in meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The motivation to get energy from meat supports the behavior of including meat in meals."
+  },
+  {
+    "stance_1": "I believe a balanced diet includes meat",
+    "stance_2": "I eat meat to get energy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The interviewee believes that a balanced diet, which includes meat, is needed for energy."
+  },
+  {
+    "stance_1": "I want to provide protein for my family",
+    "stance_2": "My family likes to eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The family's preference for eating meat supports the motivation to provide protein for them."
+  }
+]

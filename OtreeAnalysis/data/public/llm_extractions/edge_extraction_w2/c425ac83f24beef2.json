@@ -1,0 +1,114 @@
+[
+  {
+    "stance_1": "I avoid red meat",
+    "stance_2": "I feel unwell after eating red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee states that feeling unwell after eating red meat supports their avoidance of red meat."
+  },
+  {
+    "stance_1": "I avoid red meat",
+    "stance_2": "I find the typical meat diet boring",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee explicitly connects their avoidance of red meat to finding typical meat diets boring."
+  },
+  {
+    "stance_1": "I avoid red meat",
+    "stance_2": "I heard red meat causes aggression",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee mentions belief in red meat causing aggression as a reason for avoiding it."
+  },
+  {
+    "stance_1": "I avoid red meat",
+    "stance_2": "I think red meat is disgusting to cook",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Finding red meat disgusting to cook is an explicit reason given for avoiding it."
+  },
+  {
+    "stance_1": "I avoid red meat",
+    "stance_2": "I think red meat is unhealthy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee directly states that health concerns are a reason for avoiding red meat."
+  },
+  {
+    "stance_1": "I avoid red meat",
+    "stance_2": "I started eating more vegetables as a teenager",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The shift away from red meat is explicitly linked to a transition toward more vegetables."
+  },
+  {
+    "stance_1": "I avoid red meat",
+    "stance_2": "I prefer chicken and fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee prefers chicken and fish as alternatives to red meat, explicitly supporting their avoidance."
+  },
+  {
+    "stance_1": "I avoid red meat",
+    "stance_2": "Most people close to me avoid red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Social environment where most people avoid red meat supports the interviewee's own avoidance."
+  },
+  {
+    "stance_1": "I like to try new and varied foods",
+    "stance_2": "I find the typical meat diet boring",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly contrasts their enjoyment of varied foods with finding typical meat diets boring."
+  },
+  {
+    "stance_1": "I like to try new and varied foods",
+    "stance_2": "I started eating more vegetables as a teenager",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Interest in new and varied foods is supported by a shift towards eating more vegetables."
+  },
+  {
+    "stance_1": "I have to cook meat for my husband",
+    "stance_2": "I avoid red meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Cooking meat for her husband conflicts with her personal stance of avoiding red meat."
+  },
+  {
+    "stance_1": "I have to cook meat for my husband",
+    "stance_2": "My husband eats a lot of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "The need to cook meat is directly caused by the husband's meat-eating habits."
+  },
+  {
+    "stance_1": "Most people close to me avoid red meat",
+    "stance_2": "My husband eats a lot of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The husband is contrasted to most close contacts, who avoid red meat."
+  },
+  {
+    "stance_1": "My husband eats a lot of meat",
+    "stance_2": "I find the typical meat diet boring",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The husband's typical meat diet is described as boring by the interviewee."
+  }
+]

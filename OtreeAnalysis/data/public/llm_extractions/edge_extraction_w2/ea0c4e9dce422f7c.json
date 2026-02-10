@@ -1,0 +1,26 @@
+[
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I try to limit my meat intake",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that concern about animal welfare is a motivation for limiting meat intake."
+  },
+  {
+    "stance_1": "I try to limit my meat intake",
+    "stance_2": "I want to stay healthy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that staying healthy is a motivation for limiting meat intake."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I want to stay healthy",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Both concerns are mentioned as separate but coexisting motivations for limiting meat consumption; they reinforce each other as parallel motivations, though not directly linked."
+  }
+]

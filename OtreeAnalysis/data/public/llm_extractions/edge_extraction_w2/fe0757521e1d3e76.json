@@ -1,0 +1,178 @@
+[
+  {
+    "stance_1": "I am concerned about climate change",
+    "stance_2": "I want to reduce my carbon footprint",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee directly connects concern about climate change to wanting to reduce their carbon footprint."
+  },
+  {
+    "stance_1": "I am concerned about climate change",
+    "stance_2": "I exclude most types of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly states that concern about climate change is a reason for reducing meat consumption."
+  },
+  {
+    "stance_1": "I am concerned about climate change",
+    "stance_2": "I have picky preferences for meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Preference changes and concern about climate change jointly motivate reduced meat consumption, though connection is more implicit."
+  },
+  {
+    "stance_1": "I am concerned about climate change",
+    "stance_2": "I eat chicken, beef, and bacon",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Concern about climate change motivates reducing meat, but the interviewee still eats some meat, suggesting conflict."
+  },
+  {
+    "stance_1": "I am concerned about climate change",
+    "stance_2": "I am concerned about fake meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Concern about fake meat may hinder using meat alternatives for climate reasons; the interviewee expresses both concerns."
+  },
+  {
+    "stance_1": "I am concerned about climate change",
+    "stance_2": "My family eats all types of meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "The interviewee's concern about climate change contrasts with family members eating all types of meat."
+  },
+  {
+    "stance_1": "I am concerned about climate change",
+    "stance_2": "I do not enjoy strong meaty flavors",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Dislike of meaty flavors and concern for climate both support reduced meat consumption."
+  },
+  {
+    "stance_1": "I exclude most types of meat",
+    "stance_2": "I eat chicken, beef, and bacon",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states they only eat certain meats, excluding most types."
+  },
+  {
+    "stance_1": "I exclude most types of meat",
+    "stance_2": "I have picky preferences for meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The exclusion of most meats is explicitly linked to picky preferences."
+  },
+  {
+    "stance_1": "I exclude most types of meat",
+    "stance_2": "I do not enjoy strong meaty flavors",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Dislike of strong meaty flavors is explicitly stated as a reason for excluding most meat."
+  },
+  {
+    "stance_1": "I exclude most types of meat",
+    "stance_2": "I am concerned about fake meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Concern about fake meat may reinforce sticking to a narrower range of traditional meats."
+  },
+  {
+    "stance_1": "I exclude most types of meat",
+    "stance_2": "My family eats all types of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee contrasts their exclusion with family members eating all types of meat."
+  },
+  {
+    "stance_1": "I exclude most types of meat",
+    "stance_2": "I want to reduce my carbon footprint",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Excluding meats is explicitly motivated by wanting to reduce carbon footprint."
+  },
+  {
+    "stance_1": "I exclude most types of meat",
+    "stance_2": "I am concerned about fake meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Concern about fake meat may reinforce sticking to only certain meats."
+  },
+  {
+    "stance_1": "I have picky preferences for meat",
+    "stance_2": "I do not enjoy strong meaty flavors",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Picky preferences are explicitly related to not enjoying strong meaty flavors."
+  },
+  {
+    "stance_1": "I have picky preferences for meat",
+    "stance_2": "I eat chicken, beef, and bacon",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Preference for these specific meats is explicitly stated as a picky preference."
+  },
+  {
+    "stance_1": "I have picky preferences for meat",
+    "stance_2": "I want to reduce my carbon footprint",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Changing preferences and desire to reduce carbon footprint both support reduced meat consumption."
+  },
+  {
+    "stance_1": "I eat chicken, beef, and bacon",
+    "stance_2": "My family eats all types of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee explicitly contrasts their limited meat choices with their family's broader consumption."
+  },
+  {
+    "stance_1": "I eat chicken, beef, and bacon",
+    "stance_2": "I do not enjoy strong meaty flavors",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly links their choice of these meats to not liking strong meaty flavors."
+  },
+  {
+    "stance_1": "I am concerned about fake meat",
+    "stance_2": "I want to reduce my carbon footprint",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Concern about fake meat conflicts with using meat alternatives to reduce carbon footprint."
+  },
+  {
+    "stance_1": "I am concerned about fake meat",
+    "stance_2": "I have picky preferences for meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Picky preferences may be reinforced by concern about fake meat."
+  },
+  {
+    "stance_1": "I want to reduce my carbon footprint",
+    "stance_2": "I do not enjoy strong meaty flavors",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Dislike of meaty flavors and desire to reduce carbon footprint both support reduced meat consumption."
+  }
+]

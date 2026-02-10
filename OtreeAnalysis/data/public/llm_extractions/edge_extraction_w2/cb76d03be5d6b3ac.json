@@ -1,0 +1,186 @@
+[
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I eat meat daily",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Interviewee explicitly states they enjoy eating meat but are unhappy about animal welfare, indicating conflict."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I seek to balance personal health and ethics",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Balancing health and ethics is explicitly described as involving animal welfare concerns."
+  },
+  {
+    "stance_1": "I avoid fast food and heavily processed foods",
+    "stance_2": "I avoid processed meats",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Avoiding fast food and processed foods is explicitly connected to avoiding processed meats."
+  },
+  {
+    "stance_1": "I avoid fast food and heavily processed foods",
+    "stance_2": "I focus on healthy meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The avoidance of processed foods/meats is explicitly linked to focusing on healthy meat consumption."
+  },
+  {
+    "stance_1": "I avoid processed meats",
+    "stance_2": "I focus on healthy meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Avoiding processed meats is explicitly described as part of healthy meat consumption."
+  },
+  {
+    "stance_1": "I avoid processed meats",
+    "stance_2": "I want to live a long, healthy life",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Avoiding processed meats is explicitly motivated by desire for long-term health."
+  },
+  {
+    "stance_1": "I avoid pork and hamburger",
+    "stance_2": "I focus on healthy meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Pork and hamburger are avoided for health reasons, supporting healthy meat consumption."
+  },
+  {
+    "stance_1": "I eat meat daily",
+    "stance_2": "I focus on healthy meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Interviewee describes daily meat-eating as carefully managed for health, showing alignment."
+  },
+  {
+    "stance_1": "I eat meat daily",
+    "stance_2": "I seek to balance personal health and ethics",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Daily meat-eating is approached as a balance between health and ethics, explicitly discussed."
+  },
+  {
+    "stance_1": "I focus on healthy meat consumption",
+    "stance_2": "I seek to balance personal health and ethics",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The balance of health and ethics is at the core of the healthy meat consumption approach."
+  },
+  {
+    "stance_1": "I focus on healthy meat consumption",
+    "stance_2": "I want to live a long, healthy life",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Healthy meat consumption is directly motivated by the desire for health and longevity."
+  },
+  {
+    "stance_1": "I enjoy the taste of simple, natural food",
+    "stance_2": "I focus on healthy meat consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Enjoyment of simple, natural food is tied to the healthy eating approach, explicitly described."
+  },
+  {
+    "stance_1": "I enjoy the taste of simple, natural food",
+    "stance_2": "I want to live a long, healthy life",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Preference for simple, natural food is linked to a health-motivated lifestyle."
+  },
+  {
+    "stance_1": "I seek to balance personal health and ethics",
+    "stance_2": "I want to live a long, healthy life",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Balancing health and ethics supports the goal of a long, healthy life."
+  },
+  {
+    "stance_1": "I eat meat daily",
+    "stance_2": "My family eats meat without ethical concerns",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Interviewee and family both eat meat daily, showing alignment in behavior if not motivation."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "My family eats meat without ethical concerns",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Interviewee is concerned about animal welfare; family is not, explicitly discussed as a difference."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "My friends avoid meat for ethical reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Both the interviewee and friends share concerns about animal welfare, explicitly stated."
+  },
+  {
+    "stance_1": "I focus on healthy meat consumption",
+    "stance_2": "My friends avoid meat for ethical reasons",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Friends' meat avoidance is motivated by ethics, while interviewee focuses on health, explicitly contrasted."
+  },
+  {
+    "stance_1": "I focus on healthy meat consumption",
+    "stance_2": "My family eats meat without ethical concerns",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Interviewee is health-conscious, while family eats meat without consideration, explicitly contrasted."
+  },
+  {
+    "stance_1": "I seek to balance personal health and ethics",
+    "stance_2": "My friends avoid meat for ethical reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Interviewee's balancing of ethics aligns partly with friends' ethical motivations, explicitly discussed."
+  },
+  {
+    "stance_1": "I seek to balance personal health and ethics",
+    "stance_2": "My family eats meat without ethical concerns",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Interviewee balances health and ethics; family is explicitly described as not considering ethics."
+  },
+  {
+    "stance_1": "I avoid processed meats",
+    "stance_2": "I enjoy the taste of simple, natural food",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Avoidance of processed meats is linked to enjoyment of simple, unprocessed food."
+  },
+  {
+    "stance_1": "I avoid fast food and heavily processed foods",
+    "stance_2": "I enjoy the taste of simple, natural food",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Avoiding fast/processed food supports enjoyment of simple, natural flavors, explicitly described."
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "stance_1": "Chicken and pork are less expensive than beef",
+    "stance_2": "I choose meats that are on sale",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that because chicken and pork are less expensive, they are chosen more often when on sale."
+  },
+  {
+    "stance_1": "Chicken and pork are less expensive than beef",
+    "stance_2": "I eat mostly chicken",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The lower cost of chicken and pork implicitly supports eating mostly chicken."
+  },
+  {
+    "stance_1": "Chicken and pork are less expensive than beef",
+    "stance_2": "I prefer chicken and fish",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Lower prices for chicken may support a preference for chicken, though the preference is not stated as price-based."
+  },
+  {
+    "stance_1": "I choose meats that are on sale",
+    "stance_2": "I eat mostly chicken",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Choosing meats on sale may reinforce eating mostly chicken, as chicken is often less expensive."
+  },
+  {
+    "stance_1": "I choose meats that are on sale",
+    "stance_2": "I prefer chicken and fish",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Preferring chicken and fish may be supported by choosing meats that are on sale if those are the ones more frequently discounted."
+  },
+  {
+    "stance_1": "I crave steak but rarely eat it",
+    "stance_2": "I find beef hard to chew",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that craving steak but rarely eating it is due to difficulty chewing beef."
+  },
+  {
+    "stance_1": "I crave steak but rarely eat it",
+    "stance_2": "I eat mostly chicken",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Craving steak but rarely eating it implicitly supports eating mostly chicken instead."
+  },
+  {
+    "stance_1": "I crave steak but rarely eat it",
+    "stance_2": "I prefer chicken and fish",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Rarely eating steak supports the preference for chicken and fish."
+  },
+  {
+    "stance_1": "I eat mostly chicken",
+    "stance_2": "I find chicken and fish easy to digest",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that they eat mostly chicken because it is easy to digest."
+  },
+  {
+    "stance_1": "I eat mostly chicken",
+    "stance_2": "I find beef hard to chew",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The difficulty in chewing beef explicitly contributes to eating mostly chicken."
+  },
+  {
+    "stance_1": "I eat mostly chicken",
+    "stance_2": "I prefer chicken and fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly says they eat mostly chicken and prefer chicken and fish."
+  },
+  {
+    "stance_1": "I find beef hard to chew",
+    "stance_2": "I prefer chicken and fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Preference for chicken and fish is explicitly justified by difficulty with beef texture."
+  },
+  {
+    "stance_1": "I find chicken and fish easy to digest",
+    "stance_2": "I prefer chicken and fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly prefers chicken and fish because they are easy to digest."
+  }
+]

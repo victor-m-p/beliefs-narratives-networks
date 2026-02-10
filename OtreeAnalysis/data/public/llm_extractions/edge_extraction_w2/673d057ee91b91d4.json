@@ -1,0 +1,146 @@
+[
+  {
+    "stance_1": "Carbs make me feel worse",
+    "stance_2": "High stress increases my carb intake",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee explicitly states that high stress leads to increased carb intake, which in turn makes them feel worse."
+  },
+  {
+    "stance_1": "Carbs make me feel worse",
+    "stance_2": "I do not believe I can be healthy without meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The belief that carbs make the interviewee feel worse supports the stance that they cannot be healthy without meat."
+  },
+  {
+    "stance_1": "Carbs make me feel worse",
+    "stance_2": "I eat meat at every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The dislike of how carbs make the interviewee feel supports the habit of eating meat at every meal."
+  },
+  {
+    "stance_1": "Carbs make me feel worse",
+    "stance_2": "Meat makes me feel better",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The negative effects of carbs are contrasted with the positive effects of meat, reinforcing each other."
+  },
+  {
+    "stance_1": "Eating meat reduces my inflammation",
+    "stance_2": "I get inflammation when eating more carbs",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee directly states that more carbs cause inflammation and meat reduces it."
+  },
+  {
+    "stance_1": "Eating meat reduces my inflammation",
+    "stance_2": "Meat makes me feel better",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Reduction of inflammation is one way in which meat makes the interviewee feel better."
+  },
+  {
+    "stance_1": "Eating meat is natural for me",
+    "stance_2": "I eat meat at every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee describes eating meat at every meal as a natural habit."
+  },
+  {
+    "stance_1": "Eating meat is natural for me",
+    "stance_2": "My social contacts eat meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The interviewee implies that eating meat is natural because it is common among their social circle."
+  },
+  {
+    "stance_1": "I do not believe I can be healthy without meat",
+    "stance_2": "I want to be healthy without meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee expresses a wish to be healthy without meat but explicitly states disbelief that it is possible."
+  },
+  {
+    "stance_1": "I eat meat at every meal",
+    "stance_2": "Meat makes me feel better",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee eats meat at every meal because it makes them feel better."
+  },
+  {
+    "stance_1": "I eat meat at every meal",
+    "stance_2": "My social contacts eat meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The social environment of meat-eating plausibly supports the interviewee's habit."
+  },
+  {
+    "stance_1": "I eat meat at every meal",
+    "stance_2": "Vegetarian and raw diets are hard to maintain",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The difficulty of maintaining vegetarian and raw diets supports the continuation of eating meat at every meal."
+  },
+  {
+    "stance_1": "I eat meat at every meal",
+    "stance_2": "Vegetarian and raw diets are expensive",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Costliness of alternative diets supports the habit of eating meat at every meal."
+  },
+  {
+    "stance_1": "I get inflammation when eating more carbs",
+    "stance_2": "Meat makes me feel better",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly connects feeling better from meat with reduced inflammation from lower carb intake."
+  },
+  {
+    "stance_1": "High stress increases my carb intake",
+    "stance_2": "I want to be healthy without meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Increased carb intake under stress may undermine the aspiration to be healthy without meat, given carbs are viewed negatively."
+  },
+  {
+    "stance_1": "Meat makes me feel better",
+    "stance_2": "Vegetarian and raw diets are hard to maintain",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "The positive feeling from meat and difficulty of alternatives both reinforce a preference for eating meat."
+  },
+  {
+    "stance_1": "Meat makes me feel better",
+    "stance_2": "Vegetarian and raw diets are expensive",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Positive experience with meat and negative experience with alternative diets both support continued meat eating."
+  },
+  {
+    "stance_1": "Vegetarian and raw diets are expensive",
+    "stance_2": "Vegetarian and raw diets are hard to maintain",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee explicitly mentions both cost and difficulty as reasons these diets are not maintained."
+  }
+]

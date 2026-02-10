@@ -1,0 +1,42 @@
+[
+  {
+    "stance_1": "I have been told to include protein in every meal",
+    "stance_2": "I have meat with every meal",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that being told to include protein in every meal is a reason for having meat with every meal."
+  },
+  {
+    "stance_1": "I have been told to include protein in every meal",
+    "stance_2": "I want to have protein, vegetables, and starch",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee links the advice about protein, vegetables, and starch to their meal-building approach."
+  },
+  {
+    "stance_1": "I enjoy the taste of steak",
+    "stance_2": "I have meat with every meal",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoying the taste of steak implicitly supports having meat with every meal, especially as steak is mentioned as a favorite."
+  },
+  {
+    "stance_1": "I stopped eating red meat for a period as a teenager",
+    "stance_2": "Reading about meat by-products disgusted me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "The interviewee directly states that disgust from reading about meat by-products was the cause of stopping red meat consumption."
+  },
+  {
+    "stance_1": "I enjoy the taste of steak",
+    "stance_2": "I stopped eating red meat for a period as a teenager",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Enjoying steak conflicts with having stopped eating red meat, as the interviewee resumed eating it due to the appealing taste."
+  }
+]

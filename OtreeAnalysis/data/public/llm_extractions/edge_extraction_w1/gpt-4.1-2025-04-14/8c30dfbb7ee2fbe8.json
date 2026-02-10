@@ -1,0 +1,122 @@
+[
+  {
+    "stance_1": "Barbecuing occasions increase chicken consumption",
+    "stance_2": "My family barbecues meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states that barbecuing with family occurs regularly and that during barbecues, chicken is more often consumed, showing a direct supportive link."
+  },
+  {
+    "stance_1": "I cook meat at home regularly",
+    "stance_2": "I prefer lean meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee reports regular home cooking of meat and a strong preference for lean meat at home for health reasons."
+  },
+  {
+    "stance_1": "I cook meat at home regularly",
+    "stance_2": "I was raised eating ground sirloin",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "The preference for and regular home cooking of ground sirloin is linked to upbringing, as stated by the interviewee."
+  },
+  {
+    "stance_1": "I cook meat at home regularly",
+    "stance_2": "I enjoy the taste of meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The interviewee's enjoyment of meat supports their regular meat cooking at home."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "I prefer lean meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Interviewee explicitly says leaner meat tastes better, linking taste enjoyment and lean preference."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "I was raised eating ground sirloin",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Enjoyment of meat is plausibly influenced by childhood habit of eating ground sirloin."
+  },
+  {
+    "stance_1": "I eat at fast food restaurants serving meat",
+    "stance_2": "I prefer lean meat for health reasons",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Interviewee expresses concern that fast food meat is fattier and less healthy, in contrast to their preference for lean meat at home."
+  },
+  {
+    "stance_1": "I eat at fast food restaurants serving meat",
+    "stance_2": "I cook meat at home regularly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Interviewee distinguishes between fast food and home-cooked meat, expressing more control and preference for quality at home."
+  },
+  {
+    "stance_1": "I prefer lean meat for health reasons",
+    "stance_2": "I was raised eating ground sirloin",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Interviewee directly links their current choice of lean meat to being raised on ground sirloin."
+  },
+  {
+    "stance_1": "I cook meat at home regularly",
+    "stance_2": "My family barbecues meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "Regular home cooking and family barbecuing both reflect a meat-centric household pattern."
+  },
+  {
+    "stance_1": "I sometimes cook to remember my grandmother",
+    "stance_2": "I cook meat at home regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "The interviewee occasionally cooks to evoke memories of their grandmother, supporting their regular home cooking pattern."
+  },
+  {
+    "stance_1": "Meat can be expensive for my family",
+    "stance_2": "My family barbecues meat regularly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Interviewee notes that barbecuing meat is sometimes limited by the expense of meat for the family."
+  },
+  {
+    "stance_1": "My nephew encourages us to cook steak",
+    "stance_2": "My family barbecues meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The nephew's enthusiasm for steak and cooking supports more frequent barbecuing in the family."
+  },
+  {
+    "stance_1": "My nephew encourages us to cook steak",
+    "stance_2": "Barbecuing occasions increase chicken consumption",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "Nephew's encouragement of steak could reduce the relative focus on chicken during barbecues."
+  },
+  {
+    "stance_1": "I sometimes cook to remember my grandmother",
+    "stance_2": "I was raised eating ground sirloin",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Cooking to remember grandmother is likely linked to foods eaten in upbringing, such as ground sirloin."
+  }
+]

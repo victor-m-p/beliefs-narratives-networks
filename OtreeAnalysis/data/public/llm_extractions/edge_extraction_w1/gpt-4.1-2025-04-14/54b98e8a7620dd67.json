@@ -1,0 +1,114 @@
+[
+  {
+    "stance_1": "Health is important to me",
+    "stance_2": "I am influenced by health advice",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that health advice about what is healthy influences their choices, which is rooted in their valuing of health."
+  },
+  {
+    "stance_1": "Health is important to me",
+    "stance_2": "I eat more fish and chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly links eating more fish and chicken to prioritizing health."
+  },
+  {
+    "stance_1": "Health is important to me",
+    "stance_2": "I try to cut down on red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly connects their effort to reduce red meat intake to their concern for health."
+  },
+  {
+    "stance_1": "I am influenced by health advice",
+    "stance_2": "I eat more fish and chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee directly states that following health advice is the reason for eating more fish and chicken."
+  },
+  {
+    "stance_1": "I am influenced by health advice",
+    "stance_2": "I try to cut down on red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee directly states that health advice motivates reducing red meat intake."
+  },
+  {
+    "stance_1": "I eat more fish and chicken",
+    "stance_2": "I try to cut down on red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Both behaviors are pursued for the same health reasons and are described as complementary strategies."
+  },
+  {
+    "stance_1": "I eat more fish and chicken",
+    "stance_2": "My friends and family eat more fish and chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly notes their social circle shares similar eating habits regarding fish and chicken."
+  },
+  {
+    "stance_1": "I try to cut down on red meat",
+    "stance_2": "My friends and family try to reduce red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly notes their social circle also tries to reduce red meat intake."
+  },
+  {
+    "stance_1": "My friends and family eat more fish and chicken",
+    "stance_2": "My friends and family try to reduce red meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee reports their friends and family both eat more fish/chicken and reduce red meat, motivated by shared health values."
+  },
+  {
+    "stance_1": "Health is important to me",
+    "stance_2": "I choose steak as a reward",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Choosing steak as a reward occasionally may conflict with prioritizing health, though the interviewee frames it as an exception."
+  },
+  {
+    "stance_1": "Health is important to me",
+    "stance_2": "I eat steak at nice restaurants",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Eating steak at restaurants could conflict with health prioritization, but is presented as a rare indulgence."
+  },
+  {
+    "stance_1": "I try to cut down on red meat",
+    "stance_2": "I choose steak as a reward",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee tries to cut down on red meat but explicitly allows steak as an occasional reward, indicating a tension between restraint and indulgence."
+  },
+  {
+    "stance_1": "I try to cut down on red meat",
+    "stance_2": "I eat steak at nice restaurants",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee tries to reduce red meat, but eats steak at nice restaurants as an exception."
+  },
+  {
+    "stance_1": "I choose steak as a reward",
+    "stance_2": "I eat steak at nice restaurants",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states that steak is chosen as a reward, specifically at nice restaurants."
+  }
+]

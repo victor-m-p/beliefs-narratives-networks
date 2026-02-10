@@ -1,0 +1,130 @@
+[
+  {
+    "stance_1": "A friend encourages eating less beef",
+    "stance_2": "I have reduced my beef consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that a friend influenced their decision to eat less beef."
+  },
+  {
+    "stance_1": "A friend is concerned about climate harm from beef",
+    "stance_2": "A friend encourages eating less beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The friend's concern about climate harm is given as a reason for encouraging the interviewee to eat less beef."
+  },
+  {
+    "stance_1": "A friend is concerned about climate harm from beef",
+    "stance_2": "I am concerned about climate change",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Both the friend and the interviewee share concern about climate change, especially in relation to beef."
+  },
+  {
+    "stance_1": "A friend is concerned about climate harm from beef",
+    "stance_2": "I have reduced my beef consumption",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The friend's concern about climate harm likely reinforces the interviewee's reduction of beef consumption."
+  },
+  {
+    "stance_1": "A friend believes cows suffer more than chickens",
+    "stance_2": "A friend encourages eating less beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The friend's belief about animal suffering is explicitly given as a reason for avoiding beef."
+  },
+  {
+    "stance_1": "A friend avoids beef for health reasons",
+    "stance_2": "A friend encourages eating less beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The friend's health concerns about beef are given as part of the reasoning for encouraging less beef consumption."
+  },
+  {
+    "stance_1": "I am concerned about climate change",
+    "stance_2": "I have reduced my beef consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states climate change concerns as the main reason for reducing beef consumption."
+  },
+  {
+    "stance_1": "I eat at home more often",
+    "stance_2": "I have reduced my beef consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee mentions that eating at home more often has contributed to eating less beef."
+  },
+  {
+    "stance_1": "I eat chicken most often",
+    "stance_2": "I have reduced my beef consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The reduction in beef consumption is associated with eating more chicken."
+  },
+  {
+    "stance_1": "I eat chicken most often",
+    "stance_2": "I try to eat a variety of meats",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee tries to mix up meal options, but chicken is eaten most often, supporting the desire for variety."
+  },
+  {
+    "stance_1": "I eat chicken most often",
+    "stance_2": "I would eat more sushi if I could afford it",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee states that they would eat more sushi if it were affordable, but default to chicken most often."
+  },
+  {
+    "stance_1": "I eat meat in almost every meal",
+    "stance_2": "I have reduced my beef consumption",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Eating meat in almost every meal is somewhat in tension with reducing beef, though the reduction is specific to beef, not all meat."
+  },
+  {
+    "stance_1": "I eat meat in almost every meal",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Enjoying the taste of meat supports eating meat in almost every meal."
+  },
+  {
+    "stance_1": "I try to eat a variety of meats",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee's desire for variety is supported by their general enjoyment of meat."
+  },
+  {
+    "stance_1": "I try to eat a variety of meats",
+    "stance_2": "I have reduced my beef consumption",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The interviewee's reduction in beef is accompanied by trying different meats to maintain variety."
+  },
+  {
+    "stance_1": "A friend avoids beef for health reasons",
+    "stance_2": "A friend is concerned about climate harm from beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The friend has multiple reasons for avoiding beef: health and climate harm."
+  }
+]

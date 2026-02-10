@@ -1,0 +1,162 @@
+[
+  {
+    "stance_1": "Cattle farming uses a lot of water and land",
+    "stance_2": "I have consumed less red meat lately",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Interviewee explicitly connects knowledge about cattle farming's resource use to reduced red meat consumption."
+  },
+  {
+    "stance_1": "Cattle farming uses a lot of water and land",
+    "stance_2": "I learned about the cattle business's environmental impact",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "Cattle farming's environmental impact is specified as water and land use; these stances directly reinforce each other."
+  },
+  {
+    "stance_1": "Cattle farming uses a lot of water and land",
+    "stance_2": "I switch to turkey or chicken versions of beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The resource use in cattle farming supports the motivation to switch to poultry alternatives."
+  },
+  {
+    "stance_1": "Cattle farming uses a lot of water and land",
+    "stance_2": "I try to eat mainly fish, shrimp, or chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Interviewee's awareness of cattle farming's resource use motivates preference for non-beef meats."
+  },
+  {
+    "stance_1": "Education about animal treatment influenced me",
+    "stance_2": "I have consumed less red meat lately",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Interviewee notes childhood educational influences, which plausibly support current meat reduction behaviors."
+  },
+  {
+    "stance_1": "I am more aware of other people's preferences",
+    "stance_2": "I order less meat around my roommate",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Interviewee explicitly states being aware of others' preferences results in ordering less meat around roommate."
+  },
+  {
+    "stance_1": "I am more aware of other people's preferences",
+    "stance_2": "I try to match others' eating habits",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Interviewee explicitly links awareness of others' preferences to matching their habits."
+  },
+  {
+    "stance_1": "I am more aware of other people's preferences",
+    "stance_2": "I feel self conscious eating beef around my roommate",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Interviewee says awareness of others' preferences leads to self-consciousness about eating beef around roommate."
+  },
+  {
+    "stance_1": "I feel self conscious eating beef around my roommate",
+    "stance_2": "I order less meat around my roommate",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Interviewee says feeling self-conscious around roommate leads to limiting meat consumption."
+  },
+  {
+    "stance_1": "I have consumed less red meat lately",
+    "stance_2": "I switch to turkey or chicken versions of beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Switching to turkey or chicken versions is a specific method of reducing red meat consumption."
+  },
+  {
+    "stance_1": "I have consumed less red meat lately",
+    "stance_2": "I try to eat mainly fish, shrimp, or chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating more fish, shrimp, or chicken supports the reduction of red meat in the diet."
+  },
+  {
+    "stance_1": "I learned about the cattle business's environmental impact",
+    "stance_2": "I have consumed less red meat lately",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Interviewee explicitly says learning about the environmental impact led to reduced red meat consumption."
+  },
+  {
+    "stance_1": "I learned about the cattle business's environmental impact",
+    "stance_2": "I switch to turkey or chicken versions of beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Environmental concerns explicitly motivate switching to poultry alternatives."
+  },
+  {
+    "stance_1": "I learned about the cattle business's environmental impact",
+    "stance_2": "I try to eat mainly fish, shrimp, or chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Environmental concerns motivate preference for non-beef meats."
+  },
+  {
+    "stance_1": "I limit my meat consumption for personal reasons",
+    "stance_2": "Limiting meat is less expensive",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Interviewee says limiting meat is partly due to personal reasons and mentions cost as a personal reason."
+  },
+  {
+    "stance_1": "I order less meat around my roommate",
+    "stance_2": "My roommate was raised vegetarian",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Interviewee explicitly says roommate's vegetarian background leads to ordering less meat around her."
+  },
+  {
+    "stance_1": "I feel self conscious eating beef around my roommate",
+    "stance_2": "My roommate was raised vegetarian",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Interviewee explicitly connects self-consciousness to roommate's vegetarian background."
+  },
+  {
+    "stance_1": "I switch to turkey or chicken versions of beef",
+    "stance_2": "I try to eat mainly fish, shrimp, or chicken",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Switching to poultry versions and eating more poultry and seafood are both ways of reducing red meat."
+  },
+  {
+    "stance_1": "I try to eat mainly fish, shrimp, or chicken",
+    "stance_2": "Limiting meat is less expensive",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Eating cheaper proteins may be motivated by cost, though this is not explicitly stated."
+  },
+  {
+    "stance_1": "Education about animal treatment influenced me",
+    "stance_2": "I try to eat mainly fish, shrimp, or chicken",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Educational influences about animal treatment may support preference for less problematic meats."
+  }
+]

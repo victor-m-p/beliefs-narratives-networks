@@ -1,0 +1,218 @@
+[
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "I enjoy the taste of meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Enjoying the taste of meat is in tension with concern about animal welfare, as animal welfare concerns often motivate meat reduction."
+  },
+  {
+    "stance_1": "I appreciate the versatility of meat",
+    "stance_2": "I enjoy the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The enjoyment of meat is supported by the appreciation of its versatility, as expressed by the interviewee."
+  },
+  {
+    "stance_1": "I find meat cost effective",
+    "stance_2": "I enjoy the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 30,
+    "justification": "The interviewee mentions both taste and cost-effectiveness as reasons for eating meat, indicating a positive relationship."
+  },
+  {
+    "stance_1": "I grew up eating meat",
+    "stance_2": "My family enjoys cooking and eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly links their upbringing and family habits to growing up eating meat."
+  },
+  {
+    "stance_1": "I grew up eating meat",
+    "stance_2": "My friends and family eat meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Growing up eating meat is explicitly associated with the habits of friends and family."
+  },
+  {
+    "stance_1": "I grew up eating meat",
+    "stance_2": "Meat is widely available socially",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The interviewee notes that eating meat is part of their social environment and upbringing."
+  },
+  {
+    "stance_1": "I reduced meat intake for health",
+    "stance_2": "I want mental clarity",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states that reducing meat intake led to more mental clarity."
+  },
+  {
+    "stance_1": "I reduced meat intake for health",
+    "stance_2": "I feel more energetic without meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly says they felt more energetic after reducing meat."
+  },
+  {
+    "stance_1": "I reduced meat intake for health",
+    "stance_2": "Eating less meat is a lifestyle change",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee describes reducing meat as a significant lifestyle change."
+  },
+  {
+    "stance_1": "I want to be mindful about diet",
+    "stance_2": "I try to balance meat with fiber",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The desire to be mindful about diet supports balancing meat with fiber."
+  },
+  {
+    "stance_1": "I want to be mindful about diet",
+    "stance_2": "I reduced meat intake for health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Being mindful about diet is linked to reducing meat intake for health reasons."
+  },
+  {
+    "stance_1": "I want to be mindful about diet",
+    "stance_2": "I want mental clarity",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The interviewee connects mindfulness about diet to seeking mental clarity."
+  },
+  {
+    "stance_1": "I want to be mindful about diet",
+    "stance_2": "I am concerned about animal welfare",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Being mindful about diet may involve considering animal welfare, as alluded to by the interviewee."
+  },
+  {
+    "stance_1": "I want to be mindful about diet",
+    "stance_2": "I feel more energetic without meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Mindfulness about diet is implicitly associated with noticing increased energy without meat."
+  },
+  {
+    "stance_1": "I want to be mindful about diet",
+    "stance_2": "I try to balance meat with fiber",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states the intention to be more mindful by balancing meat with fiber."
+  },
+  {
+    "stance_1": "I want to be mindful about diet",
+    "stance_2": "Meat provides nutrients I value",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Mindfulness about diet includes awareness of the nutrients provided by meat."
+  },
+  {
+    "stance_1": "I want to be mindful about diet",
+    "stance_2": "Meat is widely available socially",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The interviewee notes that mindfulness about diet can be challenged by the social ubiquity of meat."
+  },
+  {
+    "stance_1": "I try to balance meat with fiber",
+    "stance_2": "Meat is widely available socially",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Balancing meat with fiber is challenged by the social ubiquity and convenience of meat-heavy meals."
+  },
+  {
+    "stance_1": "I enjoy the taste of meat",
+    "stance_2": "I want to be mindful about diet",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Enjoying meat may conflict with efforts to be mindful about diet, especially with health and ethical considerations."
+  },
+  {
+    "stance_1": "I feel more energetic without meat",
+    "stance_2": "Meat provides nutrients I value",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee expresses that although meat provides valuable nutrients, they feel more energetic without it, indicating a conflict."
+  },
+  {
+    "stance_1": "I want mental clarity",
+    "stance_2": "Meat provides nutrients I value",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The interviewee notes that although meat has nutrients, avoiding meat gives them more mental clarity, suggesting a conflict."
+  },
+  {
+    "stance_1": "I am concerned about animal welfare",
+    "stance_2": "Meat provides nutrients I value",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Concern about animal welfare is in tension with the nutritional value meat provides."
+  },
+  {
+    "stance_1": "I reduced meat intake for health",
+    "stance_2": "Meat provides nutrients I value",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The interviewee acknowledges both the value of meat's nutrients and having reduced meat for health, a source of tension."
+  },
+  {
+    "stance_1": "Eating less meat is a lifestyle change",
+    "stance_2": "Meat is widely available socially",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly describes the social availability of meat as a challenge to eating less meat."
+  },
+  {
+    "stance_1": "I grew up eating meat",
+    "stance_2": "Eating less meat is a lifestyle change",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee describes eating less meat as a paradigm shift from how they grew up."
+  },
+  {
+    "stance_1": "My friends and family eat meat",
+    "stance_2": "Eating less meat is a lifestyle change",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "Eating less meat is described as a lifestyle change in part because friends and family continue to eat meat."
+  },
+  {
+    "stance_1": "My family enjoys cooking and eating meat",
+    "stance_2": "Eating less meat is a lifestyle change",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The family\u2019s enjoyment of meat challenges efforts to eat less meat."
+  }
+]

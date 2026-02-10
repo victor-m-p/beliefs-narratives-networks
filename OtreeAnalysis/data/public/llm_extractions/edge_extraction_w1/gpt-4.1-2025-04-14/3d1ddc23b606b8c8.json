@@ -1,0 +1,82 @@
+[
+  {
+    "stance_1": "Eating meat is a family tradition",
+    "stance_2": "I eat all forms of meat daily",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 80,
+    "justification": "The tradition of eating meat supports the behavior of eating all forms of meat daily."
+  },
+  {
+    "stance_1": "Eating meat is a family tradition",
+    "stance_2": "I prepare meat and side dishes for my family",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee states that preparing meat for their family follows the family tradition."
+  },
+  {
+    "stance_1": "Eating meat is a family tradition",
+    "stance_2": "My parents served meat and two sides at meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly connects family tradition with their parents' approach to meals."
+  },
+  {
+    "stance_1": "Eating meat is a family tradition",
+    "stance_2": "My family eats meat as main portion of meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The family tradition supports the practice of having meat as the main portion."
+  },
+  {
+    "stance_1": "I feel guilty about animals being killed for food",
+    "stance_2": "My religious beliefs support eating animals",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 100,
+    "justification": "The interviewee explicitly describes a conflict between guilt over animals being killed and religious beliefs supporting eating animals."
+  },
+  {
+    "stance_1": "I prepare meat and side dishes for my family",
+    "stance_2": "I eat all forms of meat daily",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Preparing meat for the family and personal daily consumption of meat are mutually reinforcing behaviors."
+  },
+  {
+    "stance_1": "I prepare meat and side dishes for my family",
+    "stance_2": "My parents served meat and two sides at meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly says their meal preparation mirrors their parents' habits."
+  },
+  {
+    "stance_1": "I prepare meat and side dishes for my family",
+    "stance_2": "My family eats meat as main portion of meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Preparing meat for the family directly supports the family eating meat as the main portion."
+  },
+  {
+    "stance_1": "I eat all forms of meat daily",
+    "stance_2": "My family eats meat as main portion of meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee's daily consumption is supported by the family practice of eating meat as the main portion."
+  },
+  {
+    "stance_1": "My parents served meat and two sides at meals",
+    "stance_2": "My family eats meat as main portion of meals",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "The parental practice is reflected in the current family practice, supporting continuity."
+  }
+]

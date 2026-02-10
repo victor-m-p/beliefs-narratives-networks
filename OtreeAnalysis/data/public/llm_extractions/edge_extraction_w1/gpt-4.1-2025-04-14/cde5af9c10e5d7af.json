@@ -1,0 +1,58 @@
+[
+  {
+    "stance_1": "I eat chicken and fish",
+    "stance_2": "I want to be healthy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states that their motivation for eating chicken and fish is the belief that these meats are healthier."
+  },
+  {
+    "stance_1": "I eat chicken and fish",
+    "stance_2": "I tried being vegetarian for a week",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 35,
+    "justification": "Trying vegetarianism conflicts with the usual habit of eating chicken and fish."
+  },
+  {
+    "stance_1": "I do not crave steak",
+    "stance_2": "I eat chicken and fish",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The interviewee distinguishes their preference for chicken and fish by saying they do not crave steak, supporting their focus on these meats."
+  },
+  {
+    "stance_1": "I love animals",
+    "stance_2": "I tried being vegetarian for a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee considers becoming vegetarian again because they love animals, suggesting animal welfare motivates vegetarian attempts."
+  },
+  {
+    "stance_1": "I love animals",
+    "stance_2": "Social contacts want to eat less meat for animal welfare",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "Both the interviewee and their social contacts express concern for animal welfare as a reason to reduce meat consumption."
+  },
+  {
+    "stance_1": "I tried being vegetarian for a week",
+    "stance_2": "Social contacts want to eat less meat for animal welfare",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "The interviewee's attempt at vegetarianism could be indirectly supported by conversations with social contacts about animal welfare."
+  },
+  {
+    "stance_1": "I want to be healthy",
+    "stance_2": "Social contacts want to eat less meat for health",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Both the interviewee and their social contacts cite health as a reason for their meat consumption choices."
+  }
+]

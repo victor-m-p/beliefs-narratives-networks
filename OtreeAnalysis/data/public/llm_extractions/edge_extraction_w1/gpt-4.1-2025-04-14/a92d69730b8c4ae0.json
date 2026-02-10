@@ -1,0 +1,170 @@
+[
+  {
+    "stance_1": "I always have meat at dinner",
+    "stance_2": "I always snack on venison jerky",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Both behaviors reflect a habitual and frequent meat consumption pattern, supporting each other as part of the interviewee's daily routine."
+  },
+  {
+    "stance_1": "I always have meat at dinner",
+    "stance_2": "I grew up eating meat at meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee states their current meat-eating habits are shaped by growing up eating meat at meals."
+  },
+  {
+    "stance_1": "I always have meat at dinner",
+    "stance_2": "I would never consider not eating meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Regularly having meat at dinner supports the strong commitment to never considering not eating meat."
+  },
+  {
+    "stance_1": "I always snack on venison jerky",
+    "stance_2": "I would never consider not eating meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "Frequent meat snacking supports a strong commitment to always eating meat."
+  },
+  {
+    "stance_1": "I grew up eating meat at meals",
+    "stance_2": "I would never consider not eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly links growing up with meat to their unwavering stance on never giving up meat."
+  },
+  {
+    "stance_1": "I grew up eating meat at meals",
+    "stance_2": "My family includes meat in meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states both their upbringing and their family's habits involve including meat in meals."
+  },
+  {
+    "stance_1": "I grew up eating meat at meals",
+    "stance_2": "My family hunts for meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The family hunting behavior provides the meat that shaped the interviewee's upbringing."
+  },
+  {
+    "stance_1": "I grew up eating meat at meals",
+    "stance_2": "We hunt to avoid buying beef",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Hunting to provide meat instead of buying beef supports a meat-centric upbringing."
+  },
+  {
+    "stance_1": "I grew up eating meat at meals",
+    "stance_2": "Hunting is a sport we enjoy",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Enjoyment of hunting as a sport likely contributes to frequent meat-eating habits in the family."
+  },
+  {
+    "stance_1": "My family includes meat in meals",
+    "stance_2": "My family hunts for meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Family hunting directly supplies the meat included in family meals."
+  },
+  {
+    "stance_1": "My family includes meat in meals",
+    "stance_2": "We hunt to avoid buying beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Hunting to avoid buying beef directly supports the inclusion of meat in family meals."
+  },
+  {
+    "stance_1": "My family includes meat in meals",
+    "stance_2": "Hunting is a sport we enjoy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Hunting as a sport supports the continued inclusion of meat in family meals."
+  },
+  {
+    "stance_1": "My family hunts for meat",
+    "stance_2": "We hunt to avoid buying beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states that hunting is motivated by the desire to avoid buying beef."
+  },
+  {
+    "stance_1": "My family hunts for meat",
+    "stance_2": "Hunting is a sport we enjoy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly says hunting is both for meat and for sport."
+  },
+  {
+    "stance_1": "My friends are hunters",
+    "stance_2": "Hunting is a sport we enjoy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "It is stated that both family and friends enjoy hunting as a sport."
+  },
+  {
+    "stance_1": "My friends are hunters",
+    "stance_2": "We hunt to avoid buying beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee states friends are also hunters and participate in hunting for meat, as a way to avoid buying beef."
+  },
+  {
+    "stance_1": "My friends are hunters",
+    "stance_2": "I would never consider not eating meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Having a social group that hunts and eats meat supports a strong commitment to always eating meat."
+  },
+  {
+    "stance_1": "Hunting is a sport we enjoy",
+    "stance_2": "We hunt to avoid buying beef",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Both motivations for hunting (sport and meat provision) are explicitly stated as coexisting."
+  },
+  {
+    "stance_1": "I always have meat at dinner",
+    "stance_2": "My family includes meat in meals",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Having meat at dinner aligns with the family practice of including meat in meals."
+  },
+  {
+    "stance_1": "I always have meat at dinner",
+    "stance_2": "My family hunts for meat",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Family hunting likely supplies the meat for regular dinners."
+  },
+  {
+    "stance_1": "I always have meat at dinner",
+    "stance_2": "We hunt to avoid buying beef",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Hunting to avoid buying beef supports the ability to have meat at dinner regularly."
+  }
+]

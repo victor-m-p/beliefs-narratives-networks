@@ -1,0 +1,58 @@
+[
+  {
+    "stance_1": "Getting veggie substitutes is easy",
+    "stance_2": "I use vegetable substitutes for meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly states that easy access to veggie substitutes supports their use of them."
+  },
+  {
+    "stance_1": "I like to experiment with meat substitutes",
+    "stance_2": "I use vegetable substitutes for meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee mentions experimenting with meat substitutes as motivation for using them."
+  },
+  {
+    "stance_1": "I like other protein sources like chicken and fish",
+    "stance_2": "I no longer buy ground beef",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Preferring other protein sources could support the decision to stop buying ground beef."
+  },
+  {
+    "stance_1": "I no longer buy ground beef",
+    "stance_2": "I use vegetable substitutes for meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly stopped buying ground beef and replaced it with vegetable substitutes."
+  },
+  {
+    "stance_1": "I use vegetable substitutes for meat",
+    "stance_2": "I want to remain healthy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly links health motivation to their use of veggie substitutes."
+  },
+  {
+    "stance_1": "I eat pork sausage every day",
+    "stance_2": "I want to remain healthy",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Eating pork sausage daily may conflict with the health motivation underlying the reduction of beef."
+  },
+  {
+    "stance_1": "I like other protein sources like chicken and fish",
+    "stance_2": "I eat pork sausage every day",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The interviewee lists both as part of their regular protein intake, indicating complementary behaviors."
+  }
+]

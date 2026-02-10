@@ -1,0 +1,90 @@
+[
+  {
+    "stance_1": "I am concerned about fat intake",
+    "stance_2": "I eat meat regularly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Concern about fat intake motivates the interviewee to consider reducing meat, especially red meat, which is associated with higher fat content."
+  },
+  {
+    "stance_1": "I am concerned about fat intake",
+    "stance_2": "I want to reduce cholesterol",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Reducing fat intake is explicitly linked to reducing cholesterol, as the interviewee previously cut out red meat after a high cholesterol diagnosis."
+  },
+  {
+    "stance_1": "I am concerned about longevity",
+    "stance_2": "I want to reduce cholesterol",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Concern for longevity implicitly supports the desire to reduce cholesterol, as lower cholesterol is associated with better long-term health."
+  },
+  {
+    "stance_1": "I am motivated by cost savings",
+    "stance_2": "I am open to eating tofu",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Interviewee explicitly states that tofu is cheaper than meat, motivating openness to tofu."
+  },
+  {
+    "stance_1": "I am open to eating tofu",
+    "stance_2": "I eat meat regularly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Openness to tofu is considered as a substitute for meat, suggesting a potential reduction in meat consumption."
+  },
+  {
+    "stance_1": "I am open to eating tofu",
+    "stance_2": "I like the taste of meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee is used to and enjoys the taste of meat, but is only open to tofu if it can be made to taste good, indicating a conflict."
+  },
+  {
+    "stance_1": "I am open to eating tofu",
+    "stance_2": "I am experimenting with eating more vegetables",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Openness to tofu is explicitly linked to experimenting with more vegetables and changing dietary patterns."
+  },
+  {
+    "stance_1": "I am experimenting with eating more vegetables",
+    "stance_2": "I eat meat regularly",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 55,
+    "justification": "Experimenting with more vegetables is presented as a way to reduce meat consumption."
+  },
+  {
+    "stance_1": "I am experimenting with eating more vegetables",
+    "stance_2": "I want to reduce cholesterol",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Eating more vegetables is implicitly associated with healthier eating and cholesterol reduction."
+  },
+  {
+    "stance_1": "I am experimenting with eating more vegetables",
+    "stance_2": "I am concerned about fat intake",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Eating more vegetables is explicitly linked to reducing fat intake."
+  },
+  {
+    "stance_1": "I eat meat regularly",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Interviewee states they like the taste of meat and have eaten it regularly most of their life."
+  }
+]

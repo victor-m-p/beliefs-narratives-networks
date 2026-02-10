@@ -1,0 +1,170 @@
+[
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I enjoy the flavor of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The enjoyment of meat's flavor is a primary reason given for daily meat consumption."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I eat meat for energy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states that eating meat daily is motivated by the energy boost it provides."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I eat meat for protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Eating meat daily is justified in part by its protein content, which the interviewee cites as important."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I try to avoid too much meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "Eating meat daily conflicts with the stated goal of avoiding too much meat."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I limit meat for health reasons",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Daily meat consumption is in tension with the desire to limit meat for health reasons."
+  },
+  {
+    "stance_1": "I eat meat every day",
+    "stance_2": "I reduce meat when I get enough protein elsewhere",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Eating meat every day is reduced or skipped when enough protein is obtained from other sources, indicating a conflict."
+  },
+  {
+    "stance_1": "I enjoy the flavor of meat",
+    "stance_2": "I eat meat for energy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "Both enjoyment of taste and energy are co-stated as main reasons for meat consumption, suggesting a positive association."
+  },
+  {
+    "stance_1": "I enjoy the flavor of meat",
+    "stance_2": "I eat meat for protein",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Enjoying the flavor and valuing meat for protein both support continued meat eating, though this is only implied."
+  },
+  {
+    "stance_1": "I enjoy the flavor of meat",
+    "stance_2": "I try to avoid too much meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "Enjoyment of flavor encourages meat eating, which is at odds with trying to limit consumption."
+  },
+  {
+    "stance_1": "I enjoy the flavor of meat",
+    "stance_2": "I limit meat for health reasons",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "The pleasure of meat's flavor implicitly conflicts with the health-motivated goal to limit meat."
+  },
+  {
+    "stance_1": "I enjoy the flavor of meat",
+    "stance_2": "I reduce meat when I get enough protein elsewhere",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Enjoying meat's flavor may discourage skipping meat, even if enough protein comes from elsewhere."
+  },
+  {
+    "stance_1": "I eat meat for energy",
+    "stance_2": "I eat meat for protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 40,
+    "justification": "The interviewee links energy benefits to meat's protein content, suggesting these stances support each other."
+  },
+  {
+    "stance_1": "I eat meat for energy",
+    "stance_2": "I try to avoid too much meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "Desiring energy from meat may conflict with attempts to limit intake."
+  },
+  {
+    "stance_1": "I eat meat for energy",
+    "stance_2": "I limit meat for health reasons",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Seeking energy from meat may undermine the intention to limit meat for health."
+  },
+  {
+    "stance_1": "I eat meat for energy",
+    "stance_2": "I reduce meat when I get enough protein elsewhere",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Wanting meat for energy could discourage reducing meat when protein is sufficient from other sources."
+  },
+  {
+    "stance_1": "I eat meat for protein",
+    "stance_2": "I try to avoid too much meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Eating meat for protein may conflict with the aim to avoid too much meat."
+  },
+  {
+    "stance_1": "I eat meat for protein",
+    "stance_2": "I limit meat for health reasons",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Consuming meat for protein may be at odds with limiting meat for health, though the interviewee does sometimes substitute protein from other sources."
+  },
+  {
+    "stance_1": "I eat meat for protein",
+    "stance_2": "I reduce meat when I get enough protein elsewhere",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 75,
+    "justification": "The interviewee explicitly states that getting enough protein from other sources is a reason to reduce or skip meat."
+  },
+  {
+    "stance_1": "I try to avoid too much meat",
+    "stance_2": "I limit meat for health reasons",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "Avoiding too much meat is directly motivated by health concerns."
+  },
+  {
+    "stance_1": "I try to avoid too much meat",
+    "stance_2": "I reduce meat when I get enough protein elsewhere",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The desire to avoid excess meat consumption is supported by reducing meat when protein needs are met through other foods."
+  },
+  {
+    "stance_1": "I limit meat for health reasons",
+    "stance_2": "I reduce meat when I get enough protein elsewhere",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Limiting meat for health is achieved in part by reducing meat when enough protein is obtained elsewhere."
+  }
+]

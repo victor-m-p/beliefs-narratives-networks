@@ -1,0 +1,74 @@
+[
+  {
+    "stance_1": "I am open to eating red meat while traveling",
+    "stance_2": "I avoid red meat and pork",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee's openness to eating red meat while traveling directly conflicts with their avoidance of red meat and pork, as stated in the transcript."
+  },
+  {
+    "stance_1": "I avoid red meat and pork",
+    "stance_2": "I care about animal welfare",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 50,
+    "justification": "The interviewee mentions concern for animal welfare as one reason for their avoidance of red meat and pork."
+  },
+  {
+    "stance_1": "I am less strict about avoiding meat now",
+    "stance_2": "I avoid red meat and pork",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly states they are less strict about avoiding meat now, which conflicts with their previous strong avoidance of red meat and pork."
+  },
+  {
+    "stance_1": "I am less strict about avoiding meat now",
+    "stance_2": "I am open to eating red meat while traveling",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee\u2019s increasing openness to eating red meat while traveling is supported by their statement that they are less strict about avoiding meat."
+  },
+  {
+    "stance_1": "I dislike the smell and sight of red meat",
+    "stance_2": "I avoid red meat and pork",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The stated aversion to the smell and sight of red meat is a key reason for avoiding red meat and pork."
+  },
+  {
+    "stance_1": "I eat chicken several times a week",
+    "stance_2": "I avoid red meat and pork",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The avoidance of red meat and pork is supported by the dietary substitution with chicken, as described by the interviewee."
+  },
+  {
+    "stance_1": "I eat fish and turkey",
+    "stance_2": "I avoid red meat and pork",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Similarly, eating fish and turkey is a substitution that supports the avoidance of red meat and pork."
+  },
+  {
+    "stance_1": "I eat chicken several times a week",
+    "stance_2": "My girlfriend eats similarly to me at home",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee states that their girlfriend eats similarly to them at home, which includes eating chicken several times a week."
+  },
+  {
+    "stance_1": "I eat fish and turkey",
+    "stance_2": "My girlfriend eats similarly to me at home",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee notes that their girlfriend typically eats the same foods at home, which would include fish and turkey."
+  }
+]

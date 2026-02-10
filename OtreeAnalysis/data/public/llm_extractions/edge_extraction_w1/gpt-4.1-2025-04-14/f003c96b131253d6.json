@@ -1,0 +1,74 @@
+[
+  {
+    "stance_1": "Family member eats only white meat",
+    "stance_2": "Red meat is seen as unhealthy",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "It is explicitly stated that a family member eats only white meat due to health concerns about red meat."
+  },
+  {
+    "stance_1": "Family member eats only white meat",
+    "stance_2": "I eat white meat twice a week",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "The interviewee's frequency of eating white meat aligns with the family member's preference, suggesting implicit support."
+  },
+  {
+    "stance_1": "Family member eats only white meat",
+    "stance_2": "We have a varied and balanced diet",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Having a family member who only eats white meat is in mild tension with the ideal of a varied and balanced diet."
+  },
+  {
+    "stance_1": "I eat red meat a few times a year",
+    "stance_2": "Red meat is seen as unhealthy",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 70,
+    "justification": "The infrequent consumption of red meat supports the belief that red meat is unhealthy."
+  },
+  {
+    "stance_1": "I eat red meat a few times a year",
+    "stance_2": "We have a varied and balanced diet",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Occasional consumption of red meat is consistent with the stated value of dietary variety and balance."
+  },
+  {
+    "stance_1": "I eat white meat twice a week",
+    "stance_2": "We have a varied and balanced diet",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The regular inclusion of white meat supports the claim of having a varied and balanced diet."
+  },
+  {
+    "stance_1": "Eating in moderation is important",
+    "stance_2": "I eat red meat a few times a year",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The infrequent consumption of red meat exemplifies practicing moderation."
+  },
+  {
+    "stance_1": "Eating in moderation is important",
+    "stance_2": "We have a varied and balanced diet",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The stated importance of moderation is explicitly tied to the value of a balanced and varied diet in the interview."
+  },
+  {
+    "stance_1": "Eating in moderation is important",
+    "stance_2": "I eat white meat twice a week",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Limiting white meat to twice a week supports the value of moderation."
+  }
+]

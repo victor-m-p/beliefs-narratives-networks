@@ -1,0 +1,50 @@
+[
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "I am concerned about animal rights",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states that animal rights was their original motivation for becoming a vegetarian."
+  },
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "I am concerned about the environment",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states that environmental concerns later motivated them to remain vegetarian."
+  },
+  {
+    "stance_1": "I am a vegetarian",
+    "stance_2": "I want to contribute less to climate change",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly connects their desire to contribute less to climate change with their vegetarianism."
+  },
+  {
+    "stance_1": "I am concerned about animal rights",
+    "stance_2": "I am concerned about the environment",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 30,
+    "justification": "Both animal rights and environmental concerns are cited as motivations for the same behavior, but are not directly linked; they coexist as aligned ethical motivations."
+  },
+  {
+    "stance_1": "I am concerned about animal rights",
+    "stance_2": "I want to contribute less to climate change",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 25,
+    "justification": "Both animal rights and wanting to contribute less to climate change are cited as motivations, but there is only an implicit supportive relationship as they both justify vegetarianism."
+  },
+  {
+    "stance_1": "I am concerned about the environment",
+    "stance_2": "I want to contribute less to climate change",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee explicitly connects concern for the environment with wanting to contribute less to climate change."
+  }
+]

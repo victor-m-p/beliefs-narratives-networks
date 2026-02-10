@@ -1,0 +1,106 @@
+[
+  {
+    "stance_1": "I eat less meat than most people I know",
+    "stance_2": "I eat meat several times a week",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Eating meat several times a week is consistent with eating less than most people known to eat even more, supporting the comparative stance."
+  },
+  {
+    "stance_1": "I eat meat several times a week",
+    "stance_2": "I like the taste of meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly cites taste as a primary reason for eating meat frequently."
+  },
+  {
+    "stance_1": "I eat meat several times a week",
+    "stance_2": "Meat is filling for me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly states that feeling full is a reason for eating meat regularly."
+  },
+  {
+    "stance_1": "I eat meat several times a week",
+    "stance_2": "I eat meat to get protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "Getting protein is cited as a reason for eating meat several times a week."
+  },
+  {
+    "stance_1": "I eat meat several times a week",
+    "stance_2": "My social contacts eat more meat than I do",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee's frequency of meat consumption is described relative to their social contacts, showing a supportive context."
+  },
+  {
+    "stance_1": "I eat meat to get protein",
+    "stance_2": "Meat is filling for me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "The interviewee explicitly links protein from meat to feeling full, supporting both stances."
+  },
+  {
+    "stance_1": "I have thought about eating less meat",
+    "stance_2": "I have trouble finding appealing meatless recipes",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "The interviewee explicitly states that difficulty finding appealing, filling meatless recipes undermines attempts to eat less meat."
+  },
+  {
+    "stance_1": "I have thought about eating less meat",
+    "stance_2": "I eat less meat than most people I know",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 65,
+    "justification": "The interviewee links their thoughts about eating less meat to actually eating less than most people they know."
+  },
+  {
+    "stance_1": "I have trouble finding appealing meatless recipes",
+    "stance_2": "I find meat substitutes disgusting",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee's negative view of meat substitutes supports their trouble finding appealing meatless recipes."
+  },
+  {
+    "stance_1": "I like the taste of meat",
+    "stance_2": "I have thought about eating less meat",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 50,
+    "justification": "Enjoying the taste of meat makes it harder to eat less meat, as implied in the transcript."
+  },
+  {
+    "stance_1": "I like the taste of meat",
+    "stance_2": "I find meat substitutes disgusting",
+    "polarity": "positive",
+    "explicitness": "implicit",
+    "strength": 60,
+    "justification": "Preference for real meat flavor reinforces dislike of meat substitutes."
+  },
+  {
+    "stance_1": "I like the taste of meat",
+    "stance_2": "Meat is filling for me",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 70,
+    "justification": "The interviewee explicitly mentions both taste and satiety as reasons for eating meat."
+  },
+  {
+    "stance_1": "I like the taste of meat",
+    "stance_2": "I eat meat to get protein",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "Both taste and protein are explicitly listed as reasons for eating meat, showing co-support."
+  }
+]

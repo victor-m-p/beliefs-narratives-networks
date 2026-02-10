@@ -1,0 +1,58 @@
+[
+  {
+    "stance_1": "I care about animals",
+    "stance_2": "I want to stop eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 95,
+    "justification": "The interviewee explicitly states that caring about animals is the motivation for wanting to stop eating meat."
+  },
+  {
+    "stance_1": "I eat chicken and fish regularly",
+    "stance_2": "I want to stop eating meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 80,
+    "justification": "Eating chicken and fish regularly conflicts with the desire to stop eating meat."
+  },
+  {
+    "stance_1": "I eat chicken and fish regularly",
+    "stance_2": "I try to eat more tofu",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 40,
+    "justification": "Trying to eat more tofu as an alternative is in implicit tension with regularly eating chicken and fish."
+  },
+  {
+    "stance_1": "I try to eat more tofu",
+    "stance_2": "I want to stop eating meat",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 85,
+    "justification": "Trying to eat more tofu supports the desire to stop eating meat by seeking alternatives."
+  },
+  {
+    "stance_1": "I eat chicken and fish regularly",
+    "stance_2": "My family eats meat regularly",
+    "polarity": "positive",
+    "explicitness": "explicit",
+    "strength": 60,
+    "justification": "The interviewee's regular meat consumption is supported by living in a family that eats meat regularly."
+  },
+  {
+    "stance_1": "Eating less meat is hard in this economy",
+    "stance_2": "I want to stop eating meat",
+    "polarity": "negative",
+    "explicitness": "explicit",
+    "strength": 90,
+    "justification": "The interviewee directly states that economic conditions make it hard to eat less meat, conflicting with the desire to stop eating meat."
+  },
+  {
+    "stance_1": "Eating less meat is hard in this economy",
+    "stance_2": "I try to eat more tofu",
+    "polarity": "negative",
+    "explicitness": "implicit",
+    "strength": 35,
+    "justification": "The economic difficulty of eating less meat makes it harder to regularly choose tofu over cheaper meats."
+  }
+]
