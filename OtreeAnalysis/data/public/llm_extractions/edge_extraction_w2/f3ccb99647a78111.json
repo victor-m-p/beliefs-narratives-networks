@@ -4,79 +4,69 @@
     "stance_2": "I eat meat when it is available",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Eating meat when it is available directly supports the habit of eating meat once or twice a day, as frequency is determined by availability."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat once or twice a day",
     "stance_2": "I enjoy eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Enjoying eating meat implicitly supports the frequent consumption of meat."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat once or twice a day",
     "stance_2": "My family and friends eat similar amounts of meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 55,
-    "justification": "The interviewee's frequency of meat eating is mirrored by their social group, suggesting mutual support or reinforcement."
+    "strength": 55
   },
   {
     "stance_1": "I eat meat once or twice a day",
     "stance_2": "My social group enjoys eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The enjoyment of meat within the social group supports regular meat consumption among its members."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat when it is available",
     "stance_2": "I enjoy eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee directly states that they eat meat when it is available and that they enjoy eating it."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat when it is available",
     "stance_2": "My family and friends eat similar amounts of meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Availability-driven eating habits are likely shared due to similar environmental and social influences."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat when it is available",
     "stance_2": "My social group enjoys eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 35,
-    "justification": "The group's enjoyment of meat makes it more likely that meat is available and eaten by the interviewee."
+    "strength": 35
   },
   {
     "stance_1": "I enjoy eating meat",
     "stance_2": "My family and friends eat similar amounts of meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 45,
-    "justification": "Shared enjoyment of meat within the social group likely supports similar consumption habits."
+    "strength": 45
   },
   {
     "stance_1": "I enjoy eating meat",
     "stance_2": "My social group enjoys eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "It is explicitly stated that both the interviewee and their social group enjoy eating meat."
+    "strength": 85
   },
   {
     "stance_1": "My family and friends eat similar amounts of meat",
     "stance_2": "My social group enjoys eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee explicitly connects their group's similar meat consumption to a shared enjoyment of meat."
+    "strength": 70
   }
 ]

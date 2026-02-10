@@ -4,143 +4,125 @@
     "stance_2": "Cost of meat is high",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Chicken being cheaper than other meats is directly cited as a response to the high cost of meat."
+    "strength": 90
   },
   {
     "stance_1": "Chicken is cheaper than other meats",
     "stance_2": "I eat a lot of chicken",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Interviewee explicitly states eating a lot of chicken because it is cheaper."
+    "strength": 90
   },
   {
     "stance_1": "Cost of meat is high",
     "stance_2": "I cut back on meat due to cost",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 100,
-    "justification": "The interviewee directly states that high cost leads them to cut back on meat."
+    "strength": 100
   },
   {
     "stance_1": "I avoid fast food bacon",
     "stance_2": "I had food poisoning from fast food bacon",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 100,
-    "justification": "Interviewee explicitly says they avoid fast food bacon due to past food poisoning incidents."
+    "strength": 100
   },
   {
     "stance_1": "I do most of the cooking for others",
     "stance_2": "I love cooking meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "The interviewee's love of cooking meat supports them doing most of the cooking for others."
+    "strength": 60
   },
   {
     "stance_1": "I eat a lot of beef",
     "stance_2": "I love eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Eating a lot of beef is consistent with and supports the stance of loving to eat meat."
+    "strength": 40
   },
   {
     "stance_1": "I eat a lot of chicken",
     "stance_2": "I love eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Eating a lot of chicken is consistent with and supports loving to eat meat."
+    "strength": 40
   },
   {
     "stance_1": "I eat a lot of pork",
     "stance_2": "I love eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Eating a lot of pork is consistent with and supports loving to eat meat."
+    "strength": 40
   },
   {
     "stance_1": "I eat wild game meat",
     "stance_2": "I love eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Eating wild game supports the claim of loving to eat meat."
+    "strength": 40
   },
   {
     "stance_1": "I love cooking meat",
     "stance_2": "I love eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Enjoying cooking meat supports and is supported by enjoying eating meat."
+    "strength": 50
   },
   {
     "stance_1": "I love cooking meat",
     "stance_2": "I prefer taste and texture of meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Loving to cook meat is plausibly supported by preferring the taste and texture of meat."
+    "strength": 50
   },
   {
     "stance_1": "I love eating meat",
     "stance_2": "I prefer taste and texture of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Interviewee explicitly states preference for taste and texture as a reason for loving meat."
+    "strength": 90
   },
   {
     "stance_1": "I cut back on meat due to cost",
     "stance_2": "I love eating meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Cutting back on meat due to cost directly conflicts with the stated love for eating meat."
+    "strength": 80
   },
   {
     "stance_1": "My girlfriend prefers turkey bacon",
     "stance_2": "I do most of the cooking for others",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Since the interviewee does most of the cooking, their girlfriend's preferences influence the cooking."
+    "strength": 40
   },
   {
     "stance_1": "Chicken is cheaper than other meats",
     "stance_2": "I cut back on meat due to cost",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Cheaper chicken enables cutting back on other meats due to cost."
+    "strength": 60
   },
   {
     "stance_1": "My girlfriend used to eat more fish and chicken for weight loss",
     "stance_2": "I eat a lot of chicken",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Both the interviewee and their girlfriend have reasons for eating more chicken, even if motivations differ."
+    "strength": 30
   },
   {
     "stance_1": "I eat a lot of chicken",
     "stance_2": "I do most of the cooking for others",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Since the interviewee does most of the cooking, their eating habits shape what is prepared for others."
+    "strength": 50
   },
   {
     "stance_1": "Chicken is cheaper than other meats",
     "stance_2": "I do most of the cooking for others",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Cheaper chicken likely influences what the interviewee cooks for others, given their role as main cook."
+    "strength": 40
   }
 ]

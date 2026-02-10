@@ -4,71 +4,62 @@
     "stance_2": "I eat chicken, beef, and fish weekly",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Chicken being cheaper likely supports choosing chicken as one of the meats eaten weekly."
+    "strength": 60
   },
   {
     "stance_1": "Chicken is cheaper than other meats",
     "stance_2": "Meat is easy to get at the store",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Both price and convenience support meat purchasing, suggesting they jointly reinforce meat choice."
+    "strength": 40
   },
   {
     "stance_1": "Chicken is cheaper than other meats",
     "stance_2": "My friends are motivated by price",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Both the interviewee and their friends consider price a motivation, explicitly stated for friends and demonstrated in the interviewee's choices."
+    "strength": 50
   },
   {
     "stance_1": "I eat chicken, beef, and fish weekly",
     "stance_2": "I try to get protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states that protein is the main focus, supporting regular meat consumption."
+    "strength": 80
   },
   {
     "stance_1": "I eat chicken, beef, and fish weekly",
     "stance_2": "Meat is easy to get at the store",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The ease of access to meat supports regular consumption."
+    "strength": 60
   },
   {
     "stance_1": "I eat chicken, beef, and fish weekly",
     "stance_2": "My friends eat similar amounts of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee states that their friends have similar habits, suggesting mutual reinforcement."
+    "strength": 70
   },
   {
     "stance_1": "Meat is easy to get at the store",
     "stance_2": "I try to get protein",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "The ease of finding meat supports getting protein through meat."
+    "strength": 50
   },
   {
     "stance_1": "My friends are motivated by price",
     "stance_2": "My friends eat similar amounts of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Friends' motivation by price supports similar meat-eating habits."
+    "strength": 60
   },
   {
     "stance_1": "My friends are motivated by taste",
     "stance_2": "My friends eat similar amounts of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Friends' motivation by taste supports their similar meat-eating habits."
+    "strength": 60
   }
 ]

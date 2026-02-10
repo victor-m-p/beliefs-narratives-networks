@@ -4,55 +4,48 @@
     "stance_2": "I want to eat meat again",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Being vegetarian is in conflict with wanting to eat meat again."
+    "strength": 90
   },
   {
     "stance_1": "I am vegetarian",
     "stance_2": "I do not like the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee states they became vegetarian because they do not like the taste of meat."
+    "strength": 80
   },
   {
     "stance_1": "I am vegetarian",
     "stance_2": "I was forcing myself to eat meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee became vegetarian because they were forcing themselves to eat meat."
+    "strength": 70
   },
   {
     "stance_1": "I do not like the taste of meat",
     "stance_2": "I was forcing myself to eat meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly connects not liking the taste of meat with feeling forced to eat it."
+    "strength": 80
   },
   {
     "stance_1": "I want to eat meat again",
     "stance_2": "I want healthy hair",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The desire for healthy hair is a stated motivator for wanting to eat meat again, for protein and health."
+    "strength": 60
   },
   {
     "stance_1": "I want to eat meat again",
     "stance_2": "I want healthy muscles",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Wanting healthy muscles is a stated motivator for wanting to eat meat again, for protein and health."
+    "strength": 60
   },
   {
     "stance_1": "Everyone in my life eats meat",
     "stance_2": "I am vegetarian",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Being vegetarian contrasts with everyone else in their life eating meat."
+    "strength": 40
   }
 ]

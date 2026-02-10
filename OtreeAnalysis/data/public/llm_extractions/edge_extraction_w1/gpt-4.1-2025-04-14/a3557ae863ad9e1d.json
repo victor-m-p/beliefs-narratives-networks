@@ -4,103 +4,90 @@
     "stance_2": "I eat what I have available",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states being a picky eater and choosing whatever appeals to them from what is available."
+    "strength": 80
   },
   {
     "stance_1": "I am a picky eater",
     "stance_2": "I enjoy the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee's pickiness is directly linked to eating meat they enjoy."
+    "strength": 80
   },
   {
     "stance_1": "I am a picky eater",
     "stance_2": "I do not worry about the impact of meat-eating",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee explicitly states that being a picky eater means they don't consider the impact of their choices."
+    "strength": 70
   },
   {
     "stance_1": "I am a picky eater",
     "stance_2": "I eat chicken regularly",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Being picky supports a pattern of eating the same preferred meats like chicken."
+    "strength": 40
   },
   {
     "stance_1": "I am a picky eater",
     "stance_2": "I eat beef occasionally",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Being picky is consistent with only occasionally eating beef, as it may appeal less often."
+    "strength": 30
   },
   {
     "stance_1": "I am a picky eater",
     "stance_2": "I sometimes cannot afford meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Being picky could conflict with periods when only limited options (due to affordability) are available."
+    "strength": 30
   },
   {
     "stance_1": "I do not worry about the impact of meat-eating",
     "stance_2": "I think the meat industry is harmful",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Despite thinking the meat industry is harmful, the interviewee explicitly states not worrying about their own impact."
+    "strength": 80
   },
   {
     "stance_1": "I eat what I have available",
     "stance_2": "I sometimes cannot afford meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly links eating what is available to times they couldn't afford meat."
+    "strength": 90
   },
   {
     "stance_1": "I eat what I have available",
     "stance_2": "I eat chicken regularly",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Eating what is available supports frequently eating chicken if it's the most available meat."
+    "strength": 40
   },
   {
     "stance_1": "I eat what I have available",
     "stance_2": "I eat beef occasionally",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Eating beef occasionally fits with eating what's available when chicken is not."
+    "strength": 30
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "I eat chicken regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly expresses enjoyment of chicken as a reason for eating it regularly."
+    "strength": 90
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "I eat beef occasionally",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee's enjoyment of burgers (beef) is given as a reason for eating them occasionally."
+    "strength": 80
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "I eat what I have available",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Enjoying meat supports choosing to eat it when available."
+    "strength": 40
   }
 ]

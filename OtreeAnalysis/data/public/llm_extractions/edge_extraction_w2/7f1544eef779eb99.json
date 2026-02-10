@@ -4,87 +4,76 @@
     "stance_2": "I eat a variety of meats regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "Interviewee explicitly states eating a variety of meats but specifies avoiding pork, shrimp, and rabbit, showing these stances coexist as part of their routine."
+    "strength": 30
   },
   {
     "stance_1": "I eat a variety of meats regularly",
     "stance_2": "I enjoy the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Interviewee says enjoying the taste of meat motivates their daily consumption of a variety of meats."
+    "strength": 80
   },
   {
     "stance_1": "I eat a variety of meats regularly",
     "stance_2": "I reflect on reducing meat for health",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee reflects on reducing meat for health but currently eats meat regularly, indicating a conflict between behavior and reflection."
+    "strength": 60
   },
   {
     "stance_1": "I eat a variety of meats regularly",
     "stance_2": "My religion recommends vegetarianism",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Interviewee states their religion recommends vegetarianism but they eat meat daily, showing a direct conflict."
+    "strength": 90
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "I reflect on reducing meat for health",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Enjoying the taste of meat motivates continued consumption, but interviewee reflects on reducing for health, indicating a mild conflict."
+    "strength": 40
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "My religion recommends vegetarianism",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 45,
-    "justification": "Enjoying the taste of meat implicitly conflicts with the religious recommendation to be vegetarian, as pleasure is a barrier to adherence."
+    "strength": 45
   },
   {
     "stance_1": "I reflect on reducing meat for health",
     "stance_2": "My religion recommends vegetarianism",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Reflection on reducing meat for health aligns with religious recommendation of vegetarianism, even if not fully acted upon."
+    "strength": 50
   },
   {
     "stance_1": "I reflect on reducing meat for health",
     "stance_2": "I want to get enough protein",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "Interviewee reflects on reducing meat but also cites desire for enough protein as a reason to keep eating meat, suggesting some conflict."
+    "strength": 30
   },
   {
     "stance_1": "I want to get enough protein",
     "stance_2": "I eat a variety of meats regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Interviewee explicitly says eating meat is motivated by wanting to get enough protein."
+    "strength": 70
   },
   {
     "stance_1": "I want to get enough protein",
     "stance_2": "My religion recommends vegetarianism",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 45,
-    "justification": "Interviewee cites protein needs as a reason for eating meat, in conflict with religious vegetarian recommendation."
+    "strength": 45
   },
   {
     "stance_1": "My friends from church are vegetarians",
     "stance_2": "My religion recommends vegetarianism",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Interviewee states church friends are vegetarians because they follow religious recommendations."
+    "strength": 80
   }
 ]

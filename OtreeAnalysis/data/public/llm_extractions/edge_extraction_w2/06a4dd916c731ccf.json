@@ -4,87 +4,76 @@
     "stance_2": "I limit red meat to small portions",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee states that family history of heart disease motivates limiting red meat."
+    "strength": 90
   },
   {
     "stance_1": "I limit red meat to small portions",
     "stance_2": "I motivate my wife to limit red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly says they motivate their wife to also limit red meat, suggesting their own behavior supports this."
+    "strength": 80
   },
   {
     "stance_1": "I limit red meat to small portions",
     "stance_2": "My wife limits her red meat intake",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Both the interviewee and his wife limit red meat; the connection is made explicit."
+    "strength": 70
   },
   {
     "stance_1": "I limit red meat to small portions",
     "stance_2": "We buy more fish",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Buying more fish is a stated practice that supports limiting red meat."
+    "strength": 80
   },
   {
     "stance_1": "I limit red meat to small portions",
     "stance_2": "We eat fish more days of the week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Eating fish more often directly supports eating less red meat."
+    "strength": 70
   },
   {
     "stance_1": "I motivate my wife to limit red meat",
     "stance_2": "My wife limits her red meat intake",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee directly states motivating his wife to limit red meat, leading to her behavior."
+    "strength": 95
   },
   {
     "stance_1": "I motivate my wife to limit red meat",
     "stance_2": "We buy more fish",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "The interviewee motivates his wife and together they buy more fish as an alternative to red meat."
+    "strength": 65
   },
   {
     "stance_1": "I motivate my wife to limit red meat",
     "stance_2": "We eat fish more days of the week",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Motivating his wife to limit red meat is implicitly supported by eating fish more often as an alternative."
+    "strength": 60
   },
   {
     "stance_1": "My wife limits her red meat intake",
     "stance_2": "We buy more fish",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Wife\u2019s reduced red meat intake is supported by buying more fish, though not stated as her direct motivation."
+    "strength": 60
   },
   {
     "stance_1": "My wife limits her red meat intake",
     "stance_2": "We eat fish more days of the week",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Wife\u2019s reduced red meat intake is supported by eating fish more often, though this is not stated as her direct motivation."
+    "strength": 60
   },
   {
     "stance_1": "We buy more fish",
     "stance_2": "We eat fish more days of the week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Buying more fish directly enables eating fish more often."
+    "strength": 90
   }
 ]

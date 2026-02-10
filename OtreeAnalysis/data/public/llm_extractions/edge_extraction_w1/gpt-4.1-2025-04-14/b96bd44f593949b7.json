@@ -4,95 +4,83 @@
     "stance_2": "I care about meat quality",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee states that cost often prevents them from obtaining the quality meat they desire, making cost a direct barrier to quality."
+    "strength": 90
   },
   {
     "stance_1": "Cost limits my ability to buy quality meat",
     "stance_2": "I want to support local, sustainable farms",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly mentions wanting to support local, sustainable farms, but cost is often a limiting factor."
+    "strength": 80
   },
   {
     "stance_1": "Health is important to me",
     "stance_2": "I eat meat most days",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee states that health is a main motivation for eating meat regularly."
+    "strength": 60
   },
   {
     "stance_1": "Health is important to me",
     "stance_2": "I eat vegetarian dinners some days",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Choosing vegetarian dinners some days can be seen as part of a health-motivated, balanced diet."
+    "strength": 40
   },
   {
     "stance_1": "Health is important to me",
     "stance_2": "I balance meat with grains and beans",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee explicitly links health motivation to balancing meat with grains and beans."
+    "strength": 70
   },
   {
     "stance_1": "I care about meat quality",
     "stance_2": "I want to support local, sustainable farms",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee connects caring about quality with a desire to support sustainable, local farms."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat most days",
     "stance_2": "I feel satisfied after eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee states that eating meat makes them feel more satisfied, supporting regular consumption."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat most days",
     "stance_2": "Meat makes meals taste better",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee explicitly connects enjoyment of taste with their regular meat eating."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat most days",
     "stance_2": "I eat vegetarian dinners some days",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Having vegetarian dinners some days implies not eating meat on those days, in contrast to eating meat most days."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat most days",
     "stance_2": "I balance meat with grains and beans",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "The interviewee describes balancing meat with other foods as part of their routine."
+    "strength": 50
   },
   {
     "stance_1": "I eat vegetarian dinners some days",
     "stance_2": "I balance meat with grains and beans",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Vegetarian meals are part of the strategy to balance meat with grains, beans, and other foods."
+    "strength": 60
   },
   {
     "stance_1": "I want to support local, sustainable farms",
     "stance_2": "Meat is expensive",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee explicitly says that supporting local, sustainable farms is limited by the expense of their meat."
+    "strength": 70
   }
 ]

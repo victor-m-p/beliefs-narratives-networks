@@ -4,167 +4,146 @@
     "stance_2": "I buy grass-fed, free-range meat and eggs",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The high cost of ethical meat makes it difficult to consistently buy grass-fed, free-range options."
+    "strength": 90
   },
   {
     "stance_1": "Ethical meat is expensive",
     "stance_2": "My family is concerned about animal welfare",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The family\u2019s animal welfare concerns are challenged by the high price of ethical meat, making it harder to act on their values."
+    "strength": 60
   },
   {
     "stance_1": "Ethical meat is expensive",
     "stance_2": "I am concerned about animal welfare",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly says price is a challenge to acting on animal welfare concerns."
+    "strength": 80
   },
   {
     "stance_1": "Ethical meat is expensive",
     "stance_2": "I eat whatever is available at restaurants",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Because ethical meat is expensive and rare at restaurants, the interviewee defaults to eating whatever is available."
+    "strength": 90
   },
   {
     "stance_1": "Few restaurants offer ethical meat",
     "stance_2": "I eat whatever is available at restaurants",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The lack of ethical meat options at restaurants leads directly to eating whatever is available."
+    "strength": 95
   },
   {
     "stance_1": "Few restaurants offer ethical meat",
     "stance_2": "I buy grass-fed, free-range meat and eggs",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The inability to find ethical meat at restaurants conflicts with the intent to buy grass-fed, free-range meat."
+    "strength": 70
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I buy grass-fed, free-range meat and eggs",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 100,
-    "justification": "The concern for animal welfare directly motivates buying grass-fed, free-range products."
+    "strength": 100
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I eat whatever is available at restaurants",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee experiences an ethical dilemma when eating whatever is available, which conflicts with animal welfare concerns."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I love the taste of meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states this is an ongoing ethical dilemma: loving meat but caring about animal welfare."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "My family is concerned about animal welfare",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Both the interviewee and family share a concern for animal welfare, reinforcing each other's stance."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "My coworkers are health conscious",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The interviewee notes coworkers are both health conscious and animal welfare advocates; there is overlap in values."
+    "strength": 30
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I mainly eat chicken and fish",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Choosing less controversial meat (chicken/fish) can be seen as a response to animal welfare concerns, though not fully explicit."
+    "strength": 40
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I limit red meat consumption",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Limiting red meat is partially motivated by animal welfare concerns, as implied by the context."
+    "strength": 40
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I eat red meat only on special occasions",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Restricting red meat to special occasions is partially motivated by animal welfare concerns."
+    "strength": 40
   },
   {
     "stance_1": "I am concerned about my health",
     "stance_2": "I mainly eat chicken and fish",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states eating chicken and fish for health reasons."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about my health",
     "stance_2": "I limit red meat consumption",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "Health concerns are directly cited as a reason for limiting red meat."
+    "strength": 95
   },
   {
     "stance_1": "I am concerned about my health",
     "stance_2": "I eat red meat only on special occasions",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Red meat is reserved for special occasions due to health concerns."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about my health",
     "stance_2": "I buy grass-fed, free-range meat and eggs",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Health concerns motivate the choice of grass-fed, free-range animal products."
+    "strength": 70
   },
   {
     "stance_1": "I limit red meat consumption",
     "stance_2": "I mainly eat chicken and fish",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Limiting red meat leads to eating more chicken and fish."
+    "strength": 90
   },
   {
     "stance_1": "I eat red meat only on special occasions",
     "stance_2": "I limit red meat consumption",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Restricting red meat to special occasions is a way of limiting its consumption."
+    "strength": 90
   },
   {
     "stance_1": "I eat red meat only on special occasions",
     "stance_2": "I mainly eat chicken and fish",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Eating red meat rarely means eating more chicken and fish."
+    "strength": 70
   }
 ]

@@ -4,103 +4,90 @@
     "stance_2": "I eat meat 4-5 days a week",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 65,
-    "justification": "Believing meat is good for you supports frequent meat consumption."
+    "strength": 65
   },
   {
     "stance_1": "I considered eating less meat",
     "stance_2": "I eat meat 4-5 days a week",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Considering eating less meat conflicts with actually eating meat 4-5 days a week."
+    "strength": 60
   },
   {
     "stance_1": "I choose meat if it is affordable",
     "stance_2": "I eat meat 4-5 days a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Affordability is stated as a motivation for the frequency of meat consumption."
+    "strength": 50
   },
   {
     "stance_1": "I crave meat",
     "stance_2": "I eat meat 4-5 days a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Craving meat is a stated motivator for eating meat frequently."
+    "strength": 60
   },
   {
     "stance_1": "I crave meat",
     "stance_2": "I love eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Craving meat and loving meat are mutually reinforcing attitudes."
+    "strength": 50
   },
   {
     "stance_1": "I crave meat",
     "stance_2": "Meat is delicious",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Finding meat delicious supports cravings for it."
+    "strength": 50
   },
   {
     "stance_1": "I eat meat 4-5 days a week",
     "stance_2": "I love eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Loving meat supports frequent consumption."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat 4-5 days a week",
     "stance_2": "Meat is delicious",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Finding meat delicious supports eating it frequently."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat 4-5 days a week",
     "stance_2": "My family eats as much meat as I do",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 55,
-    "justification": "The interviewee explicitly states that their consumption matches their family, indicating mutual reinforcement."
+    "strength": 55
   },
   {
     "stance_1": "I love eating meat",
     "stance_2": "Meat is delicious",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The love for eating meat is explicitly linked to finding it delicious."
+    "strength": 70
   },
   {
     "stance_1": "I love eating meat",
     "stance_2": "My family eats as much meat as I do",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee and their family both love eating meat, reinforcing each other's attitudes."
+    "strength": 60
   },
   {
     "stance_1": "I considered eating less meat",
     "stance_2": "I love eating meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 35,
-    "justification": "Loving meat implicitly conflicts with considering eating less."
+    "strength": 35
   },
   {
     "stance_1": "I considered eating less meat",
     "stance_2": "Meat is delicious",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Finding meat delicious may conflict with intentions to reduce consumption."
+    "strength": 30
   }
 ]

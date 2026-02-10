@@ -4,103 +4,90 @@
     "stance_2": "I eat meat daily for breakfast",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states disliking meat, yet eats it daily, a clear conflict."
+    "strength": 90
   },
   {
     "stance_1": "I dislike eating meat",
     "stance_2": "I eat meat to gain weight",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Eating meat for weight gain is at odds with the interviewee's dislike of meat, as they state they eat it out of necessity rather than preference."
+    "strength": 80
   },
   {
     "stance_1": "I dislike eating meat",
     "stance_2": "I feel meat consumption is immoral",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee's dislike of meat is supported by their moral objection to meat consumption."
+    "strength": 85
   },
   {
     "stance_1": "I dislike eating meat",
     "stance_2": "I feel meat consumption is environmentally harmful",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "The interviewee's environmental concerns reinforce their dislike of eating meat."
+    "strength": 75
   },
   {
     "stance_1": "I eat meat daily for breakfast",
     "stance_2": "I eat meat to gain weight",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee explicitly states eating meat daily is for weight gain."
+    "strength": 95
   },
   {
     "stance_1": "I eat meat daily for breakfast",
     "stance_2": "I feel meat consumption is immoral",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Eating meat daily conflicts with the interviewee's stated belief that meat consumption is immoral."
+    "strength": 85
   },
   {
     "stance_1": "I eat meat daily for breakfast",
     "stance_2": "I feel meat consumption is environmentally harmful",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Eating meat daily is in tension with the belief that meat consumption is environmentally harmful."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat to gain weight",
     "stance_2": "I feel meat consumption is immoral",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Eating meat for weight gain conflicts with the interviewee's belief that it is immoral."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat to gain weight",
     "stance_2": "I feel meat consumption is environmentally harmful",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "Eating meat for weight gain is in tension with the belief that meat is environmentally harmful, though the health motivation dominates."
+    "strength": 65
   },
   {
     "stance_1": "I eat meat to gain weight",
     "stance_2": "My social contacts are concerned about my body weight",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states social concern about body weight is a major motivation for eating meat to gain weight."
+    "strength": 90
   },
   {
     "stance_1": "I was vegan for over 20 years",
     "stance_2": "I dislike eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Long-term veganism supports the interviewee's dislike of meat."
+    "strength": 80
   },
   {
     "stance_1": "I was vegan for over 20 years",
     "stance_2": "I feel meat consumption is immoral",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee's long-term veganism is explicitly tied to their moral opposition to meat."
+    "strength": 90
   },
   {
     "stance_1": "I was vegan for over 20 years",
     "stance_2": "I feel meat consumption is environmentally harmful",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Veganism is often motivated by environmental concerns, which the interviewee expresses."
+    "strength": 70
   }
 ]

@@ -4,175 +4,153 @@
     "stance_2": "I choose meat based on cost",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "The interviewee explicitly states that fondness for hamburgers is connected to cost: hamburgers are chosen in part because they fit the budget."
+    "strength": 65
   },
   {
     "stance_1": "I am fond of hamburgers",
     "stance_2": "I choose meat based on convenience",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "The interviewee mentions choosing hamburgers because they are easy to get when eating out, connecting fondness for hamburgers with convenience."
+    "strength": 65
   },
   {
     "stance_1": "I am fond of hamburgers",
     "stance_2": "I choose meat based on nutrition",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "While the main reasons for consuming hamburgers are cost and convenience, nutrition is also a consideration for meat choices generally, which may loosely support hamburger consumption."
+    "strength": 30
   },
   {
     "stance_1": "I buy rotisserie chicken for a good deal",
     "stance_2": "I choose meat based on cost",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee directly states that buying rotisserie chicken is motivated by getting a good deal, which is about cost."
+    "strength": 85
   },
   {
     "stance_1": "I buy rotisserie chicken for a good deal",
     "stance_2": "I choose meat based on convenience",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Buying rotisserie chicken is described as easy to get, connecting this behavior to convenience."
+    "strength": 75
   },
   {
     "stance_1": "I buy rotisserie chicken for a good deal",
     "stance_2": "I eat pork and chicken more than beef",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Frequent purchasing of rotisserie chicken for cost and convenience likely contributes to the higher consumption of chicken relative to beef."
+    "strength": 30
   },
   {
     "stance_1": "I choose meat based on cost",
     "stance_2": "I choose meat based on convenience",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly lists cost and convenience together as primary motivations for meat choice, indicating strong support between them."
+    "strength": 90
   },
   {
     "stance_1": "I choose meat based on cost",
     "stance_2": "I choose meat based on nutrition",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee states cost, convenience, and nutrition together as guiding factors for meat choice, showing mutual support."
+    "strength": 80
   },
   {
     "stance_1": "I choose meat based on convenience",
     "stance_2": "I choose meat based on nutrition",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Convenience and nutrition are both described as important and considered together in meat choices."
+    "strength": 80
   },
   {
     "stance_1": "I eat a variety of meats for nutrition",
     "stance_2": "I try to increase variety of meats eaten",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee explicitly connects increasing variety of meats eaten with nutritional motivation."
+    "strength": 95
   },
   {
     "stance_1": "I eat a variety of meats for nutrition",
     "stance_2": "I eat more meat at buffets",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "Buffets are described as an opportunity to try a variety of meats for nutrition."
+    "strength": 65
   },
   {
     "stance_1": "I eat a variety of meats for nutrition",
     "stance_2": "I try to be open to trying new meats",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Openness to trying new meats is described as a means to increase variety for nutrition."
+    "strength": 80
   },
   {
     "stance_1": "I eat more meat at buffets",
     "stance_2": "I try to increase variety of meats eaten",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Buffets are explicitly mentioned as a way to eat a greater variety of meats."
+    "strength": 75
   },
   {
     "stance_1": "I eat more meat at buffets",
     "stance_2": "I try to be open to trying new meats",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Buffets are described as an opportunity to try new meats, which is facilitated by openness."
+    "strength": 60
   },
   {
     "stance_1": "I try to increase variety of meats eaten",
     "stance_2": "I try to be open to trying new meats",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Being open to trying new meats is explicitly described as supporting the increase of variety in the diet."
+    "strength": 90
   },
   {
     "stance_1": "I socialize with people who prepare uncommon meats",
     "stance_2": "I try to be open to trying new meats",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee explicitly states being open to trying new foods when socializing with people who prepare uncommon meats."
+    "strength": 60
   },
   {
     "stance_1": "I eat pork and chicken more than beef",
     "stance_2": "I try to increase variety of meats eaten",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Eating pork and chicken more than beef suggests a lack of variety, in tension with the effort to increase variety."
+    "strength": 30
   },
   {
     "stance_1": "I eat pork and chicken more than beef",
     "stance_2": "I try to be open to trying new meats",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Favoring pork and chicken more than beef may indicate less openness to trying new meats, though the interviewee is working to change this."
+    "strength": 25
   },
   {
     "stance_1": "Social contacts care about cost, convenience, and nutrition",
     "stance_2": "I choose meat based on cost",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee explicitly aligns their own motivations with those of social contacts regarding cost."
+    "strength": 60
   },
   {
     "stance_1": "Social contacts care about cost, convenience, and nutrition",
     "stance_2": "I choose meat based on convenience",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee explicitly aligns their own motivations with those of social contacts regarding convenience."
+    "strength": 60
   },
   {
     "stance_1": "Social contacts care about cost, convenience, and nutrition",
     "stance_2": "I choose meat based on nutrition",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee explicitly aligns their own motivations with those of social contacts regarding nutrition."
+    "strength": 60
   },
   {
     "stance_1": "Some social contacts avoid meat for health reasons",
     "stance_2": "Some social contacts are vegetarian or vegan",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Vegetarian or vegan social contacts may be motivated by health concerns, as explicitly mentioned by the interviewee."
+    "strength": 50
   }
 ]

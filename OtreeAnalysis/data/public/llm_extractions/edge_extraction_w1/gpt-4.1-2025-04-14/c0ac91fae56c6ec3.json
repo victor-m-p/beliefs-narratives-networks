@@ -4,127 +4,111 @@
     "stance_2": "I choose lean cuts of beef",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Avoiding pork and choosing leaner cuts of beef both support a pattern of preferring leaner or healthier meats."
+    "strength": 40
   },
   {
     "stance_1": "I believe chicken and turkey are healthier",
     "stance_2": "I consider eating less beef when dieting",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Interviewee explicitly considers eating less beef and more chicken/turkey due to the belief that poultry is healthier, especially when dieting."
+    "strength": 70
   },
   {
     "stance_1": "I believe chicken and turkey are healthier",
     "stance_2": "I use chicken and turkey more often than beef",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee directly states that they use chicken and turkey more often than beef because they believe those meats are healthier."
+    "strength": 85
   },
   {
     "stance_1": "I choose lean cuts of beef",
     "stance_2": "I try to cook healthier meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Interviewee explicitly states choosing lean beef as part of their effort to cook healthier meals."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat because I like the taste",
     "stance_2": "I eat meat every day",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Eating meat every day is explicitly supported by liking the taste of meat."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat because I like the taste",
     "stance_2": "I like the taste of beef",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Liking the taste of beef is a specific example of liking the taste of meat generally, which supports their reason for eating meat."
+    "strength": 85
   },
   {
     "stance_1": "I eat meat because I like the taste",
     "stance_2": "People I know eat meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 35,
-    "justification": "Interviewee assumes people they know eat meat for the taste, which aligns with their own motivation."
+    "strength": 35
   },
   {
     "stance_1": "I like the taste of beef",
     "stance_2": "I use chicken and turkey more often than beef",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Interviewee states that beef tastes better but uses chicken/turkey more often, indicating a conflict between taste preference and actual choices."
+    "strength": 60
   },
   {
     "stance_1": "I believe chicken and turkey are healthier",
     "stance_2": "I like the taste of beef",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Preferring the taste of beef but thinking chicken and turkey are healthier creates a conflict between taste and health motivations."
+    "strength": 60
   },
   {
     "stance_1": "I believe chicken and turkey are healthier",
     "stance_2": "I try to cook healthier meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Believing chicken and turkey are healthier supports the interviewee's efforts to cook healthier meals."
+    "strength": 70
   },
   {
     "stance_1": "I consider eating less beef when dieting",
     "stance_2": "I use chicken and turkey more often than beef",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "The tendency to eat less beef and more poultry is explicitly tied to dieting and health considerations."
+    "strength": 65
   },
   {
     "stance_1": "I choose lean cuts of beef",
     "stance_2": "I believe chicken and turkey are healthier",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 55,
-    "justification": "Choosing lean beef and believing chicken/turkey are healthier both reflect a general preference for healthier meat options."
+    "strength": 55
   },
   {
     "stance_1": "I try to cook healthier meals",
     "stance_2": "I use chicken and turkey more often than beef",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Using chicken and turkey more often is part of the effort to cook healthier meals."
+    "strength": 60
   },
   {
     "stance_1": "I try to cook healthier meals",
     "stance_2": "I consider eating less beef when dieting",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Considering eating less beef and more poultry is explicitly linked to trying to cook healthier meals."
+    "strength": 60
   },
   {
     "stance_1": "I choose lean cuts of beef",
     "stance_2": "I consider eating less beef when dieting",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 55,
-    "justification": "Choosing leaner beef and considering eating less beef are both part of health-motivated behaviors, especially when dieting."
+    "strength": 55
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "I try to cook healthier meals",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Eating meat every day may conflict with the goal of cooking healthier meals, especially given the desire to reduce certain types of meat."
+    "strength": 30
   }
 ]

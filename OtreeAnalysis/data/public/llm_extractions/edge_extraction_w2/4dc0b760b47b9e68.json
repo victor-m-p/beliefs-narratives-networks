@@ -4,103 +4,90 @@
     "stance_2": "I eat meat 2-4 times a week",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states trying to balance environmental concerns with meat consumption, indicating conflict between concern and the behavior."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about environmental impacts",
     "stance_2": "I eat small portions of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee mentions keeping portions small as a way to make better choices for the environment, indicating supportive relation."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about environmental impacts",
     "stance_2": "I want to get enough protein",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "The interviewee discusses balancing health needs (protein) with environmental concerns, suggesting occasional conflict."
+    "strength": 50
   },
   {
     "stance_1": "I am concerned about environmental impacts",
     "stance_2": "I want to get enough iron",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "The need for iron is given as a reason for eating meat, which conflicts with environmental concerns about meat."
+    "strength": 50
   },
   {
     "stance_1": "I am influenced by vegan and vegetarian friends",
     "stance_2": "I am concerned about environmental impacts",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Interviewee explicitly states friends influenced their environmental concerns about meat."
+    "strength": 85
   },
   {
     "stance_1": "I am influenced by vegan and vegetarian friends",
     "stance_2": "I eat meat 2-4 times a week",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee reduced meat consumption due to influence from vegan/vegetarian friends."
+    "strength": 60
   },
   {
     "stance_1": "I am influenced by vegan and vegetarian friends",
     "stance_2": "I eat small portions of meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The influence from vegan/vegetarian friends likely contributed to reducing portion sizes, though not explicitly stated."
+    "strength": 40
   },
   {
     "stance_1": "I am influenced by vegan and vegetarian friends",
     "stance_2": "My social contacts discuss animal welfare",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Interviewee learned about animal welfare motivations through conversations with vegan/vegetarian friends."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat 2-4 times a week",
     "stance_2": "I eat small portions of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Both behaviors are reported together as part of the interviewee's approach to moderation."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat 2-4 times a week",
     "stance_2": "I want to get enough protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Eating meat is explicitly motivated by desire for sufficient protein."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat 2-4 times a week",
     "stance_2": "I want to get enough iron",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Iron intake is explicitly cited as a reason for current level of meat consumption."
+    "strength": 70
   },
   {
     "stance_1": "I eat small portions of meat",
     "stance_2": "I want to get enough protein",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Eating small portions could make meeting protein goals harder, suggesting mild conflict."
+    "strength": 30
   },
   {
     "stance_1": "I eat small portions of meat",
     "stance_2": "I want to get enough iron",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Eating small portions could make meeting iron needs harder, suggesting mild conflict."
+    "strength": 30
   }
 ]

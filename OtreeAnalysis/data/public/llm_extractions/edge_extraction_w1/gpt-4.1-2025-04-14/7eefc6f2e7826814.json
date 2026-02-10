@@ -4,23 +4,20 @@
     "stance_2": "I eat meat regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states that choosing meat for protein is a reason for eating meat regularly."
+    "strength": 80
   },
   {
     "stance_1": "I choose meat for protein",
     "stance_2": "I use other proteins sometimes",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Using other proteins sometimes implies that choosing meat for protein is not exclusive and may be in tension with using alternatives."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "I use other proteins sometimes",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Eating meat regularly and using other proteins sometimes could be seen as conflicting, as using alternatives suggests some moderation of meat consumption."
+    "strength": 30
   }
 ]

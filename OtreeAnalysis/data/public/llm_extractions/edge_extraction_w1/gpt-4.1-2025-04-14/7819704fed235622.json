@@ -4,87 +4,76 @@
     "stance_2": "I eat fish and poultry occasionally",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee states that they eat fish and poultry because they believe these are healthier choices."
+    "strength": 90
   },
   {
     "stance_1": "I have health concerns about red meat and pork",
     "stance_2": "I have high blood pressure and cholesterol",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee links health concerns about red meat and pork to their personal health conditions."
+    "strength": 80
   },
   {
     "stance_1": "I have health concerns about red meat and pork",
     "stance_2": "I have not eaten red meat or pork in 20 years",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee directly connects health concerns about red meat and pork to their long-term avoidance of these foods."
+    "strength": 95
   },
   {
     "stance_1": "I have health concerns about red meat and pork",
     "stance_2": "I have pancreatitis",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee mentions pancreatitis as one of the health issues motivating their concern about red meat and pork."
+    "strength": 80
   },
   {
     "stance_1": "I believe fish and poultry are healthier choices",
     "stance_2": "I have health concerns about red meat and pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Their belief that fish and poultry are healthier is a direct response to health concerns about red meat and pork."
+    "strength": 90
   },
   {
     "stance_1": "I believe vegetables are important for health",
     "stance_2": "I believe in ethical treatment of animals",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Both beliefs encourage plant-based eating, suggesting ethical and health motivations align."
+    "strength": 40
   },
   {
     "stance_1": "I believe vegetables are important for health",
     "stance_2": "My close family are strict vegetarians",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "The health emphasis on vegetables aligns with the family's strict vegetarianism."
+    "strength": 60
   },
   {
     "stance_1": "I have not eaten red meat or pork in 20 years",
     "stance_2": "I eat fish and poultry occasionally",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Avoiding red meat and pork led the interviewee to eat fish and poultry occasionally as alternatives."
+    "strength": 85
   },
   {
     "stance_1": "I believe fish and poultry are healthier choices",
     "stance_2": "I have not eaten red meat or pork in 20 years",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The avoidance of red meat is supported by the belief that fish and poultry are healthier."
+    "strength": 80
   },
   {
     "stance_1": "I have high blood pressure and cholesterol",
     "stance_2": "I have pancreatitis",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Both conditions are cited as driving the interviewee\u2019s dietary decisions regarding meat."
+    "strength": 80
   },
   {
     "stance_1": "I grew up eating meat due to availability",
     "stance_2": "My close family are strict vegetarians",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Growing up, the family ate meat due to availability, but they are now strict vegetarians\u2014showing a shift away from previous habits."
+    "strength": 75
   }
 ]

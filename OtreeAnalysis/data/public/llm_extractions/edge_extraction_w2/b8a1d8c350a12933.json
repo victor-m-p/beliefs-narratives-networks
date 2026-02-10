@@ -4,103 +4,90 @@
     "stance_2": "Eating animals makes me feel sick inside",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly links animal welfare concerns to their emotional discomfort when eating animals."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I wish to give up meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "The desire to give up meat is explicitly motivated by animal welfare concerns."
+    "strength": 75
   },
   {
     "stance_1": "Eating animals makes me feel sick inside",
     "stance_2": "I wish to give up meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Feeling sick about eating animals supports the wish to give up meat."
+    "strength": 85
   },
   {
     "stance_1": "I crave the taste of meat",
     "stance_2": "I wish to give up meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The craving for meat taste directly conflicts with the wish to give up meat."
+    "strength": 90
   },
   {
     "stance_1": "I crave the taste of meat",
     "stance_2": "I want to remove meat from my menu",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The craving for meat taste conflicts with the desire to remove meat from the menu."
+    "strength": 90
   },
   {
     "stance_1": "I crave the taste of meat",
     "stance_2": "I feel addicted to the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 100,
-    "justification": "Feeling addicted to the taste of meat is explicitly described as craving for it."
+    "strength": 100
   },
   {
     "stance_1": "I eat meat about three days a week",
     "stance_2": "I prefer to avoid meat four days a week",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Eating meat three days and avoiding it four days are opposing behaviors as part of a self-imposed balance."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat about three days a week",
     "stance_2": "I wish to give up meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Wishing to give up meat conflicts with the actual behavior of eating it three days a week."
+    "strength": 70
   },
   {
     "stance_1": "I feel addicted to the taste of meat",
     "stance_2": "I wish to give up meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Feeling addicted to the taste of meat makes it harder to give up meat."
+    "strength": 90
   },
   {
     "stance_1": "I feel addicted to the taste of meat",
     "stance_2": "I want to remove meat from my menu",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Feeling addicted to the taste of meat conflicts with the desire to remove meat from the menu."
+    "strength": 90
   },
   {
     "stance_1": "I like the flavoring of meat",
     "stance_2": "I want to remove meat from my menu",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Liking meat flavoring conflicts with the desire to remove meat unless a suitable alternative is found."
+    "strength": 80
   },
   {
     "stance_1": "I wish to give up meat",
     "stance_2": "I want to remove meat from my menu",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 100,
-    "justification": "The desire to give up meat and to remove meat from the menu are directly aligned."
+    "strength": 100
   },
   {
     "stance_1": "My family is moving toward humanely raised meat",
     "stance_2": "My family is skeptical about organic meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Skepticism about organic meat is in tension with the movement toward humanely raised meat, though the shift is happening despite skepticism."
+    "strength": 60
   }
 ]

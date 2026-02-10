@@ -4,79 +4,69 @@
     "stance_2": "Meat is filling",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee explicitly states they eat meat because it is filling, supporting their regular beef consumption."
+    "strength": 70
   },
   {
     "stance_1": "I eat beef regularly",
     "stance_2": "Meat is convenient",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly says they eat meat because it is the most convenient food, reinforcing regular beef consumption."
+    "strength": 80
   },
   {
     "stance_1": "I eat beef regularly",
     "stance_2": "Meat provides vitamins and proteins",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee cites nutritional value as a reason for eating meat, supporting regular beef consumption."
+    "strength": 60
   },
   {
     "stance_1": "I eat beef regularly",
     "stance_2": "My family eats beef regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly attributes their and their family's regular beef eating habits to shared family lifestyle and business."
+    "strength": 85
   },
   {
     "stance_1": "Meat is convenient",
     "stance_2": "My family eats beef regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Convenience is described as a reason both the interviewee and their family continue to eat beef regularly."
+    "strength": 70
   },
   {
     "stance_1": "Meat is filling",
     "stance_2": "Meat provides vitamins and proteins",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Both filling quality and nutritional benefits are cited as reasons for meat eating, suggesting a supportive, though weak, connection."
+    "strength": 25
   },
   {
     "stance_1": "Meat is convenient",
     "stance_2": "Meat provides vitamins and proteins",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Convenience and nutritional value are both named as main reasons for eating meat, implying a weak supportive relationship."
+    "strength": 25
   },
   {
     "stance_1": "Meat is filling",
     "stance_2": "Meat is convenient",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The interviewee mentions both filling quality and convenience as reasons to eat meat, suggesting these motivations reinforce each other."
+    "strength": 30
   },
   {
     "stance_1": "Meat provides vitamins and proteins",
     "stance_2": "My family eats beef regularly",
     "polarity": "implicit",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Nutritional reasoning may play a role in the family's regular beef consumption, though this is only implied."
+    "strength": 30
   },
   {
     "stance_1": "Meat is filling",
     "stance_2": "My family eats beef regularly",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The family\u2019s regular beef consumption is likely supported by shared beliefs about meat being filling, though this support is only implied."
+    "strength": 30
   }
 ]

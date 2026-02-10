@@ -4,39 +4,34 @@
     "stance_2": "I eat chicken in the evening",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Both stances are examples of specific meat-eating behaviors in the interviewee's routine and mutually support the stance of eating meat every few days."
+    "strength": 30
   },
   {
     "stance_1": "I eat bacon for breakfast",
     "stance_2": "I eat meat every few days",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states that when they eat meat every few days, they have bacon for breakfast."
+    "strength": 80
   },
   {
     "stance_1": "I eat chicken in the evening",
     "stance_2": "I eat meat every few days",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly connects eating meat every few days with having chicken in the evening."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat every few days",
     "stance_2": "I need protein after working out",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee explicitly states that needing protein after working out influences their decision to eat meat."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat every few days",
     "stance_2": "Most of my social contacts eat meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "There is an implicit supportive relationship, as the interviewee's social environment may reinforce their habit of eating meat every few days."
+    "strength": 30
   }
 ]

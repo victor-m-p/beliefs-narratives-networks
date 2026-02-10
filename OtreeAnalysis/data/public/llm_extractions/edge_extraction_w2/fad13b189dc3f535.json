@@ -4,231 +4,202 @@
     "stance_2": "I want to cut back on meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee states that health concerns motivate their desire to cut back on meat."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "I eat meat every day",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Eating meat every day conflicts with health concerns about meat."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "I enjoy the taste of meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Enjoying the taste of meat may make it harder to act on health concerns, creating a conflict."
+    "strength": 40
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "Meat makes meals more filling",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The benefit of meat being filling may undermine health-motivated attempts to reduce consumption."
+    "strength": 30
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "All my family eats meat regularly",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "A family norm of eating meat regularly could make it harder to act on health concerns."
+    "strength": 30
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "Meat is easy to cook for my family",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The convenience of meat may conflict with efforts to reduce intake for health reasons."
+    "strength": 30
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "I want to cut back on meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly says health concerns drive the desire to cut back."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "I think about ethical issues of eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Both are concerns about meat-eating, though one is health and one is ethics; they can reinforce efforts to reduce meat."
+    "strength": 30
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "I enjoy the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The enjoyment of meat's taste supports the behavior of eating it daily."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "Meat makes meals more filling",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The filling quality of meat supports the habit of eating it daily."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "All my family eats meat regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The regular meat-eating of the family supports the interviewee's own daily meat consumption."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "Meat is easy to cook for my family",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The convenience of cooking meat for the family supports regular meat-eating."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "I want to cut back on meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Eating meat every day conflicts with the desire to cut back."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "I think about ethical issues of eating meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Thinking about ethical issues of meat conflicts with eating it daily."
+    "strength": 40
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "Meat makes meals more filling",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Enjoyment and satisfaction from meat both support its consumption."
+    "strength": 60
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "I want to cut back on meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Enjoying meat conflicts with the goal of reducing consumption."
+    "strength": 60
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "All my family eats meat regularly",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Shared enjoyment likely supports family meat-eating habits."
+    "strength": 30
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "Meat is easy to cook for my family",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Enjoying meat and its ease of preparation both support regular consumption."
+    "strength": 30
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "I think about ethical issues of eating meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Enjoying meat may be at odds with ethical concerns."
+    "strength": 30
   },
   {
     "stance_1": "Meat makes meals more filling",
     "stance_2": "I want to cut back on meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The filling nature of meat may make it harder to reduce consumption."
+    "strength": 30
   },
   {
     "stance_1": "Meat makes meals more filling",
     "stance_2": "All my family eats meat regularly",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The satisfaction meat provides supports regular family consumption."
+    "strength": 30
   },
   {
     "stance_1": "Meat makes meals more filling",
     "stance_2": "Meat is easy to cook for my family",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "The filling and easy-to-cook qualities of meat both encourage its use."
+    "strength": 40
   },
   {
     "stance_1": "Meat makes meals more filling",
     "stance_2": "I think about ethical issues of eating meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 20,
-    "justification": "Satisfaction from meat may conflict with ethical concerns, but evidence is weak."
+    "strength": 20
   },
   {
     "stance_1": "All my family eats meat regularly",
     "stance_2": "Meat is easy to cook for my family",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The ease of cooking meat is stated as a reason for the family's regular meat consumption."
+    "strength": 70
   },
   {
     "stance_1": "All my family eats meat regularly",
     "stance_2": "I want to cut back on meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "A family norm of eating meat may make it harder to reduce intake."
+    "strength": 30
   },
   {
     "stance_1": "All my family eats meat regularly",
     "stance_2": "I think about ethical issues of eating meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 20,
-    "justification": "Regular family meat-eating may be at odds with ethical concerns, but evidence is weak."
+    "strength": 20
   },
   {
     "stance_1": "Meat is easy to cook for my family",
     "stance_2": "I want to cut back on meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The convenience of meat may make it harder to cut back."
+    "strength": 30
   },
   {
     "stance_1": "Meat is easy to cook for my family",
     "stance_2": "I think about ethical issues of eating meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 20,
-    "justification": "Ease of cooking meat for family may conflict with ethical concerns, but evidence is weak."
+    "strength": 20
   },
   {
     "stance_1": "I want to cut back on meat",
     "stance_2": "I think about ethical issues of eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "Thinking about ethical issues can motivate the desire to cut back on meat."
+    "strength": 30
   }
 ]

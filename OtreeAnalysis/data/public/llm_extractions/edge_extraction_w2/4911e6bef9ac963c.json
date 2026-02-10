@@ -4,119 +4,104 @@
     "stance_2": "I try to limit my meat consumption",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "Eating smaller portions is an explicit method of limiting meat consumption as stated by the interviewee."
+    "strength": 95
   },
   {
     "stance_1": "I try to limit my meat consumption",
     "stance_2": "I want to avoid weight gain",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that avoiding weight gain motivates limiting meat consumption."
+    "strength": 90
   },
   {
     "stance_1": "I try to limit my meat consumption",
     "stance_2": "I want to be healthy",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Health motivation is explicitly cited as a reason for limiting meat consumption."
+    "strength": 90
   },
   {
     "stance_1": "I eat more meat during holidays",
     "stance_2": "I try to limit my meat consumption",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee explicitly notes that they eat more meat during holidays, which conflicts with their general aim to limit meat consumption."
+    "strength": 70
   },
   {
     "stance_1": "I eat more meat during holidays",
     "stance_2": "I eat smaller portions of meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Eating more meat during holidays likely means eating larger portions, which implicitly conflicts with the general stance of eating smaller portions."
+    "strength": 50
   },
   {
     "stance_1": "I eat more meat during holidays",
     "stance_2": "I want to avoid weight gain",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Eating more meat during holidays is implicitly at odds with the motivation to avoid weight gain."
+    "strength": 40
   },
   {
     "stance_1": "I eat more meat during holidays",
     "stance_2": "I want to be healthy",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Eating more meat during holidays may undermine the motivation to be healthy, as stated in the transcript."
+    "strength": 40
   },
   {
     "stance_1": "I try to limit my meat consumption",
     "stance_2": "I practice intermittent fasting",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The practice of intermittent fasting, which includes avoiding meat for days, supports the interviewee's effort to limit meat consumption."
+    "strength": 60
   },
   {
     "stance_1": "I eat smaller portions of meat",
     "stance_2": "I want to avoid weight gain",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 70,
-    "justification": "Eating smaller portions of meat is implicitly a means to avoid weight gain, as supported by the motivations given."
+    "strength": 70
   },
   {
     "stance_1": "I eat smaller portions of meat",
     "stance_2": "I want to be healthy",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 70,
-    "justification": "Eating smaller portions of meat is implicitly a means to support being healthy, in line with the interviewee's motivation."
+    "strength": 70
   },
   {
     "stance_1": "I eat smaller portions of meat",
     "stance_2": "I practice intermittent fasting",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Both stances involve reducing intake of meat, so they implicitly support each other as meat-limiting strategies."
+    "strength": 30
   },
   {
     "stance_1": "I practice intermittent fasting",
     "stance_2": "I want to avoid weight gain",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Intermittent fasting is commonly used to avoid weight gain; since the interviewee mentions both, there is an implicit supportive connection."
+    "strength": 30
   },
   {
     "stance_1": "I practice intermittent fasting",
     "stance_2": "I want to be healthy",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Intermittent fasting is often used for health benefits, so this practice implicitly supports the desire to be healthy."
+    "strength": 30
   },
   {
     "stance_1": "Meat tastes great with a meal",
     "stance_2": "I try to limit my meat consumption",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The enjoyable taste of meat is implicitly a temptation that conflicts with efforts to limit meat consumption."
+    "strength": 40
   },
   {
     "stance_1": "Meat tastes great with a meal",
     "stance_2": "I eat smaller portions of meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Enjoyment of meat's taste implicitly makes it harder to stick to smaller portions."
+    "strength": 30
   }
 ]

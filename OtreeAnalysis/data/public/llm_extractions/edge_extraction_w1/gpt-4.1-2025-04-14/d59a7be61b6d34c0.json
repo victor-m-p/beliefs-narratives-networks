@@ -4,47 +4,41 @@
     "stance_2": "I enjoy the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The enjoyment of meat's taste directly supports the frequent consumption of meat."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat almost daily",
     "stance_2": "I value protein from meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The value placed on protein from meat explicitly supports the frequent consumption of meat."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat almost daily",
     "stance_2": "Nearly everyone around me eats meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "The social environment where nearly everyone eats meat implicitly supports the interviewee's own frequent meat consumption."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat almost daily",
     "stance_2": "I hate seeing animals in pain",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 65,
-    "justification": "Frequent meat consumption conflicts with the expressed dislike of seeing animals in pain, which is often associated with animal welfare concerns."
+    "strength": 65
   },
   {
     "stance_1": "I eat meat almost daily",
     "stance_2": "I tried eating only free range",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Attempting to eat only free range suggests a conflict with the continued daily consumption of conventional meat."
+    "strength": 75
   },
   {
     "stance_1": "I hate seeing animals in pain",
     "stance_2": "I tried eating only free range",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 70,
-    "justification": "The dislike of animal suffering likely motivated the attempt to eat only free range meat."
+    "strength": 70
   }
 ]

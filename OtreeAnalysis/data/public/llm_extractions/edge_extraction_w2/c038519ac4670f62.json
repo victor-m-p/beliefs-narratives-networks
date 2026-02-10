@@ -4,103 +4,90 @@
     "stance_2": "I enjoy the taste of meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states agreement with ethical reasons for avoiding meat but also enjoys the taste, creating a direct conflict."
+    "strength": 90
   },
   {
     "stance_1": "I agree with ethical reasons for avoiding meat",
     "stance_2": "I often eat meat out of habit",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Agreeing with ethical reasons for avoiding meat is in tension with eating meat out of habit, as indicated by the interviewee\u2019s struggle."
+    "strength": 60
   },
   {
     "stance_1": "I agree with ethical reasons for avoiding meat",
     "stance_2": "I crave the taste of meat I grew up with",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee states they agree with ethical reasons for not eating meat, but also crave the taste they grew up with, indicating conflict."
+    "strength": 85
   },
   {
     "stance_1": "I agree with ethical reasons for avoiding meat",
     "stance_2": "There are satisfying vegetarian alternatives available",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "The presence of vegetarian alternatives supports the ethical stance by providing a way to avoid meat."
+    "strength": 40
   },
   {
     "stance_1": "I am concerned about environmental impact of meat",
     "stance_2": "I often eat meat out of habit",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 65,
-    "justification": "Concern for environmental impact conflicts with habitual meat consumption."
+    "strength": 65
   },
   {
     "stance_1": "I am concerned about environmental impact of meat",
     "stance_2": "There are satisfying vegetarian alternatives available",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 45,
-    "justification": "Vegetarian alternatives can support environmental concerns by allowing reduced meat consumption."
+    "strength": 45
   },
   {
     "stance_1": "I am concerned about health effects of eating meat",
     "stance_2": "I often eat meat out of habit",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 65,
-    "justification": "Health concerns about eating meat conflict with eating meat out of habit."
+    "strength": 65
   },
   {
     "stance_1": "I am concerned about health effects of eating meat",
     "stance_2": "There are satisfying vegetarian alternatives available",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 45,
-    "justification": "Vegetarian alternatives can support health goals by enabling less meat consumption."
+    "strength": 45
   },
   {
     "stance_1": "I cook more with vegetables when family visits",
     "stance_2": "My nephew's family are vegetarians",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "It is explicitly stated that cooking with vegetables increases when the vegetarian nephew's family visits."
+    "strength": 95
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "I often eat meat out of habit",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 70,
-    "justification": "Enjoying the taste of meat likely supports habitual meat-eating."
+    "strength": 70
   },
   {
     "stance_1": "I crave the taste of meat I grew up with",
     "stance_2": "I enjoy the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Craving the taste the interviewee grew up with is directly linked to enjoying the taste of meat."
+    "strength": 85
   },
   {
     "stance_1": "I crave the taste of meat I grew up with",
     "stance_2": "I often eat meat out of habit",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Craving familiar tastes supports habitual consumption."
+    "strength": 60
   },
   {
     "stance_1": "My son eats meatless meals for variety",
     "stance_2": "There are satisfying vegetarian alternatives available",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The son\u2019s meatless meals for variety are likely supported by the availability of vegetarian alternatives."
+    "strength": 40
   }
 ]

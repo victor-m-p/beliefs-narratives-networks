@@ -4,87 +4,76 @@
     "stance_2": "I am trying to eat less meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "Interviewee explicitly states that health concerns are the motivation for trying to eat less meat."
+    "strength": 95
   },
   {
     "stance_1": "I am trying to eat less meat",
     "stance_2": "I eat meat for lunch and dinner",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Trying to eat less meat is in conflict with the current habit of eating meat for lunch and dinner."
+    "strength": 80
   },
   {
     "stance_1": "I want to avoid diabetes",
     "stance_2": "I am motivated by health concerns",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 85,
-    "justification": "Desire to avoid diabetes is a health concern, supporting the general health motivation."
+    "strength": 85
   },
   {
     "stance_1": "I want to avoid diabetes",
     "stance_2": "I am trying to eat less meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Interviewee explicitly links eating less meat to avoiding diabetes."
+    "strength": 80
   },
   {
     "stance_1": "I want to keep my A1C low",
     "stance_2": "I am motivated by health concerns",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Keeping A1C low is described as a health concern motivating their dietary choices."
+    "strength": 90
   },
   {
     "stance_1": "I want to keep my A1C low",
     "stance_2": "I am trying to eat less meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Interviewee directly links eating less meat to keeping A1C low."
+    "strength": 80
   },
   {
     "stance_1": "I want to lose weight",
     "stance_2": "I am motivated by health concerns",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Losing weight is described as a health concern motivating their dietary choices."
+    "strength": 85
   },
   {
     "stance_1": "I want to lose weight",
     "stance_2": "I am trying to eat less meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Interviewee explicitly links eating less meat to the desire to lose weight."
+    "strength": 80
   },
   {
     "stance_1": "My social contacts eat meat regularly",
     "stance_2": "I am trying to eat less meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "The regular meat-eating habits of social contacts may implicitly conflict with the interviewee's attempt to eat less meat."
+    "strength": 50
   },
   {
     "stance_1": "Rising meat prices",
     "stance_2": "I am trying to eat less meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Interviewee explicitly states rising meat prices as a motivator for reducing meat consumption."
+    "strength": 70
   },
   {
     "stance_1": "Rising meat prices",
     "stance_2": "My social contacts eat meat regularly",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Rising meat prices are suggested to potentially decrease regular meat consumption among social contacts."
+    "strength": 40
   }
 ]

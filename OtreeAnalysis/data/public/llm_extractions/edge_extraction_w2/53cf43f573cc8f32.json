@@ -4,111 +4,97 @@
     "stance_2": "I eat meat for energy",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Believing meat is healthy supports eating meat for energy, as health benefits include energy provision."
+    "strength": 60
   },
   {
     "stance_1": "I believe meat is healthy",
     "stance_2": "I eat meat for protein",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Belief in meat's healthiness supports eating meat for protein, as protein is commonly cited as a health benefit of meat."
+    "strength": 60
   },
   {
     "stance_1": "I believe meat is healthy",
     "stance_2": "I eat meat regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee directly links eating meat regularly to the belief that it is healthy."
+    "strength": 80
   },
   {
     "stance_1": "I believe meat is healthy",
     "stance_2": "I enjoy eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Enjoyment of an activity is often reinforced by the belief that it is healthy."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat for energy",
     "stance_2": "I eat meat for protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly mentions both protein and energy as reasons for eating meat, which are commonly linked."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat for energy",
     "stance_2": "I eat meat regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Eating meat for energy supports eating meat regularly, as regular consumption is needed to maintain energy."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat for energy",
     "stance_2": "I enjoy eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Enjoying meat may be reinforced by the feeling of energy after consumption."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat for protein",
     "stance_2": "I eat meat regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Eating meat for protein is a stated motivation for regular meat eating."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat for protein",
     "stance_2": "I enjoy eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Enjoyment of meat may be reinforced by perceived nutritional benefits like protein."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "I enjoy eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states enjoyment as a reason for regular meat consumption."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "My social contacts eat meat regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee states their own and their social contacts' regular meat eating habits are the same."
+    "strength": 95
   },
   {
     "stance_1": "I enjoy eating meat",
     "stance_2": "My social contacts enjoy eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that enjoyment of meat is shared among themselves and their social contacts."
+    "strength": 90
   },
   {
     "stance_1": "I enjoy eating meat",
     "stance_2": "My social contacts eat meat regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The group habit of regular meat eating is supported by shared enjoyment."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "My social contacts enjoy eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Regular meat eating in the group is supported by the group's enjoyment of meat."
+    "strength": 80
   }
 ]

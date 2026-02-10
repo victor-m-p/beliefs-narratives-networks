@@ -4,103 +4,90 @@
     "stance_2": "I consistently eat meat every day",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The belief that meat is a good source of nutrients explicitly supports the consistent daily consumption of meat."
+    "strength": 90
   },
   {
     "stance_1": "I consistently eat meat every day",
     "stance_2": "I want to get enough protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The desire to get enough protein is explicitly cited as a motivation for eating meat every day."
+    "strength": 95
   },
   {
     "stance_1": "I eat more fish because it is available",
     "stance_2": "I can afford to buy fish",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The ability to afford fish and its availability both explicitly support eating more fish."
+    "strength": 80
   },
   {
     "stance_1": "I eat more fish because it is available",
     "stance_2": "I consistently eat meat every day",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Eating more fish is described as a way to maintain regular meat consumption in the current location."
+    "strength": 60
   },
   {
     "stance_1": "I can afford to buy fish",
     "stance_2": "I consistently eat meat every day",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Affording fish implicitly supports the ability to consistently eat meat daily, especially fish."
+    "strength": 40
   },
   {
     "stance_1": "I consistently eat meat every day",
     "stance_2": "Meat is a cultural habit in my country",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The cultural habit of eating meat is cited as supporting consistent daily meat consumption."
+    "strength": 80
   },
   {
     "stance_1": "I consistently eat meat every day",
     "stance_2": "My family regularly cooked meat dishes",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Growing up in a family that regularly cooked meat dishes is explicitly stated as supporting daily meat consumption."
+    "strength": 90
   },
   {
     "stance_1": "My family is knowledgeable about nutrition",
     "stance_2": "My family regularly cooked meat dishes",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Family knowledge of nutrition is cited as a motivation for regular meat cooking."
+    "strength": 70
   },
   {
     "stance_1": "Meat is a cultural habit in my country",
     "stance_2": "My family regularly cooked meat dishes",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Cultural habit of meat eating is cited as a reason for regular family meat dishes."
+    "strength": 70
   },
   {
     "stance_1": "I avoid pork",
     "stance_2": "I consistently eat meat every day",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "The interviewee consistently eats meat daily but avoids pork, showing a specific but not conflicting exclusion."
+    "strength": 30
   },
   {
     "stance_1": "I avoid pork",
     "stance_2": "I want to get enough protein",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Avoiding pork does not interfere with the goal of getting enough protein as other meats are consumed."
+    "strength": 30
   },
   {
     "stance_1": "I believe meat is a good source of nutrients",
     "stance_2": "I want to get enough protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The belief that meat is a good source of nutrients directly supports the desire to get enough protein."
+    "strength": 85
   },
   {
     "stance_1": "I avoid pork",
     "stance_2": "I believe meat is a good source of nutrients",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Avoiding pork is due to personal preference, not a rejection of meat's nutritional value."
+    "strength": 25
   }
 ]

@@ -4,71 +4,62 @@
     "stance_2": "Meat is getting expensive",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Both stances motivate a reduction in certain types of meat consumption, supporting a shift toward less meat or more selective meat choices."
+    "strength": 40
   },
   {
     "stance_1": "I avoid highly processed meats for health reasons",
     "stance_2": "I eat more vegetarian dishes than before",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Avoiding highly processed meats for health reasons supports eating more vegetarian dishes as a healthier alternative."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat three times a week",
     "stance_2": "I eat more vegetarian dishes than before",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Eating meat three times a week while eating more vegetarian dishes than before shows a substitution effect, suggesting a conflict between meat and vegetarian meal frequency."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat three times a week",
     "stance_2": "Meat is getting expensive",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The increased cost of meat is a direct reason for reducing meat consumption to three times a week."
+    "strength": 70
   },
   {
     "stance_1": "I eat more vegetarian dishes than before",
     "stance_2": "Meat is getting expensive",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Rising meat prices explicitly motivate eating more vegetarian meals."
+    "strength": 80
   },
   {
     "stance_1": "I eat more vegetarian dishes than before",
     "stance_2": "I want variety in my diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "A desire for variety supports the inclusion of more vegetarian dishes."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat three times a week",
     "stance_2": "I want variety in my diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Eating meat some days and vegetarian the rest is explicitly justified by wanting variety."
+    "strength": 70
   },
   {
     "stance_1": "I want variety in my diet",
     "stance_2": "My housemate likes to eat meat",
     "polarity": "implicit",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The interviewee's desire for variety partially accommodates a housemate who prefers meat, but the support is weak and indirect."
+    "strength": 30
   },
   {
     "stance_1": "Animals are treated badly in factory farms",
     "stance_2": "I eat more vegetarian dishes than before",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Concern for animal welfare may implicitly support eating more vegetarian meals, though it is not stated as the main reason."
+    "strength": 30
   }
 ]

@@ -4,95 +4,83 @@
     "stance_2": "I eat chicken and turkey regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Interviewee states they do not eat much beef or pork but eat a lot of chicken and turkey, suggesting that avoiding some meats is supported by regular consumption of others."
+    "strength": 70
   },
   {
     "stance_1": "I avoid eating much beef or pork",
     "stance_2": "I reduced beef due to mad cow disease",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly links their avoidance of beef to the habit formed during the mad cow disease period."
+    "strength": 90
   },
   {
     "stance_1": "I eat chicken and turkey regularly",
     "stance_2": "I believe chicken is healthier",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Interviewee explicitly states the belief that chicken might be healthier as one reason for their frequent consumption of chicken."
+    "strength": 75
   },
   {
     "stance_1": "I eat chicken and turkey regularly",
     "stance_2": "I eat eggs for protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Interviewee lists both chicken/turkey and eggs as regular protein sources, supporting each other as part of their dietary pattern."
+    "strength": 60
   },
   {
     "stance_1": "I eat chicken and turkey regularly",
     "stance_2": "I want a source of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Interviewee states they want a source of protein, which motivates their regular consumption of chicken and turkey."
+    "strength": 80
   },
   {
     "stance_1": "I eat eggs for protein",
     "stance_2": "I want a source of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Eating eggs is explicitly motivated by the desire for a protein source."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat in moderation",
     "stance_2": "My family eats meat in moderation",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Interviewee states that their own moderate meat consumption follows the family model."
+    "strength": 85
   },
   {
     "stance_1": "I eat meat in moderation",
     "stance_2": "My aunt promoted healthy eating habits",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Interviewee links moderate consumption to following health guidance from their aunt, a nursing professor."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat in moderation",
     "stance_2": "I try to avoid processed food",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Eating meat in moderation aligns with the intent to avoid processed food, both framed as part of a healthy eating approach."
+    "strength": 40
   },
   {
     "stance_1": "I have financial limitations",
     "stance_2": "I try to avoid processed food",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Interviewee states explicitly that financial limitations make it hard to avoid processed foods."
+    "strength": 85
   },
   {
     "stance_1": "I believe chicken is healthier",
     "stance_2": "I eat meat in moderation",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 45,
-    "justification": "Belief in chicken's health benefits supports the approach of moderation in meat consumption."
+    "strength": 45
   },
   {
     "stance_1": "I try to avoid processed food",
     "stance_2": "My family eats meat in moderation",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Family's moderate, home-cooked, and unprocessed eating habits are described as a model the interviewee tries to follow."
+    "strength": 30
   }
 ]

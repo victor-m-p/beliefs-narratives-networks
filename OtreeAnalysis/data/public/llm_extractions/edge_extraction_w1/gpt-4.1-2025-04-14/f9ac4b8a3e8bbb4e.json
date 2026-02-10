@@ -4,151 +4,132 @@
     "stance_2": "I am trying to reduce my meat eating",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that reducing meat is motivated by a belief that healthier proteins are better."
+    "strength": 90
   },
   {
     "stance_1": "I am trying to reduce my meat eating",
     "stance_2": "I think reducing saturated fats is healthier",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly links reducing meat with the goal of reducing saturated fat for health."
+    "strength": 90
   },
   {
     "stance_1": "I am trying to reduce my meat eating",
     "stance_2": "I want to eat healthier as I age",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The motivation to reduce meat is tied to the desire for healthier aging."
+    "strength": 85
   },
   {
     "stance_1": "I am trying to reduce my meat eating",
     "stance_2": "More restaurant options for non-meat proteins help me reduce meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee directly states that more restaurant options support their goal to reduce meat."
+    "strength": 90
   },
   {
     "stance_1": "I am trying to reduce my meat eating",
     "stance_2": "I snack on carrots and celery instead of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Choosing vegetable snacks supports the effort to reduce meat."
+    "strength": 70
   },
   {
     "stance_1": "I am trying to reduce my meat eating",
     "stance_2": "I try tofu, vegetarian, and vegan meals for variety",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Trying non-meat meals is a strategy to reduce meat consumption."
+    "strength": 75
   },
   {
     "stance_1": "I want more vegan and vegetarian restaurant options",
     "stance_2": "More restaurant options for non-meat proteins help me reduce meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly says more options help reduce meat and expresses a desire for even more such options."
+    "strength": 85
   },
   {
     "stance_1": "I want menus to list calories and fat content",
     "stance_2": "I want more vegan and vegetarian restaurant options",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Both stances are about making healthier eating (especially less meat) easier at restaurants."
+    "strength": 75
   },
   {
     "stance_1": "Eating healthier proteins is better for me",
     "stance_2": "I think reducing saturated fats is healthier",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee links healthier proteins to lower saturated fats, both part of their health reasoning."
+    "strength": 80
   },
   {
     "stance_1": "Eating healthier proteins is better for me",
     "stance_2": "I want to eat healthier as I age",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The desire to eat healthier proteins is part of the broader aim to be healthier with age."
+    "strength": 80
   },
   {
     "stance_1": "I think reducing saturated fats is healthier",
     "stance_2": "I want to eat healthier as I age",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Reducing saturated fats is part of the healthy aging motivation."
+    "strength": 80
   },
   {
     "stance_1": "I try tofu, vegetarian, and vegan meals for variety",
     "stance_2": "More restaurant options for non-meat proteins help me reduce meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Trying vegetarian/vegan meals relates to the benefit of restaurant options supporting reduced meat eating."
+    "strength": 70
   },
   {
     "stance_1": "I snack on carrots and celery instead of meat",
     "stance_2": "I want to eat healthier as I age",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Choosing vegetables as snacks aligns with the goal of eating healthier with age, though not directly stated."
+    "strength": 60
   },
   {
     "stance_1": "I want more vegan and vegetarian restaurant options",
     "stance_2": "More restaurant options for non-meat proteins help me reduce meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The desire for more vegan/vegetarian options is directly stated as helpful for reducing meat."
+    "strength": 85
   },
   {
     "stance_1": "I eat chicken, fish, some beef, and deli meats",
     "stance_2": "I very rarely eat pork or steak",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The description of meat-eating habits directly notes a preference for some meats over others, supporting reduced pork/steak consumption."
+    "strength": 80
   },
   {
     "stance_1": "I eat chicken, fish, some beef, and deli meats",
     "stance_2": "I am trying to reduce my meat eating",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee's current meat-eating patterns reflect a reduction in certain meats, supporting their stated effort."
+    "strength": 60
   },
   {
     "stance_1": "I very rarely eat pork or steak",
     "stance_2": "I am trying to reduce my meat eating",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Rarely eating pork or steak supports the broader reduction in meat eating."
+    "strength": 70
   },
   {
     "stance_1": "My family prefers more meat than I do",
     "stance_2": "I am trying to reduce my meat eating",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "The family\u2019s preference for more meat stands in contrast to the interviewee\u2019s effort to reduce meat."
+    "strength": 65
   },
   {
     "stance_1": "Personal preference motivates my family's meat-eating",
     "stance_2": "My family prefers more meat than I do",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The family\u2019s preference for more meat is explicitly explained as motivated by personal preference."
+    "strength": 80
   }
 ]

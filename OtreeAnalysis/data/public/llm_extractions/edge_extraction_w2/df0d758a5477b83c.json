@@ -4,111 +4,97 @@
     "stance_2": "I dislike the taste and consistency of fish",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The craving for fish is described as rare and only when there is a strong physical need, which supports the general dislike for the taste and consistency of fish."
+    "strength": 70
   },
   {
     "stance_1": "I crave fish occasionally",
     "stance_2": "I do not eat fish",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "It is explicitly stated that fish is rarely eaten, only when there is a craving, supporting the general stance of not eating fish."
+    "strength": 90
   },
   {
     "stance_1": "I crave fish occasionally",
     "stance_2": "I include various meats in my meals",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "Craving fish occasionally conflicts with the general inclusion of various meats, as fish is specifically excluded except in rare instances."
+    "strength": 30
   },
   {
     "stance_1": "I do not eat fish",
     "stance_2": "I dislike the taste and consistency of fish",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 100,
-    "justification": "Directly stated that disliking the taste and consistency of fish is the reason for not eating fish."
+    "strength": 100
   },
   {
     "stance_1": "I do not eat fish",
     "stance_2": "I include various meats in my meals",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Stating that all meats are included except fish indicates a conflict between including various meats and not eating fish."
+    "strength": 40
   },
   {
     "stance_1": "I feel sick without daily protein from meat",
     "stance_2": "I try to keep a high level of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 100,
-    "justification": "The desire to avoid feeling sick is the direct reason for keeping a high level of protein intake."
+    "strength": 100
   },
   {
     "stance_1": "I feel sick without daily protein from meat",
     "stance_2": "My son feels unwell without meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "It is explicitly stated that both the interviewee and their son experience physical symptoms without meat, showing mutual support for this stance."
+    "strength": 70
   },
   {
     "stance_1": "I include various meats in my meals",
     "stance_2": "I try to keep a high level of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Including various meats is a means to achieve the goal of maintaining high protein levels."
+    "strength": 80
   },
   {
     "stance_1": "I include various meats in my meals",
     "stance_2": "People I live with also eat meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Their household eats meat similarly, reinforcing the inclusion of various meats in meals."
+    "strength": 80
   },
   {
     "stance_1": "I include various meats in my meals",
     "stance_2": "My husband loves steak and pork products",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The husband's preference for steak and pork supports the inclusion of these meats in shared meals."
+    "strength": 70
   },
   {
     "stance_1": "I include various meats in my meals",
     "stance_2": "My son feels unwell without meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The son's need for meat supports the inclusion of various meats in household meals."
+    "strength": 70
   },
   {
     "stance_1": "I include various meats in my meals",
     "stance_2": "I feel sick without daily protein from meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Including various meats helps prevent feeling sick due to protein deficiency."
+    "strength": 90
   },
   {
     "stance_1": "My husband loves steak and pork products",
     "stance_2": "People I live with also eat meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The husband's preference is cited as a reason the household eats a lot of red meat and pork products."
+    "strength": 80
   },
   {
     "stance_1": "My son feels unwell without meat",
     "stance_2": "People I live with also eat meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The son's experience of feeling unwell without meat is given as a reason why the people in the household eat meat."
+    "strength": 80
   }
 ]

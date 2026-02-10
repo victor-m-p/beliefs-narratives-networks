@@ -4,95 +4,83 @@
     "stance_2": "I avoid eating red meats",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee directly states that health reasons motivate them to avoid red meats."
+    "strength": 95
   },
   {
     "stance_1": "I am motivated by health reasons",
     "stance_2": "I eat chicken or turkey",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that they choose chicken or turkey due to health reasons."
+    "strength": 90
   },
   {
     "stance_1": "I am motivated by health reasons",
     "stance_2": "I have acid reflux",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explains their health motivation as being caused by acid reflux."
+    "strength": 90
   },
   {
     "stance_1": "I am motivated by health reasons",
     "stance_2": "I think everyone should limit meat for the environment",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The interviewee's personal health motivation contrasts with their general suggestion that everyone should limit meat for environmental reasons, showing different motivational bases."
+    "strength": 30
   },
   {
     "stance_1": "I avoid eating red meats",
     "stance_2": "I eat chicken or turkey",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The avoidance of red meats is paired with the consumption of chicken or turkey as an alternative."
+    "strength": 80
   },
   {
     "stance_1": "I avoid eating red meats",
     "stance_2": "I have acid reflux",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "Avoidance of red meat is directly attributed to acid reflux."
+    "strength": 95
   },
   {
     "stance_1": "I avoid eating red meats",
     "stance_2": "My family loves eating meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee's avoidance of red meat is contrasted with their family's enjoyment of all meats."
+    "strength": 85
   },
   {
     "stance_1": "I eat chicken or turkey",
     "stance_2": "I have acid reflux",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The selection of chicken or turkey is explicitly linked to managing acid reflux."
+    "strength": 85
   },
   {
     "stance_1": "I have acid reflux",
     "stance_2": "Acid reflux runs in my family",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee's experience of acid reflux is directly connected to a family tendency toward the same condition."
+    "strength": 90
   },
   {
     "stance_1": "My family loves eating meat",
     "stance_2": "Taste motivates my family to eat meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The family\u2019s love of meat is directly attributed to their enjoyment of its taste."
+    "strength": 95
   },
   {
     "stance_1": "Acid reflux runs in my family",
     "stance_2": "My family loves eating meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Although the family loves eating meat, acid reflux (which runs in the family) sometimes makes them limit meat consumption."
+    "strength": 70
   },
   {
     "stance_1": "Acid reflux runs in my family",
     "stance_2": "Taste motivates my family to eat meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Although taste motivates meat consumption, family-wide acid reflux sometimes forces them to restrict intake, creating a conflict."
+    "strength": 70
   }
 ]

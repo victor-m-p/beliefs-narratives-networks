@@ -4,151 +4,132 @@
     "stance_2": "I want to get enough protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee explicitly states that eating a lot of meat is motivated by the desire to get enough protein."
+    "strength": 95
   },
   {
     "stance_1": "I eat a lot of meat every day",
     "stance_2": "I work out regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee links their high meat consumption to their regular workout routine, implying eating meat supports their workout goals."
+    "strength": 80
   },
   {
     "stance_1": "I do not eat pork",
     "stance_2": "I eat a lot of meat every day",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "The interviewee eats a lot of meat but specifically excludes pork for religious reasons, which is a restriction in an otherwise unrestricted meat diet."
+    "strength": 40
   },
   {
     "stance_1": "I want to get enough protein",
     "stance_2": "Non-meat protein alternatives are not sufficient",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee states that non-meat alternatives are not sufficient for their protein needs, supporting their continued focus on meat for protein."
+    "strength": 90
   },
   {
     "stance_1": "I want to get enough protein",
     "stance_2": "Non-meat protein alternatives have too much fat or carbs",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explains that protein alternatives have too much fat or carbs, making them unsuitable for meeting their protein needs."
+    "strength": 85
   },
   {
     "stance_1": "I want to get enough protein",
     "stance_2": "I work out regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The desire for protein is directly linked to a regular workout routine."
+    "strength": 90
   },
   {
     "stance_1": "I eat a lot of meat every day",
     "stance_2": "Non-meat protein alternatives are not sufficient",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The inadequacy of non-meat protein alternatives supports the interviewee's continued high meat consumption."
+    "strength": 70
   },
   {
     "stance_1": "I eat a lot of meat every day",
     "stance_2": "Non-meat protein alternatives have too much fat or carbs",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Non-meat alternatives' poor nutrient balance supports the choice to eat a lot of meat."
+    "strength": 60
   },
   {
     "stance_1": "Non-meat protein alternatives have too much fat or carbs",
     "stance_2": "Non-meat protein alternatives are not sufficient",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The reason non-meat protein alternatives are insufficient is explicitly linked to their high fat or carb content."
+    "strength": 85
   },
   {
     "stance_1": "My family is reducing meat for health reasons",
     "stance_2": "Meat is hard to digest for my family",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The family reduces meat due to health reasons, including that meat is hard to digest."
+    "strength": 80
   },
   {
     "stance_1": "My family is reducing meat for health reasons",
     "stance_2": "Social contacts do not need a lot of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee explains that the family's reduced meat consumption is also because they do not need much protein."
+    "strength": 70
   },
   {
     "stance_1": "I eat a lot of meat every day",
     "stance_2": "My family is reducing meat for health reasons",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee eats a lot of meat, while their family is reducing meat, representing opposing behaviors."
+    "strength": 60
   },
   {
     "stance_1": "I want to get enough protein",
     "stance_2": "My family is reducing meat for health reasons",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 55,
-    "justification": "The interviewee's protein focus contrasts with the family's reduced emphasis on meat and protein."
+    "strength": 55
   },
   {
     "stance_1": "I work out regularly",
     "stance_2": "My family is reducing meat for health reasons",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 55,
-    "justification": "The interviewee's regular workouts and associated protein needs are contrasted with the family's lack of workouts and reduced meat consumption."
+    "strength": 55
   },
   {
     "stance_1": "I eat a lot of meat every day",
     "stance_2": "Social contacts do not need a lot of protein",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee eats a lot of meat due to protein needs, while their social contacts do not need much protein, leading to different consumption patterns."
+    "strength": 60
   },
   {
     "stance_1": "I want to get enough protein",
     "stance_2": "Social contacts do not need a lot of protein",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee's focus on protein is contrasted with social contacts who do not emphasize protein intake."
+    "strength": 60
   },
   {
     "stance_1": "I work out regularly",
     "stance_2": "Social contacts do not need a lot of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee's explanation links their regular workouts to higher protein needs than their social contacts."
+    "strength": 60
   },
   {
     "stance_1": "Non-meat protein alternatives are not sufficient",
     "stance_2": "Social contacts do not need a lot of protein",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The interviewee finds alternatives insufficient for their protein needs, while social contacts' lower needs make such alternatives more acceptable."
+    "strength": 30
   },
   {
     "stance_1": "Meat is hard to digest for my family",
     "stance_2": "Social contacts do not need a lot of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The family's reduced meat intake due to digestibility aligns with their lower protein needs."
+    "strength": 60
   }
 ]

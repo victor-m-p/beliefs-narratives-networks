@@ -4,79 +4,69 @@
     "stance_2": "I avoid fatty portions of meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 80,
-    "justification": "Concern about heart disease supports the avoidance of fatty portions of meat."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about heart disease",
     "stance_2": "I avoid processed meats like bacon",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 80,
-    "justification": "Concern about heart disease supports the avoidance of processed meats like bacon."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about heart disease",
     "stance_2": "I regulate the amount of red meat I consume",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee explicitly states regulating red meat intake is motivated by concern for heart disease."
+    "strength": 95
   },
   {
     "stance_1": "I am concerned about the environment",
     "stance_2": "I regulate the amount of red meat I consume",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly mentions environmental concern as a secondary motivator for regulating red meat consumption."
+    "strength": 80
   },
   {
     "stance_1": "I eat chicken on special occasions",
     "stance_2": "I prefer chicken over beef for taste",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Preference for chicken over beef for taste may support choosing chicken for special occasions."
+    "strength": 40
   },
   {
     "stance_1": "I eat turkey on Thanksgiving",
     "stance_2": "I prefer chicken over beef for taste",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Eating turkey on Thanksgiving is a tradition that may conflict with a general preference for chicken over beef due to taste."
+    "strength": 25
   },
   {
     "stance_1": "I avoid processed meats like bacon",
     "stance_2": "I avoid fatty portions of meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 35,
-    "justification": "Avoiding processed meats and fatty portions are both health-motivated behaviors that reinforce each other."
+    "strength": 35
   },
   {
     "stance_1": "I avoid fatty portions of meat",
     "stance_2": "I regulate the amount of red meat I consume",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Avoiding fatty portions and regulating red meat are both health-driven, mutually reinforcing behaviors."
+    "strength": 60
   },
   {
     "stance_1": "I avoid processed meats like bacon",
     "stance_2": "I regulate the amount of red meat I consume",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Avoiding processed meats and regulating red meat are both motivated by health concerns and reinforce each other."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about heart disease",
     "stance_2": "Social contacts are concerned about heart disease",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee and their social contacts both share concern about heart disease, reinforcing each other's stance."
+    "strength": 70
   }
 ]

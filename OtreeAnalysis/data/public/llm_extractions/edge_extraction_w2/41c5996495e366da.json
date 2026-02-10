@@ -4,119 +4,104 @@
     "stance_2": "I want to reduce my meat intake",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly states that the high price of alternative meats makes it harder to reduce meat intake."
+    "strength": 85
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I want to reduce my meat intake",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee directly links animal welfare concerns to motivation for reducing meat intake."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned about the environment",
     "stance_2": "I want to reduce my meat intake",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states environmental concern as a motivation for reducing meat intake."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat for iron",
     "stance_2": "I want to reduce my meat intake",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee states a need for iron as a reason for meat consumption, which conflicts with the goal of reducing intake."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat for protein",
     "stance_2": "I want to reduce my meat intake",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Protein content is cited as a reason for eating meat, which is in tension with desire to reduce meat intake."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat two to three times a week",
     "stance_2": "I want to reduce my meat intake",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Current meat consumption frequency is at odds with the desire to reduce intake."
+    "strength": 70
   },
   {
     "stance_1": "I was influenced by vegetarians in my family",
     "stance_2": "I want to reduce my meat intake",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee states that being exposed to family vegetarians influenced their desire to reduce meat intake."
+    "strength": 80
   },
   {
     "stance_1": "Meat is convenient for me",
     "stance_2": "I want to reduce my meat intake",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Convenience of meat is cited as a reason for eating it, conflicting with the goal of reducing intake."
+    "strength": 75
   },
   {
     "stance_1": "Vegetarian options are not always available",
     "stance_2": "I want to reduce my meat intake",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Lack of vegetarian options is explicitly described as an obstacle to reducing meat intake."
+    "strength": 70
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I am concerned about the environment",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Both concerns are stated together as motivations for reducing meat intake, showing alignment."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "Social contacts are motivated by animal welfare",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee and their family share animal welfare as a motivation."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about the environment",
     "stance_2": "Social contacts are motivated by environmental concerns",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee and their family share environmental concerns as a motivation."
+    "strength": 80
   },
   {
     "stance_1": "My father and stepmom are vegetarians",
     "stance_2": "Social contacts are motivated by animal welfare",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Father and stepmom's vegetarianism is explicitly motivated by animal welfare."
+    "strength": 90
   },
   {
     "stance_1": "My father and stepmom are vegetarians",
     "stance_2": "Social contacts are motivated by environmental concerns",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Father and stepmom's vegetarianism is explicitly motivated by environmental concerns."
+    "strength": 90
   },
   {
     "stance_1": "I was influenced by vegetarians in my family",
     "stance_2": "My father and stepmom are vegetarians",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Interviewee says growing up with vegetarians influenced them."
+    "strength": 85
   }
 ]

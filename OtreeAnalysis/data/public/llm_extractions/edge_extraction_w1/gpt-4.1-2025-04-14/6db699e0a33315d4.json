@@ -4,55 +4,48 @@
     "stance_2": "My family prefers meals with meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "It is explicitly stated that the interviewee eats dinner with family and that the family prefers meals with meat; these behaviors support each other."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat most nights",
     "stance_2": "My family prefers meals with meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The family's preference for meat-based meals supports the interviewee's habit of eating meat most nights."
+    "strength": 70
   },
   {
     "stance_1": "I eat dinner with my family",
     "stance_2": "I eat meat most nights",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Eating dinner with family who prefer meat supports the interviewee's habit of eating meat most nights."
+    "strength": 60
   },
   {
     "stance_1": "I think too much meat is unhealthy",
     "stance_2": "I eat meat most nights",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The belief that too much meat is unhealthy is in implicit conflict with eating meat most nights."
+    "strength": 40
   },
   {
     "stance_1": "I think too much meat is unhealthy",
     "stance_2": "I watched documentaries about unhealthy meat processing",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "The interviewee explicitly states that documentaries about unhealthy meat processing contributed to their belief that too much meat is unhealthy."
+    "strength": 75
   },
   {
     "stance_1": "I eat what I am in the mood for",
     "stance_2": "I eat meat most nights",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "The interviewee chooses meals based on mood and ends up eating meat most nights, suggesting the two stances support each other."
+    "strength": 50
   },
   {
     "stance_1": "I eat what I am in the mood for",
     "stance_2": "I think too much meat is unhealthy",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Choosing food based on mood may conflict with the health-motivated desire to limit meat consumption."
+    "strength": 30
   }
 ]

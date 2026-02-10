@@ -4,191 +4,167 @@
     "stance_2": "I choose chicken over red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Interviewee explicitly states animal welfare concerns drive choosing chicken over red meat."
+    "strength": 80
   },
   {
     "stance_1": "Animal welfare concerns me",
     "stance_2": "I try to eat less red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Interviewee directly links concerns about animal welfare to efforts to eat less red meat."
+    "strength": 85
   },
   {
     "stance_1": "Animal welfare concerns me",
     "stance_2": "I am concerned about the meat industry",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Animal welfare is stated as a reason for concern about the meat industry."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned about the meat industry",
     "stance_2": "I try to eat less red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Concern about the meat industry motivates the interviewee to eat less red meat."
+    "strength": 80
   },
   {
     "stance_1": "I am influenced by gym culture",
     "stance_2": "Muscle gain motivates me to eat protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "Interviewee explicitly cites gym and muscle gain culture as reasons for prioritizing protein."
+    "strength": 95
   },
   {
     "stance_1": "I am influenced by gym culture",
     "stance_2": "I want to get enough protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Gym culture influences the value placed on protein intake."
+    "strength": 85
   },
   {
     "stance_1": "I want to get enough protein",
     "stance_2": "Muscle gain motivates me to eat protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "Muscle gain is directly cited as a motivation for consuming enough protein."
+    "strength": 95
   },
   {
     "stance_1": "I want to get enough iron and nutrients",
     "stance_2": "I want to get enough protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Interviewee mentions both protein and iron/nutrients as dietary goals."
+    "strength": 80
   },
   {
     "stance_1": "I want to get enough iron and nutrients",
     "stance_2": "I eat meat one to two meals daily",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Interviewee eats meat regularly partly to obtain iron and nutrients."
+    "strength": 70
   },
   {
     "stance_1": "I want to get enough protein",
     "stance_2": "I eat meat one to two meals daily",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Eating meat daily is justified by the need for protein intake."
+    "strength": 80
   },
   {
     "stance_1": "I want to get enough protein",
     "stance_2": "I try to eat less red meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Desire for protein may conflict with reducing red meat, but interviewee compensates with other meats."
+    "strength": 50
   },
   {
     "stance_1": "I lack confidence cooking meat well",
     "stance_2": "Meat is expensive for me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Interviewee is hesitant to buy expensive meat due to lack of cooking skill, linking the two stances."
+    "strength": 80
   },
   {
     "stance_1": "I lack confidence cooking meat well",
     "stance_2": "I eat meat one to two meals daily",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Uncertainty about cooking may discourage frequent meat consumption."
+    "strength": 40
   },
   {
     "stance_1": "I lack confidence cooking meat well",
     "stance_2": "I try to eat less red meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Lack of skill may contribute to reduced red meat consumption."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat one to two meals daily",
     "stance_2": "I try to eat less red meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Eating meat daily is somewhat in tension with trying to eat less red meat."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat one to two meals daily",
     "stance_2": "Meat is expensive for me",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Expense could limit frequency of meat consumption, but interviewee still eats meat daily."
+    "strength": 40
   },
   {
     "stance_1": "Meat is expensive for me",
     "stance_2": "I try to eat less red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Expense is a reason for reducing red meat, as mentioned by the interviewee."
+    "strength": 60
   },
   {
     "stance_1": "Meat feels more social than individual",
     "stance_2": "I eat meat one to two meals daily",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 35,
-    "justification": "Interviewee suggests less meat is eaten alone, which could conflict with daily consumption."
+    "strength": 35
   },
   {
     "stance_1": "Presentations on animal farming influenced me",
     "stance_2": "Animal welfare concerns me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Interviewee describes presentations as a source of animal welfare concern."
+    "strength": 90
   },
   {
     "stance_1": "Presentations on animal farming influenced me",
     "stance_2": "I am concerned about the meat industry",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Presentations are described as shaping concerns about the meat industry."
+    "strength": 85
   },
   {
     "stance_1": "I grew up in a household that served meat regularly",
     "stance_2": "My mother insisted on meat at meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "Interviewee describes mother\u2019s insistence on meat as shaping a meat-serving household."
+    "strength": 95
   },
   {
     "stance_1": "I grew up in a household that served meat regularly",
     "stance_2": "I eat meat one to two meals daily",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 55,
-    "justification": "Growing up with regular meat may support continued frequent meat consumption."
+    "strength": 55
   },
   {
     "stance_1": "My mother insisted on meat at meals",
     "stance_2": "I eat meat one to two meals daily",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 55,
-    "justification": "Mother\u2019s habits likely influenced current eating frequency."
+    "strength": 55
   },
   {
     "stance_1": "My roommate grew up vegetarian",
     "stance_2": "My roommate prefers plant-based options",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "Interviewee directly links vegetarian upbringing to current plant-based preferences."
+    "strength": 95
   }
 ]

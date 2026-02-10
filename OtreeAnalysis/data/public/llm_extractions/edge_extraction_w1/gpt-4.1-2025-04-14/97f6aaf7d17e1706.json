@@ -4,119 +4,104 @@
     "stance_2": "I eat meat almost daily",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that eating meat is a habit and describes eating meat almost daily, showing the habit supports the frequent behavior."
+    "strength": 90
   },
   {
     "stance_1": "Eating meat is a habit for me",
     "stance_2": "My family eats meat regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee notes both personal and family habit of eating meat; habitual consumption is reinforced by family environment."
+    "strength": 80
   },
   {
     "stance_1": "I enjoy the variety of meat dishes",
     "stance_2": "I eat meat almost daily",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The appreciation for variety in meat dishes supports the frequent consumption of meat."
+    "strength": 70
   },
   {
     "stance_1": "I enjoy the variety of meat dishes",
     "stance_2": "I love the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Variety in preparation and flavor is explicitly connected to loving the taste of meat."
+    "strength": 80
   },
   {
     "stance_1": "Excessive meat eating may cause health problems",
     "stance_2": "I eat meat almost daily",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The awareness of health risks from excessive consumption is in implicit conflict with high frequency of meat consumption."
+    "strength": 40
   },
   {
     "stance_1": "Eating meat may cause digestive problems",
     "stance_2": "I eat meat almost daily",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The mention of digestive issues potentially resulting from high meat intake is implicitly at odds with daily consumption."
+    "strength": 30
   },
   {
     "stance_1": "Meat lacks fiber compared to vegetables",
     "stance_2": "Eating meat may cause digestive problems",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Interviewee explicitly links lack of fiber in meat to potential digestive problems."
+    "strength": 70
   },
   {
     "stance_1": "Meat production has environmental impacts",
     "stance_2": "I eat meat almost daily",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Acknowledgment of environmental impacts of meat production is implicitly in tension with frequent meat consumption."
+    "strength": 30
   },
   {
     "stance_1": "Excessive meat eating may cause health problems",
     "stance_2": "Eating meat may cause digestive problems",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Both stances refer to health-related consequences of high meat intake, forming a supportive connection."
+    "strength": 40
   },
   {
     "stance_1": "Eating meat is a habit for me",
     "stance_2": "I love the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Habitual meat eating is linked to enjoyment of meat's taste."
+    "strength": 60
   },
   {
     "stance_1": "Eating meat is a habit for me",
     "stance_2": "I enjoy the variety of meat dishes",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Enjoyment of variety likely reinforces habitual behavior."
+    "strength": 40
   },
   {
     "stance_1": "Eating meat is a habit for me",
     "stance_2": "Excessive meat eating may cause health problems",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Habitual behavior may be in conflict with concerns about health risks of excessive consumption."
+    "strength": 40
   },
   {
     "stance_1": "I love the taste of meat",
     "stance_2": "My family eats meat regularly",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Family's regular meat consumption and shared enjoyment supports interviewee's love of meat."
+    "strength": 30
   },
   {
     "stance_1": "Eating meat is a habit for me",
     "stance_2": "Meat lacks fiber compared to vegetables",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Habitual eating of meat may be challenged by recognition of its nutritional limitations."
+    "strength": 25
   },
   {
     "stance_1": "Excessive meat eating may cause health problems",
     "stance_2": "Meat lacks fiber compared to vegetables",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 35,
-    "justification": "Lack of fiber in meat is related to health concerns with excessive meat eating."
+    "strength": 35
   }
 ]

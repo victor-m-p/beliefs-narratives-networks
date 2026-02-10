@@ -4,87 +4,76 @@
     "stance_2": "I am concerned about heart disease",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly connects family history of heart disease with their concern about heart disease."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned about cancer",
     "stance_2": "I try to limit red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Limiting red meat is explicitly motivated by concern about cancer."
+    "strength": 70
   },
   {
     "stance_1": "I am concerned about diabetes",
     "stance_2": "I try to limit red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Limiting red meat is explicitly motivated by concern about diabetes."
+    "strength": 70
   },
   {
     "stance_1": "I am concerned about heart disease",
     "stance_2": "I try to limit red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Limiting red meat is explicitly motivated by concern about heart disease."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned about stroke",
     "stance_2": "I try to limit red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Limiting red meat is explicitly motivated by concern about stroke."
+    "strength": 70
   },
   {
     "stance_1": "Heart disease runs in my family",
     "stance_2": "My father has limited red meat consumption",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "It is explicitly stated that the family history of heart disease motivates the father to limit red meat."
+    "strength": 80
   },
   {
     "stance_1": "Heart disease runs in my family",
     "stance_2": "My uncles have limited red meat consumption",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "It is explicitly stated that the family history of heart disease motivates the uncles to limit red meat."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about heart disease",
     "stance_2": "My father has limited red meat consumption",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Concern about heart disease is a likely shared motivation for the father limiting red meat."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about heart disease",
     "stance_2": "My uncles have limited red meat consumption",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Concern about heart disease is a likely shared motivation for the uncles limiting red meat."
+    "strength": 60
   },
   {
     "stance_1": "I try to limit red meat",
     "stance_2": "My father has limited red meat consumption",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Family members limiting red meat is likely to support or influence the interviewee's own efforts, though this is implied."
+    "strength": 50
   },
   {
     "stance_1": "I try to limit red meat",
     "stance_2": "My uncles have limited red meat consumption",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Family members limiting red meat is likely to support or influence the interviewee's own efforts, though this is implied."
+    "strength": 50
   }
 ]

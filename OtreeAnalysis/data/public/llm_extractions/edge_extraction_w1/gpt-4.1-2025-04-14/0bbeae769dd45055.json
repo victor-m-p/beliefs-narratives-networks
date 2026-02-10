@@ -4,55 +4,48 @@
     "stance_2": "I usually eat chicken instead of red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "The interviewee eats meat infrequently and specifies that chicken is the usual choice, indicating their infrequent meat consumption is strongly associated with a preference for chicken over red meat."
+    "strength": 65
   },
   {
     "stance_1": "I read that red meat is unhealthy",
     "stance_2": "I try to cut back on red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that reading about the health risks of red meat is the reason for trying to cut back on red meat."
+    "strength": 90
   },
   {
     "stance_1": "I think lean meats are healthier",
     "stance_2": "I usually eat chicken instead of red meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Chicken is generally considered a lean meat. The preference for chicken over red meat implicitly supports the belief that lean meats are healthier."
+    "strength": 60
   },
   {
     "stance_1": "I think lean meats are healthier",
     "stance_2": "I try to cut back on red meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Belief in the healthiness of lean meats supports the reduction of red meat consumption."
+    "strength": 60
   },
   {
     "stance_1": "I think lean meats are healthier",
     "stance_2": "I read that red meat is unhealthy",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Believing lean meats are healthier aligns with the idea that red meat is unhealthy."
+    "strength": 60
   },
   {
     "stance_1": "I try to cut back on red meat",
     "stance_2": "Meat is expensive",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "The interviewee explicitly states that the high price of meat, especially red meat, is another reason for cutting back."
+    "strength": 65
   },
   {
     "stance_1": "I usually eat chicken instead of red meat",
     "stance_2": "I try to cut back on red meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Eating chicken instead of red meat implicitly supports the effort to cut back on red meat."
+    "strength": 60
   }
 ]

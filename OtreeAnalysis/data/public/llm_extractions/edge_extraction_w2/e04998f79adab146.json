@@ -4,47 +4,41 @@
     "stance_2": "I eat meat regularly",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Eating meat regularly can conflict with concerns about animal welfare, implied by the mention of animal welfare as a motivation for eating less meat."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "I want enough protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that eating meat regularly is motivated by wanting enough protein."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "I want more iron",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee directly states that getting more iron is a main motivation for eating meat."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "Most people I know eat meat regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee explicitly says that most people they know have similar meat-eating habits."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "Some people I know avoid meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Knowing people who avoid meat contrasts with the interviewee's own regular meat-eating."
+    "strength": 40
   },
   {
     "stance_1": "I want enough protein",
     "stance_2": "I want more iron",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Both protein and iron are explicitly mentioned as nutritional motivations for eating meat."
+    "strength": 70
   }
 ]

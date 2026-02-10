@@ -4,47 +4,41 @@
     "stance_2": "I eat meat two or three times a day",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that eating meat frequently is a habit, directly connecting the two stances."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat two or three times a day",
     "stance_2": "I want more protein and less carbs",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "The interviewee states that eating more protein and less carbs for health is a reason for their frequent meat consumption."
+    "strength": 75
   },
   {
     "stance_1": "I eat meat two or three times a day",
     "stance_2": "My family and friends eat meat regularly",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The interviewee's frequent meat consumption is implicitly supported by the similar habits of their social circle."
+    "strength": 40
   },
   {
     "stance_1": "Eating meat is a habit for me",
     "stance_2": "My family and friends eat meat regularly",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The habit of eating meat is likely reinforced by the regular meat-eating habits of family and friends."
+    "strength": 40
   },
   {
     "stance_1": "I avoid eating a lot of red meat",
     "stance_2": "I eat meat two or three times a day",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "The interviewee eats meat frequently but explicitly avoids red meat, suggesting a selective approach to meat consumption."
+    "strength": 30
   },
   {
     "stance_1": "I avoid eating a lot of red meat",
     "stance_2": "I want more protein and less carbs",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 35,
-    "justification": "The desire for more protein and fewer carbs supports avoiding red meat, as the interviewee mentions preferring other protein sources like chicken and fish."
+    "strength": 35
   }
 ]

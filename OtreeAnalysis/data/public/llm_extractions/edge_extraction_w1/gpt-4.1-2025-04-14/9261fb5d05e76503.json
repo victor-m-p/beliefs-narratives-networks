@@ -4,279 +4,244 @@
     "stance_2": "I want to eat healthier",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that trying to eat less animal protein is motivated by wanting to be healthier."
+    "strength": 90
   },
   {
     "stance_1": "I am trying to eat less animal protein",
     "stance_2": "I want to eat more sustainably",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that the motivation to eat less animal protein is to be more sustainable."
+    "strength": 90
   },
   {
     "stance_1": "I am trying to eat less animal protein",
     "stance_2": "I believe vegetable protein is healthier for me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee says they are trying to eat less animal protein because they believe vegetable protein is healthier."
+    "strength": 85
   },
   {
     "stance_1": "I am trying to eat less animal protein",
     "stance_2": "I am concerned about environmental impact of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee states a concern for the environment as a motivator for eating less animal protein."
+    "strength": 90
   },
   {
     "stance_1": "I am trying to eat less animal protein",
     "stance_2": "I am trying to incorporate more beans",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Incorporating more beans is part of the effort to eat less animal protein."
+    "strength": 80
   },
   {
     "stance_1": "I am trying to eat less animal protein",
     "stance_2": "My family eats meat regularly",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee's attempt to eat less animal protein contrasts with their family's regular meat consumption."
+    "strength": 80
   },
   {
     "stance_1": "I am trying to eat less animal protein",
     "stance_2": "I eat chicken, beef, and pork",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Eating chicken, beef, and pork conflicts with the goal of reducing animal protein, though the interviewee is in transition."
+    "strength": 60
   },
   {
     "stance_1": "I am trying to eat less animal protein",
     "stance_2": "I eat one can of chicken a day",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 55,
-    "justification": "Eating one can of chicken daily is at odds with the stated goal of reducing animal protein, though this is acknowledged as a work in progress."
+    "strength": 55
   },
   {
     "stance_1": "I am trying to eat less animal protein",
     "stance_2": "I purchase ground beef twice a month",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Purchasing ground beef regularly is somewhat inconsistent with the goal to reduce animal protein, though the interviewee is transitioning."
+    "strength": 50
   },
   {
     "stance_1": "I am trying to eat less animal protein",
     "stance_2": "I purchase bacon once a month",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Purchasing bacon, even if infrequently, somewhat conflicts with the aim to eat less animal protein."
+    "strength": 50
   },
   {
     "stance_1": "I am trying to eat less animal protein",
     "stance_2": "I eat a lot of salmon",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 45,
-    "justification": "Eating a lot of salmon is still a form of consuming animal protein, which is contrary to the goal, but may be seen as a lesser evil."
+    "strength": 45
   },
   {
     "stance_1": "I avoid lamb and veal",
     "stance_2": "I am trying to eat less animal protein",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Avoiding certain meats aligns with the goal of reducing animal protein, though it's not explicitly linked."
+    "strength": 40
   },
   {
     "stance_1": "I want to eat healthier",
     "stance_2": "I have medical issues",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee wants to eat healthier because they have medical issues."
+    "strength": 90
   },
   {
     "stance_1": "I want to eat healthier",
     "stance_2": "I am concerned about cardiac health",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "Concern for cardiac health is an explicit reason for wanting to eat healthier."
+    "strength": 95
   },
   {
     "stance_1": "I want to eat healthier",
     "stance_2": "I believe vegetable protein is healthier for me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The belief that vegetable protein is healthier supports the stance of wanting to eat healthier."
+    "strength": 90
   },
   {
     "stance_1": "I want to eat more sustainably",
     "stance_2": "I am concerned about environmental impact of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "Desire to eat more sustainably is explicitly tied to concern about the environmental impact of meat."
+    "strength": 95
   },
   {
     "stance_1": "I have medical issues",
     "stance_2": "I am concerned about cardiac health",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Medical issues include compromised cardiac health, directly linking the two stances."
+    "strength": 90
   },
   {
     "stance_1": "I have medical issues",
     "stance_2": "I believe vegetable protein is healthier for me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Medical issues motivate the belief in the benefits of vegetable protein."
+    "strength": 85
   },
   {
     "stance_1": "I am concerned about cardiac health",
     "stance_2": "I believe vegetable protein is healthier for me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee believes vegetable protein is healthier for cardiac reasons."
+    "strength": 90
   },
   {
     "stance_1": "I eat chicken, beef, and pork",
     "stance_2": "I avoid lamb and veal",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee chooses to eat some meats but avoids others, indicating selective meat consumption."
+    "strength": 70
   },
   {
     "stance_1": "I eat chicken, beef, and pork",
     "stance_2": "I eat one can of chicken a day",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Eating chicken daily is consistent with the stance of eating chicken, beef, and pork."
+    "strength": 80
   },
   {
     "stance_1": "I eat chicken, beef, and pork",
     "stance_2": "I purchase ground beef twice a month",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Purchasing ground beef is part of eating beef."
+    "strength": 75
   },
   {
     "stance_1": "I eat chicken, beef, and pork",
     "stance_2": "I purchase bacon once a month",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Purchasing bacon (pork) fits with consuming pork."
+    "strength": 70
   },
   {
     "stance_1": "I eat chicken, beef, and pork",
     "stance_2": "I eat a lot of salmon",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 35,
-    "justification": "Eating a lot of salmon (fish) is a different animal protein source from chicken, beef, and pork; this may indicate a shift or diversification."
+    "strength": 35
   },
   {
     "stance_1": "I eat chicken, beef, and pork",
     "stance_2": "I am trying to incorporate more beans",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Incorporating more beans (plant protein) may substitute for some animal protein, potentially reducing beef, chicken, and pork."
+    "strength": 30
   },
   {
     "stance_1": "I eat one can of chicken a day",
     "stance_2": "I am trying to incorporate more beans",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Trying to add beans implies a shift away from animal protein such as daily chicken."
+    "strength": 25
   },
   {
     "stance_1": "I eat a lot of salmon",
     "stance_2": "I am trying to incorporate more beans",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Trying to add beans (plant protein) may be intended to replace or reduce animal protein, such as salmon."
+    "strength": 25
   },
   {
     "stance_1": "I purchase ground beef twice a month",
     "stance_2": "I am trying to incorporate more beans",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 20,
-    "justification": "Increasing beans may eventually reduce ground beef consumption."
+    "strength": 20
   },
   {
     "stance_1": "I purchase bacon once a month",
     "stance_2": "I am trying to incorporate more beans",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 20,
-    "justification": "Trying to incorporate more beans as a plant protein can be seen as a move away from animal protein, including bacon."
+    "strength": 20
   },
   {
     "stance_1": "I eat one can of chicken a day",
     "stance_2": "I purchase ground beef twice a month",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Both are examples of ongoing animal protein consumption."
+    "strength": 60
   },
   {
     "stance_1": "I eat one can of chicken a day",
     "stance_2": "I purchase bacon once a month",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Both indicate continued consumption of animal protein."
+    "strength": 60
   },
   {
     "stance_1": "I eat one can of chicken a day",
     "stance_2": "I eat a lot of salmon",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Both indicate regular animal protein consumption."
+    "strength": 60
   },
   {
     "stance_1": "I purchase ground beef twice a month",
     "stance_2": "I purchase bacon once a month",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "Both are infrequent but ongoing purchases of animal protein sources."
+    "strength": 65
   },
   {
     "stance_1": "I purchase ground beef twice a month",
     "stance_2": "I eat a lot of salmon",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Both indicate a continued presence of animal protein in the diet."
+    "strength": 60
   },
   {
     "stance_1": "I purchase bacon once a month",
     "stance_2": "I eat a lot of salmon",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Both indicate occasional animal protein consumption."
+    "strength": 60
   }
 ]

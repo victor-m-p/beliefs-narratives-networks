@@ -4,119 +4,104 @@
     "stance_2": "I feel sad meat consumption affects the environment",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee's curiosity about the environmental impact of meat is explicitly linked to her sadness about learning of the impact."
+    "strength": 70
   },
   {
     "stance_1": "I am curious about meat's environmental impact",
     "stance_2": "I have not changed meat-eating habits due to environmental concerns",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee states she has not changed her habits yet, but her curiosity about the environmental impact is linked to her consideration of the issue."
+    "strength": 60
   },
   {
     "stance_1": "I am used to eating meat",
     "stance_2": "I eat meat at every meal",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The habit of eating meat regularly supports eating meat at every meal."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat at every meal",
     "stance_2": "I eat meat to get protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee states getting protein is a reason for eating meat at every meal."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat at every meal",
     "stance_2": "I love the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Enjoyment of the taste of meat supports eating meat at every meal."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat at every meal",
     "stance_2": "My family eats meat at every meal",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explains her family and herself share the same meat-eating habits."
+    "strength": 80
   },
   {
     "stance_1": "I prepare meat-based meals for my family",
     "stance_2": "My family eats meat at every meal",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 100,
-    "justification": "The interviewee directly states her family eats meat at every meal because she prepares the meals."
+    "strength": 100
   },
   {
     "stance_1": "I eat meat at every meal",
     "stance_2": "I prepare meat-based meals for my family",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 70,
-    "justification": "Her regular meat-eating leads to her preparing meat-based meals for her family."
+    "strength": 70
   },
   {
     "stance_1": "I am used to eating meat",
     "stance_2": "I prepare meat-based meals for my family",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Her habituation to meat supports preparing meat-based meals for her family."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat to get protein",
     "stance_2": "I am used to eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Obtaining protein is cited as a reason for being used to eating meat."
+    "strength": 60
   },
   {
     "stance_1": "I am used to eating meat",
     "stance_2": "My family eats meat at every meal",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Her family environment contributed to her being used to eating meat."
+    "strength": 60
   },
   {
     "stance_1": "I love the taste of meat",
     "stance_2": "I feel sad meat consumption affects the environment",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "She expresses sadness that meat consumption affects the environment because she loves eating meat."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat at every meal",
     "stance_2": "I feel sad meat consumption affects the environment",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Her regular meat-eating and sadness about environmental impact are implicitly in tension."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat at every meal",
     "stance_2": "I am curious about meat's environmental impact",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Her curiosity about the impact and her habitual meat-eating are implicitly in tension."
+    "strength": 30
   },
   {
     "stance_1": "I feel sad meat consumption affects the environment",
     "stance_2": "I prepare meat-based meals for my family",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "She feels sad about the impact but continues to prepare meat-based meals."
+    "strength": 40
   }
 ]

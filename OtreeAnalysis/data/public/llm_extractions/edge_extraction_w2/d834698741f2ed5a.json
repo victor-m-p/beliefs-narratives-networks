@@ -4,71 +4,62 @@
     "stance_2": "I eat cheese or eggs for protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly states that not eating meat every day is enabled by eating cheese or eggs for protein as alternatives."
+    "strength": 85
   },
   {
     "stance_1": "I do not eat meat every day",
     "stance_2": "Where I eat influences my meat consumption",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states that eating at restaurants versus at home influences whether they eat meat, supporting not eating meat every day."
+    "strength": 80
   },
   {
     "stance_1": "I do not eat meat every day",
     "stance_2": "What I want to cook influences my meat consumption",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee notes that their desire to cook certain meals influences whether they eat meat, supporting the behavior of not eating it daily."
+    "strength": 70
   },
   {
     "stance_1": "I eat beef or chicken at fast food places",
     "stance_2": "Where I eat influences my meat consumption",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee directly says they eat beef or chicken at fast food places, showing a strong link between location and meat choice."
+    "strength": 90
   },
   {
     "stance_1": "I make cheese pizza or omelets at home",
     "stance_2": "Where I eat influences my meat consumption",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee directly says that at home they make cheese pizza or omelets, showing that being at home supports choosing non-meat options."
+    "strength": 90
   },
   {
     "stance_1": "I eat cheese or eggs for protein",
     "stance_2": "I make cheese pizza or omelets at home",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Making cheese pizza or omelets at home is an explicit example of eating cheese or eggs for protein."
+    "strength": 85
   },
   {
     "stance_1": "I empathize with how animals are raised for food",
     "stance_2": "I do not eat meat every day",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Empathy for animals is likely a motivation for not eating meat every day, as indicated by the interviewee's and daughter's attitudes."
+    "strength": 50
   },
   {
     "stance_1": "I empathize with how animals are raised for food",
     "stance_2": "My daughter does not like eating animals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly links their and their daughter's empathy for animals and her dislike of eating animals."
+    "strength": 90
   },
   {
     "stance_1": "My daughter does not like eating animals",
     "stance_2": "My daughter rarely eats beef",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The daughter's dislike of eating animals is given as a direct reason for her rarely eating beef."
+    "strength": 95
   }
 ]

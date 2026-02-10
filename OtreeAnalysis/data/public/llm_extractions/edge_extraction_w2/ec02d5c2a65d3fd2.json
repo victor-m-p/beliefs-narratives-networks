@@ -4,103 +4,90 @@
     "stance_2": "I dislike the taste of beef and pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The explicit reason for avoiding beef and pork is disliking their taste."
+    "strength": 90
   },
   {
     "stance_1": "I avoid beef and pork",
     "stance_2": "I have health concerns about beef and pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee states health concerns are a reason for avoiding beef and pork."
+    "strength": 80
   },
   {
     "stance_1": "I avoid beef and pork",
     "stance_2": "I want to help the environment",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "The interviewee mentions avoiding meat as a way to help the environment, supporting this connection."
+    "strength": 40
   },
   {
     "stance_1": "I dislike the taste of beef and pork",
     "stance_2": "I dislike the taste of non-farm beef and pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Disliking beef and pork is reinforced by disliking the taste of non-farm versions."
+    "strength": 80
   },
   {
     "stance_1": "I grew up eating farm-fresh beef and pork",
     "stance_2": "I dislike the taste of non-farm beef and pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Growing up with farm-fresh beef and pork is explicitly linked to current dislike of non-farm beef and pork."
+    "strength": 85
   },
   {
     "stance_1": "I eat chicken and turkey",
     "stance_2": "I eat meat for protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states eating chicken and turkey is for protein."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat for protein",
     "stance_2": "I believe less meat can provide enough protein",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "Eating meat for protein is somewhat at odds with believing less meat can still provide enough protein."
+    "strength": 30
   },
   {
     "stance_1": "I eat meat for protein",
     "stance_2": "I have health concerns about beef and pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Choosing to eat certain meats for protein is related to health concerns about others."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat for protein",
     "stance_2": "I avoid beef and pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "Avoidance of beef and pork is supported by the motivation to get protein from other sources."
+    "strength": 30
   },
   {
     "stance_1": "I want to help the environment",
     "stance_2": "I believe less meat can provide enough protein",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Desire to help the environment could be supported by the belief that less meat still provides enough protein."
+    "strength": 25
   },
   {
     "stance_1": "My family accommodates my preferences",
     "stance_2": "I avoid beef and pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Family accommodating the interviewee is explicitly linked to avoidance of beef and pork."
+    "strength": 60
   },
   {
     "stance_1": "My family eats beef and pork",
     "stance_2": "My family accommodates my preferences",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Despite eating beef and pork, the family accommodates the interviewee's different dietary habits."
+    "strength": 60
   },
   {
     "stance_1": "My social contacts enjoy the taste of meat",
     "stance_2": "I dislike the taste of beef and pork",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 35,
-    "justification": "The interviewee explicitly contrasts their dislike with others' enjoyment of meat taste."
+    "strength": 35
   }
 ]

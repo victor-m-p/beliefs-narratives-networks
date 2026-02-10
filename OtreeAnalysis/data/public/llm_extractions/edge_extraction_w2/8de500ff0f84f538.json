@@ -4,191 +4,167 @@
     "stance_2": "We eat kosher meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee explicitly states that eating kosher is motivated by concerns about animal cruelty and the belief that kosher slaughter is more humane."
+    "strength": 70
   },
   {
     "stance_1": "I am concerned about animal cruelty",
     "stance_2": "I eat meat around 2-3 times a week",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Concern about animal cruelty implicitly conflicts with the behavior of eating meat regularly."
+    "strength": 40
   },
   {
     "stance_1": "I am concerned about the environment",
     "stance_2": "I eat meat around 2-3 times a week",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Concern for the environment is implicitly at odds with eating meat, which is often seen as environmentally unfriendly."
+    "strength": 40
   },
   {
     "stance_1": "I like a balanced diet with vegetables, grains, and fruits",
     "stance_2": "I eat meat around 2-3 times a week",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 45,
-    "justification": "Including meat as part of an overall balanced diet supports eating it in moderation, as described."
+    "strength": 45
   },
   {
     "stance_1": "I like a balanced diet with vegetables, grains, and fruits",
     "stance_2": "It is important for children to have a balanced diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states a belief in a balanced diet for both herself and for children."
+    "strength": 80
   },
   {
     "stance_1": "I like meals without meat",
     "stance_2": "I like a balanced diet with vegetables, grains, and fruits",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 55,
-    "justification": "Liking meals without meat supports a balanced diet rich in plant-based foods."
+    "strength": 55
   },
   {
     "stance_1": "I want to know where meat comes from",
     "stance_2": "We eat kosher meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 55,
-    "justification": "Eating kosher is partially about knowing the source and treatment of meat, which supports the desire to know where meat comes from."
+    "strength": 55
   },
   {
     "stance_1": "I want to know where meat comes from",
     "stance_2": "Community discusses reducing meat due to cost",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "A growing mindfulness about meat sourcing and consumption in the community supports the stance of wanting to know where meat comes from."
+    "strength": 30
   },
   {
     "stance_1": "I want to know where meat comes from",
     "stance_2": "I am concerned about animal cruelty",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Wanting to know the source and treatment of meat is explicitly linked to concerns about animal cruelty."
+    "strength": 70
   },
   {
     "stance_1": "I want to know where meat comes from",
     "stance_2": "I am concerned about the environment",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "The interviewee connects sourcing and environmental concern, mentioning both as motivations."
+    "strength": 65
   },
   {
     "stance_1": "Community discusses reducing meat due to cost",
     "stance_2": "Meat is expensive",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The community's discussion about reducing meat is directly attributed to the increased cost of meat."
+    "strength": 90
   },
   {
     "stance_1": "Friends and family are concerned about health",
     "stance_2": "Family history of cancer and diabetes",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Concerns about health are explicitly linked to the family history of cancer and diabetes."
+    "strength": 90
   },
   {
     "stance_1": "Friends and family are concerned about health",
     "stance_2": "Friends and family are concerned about the cost of meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Health and cost are both shared concerns among friends and family, often motivating dietary choices together."
+    "strength": 40
   },
   {
     "stance_1": "Friends and family are concerned about health",
     "stance_2": "Friends and family are concerned about the environment",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Multiple shared concerns (health and environment) among friends and family often reinforce each other in dietary discussions."
+    "strength": 30
   },
   {
     "stance_1": "Friends and family are concerned about health",
     "stance_2": "It is important for children to have a balanced diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Health concerns among family are explicitly tied to the importance of a balanced, nutritious diet for children."
+    "strength": 70
   },
   {
     "stance_1": "Friends and family are concerned about the cost of meat",
     "stance_2": "Meat is expensive",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Friends and family concern about meat cost is directly due to its expense."
+    "strength": 90
   },
   {
     "stance_1": "Community discusses reducing meat due to cost",
     "stance_2": "Friends and family are concerned about the cost of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Community and family concerns about meat cost are mutually reinforcing and explicitly linked."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about animal cruelty",
     "stance_2": "I like meals without meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Concern for animal cruelty likely supports preference for meals without meat."
+    "strength": 50
   },
   {
     "stance_1": "I am concerned about the environment",
     "stance_2": "I like meals without meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Environmental concerns support eating less meat and enjoying plant-based meals."
+    "strength": 50
   },
   {
     "stance_1": "I eat meat around 2-3 times a week",
     "stance_2": "My daughter is anemic and needs meat for iron",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Eating meat is explicitly motivated by daughter's anemia and her need for iron."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat around 2-3 times a week",
     "stance_2": "My husband feels a meal is incomplete without meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The frequency of meat eating is explicitly influenced by the husband's preference for meat at meals."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat around 2-3 times a week",
     "stance_2": "My son is a picky eater and likes meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The son's preference for meat explicitly supports the interviewee's frequency of meat consumption."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat around 2-3 times a week",
     "stance_2": "We eat kosher meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Regular meat consumption is explicitly within the context of eating kosher."
+    "strength": 50
   },
   {
     "stance_1": "I eat meat around 2-3 times a week",
     "stance_2": "It is important for children to have a balanced diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Eating meat is presented as part of ensuring children have a balanced, nutritious diet."
+    "strength": 50
   }
 ]

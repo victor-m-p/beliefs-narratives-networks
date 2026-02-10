@@ -4,119 +4,104 @@
     "stance_2": "My religion prohibits pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 100,
-    "justification": "The interviewee explicitly states that avoiding pork is due to religious prohibition."
+    "strength": 100
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "Meat tastes very good to me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Eating meat every day is explicitly supported by the statement that meat tastes very good."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "Meat provides protein and vitamins",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Eating meat daily is explicitly supported by the belief that meat provides protein and vitamins."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "My religion recommends vegetarianism",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Daily meat-eating conflicts with the religious recommendation to be vegetarian, as acknowledged by the interviewee."
+    "strength": 80
   },
   {
     "stance_1": "I have tried to reduce red meat",
     "stance_2": "Lack of knowledge in cooking variety",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The attempt to reduce red meat is explicitly hindered by lack of knowledge in cuisine, which the interviewee describes."
+    "strength": 70
   },
   {
     "stance_1": "I have tried to reduce red meat",
     "stance_2": "My religion recommends vegetarianism",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The religious recommendation to be vegetarian plausibly motivates the interviewee's attempts to reduce red meat, though not explicitly stated."
+    "strength": 30
   },
   {
     "stance_1": "Meat tastes very good to me",
     "stance_2": "My religion recommends vegetarianism",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Enjoying the taste of meat makes it harder to follow the vegetarian recommendation, as seen in the interviewee's struggle."
+    "strength": 60
   },
   {
     "stance_1": "Meat provides protein and vitamins",
     "stance_2": "My religion recommends vegetarianism",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "The belief in nutritional benefits of meat makes it harder to follow religious vegetarian recommendations."
+    "strength": 60
   },
   {
     "stance_1": "My family eats meat regularly",
     "stance_2": "Meat tastes very good to me",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Family eating habits likely reinforce the enjoyment of meat, though not directly stated."
+    "strength": 40
   },
   {
     "stance_1": "My family eats meat regularly",
     "stance_2": "Meat provides protein and vitamins",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Shared belief in nutritional benefits supports regular family meat consumption."
+    "strength": 40
   },
   {
     "stance_1": "My family eats meat regularly",
     "stance_2": "My religion recommends vegetarianism",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Family meat-eating habits implicitly conflict with the religious vegetarian recommendation."
+    "strength": 30
   },
   {
     "stance_1": "I avoid pork",
     "stance_2": "My family eats meat regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The family shares the avoidance of pork, reinforcing the stance."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "My family eats meat regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee and their family both eat meat regularly, mutually reinforcing the behavior."
+    "strength": 80
   },
   {
     "stance_1": "I avoid pork",
     "stance_2": "My religion recommends vegetarianism",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Both stances are rooted in religious guidance, so avoiding pork is consistent with the broader religious dietary recommendations."
+    "strength": 40
   },
   {
     "stance_1": "I avoid pork",
     "stance_2": "My religion recommends vegetarianism",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Avoiding pork is a partial implementation of the religious dietary recommendation to avoid certain foods."
+    "strength": 40
   }
 ]

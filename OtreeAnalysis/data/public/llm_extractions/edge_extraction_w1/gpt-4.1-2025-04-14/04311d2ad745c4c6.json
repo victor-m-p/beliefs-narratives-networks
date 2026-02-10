@@ -4,55 +4,48 @@
     "stance_2": "I include meat in at least one meal a day",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Being mindful of nutrition after a health scare motivates the interviewee to include meat regularly for its nutrients."
+    "strength": 40
   },
   {
     "stance_1": "I am mindful of nutrition after a health scare",
     "stance_2": "I try to eat less over-processed frozen dinners",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee explicitly connects their health scare and mindfulness with eating less over-processed food."
+    "strength": 70
   },
   {
     "stance_1": "I am mindful of nutrition after a health scare",
     "stance_2": "I want to get nutrients from meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee's health scare and focus on nutrition are explicitly tied to wanting nutrients from meat."
+    "strength": 60
   },
   {
     "stance_1": "I am mindful of nutrition after a health scare",
     "stance_2": "I try plant-based products for variety",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Becoming more mindful about nutrition after a health scare implicitly supports experimenting with plant-based products for variety and health."
+    "strength": 30
   },
   {
     "stance_1": "I feel healthier after eating plant-based products",
     "stance_2": "I try plant-based products for variety",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states trying plant-based products for variety and feeling healthier after eating them."
+    "strength": 80
   },
   {
     "stance_1": "I include meat in at least one meal a day",
     "stance_2": "I want to get nutrients from meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly connects including meat daily with wanting to get nutrients from meat."
+    "strength": 80
   },
   {
     "stance_1": "I try plant-based products for variety",
     "stance_2": "I want to get nutrients from meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Trying plant-based products for variety may conflict with a singular focus on getting nutrients from meat, as plant-based products are partially replacing meat."
+    "strength": 30
   }
 ]

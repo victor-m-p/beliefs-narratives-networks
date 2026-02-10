@@ -4,47 +4,41 @@
     "stance_2": "I include meat to make meals complete",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee states both that meat is needed to make meals complete and that they are happy with vegetarian meals, which are in tension."
+    "strength": 60
   },
   {
     "stance_1": "I am happy with vegetarian meals",
     "stance_2": "People around me prefer meat with every meal",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly contrasts their own happiness with vegetarian meals with others' preference for meat in every meal."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat every two or three days",
     "stance_2": "People around me prefer meat with every meal",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states they eat meat less frequently than people around them, who prefer it with every meal."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat every two or three days",
     "stance_2": "I am happy with vegetarian meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "Being happy with vegetarian meals supports and is consistent with eating meat only every two or three days."
+    "strength": 65
   },
   {
     "stance_1": "I eat meat every two or three days",
     "stance_2": "I enjoy fish and eggs as protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee states a preference for fish and eggs as proteins, which supports eating meat less frequently."
+    "strength": 80
   },
   {
     "stance_1": "I include meat to make meals complete",
     "stance_2": "I eat meat every two or three days",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The belief that meat completes meals supports including meat regularly, though not at every meal."
+    "strength": 60
   }
 ]

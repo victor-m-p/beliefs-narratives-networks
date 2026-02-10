@@ -4,55 +4,48 @@
     "stance_2": "I try to eat less meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states that eating vegetables for protein is a reason for trying to eat less meat."
+    "strength": 80
   },
   {
     "stance_1": "I mostly eat chicken",
     "stance_2": "I try to eat less meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Choosing chicken over other meats is part of the interviewee's strategy to eat less meat, as stated in their habits."
+    "strength": 75
   },
   {
     "stance_1": "I have diabetes",
     "stance_2": "My family eats as much red meat as they want",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee states that their family eats as much red meat as they want because they don't have diabetes, implying a conflict between their health needs and family behavior."
+    "strength": 80
   },
   {
     "stance_1": "I mostly eat chicken",
     "stance_2": "Too much red meat makes me sleepy",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee chooses chicken instead of red meat because red meat makes them sleepy."
+    "strength": 70
   },
   {
     "stance_1": "I have diabetes",
     "stance_2": "I try to eat less meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The interviewee implies that health concerns (diabetes) are a factor in eating less meat, as opposed to their family's habits."
+    "strength": 40
   },
   {
     "stance_1": "Meat is a staple in my family meals",
     "stance_2": "My family eats as much red meat as they want",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee says meat is a staple and that their family eats as much red meat as they want, directly linking the two."
+    "strength": 85
   },
   {
     "stance_1": "Meat is a staple in my family meals",
     "stance_2": "Taste motivates my family to eat meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The family makes dishes centered around meat because of taste and tradition, showing strong support between these stances."
+    "strength": 80
   }
 ]

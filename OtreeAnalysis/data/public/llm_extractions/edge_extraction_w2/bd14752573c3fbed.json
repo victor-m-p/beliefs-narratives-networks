@@ -4,167 +4,146 @@
     "stance_2": "I eat meat at most meals",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly says eating meat makes them feel bad regarding animal welfare."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about the environment",
     "stance_2": "I eat meat at most meals",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly links meat eating with negative environmental impact."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I like the taste of meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "The enjoyment of meat taste conflicts with concerns about animal welfare."
+    "strength": 75
   },
   {
     "stance_1": "I am concerned about the environment",
     "stance_2": "I like the taste of meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Enjoying the taste of meat conflicts with environmental concerns regarding meat."
+    "strength": 75
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "It is difficult to break eating habits",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Difficulty breaking habits undermines the stance of animal welfare concern."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about the environment",
     "stance_2": "It is difficult to break eating habits",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Difficulty changing habits conflicts with environmental concern."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat at most meals",
     "stance_2": "I like the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Interviewee explicitly states taste is the main motivator for eating meat at most meals."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat at most meals",
     "stance_2": "I eat what is available at home",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Eating what is available supports the routine of eating meat at most meals."
+    "strength": 50
   },
   {
     "stance_1": "I eat meat at most meals",
     "stance_2": "It is difficult to break eating habits",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Interviewee explicitly states it is hard to break from routine of eating meat."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat at most meals",
     "stance_2": "Meat is part of our family routine",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Family meal routine explicitly includes meat at most meals."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat at most meals",
     "stance_2": "My family eats meat at most meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "Interviewee and family share the same meat consumption pattern."
+    "strength": 95
   },
   {
     "stance_1": "I eat what is available at home",
     "stance_2": "My wife does most of the shopping",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Interviewee explicitly states eating what is available, and availability is shaped by wife's shopping."
+    "strength": 80
   },
   {
     "stance_1": "I have considered reducing meat to lose weight",
     "stance_2": "I like the taste of meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Taste makes it hard for the interviewee to reduce meat intake despite considering it for weight loss."
+    "strength": 80
   },
   {
     "stance_1": "I have considered reducing meat to lose weight",
     "stance_2": "It is difficult to break eating habits",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Interviewee directly states habit is a barrier to reducing meat."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I have considered reducing meat to lose weight",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Considering reducing meat could be partly motivated by animal welfare concerns, though weight loss is primary."
+    "strength": 30
   },
   {
     "stance_1": "I am concerned about the environment",
     "stance_2": "I have considered reducing meat to lose weight",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Environmental concern is acknowledged as a motivation for reducing meat, though less important than weight loss."
+    "strength": 30
   },
   {
     "stance_1": "Meat alternatives are not less expensive",
     "stance_2": "I eat meat at most meals",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Expense of alternatives discourages switching, supporting frequent meat eating."
+    "strength": 40
   },
   {
     "stance_1": "Meat alternatives are not less expensive",
     "stance_2": "It is difficult to break eating habits",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "High cost of alternatives reinforces sticking to ingrained meat-eating habits."
+    "strength": 40
   },
   {
     "stance_1": "Meat is expensive",
     "stance_2": "I eat meat at most meals",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Interviewee mentions meat's expense as a limiting factor, though they still eat it often."
+    "strength": 40
   },
   {
     "stance_1": "Meat is expensive",
     "stance_2": "Meat alternatives are not less expensive",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Both meat and alternatives are described as expensive, supporting each other as barriers to change."
+    "strength": 70
   },
   {
     "stance_1": "Meat is part of our family routine",
     "stance_2": "My family eats meat at most meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Family routine and family eating habits directly reinforce each other."
+    "strength": 90
   }
 ]

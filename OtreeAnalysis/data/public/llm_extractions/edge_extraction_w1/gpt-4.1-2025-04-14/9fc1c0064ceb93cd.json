@@ -4,87 +4,76 @@
     "stance_2": "I want to get enough protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee directly states that feeding a large family is a reason to include meat for protein."
+    "strength": 85
   },
   {
     "stance_1": "I have a large family to feed",
     "stance_2": "I want to keep my family full",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly connects feeding a large family to choosing meat for satiety."
+    "strength": 85
   },
   {
     "stance_1": "I have meat-free nights each week",
     "stance_2": "Meat is very expensive",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The main reason given for meat-free nights is the high cost of meat."
+    "strength": 90
   },
   {
     "stance_1": "I have meat-free nights each week",
     "stance_2": "Others eat more meat than my family",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Having meat-free nights likely contributes to the perception that others eat more meat than the interviewee's family."
+    "strength": 30
   },
   {
     "stance_1": "I switch to ground turkey or chicken when on sale",
     "stance_2": "Meat is very expensive",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Switching to cheaper meats when on sale is motivated by the high cost of meat."
+    "strength": 75
   },
   {
     "stance_1": "I switch to ground turkey or chicken when on sale",
     "stance_2": "Price is a main factor for people I know",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee states that price is a main factor, which is reflected in switching meats when there's a sale."
+    "strength": 60
   },
   {
     "stance_1": "I eat mostly ground beef and chicken",
     "stance_2": "I want to get enough protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Eating these meats is described as a way to get enough protein for the family."
+    "strength": 80
   },
   {
     "stance_1": "I eat mostly ground beef and chicken",
     "stance_2": "I want to keep my family full",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee says meat is used to keep the family full."
+    "strength": 80
   },
   {
     "stance_1": "Meat is very expensive",
     "stance_2": "Price is a main factor for people I know",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The high cost of meat underpins price being a main factor for meat consumption choices."
+    "strength": 70
   },
   {
     "stance_1": "Others eat more meat than my family",
     "stance_2": "I have a large family to feed",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Despite having a large family (which might suggest higher consumption), the interviewee's family eats less meat than others, suggesting conflicting influences (cost, practices, etc)."
+    "strength": 25
   },
   {
     "stance_1": "Price is a main factor for people I know",
     "stance_2": "Some people avoid red meat for health",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Health and price are presented as distinct motivations for reducing or changing meat consumption, suggesting a mild conflict between these rationales."
+    "strength": 25
   }
 ]

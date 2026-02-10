@@ -4,79 +4,69 @@
     "stance_2": "I eat meat every three months",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Believing red meat is bad for health conflicts with the behavior of still eating meat, even if infrequently."
+    "strength": 60
   },
   {
     "stance_1": "I believe eating red meat is bad for health",
     "stance_2": "I think red meat causes weight gain",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Belief that red meat is bad for health is supported by the belief that it causes weight gain."
+    "strength": 85
   },
   {
     "stance_1": "I buy frozen burgers for affordability",
     "stance_2": "I cannot afford expensive meats",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee explicitly states buying frozen burgers is due to not being able to afford expensive meats."
+    "strength": 95
   },
   {
     "stance_1": "I buy frozen burgers for affordability",
     "stance_2": "I eat meat every three months",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "The frequency of eating meat is influenced by the affordability of frozen burgers."
+    "strength": 65
   },
   {
     "stance_1": "I buy frozen burgers for affordability",
     "stance_2": "I enjoy making homemade hamburgers",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Homemade hamburgers are made with frozen burgers, reinforcing the enjoyment and affordability aspects."
+    "strength": 70
   },
   {
     "stance_1": "I cannot afford expensive meats",
     "stance_2": "I eat meat every three months",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Limited budget leading to infrequent meat consumption is explicitly stated."
+    "strength": 75
   },
   {
     "stance_1": "I crave meat occasionally",
     "stance_2": "I eat meat every three months",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Craving meat is the reason for the infrequent consumption every three months."
+    "strength": 80
   },
   {
     "stance_1": "I crave meat occasionally",
     "stance_2": "I enjoy making homemade hamburgers",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Craving meat leads to making homemade hamburgers, which is enjoyed."
+    "strength": 60
   },
   {
     "stance_1": "I enjoy making homemade hamburgers",
     "stance_2": "My friend showed me how to cook hamburgers",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Enjoyment of making hamburgers is directly inspired by a friend's demonstration."
+    "strength": 85
   },
   {
     "stance_1": "I think red meat causes weight gain",
     "stance_2": "I eat meat every three months",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Belief that red meat causes weight gain conflicts with the act of still consuming it, though infrequently."
+    "strength": 40
   }
 ]

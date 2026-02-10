@@ -4,119 +4,104 @@
     "stance_2": "I am environmentally conscious",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly links being environmentally conscious to awareness of the carbon cost of meat."
+    "strength": 90
   },
   {
     "stance_1": "I am aware of the carbon cost of meat",
     "stance_2": "I have reduced the amount of meat I eat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly states that awareness of the carbon cost of meat is a reason for reducing meat intake, especially beef."
+    "strength": 85
   },
   {
     "stance_1": "I am environmentally conscious",
     "stance_2": "I have reduced the amount of meat I eat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee states that environmental consciousness is one reason for reducing meat consumption."
+    "strength": 80
   },
   {
     "stance_1": "I enjoy and value eating meat",
     "stance_2": "I have reduced the amount of meat I eat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 45,
-    "justification": "Enjoying and valuing meat is in tension with reducing meat intake, though both coexist."
+    "strength": 45
   },
   {
     "stance_1": "I eat meat almost every day",
     "stance_2": "I have reduced the amount of meat I eat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "The interviewee eats meat almost daily but notes a reduction in quantity, indicating both stances coexist and the reduction modifies rather than eliminates the habit."
+    "strength": 40
   },
   {
     "stance_1": "I enjoy and value eating meat",
     "stance_2": "I am environmentally conscious",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Enjoyment of meat is in mild conflict with environmental consciousness, which motivates reduction."
+    "strength": 40
   },
   {
     "stance_1": "I enjoy and value eating meat",
     "stance_2": "I need a source of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "The interviewee explicitly cites both enjoyment and protein needs as reasons for eating meat."
+    "strength": 50
   },
   {
     "stance_1": "I like the flavor and texture of meat",
     "stance_2": "I enjoy and value eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee states that flavor and texture are the reasons they enjoy and value eating meat."
+    "strength": 95
   },
   {
     "stance_1": "I am not excited about vegetables",
     "stance_2": "I enjoy and value eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Lack of excitement about vegetables is explicitly described as pushing the interviewee toward eating meat."
+    "strength": 60
   },
   {
     "stance_1": "I am not excited about vegetables",
     "stance_2": "I eat meat almost every day",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Not being excited about vegetables supports frequent meat eating by default."
+    "strength": 30
   },
   {
     "stance_1": "I am not excited about vegetables",
     "stance_2": "I like the flavor and texture of meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Preference for meat's flavor and texture is reinforced by lack of enthusiasm for vegetables."
+    "strength": 30
   },
   {
     "stance_1": "I have reduced the amount of meat I eat",
     "stance_2": "My wife is environmentally conscious",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "The interviewee implies that both he and his wife reduce meat intake due to environmental reasons."
+    "strength": 25
   },
   {
     "stance_1": "I am environmentally conscious",
     "stance_2": "My wife is environmentally conscious",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly notes that both he and his wife are environmentally conscious and in alignment on meat choices."
+    "strength": 85
   },
   {
     "stance_1": "I am environmentally conscious",
     "stance_2": "My wife and I talk about environmental issues",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states that he and his wife frequently discuss environmental issues."
+    "strength": 80
   },
   {
     "stance_1": "My wife is environmentally conscious",
     "stance_2": "My wife and I talk about environmental issues",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly links his wife's environmental consciousness with their frequent discussions about environmental issues."
+    "strength": 85
   }
 ]

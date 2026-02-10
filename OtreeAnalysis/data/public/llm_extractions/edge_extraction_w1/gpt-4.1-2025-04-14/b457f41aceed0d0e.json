@@ -4,167 +4,146 @@
     "stance_2": "I avoid eating beef and pork",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "The interviewee mentions ethical concern for animals as part of their motivation, which supports avoiding certain meats like beef and pork."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I eat seafood and fish regularly",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "There is a mild conflict: while concerned about animal welfare, the interviewee still eats seafood and fish, suggesting a compromise or a lesser concern for these animals."
+    "strength": 25
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I eat chicken or turkey rarely",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Rare consumption of chicken or turkey aligns with the stated concern for animal welfare."
+    "strength": 30
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I want to get enough protein",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 45,
-    "justification": "The interviewee explicitly states that the need for protein is why they include fish and occasionally poultry, even though they have animal welfare concerns."
+    "strength": 45
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I am motivated by health reasons",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 20,
-    "justification": "Both health and animal welfare concerns motivate the interviewee's dietary choices, but health is prioritized; the connection is weak but present."
+    "strength": 20
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "I avoid eating beef and pork",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 55,
-    "justification": "Avoiding beef and pork is likely supported by environmental impact concerns, as these meats have high environmental costs, which the interviewee mentions."
+    "strength": 55
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "I eat seafood and fish regularly",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "There is some conflict, as seafood can have environmental impacts, but the interviewee eats it regularly despite environmental concerns."
+    "strength": 30
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "I eat chicken or turkey rarely",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Rarely eating poultry is likely supported by environmental concerns, though not strongly emphasized."
+    "strength": 25
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "I am motivated by health reasons",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 25,
-    "justification": "The interviewee describes both health and environmental motivations for their dietary choices; these are presented as co-existing."
+    "strength": 25
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "I want to get enough protein",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "The need for protein sometimes leads the interviewee to eat foods (like fish or poultry) that may have environmental impacts, creating a mild conflict."
+    "strength": 25
   },
   {
     "stance_1": "I am influenced by long-lived cultures with pescetarian diets",
     "stance_2": "I am motivated by health reasons",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee directly cites health reasons based on the longevity of cultures with pescetarian diets as their motivation."
+    "strength": 90
   },
   {
     "stance_1": "I am influenced by long-lived cultures with pescetarian diets",
     "stance_2": "I eat seafood and fish regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The dietary pattern of eating seafood and fish regularly is explicitly linked to being influenced by long-lived cultures."
+    "strength": 85
   },
   {
     "stance_1": "I am motivated by health reasons",
     "stance_2": "I avoid eating beef and pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The avoidance of beef and pork is explicitly stated to be for health reasons."
+    "strength": 80
   },
   {
     "stance_1": "I am motivated by health reasons",
     "stance_2": "I eat seafood and fish regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Eating seafood and fish regularly is explicitly motivated by health reasons."
+    "strength": 80
   },
   {
     "stance_1": "I am motivated by health reasons",
     "stance_2": "I eat chicken or turkey rarely",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Rare consumption of chicken and turkey is explicitly linked to health motivations."
+    "strength": 70
   },
   {
     "stance_1": "I am motivated by health reasons",
     "stance_2": "I want to get enough protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states that a desire for sufficient protein is a health motivation for occasionally eating certain meats."
+    "strength": 80
   },
   {
     "stance_1": "I avoid eating beef and pork",
     "stance_2": "I eat seafood and fish regularly",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 65,
-    "justification": "Avoiding beef and pork and eating seafood/fish regularly are both elements of a pescetarian diet, reflecting a coherent dietary pattern."
+    "strength": 65
   },
   {
     "stance_1": "I avoid eating beef and pork",
     "stance_2": "I eat chicken or turkey rarely",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Both behaviors reflect the interviewee's overall restrictive approach to meat, likely stemming from the same motivations."
+    "strength": 60
   },
   {
     "stance_1": "I avoid eating beef and pork",
     "stance_2": "I want to get enough protein",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Avoiding more protein-rich meats like beef and pork creates a challenge for the interviewee to get enough protein, as explicitly mentioned."
+    "strength": 40
   },
   {
     "stance_1": "I eat chicken or turkey rarely",
     "stance_2": "I want to get enough protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "Eating chicken or turkey rarely is a way to supplement protein intake when necessary, as explicitly stated."
+    "strength": 65
   },
   {
     "stance_1": "I eat seafood and fish regularly",
     "stance_2": "I want to get enough protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Regular consumption of seafood and fish is explicitly linked to the need to get enough protein."
+    "strength": 80
   }
 ]

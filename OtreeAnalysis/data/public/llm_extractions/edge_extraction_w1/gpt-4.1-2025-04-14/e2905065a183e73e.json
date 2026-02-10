@@ -4,199 +4,174 @@
     "stance_2": "I try to eat more sustainably",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee explicitly states that their motivation for eating more sustainably is concern about environmental impact."
+    "strength": 95
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "I avoid buying beef at the grocery store",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Avoiding beef purchases is explicitly linked to concern about the environmental impact of cows."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "I switch to non-meat alternatives if available",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Switching to non-meat alternatives is motivated by environmental concern."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "I cook mostly with chicken or meat substitutes at home",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Preference for chicken and meat substitutes at home is likely influenced by environmental concerns."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "I still eat meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Continuing to eat meat somewhat conflicts with environmental concerns, but the interviewee is making efforts to reduce impact."
+    "strength": 40
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "I buy chicken when on sale",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Buying chicken when on sale suggests price sometimes outweighs environmental concern, though chicken is less impactful than beef."
+    "strength": 30
   },
   {
     "stance_1": "I am concerned plant-based substitutes are highly processed",
     "stance_2": "I switch to non-meat alternatives if available",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "There is explicit concern that plant-based substitutes, while used, might be unhealthy due to processing."
+    "strength": 60
   },
   {
     "stance_1": "I avoid buying beef at the grocery store",
     "stance_2": "I order beef at restaurants",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee avoids beef at home but still orders it at restaurants, showing a direct conflict in behavior."
+    "strength": 85
   },
   {
     "stance_1": "I avoid buying beef at the grocery store",
     "stance_2": "I still eat meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Avoiding beef at home but still eating meat overall is a nuanced form of meat reduction, not full abstention."
+    "strength": 70
   },
   {
     "stance_1": "I avoid buying beef at the grocery store",
     "stance_2": "I try to eat more sustainably",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Avoiding beef is an explicitly mentioned sustainability effort."
+    "strength": 80
   },
   {
     "stance_1": "I cook mostly with chicken or meat substitutes at home",
     "stance_2": "I buy chicken when on sale",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly states that most home-cooked meals are chicken or substitutes, and they buy chicken when on sale."
+    "strength": 85
   },
   {
     "stance_1": "I cook mostly with chicken or meat substitutes at home",
     "stance_2": "Meatless substitutes are often indistinguishable from meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "The indistinguishability of meatless substitutes supports their use in home cooking."
+    "strength": 75
   },
   {
     "stance_1": "I cook mostly with chicken or meat substitutes at home",
     "stance_2": "Chicken meatless alternatives are not satisfactory",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The lack of satisfactory chicken alternatives leads to continued chicken consumption at home."
+    "strength": 70
   },
   {
     "stance_1": "I have no moral qualms about eating meat",
     "stance_2": "I try to eat more sustainably",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee is motivated by sustainability, not morality, but this supports their pragmatic approach to reducing meat."
+    "strength": 60
   },
   {
     "stance_1": "I have no moral qualms about eating meat",
     "stance_2": "I still eat meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Lack of moral objection directly supports continued meat consumption."
+    "strength": 85
   },
   {
     "stance_1": "I still eat meat",
     "stance_2": "I switch to non-meat alternatives if available",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Switching to non-meat alternatives when available conflicts with continuing to eat meat, as it represents a reduction effort."
+    "strength": 60
   },
   {
     "stance_1": "I still eat meat",
     "stance_2": "I try to eat more sustainably",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Continuing to eat meat somewhat undercuts the sustainability goal, but the interviewee balances between them."
+    "strength": 40
   },
   {
     "stance_1": "I switch to non-meat alternatives if available",
     "stance_2": "Meatless substitutes are often indistinguishable from meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Meatless substitutes being indistinguishable from meat supports switching to them."
+    "strength": 80
   },
   {
     "stance_1": "Chicken meatless alternatives are not satisfactory",
     "stance_2": "I buy chicken when on sale",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Dissatisfaction with chicken alternatives supports continued purchase of chicken."
+    "strength": 80
   },
   {
     "stance_1": "Chicken meatless alternatives are not satisfactory",
     "stance_2": "I cook mostly with chicken or meat substitutes at home",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The lack of good chicken alternatives limits the extent of meat substitute use at home."
+    "strength": 60
   },
   {
     "stance_1": "I switch to non-meat alternatives if available",
     "stance_2": "I try to eat more sustainably",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Switching to non-meat alternatives is explicitly described as part of trying to eat more sustainably."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned plant-based substitutes are highly processed",
     "stance_2": "I try to eat more sustainably",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Concern about processed foods could undermine the sustainability motivation if plant substitutes are favored for sustainability but doubted for health."
+    "strength": 40
   },
   {
     "stance_1": "I am concerned plant-based substitutes are highly processed",
     "stance_2": "I cook mostly with chicken or meat substitutes at home",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 45,
-    "justification": "Despite concern about processing, the interviewee still uses plant-based substitutes regularly, indicating some conflict."
+    "strength": 45
   },
   {
     "stance_1": "Social contacts have restrictive diets",
     "stance_2": "I cook mostly with chicken or meat substitutes at home",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Cooking with meat substitutes at home accommodates friends and family with restrictive diets."
+    "strength": 60
   },
   {
     "stance_1": "Some friends only eat ethically sourced meat",
     "stance_2": "Social contacts have restrictive diets",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Ethical sourcing is one form of dietary restriction among the interviewee's social contacts."
+    "strength": 70
   }
 ]

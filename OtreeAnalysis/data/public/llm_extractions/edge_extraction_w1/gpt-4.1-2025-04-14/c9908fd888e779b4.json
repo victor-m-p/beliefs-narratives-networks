@@ -4,79 +4,69 @@
     "stance_2": "I think plant proteins are less delicious",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Protein concern is implicitly reinforced by the belief that plant proteins are less delicious, making it harder to rely on plant sources."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about not getting enough protein",
     "stance_2": "Social contacts are concerned about health",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Both the interviewee and their social contacts have health-related concerns linked to diet, supporting each other."
+    "strength": 50
   },
   {
     "stance_1": "I am concerned about the carbon footprint of red meat",
     "stance_2": "I seldom eat red meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 65,
-    "justification": "Concern about carbon footprint of red meat supports the behavior of seldom eating red meat."
+    "strength": 65
   },
   {
     "stance_1": "I am concerned about the carbon footprint of red meat",
     "stance_2": "Social contacts are concerned about the environment",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 45,
-    "justification": "The interviewee and social contacts share environmental concerns, which reinforce each other."
+    "strength": 45
   },
   {
     "stance_1": "I crave meat",
     "stance_2": "I eat meat with half of my meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Craving meat directly supports the behavior of eating meat with half of meals."
+    "strength": 70
   },
   {
     "stance_1": "I crave meat",
     "stance_2": "I seldom eat red meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Craving meat could conflict with seldom eating red meat, depending on which types of meat are most craved."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat with half of my meals",
     "stance_2": "I seldom eat red meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Eating meat frequently but seldom eating red meat suggests reliance on other meats, indicating a conflict between frequency and type."
+    "strength": 60
   },
   {
     "stance_1": "I think plant proteins are less delicious",
     "stance_2": "Social contacts are concerned about not getting enough protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Taste concerns about plant proteins support doubts about getting enough protein from non-meat sources."
+    "strength": 50
   },
   {
     "stance_1": "Meat price influences my choices",
     "stance_2": "I eat meat with half of my meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Meat price is explicitly mentioned as a factor influencing how often meat is eaten."
+    "strength": 40
   },
   {
     "stance_1": "Social contacts are concerned about health",
     "stance_2": "Social contacts are concerned about the environment",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Interviewee explicitly states that both environment and health are primary motivators for social contacts reducing meat."
+    "strength": 80
   }
 ]

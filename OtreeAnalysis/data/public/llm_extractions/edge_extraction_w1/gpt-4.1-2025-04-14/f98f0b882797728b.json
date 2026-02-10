@@ -4,71 +4,62 @@
     "stance_2": "I eat more fish and chicken",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The choice to eat more fish and chicken is explicitly tied to the avoidance of red meat for health reasons."
+    "strength": 90
   },
   {
     "stance_1": "I avoid red meat",
     "stance_2": "I want to control cholesterol",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "Explicitly stated that avoiding red meat is motivated by the desire to control cholesterol."
+    "strength": 95
   },
   {
     "stance_1": "I eat more fish and chicken",
     "stance_2": "I want to control cholesterol",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Eating more fish and chicken is explicitly tied to controlling cholesterol as a health strategy."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat daily",
     "stance_2": "I only eat common meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee states eating meat daily and specifies that this always involves common meats, showing a direct relationship."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat daily",
     "stance_2": "My family shares similar meat-eating habits",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee explicitly says their family shares similar values and routines regarding meat-eating, supporting daily meat consumption."
+    "strength": 70
   },
   {
     "stance_1": "I only eat common meat",
     "stance_2": "My family shares similar meat-eating habits",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "It is explicitly stated that the family only eats common meat and shares this habit."
+    "strength": 95
   },
   {
     "stance_1": "I only eat common meat",
     "stance_2": "Meat affordability influences my choices",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "The interviewee states that affordability influences which common meats they choose, indicating a supportive relationship, though not extremely strong."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat daily",
     "stance_2": "Meat affordability influences my choices",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "Affordability impacts the frequency and type of meat eaten, supporting but not strictly determining daily consumption."
+    "strength": 30
   },
   {
     "stance_1": "Meat affordability influences my choices",
     "stance_2": "My family shares similar meat-eating habits",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The family's shared habits are influenced by affordability as a decision lever, an implicit connection."
+    "strength": 30
   }
 ]

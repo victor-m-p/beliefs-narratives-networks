@@ -4,95 +4,83 @@
     "stance_2": "I try to eat leaner meats like chicken",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The concern about health risks from fatty or red meat directly motivates eating leaner meats like chicken."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned about health risks from fatty or red meat",
     "stance_2": "I want to eat healthier meats",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The desire to eat healthier meats is explicitly supported by concern about health risks from fatty or red meat."
+    "strength": 85
   },
   {
     "stance_1": "I am concerned about health risks from fatty or red meat",
     "stance_2": "I want to get energy and protein from meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Seeking energy and protein from meat is compatible with avoiding unhealthy meats; both relate to health outcomes."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat at least once a day",
     "stance_2": "I sometimes avoid eating meat for lunch or dinner",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Eating meat at least once a day conflicts with sometimes avoiding meat for meals."
+    "strength": 75
   },
   {
     "stance_1": "I feel bad for animals killed for meat",
     "stance_2": "I sometimes avoid eating meat for lunch or dinner",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Feeling bad for animals is explicitly stated as a motivation for sometimes avoiding meat."
+    "strength": 90
   },
   {
     "stance_1": "I feel bad for animals killed for meat",
     "stance_2": "Thinking about animals makes me want to eat less meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "Feeling bad for animals directly leads to wanting to eat less meat when thinking about them."
+    "strength": 95
   },
   {
     "stance_1": "I sometimes avoid eating meat for lunch or dinner",
     "stance_2": "Thinking about animals makes me want to eat less meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The desire to eat less meat due to thinking about animals is explicitly linked to sometimes avoiding meat."
+    "strength": 90
   },
   {
     "stance_1": "I try to eat leaner meats like chicken",
     "stance_2": "I want to eat healthier meats",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "Trying to eat leaner meats is explicitly an expression of wanting to eat healthier meats."
+    "strength": 95
   },
   {
     "stance_1": "I try to eat leaner meats like chicken",
     "stance_2": "I want to get energy and protein from meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Eating leaner meats is motivated by the desire to get energy and protein from meat."
+    "strength": 80
   },
   {
     "stance_1": "I want to eat healthier meats",
     "stance_2": "I want to get energy and protein from meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The choice of healthier meats is explicitly tied to the desire for energy and protein."
+    "strength": 80
   },
   {
     "stance_1": "I sometimes avoid eating meat for lunch or dinner",
     "stance_2": "The price of meat affects my consumption",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "While not directly stated, sometimes avoiding meat may be supported by the impact of price on consumption."
+    "strength": 30
   },
   {
     "stance_1": "I eat meat at least once a day",
     "stance_2": "The price of meat affects my consumption",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Eating meat daily is in tension with price being a limiting factor for consumption."
+    "strength": 25
   }
 ]

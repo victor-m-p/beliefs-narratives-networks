@@ -4,151 +4,132 @@
     "stance_2": "I want enough protein in my diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly says that not eating meat makes them feel unhealthy, which is directly linked to not getting enough protein."
+    "strength": 80
   },
   {
     "stance_1": "I don't feel healthy on a meatless diet",
     "stance_2": "I want to eat enough calories",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee links feeling unhealthy on a meatless diet with not getting enough calories, which led them to resume eating meat."
+    "strength": 70
   },
   {
     "stance_1": "I don't like eating animals",
     "stance_2": "I eat meat with some meals",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly states a dislike for eating animals but nevertheless eats meat, indicating a conflict."
+    "strength": 85
   },
   {
     "stance_1": "I don't like eating animals",
     "stance_2": "I don't feel healthy on a meatless diet",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee struggles because not liking to eat animals conflicts with feeling unhealthy on a meatless diet."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat with some meals",
     "stance_2": "I want enough protein in my diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee started eating meat again mainly to meet their protein needs."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat with some meals",
     "stance_2": "I want to eat enough calories",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Eating meat is described as a way to ensure adequate calorie intake."
+    "strength": 80
   },
   {
     "stance_1": "I live with my boyfriend",
     "stance_2": "I eat meat with some meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Living with her boyfriend, who enjoys meat, leads the interviewee to cook and eat more meat."
+    "strength": 80
   },
   {
     "stance_1": "I live with my boyfriend",
     "stance_2": "My boyfriend enjoys eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee directly links her boyfriend's enjoyment of meat to their household's meat consumption."
+    "strength": 95
   },
   {
     "stance_1": "I live with my boyfriend",
     "stance_2": "My boyfriend wants to hit his protein goal",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Her boyfriend's need for protein influences the household's eating patterns."
+    "strength": 80
   },
   {
     "stance_1": "I used to be a vegetarian",
     "stance_2": "I don't feel healthy on a meatless diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee was a vegetarian but stopped because she felt unhealthy on a meatless diet."
+    "strength": 85
   },
   {
     "stance_1": "I used to be a vegetarian",
     "stance_2": "I want enough protein in my diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee gave up vegetarianism to increase her protein intake."
+    "strength": 80
   },
   {
     "stance_1": "I used to be a vegetarian",
     "stance_2": "I want to eat enough calories",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "She also reported not getting enough calories as a vegetarian, leading to her dietary change."
+    "strength": 75
   },
   {
     "stance_1": "I want enough protein in my diet",
     "stance_2": "I want to eat enough calories",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The decision to resume eating meat was motivated by both protein and calorie needs, which are closely linked in her reasoning."
+    "strength": 60
   },
   {
     "stance_1": "My whole family eats meat",
     "stance_2": "I eat meat with some meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Family eating habits supported her return to eating meat."
+    "strength": 80
   },
   {
     "stance_1": "My whole family eats meat",
     "stance_2": "I used to be a vegetarian",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee found being vegetarian difficult because her family ate meat, which contributed to stopping vegetarianism."
+    "strength": 85
   },
   {
     "stance_1": "My whole family eats meat",
     "stance_2": "I don't feel healthy on a meatless diet",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Family eating patterns likely contributed to her perception of healthiness on a meatless diet."
+    "strength": 30
   },
   {
     "stance_1": "My boyfriend enjoys eating meat",
     "stance_2": "I eat meat with some meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee directly connects her boyfriend's preferences to her own meat consumption."
+    "strength": 80
   },
   {
     "stance_1": "My boyfriend wants to hit his protein goal",
     "stance_2": "My boyfriend enjoys eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Her boyfriend eats meat for both enjoyment and protein goals."
+    "strength": 90
   },
   {
     "stance_1": "I wish for enjoyable protein options besides meat",
     "stance_2": "I eat meat with some meals",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee expresses a desire for non-meat protein options, implying that current meat consumption is not fully satisfactory."
+    "strength": 60
   }
 ]

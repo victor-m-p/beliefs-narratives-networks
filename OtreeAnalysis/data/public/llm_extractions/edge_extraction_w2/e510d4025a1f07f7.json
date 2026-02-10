@@ -4,95 +4,83 @@
     "stance_2": "I add small amounts of chicken to meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Adding small amounts of chicken to meals is the specific method the interviewee is using to reintroduce meat, directly supporting the effort."
+    "strength": 90
   },
   {
     "stance_1": "I am trying to reintroduce meat",
     "stance_2": "I do not like meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Trying to reintroduce meat conflicts with explicitly not liking meat."
+    "strength": 80
   },
   {
     "stance_1": "I am trying to reintroduce meat",
     "stance_2": "I have been vegetarian for 13 years",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Reintroducing meat directly contrasts with having adhered to vegetarianism for 13 years."
+    "strength": 80
   },
   {
     "stance_1": "I am trying to reintroduce meat",
     "stance_2": "I want healthy hair",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states that wanting healthy hair is a motivation for reintroducing meat."
+    "strength": 80
   },
   {
     "stance_1": "I am trying to reintroduce meat",
     "stance_2": "I want more protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states that wanting more protein is a motivation for reintroducing meat."
+    "strength": 80
   },
   {
     "stance_1": "I am unsure about my digestion with meat",
     "stance_2": "I add small amounts of chicken to meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Adding small amounts of chicken is a cautious behavior taken due to uncertainty about digestion."
+    "strength": 70
   },
   {
     "stance_1": "I do not like meat",
     "stance_2": "I want healthy hair",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Wanting healthy hair motivates eating meat, but not liking meat undermines this motivation."
+    "strength": 40
   },
   {
     "stance_1": "I do not like meat",
     "stance_2": "I want more protein",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The desire for more protein motivates eating meat, but not liking meat creates an internal conflict."
+    "strength": 40
   },
   {
     "stance_1": "I have been vegetarian for 13 years",
     "stance_2": "I do not like meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Having been vegetarian for 13 years is likely related to not liking meat."
+    "strength": 60
   },
   {
     "stance_1": "My family is supportive of eating meat",
     "stance_2": "I am trying to reintroduce meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee explicitly states that family is supportive of her reintroducing meat."
+    "strength": 70
   },
   {
     "stance_1": "My family is supportive of eating meat",
     "stance_2": "I add small amounts of chicken to meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The family encourages starting small, supporting the approach of adding small amounts of chicken to meals."
+    "strength": 60
   },
   {
     "stance_1": "My family is supportive of eating meat",
     "stance_2": "I am unsure about my digestion with meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The family encourages starting small due to the interviewee's uncertainty about digestion."
+    "strength": 60
   }
 ]

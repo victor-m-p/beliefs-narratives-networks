@@ -4,63 +4,55 @@
     "stance_2": "I avoid meats that do not digest well",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly avoids both deli meats and meats that do not digest well for health reasons, showing a strong, direct supportive connection."
+    "strength": 90
   },
   {
     "stance_1": "I avoid deli meats for health reasons",
     "stance_2": "I have been a meat eater all my life",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Being a lifelong meat eater is somewhat in tension with avoiding certain types of meat, like deli meats, for health reasons."
+    "strength": 30
   },
   {
     "stance_1": "I avoid meats that do not digest well",
     "stance_2": "I have been a meat eater all my life",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The need to avoid some meats for digestion reasons conflicts with the general stance of being a lifelong meat eater."
+    "strength": 30
   },
   {
     "stance_1": "I make sure meat is fully cooked",
     "stance_2": "I want to get proper nutrition from meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The desire for proper nutrition is explicitly linked to making sure meat is fully cooked, which prevents illness and preserves nutritional value."
+    "strength": 60
   },
   {
     "stance_1": "I believe meat provides essential vitamins",
     "stance_2": "I want to get proper nutrition from meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The belief that meat provides essential vitamins directly supports the motivation to get proper nutrition from meat."
+    "strength": 85
   },
   {
     "stance_1": "I believe meat provides essential vitamins",
     "stance_2": "I have been a meat eater all my life",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Being a lifelong meat eater could be supported by the belief that meat provides essential vitamins, though this is only implicitly indicated."
+    "strength": 30
   },
   {
     "stance_1": "I want to get proper nutrition from meat",
     "stance_2": "I have been a meat eater all my life",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The explicit motivation for eating meat is to get proper nutrition, supporting the lifelong habit."
+    "strength": 60
   },
   {
     "stance_1": "I make sure meat is fully cooked",
     "stance_2": "I have been a meat eater all my life",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Lifelong meat-eating is implicitly supported by careful cooking practices to avoid illness."
+    "strength": 25
   }
 ]

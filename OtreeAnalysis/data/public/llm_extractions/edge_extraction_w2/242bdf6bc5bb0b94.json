@@ -4,183 +4,160 @@
     "stance_2": "I am chronically anemic",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "It is directly stated that doctors recommend lean beef because of chronic anemia."
+    "strength": 95
   },
   {
     "stance_1": "Doctors recommend I eat lean beef",
     "stance_2": "I try to eat leaner cuts of beef",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Eating leaner beef is explicitly done in response to doctor's recommendation."
+    "strength": 90
   },
   {
     "stance_1": "Doctors recommend I eat lean beef",
     "stance_2": "I eat meat regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Doctor's recommendation supports regular meat consumption to address anemia."
+    "strength": 75
   },
   {
     "stance_1": "Doctors recommend I eat lean beef",
     "stance_2": "I eat meat primarily at dinner",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 35,
-    "justification": "Eating meat at dinner could be influenced by doctor's recommendation, though not directly stated."
+    "strength": 35
   },
   {
     "stance_1": "I am conscientious about my weight",
     "stance_2": "I try to eat leaner cuts of beef",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Interviewee explicitly links leaner beef choice to weight consciousness."
+    "strength": 80
   },
   {
     "stance_1": "I am conscientious about my weight",
     "stance_2": "I avoid processed meats",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "Avoiding processed meats is linked to health/weight concerns."
+    "strength": 65
   },
   {
     "stance_1": "I am conscientious about my weight",
     "stance_2": "I eat a lot of vegetables, fruits, and whole wheat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Healthy eating habits are explicitly linked to weight consciousness."
+    "strength": 85
   },
   {
     "stance_1": "I am conscientious about my weight",
     "stance_2": "I eat meat regularly",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Weight consciousness can conflict with regular meat-eating, but the interviewee resolves this by choosing leaner cuts."
+    "strength": 25
   },
   {
     "stance_1": "I am chronically anemic",
     "stance_2": "I eat meat regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Chronic anemia is a key motivation for regular meat consumption."
+    "strength": 90
   },
   {
     "stance_1": "I eat a lot of vegetables, fruits, and whole wheat",
     "stance_2": "I try to eat leaner cuts of beef",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 35,
-    "justification": "Both habits are part of a health-conscious diet, as described."
+    "strength": 35
   },
   {
     "stance_1": "I eat meat primarily at dinner",
     "stance_2": "I eat meat regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Eating meat at dinner supports regular meat consumption."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "I like the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Liking the taste of meat is directly cited as a reason for regular consumption."
+    "strength": 85
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "I think eating meat supports local farmers",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Interviewee mentions economic benefits as a supporting reason for meat-eating."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "Most people I know eat as much or more meat as me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Regular meat-eating is reinforced by social environment."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "Some social contacts avoid meat for animal welfare",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "Some social contacts avoid meat for animal welfare, contrasting with the interviewee's regular consumption."
+    "strength": 30
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "Some social contacts avoid meat for climate reasons",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "Interviewee regularly eats meat while some acquaintances avoid for climate reasons."
+    "strength": 30
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "Some social contacts avoid meat for health reasons",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "Some acquaintances avoid meat for health, while interviewee eats it for health (anemia)\u2014a point of value conflict."
+    "strength": 30
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "I fear government control more than climate change",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Interviewee dismisses climate arguments for reducing meat; fear of government control supports continuing meat consumption."
+    "strength": 60
   },
   {
     "stance_1": "I like the taste of meat",
     "stance_2": "I try to eat leaner cuts of beef",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Enjoying meat supports making choices about which types of meat to eat."
+    "strength": 30
   },
   {
     "stance_1": "I like the taste of meat",
     "stance_2": "I avoid processed meats",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Enjoyment of meat could conflict with avoiding certain types (processed), but interviewee balances taste with health."
+    "strength": 25
   },
   {
     "stance_1": "I try to eat leaner cuts of beef",
     "stance_2": "I avoid processed meats",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 45,
-    "justification": "Both are described as elements of a health-conscious approach to eating meat."
+    "strength": 45
   },
   {
     "stance_1": "I eat a lot of vegetables, fruits, and whole wheat",
     "stance_2": "I avoid processed meats",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Both are cited as healthy eating choices."
+    "strength": 40
   },
   {
     "stance_1": "I eat a lot of vegetables, fruits, and whole wheat",
     "stance_2": "I eat meat regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 55,
-    "justification": "Interviewee integrates both into a balanced, healthy diet."
+    "strength": 55
   }
 ]

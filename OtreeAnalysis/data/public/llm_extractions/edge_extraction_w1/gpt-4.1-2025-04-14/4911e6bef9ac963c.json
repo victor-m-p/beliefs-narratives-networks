@@ -4,55 +4,48 @@
     "stance_2": "I have tried cutting back on meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explains that health concerns (e.g., high blood pressure, clogged arteries) are a reason discussed for cutting back on meat, supporting the behavior."
+    "strength": 85
   },
   {
     "stance_1": "I have tried cutting back on meat",
     "stance_2": "I want to lose weight",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee explicitly states that the motivation for cutting back on meat is to lose weight."
+    "strength": 95
   },
   {
     "stance_1": "I am concerned about health effects of eating meat",
     "stance_2": "I want to lose weight",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Both health concerns and weight loss are cited as reasons for changing meat consumption; concern for health plausibly supports desire to lose weight."
+    "strength": 50
   },
   {
     "stance_1": "I have tried cutting back on meat",
     "stance_2": "Most people I know eat meat daily",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Cutting back on meat is in contrast to the norm among most people the interviewee knows, who eat meat daily."
+    "strength": 40
   },
   {
     "stance_1": "I have tried cutting back on meat",
     "stance_2": "My children eat meat every day",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The interviewee's reduction in meat intake contrasts with their children's daily meat eating."
+    "strength": 40
   },
   {
     "stance_1": "Most people I know eat meat daily",
     "stance_2": "Some social contacts agree about limiting meat intake",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Although most people eat meat daily, some have agreed to limit intake, indicating a divergence from the norm."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about health effects of eating meat",
     "stance_2": "Some social contacts agree about limiting meat intake",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee's discussion of health effects convinced some contacts to agree with limiting meat, indicating support."
+    "strength": 85
   }
 ]

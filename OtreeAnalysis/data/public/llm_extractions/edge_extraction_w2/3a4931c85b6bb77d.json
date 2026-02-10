@@ -4,103 +4,90 @@
     "stance_2": "I am trying to cut back on meat consumption",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee states that the doctor's advice is the direct reason for trying to cut back on meat consumption."
+    "strength": 90
   },
   {
     "stance_1": "Doctor advised me to eat less red meat",
     "stance_2": "I want to lower my cholesterol",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The doctor's advice to eat less red meat was explicitly linked to helping lower cholesterol."
+    "strength": 90
   },
   {
     "stance_1": "I am trying to cut back on meat consumption",
     "stance_2": "I had meat cravings when cutting back",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee experienced cravings when trying to cut back, indicating a conflict between intention and desire."
+    "strength": 70
   },
   {
     "stance_1": "I am trying to cut back on meat consumption",
     "stance_2": "I lost weight after reducing meat intake",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee notes a positive outcome (weight loss) from cutting back on meat, which supports their intention."
+    "strength": 60
   },
   {
     "stance_1": "I am trying to cut back on meat consumption",
     "stance_2": "My parents are supportive of me cutting back on meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states their parents are supportive of their effort to cut back."
+    "strength": 80
   },
   {
     "stance_1": "I am trying to cut back on meat consumption",
     "stance_2": "My friends are supportive of eating less meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee says their friends are supportive of them eating less meat."
+    "strength": 60
   },
   {
     "stance_1": "I usually eat meat with every meal",
     "stance_2": "I am trying to cut back on meat consumption",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The habit of eating meat at every meal conflicts with the new effort to cut back."
+    "strength": 80
   },
   {
     "stance_1": "I want to lower my cholesterol",
     "stance_2": "I am trying to cut back on meat consumption",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The desire to lower cholesterol is a major motivation for cutting back on meat."
+    "strength": 90
   },
   {
     "stance_1": "I usually eat meat with every meal",
     "stance_2": "Meat is a big part of my family traditions",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Eating meat with every meal is supported by family traditions that emphasize meat."
+    "strength": 80
   },
   {
     "stance_1": "I usually eat meat with every meal",
     "stance_2": "My favorite dishes are meat based",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The preference for meat-based dishes supports the habit of eating meat with every meal."
+    "strength": 70
   },
   {
     "stance_1": "Meat is a big part of my family traditions",
     "stance_2": "My favorite dishes are meat based",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Family traditions and favorite dishes both center around meat, mutually reinforcing each other."
+    "strength": 80
   },
   {
     "stance_1": "Meat is a big part of my family traditions",
     "stance_2": "My parents are supportive of me cutting back on meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "While parents are supportive, this support is somewhat in tension with family traditions centered on meat, though the tension is not severe."
+    "strength": 40
   },
   {
     "stance_1": "My favorite dishes are meat based",
     "stance_2": "I had meat cravings when cutting back",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 70,
-    "justification": "Having favorite dishes that are meat-based likely increases cravings when reducing meat."
+    "strength": 70
   }
 ]

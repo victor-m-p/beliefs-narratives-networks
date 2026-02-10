@@ -4,31 +4,27 @@
     "stance_2": "I prepare meat for my family most nights",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that the main reason they prepare meat most nights is because it fills the family up faster."
+    "strength": 90
   },
   {
     "stance_1": "I have meat-free nights to save money",
     "stance_2": "Meat is expensive",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee explicitly states that they started having meat-free nights because meat is expensive."
+    "strength": 95
   },
   {
     "stance_1": "I have meat-free nights to save money",
     "stance_2": "I prepare meat for my family most nights",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Having meat-free nights to save money reduces the frequency of preparing meat for the family, indicating a partial conflict."
+    "strength": 60
   },
   {
     "stance_1": "I prepare meat for my family most nights",
     "stance_2": "I think we are meant to eat meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The belief that 'we are meant to eat meat' provides an implicit motivational support for preparing meat most nights, though this connection is not directly stated."
+    "strength": 40
   }
 ]

@@ -4,183 +4,160 @@
     "stance_2": "I consider animal intelligence",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee states that considering animal intelligence leads to concern for animal welfare, especially for smarter animals like cows and pigs."
+    "strength": 85
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I am unwilling to butcher cows or pigs",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Unwillingness to butcher cows or pigs is explicitly connected to animal welfare concerns and feelings about animal intelligence."
+    "strength": 75
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I avoid beef and pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Avoiding beef and pork is supported by explicit animal welfare concerns, especially due to animal intelligence and ethical considerations."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "I avoid beef and pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee mentions environmental impact as a reason for avoiding beef and pork."
+    "strength": 70
   },
   {
     "stance_1": "I am concerned about health",
     "stance_2": "I avoid beef and pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "Avoiding beef and pork is strongly justified by health concerns, which the interviewee repeats."
+    "strength": 95
   },
   {
     "stance_1": "I am concerned about price of meat",
     "stance_2": "I avoid beef and pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee mentions that beef and pork are expensive, supporting avoidance."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about health",
     "stance_2": "I avoid seafood",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly stopped eating seafood due to health concerns (mercury, radiation)."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about health",
     "stance_2": "I primarily eat chicken",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Health is a primary motivator for choosing chicken over other meats."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I primarily eat chicken",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Chicken is chosen as the most ethical option, which aligns with animal welfare concerns."
+    "strength": 50
   },
   {
     "stance_1": "I am concerned about price of meat",
     "stance_2": "I primarily eat chicken",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Chicken is chosen partly because it is less expensive than beef or pork."
+    "strength": 60
   },
   {
     "stance_1": "I am willing to butcher chicken or fish",
     "stance_2": "I primarily eat chicken",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "The interviewee states they are willing to butcher chicken and therefore comfortable eating it."
+    "strength": 75
   },
   {
     "stance_1": "I am unwilling to butcher cows or pigs",
     "stance_2": "I avoid beef and pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Unwillingness to butcher cows or pigs is given as a reason for avoiding beef and pork."
+    "strength": 80
   },
   {
     "stance_1": "I am willing to butcher chicken or fish",
     "stance_2": "I avoid seafood",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "Though willing to butcher fish, the interviewee avoids seafood, showing a conflict, but health concerns override willingness."
+    "strength": 30
   },
   {
     "stance_1": "I am willing to butcher chicken or fish",
     "stance_2": "I avoid beef and pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The willingness to butcher some animals but not others is used as a justification for avoiding beef and pork."
+    "strength": 70
   },
   {
     "stance_1": "I am unwilling to butcher cows or pigs",
     "stance_2": "I am willing to butcher chicken or fish",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Explicitly contrasted willingness to butcher chicken/fish with unwillingness for cows/pigs."
+    "strength": 85
   },
   {
     "stance_1": "I consider animal intelligence",
     "stance_2": "I am unwilling to butcher cows or pigs",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "The intelligence of cows and pigs is given as a reason for unwillingness to butcher them."
+    "strength": 75
   },
   {
     "stance_1": "I consider animal intelligence",
     "stance_2": "I avoid beef and pork",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Animal intelligence is tied to the avoidance of beef and pork, though not directly stated as the only reason."
+    "strength": 60
   },
   {
     "stance_1": "I consider animal intelligence",
     "stance_2": "I am concerned about animal welfare",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Animal intelligence is linked to greater concern for animal welfare in the interview."
+    "strength": 85
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "I primarily eat chicken",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Chicken is implied to have a lower environmental impact than other meats, though this is less directly stated."
+    "strength": 40
   },
   {
     "stance_1": "I avoid beef and pork",
     "stance_2": "My partner avoids pork and beef for health reasons",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee and their partner both avoid beef and pork for health reasons."
+    "strength": 80
   },
   {
     "stance_1": "I primarily eat chicken",
     "stance_2": "My household primarily eats chicken",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee states that their household follows their own practice of primarily eating chicken."
+    "strength": 90
   },
   {
     "stance_1": "I avoid beef and pork",
     "stance_2": "I support my child's preference to avoid beef and pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Supporting the child's preference is aligned with the interviewee's own avoidance of beef and pork."
+    "strength": 70
   },
   {
     "stance_1": "My household primarily eats chicken",
     "stance_2": "I support my child's preference to avoid beef and pork",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Supporting the child's preference and the household's diet are mutually reinforcing."
+    "strength": 60
   }
 ]

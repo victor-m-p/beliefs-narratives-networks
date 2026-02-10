@@ -4,119 +4,104 @@
     "stance_2": "I enjoy the flavor and texture of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The enjoyment of meat's flavor and texture directly supports eating meat regularly."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat about once a day",
     "stance_2": "I eat meat for protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Eating meat for protein is a stated motivation for the frequency of meat consumption."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat about once a day",
     "stance_2": "I grew up eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "A habit of eating meat developed from growing up eating meat supports current frequency."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat about once a day",
     "stance_2": "I occasionally eat cheese or soup instead of meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Occasionally substituting cheese or soup for meat conflicts with eating meat daily."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat for protein",
     "stance_2": "I want to make protein 50% of my diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Eating meat for protein directly supports the goal of making protein a larger part of the diet."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat for protein",
     "stance_2": "I want to avoid sarcopenia",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The motivation to eat meat for protein supports the goal of avoiding sarcopenia, which is related to muscle preservation."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat for protein",
     "stance_2": "I want to reduce starch intake",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Increasing protein intake by eating meat implicitly supports reducing starch intake as part of dietary adjustment."
+    "strength": 40
   },
   {
     "stance_1": "I enjoy the flavor and texture of meat",
     "stance_2": "I grew up eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Growing up eating meat likely contributed to the development of enjoyment for its flavor and texture."
+    "strength": 50
   },
   {
     "stance_1": "I grew up eating meat",
     "stance_2": "My family grew up eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee's and family's shared upbringing supports similar attitudes and habits toward meat."
+    "strength": 90
   },
   {
     "stance_1": "I grew up eating meat",
     "stance_2": "My family eats meat regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Growing up in a meat-eating family supports both the interviewee's and their family's current regular meat consumption."
+    "strength": 90
   },
   {
     "stance_1": "My family eats meat regularly",
     "stance_2": "My family grew up eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The family\u2019s habit of regular meat eating is supported by their shared upbringing."
+    "strength": 90
   },
   {
     "stance_1": "My family eats meat regularly",
     "stance_2": "My son eats meat to gain muscle",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The family's regular meat consumption supports the son's behavior of eating meat for muscle gain."
+    "strength": 70
   },
   {
     "stance_1": "I want to make protein 50% of my diet",
     "stance_2": "I want to reduce starch intake",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The goal to increase protein intake is explicitly tied to the intention to reduce starch intake."
+    "strength": 70
   },
   {
     "stance_1": "I want to make protein 50% of my diet",
     "stance_2": "I want to avoid sarcopenia",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Increasing protein intake is explicitly linked to avoiding sarcopenia."
+    "strength": 80
   },
   {
     "stance_1": "My son eats meat to gain muscle",
     "stance_2": "I want to avoid sarcopenia",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Both stances are related to using meat/protein for muscle health, supporting each other through a shared health motivation."
+    "strength": 40
   }
 ]

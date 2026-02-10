@@ -4,79 +4,69 @@
     "stance_2": "Meat is expensive",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that being on a fixed income makes the cost of meat an important factor."
+    "strength": 90
   },
   {
     "stance_1": "I am on a fixed income",
     "stance_2": "I rarely cook meat at home",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Being on a fixed income may implicitly support rarely cooking meat at home due to cost considerations, though this is not directly stated."
+    "strength": 25
   },
   {
     "stance_1": "I am on a fixed income",
     "stance_2": "I eat meat occasionally",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The interviewee mentions affordability as a constraint, which may support only eating meat occasionally."
+    "strength": 30
   },
   {
     "stance_1": "I eat meat occasionally",
     "stance_2": "I rarely cook meat at home",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee states they rarely cook meat at home and eat meat occasionally, suggesting a supportive connection between the two."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat occasionally",
     "stance_2": "I eat meat when socializing with friends",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly states they eat meat occasionally and often when with friends."
+    "strength": 85
   },
   {
     "stance_1": "I eat meat occasionally",
     "stance_2": "My friends eat similar amounts of meat as me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee reports that their friends' habits are similar, supporting their own occasional meat consumption."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat when socializing with friends",
     "stance_2": "My friends eat similar amounts of meat as me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly connects social eating with friends to similar meat-eating habits."
+    "strength": 80
   },
   {
     "stance_1": "I enjoy eating chicken",
     "stance_2": "I eat meat occasionally",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee explicitly states that chicken is their favorite, and that they eat meat occasionally."
+    "strength": 60
   },
   {
     "stance_1": "I rarely cook meat at home",
     "stance_2": "Meat is expensive",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "High cost of meat may implicitly support rarely cooking meat at home."
+    "strength": 40
   },
   {
     "stance_1": "I am uncomfortable when others eat large amounts of meat",
     "stance_2": "My friends eat similar amounts of meat as me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 55,
-    "justification": "The interviewee feels uncomfortable when someone eats much more meat, supporting alignment with friends who eat similar amounts."
+    "strength": 55
   }
 ]

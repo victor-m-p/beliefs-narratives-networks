@@ -4,79 +4,69 @@
     "stance_2": "I enjoy eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The enjoyment of eating meat directly supports the behavior of eating meat frequently."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat five days a week",
     "stance_2": "I need high levels of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee states that needing high levels of protein is a reason for eating meat frequently."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat five days a week",
     "stance_2": "I feel sluggish without meat protein",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Feeling sluggish without protein is an implicit motivation for regular meat consumption."
+    "strength": 60
   },
   {
     "stance_1": "I enjoy eating meat",
     "stance_2": "I need high levels of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee enjoys eating meat in part because it provides the protein they need."
+    "strength": 70
   },
   {
     "stance_1": "I enjoy eating meat",
     "stance_2": "I feel sluggish without meat protein",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Enjoyment of meat is supported by the positive physical effects of consuming meat protein."
+    "strength": 50
   },
   {
     "stance_1": "I feel sluggish without meat protein",
     "stance_2": "I need high levels of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The need for high levels of protein is explicitly linked with feeling sluggish when not consuming enough protein."
+    "strength": 90
   },
   {
     "stance_1": "I believe the spirit leaves the body after death",
     "stance_2": "I eat meat five days a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The belief that the spirit leaves the body supports the acceptability of using animal bodies for food, reinforcing regular meat consumption."
+    "strength": 60
   },
   {
     "stance_1": "I believe the spirit leaves the body after death",
     "stance_2": "I enjoy eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The belief justifies the moral acceptability of enjoying meat, though less directly than frequency of consumption."
+    "strength": 40
   },
   {
     "stance_1": "I believe the spirit leaves the body after death",
     "stance_2": "I need high levels of protein",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The belief allows for justifying the necessity of eating meat for protein, but the link is more moral than practical."
+    "strength": 30
   },
   {
     "stance_1": "I do not eat fish",
     "stance_2": "I eat meat five days a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 25,
-    "justification": "The interviewee explicitly excludes fish from their meat consumption; this supports that other meats are eaten regularly."
+    "strength": 25
   }
 ]

@@ -4,303 +4,265 @@
     "stance_2": "I choose ultra lean chicken or pork",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Choosing specific types of meat (ultra lean chicken or pork) supports concern for animal welfare, as the interviewee mentions seeking humane and antibiotic-free options."
+    "strength": 40
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I eat meat two or three days a week",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "The desire to reduce harm to animals supports the decision to limit meat consumption to two or three days a week."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I have chronic conditions triggered by red meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Both concerns motivate avoidance of red meat and are reflected in the interviewee's meat choices."
+    "strength": 30
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I avoid red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Explicitly stated that animal welfare is a reason to avoid red meat."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about carbon footprint",
     "stance_2": "I am concerned about environmental impact",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 100,
-    "justification": "The carbon footprint concern is a subset of broader environmental concerns; both support reducing meat consumption."
+    "strength": 100
   },
   {
     "stance_1": "I am concerned about carbon footprint",
     "stance_2": "I eat meat two or three days a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee directly links reducing meat intake to lowering carbon footprint."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about carbon footprint",
     "stance_2": "I avoid red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Avoiding red meat is motivated by concern for carbon footprint, as red meat typically has a larger carbon impact."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about carbon footprint",
     "stance_2": "I have chronic conditions triggered by red meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Both concerns reinforce the avoidance of red meat, even if for different reasons."
+    "strength": 30
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "I eat meat two or three days a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Environmental concern is a direct motivator for reducing meat consumption frequency."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "I avoid red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Environmental reasons are cited for avoiding red meat."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "I have chronic conditions triggered by red meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Both lead to similar behaviors of avoiding red meat, though for different primary motivations."
+    "strength": 30
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "I choose ultra lean chicken or pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Environmental concern supports selection of leaner and perceived lower-impact meats."
+    "strength": 50
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "I avoid red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 100,
-    "justification": "Health concerns are directly cited as a reason to avoid red meat."
+    "strength": 100
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "I choose ultra lean chicken or pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Health concerns motivate choosing leaner cuts of meat."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "I eat meat two or three days a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Health concerns are a reason for reducing meat consumption frequency."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "I have chronic conditions triggered by red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Chronic conditions are a specific health concern driving broader health-motivated reduction."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "I avoid fish and shellfish",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Although not explicitly stated, health concerns likely influence the avoidance of fish and shellfish."
+    "strength": 30
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "I avoid red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 100,
-    "justification": "Health is the explicit reason for avoiding red meat."
+    "strength": 100
   },
   {
     "stance_1": "I choose ultra lean chicken or pork",
     "stance_2": "I avoid red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Avoidance of red meat leads to a focus on ultra lean chicken or pork."
+    "strength": 70
   },
   {
     "stance_1": "I choose ultra lean chicken or pork",
     "stance_2": "I eat meat two or three days a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Selecting specific types of meat supports a limited and selective meat-eating pattern."
+    "strength": 60
   },
   {
     "stance_1": "I eat more meat when I need more protein",
     "stance_2": "I eat meat two or three days a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee increases meat intake when protein needs are higher, supporting the cyclical nature of consumption."
+    "strength": 60
   },
   {
     "stance_1": "I avoid fish and shellfish",
     "stance_2": "I choose ultra lean chicken or pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Avoidance of fish and shellfish narrows meat choices to chicken or pork."
+    "strength": 60
   },
   {
     "stance_1": "I eat more meat when I need more protein",
     "stance_2": "I buy extra meat when it is on sale",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Both stances describe circumstances for increased meat purchasing and consumption."
+    "strength": 50
   },
   {
     "stance_1": "I have chronic conditions triggered by red meat",
     "stance_2": "I avoid red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 100,
-    "justification": "Chronic conditions are a direct reason to avoid red meat."
+    "strength": 100
   },
   {
     "stance_1": "I have chronic conditions triggered by red meat",
     "stance_2": "I choose ultra lean chicken or pork",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Chronic conditions motivate the avoidance of red meat and consumption of lean meats."
+    "strength": 60
   },
   {
     "stance_1": "I have chronic conditions triggered by red meat",
     "stance_2": "I eat meat two or three days a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Chronic conditions support reduced frequency of meat consumption."
+    "strength": 50
   },
   {
     "stance_1": "Meat eating is ingrained in my community",
     "stance_2": "People in my area believe meat is essential for health",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee states that cultural beliefs about meat are widespread in the community."
+    "strength": 90
   },
   {
     "stance_1": "Meat eating is ingrained in my community",
     "stance_2": "My family ate meat multiple times per day",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The family habit is described as part of broader community norms."
+    "strength": 80
   },
   {
     "stance_1": "My family ate meat multiple times per day",
     "stance_2": "People in my area believe meat is essential for health",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Family practices reflect the community belief that meat is essential for health."
+    "strength": 70
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "Meat eating is ingrained in my community",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee's environmental concerns and efforts to reduce meat contrast with local norms of high meat consumption."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "People in my area believe meat is essential for health",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Community beliefs about meat's health value conflict with the interviewee's environmental motivations for reduction."
+    "strength": 50
   },
   {
     "stance_1": "I am concerned about environmental impact",
     "stance_2": "My family ate meat multiple times per day",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee's environmental stance differs from family habits of frequent meat eating."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "Meat eating is ingrained in my community",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee's health-motivated reduction conflicts with community habits of frequent meat eating."
+    "strength": 70
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "People in my area believe meat is essential for health",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Community belief that meat is essential for health conflicts with the interviewee's health concerns about meat."
+    "strength": 70
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "My family ate meat multiple times per day",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee's health concerns are in contrast to family habits of frequent meat eating."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "Meat eating is ingrained in my community",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee's animal welfare concerns are not shared by the community, whose habits include frequent meat eating."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "People in my area believe meat is essential for health",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "The community's belief in meat's health value is at odds with the interviewee's animal welfare concerns."
+    "strength": 50
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "My family ate meat multiple times per day",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "The interviewee's animal welfare concern contrasts with the family's frequent meat eating."
+    "strength": 50
   }
 ]

@@ -4,111 +4,97 @@
     "stance_2": "Eating red meat upsets my stomach",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly states that being around their significant other made them realize red meat upsets their stomach, which in turn led them to eat less red meat."
+    "strength": 85
   },
   {
     "stance_1": "Being around my significant other made me eat less red meat",
     "stance_2": "My significant other eats mostly chicken",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 65,
-    "justification": "The interviewee's shift to eating less red meat is implicitly supported by their significant other also eating mostly chicken."
+    "strength": 65
   },
   {
     "stance_1": "Being around my significant other made me eat less red meat",
     "stance_2": "My significant other has Crohn's and IBS",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee explicitly links their significant other's health conditions to her meat choices, which influenced their own behavior."
+    "strength": 70
   },
   {
     "stance_1": "Eating red meat upsets my stomach",
     "stance_2": "I mostly eat chicken",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that red meat upsets their stomach, supporting their choice to mostly eat chicken."
+    "strength": 90
   },
   {
     "stance_1": "Eating red meat upsets my stomach",
     "stance_2": "I prefer chicken over other meats",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The preference for chicken is explicitly linked to negative effects of eating red meat."
+    "strength": 90
   },
   {
     "stance_1": "Eating red meat upsets my stomach",
     "stance_2": "My significant other has Crohn's and IBS",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Both the interviewee and their significant other experience digestive issues with red meat, supporting each other's avoidance."
+    "strength": 60
   },
   {
     "stance_1": "I mostly eat chicken",
     "stance_2": "I prefer chicken over other meats",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee directly states they mostly eat chicken because they prefer it over other meats."
+    "strength": 95
   },
   {
     "stance_1": "I mostly eat chicken",
     "stance_2": "My mom makes chicken breast for me at gatherings",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The mom prepares chicken breast at gatherings explicitly to accommodate the interviewee's eating habits."
+    "strength": 85
   },
   {
     "stance_1": "I mostly eat chicken",
     "stance_2": "My significant other eats mostly chicken",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Both the interviewee and their significant other mostly eat chicken, supporting similar eating patterns."
+    "strength": 60
   },
   {
     "stance_1": "I mostly eat chicken",
     "stance_2": "My significant other has Crohn's and IBS",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The significant other's health conditions lead her to eat mostly chicken, which aligns with the interviewee's habits."
+    "strength": 60
   },
   {
     "stance_1": "I mostly eat chicken",
     "stance_2": "My family eats red meat more often than I do",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "There is a clear contrast between the interviewee's habit of eating mostly chicken and their family's preference for red meat."
+    "strength": 80
   },
   {
     "stance_1": "I prefer chicken over other meats",
     "stance_2": "My significant other eats mostly chicken",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "There is an implicit support as both share a preference for chicken, possibly reinforcing each other's choices."
+    "strength": 50
   },
   {
     "stance_1": "My family eats red meat more often than I do",
     "stance_2": "My mom makes chicken breast for me at gatherings",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The mom explicitly adapts to the interviewee's eating habits despite the family's preference for red meat."
+    "strength": 90
   },
   {
     "stance_1": "My mom makes chicken breast for me at gatherings",
     "stance_2": "My significant other eats mostly chicken",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "There is an implicit support as family adapts to non-red meat eaters, possibly including the significant other if present."
+    "strength": 30
   }
 ]

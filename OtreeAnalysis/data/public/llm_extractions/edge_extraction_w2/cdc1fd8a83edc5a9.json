@@ -4,87 +4,76 @@
     "stance_2": "I am a picky eater",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee explicitly states that their picky eating is why becoming vegetarian is not plausible for them."
+    "strength": 95
   },
   {
     "stance_1": "Becoming vegetarian is not plausible for me",
     "stance_2": "I have considered vegetarianism",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee has considered vegetarianism but finds it not plausible, which shows a conflict between consideration and feasibility."
+    "strength": 70
   },
   {
     "stance_1": "Becoming vegetarian is not plausible for me",
     "stance_2": "I have autism",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The interviewee links their picky eating to autism, which in turn makes vegetarianism not plausible, suggesting an indirect supportive connection."
+    "strength": 40
   },
   {
     "stance_1": "Becoming vegetarian is not plausible for me",
     "stance_2": "I have an eating disorder and restrict calories",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Restrictive eating due to an eating disorder makes dietary changes less plausible, supporting the stance that vegetarianism is not plausible."
+    "strength": 40
   },
   {
     "stance_1": "I am a picky eater",
     "stance_2": "I have autism",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly connects their picky eating to autism."
+    "strength": 90
   },
   {
     "stance_1": "I am a picky eater",
     "stance_2": "I have an eating disorder and restrict calories",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Picky eating and restrictive eating disorder likely reinforce each other in limiting diet variety."
+    "strength": 50
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "I enjoy eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly states enjoyment of meat as a reason for eating it daily."
+    "strength": 85
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "I am a picky eater",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "The interviewee says limited food preferences (picky eating) result in meat being a daily staple."
+    "strength": 75
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "I have considered vegetarianism",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Eating meat every day and considering vegetarianism are in tension, though the interviewee hasn't acted on the consideration."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "Becoming vegetarian is not plausible for me",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Eating meat daily is consistent with the view that vegetarianism is not plausible."
+    "strength": 60
   },
   {
     "stance_1": "I enjoy eating meat",
     "stance_2": "I have considered vegetarianism",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Enjoying meat conflicts with considering vegetarianism, making such a change harder."
+    "strength": 40
   }
 ]

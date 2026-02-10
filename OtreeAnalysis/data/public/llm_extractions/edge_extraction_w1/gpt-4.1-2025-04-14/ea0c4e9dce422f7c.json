@@ -4,95 +4,83 @@
     "stance_2": "I try to eat more fruits and vegetables",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Concern for animal welfare likely motivates eating more fruits and vegetables as a substitute for meat."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I try to eat enough meat for protein",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Concern for animal welfare may conflict with trying to eat enough meat, since meat consumption involves animal use."
+    "strength": 40
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I want to get enough protein",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Animal welfare concerns may be at odds with the desire for protein if protein is sought through meat."
+    "strength": 30
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I feel healthier eating less meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Both animal welfare concern and feeling healthier eating less meat support eating less meat."
+    "strength": 50
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I am concerned about health effects of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Both concerns motivate reducing meat consumption and are explicitly mentioned as reasons for eating less meat."
+    "strength": 70
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "I try to eat more fruits and vegetables",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Concern about health effects of meat supports eating more fruits and vegetables as a healthier alternative."
+    "strength": 70
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "I try to eat enough meat for protein",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Trying to eat enough meat for protein is in tension with concern about health effects of meat."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "I want to get enough protein",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Seeking protein (potentially from meat) may conflict with concerns about meat\u2019s health effects."
+    "strength": 30
   },
   {
     "stance_1": "I am concerned about health effects of meat",
     "stance_2": "I feel healthier eating less meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Feeling healthier eating less meat explicitly supports the health concern motivating reduced meat intake."
+    "strength": 75
   },
   {
     "stance_1": "I feel healthier eating less meat",
     "stance_2": "I try to eat more fruits and vegetables",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "The interviewee attributes feeling healthier to eating less meat and more fruits and vegetables."
+    "strength": 65
   },
   {
     "stance_1": "I try to eat enough meat for protein",
     "stance_2": "I try to eat more fruits and vegetables",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "The interviewee is trying to balance eating enough meat for protein with eating more fruits and vegetables; these are presented as complementary actions."
+    "strength": 40
   },
   {
     "stance_1": "I try to eat enough meat for protein",
     "stance_2": "I want to get enough protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Trying to eat enough meat is directly motivated by the desire to get enough protein."
+    "strength": 85
   }
 ]

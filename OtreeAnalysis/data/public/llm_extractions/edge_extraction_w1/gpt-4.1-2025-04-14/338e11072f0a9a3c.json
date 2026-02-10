@@ -4,111 +4,97 @@
     "stance_2": "I find it hard to feel full without meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that they always include meat in meals to stay full, showing a direct supportive link."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat at every meal",
     "stance_2": "I enjoy meals without meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee says they always have meat in meals but also enjoy meals without meat, implying a conflict between their enjoyment and their usual habits."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat at every meal",
     "stance_2": "I prioritize high protein foods",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee prioritizes protein, which supports their practice of eating meat at every meal."
+    "strength": 80
   },
   {
     "stance_1": "I find it hard to feel full without meat",
     "stance_2": "I enjoy meals without meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee enjoys meals without meat but finds it hard to feel full with them, indicating an explicit conflict."
+    "strength": 70
   },
   {
     "stance_1": "I prefer chicken over red meat",
     "stance_2": "I prefer lower calorie meats",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The preference for chicken is justified by its lower calorie and fat content compared to red meat."
+    "strength": 95
   },
   {
     "stance_1": "I prefer chicken over red meat",
     "stance_2": "I prioritize high protein foods",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee prefers chicken, highlighting its high protein content as a reason."
+    "strength": 85
   },
   {
     "stance_1": "I prefer lower calorie meats",
     "stance_2": "I prioritize high protein foods",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Lower calorie meats like chicken breast are chosen because they are high in protein and fit diet goals."
+    "strength": 85
   },
   {
     "stance_1": "I find it hard to feel full without meat",
     "stance_2": "I prioritize high protein foods",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee connects feeling full to eating high protein foods, which are often meats."
+    "strength": 90
   },
   {
     "stance_1": "I enjoy meals without meat",
     "stance_2": "I prioritize high protein foods",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee enjoys meals without meat but finds them less satiating due to lower protein, creating a conflict."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat at every meal",
     "stance_2": "Preparing meat is less convenient than other foods",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Despite recognizing meat as less convenient to prepare, the interviewee still eats it at every meal, showing a conflict."
+    "strength": 50
   },
   {
     "stance_1": "Preparing meat is less convenient than other foods",
     "stance_2": "I find it hard to feel full without meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Though preparing meat is less convenient, the need to feel full supports the effort to include meat."
+    "strength": 40
   },
   {
     "stance_1": "People around me eat meat",
     "stance_2": "I eat meat at every meal",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Social context supports the practice of eating meat, though the evidence is not strong."
+    "strength": 30
   },
   {
     "stance_1": "People around me eat meat",
     "stance_2": "I prefer chicken over red meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "The interviewee notes others eat more red meat, which contrasts with their own preference for chicken."
+    "strength": 40
   },
   {
     "stance_1": "People around me eat meat",
     "stance_2": "I prefer lower calorie meats",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "Others' preference for red meat conflicts with the interviewee's preference for lower calorie meats like chicken."
+    "strength": 30
   }
 ]

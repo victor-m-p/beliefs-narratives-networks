@@ -4,63 +4,55 @@
     "stance_2": "I eat meat when it is available",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee states they do not seek out meat but do eat it when available; these are complementary habits."
+    "strength": 80
   },
   {
     "stance_1": "I do not seek out meat",
     "stance_2": "I sometimes prefer other foods over meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Not seeking out meat aligns with sometimes preferring other foods over meat."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat when it is available",
     "stance_2": "I think meat is nutritious",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Eating meat when available is implicitly supported by the belief that meat is nutritious."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat when it is available",
     "stance_2": "I think meat gives energy",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Eating meat when available is implicitly supported by the belief that meat gives energy."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat when it is available",
     "stance_2": "I sometimes prefer other foods over meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Preferring other foods over meat sometimes conflicts with eating meat when it is available."
+    "strength": 40
   },
   {
     "stance_1": "My family eats meat",
     "stance_2": "I eat meat when it is available",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "The interviewee's family eats meat, supporting the habit of eating meat when available."
+    "strength": 50
   },
   {
     "stance_1": "My friends prefer non-fatty meats for health",
     "stance_2": "I eat meat when it is available",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Friends preferring non-fatty meats for health may contrast with eating whatever meat is available, but the evidence is weak."
+    "strength": 25
   },
   {
     "stance_1": "My friend avoids beef for religious reasons",
     "stance_2": "My friends prefer non-fatty meats for health",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "One friend avoids beef for religious reasons and another prefers non-fatty meats for health, indicating different motivations for restricting meat choices."
+    "strength": 60
   }
 ]

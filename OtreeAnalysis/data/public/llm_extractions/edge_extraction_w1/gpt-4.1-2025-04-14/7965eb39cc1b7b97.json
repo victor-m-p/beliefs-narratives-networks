@@ -4,191 +4,167 @@
     "stance_2": "I eat meat every day",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee explicitly states they eat beef a lot and eat meat every day, making these stances mutually supportive."
+    "strength": 95
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "I eat meat in moderation",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Eating meat every day could conflict with the idea of moderation, though the interviewee claims both; this is a mild conflict."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "I eat meat to get iron",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee directly states that the reason for daily meat consumption is to get iron."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "I eat meat to get protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee directly states that getting protein is a reason for eating meat daily."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "My family eats meat daily",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee says both they and their family eat meat daily, supporting each other."
+    "strength": 95
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "My social group eats meat for muscle building",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "The social group eating meat for muscle building reinforces the interviewee's habit of eating meat daily."
+    "strength": 75
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "I was raised to eat meat for a balanced diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee was raised to eat meat daily for a balanced diet, directly supporting their current daily meat-eating habit."
+    "strength": 95
   },
   {
     "stance_1": "I eat meat every day",
     "stance_2": "I reduced meat intake to lower cholesterol",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee notes eating meat every day but also having reduced intake for health reasons, indicating a conflict."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat in moderation",
     "stance_2": "I reduced meat intake to lower cholesterol",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Moderation in meat eating is explicitly linked to reducing cholesterol, as described when lowering intake for health reasons."
+    "strength": 85
   },
   {
     "stance_1": "I eat meat to get iron",
     "stance_2": "I eat meat to get protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Both iron and protein are cited as nutritional reasons for eating meat, mutually reinforcing each other."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat to get iron",
     "stance_2": "My family eats meat daily",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee gives meat to their kids for iron, linking family habit and iron motivation."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat to get iron",
     "stance_2": "My social group eats meat for muscle building",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 45,
-    "justification": "Getting iron and muscle building are related health motivations, though not directly stated, they support each other."
+    "strength": 45
   },
   {
     "stance_1": "I eat meat to get iron",
     "stance_2": "I was raised to eat meat for a balanced diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Being raised to eat meat for a balanced diet is reinforced by seeking iron from meat."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat to get protein",
     "stance_2": "My family eats meat daily",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Protein intake is a cited reason for family meat eating, as mentioned for the interviewee's kids."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat to get protein",
     "stance_2": "My social group eats meat for muscle building",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Protein is directly linked to muscle building, supporting the social group\u2019s habit."
+    "strength": 85
   },
   {
     "stance_1": "I eat meat to get protein",
     "stance_2": "I was raised to eat meat for a balanced diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Being raised to eat meat for a balanced diet is reinforced by valuing protein from meat."
+    "strength": 80
   },
   {
     "stance_1": "My family eats meat daily",
     "stance_2": "My social group eats meat for muscle building",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Both family and social group eat meat with health/muscle motivations, supporting each other's habits."
+    "strength": 75
   },
   {
     "stance_1": "My family eats meat daily",
     "stance_2": "I was raised to eat meat for a balanced diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The family\u2019s daily meat eating is a direct continuation of being raised to eat meat for balance."
+    "strength": 95
   },
   {
     "stance_1": "My social group eats meat for muscle building",
     "stance_2": "I was raised to eat meat for a balanced diet",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "While muscle building is a specific health focus, it aligns with being raised to value meat for balance."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat in moderation",
     "stance_2": "I was raised to eat meat for a balanced diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee says they were raised to eat meat, but always in moderation, linking upbringing to moderation."
+    "strength": 60
   },
   {
     "stance_1": "I eat beef frequently",
     "stance_2": "I eat meat to get iron",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Beef is a rich source of iron and the interviewee eats beef frequently for this reason."
+    "strength": 70
   },
   {
     "stance_1": "I eat beef frequently",
     "stance_2": "I eat meat to get protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Beef is eaten frequently as a major source of protein, as stated by the interviewee."
+    "strength": 70
   },
   {
     "stance_1": "I eat beef frequently",
     "stance_2": "My family eats meat daily",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Frequent beef eating by the interviewee is mirrored by the family\u2019s daily meat habits."
+    "strength": 75
   },
   {
     "stance_1": "I eat beef frequently",
     "stance_2": "I was raised to eat meat for a balanced diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Frequent beef eating is consistent with being raised to eat meat for balanced meals."
+    "strength": 70
   }
 ]

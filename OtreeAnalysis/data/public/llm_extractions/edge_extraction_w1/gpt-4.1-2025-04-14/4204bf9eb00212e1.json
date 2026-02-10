@@ -4,95 +4,83 @@
     "stance_2": "I like the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly states that they enjoy the taste of meat and always include it in meals they cook."
+    "strength": 85
   },
   {
     "stance_1": "I eat meat with every meal I cook",
     "stance_2": "Meat makes me feel full",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly connects eating meat at every meal to feeling fuller after eating."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat with every meal I cook",
     "stance_2": "Meat provides nutrition I need",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly states that meat gives them some of the nutrition their body needs and always includes it in meals."
+    "strength": 85
   },
   {
     "stance_1": "I eat meat with every meal I cook",
     "stance_2": "My family eats meat in at least two meals daily",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states that both they and their family regularly eat meat in their meals."
+    "strength": 80
   },
   {
     "stance_1": "I like the taste of meat",
     "stance_2": "My family likes the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "It is explicitly stated that both the interviewee and their family like the taste of meat."
+    "strength": 85
   },
   {
     "stance_1": "I like the taste of meat",
     "stance_2": "My family eats meat in at least two meals daily",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "The family's regular meat eating is implicitly supported by their liking for the taste of meat."
+    "strength": 60
   },
   {
     "stance_1": "Meat provides nutrition I need",
     "stance_2": "My family eats different meats for health",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Both the interviewee and their family eat meat for nutritional and health reasons, as explicitly stated."
+    "strength": 85
   },
   {
     "stance_1": "Meat makes me feel full",
     "stance_2": "I like the taste of meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Enjoying the taste of meat and feeling full after eating it are both positive experiences that likely reinforce each other."
+    "strength": 40
   },
   {
     "stance_1": "Meat makes me feel full",
     "stance_2": "My family eats meat in at least two meals daily",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The feeling of fullness from meat plausibly contributes to the family's regular consumption, though this is only implied."
+    "strength": 40
   },
   {
     "stance_1": "My family eats meat in at least two meals daily",
     "stance_2": "My family eats different meats for health",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "It is explicitly stated that the family eats meat regularly and chooses different meats for health."
+    "strength": 90
   },
   {
     "stance_1": "My family eats meat in at least two meals daily",
     "stance_2": "My family likes the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Family's regular meat eating is explicitly linked to their liking the taste of meat."
+    "strength": 85
   },
   {
     "stance_1": "My family eats different meats for health",
     "stance_2": "My family likes the taste of meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Family's liking the taste of meat likely supports their willingness to eat different meats, though this is only implied."
+    "strength": 40
   }
 ]

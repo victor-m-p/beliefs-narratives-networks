@@ -4,71 +4,62 @@
     "stance_2": "I like to eat meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee directly states that liking meat is the reason for frequent meat consumption."
+    "strength": 95
   },
   {
     "stance_1": "I eat meat four or five times a week",
     "stance_2": "I was raised eating meat at most meals",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Being raised with meat at most meals implicitly supports maintaining a pattern of frequent meat consumption."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat four or five times a week",
     "stance_2": "I have health concerns about meat fat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 55,
-    "justification": "The interviewee expresses concern that meat fat may have caused health issues, which conflicts with frequent meat consumption."
+    "strength": 55
   },
   {
     "stance_1": "I eat meat four or five times a week",
     "stance_2": "My family usually serves meat at meals",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The family norm of serving meat supports the interviewee's frequent meat consumption."
+    "strength": 40
   },
   {
     "stance_1": "I like to eat meat",
     "stance_2": "I was raised eating meat at most meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly states their upbringing influenced their liking for meat."
+    "strength": 85
   },
   {
     "stance_1": "I like to eat meat",
     "stance_2": "I have health concerns about meat fat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Liking meat is in tension with concerns about the health impacts of eating meat fat."
+    "strength": 50
   },
   {
     "stance_1": "I like to eat meat",
     "stance_2": "My family usually serves meat at meals",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Family meal patterns likely support the interviewee's preference for meat."
+    "strength": 40
   },
   {
     "stance_1": "I was raised eating meat at most meals",
     "stance_2": "My family usually serves meat at meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The family tradition of serving meat is explicitly linked to the interviewee's upbringing."
+    "strength": 70
   },
   {
     "stance_1": "I have health concerns about meat fat",
     "stance_2": "My family usually serves meat at meals",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Family norms of serving meat may conflict with the interviewee's health concerns about eating meat."
+    "strength": 30
   }
 ]

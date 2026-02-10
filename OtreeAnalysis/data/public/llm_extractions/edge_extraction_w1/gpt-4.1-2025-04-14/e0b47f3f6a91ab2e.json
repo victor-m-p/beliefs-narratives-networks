@@ -4,127 +4,111 @@
     "stance_2": "I limit how much meat I eat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Concern for health is explicitly mentioned as a motivation for limiting meat intake."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned about my health",
     "stance_2": "My doctor recommended reducing red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 100,
-    "justification": "The doctor's recommendation is directly cited as the origin of health concern and the change in behavior."
+    "strength": 100
   },
   {
     "stance_1": "I am concerned about my health",
     "stance_2": "My family supports my dietary changes",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee's health concerns prompt family support for dietary changes."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about the environment",
     "stance_2": "I limit how much meat I eat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Environmental concern is explicitly mentioned as a direct reason for limiting meat intake."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned about the environment",
     "stance_2": "My sister-in-law is motivated by environmental concerns",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Both the interviewee and sister-in-law share environmental motivations for reducing meat."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about the environment",
     "stance_2": "My wife limits meat in solidarity with me",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The wife's solidarity indirectly supports environmental concern, as she follows the same reduction motivated partly by environment."
+    "strength": 30
   },
   {
     "stance_1": "I crave the taste of meat",
     "stance_2": "I limit how much meat I eat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Cravings for meat are explicitly described as a challenge to limiting meat consumption."
+    "strength": 80
   },
   {
     "stance_1": "I know there are good alternatives to meat",
     "stance_2": "I limit how much meat I eat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Awareness of alternatives is described as helpful for maintaining reduced meat intake."
+    "strength": 80
   },
   {
     "stance_1": "Adjusting to less meat was difficult",
     "stance_2": "I limit how much meat I eat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The difficulty of adjustment is directly linked to the challenge of limiting meat."
+    "strength": 70
   },
   {
     "stance_1": "Adjusting to less meat was difficult",
     "stance_2": "I know there are good alternatives to meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Learning about alternatives is mentioned as a way to ease the difficulty of adjustment."
+    "strength": 40
   },
   {
     "stance_1": "I limit how much meat I eat",
     "stance_2": "My family supports my dietary changes",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Family support is described as helping sustain reduced meat intake."
+    "strength": 80
   },
   {
     "stance_1": "I limit how much meat I eat",
     "stance_2": "My wife limits meat in solidarity with me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The wife explicitly chooses to limit meat to support the interviewee's effort."
+    "strength": 80
   },
   {
     "stance_1": "I limit how much meat I eat",
     "stance_2": "My sister-in-law is motivated by environmental concerns",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The sister-in-law's environmental motivation aligns with and reinforces the interviewee's reduced meat intake."
+    "strength": 60
   },
   {
     "stance_1": "My family supports my dietary changes",
     "stance_2": "My wife limits meat in solidarity with me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The wife's solidarity is a key component of the family's support."
+    "strength": 90
   },
   {
     "stance_1": "My wife limits meat in solidarity with me",
     "stance_2": "My sister-in-law is motivated by environmental concerns",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 20,
-    "justification": "Both are part of the supportive family network with different motivations, weakly connecting their stances."
+    "strength": 20
   },
   {
     "stance_1": "My doctor recommended reducing red meat",
     "stance_2": "I limit how much meat I eat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 100,
-    "justification": "Doctor's recommendation is explicitly cited as the primary reason for reducing red meat."
+    "strength": 100
   }
 ]

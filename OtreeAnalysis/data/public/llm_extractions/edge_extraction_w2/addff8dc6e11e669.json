@@ -4,79 +4,69 @@
     "stance_2": "I do not eat pork, beef, or lamb",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee's openness to eating red meat while traveling conflicts with their current avoidance of pork, beef, or lamb."
+    "strength": 70
   },
   {
     "stance_1": "I am open to eating red meat while traveling",
     "stance_2": "I find red meat unappealing",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Being open to eating red meat while traveling conflicts with the stance that red meat is unappealing."
+    "strength": 60
   },
   {
     "stance_1": "I am open to eating red meat while traveling",
     "stance_2": "I have health concerns about red meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Openness to eating red meat while traveling conflicts with health concerns about red meat."
+    "strength": 60
   },
   {
     "stance_1": "I care about animal welfare",
     "stance_2": "I do not eat pork, beef, or lamb",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Not eating pork, beef, or lamb is partially motivated by animal welfare concerns."
+    "strength": 40
   },
   {
     "stance_1": "I care about animal welfare",
     "stance_2": "I have health concerns about red meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Both concerns (health, animal welfare) support avoidance of red meat, though motivations differ."
+    "strength": 30
   },
   {
     "stance_1": "I cook most meals at home",
     "stance_2": "My partner enjoys eating pork and steak",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Cooking most meals at home limits the partner's ability to eat her preferred pork and steak, which she expresses by choosing them when eating out."
+    "strength": 50
   },
   {
     "stance_1": "I do not eat pork, beef, or lamb",
     "stance_2": "I eat chicken, turkey, and some seafood",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Avoidance of certain meats is directly paired with consumption of other meats as dietary alternatives."
+    "strength": 80
   },
   {
     "stance_1": "I do not eat pork, beef, or lamb",
     "stance_2": "I find red meat unappealing",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Finding red meat unappealing supports the avoidance of pork, beef, and lamb."
+    "strength": 90
   },
   {
     "stance_1": "I do not eat pork, beef, or lamb",
     "stance_2": "I have health concerns about red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Health concerns about red meat strongly support the choice to avoid pork, beef, and lamb."
+    "strength": 80
   },
   {
     "stance_1": "I find red meat unappealing",
     "stance_2": "I have health concerns about red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Finding red meat unappealing and having health concerns are mutually reinforcing reasons for avoiding it."
+    "strength": 70
   }
 ]

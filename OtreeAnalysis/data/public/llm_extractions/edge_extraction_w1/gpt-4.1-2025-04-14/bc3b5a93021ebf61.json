@@ -4,47 +4,41 @@
     "stance_2": "I like the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee explicitly states liking the taste of meat as a reason for eating meat regularly."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "Meat is a good source of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly says meat is a good source of protein and this is a reason for their regular meat eating."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "My family and friends eat meat regularly",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The shared habit of eating meat with family and friends implicitly supports regular meat consumption."
+    "strength": 40
   },
   {
     "stance_1": "I like the taste of meat",
     "stance_2": "Meat is a good source of protein",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Liking the taste and seeing meat as healthy provide complementary, mutually reinforcing motivations for meat consumption."
+    "strength": 30
   },
   {
     "stance_1": "I like the taste of meat",
     "stance_2": "My family and friends eat meat regularly",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Enjoying the taste of meat and sharing this with one's social circle implicitly reinforces the habit."
+    "strength": 25
   },
   {
     "stance_1": "Meat is a good source of protein",
     "stance_2": "My family and friends eat meat regularly",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 20,
-    "justification": "The perceived health benefit of meat may be a shared reason among family/friends who also eat meat regularly."
+    "strength": 20
   }
 ]

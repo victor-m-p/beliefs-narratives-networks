@@ -4,159 +4,139 @@
     "stance_2": "Eating less meat improves my health",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that eating less meat both improves health and helps with weight loss."
+    "strength": 90
   },
   {
     "stance_1": "Eating less meat improves my health",
     "stance_2": "I am concerned about health effects of eating too much meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Concern about negative health effects of meat supports reducing meat intake to improve health."
+    "strength": 85
   },
   {
     "stance_1": "Eating less meat helps me lose weight",
     "stance_2": "I am concerned about health effects of eating too much meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 65,
-    "justification": "The concern about health effects (including weight gain) supports eating less meat to lose weight."
+    "strength": 65
   },
   {
     "stance_1": "Eating less meat helps me lose weight",
     "stance_2": "I have considered reducing meat intake",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee's consideration of reducing meat intake is motivated by the desire to lose weight."
+    "strength": 80
   },
   {
     "stance_1": "Eating less meat improves my health",
     "stance_2": "I have considered reducing meat intake",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee has considered reducing meat intake and reports improved health from doing so."
+    "strength": 80
   },
   {
     "stance_1": "Family reduced meat intake",
     "stance_2": "Family reports improved health from eating less meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee states family members reduced meat intake and as a result report improved health."
+    "strength": 95
   },
   {
     "stance_1": "Family reduced meat intake",
     "stance_2": "Family motivates me to reduce meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The family's reduction in meat intake motivates the interviewee to consider reducing meat themselves."
+    "strength": 90
   },
   {
     "stance_1": "Family reports improved health from eating less meat",
     "stance_2": "Family motivates me to reduce meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The improved health of family members from reducing meat intake motivates the interviewee to consider doing the same."
+    "strength": 85
   },
   {
     "stance_1": "Family reduced meat intake",
     "stance_2": "I have considered reducing meat intake",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "The interviewee's consideration of reducing meat intake is influenced by seeing their family reduce theirs."
+    "strength": 75
   },
   {
     "stance_1": "Family reports improved health from eating less meat",
     "stance_2": "I have considered reducing meat intake",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "Seeing family members' improved health from eating less meat supports the interviewee's consideration of reducing their own intake."
+    "strength": 65
   },
   {
     "stance_1": "Family enjoys grilling meat",
     "stance_2": "Family traditions include eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "Grilling meat is explicitly described as a family tradition."
+    "strength": 95
   },
   {
     "stance_1": "Family traditions include eating meat",
     "stance_2": "I like eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 70,
-    "justification": "The interviewee's liking for eating meat is supported by family traditions of meat consumption."
+    "strength": 70
   },
   {
     "stance_1": "Family enjoys grilling meat",
     "stance_2": "I like eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "The enjoyment of grilling in the family environment supports the interviewee's enjoyment of meat."
+    "strength": 60
   },
   {
     "stance_1": "I buy and cook different kinds of meat",
     "stance_2": "I like eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly links enjoyment of eating meat with buying and cooking various types."
+    "strength": 90
   },
   {
     "stance_1": "I like eating meat",
     "stance_2": "Meat provides protein",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Enjoyment of meat is supported by its perceived nutritional value."
+    "strength": 50
   },
   {
     "stance_1": "I like eating meat",
     "stance_2": "Meat gives me energy for work",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Enjoying meat is supported by its role in providing energy for work."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about health effects of eating too much meat",
     "stance_2": "I like eating meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The enjoyment of eating meat is countered by concerns over its health effects."
+    "strength": 70
   },
   {
     "stance_1": "I have considered reducing meat intake",
     "stance_2": "I like eating meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "The interviewee's enjoyment of meat is in tension with consideration of reducing intake."
+    "strength": 65
   },
   {
     "stance_1": "I have considered reducing meat intake",
     "stance_2": "Meat provides protein",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Considering reducing meat intake is in implicit conflict with the belief that meat is a key source of protein."
+    "strength": 40
   },
   {
     "stance_1": "I have considered reducing meat intake",
     "stance_2": "Meat gives me energy for work",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Reducing meat intake may undermine the perceived benefit of meat providing energy for work."
+    "strength": 40
   }
 ]

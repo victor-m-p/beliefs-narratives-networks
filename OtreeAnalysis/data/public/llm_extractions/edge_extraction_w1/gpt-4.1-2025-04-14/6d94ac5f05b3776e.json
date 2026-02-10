@@ -4,135 +4,118 @@
     "stance_2": "I have reduced how much meat I eat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Interviewee explicitly mentions avoiding dark meat as part of their strategy to reduce meat consumption."
+    "strength": 85
   },
   {
     "stance_1": "I avoid dark meat",
     "stance_2": "I limit meat to dinner only",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Both avoiding dark meat and limiting meat to dinner are described as methods to reduce overall meat intake."
+    "strength": 70
   },
   {
     "stance_1": "I avoid dark meat",
     "stance_2": "I have concerns about meat's effect on my health",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The explicit reason for avoiding dark meat is concern over its health effects, particularly on digestion."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "I enjoy the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Interviewee states they continue to eat meat regularly because they enjoy the taste."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "Meat is a good source of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Interviewee states that meat's protein content is a reason for continued consumption."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "I have reduced how much meat I eat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Interviewee contrasts current regular meat consumption with past higher levels, showing tension between reduction and continued regular intake."
+    "strength": 85
   },
   {
     "stance_1": "I eat meat regularly",
     "stance_2": "I have concerns about meat's effect on my health",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Interviewee expresses health concerns about meat, which conflicts with the behavior of regular meat consumption."
+    "strength": 70
   },
   {
     "stance_1": "I have reduced how much meat I eat",
     "stance_2": "I enjoy the taste of meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee admits that enjoyment of meat makes reduction difficult, showing a direct conflict."
+    "strength": 60
   },
   {
     "stance_1": "I have reduced how much meat I eat",
     "stance_2": "I have concerns about meat's effect on my health",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Interviewee explicitly states reducing meat due to health concerns."
+    "strength": 90
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "I have concerns about meat's effect on my health",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Enjoying the taste of meat conflicts with concerns about its health effects, making reduction challenging."
+    "strength": 70
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "Meat is a good source of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Both are stated as reasons for continuing to eat meat, supporting regular consumption."
+    "strength": 60
   },
   {
     "stance_1": "I have reduced how much meat I eat",
     "stance_2": "I limit meat to dinner only",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Limiting meat to dinner is explicitly described as part of a reduction strategy."
+    "strength": 85
   },
   {
     "stance_1": "I limit meat to dinner only",
     "stance_2": "I have concerns about meat's effect on my health",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Limiting meat is described as a response to health concerns."
+    "strength": 80
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "I limit meat to dinner only",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Enjoyment of meat makes further reduction (beyond dinner only) difficult, suggesting some conflict."
+    "strength": 50
   },
   {
     "stance_1": "I avoid dark meat",
     "stance_2": "I enjoy the taste of meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Enjoyment of meat, but avoidance of dark meat, suggests a conflict between desire and restrictions for health."
+    "strength": 50
   },
   {
     "stance_1": "I avoid dark meat",
     "stance_2": "Meat is a good source of protein",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Switching from dark to white meat preserves protein intake while reducing perceived health risks."
+    "strength": 30
   },
   {
     "stance_1": "I have reduced how much meat I eat",
     "stance_2": "Meat is a good source of protein",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "Reducing meat despite valuing its protein content suggests conflict, though mitigated by eating less rather than none."
+    "strength": 30
   }
 ]

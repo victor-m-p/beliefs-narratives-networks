@@ -4,135 +4,118 @@
     "stance_2": "I wish I ate less meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee cites concern about animal welfare as a motivation for wishing to eat less meat."
+    "strength": 85
   },
   {
     "stance_1": "I am concerned about the environment",
     "stance_2": "I wish I ate less meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly connects environmental concern with the wish to eat less meat."
+    "strength": 85
   },
   {
     "stance_1": "I enjoy eating meat",
     "stance_2": "I wish I ate less meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Enjoying meat directly conflicts with wishing to eat less of it."
+    "strength": 90
   },
   {
     "stance_1": "I have not started cutting back on meat",
     "stance_2": "I wish I ate less meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The wish to eat less meat is in conflict with the stated lack of action in reducing meat consumption."
+    "strength": 80
   },
   {
     "stance_1": "I think eating less meat is healthier",
     "stance_2": "I wish I ate less meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Belief that eating less meat is healthier supports the desire to eat less meat."
+    "strength": 80
   },
   {
     "stance_1": "I enjoy eating meat",
     "stance_2": "It is easier to cook meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Enjoyment of eating meat is reinforced by the convenience of cooking it."
+    "strength": 70
   },
   {
     "stance_1": "I enjoy eating meat",
     "stance_2": "I have not started cutting back on meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Enjoying meat supports the continuation of current meat consumption habits."
+    "strength": 60
   },
   {
     "stance_1": "I enjoy eating meat",
     "stance_2": "Most people around me eat meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Social environment where most people eat meat likely reinforces enjoyment of meat."
+    "strength": 40
   },
   {
     "stance_1": "It is easier to cook meat",
     "stance_2": "I have not started cutting back on meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Convenience in cooking meat directly supports not having started to cut back."
+    "strength": 90
   },
   {
     "stance_1": "Most people around me eat meat",
     "stance_2": "I have not started cutting back on meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Social norm of eating meat likely supports not reducing meat intake."
+    "strength": 50
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I enjoy eating meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Concern for animals conflicts with enjoying eating meat."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about the environment",
     "stance_2": "I enjoy eating meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Enjoyment of eating meat is in conflict with environmental concern."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I have not started cutting back on meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Concern for animal welfare is in tension with not acting to reduce meat consumption."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about the environment",
     "stance_2": "I have not started cutting back on meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Environmental concern conflicts with not having started to cut back on meat."
+    "strength": 60
   },
   {
     "stance_1": "I think eating less meat is healthier",
     "stance_2": "I have not started cutting back on meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Belief in health benefits of reducing meat is in tension with not starting to reduce."
+    "strength": 50
   },
   {
     "stance_1": "I think eating less meat is healthier",
     "stance_2": "I am concerned about animal welfare",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Both stances support the idea of reducing meat, though from different motivations."
+    "strength": 40
   },
   {
     "stance_1": "I am concerned about the environment",
     "stance_2": "I think eating less meat is healthier",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "The interviewee explicitly links environmental and health reasons for reducing meat."
+    "strength": 50
   }
 ]

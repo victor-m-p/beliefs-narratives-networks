@@ -4,119 +4,104 @@
     "stance_2": "I have eaten meat since childhood",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Eating chicken regularly is a continuation of having eaten meat since childhood, reflecting lifelong habits."
+    "strength": 60
   },
   {
     "stance_1": "I eat hamburgers two or three times a month",
     "stance_2": "I have eaten meat since childhood",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Eating hamburgers regularly is consistent with a lifelong habit of eating meat."
+    "strength": 60
   },
   {
     "stance_1": "I eat less beef as I get older",
     "stance_2": "I have eaten meat since childhood",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "The reduction in beef consumption as the interviewee ages contrasts with their lifelong habit of eating meat."
+    "strength": 50
   },
   {
     "stance_1": "I eat less beef as I get older",
     "stance_2": "I eat hamburgers two or three times a month",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Eating fewer hamburgers is indicative of eating less beef, which the interviewee attributes to aging."
+    "strength": 40
   },
   {
     "stance_1": "I eat less beef as I get older",
     "stance_2": "I eat chicken regularly",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Reduction in beef consumption implies that other meats, like chicken, may have replaced beef in the diet."
+    "strength": 30
   },
   {
     "stance_1": "I eat less beef as I get older",
     "stance_2": "I think less about meat consumption",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Eating less beef over time might suggest a change in attitude toward meat, potentially conflicting with not thinking much about meat consumption."
+    "strength": 25
   },
   {
     "stance_1": "I have eaten meat since childhood",
     "stance_2": "I think less about meat consumption",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The habit of eating meat since childhood supports not thinking much about meat consumption, as it is routine."
+    "strength": 80
   },
   {
     "stance_1": "I have eaten meat since childhood",
     "stance_2": "My family eats meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that eating meat since childhood is reinforced by family habits."
+    "strength": 90
   },
   {
     "stance_1": "I have eaten meat since childhood",
     "stance_2": "My friends eat meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee's lifelong meat eating is supported by the fact that their friends also eat meat."
+    "strength": 85
   },
   {
     "stance_1": "I have eaten meat since childhood",
     "stance_2": "Meat is available everywhere in my community",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Ubiquitous meat availability in the community supports a lifelong habit of meat eating."
+    "strength": 50
   },
   {
     "stance_1": "I have eaten meat since childhood",
     "stance_2": "I have seen studies about meat and climate change",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Awareness of studies on meat and climate change may challenge the habitual practice of eating meat since childhood."
+    "strength": 30
   },
   {
     "stance_1": "I think less about meat consumption",
     "stance_2": "Meat is available everywhere in my community",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The ease of accessing meat everywhere supports not thinking much about meat consumption."
+    "strength": 60
   },
   {
     "stance_1": "I think less about meat consumption",
     "stance_2": "My family eats meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 65,
-    "justification": "Family routines around meat eating support the tendency not to think much about meat consumption."
+    "strength": 65
   },
   {
     "stance_1": "I think less about meat consumption",
     "stance_2": "My friends eat meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 65,
-    "justification": "The fact that all friends eat meat supports not thinking much about meat consumption."
+    "strength": 65
   },
   {
     "stance_1": "I have seen studies about meat and climate change",
     "stance_2": "I think less about meat consumption",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Learning about environmental impacts of meat is prompting the interviewee to think more about meat consumption, in contrast to their usual mindset."
+    "strength": 50
   }
 ]

@@ -4,55 +4,48 @@
     "stance_2": "I have not considered cutting back on meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Eating meat with almost every meal is directly supported by not having considered cutting back on meat."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat with almost every meal",
     "stance_2": "I prefer the flavor of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states that preference for the flavor of meat is a reason for eating meat with almost every meal."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat with almost every meal",
     "stance_2": "My friends and family eat meat frequently",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The frequency of meat consumption is similar between the interviewee and their social circle, indicating mutual reinforcement."
+    "strength": 60
   },
   {
     "stance_1": "I have not considered cutting back on meat",
     "stance_2": "I understand the environmental and social impact of meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "The interviewee acknowledges understanding the impacts but explicitly states they have not considered cutting back, showing a conflict."
+    "strength": 50
   },
   {
     "stance_1": "I prefer the flavor of meat",
     "stance_2": "I have not considered cutting back on meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 65,
-    "justification": "Preference for the flavor of meat implicitly supports not considering cutting back on meat."
+    "strength": 65
   },
   {
     "stance_1": "I prefer the flavor of meat",
     "stance_2": "I understand the environmental and social impact of meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Enjoying the flavor of meat may implicitly conflict with awareness of negative impacts, as the enjoyment overrides the concern."
+    "strength": 30
   },
   {
     "stance_1": "I have not considered cutting back on meat",
     "stance_2": "My friends and family eat meat frequently",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "A social environment where everyone eats meat frequently likely supports not considering cutting back."
+    "strength": 40
   }
 ]

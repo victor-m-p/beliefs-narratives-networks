@@ -4,159 +4,139 @@
     "stance_2": "I eat more chicken and fish",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states they eat less red meat and instead focus on chicken and fish, showing one change supports the other."
+    "strength": 90
   },
   {
     "stance_1": "I eat less red meat",
     "stance_2": "I have health concerns",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The reduction in red meat is explicitly motivated by health concerns like cholesterol and prediabetes."
+    "strength": 95
   },
   {
     "stance_1": "I eat less red meat",
     "stance_2": "I want to improve my health numbers",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly states they reduce red meat to improve health checkup numbers."
+    "strength": 85
   },
   {
     "stance_1": "I eat less red meat",
     "stance_2": "My family is prediabetic",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The family history of prediabetes is a direct motivator for reducing red meat consumption."
+    "strength": 80
   },
   {
     "stance_1": "I eat more chicken and fish",
     "stance_2": "I have health concerns",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Switching to chicken and fish is explicitly linked to health concerns."
+    "strength": 90
   },
   {
     "stance_1": "I eat more chicken and fish",
     "stance_2": "I want to improve my health numbers",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The shift to white meat is explicitly to improve health-related numbers."
+    "strength": 80
   },
   {
     "stance_1": "I eat more chicken and fish",
     "stance_2": "My family is prediabetic",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Family prediabetes motivates the switch to healthier meats."
+    "strength": 75
   },
   {
     "stance_1": "I have health concerns",
     "stance_2": "I want to improve my health numbers",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee's health concerns are explicitly about improving health numbers."
+    "strength": 95
   },
   {
     "stance_1": "I have health concerns",
     "stance_2": "My family is prediabetic",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Family prediabetes is mentioned as a primary health concern."
+    "strength": 90
   },
   {
     "stance_1": "I believe eating meat is natural",
     "stance_2": "I eat less red meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Belief in the naturalness of eating meat is in mild tension with reducing red meat, but this is mitigated by the health motivation."
+    "strength": 40
   },
   {
     "stance_1": "I believe meat is important for protein",
     "stance_2": "I eat less red meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Belief that meat is important for protein could conflict with reducing meat intake, but the interviewee maintains protein intake via chicken and fish."
+    "strength": 30
   },
   {
     "stance_1": "I believe eating meat is natural",
     "stance_2": "I eat more chicken and fish",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Belief in the naturalness of eating meat is maintained by continued consumption of chicken and fish."
+    "strength": 50
   },
   {
     "stance_1": "I believe meat is important for protein",
     "stance_2": "I eat more chicken and fish",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "The importance of meat for protein supports choosing chicken and fish as protein sources."
+    "strength": 65
   },
   {
     "stance_1": "I believe eating meat is natural",
     "stance_2": "I believe meat is important for protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Both beliefs are explicitly stated as part of the interviewee's values and worldview."
+    "strength": 80
   },
   {
     "stance_1": "I prepare meals by steaming meat and vegetables",
     "stance_2": "I use little salt and oil when cooking meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "Steaming is explicitly tied to using little salt and oil for healthy preparation."
+    "strength": 95
   },
   {
     "stance_1": "I prepare meals by steaming meat and vegetables",
     "stance_2": "I eat more chicken and fish",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee prepares chicken and fish by steaming, linking the two behaviors."
+    "strength": 70
   },
   {
     "stance_1": "I prepare meals by steaming meat and vegetables",
     "stance_2": "I want to improve my health numbers",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Steaming for health is explicitly motivated by the desire to improve health numbers."
+    "strength": 60
   },
   {
     "stance_1": "I prepare meals by steaming meat and vegetables",
     "stance_2": "I have health concerns",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "The healthy preparation method is explicitly motivated by health concerns."
+    "strength": 65
   },
   {
     "stance_1": "I use little salt and oil when cooking meat",
     "stance_2": "I want to improve my health numbers",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 55,
-    "justification": "Limiting salt and oil is directly connected to improving health numbers."
+    "strength": 55
   },
   {
     "stance_1": "I use little salt and oil when cooking meat",
     "stance_2": "I have health concerns",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Using less salt and oil is an explicit health-motivated behavior."
+    "strength": 60
   }
 ]

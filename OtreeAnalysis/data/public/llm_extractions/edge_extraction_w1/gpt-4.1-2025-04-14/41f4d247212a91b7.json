@@ -4,103 +4,90 @@
     "stance_2": "Negative information about beef is political",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that negative information about beef is political and therefore expresses no interest in eating less beef."
+    "strength": 90
   },
   {
     "stance_1": "I am not interested in eating less beef",
     "stance_2": "I eat beef at least four times a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Eating beef frequently is strongly supported by the interviewee's lack of interest in reducing beef consumption."
+    "strength": 85
   },
   {
     "stance_1": "I am not interested in eating less beef",
     "stance_2": "I have easy access to frozen beef",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Having easy access to frozen beef supports not considering eating less beef, as convenience makes reduction unnecessary."
+    "strength": 60
   },
   {
     "stance_1": "I eat beef at least four times a week",
     "stance_2": "I have easy access to frozen beef",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee explicitly states that frequent beef consumption is due to always having a freezer full of beef."
+    "strength": 95
   },
   {
     "stance_1": "I eat beef at least four times a week",
     "stance_2": "I believe beef is nutritious and filling",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee mentions beef's nutritional value and satiating properties as reasons for frequent consumption."
+    "strength": 70
   },
   {
     "stance_1": "I eat beef at least four times a week",
     "stance_2": "I eat chicken or fish at family gatherings",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "The interviewee eats beef frequently but switches to chicken or fish when his sister is present, creating a conflict between these behaviors."
+    "strength": 50
   },
   {
     "stance_1": "I eat chicken or fish at family gatherings",
     "stance_2": "My sister prefers chicken or fish",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that he eats chicken or fish at gatherings due to his sister's preferences."
+    "strength": 90
   },
   {
     "stance_1": "My sister prefers chicken or fish",
     "stance_2": "My sister is motivated by health concerns",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee explicitly links his sister's preference for chicken or fish to her health motivations."
+    "strength": 95
   },
   {
     "stance_1": "I believe beef is nutritious and filling",
     "stance_2": "My sister is motivated by health concerns",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 45,
-    "justification": "The interviewee believes beef is nutritious while his sister avoids it for health reasons, suggesting implicit conflict in their beliefs."
+    "strength": 45
   },
   {
     "stance_1": "I eat beef at least four times a week",
     "stance_2": "My sister is motivated by health concerns",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The interviewee's high beef consumption contrasts with his sister's health-motivated avoidance of red meat, implying a conflict in dietary motivations."
+    "strength": 40
   },
   {
     "stance_1": "I eat beef at least four times a week",
     "stance_2": "My sister prefers chicken or fish",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Frequent beef consumption by the interviewee contrasts with his sister's preference for alternatives, highlighting conflicting preferences."
+    "strength": 40
   },
   {
     "stance_1": "I eat beef at least four times a week",
     "stance_2": "Some family members avoid venison for taste reasons",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Beef is eaten frequently, while venison is avoided by some family members, reflecting diverging preferences based on taste."
+    "strength": 30
   },
   {
     "stance_1": "Some family members avoid venison for taste reasons",
     "stance_2": "I eat chicken or fish at family gatherings",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Both stances reflect adaptation of food choices at gatherings based on others' preferences."
+    "strength": 30
   }
 ]

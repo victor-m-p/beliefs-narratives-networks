@@ -4,63 +4,55 @@
     "stance_2": "I eat meat when I crave it",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee expresses both a general care for animal welfare and a willingness to eat meat when craving it, creating a stated moral struggle."
+    "strength": 60
   },
   {
     "stance_1": "I care about animal welfare",
     "stance_2": "I do not eat meat often",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "The interviewee's care for animal welfare may implicitly support eating meat less often, although the main reason given for eating less is low overall food intake."
+    "strength": 40
   },
   {
     "stance_1": "I care about animal welfare",
     "stance_2": "I struggle morally with killing animals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly links their care for animals to a moral struggle with killing them for food."
+    "strength": 90
   },
   {
     "stance_1": "I care about animal welfare",
     "stance_2": "My best friend is vegetarian",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "The friend's vegetarianism, motivated by animal welfare, influenced the interviewee's own concern for animals."
+    "strength": 50
   },
   {
     "stance_1": "I do not eat meat often",
     "stance_2": "I eat meat when I crave it",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee explicitly says they eat meat when they crave it, but not often, indicating that cravings are infrequent and determining frequency."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat when I crave it",
     "stance_2": "I struggle morally with killing animals",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee acknowledges a moral struggle with eating animals but still eats meat when craving it, showing a conflict."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat when I crave it",
     "stance_2": "My best friend is vegetarian",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The friend's vegetarianism influenced the interviewee's thinking, but they still eat meat when craving it, suggesting unresolved conflict."
+    "strength": 30
   },
   {
     "stance_1": "I struggle morally with killing animals",
     "stance_2": "My best friend is vegetarian",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The friend's choice to become vegetarian for animal welfare reasons directly influenced the interviewee's moral struggle with eating animals."
+    "strength": 80
   }
 ]

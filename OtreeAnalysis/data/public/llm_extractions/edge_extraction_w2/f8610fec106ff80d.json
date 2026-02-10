@@ -4,127 +4,111 @@
     "stance_2": "I eat chicken breast at home",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee states that when cooking at home, they usually use chicken breast, and also alternate between chicken and beef. These stances reinforce each other."
+    "strength": 60
   },
   {
     "stance_1": "I alternate between chicken and beef",
     "stance_2": "I want to reduce beef consumption",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Alternating between chicken and beef is in tension with the desire to reduce beef consumption."
+    "strength": 70
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I choose grass-fed beef",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that concern for animal welfare motivates choosing grass-fed beef."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned about getting gout",
     "stance_2": "I want to reduce beef consumption",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The desire to avoid gout, as experienced by the interviewee's mother, strongly motivates reducing beef consumption."
+    "strength": 95
   },
   {
     "stance_1": "I am disgusted by poorly raised animals",
     "stance_2": "I choose grass-fed beef",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Being disgusted by poorly raised animals supports the choice of grass-fed beef, as the interviewee directly links these ideas."
+    "strength": 85
   },
   {
     "stance_1": "I believe eating chicken is healthier",
     "stance_2": "I want to reduce beef consumption",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Belief that chicken is healthier provides a motivation to reduce beef consumption."
+    "strength": 80
   },
   {
     "stance_1": "I believe eating chicken is healthier",
     "stance_2": "I eat chicken breast at home",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "The belief that chicken is healthier supports the behavior of eating chicken breast at home."
+    "strength": 60
   },
   {
     "stance_1": "I avoid dark meat",
     "stance_2": "I eat chicken breast at home",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Avoiding dark meat supports the choice to eat chicken breast at home, as explicitly stated."
+    "strength": 70
   },
   {
     "stance_1": "I like the taste of chicken breast",
     "stance_2": "I eat chicken breast at home",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Liking the taste of chicken breast supports the behavior of eating it at home."
+    "strength": 80
   },
   {
     "stance_1": "I rarely eat pork",
     "stance_2": "I eat chicken breast at home",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Rarely eating pork and eating chicken breast at home are both linked to a preference for chicken, though not directly stated as reinforcing."
+    "strength": 40
   },
   {
     "stance_1": "I rarely eat pork",
     "stance_2": "I alternate between chicken and beef",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Alternating between chicken and beef is explicitly stated, with pork being rarely consumed, reinforcing each other."
+    "strength": 60
   },
   {
     "stance_1": "I choose grass-fed beef",
     "stance_2": "I want to reduce beef consumption",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Preferring grass-fed beef may conflict with reducing beef intake, as it could rationalize or justify beef consumption despite the desire to reduce."
+    "strength": 30
   },
   {
     "stance_1": "My mom eats little meat due to gout",
     "stance_2": "I am concerned about getting gout",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee draws a direct link between their mother's experience with gout and their own concern about developing it."
+    "strength": 90
   },
   {
     "stance_1": "My mom eats little meat due to gout",
     "stance_2": "I want to reduce beef consumption",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The mother's reduced meat consumption due to gout serves as a model for the interviewee's desire to reduce beef consumption."
+    "strength": 85
   },
   {
     "stance_1": "My boyfriend prefers to eat more chicken",
     "stance_2": "I eat chicken breast at home",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "The boyfriend's preference for chicken is mentioned as an influence, supporting the behavior of eating chicken breast at home."
+    "strength": 50
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I am disgusted by poorly raised animals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Concern for animal welfare and disgust at poorly raised animals are closely linked by the interviewee."
+    "strength": 90
   }
 ]

@@ -4,79 +4,69 @@
     "stance_2": "I reduced my red meat intake",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that being exposed to others reducing red meat motivates them to reduce their own intake."
+    "strength": 90
   },
   {
     "stance_1": "I am aware of health risks of high meat diets",
     "stance_2": "I think about reducing meat intake",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Awareness of health risks of high meat diets is stated as a reason to think about reducing meat intake."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat for flavor",
     "stance_2": "I try to shift to a vegetarian diet",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Enjoyment of meat for flavor may conflict with trying to shift to a vegetarian diet, though not directly stated."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat for protein",
     "stance_2": "I try to shift to a vegetarian diet",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Eating meat for protein may conflict with shifting to a vegetarian diet, though not directly stated."
+    "strength": 40
   },
   {
     "stance_1": "I reduced my red meat intake",
     "stance_2": "I try to shift to a vegetarian diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly connects reducing red meat intake with trying to shift to a more vegetarian diet."
+    "strength": 90
   },
   {
     "stance_1": "Exposure to others reducing red meat motivates me",
     "stance_2": "I try to shift to a vegetarian diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Exposure to others' dietary changes motivates the interviewee to try to shift to a vegetarian diet."
+    "strength": 70
   },
   {
     "stance_1": "I eat pork or red meat occasionally",
     "stance_2": "I reduced my red meat intake",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Eating pork or red meat only occasionally is a result of red meat reduction."
+    "strength": 70
   },
   {
     "stance_1": "I eat mostly chicken",
     "stance_2": "I reduced my red meat intake",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The shift to mostly chicken is explicitly tied to reducing red meat intake."
+    "strength": 70
   },
   {
     "stance_1": "I think about reducing meat intake",
     "stance_2": "I try to shift to a vegetarian diet",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Thinking about reducing meat intake explicitly supports the decision to try to shift to a vegetarian diet."
+    "strength": 80
   },
   {
     "stance_1": "I think about reducing meat intake",
     "stance_2": "I reduced my red meat intake",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Thinking about reducing meat intake is explicitly connected to reducing red meat intake."
+    "strength": 85
   }
 ]

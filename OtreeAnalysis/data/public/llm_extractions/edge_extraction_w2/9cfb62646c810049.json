@@ -4,79 +4,69 @@
     "stance_2": "I like eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The feeling that a meal without meat is incomplete is explicitly supported by the enjoyment of eating meat."
+    "strength": 90
   },
   {
     "stance_1": "A meal without meat feels incomplete",
     "stance_2": "I try to eat more vegetables than meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Trying to eat more vegetables than meat implicitly conflicts with the feeling that meals without meat are incomplete."
+    "strength": 60
   },
   {
     "stance_1": "I like eating meat",
     "stance_2": "I try to eat more vegetables than meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 55,
-    "justification": "Liking to eat meat conflicts implicitly with the effort to eat more vegetables than meat."
+    "strength": 55
   },
   {
     "stance_1": "I think vegetables are healthier",
     "stance_2": "I try to eat more vegetables than meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The belief that vegetables are healthier explicitly supports the effort to eat more vegetables than meat."
+    "strength": 90
   },
   {
     "stance_1": "I think vegetables are more delicious",
     "stance_2": "I try to eat more vegetables than meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Believing vegetables are more delicious explicitly supports eating more vegetables than meat."
+    "strength": 90
   },
   {
     "stance_1": "Meat can get tiring if eaten too much",
     "stance_2": "I try to eat more vegetables than meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The idea that meat can get tiring if eaten too much explicitly supports eating more vegetables than meat."
+    "strength": 80
   },
   {
     "stance_1": "My family eats more meat than I do",
     "stance_2": "I try to eat more vegetables than meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee contrasts their own higher vegetable and lower meat consumption with their family's higher meat intake."
+    "strength": 60
   },
   {
     "stance_1": "My friends eat more meat than I do",
     "stance_2": "I try to eat more vegetables than meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee contrasts their own higher vegetable and lower meat consumption with their friends' higher meat intake."
+    "strength": 60
   },
   {
     "stance_1": "My family eats more meat than I do",
     "stance_2": "My family enjoys the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "It is explicitly stated that the family's higher meat consumption is due to their enjoyment of the taste."
+    "strength": 90
   },
   {
     "stance_1": "My friends eat more meat than I do",
     "stance_2": "My friends enjoy the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "It is explicitly stated that the friends' higher meat consumption is due to their enjoyment of the taste."
+    "strength": 90
   }
 ]

@@ -4,151 +4,132 @@
     "stance_2": "I eat meat two to three times a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee states being picky about meat types and as a result only eats meat a limited number of times per week."
+    "strength": 70
   },
   {
     "stance_1": "Eating meat is a habit for me",
     "stance_2": "I eat meat two to three times a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly attributes their regular but limited meat consumption to habit."
+    "strength": 80
   },
   {
     "stance_1": "I care about animal welfare",
     "stance_2": "I eat meat two to three times a week",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee wishes to eat less meat for animal welfare reasons, indicating a conflict between their habits and values."
+    "strength": 60
   },
   {
     "stance_1": "I care about the environment",
     "stance_2": "I eat meat two to three times a week",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee wants to eat less meat for ecological reasons, indicating a conflict between environmental concern and actual consumption."
+    "strength": 60
   },
   {
     "stance_1": "I have trouble getting iron from non-meat sources",
     "stance_2": "I eat meat two to three times a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states that difficulty obtaining iron without meat supports their continued meat consumption."
+    "strength": 80
   },
   {
     "stance_1": "I have trouble getting protein from non-meat sources",
     "stance_2": "I eat meat two to three times a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee states that trouble getting protein from non-meat sources is a reason for their ongoing meat consumption."
+    "strength": 80
   },
   {
     "stance_1": "I care about animal welfare",
     "stance_2": "I care about the environment",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee links both animal welfare and environmental concerns as main reasons for wanting to reduce meat consumption."
+    "strength": 70
   },
   {
     "stance_1": "I care about animal welfare",
     "stance_2": "I want to be healthier",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "The interviewee lists both as reasons for wanting to eat less meat, showing a pattern of values supporting reduced meat intake."
+    "strength": 40
   },
   {
     "stance_1": "I care about the environment",
     "stance_2": "I want to be healthier",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "The interviewee expresses both environmental and health motivations for eating less meat."
+    "strength": 40
   },
   {
     "stance_1": "Eating meat is a habit for me",
     "stance_2": "I care about animal welfare",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee wishes to eat less meat for animal welfare reasons, but habit sustains their current consumption."
+    "strength": 60
   },
   {
     "stance_1": "Eating meat is a habit for me",
     "stance_2": "I care about the environment",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee's habit of eating meat conflicts with their desire to eat less for environmental reasons."
+    "strength": 60
   },
   {
     "stance_1": "I have trouble getting iron from non-meat sources",
     "stance_2": "I care about animal welfare",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Difficulty obtaining iron without meat undermines the interviewee's desire to reduce meat for animal welfare reasons."
+    "strength": 50
   },
   {
     "stance_1": "I have trouble getting iron from non-meat sources",
     "stance_2": "I care about the environment",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Difficulty getting iron from non-meat sources makes it harder for the interviewee to act on environmental motivations to reduce meat intake."
+    "strength": 50
   },
   {
     "stance_1": "I have trouble getting protein from non-meat sources",
     "stance_2": "I care about animal welfare",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Protein concerns limit the interviewee's ability to reduce meat consumption for animal welfare reasons."
+    "strength": 50
   },
   {
     "stance_1": "I have trouble getting protein from non-meat sources",
     "stance_2": "I care about the environment",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Trouble getting protein without meat conflicts with environmental motivation to reduce meat consumption."
+    "strength": 50
   },
   {
     "stance_1": "My dad and stepmom are vegetarians",
     "stance_2": "Social contacts are motivated by animal welfare",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states that their dad and stepmom are vegetarians for animal welfare reasons."
+    "strength": 80
   },
   {
     "stance_1": "My dad and stepmom are vegetarians",
     "stance_2": "Social contacts think vegetarianism is healthier",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee states that their dad and stepmom are vegetarians partly because they think it's healthier."
+    "strength": 80
   },
   {
     "stance_1": "Social contacts are motivated by animal welfare",
     "stance_2": "Social contacts think vegetarianism is healthier",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Both motivations are attributed to the same social contacts (dad and stepmom)."
+    "strength": 80
   },
   {
     "stance_1": "I want to be healthier",
     "stance_2": "I eat meat two to three times a week",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The interviewee expresses a desire to be healthier and links this to wanting to eat less meat, suggesting some tension with their current consumption."
+    "strength": 30
   }
 ]

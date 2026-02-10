@@ -4,111 +4,97 @@
     "stance_2": "I was vegetarian for 19 years",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The doctor's advice to eat meat during pregnancy led the interviewee to end 19 years of vegetarianism, creating a direct conflict between the two stances."
+    "strength": 90
   },
   {
     "stance_1": "Doctor advised me to eat meat during pregnancy",
     "stance_2": "I eat red meat zero to two times a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The doctor's advice directly resulted in the interviewee resuming meat consumption, including red meat."
+    "strength": 70
   },
   {
     "stance_1": "Doctor advised me to eat meat during pregnancy",
     "stance_2": "I often don't eat any meat at all",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Doctor's advice to eat meat during pregnancy is in tension with the ongoing tendency to often not eat meat at all."
+    "strength": 30
   },
   {
     "stance_1": "Doctor advised me to eat meat during pregnancy",
     "stance_2": "I eat meat when I feel low on iron and B12",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Both are motivated by health needs, with the doctor's advice establishing a pattern of eating meat for nutritional deficiencies."
+    "strength": 80
   },
   {
     "stance_1": "I crave chicken sometimes",
     "stance_2": "I often don't eat any meat at all",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Craving chicken sometimes conflicts with often not eating any meat."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat when I feel low on iron and B12",
     "stance_2": "I feel physically better after eating fish",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Eating meat for nutritional needs and feeling physically better after eating fish both reflect the supportive role of meat/fish for health."
+    "strength": 50
   },
   {
     "stance_1": "I eat meat when I feel low on iron and B12",
     "stance_2": "I feel mentally better after eating fish",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Eating meat for nutritional needs and feeling mentally better after fish both suggest perceived health benefits from meat/fish."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat when I feel low on iron and B12",
     "stance_2": "I often don't eat any meat at all",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Eating meat when feeling low on iron/B12 conflicts with often not eating any meat at all."
+    "strength": 50
   },
   {
     "stance_1": "I eat red meat zero to two times a week",
     "stance_2": "I often don't eat any meat at all",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Eating red meat zero to two times a week conflicts with often not eating any meat at all."
+    "strength": 60
   },
   {
     "stance_1": "I feel mentally better after eating fish",
     "stance_2": "I feel physically better after eating fish",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that both physical and mental wellbeing improve after eating fish."
+    "strength": 90
   },
   {
     "stance_1": "I was vegetarian for 19 years",
     "stance_2": "I eat red meat zero to two times a week",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Being vegetarian for 19 years and now eating red meat are in direct conflict."
+    "strength": 80
   },
   {
     "stance_1": "I was vegetarian for 19 years",
     "stance_2": "I eat meat when I feel low on iron and B12",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Being vegetarian for 19 years is in tension with the current practice of eating meat for nutritional reasons."
+    "strength": 40
   },
   {
     "stance_1": "My husband eats the same way I do",
     "stance_2": "I eat red meat zero to two times a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee's husband eats the same way, supporting the interviewee's red meat consumption pattern."
+    "strength": 60
   },
   {
     "stance_1": "My husband eats the same way I do",
     "stance_2": "I often don't eat any meat at all",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The husband eating the same way supports the interviewee's habit of often not eating meat."
+    "strength": 60
   }
 ]

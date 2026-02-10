@@ -4,103 +4,90 @@
     "stance_2": "I stopped eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The belief that eating meat frequently is unhealthy supports the decision to stop eating meat."
+    "strength": 85
   },
   {
     "stance_1": "I cannot fully afford a vegetarian diet",
     "stance_2": "I started eating fish due to financial reasons",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The inability to afford a vegetarian diet directly supports the decision to start eating fish again for financial reasons."
+    "strength": 95
   },
   {
     "stance_1": "I do not want to participate in animal breeding for consumption",
     "stance_2": "I stopped eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Desire to avoid participating in animal breeding for consumption supports stopping eating meat."
+    "strength": 80
   },
   {
     "stance_1": "I eat salmon twice a month",
     "stance_2": "I started eating fish due to financial reasons",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The return to eating fish (salmon) is explicitly linked to financial reasons."
+    "strength": 90
   },
   {
     "stance_1": "I feel good not eating mammals",
     "stance_2": "I stopped eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The positive feeling from not eating mammals is a direct result of stopping eating meat."
+    "strength": 85
   },
   {
     "stance_1": "I stopped eating meat",
     "stance_2": "I want to maintain a healthy weight",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Stopping eating meat is explicitly motivated by the desire to maintain a healthy weight."
+    "strength": 90
   },
   {
     "stance_1": "I stopped eating meat",
     "stance_2": "I want to prevent health issues",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Preventing health issues is an explicit motivation for stopping meat consumption."
+    "strength": 90
   },
   {
     "stance_1": "I started eating fish due to financial reasons",
     "stance_2": "I stopped eating meat",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Resuming fish consumption for financial reasons partially conflicts with the stance of stopping eating meat."
+    "strength": 60
   },
   {
     "stance_1": "I want to maintain a healthy weight",
     "stance_2": "I want to prevent health issues",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Both goals are cited together as motivations for dietary changes, supporting each other."
+    "strength": 75
   },
   {
     "stance_1": "Meat alternatives are available and versatile",
     "stance_2": "I stopped eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Availability of meat alternatives makes it easier to stop eating meat."
+    "strength": 60
   },
   {
     "stance_1": "My family returned to eating meat after leaving home",
     "stance_2": "My family stopped eating meat together",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Family initially stopped eating meat together, but later some members returned to eating meat, showing a reversal."
+    "strength": 85
   },
   {
     "stance_1": "Eating meat three times a day is unhealthy",
     "stance_2": "I want to prevent health issues",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Belief that frequent meat eating is unhealthy supports the motivation to prevent health issues."
+    "strength": 85
   },
   {
     "stance_1": "Eating meat three times a day is unhealthy",
     "stance_2": "I want to maintain a healthy weight",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Belief that frequent meat eating is unhealthy supports the motivation to maintain a healthy weight."
+    "strength": 80
   }
 ]

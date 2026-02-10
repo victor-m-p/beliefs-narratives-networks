@@ -4,47 +4,41 @@
     "stance_2": "I eat meat at every meal",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "The fact that all family and friends eat meat likely reinforces or normalizes the interviewee's routine of eating meat at every meal."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat at every meal",
     "stance_2": "I enjoy the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states that enjoyment of taste motivates their regular meat consumption."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat at every meal",
     "stance_2": "I value meat for its protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly cites valuing meat's protein as a motivation for eating it at every meal."
+    "strength": 80
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "I value meat for its protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Both enjoyment of taste and valuing protein are given as co-occurring, explicit motivations for eating meat."
+    "strength": 70
   },
   {
     "stance_1": "All my family and friends eat meat",
     "stance_2": "I enjoy the taste of meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "It is plausible that a social environment where everyone eats meat supports enjoying the taste, though this is not directly stated."
+    "strength": 30
   },
   {
     "stance_1": "All my family and friends eat meat",
     "stance_2": "I value meat for its protein",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "The interviewee assumes others eat meat for protein, suggesting a weak but plausible mutual reinforcement between social environment and valuing protein."
+    "strength": 30
   }
 ]

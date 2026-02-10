@@ -4,31 +4,27 @@
     "stance_2": "I am trying to eat less meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Interviewee states they are eating less meat because of environmental concerns."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned about health effects of processed meat substitutes",
     "stance_2": "I am trying to eat less meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Concern about health effects of processed substitutes may conflict with the effort to eat less meat if substitutes are the main alternative."
+    "strength": 40
   },
   {
     "stance_1": "I am concerned about health effects of processed meat substitutes",
     "stance_2": "Meat substitutes are improving",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Interviewee explicitly expresses concern about health effects even as they acknowledge improvement in meat substitutes."
+    "strength": 60
   },
   {
     "stance_1": "I am trying to eat less meat",
     "stance_2": "Meat substitutes are improving",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Interviewee cites improved meat substitutes as a factor that makes eating less meat easier."
+    "strength": 70
   }
 ]

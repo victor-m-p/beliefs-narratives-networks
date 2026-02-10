@@ -4,79 +4,69 @@
     "stance_2": "I prefer to eat chicken",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Chicken is commonly considered a lean meat, and the interviewee's preference for chicken supports their motivation to eat lean meats for protein."
+    "strength": 60
   },
   {
     "stance_1": "Eating lean meat is easiest for protein",
     "stance_2": "I do not like beans",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee explicitly states beans are not liked and lean meat is their easiest protein source, so disliking beans supports the use of lean meat for protein."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat with dinner",
     "stance_2": "I feel comfortable with my current meat routine",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 35,
-    "justification": "Regularly eating meat with dinner aligns with feeling comfortable with the established routine."
+    "strength": 35
   },
   {
     "stance_1": "I feel comfortable with my current meat routine",
     "stance_2": "I prefer to eat chicken",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Comfort with current routine is supported by a preference for chicken, the main meat consumed."
+    "strength": 40
   },
   {
     "stance_1": "I do not eat a lot of pork",
     "stance_2": "I prefer to eat chicken",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The preference for chicken is explicitly contrasted with not eating much pork."
+    "strength": 60
   },
   {
     "stance_1": "I enjoy eating meat",
     "stance_2": "I feel comfortable with my current meat routine",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Enjoyment of meat supports comfort with the current meat-eating routine."
+    "strength": 50
   },
   {
     "stance_1": "I enjoy eating meat",
     "stance_2": "I prefer to eat chicken",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Enjoying meat generally supports the preference for a specific kind of meat (chicken)."
+    "strength": 30
   },
   {
     "stance_1": "I do not eat a lot of pork",
     "stance_2": "My girlfriend prefers pork",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly contrasts their low pork consumption with their girlfriend's preference for pork."
+    "strength": 80
   },
   {
     "stance_1": "I prefer to eat chicken",
     "stance_2": "My family eats chicken more than red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee's preference for chicken is explicitly linked to their family habit of eating chicken more than red meat."
+    "strength": 70
   },
   {
     "stance_1": "I lack recipes for different types of meat",
     "stance_2": "I prefer to eat chicken",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Interviewee explicitly states they eat more chicken due to lack of recipes for other meats."
+    "strength": 60
   }
 ]

@@ -4,103 +4,90 @@
     "stance_2": "I cut back on red meats",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly states that price is a motivation for reducing red meat consumption."
+    "strength": 80
   },
   {
     "stance_1": "I am motivated by price",
     "stance_2": "I eat less meat than I did when younger",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Reducing overall meat intake is partially motivated by price, as stated by the interviewee."
+    "strength": 60
   },
   {
     "stance_1": "I enjoy cooking chicken",
     "stance_2": "I eat a lot of chicken",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly says they enjoy cooking chicken and eat a lot of it."
+    "strength": 85
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "I eat a lot of chicken",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Enjoying the taste of meat supports frequent chicken consumption, as chicken is the interviewee's main meat."
+    "strength": 70
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "I want to gain weight",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Enjoyment of meat and desire for high protein (for weight gain) both support ongoing meat consumption."
+    "strength": 30
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "I eat less meat than I did when younger",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Enjoying meat could make reducing consumption harder, though health and price motivate reduction."
+    "strength": 25
   },
   {
     "stance_1": "I eat a lot of chicken",
     "stance_2": "I eat less meat than I did when younger",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Eating more chicken is a specific way the interviewee has reduced total meat and red meat intake."
+    "strength": 50
   },
   {
     "stance_1": "I eat a lot of chicken",
     "stance_2": "I have health concerns",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee explicitly links eating more chicken to health motivations."
+    "strength": 70
   },
   {
     "stance_1": "I eat less meat than I did when younger",
     "stance_2": "I cut back on red meats",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Cutting back on red meats is the main way the interviewee has eaten less meat overall."
+    "strength": 90
   },
   {
     "stance_1": "I eat less meat than I did when younger",
     "stance_2": "I have health concerns",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Health concerns are the primary reason for reducing overall meat intake."
+    "strength": 90
   },
   {
     "stance_1": "I want to gain weight",
     "stance_2": "I eat less meat than I did when younger",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Trying to gain weight (and thus eat more protein) may conflict with reducing meat intake."
+    "strength": 30
   },
   {
     "stance_1": "I have health concerns",
     "stance_2": "I cut back on red meats",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 100,
-    "justification": "The interviewee explicitly states health concerns as the reason for cutting back on red meats."
+    "strength": 100
   },
   {
     "stance_1": "I have health concerns",
     "stance_2": "I am motivated by price",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Both health and price are stated as reasons for reducing meat, especially red meat."
+    "strength": 60
   }
 ]

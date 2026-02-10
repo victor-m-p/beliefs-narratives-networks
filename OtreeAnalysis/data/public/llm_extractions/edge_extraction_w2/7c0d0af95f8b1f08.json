@@ -4,175 +4,153 @@
     "stance_2": "Family wants meat for protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "The interviewee states both that the family wants meat for protein and enjoys its taste, showing these motivations support each other."
+    "strength": 40
   },
   {
     "stance_1": "Family enjoys the taste of meat",
     "stance_2": "I am the main cook in the house",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Because the interviewee is the main cook, their family's enjoyment of meat's taste is partly enabled by what is cooked."
+    "strength": 30
   },
   {
     "stance_1": "Family wants meat for protein",
     "stance_2": "I am the main cook in the house",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "As the main cook, the interviewee provides meat, supporting the family's desire for protein."
+    "strength": 40
   },
   {
     "stance_1": "Family habits encourage eating meat",
     "stance_2": "I eat meat daily",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "The interviewee says family habits are a reason for eating meat daily."
+    "strength": 50
   },
   {
     "stance_1": "Family habits encourage eating meat",
     "stance_2": "I eat mostly poultry",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Family habits support the interviewee's regular consumption of poultry."
+    "strength": 30
   },
   {
     "stance_1": "Family habits encourage eating meat",
     "stance_2": "I enjoy the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "The interviewee lists both family habits and taste as reasons for eating meat, showing mutual reinforcement."
+    "strength": 40
   },
   {
     "stance_1": "Family habits encourage eating meat",
     "stance_2": "Meat is filling",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "Family habits and finding meat filling are both cited as supportive reasons for meat consumption."
+    "strength": 30
   },
   {
     "stance_1": "I am the main cook in the house",
     "stance_2": "I eat meat daily",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Being the main cook likely facilitates the interviewee's daily meat eating, as they control meal content."
+    "strength": 25
   },
   {
     "stance_1": "I am the main cook in the house",
     "stance_2": "I eat mostly poultry",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "As the main cook, the interviewee can choose to prepare mostly poultry."
+    "strength": 25
   },
   {
     "stance_1": "I am the main cook in the house",
     "stance_2": "We raise chickens for eggs and meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 35,
-    "justification": "Being the main cook and raising chickens supports frequent poultry consumption."
+    "strength": 35
   },
   {
     "stance_1": "I eat meat daily",
     "stance_2": "I eat mostly poultry",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee explicitly states eating meat daily, mostly poultry."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat daily",
     "stance_2": "I enjoy the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Enjoyment of taste is cited as a reason for daily meat consumption."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat daily",
     "stance_2": "Meat is filling",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Meat being filling is given as a reason for daily consumption."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat daily",
     "stance_2": "We raise chickens for eggs and meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Raising chickens is given as a driving factor for eating meat daily, especially poultry."
+    "strength": 50
   },
   {
     "stance_1": "I eat mostly poultry",
     "stance_2": "We raise chickens for eggs and meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Raising chickens for eggs and meat is stated as a main reason for eating mostly poultry."
+    "strength": 60
   },
   {
     "stance_1": "I enjoy the taste of meat",
     "stance_2": "Meat is filling",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "Both are cited as reasons for eating meat, reinforcing each other."
+    "strength": 30
   },
   {
     "stance_1": "I make meat-free meals for speed",
     "stance_2": "I occasionally make meat-free meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Speed is given as a direct motivation for making meat-free meals."
+    "strength": 80
   },
   {
     "stance_1": "I make meat-free meals due to ingredient availability",
     "stance_2": "I occasionally make meat-free meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Ingredient availability is directly cited as a motivation for making meat-free meals."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat daily",
     "stance_2": "I occasionally make meat-free meals",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "Eating meat daily and occasionally making meat-free meals are in mild conflict, but not mutually exclusive."
+    "strength": 30
   },
   {
     "stance_1": "I eat mostly poultry",
     "stance_2": "I occasionally make meat-free meals",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Regular poultry consumption is in mild tension with making meat-free meals, but both are present in the interviewee's habits."
+    "strength": 25
   },
   {
     "stance_1": "I make meat-free meals due to ingredient availability",
     "stance_2": "I make meat-free meals for speed",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Speed and ingredient availability are both practical motivations for making meat-free meals, supporting each other."
+    "strength": 25
   },
   {
     "stance_1": "I eat mostly poultry",
     "stance_2": "We raise chickens for eggs and meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee says raising chickens is a driving factor for eating mostly poultry."
+    "strength": 60
   }
 ]

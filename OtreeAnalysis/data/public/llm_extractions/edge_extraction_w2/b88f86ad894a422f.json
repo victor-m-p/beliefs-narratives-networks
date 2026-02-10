@@ -4,167 +4,146 @@
     "stance_2": "I prefer fish, chicken, and turkey",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Limiting red meat is supported by a preference for fish, chicken, and turkey, which are chosen instead."
+    "strength": 85
   },
   {
     "stance_1": "I limit red meat to once a week",
     "stance_2": "I try to find healthier proteins",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The explicit motivation for limiting red meat is to eat healthier proteins."
+    "strength": 90
   },
   {
     "stance_1": "I limit red meat to once a week",
     "stance_2": "I am trying to lower cholesterol",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Limiting red meat is explicitly tied to lowering cholesterol."
+    "strength": 80
   },
   {
     "stance_1": "I limit red meat to once a week",
     "stance_2": "I am trying to lose weight",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Limiting red meat is part of a broader effort to lose weight."
+    "strength": 75
   },
   {
     "stance_1": "I try to find healthier proteins",
     "stance_2": "I prefer fish, chicken, and turkey",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Preference for fish, chicken, and turkey is explicitly tied to seeking healthier proteins."
+    "strength": 90
   },
   {
     "stance_1": "I try to find healthier proteins",
     "stance_2": "I am trying to lower cholesterol",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Seeking healthier proteins is explicitly tied to lowering cholesterol."
+    "strength": 80
   },
   {
     "stance_1": "I try to find healthier proteins",
     "stance_2": "I am trying to lose weight",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 75,
-    "justification": "Seeking healthier proteins supports weight loss efforts."
+    "strength": 75
   },
   {
     "stance_1": "I am trying to lower cholesterol",
     "stance_2": "I am trying to lose weight",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 65,
-    "justification": "Both goals motivate similar dietary choices, supporting each other."
+    "strength": 65
   },
   {
     "stance_1": "I am trying to lose weight",
     "stance_2": "Protein is important for me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Protein intake is emphasized as important for weight loss."
+    "strength": 70
   },
   {
     "stance_1": "I try to find healthier proteins",
     "stance_2": "Protein is important for me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Seeking healthier proteins is explicitly linked to the importance of protein."
+    "strength": 70
   },
   {
     "stance_1": "I prefer fish, chicken, and turkey",
     "stance_2": "Protein is important for me",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Preference for these protein sources supports the stance that protein is important."
+    "strength": 60
   },
   {
     "stance_1": "My husband limits red meat",
     "stance_2": "My husband prefers chicken, turkey, fish, or eggs",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Husband's limitation of red meat is supported by his preference for other proteins."
+    "strength": 90
   },
   {
     "stance_1": "My husband is trying to lose weight",
     "stance_2": "My husband wants to build muscle",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Losing weight and building muscle are both motivating his dietary choices."
+    "strength": 80
   },
   {
     "stance_1": "My husband is trying to lower cholesterol",
     "stance_2": "My husband limits red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "Limiting red meat is explicitly motivated by lowering cholesterol."
+    "strength": 85
   },
   {
     "stance_1": "My husband prefers chicken, turkey, fish, or eggs",
     "stance_2": "My husband limits red meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Preference for these proteins supports limiting red meat."
+    "strength": 90
   },
   {
     "stance_1": "My husband is trying to lose weight",
     "stance_2": "My husband prefers chicken, turkey, fish, or eggs",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Choosing leaner proteins supports weight loss."
+    "strength": 70
   },
   {
     "stance_1": "My husband wants to build muscle",
     "stance_2": "Protein is important for me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Building muscle is supported by prioritizing protein intake."
+    "strength": 60
   },
   {
     "stance_1": "My husband is trying to lower cholesterol",
     "stance_2": "My husband prefers chicken, turkey, fish, or eggs",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Preference for these proteins is explicitly linked to cholesterol concerns."
+    "strength": 70
   },
   {
     "stance_1": "We make most of our meals at home",
     "stance_2": "I rarely eat out",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "Stated that making meals at home is easier because they rarely eat out."
+    "strength": 95
   },
   {
     "stance_1": "We make most of our meals at home",
     "stance_2": "I limit red meat to once a week",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 65,
-    "justification": "Control over meal preparation at home supports ability to limit red meat."
+    "strength": 65
   },
   {
     "stance_1": "We make most of our meals at home",
     "stance_2": "I prefer fish, chicken, and turkey",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 65,
-    "justification": "Meal planning at home supports implementing preferred protein choices."
+    "strength": 65
   }
 ]

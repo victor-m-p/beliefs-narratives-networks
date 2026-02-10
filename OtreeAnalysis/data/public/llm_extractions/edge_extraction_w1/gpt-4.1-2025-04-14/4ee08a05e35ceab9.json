@@ -4,71 +4,62 @@
     "stance_2": "I eat meat because it is the main ingredient",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly states they eat meat because it is the main ingredient and has never tried alternatives, showing a direct supportive connection."
+    "strength": 85
   },
   {
     "stance_1": "I do not consider alternatives to meat",
     "stance_2": "I use beef for most dinners",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 55,
-    "justification": "Not considering alternatives to meat supports the routine use of beef for dinners, as alternatives are never explored."
+    "strength": 55
   },
   {
     "stance_1": "I do not consider alternatives to meat",
     "stance_2": "I use bacon for most breakfasts",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 55,
-    "justification": "Not considering alternatives to meat supports the repeated use of bacon for breakfasts, as alternatives are not considered."
+    "strength": 55
   },
   {
     "stance_1": "I eat meat because it is the main ingredient",
     "stance_2": "I use beef for most dinners",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Seeing meat as the main ingredient supports the regular use of beef for dinners."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat because it is the main ingredient",
     "stance_2": "I use bacon for most breakfasts",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Seeing meat as the main ingredient supports the routine use of bacon for breakfasts."
+    "strength": 60
   },
   {
     "stance_1": "My family and friends have similar meat-eating routines",
     "stance_2": "I use beef for most dinners",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "The interviewee reports similar routines with family and friends, which supports the consistent use of beef for dinners."
+    "strength": 50
   },
   {
     "stance_1": "My family and friends have similar meat-eating routines",
     "stance_2": "I use bacon for most breakfasts",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "The interviewee reports similar routines with family and friends, which supports the consistent use of bacon for breakfasts."
+    "strength": 50
   },
   {
     "stance_1": "My family and friends have similar meat-eating routines",
     "stance_2": "My uncle provides processed meat from hunting",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 65,
-    "justification": "The uncle's practice of providing processed meat is explicitly described as part of shared family routines."
+    "strength": 65
   },
   {
     "stance_1": "My uncle provides processed meat from hunting",
     "stance_2": "I use beef for most dinners",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 45,
-    "justification": "The uncle's provision of processed beef supports the availability and use of beef for dinners, though not directly stated."
+    "strength": 45
   }
 ]

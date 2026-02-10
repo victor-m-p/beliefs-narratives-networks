@@ -4,103 +4,90 @@
     "stance_2": "I eat meat daily",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "The high cost of certain meats could make daily meat consumption more difficult, but the interviewee states they eat meat daily, suggesting a potential conflict."
+    "strength": 30
   },
   {
     "stance_1": "High cost of certain meats",
     "stance_2": "Meat is my main source of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "When certain meats are expensive, the interviewee switches to other meats, maintaining meat as the main protein source, showing cost shapes but does not undermine meat-protein reliance."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat daily",
     "stance_2": "I prefer the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee explicitly connects daily meat consumption to preference for its taste."
+    "strength": 80
   },
   {
     "stance_1": "I eat meat daily",
     "stance_2": "Meat is my main source of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Daily consumption is directly supported by the motivation that meat is the main protein source."
+    "strength": 90
   },
   {
     "stance_1": "I eat meat daily",
     "stance_2": "I believe meat is healthy",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The belief that meat is healthy supports the behavior of eating it daily."
+    "strength": 70
   },
   {
     "stance_1": "I eat meat daily",
     "stance_2": "Most people I know eat meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee and most people they know both eat meat, supporting a social norm."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat daily",
     "stance_2": "People around me prefer the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "The preference for meat's taste among peers supports the interviewee's own daily meat eating, though the connection is somewhat indirect."
+    "strength": 40
   },
   {
     "stance_1": "I prefer the taste of meat",
     "stance_2": "Meat is my main source of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Taste and protein are both cited as main motivations for eating meat, supporting each other."
+    "strength": 60
   },
   {
     "stance_1": "I prefer the taste of meat",
     "stance_2": "Most people I know eat meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "The interviewee and their peers both prefer the taste of meat, supporting the shared habit of eating meat."
+    "strength": 50
   },
   {
     "stance_1": "I prefer the taste of meat",
     "stance_2": "People around me prefer the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "Both the interviewee and people around them explicitly share a preference for the taste of meat."
+    "strength": 90
   },
   {
     "stance_1": "I believe meat is healthy",
     "stance_2": "Meat is my main source of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The belief that meat is healthy supports choosing it as the main source of protein."
+    "strength": 80
   },
   {
     "stance_1": "Meat is my main source of protein",
     "stance_2": "Most people I know eat meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "It is likely that shared meat-eating habits in the social group are also motivated by protein, though not all details are explicit."
+    "strength": 30
   },
   {
     "stance_1": "Most people I know eat meat",
     "stance_2": "People around me prefer the taste of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "It is explicitly stated that most people the interviewee knows eat meat because they prefer the taste."
+    "strength": 80
   }
 ]

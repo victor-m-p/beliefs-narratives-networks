@@ -4,79 +4,69 @@
     "stance_2": "I have not thought about reducing meat consumption",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The lack of appeal for vegetarianism or veganism explicitly supports not thinking about reducing meat consumption."
+    "strength": 90
   },
   {
     "stance_1": "I like the taste of meat",
     "stance_2": "I like to get protein in my meals",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Taste and desire for protein are both cited as main motivations for meat consumption, explicitly reinforcing each other as reasons to eat meat."
+    "strength": 80
   },
   {
     "stance_1": "I eat beef once or twice a week",
     "stance_2": "I like the taste of meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Eating beef is likely supported by liking the taste of meat, though not stated directly."
+    "strength": 60
   },
   {
     "stance_1": "I eat beef once or twice a week",
     "stance_2": "I like to get protein in my meals",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Eating beef is likely supported by the desire for protein intake, as protein is given as a main reason for eating meat."
+    "strength": 60
   },
   {
     "stance_1": "I eat chicken a few days a week",
     "stance_2": "I like the taste of meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Eating chicken is likely supported by liking the taste of meat, as taste is a main reason given."
+    "strength": 60
   },
   {
     "stance_1": "I eat chicken a few days a week",
     "stance_2": "I like to get protein in my meals",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Eating chicken is likely supported by the desire for protein, as stated in motivations for eating meat."
+    "strength": 60
   },
   {
     "stance_1": "I eat chicken a few days a week",
     "stance_2": "I eat beef once or twice a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "Both are habitual meat-eating behaviors, and the transcript frames them as part of a routine, mutually reinforcing meat consumption."
+    "strength": 40
   },
   {
     "stance_1": "I like the taste of meat",
     "stance_2": "My boyfriend eats a lot of meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 30,
-    "justification": "Shared enjoyment of meat is implied as a similarity between the interviewee and her boyfriend."
+    "strength": 30
   },
   {
     "stance_1": "I like to get protein in my meals",
     "stance_2": "My boyfriend eats a lot of meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "Both the interviewee and her boyfriend are motivated by protein intake for eating meat, making this a shared explicit motivation."
+    "strength": 60
   },
   {
     "stance_1": "My boyfriend eats a lot of meat",
     "stance_2": "My boyfriend likes to get a lot of protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The boyfriend's high meat consumption is explicitly linked to his desire for protein."
+    "strength": 90
   }
 ]

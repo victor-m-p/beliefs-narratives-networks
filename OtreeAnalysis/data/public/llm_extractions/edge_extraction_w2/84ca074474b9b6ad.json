@@ -4,47 +4,41 @@
     "stance_2": "I eat less pork than I did growing up",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee states that eating less pork is linked to enjoying breakfast less, as pork was mostly consumed as breakfast meat."
+    "strength": 85
   },
   {
     "stance_1": "I eat meat at least once a day",
     "stance_2": "I enjoy eating meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Enjoyment of eating meat implicitly supports the routine of eating meat at least once daily."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat at least once a day",
     "stance_2": "Meat is a good source of protein for me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee cites meat as a good source of protein as a reason for including it regularly in their diet."
+    "strength": 70
   },
   {
     "stance_1": "I enjoy eating meat",
     "stance_2": "Meat is a good source of protein for me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 60,
-    "justification": "The interviewee gives both enjoyment and protein content as reasons for eating meat."
+    "strength": 60
   },
   {
     "stance_1": "I eat meat at least once a day",
     "stance_2": "My friends eat a lot of meat",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Similar routines among social circles can reinforce frequent meat consumption."
+    "strength": 40
   },
   {
     "stance_1": "I eat meat at least once a day",
     "stance_2": "My parents do not eat red meat",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 35,
-    "justification": "Parents' avoidance of red meat contrasts with the interviewee's frequent meat consumption, highlighting a difference in dietary habits, though not direct conflict."
+    "strength": 35
   }
 ]

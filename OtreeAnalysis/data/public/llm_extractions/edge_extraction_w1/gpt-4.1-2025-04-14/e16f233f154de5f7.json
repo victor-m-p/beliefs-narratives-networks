@@ -4,87 +4,76 @@
     "stance_2": "I am concerned about factory farming practices",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee's concern about animal welfare is explicitly connected to concerns about factory farming practices, such as inhumane treatment and crowded conditions."
+    "strength": 90
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I eat chicken regularly",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Concern for animal welfare implicitly conflicts with the regular consumption of chicken, as most chicken is produced under industrial conditions raising animal welfare issues."
+    "strength": 40
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "I eat vegetarian meals several days a week",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Eating vegetarian meals supports concern for animal welfare by reducing animal consumption."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about factory farming practices",
     "stance_2": "I eat chicken regularly",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 40,
-    "justification": "Concern about factory farming practices implicitly conflicts with eating chicken regularly, as most chicken is factory farmed."
+    "strength": 40
   },
   {
     "stance_1": "I am concerned about factory farming practices",
     "stance_2": "I eat vegetarian meals several days a week",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "Eating vegetarian meals is a behavior that supports concerns about factory farming by reducing demand for factory-farmed meat."
+    "strength": 50
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "Social contacts are concerned about animal welfare",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "The interviewee states that their daughter's motivations regarding meat avoidance (animal welfare) are influencing their own growing concerns."
+    "strength": 70
   },
   {
     "stance_1": "I am concerned about animal welfare",
     "stance_2": "Social contacts avoid meat except chicken",
     "polarity": "positive",
     "explicitness": "implicit",
-    "strength": 50,
-    "justification": "The interviewee's growing concern for animal welfare is supported by the similar stance of close social contacts who avoid most meat for animal welfare reasons."
+    "strength": 50
   },
   {
     "stance_1": "I include meat for extra protein",
     "stance_2": "I eat vegetarian meals several days a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 30,
-    "justification": "The interviewee balances vegetarian meals with including meat for extra protein, explicitly describing meal choices as context-dependent."
+    "strength": 30
   },
   {
     "stance_1": "I include meat for extra protein",
     "stance_2": "I eat chicken regularly",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "The inclusion of meat for extra protein directly supports the regular consumption of chicken."
+    "strength": 40
   },
   {
     "stance_1": "I eat chicken regularly",
     "stance_2": "I eat vegetarian meals several days a week",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 40,
-    "justification": "The interviewee explicitly describes a diet pattern that balances regular chicken consumption with several vegetarian meals per week."
+    "strength": 40
   },
   {
     "stance_1": "Social contacts are concerned about animal welfare",
     "stance_2": "Social contacts avoid meat except chicken",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly says social contacts avoid meat except chicken due to concern for animal welfare."
+    "strength": 90
   }
 ]

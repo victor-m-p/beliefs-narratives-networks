@@ -4,87 +4,76 @@
     "stance_2": "I want to stop eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 95,
-    "justification": "The interviewee states that animal suffering is the reason for wanting to stop eating meat."
+    "strength": 95
   },
   {
     "stance_1": "I am concerned about animal suffering",
     "stance_2": "Some social contacts are vegan for animal welfare",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "The interviewee says their vegan friends share the same concern about animal suffering."
+    "strength": 80
   },
   {
     "stance_1": "I am concerned about animal suffering",
     "stance_2": "I eat chicken and turkey",
     "polarity": "negative",
     "explicitness": "implicit",
-    "strength": 60,
-    "justification": "Concern about animal suffering is in tension with continuing to eat some meat (chicken and turkey)."
+    "strength": 60
   },
   {
     "stance_1": "I am concerned about animal suffering",
     "stance_2": "I do not eat pork or beef",
     "polarity": "implicit",
     "explicitness": "implicit",
-    "strength": 25,
-    "justification": "Choosing not to eat pork or beef may be partially motivated by animal welfare concerns, though cost is also mentioned."
+    "strength": 25
   },
   {
     "stance_1": "I eat chicken and turkey",
     "stance_2": "I do not eat pork or beef",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee explicitly states they avoid pork and beef but do eat chicken and turkey."
+    "strength": 90
   },
   {
     "stance_1": "I do not eat pork or beef",
     "stance_2": "Meat is too expensive for me",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 85,
-    "justification": "The interviewee explicitly states cost is the reason for not eating pork or beef."
+    "strength": 85
   },
   {
     "stance_1": "I want to stop eating meat",
     "stance_2": "I eat chicken and turkey",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Wanting to stop eating meat is in conflict with currently eating chicken and turkey."
+    "strength": 70
   },
   {
     "stance_1": "I want to stop eating meat",
     "stance_2": "I do not eat pork or beef",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 50,
-    "justification": "Not eating pork or beef is a step toward stopping eating meat."
+    "strength": 50
   },
   {
     "stance_1": "I want to stop eating meat",
     "stance_2": "I can get protein without eating meat",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 80,
-    "justification": "Finding alternative protein sources supports the motivation to stop eating meat."
+    "strength": 80
   },
   {
     "stance_1": "Some social contacts eat meat for taste",
     "stance_2": "Some social contacts think vegan diets lack protein",
     "polarity": "positive",
     "explicitness": "explicit",
-    "strength": 70,
-    "justification": "Both are given as motivations for eating meat among social contacts."
+    "strength": 70
   },
   {
     "stance_1": "I can get protein without eating meat",
     "stance_2": "Some social contacts think vegan diets lack protein",
     "polarity": "negative",
     "explicitness": "explicit",
-    "strength": 90,
-    "justification": "The interviewee's experience contradicts the belief of some social contacts that vegan diets lack protein."
+    "strength": 90
   }
 ]
