@@ -1,6 +1,6 @@
 # beliefs-narratives-networks
 
-Code and survey instrument for "Visual Network tool: Individual belief networks from LLM-guided interviews and a visual canvas" preprint (Victor Poulsen, Peter Steiglechner, Henrik Olsson, Mirta Galesic).
+Code and survey instrument for "Visual Network tool: Individual belief networks from LLM-guided interviews and a visual canvas" preprint (Victor Møller Poulsen, Peter Steiglechner, Henrik Olsson, Mirta Galesic).
 
 ## Refactoring note
 

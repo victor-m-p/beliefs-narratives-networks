@@ -1,6 +1,6 @@
 # OtreeAnalysis
 
-Analysis and data for "Visual Network tool: Individual belief networks from LLM-guided interviews and a visual canvas" preprint (Victor Poulsen, Peter Steiglechner, Henrik Olsson, Mirta Galesic).
+Analysis and data for "Visual Network tool: Individual belief networks from LLM-guided interviews and a visual canvas" preprint (Victor Møller Poulsen, Peter Steiglechner, Henrik Olsson, Mirta Galesic).
 
 ## Refactoring note
 
