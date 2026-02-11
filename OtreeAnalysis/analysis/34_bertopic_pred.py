@@ -32,7 +32,6 @@ import matplotlib.pyplot as plt
 
 from helpers import normalize_ab
 
-
 # -----------------------------
 # Config
 # -----------------------------
@@ -93,7 +92,6 @@ def load_nodes(stmt_csv: Path) -> pd.DataFrame:
     df = pd.read_csv(stmt_csv)[["key", "wave", "topic"]].copy()
     if REMOVE_OUTLIER_TOPIC:
         df = df[df["topic"] != -1].copy()
-
     df["key"] = df["key"].astype(str)
     df["wave"] = pd.to_numeric(df["wave"], errors="raise").astype(int)
     df["topic"] = pd.to_numeric(df["topic"], errors="raise").astype(int)
@@ -163,7 +161,6 @@ def plot_curve(agg: pd.DataFrame, baseline: float, outpath: Path) -> None:
     plt.savefig(outpath, dpi=300, bbox_inches="tight")
     plt.close()
 
-
 # -----------------------------
 # Main
 # -----------------------------
@@ -214,11 +211,3 @@ df = pd.DataFrame(rows).sort_values("delta_deg4p_baseline", ascending=False).res
 df.to_csv(OUTDIR / "overview_top10__persistence_degree.csv", index=False)
 
 print("\nSaved:", OUTDIR)
-
-### going through manually ###
-df = pd.read_csv(edge_csv)[["wave", "key", "topic_1", "topic_2"]].copy()
-
-'''
-problem here though might be with nodes,
-at least we really need them and not sure how we merge if we just use topic here...
-'''
