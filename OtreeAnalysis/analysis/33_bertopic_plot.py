@@ -130,7 +130,6 @@ def topics_present(data_by_key, key, s2t):
         out.add(t)
     return out
 
-
 # -------------------------
 # Graphs
 # -------------------------
@@ -165,7 +164,6 @@ def build_stance_graph(data_by_key, key, s2t, tcolor):
         ed["polarity"] = collapse_polarity(ed.pop("_p"))
 
     return pos, G
-
 
 def build_topic_graph(data_by_key, key, s2t, tcolor):
     d = data_by_key[key]
