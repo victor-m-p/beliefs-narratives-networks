@@ -153,3 +153,124 @@ heatmap_avg_percent_by_key(
     title="Canvas-LLM consistency",
     outpath=os.path.join(outdir, "canvas_llm.png"),
 )
+
+
+# =============================================================
+# below not used for the preprint
+# =============================================================
+# Question: are inconsistent / missing edges between less relevant nodes?
+#   - Node relevance: data[key]["nodes"]["relevance"] → {belief, relevance 0-100}
+#   - LLM edge strength: data[key]["LLM"]["edge_results"] → strength 0-100
+
+# ---- 1. Build node-relevance lookup (key, stance) → relevance ----
+relevance_rows = []
+for key, bundle in data.items():
+    for item in bundle.get("nodes", {}).get("relevance", []):
+        relevance_rows.append({
+            "key": key,
+            "stance": item["belief"],
+            "relevance": item["relevance"],
+            "is_distractor": item.get("is_distractor", False),
+        })
+df_relevance = pd.DataFrame(relevance_rows)
+df_relevance = df_relevance[~df_relevance["is_distractor"]].copy()
+df_relevance["stance"] = df_relevance["stance"].astype(str).str.strip()
+
+rel_lookup = df_relevance.set_index(["key", "stance"])["relevance"]
+
+def attach_relevance(df, stance_col):
+    """Join relevance for one stance endpoint."""
+    idx = pd.MultiIndex.from_arrays(
+        [df["key"].astype(str), df[stance_col].astype(str).str.strip()],
+        names=["key", "stance"],
+    )
+    return rel_lookup.reindex(idx).values
+
+# ---- 2. Canvas vs Pairwise: mean relevance per 3×3 cell ----
+cp = df_canvas_pairwise.copy()
+cp["rel_1"] = attach_relevance(cp, "stance_1")
+cp["rel_2"] = attach_relevance(cp, "stance_2")
+cp["rel_mean"] = (cp["rel_1"] + cp["rel_2"]) / 2
+cp["rel_prod"] = cp["rel_1"] * cp["rel_2"] / 100 
+
+for agg_col, label in [("rel_mean", "avg relevance"), ("rel_prod", "avg product relevance")]:
+    tbl = cp.groupby(["pairwise", "canvas"])[agg_col].mean().unstack()
+    tbl = tbl.reindex(index=ORDER, columns=ORDER)
+    print(f"\n{label}:")
+    print(tbl.round(1).to_string())
+
+    annot = tbl.apply(lambda col: col.map(lambda x: f"{x:.1f}" if pd.notna(x) else ""))
+    plot_heatmap_table(
+        tbl, annot=annot,
+        title=f"Canvas vs Pairwise — {label}",
+        xlabel="Canvas edges", ylabel="Pairwise edges",
+        outpath=os.path.join(outdir, f"relevance_canvas_pairwise_{agg_col}.png"),
+        figsize=(4, 4), cbar_label="Relevance",
+    )
+
+# ---- 3. Canvas vs LLM: mean relevance per 3×3 cell ----
+cl = final.copy()
+cl["rel_1"] = attach_relevance(cl, "stance_1")
+cl["rel_2"] = attach_relevance(cl, "stance_2")
+cl["rel_mean"] = (cl["rel_1"] + cl["rel_2"]) / 2
+cl["rel_prod"] = cl["rel_1"] * cl["rel_2"] / 100
+
+for agg_col, label in [("rel_mean", "avg relevance"), ("rel_prod", "avg product relevance")]:
+    tbl = cl.groupby(["llm", "canvas"])[agg_col].mean().unstack()
+    tbl = tbl.reindex(index=ORDER, columns=ORDER)
+    print(f"\n{label}:")
+    print(tbl.round(1).to_string())
+
+    annot = tbl.apply(lambda col: col.map(lambda x: f"{x:.1f}" if pd.notna(x) else ""))
+    plot_heatmap_table(
+        tbl, annot=annot,
+        title=f"Canvas vs LLM — {label}",
+        xlabel="Canvas edges", ylabel="LLM edges",
+        outpath=os.path.join(outdir, f"relevance_canvas_llm_{agg_col}.png"),
+        figsize=(4, 4), cbar_label="Relevance",
+    )
+
+# ---- 4. LLM edge strength per 3×3 cell (canvas vs LLM) ----
+# Build a lookup: (key, stance_1, stance_2) → LLM strength
+llm_strength_rows = []
+for key, bundle in data.items():
+    for e in bundle.get("LLM", {}).get("edge_results", []):
+        s1, s2 = str(e["stance_1"]).strip(), str(e["stance_2"]).strip()
+        pair = tuple(sorted([s1, s2]))
+        llm_strength_rows.append({
+            "key": key,
+            "stance_1": pair[0],
+            "stance_2": pair[1],
+            "llm_strength": e.get("strength", np.nan),
+        })
+df_llm_strength = pd.DataFrame(llm_strength_rows)
+df_llm_strength = df_llm_strength.drop_duplicates(subset=["key", "stance_1", "stance_2"])
+
+cl_s = cl.merge(df_llm_strength, on=["key", "stance_1", "stance_2"], how="left")
+
+tbl_str = cl_s.groupby(["llm", "canvas"])["llm_strength"].mean().unstack()
+tbl_str = tbl_str.reindex(index=ORDER, columns=ORDER)
+
+annot_str = tbl_str.apply(lambda col: col.map(lambda x: f"{x:.1f}" if pd.notna(x) else "—"))
+plot_heatmap_table(
+    tbl_str, annot=annot_str,
+    title="Canvas vs LLM — avg LLM strength",
+    xlabel="Canvas edges", ylabel="LLM edges",
+    outpath=os.path.join(outdir, "strength_canvas_llm.png"),
+    figsize=(4, 4), cbar_label="LLM strength (0-100)",
+)
+
+# ---- 5. LLM edge strength per 3×3 cell (pairwise vs canvas) ----
+cp_s = cp.merge(df_llm_strength, on=["key", "stance_1", "stance_2"], how="left")
+
+tbl_str_pw = cp_s.groupby(["pairwise", "canvas"])["llm_strength"].mean().unstack()
+tbl_str_pw = tbl_str_pw.reindex(index=ORDER, columns=ORDER)
+
+annot_pw = tbl_str_pw.apply(lambda col: col.map(lambda x: f"{x:.1f}" if pd.notna(x) else "—"))
+plot_heatmap_table(
+    tbl_str_pw, annot=annot_pw,
+    title="Canvas vs Pairwise — avg LLM strength",
+    xlabel="Canvas edges", ylabel="Pairwise edges",
+    outpath=os.path.join(outdir, "strength_canvas_pairwise.png"),
+    figsize=(4, 4), cbar_label="LLM strength (0-100)",
+)

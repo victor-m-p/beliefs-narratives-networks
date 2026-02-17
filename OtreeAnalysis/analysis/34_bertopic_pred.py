@@ -211,3 +211,89 @@ df = pd.DataFrame(rows).sort_values("delta_deg4p_baseline", ascending=False).res
 df.to_csv(OUTDIR / "overview_top10__persistence_degree.csv", index=False)
 
 print("\nSaved:", OUTDIR)
+
+
+# =============================================================
+# LLM-extracted edges  (same persistence analysis, different edge source)
+# =============================================================
+# Not used in the preprint; testing for main submission.
+# Reuses all helpers above; only the edge mapping CSVs change
+# (bertopic_mapping_llm instead of bertopic_mapping).
+
+SEL_MAP_LLM = Path("../data/public/bertopic_mapping_llm")
+
+# wider bins for LLM edges (more connections per participant)
+LLM_BINS   = [-0.5, 1.5, 3.5, 5.5, np.inf]
+LLM_LABELS = ["0-1", "2-3", "4-5", "6+"]
+LLM_ORDER  = ["0-1", "2-3", "4-5", "6+"]
+
+
+def persistence_curve_llm(df_nodes: pd.DataFrame, deg_w1: pd.DataFrame) -> pd.DataFrame:
+    w1 = df_nodes[df_nodes["wave"] == 1][["key", "topic"]].drop_duplicates().assign(present_w1=1)
+    w2 = df_nodes[df_nodes["wave"] == 2][["key", "topic"]].drop_duplicates().assign(present_w2=1)
+
+    df = (
+        w1.merge(deg_w1, on=["key", "topic"], how="left")
+          .merge(w2, on=["key", "topic"], how="left")
+    )
+    df["degree_wt"] = df["degree_wt"].fillna(0).astype(int)
+    df["present_w2"] = df["present_w2"].fillna(0).astype(int)
+
+    df["deg_bin"] = pd.cut(df["degree_wt"], bins=LLM_BINS, labels=LLM_LABELS)
+    df["deg_bin"] = pd.Categorical(df["deg_bin"], categories=LLM_ORDER, ordered=True)
+
+    agg = df.groupby("deg_bin", observed=True)["present_w2"].agg(p="mean", n="size").reset_index()
+    agg = agg.set_index("deg_bin").reindex(LLM_ORDER).reset_index()
+
+    agg["se"] = np.sqrt(agg["p"] * (1 - agg["p"]) / agg["n"])
+    agg["ci_lo"] = agg["p"] - 1.96 * agg["se"]
+    agg["ci_hi"] = agg["p"] + 1.96 * agg["se"]
+    return agg
+
+
+LLM_OUT_BASE = Path("../fig/BERTopic/topic_persist_llm")
+LLM_OUTDIR = LLM_OUT_BASE / ("outlier_remove" if REMOVE_OUTLIER_TOPIC else "outlier_include")
+if WIPE_OUTDIR:
+    shutil.rmtree(LLM_OUTDIR, ignore_errors=True)
+LLM_OUTDIR.mkdir(parents=True, exist_ok=True)
+
+rows_llm = []
+for rank, r in enumerate(top10.itertuples(index=False), 1):
+    label = f"{rank:02d}__{r.embed_model_outname}__run_{r.run_id}"
+
+    edge_csv = SEL_MAP_LLM / f"edge_mapping_llm__{label}.csv"
+    stmt_csv = STMT_DIR / f"{label}__statement_topics.csv"
+
+    if not edge_csv.exists() or not stmt_csv.exists():
+        print("[skip-llm]", label, "missing files")
+        continue
+
+    deg_w1 = compute_degree_w1(edge_csv)
+    nodes = load_nodes(stmt_csv)
+
+    baseline = baseline_from_wave2(nodes)
+    agg = persistence_curve_llm(nodes, deg_w1)
+
+    p_map = dict(zip(agg["deg_bin"].astype(str), agg["p"]))
+    p_deg01 = float(p_map.get("0-1", np.nan))
+    p_deg2  = float(p_map.get("2", np.nan))
+    p_deg34 = float(p_map.get("3-4", np.nan))
+    p_deg5p = float(p_map.get("5+", np.nan))
+    delta = p_deg5p - baseline if np.isfinite(p_deg5p) and np.isfinite(baseline) else np.nan
+
+    plot_curve(agg, baseline, LLM_OUTDIR / f"{label}__persistence_llm.png")
+
+    rows_llm.append(dict(
+        label=label,
+        remove_outlier_topic=REMOVE_OUTLIER_TOPIC,
+        baseline=baseline,
+        p_deg01=p_deg01, p_deg2=p_deg2, p_deg34=p_deg34, p_deg5p=p_deg5p,
+        delta_deg5p_baseline=delta,
+    ))
+
+    print("[ok-llm]", label, "delta_deg5p_baseline=", delta)
+
+df_llm = pd.DataFrame(rows_llm).sort_values("delta_deg5p_baseline", ascending=False).reset_index(drop=True)
+df_llm.to_csv(LLM_OUTDIR / "overview_top10__persistence_degree_llm.csv", index=False)
+
+print("\nSaved LLM:", LLM_OUTDIR)

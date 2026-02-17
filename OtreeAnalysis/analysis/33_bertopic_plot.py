@@ -295,3 +295,147 @@ with open(out_pdf, "wb") as f:
 
 print("Saved:", OUTROOT)
 print("Merged ->", out_pdf)
+
+
+# =============================================================
+# LLM-extracted edges  (same nodes & positions, different edges)
+# =============================================================
+# Not used in the preprint; testing for main submission.
+# Node positions come from the participant canvas (pos_3) as before;
+# only the edge list changes: d["LLM"]["edge_results"] instead of
+# d["edges"]["edges_3"].
+
+LLM_OUTROOT = Path(f"../fig/BERTopic/stance_topic_llm/{LABEL}__outlier{EXCLUDE_OUTLIER_TOPIC}")
+LLM_OUTIND  = LLM_OUTROOT / "individual"
+LLM_OUTIND.mkdir(parents=True, exist_ok=True)
+
+for p in LLM_OUTIND.glob("*.pdf"):
+    p.unlink()
+
+
+def _get_llm_edges(data_by_key, key):
+    return data_by_key[key].get("LLM", {}).get("edge_results", [])
+
+
+def build_stance_graph_llm(data_by_key, key, s2t, tcolor):
+    d = data_by_key[key]
+    pos = invert_y({n["label"]: (n["x"], n["y"]) for n in d["positions"][POS_KEY]})
+    G = nx.Graph()
+    G.add_nodes_from(pos)
+
+    for n in G.nodes:
+        s = str(n).strip()
+        t = s2t.get(s)
+        if t is None:
+            G.nodes[n]["hex"] = DEFAULT_NODE_COLOR
+            G.nodes[n]["disp"] = s
+        else:
+            t = int(t)
+            G.nodes[n]["hex"] = tcolor.get(t, DEFAULT_NODE_COLOR)
+            G.nodes[n]["disp"] = f"{s}\n(T{t})" if APPEND_TOPIC else s
+
+    for e in _get_llm_edges(data_by_key, key):
+        u = str(e["stance_1"]).strip()
+        v = str(e["stance_2"]).strip()
+        if u not in G.nodes or v not in G.nodes:
+            continue
+        pol = e.get("polarity")
+        if pol not in {"positive", "negative"}: continue
+        if G.has_edge(u, v):
+            G.edges[u, v]["_p"].add(pol)
+        else:
+            G.add_edge(u, v, _p={pol})
+
+    for u, v, ed in G.edges(data=True):
+        ed["polarity"] = collapse_polarity(ed.pop("_p"))
+
+    return pos, G
+
+
+def build_topic_graph_llm(data_by_key, key, s2t, tcolor):
+    d = data_by_key[key]
+    pos_st = invert_y({n["label"]: (n["x"], n["y"]) for n in d["positions"][POS_KEY]})
+
+    members = {}
+    for stance, xy in pos_st.items():
+        t = s2t.get(str(stance).strip())
+        if t is None: continue
+        t = int(t)
+        if EXCLUDE_OUTLIER_TOPIC and t == -1: continue
+        members.setdefault(t, []).append(xy)
+
+    topics = sorted(members)
+    pos = {t: tuple(np.asarray(members[t], float).mean(axis=0)) for t in topics}
+
+    G = nx.Graph()
+    G.add_nodes_from(topics)
+    for t in topics:
+        n = len(members[t])
+        G.nodes[t]["hex"] = tcolor.get(t, DEFAULT_NODE_COLOR)
+        G.nodes[t]["disp"] = f"T{t}"
+        G.nodes[t]["node_size"] = min(TOPIC_NODE_BASE * np.sqrt(max(n, 1)), TOPIC_NODE_CAP)
+
+    for e in _get_llm_edges(data_by_key, key):
+        s1 = str(e["stance_1"]).strip()
+        s2 = str(e["stance_2"]).strip()
+        t1, t2 = s2t.get(s1), s2t.get(s2)
+        if t1 is None or t2 is None: continue
+        t1, t2 = int(t1), int(t2)
+        if EXCLUDE_OUTLIER_TOPIC and (t1 == -1 or t2 == -1): continue
+        pol = e.get("polarity")
+        if pol not in {"positive", "negative"}: continue
+
+        if G.has_edge(t1, t2):
+            G.edges[t1, t2]["_p"].add(pol)
+            G.edges[t1, t2]["count"] += 1
+        else:
+            G.add_edge(t1, t2, _p={pol}, count=1)
+
+    for u, v, ed in G.edges(data=True):
+        ed["polarity"] = collapse_polarity(ed.pop("_p"))
+
+    return pos, G
+
+
+def plot_2x2_llm(key):
+    s2t1 = stance_to_topic(key, 1)
+    s2t2 = stance_to_topic(key, 2)
+
+    topics_union = topics_present(data_w1, key, s2t1) | topics_present(data_w2, key, s2t2)
+    tcolor = topic_palette(topics_union) if topics_union else {}
+
+    pos_s1, G_s1 = build_stance_graph_llm(data_w1, key, s2t1, tcolor)
+    pos_s2, G_s2 = build_stance_graph_llm(data_w2, key, s2t2, tcolor)
+    pos_t1, G_t1 = build_topic_graph_llm(data_w1, key, s2t1, tcolor)
+    pos_t2, G_t2 = build_topic_graph_llm(data_w2, key, s2t2, tcolor)
+
+    s1 = {n: G_t1.nodes[n]["node_size"] for n in G_t1.nodes}
+    s2 = {n: G_t2.nodes[n]["node_size"] for n in G_t2.nodes}
+
+    fig, ax = plt.subplots(2, 2, figsize=FIGSIZE, dpi=DPI)
+    ax = ax.ravel()
+
+    draw(ax[0], G_s1, pos_s1, "Wave 1 — LLM (stances)", wrap=True,  edge_width_attr=None)
+    draw(ax[1], G_t1, pos_t1, "Wave 1 — LLM (topics)",  node_sizes=s1, wrap=False, edge_width_attr="count")
+    draw(ax[2], G_s2, pos_s2, "Wave 2 — LLM (stances)", wrap=True,  edge_width_attr=None)
+    draw(ax[3], G_t2, pos_t2, "Wave 2 — LLM (topics)",  node_sizes=s2, wrap=False, edge_width_attr="count")
+
+    fig.tight_layout()
+    return fig
+
+
+# --- export LLM individual + merged PDF ---
+for k in keys:
+    fig = plot_2x2_llm(k)
+    fig.savefig(LLM_OUTIND / f"{clean_filename(k)}.pdf")
+    plt.close(fig)
+
+llm_out_pdf = LLM_OUTROOT / f"{LABEL}__LLM__ALL.pdf"
+writer = PdfWriter()
+for p in sorted(LLM_OUTIND.glob("*.pdf")):
+    writer.append(str(p))
+with open(llm_out_pdf, "wb") as f:
+    writer.write(f)
+
+print("Saved LLM:", LLM_OUTROOT)
+print("Merged LLM ->", llm_out_pdf)

@@ -6,9 +6,6 @@
 *__pycache__
 *.sqlite3
 
-# New analysis for main submission:
-OtreeAnalysis/analysis/40_*
-
 # Analysis - Block sensitive scripts (only pre_cleaning contains hardcoded IDs)
 # Note: 01-03 (curation, post_cleaning, llm_nodes) can be pushed but won't run without private data
 OtreeAnalysis/analysis/00_pre_cleaning_w1.py
