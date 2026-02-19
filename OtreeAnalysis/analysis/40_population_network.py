@@ -648,10 +648,9 @@ def draw_individual_overlay(ax, key, waves):
 _preview_key = list(data_by_wave[1].keys())[0]
 
 fig_preview, axes_preview = plt.subplots(1, 3, figsize=(36, 12))
-fig_preview.suptitle(_preview_key, fontsize=13)
 for ax_p, (waves, title) in zip(axes_preview, [([1], "Wave 1"), ([2], "Wave 2"), ([1, 2], "Wave 1 + 2")]):
     draw_individual_overlay(ax_p, _preview_key, waves)
-    ax_p.set_title(title, fontsize=11)
+    ax_p.set_title(title, fontsize=20)
 fig_preview.tight_layout()
 
 
@@ -675,7 +674,6 @@ with PdfPages(CFG["OUTDIR"] / "all_individuals.pdf") as pdf:
     # Pages 2–N: one page per participant, 3 panels: wave 1 | wave 2 | wave 1+2
     for key in _all_keys:
         fig_trio, axes = plt.subplots(1, 3, figsize=(36, 12))
-        fig_trio.suptitle(key, fontsize=13)
 
         for ax, (waves, title) in zip(axes, [([1], "Wave 1"), ([2], "Wave 2"), ([1, 2], "Wave 1 + 2")]):
             has_data = not df_canvas_stances[
@@ -683,12 +681,12 @@ with PdfPages(CFG["OUTDIR"] / "all_individuals.pdf") as pdf:
             ].empty
             if has_data:
                 draw_individual_overlay(ax, key, waves)
-                ax.set_title(title, fontsize=11)
+                ax.set_title(title, fontsize=20)
             else:
                 ax.set_axis_off()
                 ax.text(0.5, 0.5, f"no data for {title}",
                         ha="center", va="center", transform=ax.transAxes,
-                        fontsize=11, color="gray")
+                        fontsize=20, color="gray")
 
         fig_trio.tight_layout()
         pdf.savefig(fig_trio, bbox_inches="tight")
