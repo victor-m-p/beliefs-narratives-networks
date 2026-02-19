@@ -8,6 +8,9 @@ Updated now to only compute Phi coefficient (removed Jaccard etc.)
 But now running with both outliers True and False (toggle manually.)
 
 VMP 2026-02-08: tested and run.
+
+NB: Probably we actually should have Jaccard again since $phi$ can 
+become dominated by shared absences when topics are sparse.
 """
 
 from __future__ import annotations
