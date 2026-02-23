@@ -12,6 +12,8 @@ Between 2026-02-06 and 2026-02-08, the codebase was refactored with Claude Code 
 beliefs-narratives-networks/
   OtreeAnalysis/     # Analysis pipeline (data processing, figures, topic models)
   otreesurvey/       # oTree survey instrument (LLM-adaptive interviews, belief mapping)
+  demo/              # demo from Feb, 4 2026.
+  (Video snippets and screenshots)
 ```
 
 See the README in each subdirectory for details:

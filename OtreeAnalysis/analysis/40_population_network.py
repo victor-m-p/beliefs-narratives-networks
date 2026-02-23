@@ -473,9 +473,7 @@ fig = plot_topic_network(
     show_edge_legend=CFG["SHOW_EDGE_LEGEND"],
 )
 
-fig.savefig(CFG["OUTDIR"] / "population_topic_network.png", dpi=200, bbox_inches="tight")
 fig.savefig(CFG["OUTDIR"] / "population_topic_network.pdf", bbox_inches="tight")
-
 
 ### basic information ###
 
