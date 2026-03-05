@@ -87,7 +87,6 @@ def embed_df(df, model, text_col="stance", batch_size=64, encode_normalize=False
     )
     return df, E
 
-
 # --- Plotting helpers ---
 
 from matplotlib.patches import Polygon
@@ -115,6 +114,7 @@ def mean_se_plot_side(
     rotate_xticks=30,
     connect_ids=False,
     figsize=(7.8, 4.2),
+    fontsize=None,            # None = matplotlib default; e.g. 14 for larger text
     ax=None,
 ):
     df_plot = df.copy()
@@ -224,14 +224,17 @@ def mean_se_plot_side(
             )
 
     ax.set_xticks(x_base)
-    ax.set_xticklabels(order)
+    ax.set_xticklabels(order, fontsize=fontsize)
 
     if rotate_xticks:
         plt.setp(ax.get_xticklabels(), rotation=rotate_xticks, ha="right")
 
-    ax.set_title(title)
-    ax.set_xlabel(xlab)
-    ax.set_ylabel(ylab)
+    if fontsize is not None:
+        ax.tick_params(axis="y", labelsize=fontsize)
+
+    ax.set_title(title, fontsize=fontsize)
+    ax.set_xlabel(xlab, fontsize=fontsize)
+    ax.set_ylabel(ylab, fontsize=fontsize)
     ax.set_xlim(-0.6, len(order) - 0.4)
 
     if outname is not None:

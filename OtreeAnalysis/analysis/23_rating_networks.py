@@ -30,13 +30,13 @@ outdir = "../fig/rating_networks"
 os.makedirs(outdir, exist_ok=True)
 
 SOURCE_LABEL = {
-    "user": "Self",
+    "user": "Canvas",
     "llm": "LLM",
-    "user_random": "Self + Random",
+    "user_random": "Canvas + Random",
     "llm_random": "LLM + Random",
 }
-ORDER_ALL = ["Self", "LLM", "Self + Random", "LLM + Random"]
-ORDER_HUM = ["Self", "Self + Random"]
+ORDER_ALL = ["Canvas", "LLM", "Canvas + Random", "LLM + Random"]
+ORDER_HUM = ["Canvas", "Canvas + Random"]
 
 ALL_SOURCES = ["user", "llm", "user_random", "llm_random"]
 HUMAN_SOURCES = ["user", "user_random"]  # "exclude LLM" => drop llm + llm_random
@@ -78,7 +78,7 @@ def add_within_key_z(df_long, keycol="key", ycol="rating", outcol="rating_z"):
     df_long[outcol] = df_long[outcol].replace([np.inf, -np.inf], np.nan).fillna(0.0)
     return df_long
 
-def plot_mean_se(df, ycol, title, ylab, order, outname, figsize=(6, 4)):
+def plot_mean_se(df, ycol, title, ylab, order, outname, figsize=(8, 4)):
     # mean_se_plot_side expects xcol values to match label_map/order,
     # so we pass xcol="source" and provide label_map+order in label space.
     mean_se_plot_side(
@@ -104,7 +104,7 @@ pm_all = participant_means(r_all)
 plot_mean_se(
     df=pm_all,
     ycol="rating",
-    title="Participant-level ratings",
+    title="",
     ylab="Rating",
     order=ORDER_ALL,
     outname="network_raw__all.png",
@@ -118,7 +118,7 @@ pm_hum = participant_means(r_hum)
 plot_mean_se(
     df=pm_hum,
     ycol="rating",
-    title="Participant-level ratings",
+    title="",
     ylab="Rating",
     order=ORDER_HUM,
     outname="network_raw__human.png",
@@ -130,7 +130,7 @@ pmz_all = rz_all.groupby(["key", "source"], as_index=False)["rating_z"].mean()
 plot_mean_se(
     df=pmz_all,
     ycol="rating_z",
-    title="Participant-level ratings",
+    title="",
     ylab="Rating z-scored (within participant)",
     order=ORDER_ALL,
     outname="network_z__all.png",
@@ -143,7 +143,7 @@ pmz_hum = rz_hum.groupby(["key", "source"], as_index=False)["rating_z"].mean()
 plot_mean_se(
     df=pmz_hum,
     ycol="rating_z",
-    title="Participant-level ratings",
+    title="",
     ylab="Rating z-scored (within participant)",
     order=ORDER_HUM,
     outname="network_z__human.png",
@@ -190,7 +190,23 @@ mean_se_plot_side(
     outname=None,
 )
 
-fig.suptitle("Participant-level network ratings", y=1)
+fig.suptitle("", y=1)
 plt.tight_layout()
 plt.savefig(os.path.join(outdir, "network_human__raw_vs_z__side_by_side.png"), dpi=300, bbox_inches="tight")
 plt.close(fig)
+
+### standard error for IC2S2 submission ###
+# Unit of analysis: participant-level means (pm_hum), one row per (key, source).
+# SE = SD of participant means / sqrt(N participants).
+se_summary = (
+    pm_hum
+    .groupby("source")["rating"]
+    .agg(n="count", mean="mean", sd="std")
+    .assign(se=lambda df: df["sd"] / np.sqrt(df["n"]))
+    .loc[HUMAN_SOURCES] 
+    .rename(index=SOURCE_LABEL)
+    [["n", "mean", "sd", "se"]]
+)
+
+print("\nSE of raw ratings (participant-level means):")
+print(se_summary.to_string(float_format="{:.4f}".format))

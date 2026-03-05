@@ -32,7 +32,7 @@ TOP10_PATH = SELECTION_ROOT / "overview_top10.csv"
 STATEMENT_DIR = SELECTION_ROOT / "statement_topics"
 
 # >>> TOGGLE THIS MANUALLY <<<
-EXCLUDE_OUTLIERS = False
+EXCLUDE_OUTLIERS = False 
 
 SUFFIX = f"excludeOutliers{EXCLUDE_OUTLIERS}"
 FIG_ROOT = Path(f"../fig/BERTopic/retest/phi__{SUFFIX}")
@@ -54,6 +54,7 @@ PLOT_STYLE = dict(
     rotate_xticks=0,
     connect_ids=False,
     figsize=(6.2, 4.0),
+    fontsize=14,
 )
 
 # -----------------------------
@@ -198,8 +199,8 @@ for rank, r in enumerate(top10.itertuples(index=False), 1):
 
     self_p = self_p[np.isfinite(self_p)]
 
-    label_self = r"$\phi_{\mathrm{self}}$"
-    label_other = r"$\phi_{\mathrm{other}}$"
+    label_self = r"$\phi_{\mathrm{within}}$"
+    label_other = r"$\phi_{\mathrm{between}}$"
     
     df_plot = pd.DataFrame({
         "group": [label_self] * len(self_p) + [label_other] * len(other_p),
@@ -214,7 +215,7 @@ for rank, r in enumerate(top10.itertuples(index=False), 1):
         ylab=r"Phi coefficient ($\phi$)",
         title="",
         order=[label_self, label_other],
-        outname=str(out_run / "topic_presence_phi_boxdots.png"),
+        outname=str(out_run / "topic_presence_phi_boxdots.pdf"),
         **PLOT_STYLE,
     )
     

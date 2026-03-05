@@ -474,6 +474,7 @@ fig = plot_topic_network(
 )
 
 fig.savefig(CFG["OUTDIR"] / "population_topic_network.pdf", bbox_inches="tight")
+fig.savefig(CFG["OUTDIR"] / "population_topic_network.svg", bbox_inches="tight")
 
 ### basic information ###
 
@@ -656,6 +657,30 @@ fig_preview.tight_layout()
 # Compiled PDF: all_individuals.pdf
 # -------------------------
 _all_keys = sorted(df_canvas_stances["key"].unique())
+_n_keys   = len(_all_keys)
+
+_indiv_dir = CFG["OUTDIR"] / "individual"
+_indiv_dir.mkdir(parents=True, exist_ok=True)
+
+
+def _make_trio(key, page_num, total):
+    fig_trio, axes = plt.subplots(1, 3, figsize=(36, 12))
+    for ax, (waves, title) in zip(axes, [([1], "Wave 1"), ([2], "Wave 2"), ([1, 2], "Wave 1 + 2")]):
+        has_data = not df_canvas_stances[
+            (df_canvas_stances["key"] == key) & (df_canvas_stances["wave"].isin(waves))
+        ].empty
+        if has_data:
+            draw_individual_overlay(ax, key, waves)
+            ax.set_title(title, fontsize=20)
+        else:
+            ax.set_axis_off()
+            ax.text(0.5, 0.5, f"no data for {title}",
+                    ha="center", va="center", transform=ax.transAxes,
+                    fontsize=20, color="gray")
+    fig_trio.suptitle(f"[{page_num:02d}/{total}]  {key}", fontsize=10, x=0.01, ha="left", va="top")
+    fig_trio.tight_layout()
+    return fig_trio
+
 
 with PdfPages(CFG["OUTDIR"] / "all_individuals.pdf") as pdf:
 
@@ -670,22 +695,15 @@ with PdfPages(CFG["OUTDIR"] / "all_individuals.pdf") as pdf:
     plt.close(fig_leg)
 
     # Pages 2–N: one page per participant, 3 panels: wave 1 | wave 2 | wave 1+2
-    for key in _all_keys:
-        fig_trio, axes = plt.subplots(1, 3, figsize=(36, 12))
-
-        for ax, (waves, title) in zip(axes, [([1], "Wave 1"), ([2], "Wave 2"), ([1, 2], "Wave 1 + 2")]):
-            has_data = not df_canvas_stances[
-                (df_canvas_stances["key"] == key) & (df_canvas_stances["wave"].isin(waves))
-            ].empty
-            if has_data:
-                draw_individual_overlay(ax, key, waves)
-                ax.set_title(title, fontsize=20)
-            else:
-                ax.set_axis_off()
-                ax.text(0.5, 0.5, f"no data for {title}",
-                        ha="center", va="center", transform=ax.transAxes,
-                        fontsize=20, color="gray")
-
-        fig_trio.tight_layout()
+    for i, key in enumerate(_all_keys):
+        fig_trio = _make_trio(key, i + 1, _n_keys)
         pdf.savefig(fig_trio, bbox_inches="tight")
         plt.close(fig_trio)
+
+# Individual SVGs
+for i, key in enumerate(_all_keys):
+    fig_trio = _make_trio(key, i + 1, _n_keys)
+    fig_trio.savefig(str(_indiv_dir / f"{i + 1:02d}_{key}.svg"), bbox_inches="tight")
+    plt.close(fig_trio)
+
+print("Saved individual SVGs to:", _indiv_dir)

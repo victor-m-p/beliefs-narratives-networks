@@ -116,8 +116,13 @@ heatmap_avg_percent_by_key(
     df_canvas_pairwise, key_col="key",
     p1="pairwise", p2="canvas",
     col_p1="Pairwise edges", col_p2="Canvas edges",
-    title="Participant consistency",
     outpath=os.path.join(outdir, "canvas_interview.png"),
+)
+heatmap_avg_percent_by_key(
+    df_canvas_pairwise, key_col="key",
+    p1="pairwise", p2="canvas",
+    col_p1="Pairwise edges", col_p2="Canvas edges",
+    outpath=os.path.join(outdir, "canvas_interview.svg"),
 )
 
 # -------------------------
@@ -150,8 +155,13 @@ heatmap_avg_percent_by_key(
     final, key_col="key",
     p1="llm", p2="canvas",
     col_p1="LLM edges", col_p2="Canvas edges",
-    title="Canvas-LLM consistency",
     outpath=os.path.join(outdir, "canvas_llm.png"),
+)
+heatmap_avg_percent_by_key(
+    final, key_col="key",
+    p1="llm", p2="canvas",
+    col_p1="LLM edges", col_p2="Canvas edges",
+    outpath=os.path.join(outdir, "canvas_llm.svg"),
 )
 
 
@@ -202,7 +212,6 @@ for agg_col, label in [("rel_mean", "avg relevance"), ("rel_prod", "avg product 
     annot = tbl.apply(lambda col: col.map(lambda x: f"{x:.1f}" if pd.notna(x) else ""))
     plot_heatmap_table(
         tbl, annot=annot,
-        title=f"Canvas vs Pairwise — {label}",
         xlabel="Canvas edges", ylabel="Pairwise edges",
         outpath=os.path.join(outdir, f"relevance_canvas_pairwise_{agg_col}.png"),
         figsize=(4, 4), cbar_label="Relevance",
@@ -224,7 +233,6 @@ for agg_col, label in [("rel_mean", "avg relevance"), ("rel_prod", "avg product 
     annot = tbl.apply(lambda col: col.map(lambda x: f"{x:.1f}" if pd.notna(x) else ""))
     plot_heatmap_table(
         tbl, annot=annot,
-        title=f"Canvas vs LLM — {label}",
         xlabel="Canvas edges", ylabel="LLM edges",
         outpath=os.path.join(outdir, f"relevance_canvas_llm_{agg_col}.png"),
         figsize=(4, 4), cbar_label="Relevance",
@@ -254,7 +262,6 @@ tbl_str = tbl_str.reindex(index=ORDER, columns=ORDER)
 annot_str = tbl_str.apply(lambda col: col.map(lambda x: f"{x:.1f}" if pd.notna(x) else "—"))
 plot_heatmap_table(
     tbl_str, annot=annot_str,
-    title="Canvas vs LLM — avg LLM strength",
     xlabel="Canvas edges", ylabel="LLM edges",
     outpath=os.path.join(outdir, "strength_canvas_llm.png"),
     figsize=(4, 4), cbar_label="LLM strength (0-100)",
@@ -269,7 +276,6 @@ tbl_str_pw = tbl_str_pw.reindex(index=ORDER, columns=ORDER)
 annot_pw = tbl_str_pw.apply(lambda col: col.map(lambda x: f"{x:.1f}" if pd.notna(x) else "—"))
 plot_heatmap_table(
     tbl_str_pw, annot=annot_pw,
-    title="Canvas vs Pairwise — avg LLM strength",
     xlabel="Canvas edges", ylabel="Pairwise edges",
     outpath=os.path.join(outdir, "strength_canvas_pairwise.png"),
     figsize=(4, 4), cbar_label="LLM strength (0-100)",
