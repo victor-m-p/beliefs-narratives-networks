@@ -39,7 +39,7 @@ mdl = pd.read_csv(inpath / "overview_all_models__base_grid_summary.csv")
 print(len(mdl))  # 72
 
 mdl = mdl[mdl["outlier_0_ratio"] <= MAX_OUTLIER0]
-print(len(mdl))  # 61
+print(len(mdl))  # 62
 
 mdl = mdl[(mdl["n_topics"] >= MIN_TOPICS) & (mdl["n_topics"] <= MAX_TOPICS)]
 print(len(mdl))  # 40

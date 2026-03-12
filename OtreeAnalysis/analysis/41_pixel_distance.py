@@ -142,46 +142,68 @@ fig.savefig(os.path.join(outdir, "distance_vs_polarity.png"), dpi=300)
 plt.close(fig)
 
 # -------------------------
-# Same as above, but normalize distance.
+# Normalized distance → edge type (equal-width bins, binomial error bars)
 # -------------------------
-# Normalize distance within each (key, wave) to [0,1] so we're comparing
-# relative placement rather than absolute pixel values.
+# Normalize within each (key, wave): closest pair = 0, farthest = 1.
 df["dist_norm"] = df.groupby(["key", "wave"])["distance"].transform(
     lambda s: (s - s.min()) / (s.max() - s.min())
 )
 
-df["dist_norm_bin"] = pd.qcut(df["dist_norm"], q=N_BINS, duplicates="drop")
+NORM_BINS = np.arange(0, 1.01, 0.1)
+df["dist_norm_bin"] = pd.cut(df["dist_norm"], bins=NORM_BINS, include_lowest=True)
 
 agg3 = df.groupby("dist_norm_bin", observed=True).agg(
-    mean_dist_norm=("dist_norm", "mean"),
-    p_edge=("has_edge", "mean"),
+    mid=("dist_norm", "mean"),
     p_positive=("is_positive", "mean"),
     p_negative=("is_negative", "mean"),
-    n=("has_edge", "size"),
+    p_edge=("has_edge", "mean"),
+    n=("dist_norm", "size"),
 ).reset_index()
 
-fig, ax = plt.subplots(figsize=(7, 4))
+# binomial 95% CI
+for col in ["p_positive", "p_negative"]:
+    se = np.sqrt(agg3[col] * (1 - agg3[col]) / agg3["n"])
+    agg3[f"{col}_lo"] = agg3[col] - 1.96 * se
+    agg3[f"{col}_hi"] = agg3[col] + 1.96 * se
 
-ax.plot(agg3["mean_dist_norm"], agg3["p_positive"], "o-", color="#998ec3", label="P(supporting)")
-ax.plot(agg3["mean_dist_norm"], agg3["p_negative"], "o-", color="#f1a340", label="P(conflicting)")
-ax.set_xlabel("Normalized distance (0=closest, 1=farthest)")
-ax.set_ylabel("P(edge type)")
-ax.set_title("Normalized proximity vs. edge polarity")
-ax.legend()
+x = agg3["mid"].to_numpy()
+
+fig, ax = plt.subplots(figsize=(4, 3))
+ax.errorbar(x, agg3["p_positive"],
+            yerr=[agg3["p_positive"] - agg3["p_positive_lo"],
+                  agg3["p_positive_hi"] - agg3["p_positive"]],
+            fmt="o-", color="#998ec3", capsize=3, label="Supporting")
+ax.errorbar(x, agg3["p_negative"],
+            yerr=[agg3["p_negative"] - agg3["p_negative_lo"],
+                  agg3["p_negative_hi"] - agg3["p_negative"]],
+            fmt="o-", color="#f1a340", capsize=3, label="Conflicting")
+ax.set_xlabel("Normalized distance", fontsize=11)
+ax.set_ylabel("P(edge type)", fontsize=11)
+ax.tick_params(labelsize=10)
+ax.legend(fontsize=10)
 
 fig.tight_layout()
-fig.savefig(os.path.join(outdir, "normdist_vs_polarity.png"), dpi=300)
+fig.savefig(os.path.join(outdir, "normdist_vs_polarity.pdf"), bbox_inches="tight")
+fig.savefig(os.path.join(outdir, "normdist_vs_polarity.svg"), bbox_inches="tight")
 plt.close(fig)
 
-''' FURTHER THINGS:
-1. mixed-effects logistic regression like this:
+# -------------------------
+# Numbers for in-text reporting
+# -------------------------
+# One pair per (key, wave) has dist_norm exactly 0 (closest) and exactly 1 (furthest).
+closest  = df[df["dist_norm"] == 0.0]
+furthest = df[df["dist_norm"] == 1.0]
 
-has_edge ~ distance + (1 | key)
+def edge_stats(sub):
+    return sub["is_positive"].mean(), sub["is_negative"].mean(), sub["has_edge"].mean(), len(sub)
 
-could consider having wave somewhere e.g.
-as main effect or also random effect.
-but the main driver should be key
-(i.e., participants using canvas differently).
+cs, cc, ce, cn = edge_stats(closest)
+fs, fc, fe, fn = edge_stats(furthest)
+
+print("\n=== In-text numbers (exact closest / furthest pair per network) ===")
+print(f"Closest  (dist_norm=0): P(supporting)={cs*100:.1f}%  P(conflicting)={cc*100:.1f}%  P(any edge)={ce*100:.1f}%  n={cn}")
+print(f"Furthest (dist_norm=1): P(supporting)={fs*100:.1f}%  P(conflicting)={fc*100:.1f}%  P(any edge)={fe*100:.1f}%  n={fn}")
+
 '''
 
 # =========================================================
@@ -325,7 +347,4 @@ fig.tight_layout()
 fig.savefig(os.path.join(outdir, "pixel_vs_cosine.png"), dpi=300)
 plt.close(fig)
 
-''' FURTHER THINGS:
-Possible that a few latent dimensions of the embedding are driving distance.
-Could be investigated further.
 '''

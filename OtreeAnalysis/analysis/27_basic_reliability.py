@@ -158,6 +158,19 @@ num_e = pd.concat([num_e1, num_e2], ignore_index=True)
 
 edges_wide = wide_from_agg(num_e, value="edges")
 
+# derive valid key set (210 participants in both waves of distractors)
+def load_distractors(wave):
+    path = get_public_path(f"distractors_w{wave}.json")
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+distractors_w1 = load_distractors(wave_1)
+distractors_w2 = load_distractors(wave_2)
+valid_keys = set(distractors_w1.keys()) & set(distractors_w2.keys())
+
+words_wide  = words_wide[words_wide["key"].isin(valid_keys)].reset_index(drop=True)
+nodes_wide  = nodes_wide[nodes_wide["key"].isin(valid_keys)].reset_index(drop=True)
+
 # -------------------------
 # 2) 1x3 panel
 # -------------------------
@@ -183,6 +196,123 @@ scatter_ax(axes[2], edges_wide,
 
 plt.tight_layout()
 plt.savefig(os.path.join(outdir, "reliability.pdf"))
+
+# -------------------------
+# 3) unified descriptives + reliability table
+# -------------------------
+
+def node_counts_from(data):
+    rows = []
+    for key, rec in data.items():
+        nodes = rec["nodes"]
+        n_proposed = len(nodes["generated"])
+        n_accepted = sum(1 for x in nodes["final"] if not x.get("is_distractor", False))
+        rows.append({"key": key, "proposed": n_proposed, "accepted": n_accepted})
+    return pd.DataFrame(rows)
+
+def edge_counts_from(data):
+    rows = []
+    for key, rec in data.items():
+        edges = rec["edges"].get("edges_3", [])
+        rows.append({
+            "key":      key,
+            "total":    len(edges),
+            "support":  sum(1 for e in edges if e.get("polarity") == "positive"),
+            "conflict": sum(1 for e in edges if e.get("polarity") == "negative"),
+        })
+    return pd.DataFrame(rows)
+
+nc1 = node_counts_from(distractors_w1)
+nc2 = node_counts_from(distractors_w2)
+ec1 = edge_counts_from(distractors_w1)
+ec2 = edge_counts_from(distractors_w2)
+
+dist_wide = (
+    nc1.merge(nc2, on="key", suffixes=("_w1", "_w2"))
+       .merge(ec1.merge(ec2, on="key", suffixes=("_w1", "_w2")), on="key")
+)
+
+def summary_row(label, w1, w2):
+    paired = pd.DataFrame({"w1": w1, "w2": w2}).dropna()
+    r, _ = pearsonr(paired["w1"], paired["w2"])
+    return {
+        "Measure":    label,
+        "Mean W1":    paired["w1"].mean(),
+        "SD W1":      paired["w1"].std(),
+        "Mean W2":    paired["w2"].mean(),
+        "SD W2":      paired["w2"].std(),
+        "r":          r,
+        "N":          len(paired),
+    }
+
+table_rows = [
+    summary_row("Interview words",
+                words_wide["wave1"], words_wide["wave2"]),
+    summary_row("Proposed nodes (LLM, no limit)",
+                nodes_wide["wave1"], nodes_wide["wave2"]),
+    summary_row("Proposed nodes (LLM, live)",
+                dist_wide["proposed_w1"], dist_wide["proposed_w2"]),
+    summary_row("Accepted nodes (on canvas)",
+                dist_wide["accepted_w1"], dist_wide["accepted_w2"]),
+    summary_row("Canvas edges",
+                dist_wide["total_w1"], dist_wide["total_w2"]),
+    summary_row("Supporting edges",
+                dist_wide["support_w1"], dist_wide["support_w2"]),
+    summary_row("Conflicting edges",
+                dist_wide["conflict_w1"], dist_wide["conflict_w2"]),
+]
+
+table = pd.DataFrame(table_rows)
+print("\n=== Descriptives and reliability ===")
+print(table.to_string(index=False, float_format=lambda v: f"{v:.2f}"))
+
+# save CSV
+table_dir = "../fig/tables"
+os.makedirs(table_dir, exist_ok=True)
+table.to_csv(os.path.join(table_dir, "reliability_descriptives.csv"), index=False)
+
+# save LaTeX
+latex = table.to_latex(
+    index=False,
+    float_format="%.2f",
+    na_rep="--",
+    caption="Descriptive statistics and wave-1/wave-2 reliability for interview and network measures.",
+    label="tab:reliability_descriptives",
+    escape=True,
+)
+with open(os.path.join(table_dir, "reliability_descriptives.tex"), "w") as f:
+    f.write(latex)
+print("Saved table to", table_dir)
+
+# -------------------------
+# 4) pooled (across both waves) quick stats
+# -------------------------
+
+# stack wave 1 and wave 2 into one long frame
+long = pd.concat([
+    dist_wide[["key", "accepted_w1", "total_w1", "support_w1", "conflict_w1"]]
+        .rename(columns={"accepted_w1": "accepted", "total_w1": "total",
+                         "support_w1": "support", "conflict_w1": "conflict"}),
+    dist_wide[["key", "accepted_w2", "total_w2", "support_w2", "conflict_w2"]]
+        .rename(columns={"accepted_w2": "accepted", "total_w2": "total",
+                         "support_w2": "support", "conflict_w2": "conflict"}),
+], ignore_index=True)
+
+n_nets = len(long)
+
+print(f"\n=== Pooled stats across both waves (N = {n_nets} networks) ===")
+print(f"Avg accepted nodes :  {long['accepted'].mean():.2f}  (SD {long['accepted'].std():.2f})")
+print(f"Avg canvas edges   :  {long['total'].mean():.2f}  (SD {long['total'].std():.2f})")
+print(f"  - supporting     :  {long['support'].mean():.2f}  (SD {long['support'].std():.2f})")
+print(f"  - conflicting    :  {long['conflict'].mean():.2f}  (SD {long['conflict'].std():.2f})")
+
+no_conflict  = (long["conflict"] == 0).mean() * 100
+no_support   = (long["support"]  == 0).mean() * 100
+has_both     = ((long["conflict"] > 0) & (long["support"] > 0)).mean() * 100
+print(f"\nNetworks with no conflicting edges  : {no_conflict:.1f}%")
+print(f"Networks with no supporting edges   : {no_support:.1f}%")
+print(f"Networks with both types            : {has_both:.1f}%")
+
 
 ''' CONSIDER WHETHER WE WANT THE BELOW:
 

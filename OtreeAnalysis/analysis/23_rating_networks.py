@@ -195,18 +195,18 @@ plt.tight_layout()
 plt.savefig(os.path.join(outdir, "network_human__raw_vs_z__side_by_side.png"), dpi=300, bbox_inches="tight")
 plt.close(fig)
 
-### standard error for IC2S2 submission ###
-# Unit of analysis: participant-level means (pm_hum), one row per (key, source).
+### mean + SE for all four network types (participant-level means) ###
+# Unit of analysis: one row per (key, source) after averaging within participant.
 # SE = SD of participant means / sqrt(N participants).
 se_summary = (
-    pm_hum
+    pm_all
     .groupby("source")["rating"]
     .agg(n="count", mean="mean", sd="std")
     .assign(se=lambda df: df["sd"] / np.sqrt(df["n"]))
-    .loc[HUMAN_SOURCES] 
+    .loc[ALL_SOURCES]
     .rename(index=SOURCE_LABEL)
     [["n", "mean", "sd", "se"]]
 )
 
-print("\nSE of raw ratings (participant-level means):")
+print("\nMean + SE of raw ratings (participant-level means, all four sources):")
 print(se_summary.to_string(float_format="{:.4f}".format))

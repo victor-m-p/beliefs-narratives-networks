@@ -16,11 +16,15 @@ Writes:
   ../fig/BERTopic/topic_persist/
     <label>__persistence_a1.{pdf,svg}
     <label>__persistence_a2.{pdf,svg}
+    summary__persistence_a1.{pdf,svg}
+    summary__persistence_a2.{pdf,svg}
     overview_top10__persistence_degree.csv
 
   ../fig/BERTopic/topic_persist_llm/
     <label>__persistence_llm_a1.{pdf,svg}
     <label>__persistence_llm_a2.{pdf,svg}
+    summary__persistence_llm_a1.{pdf,svg}
+    summary__persistence_llm_a2.{pdf,svg}
     overview_top10__persistence_degree_llm.csv
 """
 
@@ -155,7 +159,7 @@ def plot_a1(agg: pd.DataFrame, baseline: float, stem: Path) -> None:
                label=f"Baseline = {baseline:.2f}")
     ax.set_xlabel("Topic degree in wave 1")
     ax.set_ylabel("P(topic in wave 2)")
-    ax.legend(fontsize=9)
+    ax.legend(fontsize=9, loc="upper left")
     fig.tight_layout()
     save_fig(fig, stem)
 
@@ -168,13 +172,81 @@ def plot_a2(agg: pd.DataFrame, stem: Path) -> None:
     ax.axhline(0, linestyle="--", linewidth=1.0, color="gray", label="0 = no excess")
     ax.set_xlabel("Topic degree in wave 1")
     ax.set_ylabel("Excess topic persistence")
-    ax.legend(fontsize=9)
+    ax.legend(fontsize=9, loc="upper left")
     fig.tight_layout()
     save_fig(fig, stem)
 
 
 def p_map(agg: pd.DataFrame) -> dict:
     return dict(zip(agg["deg_bin"].astype(str), agg["p"]))
+
+
+def plot_summary_a1(records: list[dict], stem: Path) -> None:
+    """
+    Spaghetti + main-model plot for A1.
+    records: list of dicts with keys {rank, agg, baseline}.
+    Rank-1 model is highlighted; all others drawn as thin grey lines.
+    """
+    fig, ax = plt.subplots(figsize=FIGSIZE)
+    x = LABELS
+
+    first_grey = True
+    for rec in records:
+        agg = rec["agg"]
+        y = agg.set_index("deg_bin").reindex(LABELS)["p"].to_numpy(float)
+        if rec["rank"] == 1:
+            main_rec = rec
+        else:
+            lbl = "Candidate models" if first_grey else "_nolegend_"
+            ax.plot(x, y, color="0.75", linewidth=0.8, zorder=1, label=lbl)
+            first_grey = False
+
+    agg1 = main_rec["agg"].set_index("deg_bin").reindex(LABELS).reset_index()
+    y  = agg1["p"].to_numpy(float)
+    lo = agg1["ci_lo"].to_numpy(float)
+    hi = agg1["ci_hi"].to_numpy(float)
+    ax.errorbar(x, y, yerr=[y - lo, hi - y], fmt="o-", capsize=3, zorder=3,
+                label="Selected model")
+
+    ax.set_xlabel("Topic degree in wave 1")
+    ax.set_ylabel("P(topic in wave 2)")
+    ax.legend(fontsize=9, loc="upper left")
+    fig.tight_layout()
+    save_fig(fig, stem)
+
+
+def plot_summary_a2(records: list[dict], stem: Path) -> None:
+    """
+    Spaghetti + main-model plot for A2.
+    records: list of dicts with keys {rank, agg}.
+    """
+    fig, ax = plt.subplots(figsize=FIGSIZE)
+    x = LABELS
+
+    first_grey = True
+    for rec in records:
+        agg = rec["agg"]
+        y = agg.set_index("deg_bin").reindex(LABELS)["p"].to_numpy(float)
+        if rec["rank"] == 1:
+            main_rec = rec
+        else:
+            lbl = "Candidate models" if first_grey else "_nolegend_"
+            ax.plot(x, y, color="0.75", linewidth=0.8, zorder=1, label=lbl)
+            first_grey = False
+
+    agg2 = main_rec["agg"].set_index("deg_bin").reindex(LABELS).reset_index()
+    y  = agg2["p"].to_numpy(float)
+    lo = agg2["ci_lo"].to_numpy(float)
+    hi = agg2["ci_hi"].to_numpy(float)
+    ax.errorbar(x, y, yerr=[y - lo, hi - y], fmt="o-", capsize=3, zorder=3,
+                label="Selected model")
+    ax.axhline(0, linestyle="--", linewidth=1.0, color="gray", zorder=2)
+
+    ax.set_xlabel("Topic degree in wave 1")
+    ax.set_ylabel("Excess topic persistence")
+    ax.legend(fontsize=9, loc="upper left")
+    fig.tight_layout()
+    save_fig(fig, stem)
 
 
 # -----------------------------
@@ -187,6 +259,7 @@ OUTDIR.mkdir(parents=True, exist_ok=True)
 top10 = pd.read_csv(TOP10_PATH)
 
 rows = []
+summary_a1, summary_a2 = [], []
 for rank, r in enumerate(top10.itertuples(index=False), 1):
     label = f"{rank:02d}__{r.embed_model_outname}__run_{r.run_id}"
     edge_csv = SEL_MAP  / f"edge_mapping__{label}.csv"
@@ -200,6 +273,9 @@ for rank, r in enumerate(top10.itertuples(index=False), 1):
     plot_a1(agg1, baseline, OUTDIR / f"{label}__persistence_a1")
     plot_a2(agg2, OUTDIR / f"{label}__persistence_a2")
 
+    summary_a1.append(dict(rank=rank, agg=agg1, baseline=baseline))
+    summary_a2.append(dict(rank=rank, agg=agg2))
+
     pm1, pm2 = p_map(agg1), p_map(agg2)
     rows.append(dict(
         label=label,
@@ -209,6 +285,9 @@ for rank, r in enumerate(top10.itertuples(index=False), 1):
         a2_p01=pm2.get("0-1"), a2_p23=pm2.get("2-3"), a2_p45=pm2.get("4-5"), a2_p6p=pm2.get("6+"),
     ))
     print("[ok]", label)
+
+plot_summary_a1(summary_a1, OUTDIR / "summary__persistence_a1")
+plot_summary_a2(summary_a2, OUTDIR / "summary__persistence_a2")
 
 pd.DataFrame(rows).to_csv(OUTDIR / "overview_top10__persistence_degree.csv", index=False)
 print("\nSaved:", OUTDIR)
@@ -221,6 +300,7 @@ if WIPE_OUTDIR:
 LLM_OUTDIR.mkdir(parents=True, exist_ok=True)
 
 rows_llm = []
+summary_llm_a1, summary_llm_a2 = [], []
 for rank, r in enumerate(top10.itertuples(index=False), 1):
     label    = f"{rank:02d}__{r.embed_model_outname}__run_{r.run_id}"
     edge_csv = SEL_MAP_LLM / f"edge_mapping_llm__{label}.csv"
@@ -234,6 +314,9 @@ for rank, r in enumerate(top10.itertuples(index=False), 1):
     plot_a1(agg1, baseline, LLM_OUTDIR / f"{label}__persistence_llm_a1")
     plot_a2(agg2,           LLM_OUTDIR / f"{label}__persistence_llm_a2")
 
+    summary_llm_a1.append(dict(rank=rank, agg=agg1, baseline=baseline))
+    summary_llm_a2.append(dict(rank=rank, agg=agg2))
+
     pm1, pm2 = p_map(agg1), p_map(agg2)
     rows_llm.append(dict(
         label=label,
@@ -243,6 +326,9 @@ for rank, r in enumerate(top10.itertuples(index=False), 1):
         a2_p01=pm2.get("0-1"), a2_p23=pm2.get("2-3"), a2_p45=pm2.get("4-5"), a2_p6p=pm2.get("6+"),
     ))
     print("[ok-llm]", label)
+
+plot_summary_a1(summary_llm_a1, LLM_OUTDIR / "summary__persistence_llm_a1")
+plot_summary_a2(summary_llm_a2, LLM_OUTDIR / "summary__persistence_llm_a2")
 
 pd.DataFrame(rows_llm).to_csv(LLM_OUTDIR / "overview_top10__persistence_degree_llm.csv", index=False)
 print("\nSaved LLM:", LLM_OUTDIR)
