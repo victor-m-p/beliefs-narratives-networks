@@ -117,16 +117,19 @@ def plot_panel(ax, df, highlight_regions=True, add_legend=False):
 
     if highlight_regions:
         # shade Accuracy only: left half of each x-category cluster
+        # red   = real summary rated too low  (statement excluded as inaccurate)
+        # orange = fake summary rated too high (participant failed distractor check)
         y_min, y_max = ax.get_ylim()
-        shade_color = "#f4c2c2"
         for x_center, lab in zip(ax.get_xticks(), SUMMARY_ORDER):
             x_left = x_center - box_width / 2
             acc_width = box_width / 2
 
             if lab == "Real summary":
                 y0, y1 = -2, 60
+                shade_color = "#998ec3"   # purple: low accuracy → excluded
             else:  # Fake summary
                 y0, y1 = 40, y_max + 2
+                shade_color = "#f1a340"   # orange: high distractor rating → excluded
 
             ax.add_patch(Rectangle((x_left, y0), acc_width, y1 - y0,
                                    facecolor=shade_color, alpha=0.3, zorder=0))
@@ -182,4 +185,5 @@ fig.suptitle("Ratings of LLM-generated summaries", y=1.02)
 sns.despine()
 plt.tight_layout()
 plt.savefig(os.path.join(FIG_DIR, "nodes.pdf"), bbox_inches="tight")
+plt.savefig(os.path.join(FIG_DIR, "nodes.svg"), bbox_inches="tight")
 plt.close(fig)

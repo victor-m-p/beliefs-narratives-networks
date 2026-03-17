@@ -39,7 +39,7 @@ from utilities import wave_1, wave_2, get_public_path
 # -------------------------
 CFG = dict(
     WAVES=[1, 2],
-    REMOVE_OUTLIER=True,     # drop topic == -1
+    REMOVE_OUTLIER=True,     # drop topic == -1 
     KEEP_ISOLATES=True,      # keep topics with no kept edges (draw them on ring)
     SEED=123,                # for reproducibility / future random choices
 
@@ -68,7 +68,6 @@ CFG = dict(
 - FILTER_MODE="delta", ALPHA ignored, MIN_DELTA=0.15, MIN_M=10, EDGE_WIDTH="k_ij", WIDTH_SCALE=2, KEEP_ISOLATES=True
 - FILTER_MODE="delta", ALPHA ignored, MIN_DELTA=0.15, MIN_M=10, EDGE_WIDTH="p_obs", WIDTH_SCALE=50, KEEP_ISOLATES=True
 '''
-
 
 # -------------------------
 # Setup

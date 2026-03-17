@@ -113,6 +113,7 @@ def mean_se_plot_side(
     show_fliers=False,
     rotate_xticks=30,
     connect_ids=False,
+    show_mean_dot=False,      # True = plain dot instead of SE diamond
     figsize=(7.8, 4.2),
     fontsize=None,            # None = matplotlib default; e.g. 14 for larger text
     ax=None,
@@ -181,27 +182,29 @@ def mean_se_plot_side(
         xj = point_positions[i] + rng.uniform(-jitter, jitter, size=len(yvals))
         ax.scatter(xj, yvals, s=point_size, alpha=point_alpha, color="lightsteelblue", linewidths=0)
 
-    # --- 3) Mean ± SE as a diamond ("lozenge") ---
+    # --- 3) Mean: plain dot or SE diamond ---
     means = summary["mean"].to_numpy()
-    errs  = summary["err"].to_numpy()
-    diamond_halfwidth = 0.04
-
-    for x0, m, e in zip(point_positions, means, errs):
-        verts = [
-            (x0, m + e),
-            (x0 + diamond_halfwidth, m),
-            (x0, m - e),
-            (x0 - diamond_halfwidth, m),
-        ]
-        poly = Polygon(
-            verts,
-            closed=True,
-            facecolor="black",
-            edgecolor="black",
-            linewidth=0.8,
-            zorder=6,
-        )
-        ax.add_patch(poly)
+    if show_mean_dot:
+        ax.scatter(point_positions, means, s=60, color="black", zorder=6)
+    else:
+        errs = summary["err"].to_numpy()
+        diamond_halfwidth = 0.04
+        for x0, m, e in zip(point_positions, means, errs):
+            verts = [
+                (x0, m + e),
+                (x0 + diamond_halfwidth, m),
+                (x0, m - e),
+                (x0 - diamond_halfwidth, m),
+            ]
+            poly = Polygon(
+                verts,
+                closed=True,
+                facecolor="black",
+                edgecolor="black",
+                linewidth=0.8,
+                zorder=6,
+            )
+            ax.add_patch(poly)
 
     # --- 4) optional: connect individual IDs across conditions ---
     if connect_ids:

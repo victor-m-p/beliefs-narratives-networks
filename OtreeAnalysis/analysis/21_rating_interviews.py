@@ -106,7 +106,7 @@ for ax, df_plot, title in zip(
 
     ax.set_title(title)
     ax.set_xlabel("")
-    ax.tick_params(axis="x", rotation=30, labelrotation=30)
+    ax.set_xticklabels(feature_order, rotation=35, ha="right")
     if ax.get_legend() is not None:
         ax.get_legend().remove()
 
@@ -117,6 +117,7 @@ fig.suptitle("Ratings of the LLM-guided interview")
 sns.despine()
 plt.tight_layout()
 plt.savefig(os.path.join(outpath_fig, "interview.pdf"), bbox_inches='tight')
+plt.savefig(os.path.join(outpath_fig, "interview.svg"), bbox_inches='tight')
 plt.close(fig)
 
 ''' Summary of feedback (qualitative)

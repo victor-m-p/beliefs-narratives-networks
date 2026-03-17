@@ -196,6 +196,7 @@ scatter_ax(axes[2], edges_wide,
 
 plt.tight_layout()
 plt.savefig(os.path.join(outdir, "reliability.pdf"))
+plt.savefig(os.path.join(outdir, "reliability.svg"))
 
 # -------------------------
 # 3) unified descriptives + reliability table

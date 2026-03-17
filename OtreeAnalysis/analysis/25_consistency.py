@@ -15,11 +15,9 @@ VMP 2026-02-07: tested and run.
 
 import os
 import json
-import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from itertools import combinations
 from utilities import wave_2, get_public_path
 
 wave = wave_2
@@ -68,7 +66,6 @@ def plot_heatmap_table(table, annot=None, title=None, xlabel=None, ylabel=None,
     else:
         plt.show()
 
-
 def heatmap_avg_percent_by_key(df, key_col, p1, p2, col_p1, col_p2,
                                order=ORDER, title=None, outpath=None, theme=THEME,
                                figsize=(4, 4)):
@@ -89,7 +86,6 @@ def heatmap_avg_percent_by_key(df, key_col, p1, p2, col_p1, col_p2,
         figsize=figsize, cbar=True, cbar_label="% of edges"
     )
     return avg
-
 
 # -------------------------
 # Load canonical edges (from public folder)
@@ -126,27 +122,17 @@ heatmap_avg_percent_by_key(
 )
 
 # -------------------------
-# (2) Canvas vs LLM (needs final nodes grid)
+# (2) Canvas vs LLM — restricted to pairwise interview pairs
 # -------------------------
+# Use df_pairwise pairs as the universe so both heatmaps cover identical pairs.
 distractors_path = get_public_path("distractors_w{wave}.json", wave=wave)
 with open(distractors_path, "r", encoding="utf-8") as f:
     data = json.load(f)
 
-def pairwise_beliefs_per_key(data, list_path=("nodes", "final"), nodename="belief"):
-    a, b = list_path
-    rows = []
-    for key, bundle in data.items():
-        items = bundle[a][b]
-        for x, y in combinations(items, 2):
-            rows.append({"key": key, "stance_1": x[nodename], "stance_2": y[nodename]})
-    df = pd.DataFrame(rows)
-    df[["stance_1", "stance_2"]] = np.sort(df[["stance_1", "stance_2"]].to_numpy(), axis=1)
-    return df
-
-grid = pairwise_beliefs_per_key(data)
+pairwise_pairs = df_pairwise[["key", "stance_1", "stance_2"]]
 
 df_canvas_llm = df_canvas.merge(df_llm, on=["key", "stance_1", "stance_2"], how="outer")
-final = grid.merge(df_canvas_llm, on=["key", "stance_1", "stance_2"], how="left")
+final = pairwise_pairs.merge(df_canvas_llm, on=["key", "stance_1", "stance_2"], how="left")
 
 final["canvas"] = final["canvas"].fillna("no connection")
 final["llm"]    = final["llm"].fillna("no connection")
@@ -164,15 +150,7 @@ heatmap_avg_percent_by_key(
     outpath=os.path.join(outdir, "canvas_llm.svg"),
 )
 
-
-# =============================================================
-# below not used for the preprint
-# =============================================================
-# Question: are inconsistent / missing edges between less relevant nodes?
-#   - Node relevance: data[key]["nodes"]["relevance"] → {belief, relevance 0-100}
-#   - LLM edge strength: data[key]["LLM"]["edge_results"] → strength 0-100
-
-# ---- 1. Build node-relevance lookup (key, stance) → relevance ----
+''' BELOW EXPERIMENTAL, NOT USED.
 relevance_rows = []
 for key, bundle in data.items():
     for item in bundle.get("nodes", {}).get("relevance", []):
@@ -280,3 +258,4 @@ plot_heatmap_table(
     outpath=os.path.join(outdir, "strength_canvas_pairwise.png"),
     figsize=(4, 4), cbar_label="LLM strength (0-100)",
 )
+'''
