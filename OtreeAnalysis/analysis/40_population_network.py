@@ -39,21 +39,21 @@ from utilities import wave_1, wave_2, get_public_path
 # -------------------------
 CFG = dict(
     WAVES=[1, 2],
-    REMOVE_OUTLIER=True,     # drop topic == -1 
+    REMOVE_OUTLIER=False,     # drop topic == -1 
     KEEP_ISOLATES=True,      # keep topics with no kept edges (draw them on ring)
     SEED=123,                # for reproducibility / future random choices
 
     # filtering
     FILTER_MODE="delta",     # "alpha_delta" | "delta"
     ALPHA=0.1,
-    MIN_DELTA=0.15,          # e.g. 0.0 for "p_obs > p_hat", or 0.15 like your example
+    MIN_DELTA=0.08,          # e.g. 0.0 for "p_obs > p_hat", or 0.15 like your example
     MIN_M=10,                # minimum opportunities
 
     # edge thickness mode
     EDGE_WIDTH="k_ij",       # "p_obs" | "k_ij" | "delta"
 
     # proportional edge-width scaling (NO floor, no normalization)
-    WIDTH_SCALE=2.0,         # linewidth = WIDTH_SCALE * (k_ij or p_obs or delta)
+    WIDTH_SCALE=0.5,         # linewidth = WIDTH_SCALE * (k_ij or p_obs or delta)
 
     # layout
     ENFORCE_FLIP=True,       # remove possible mirror flip in spectral ordering (deterministic)
@@ -78,14 +78,13 @@ CFG["OUTDIR"].mkdir(parents=True, exist_ok=True)
 
 bertopic_dir = Path("../data/public/bertopic/selection")
 selection_dir = bertopic_dir / "statement_topics"
-best_model = sorted(selection_dir.glob("01__*__statement_topics.csv"))[0]
+best_model = sorted(selection_dir.glob("09__*__statement_topics.csv"))[0]
 
 df_statements_topics = pd.read_csv(best_model)[["key", "wave", "stance", "topic"]]
 
 overview_dir = bertopic_dir / "overview"
-overview_file = sorted(overview_dir.glob("01__*__topic_info.csv"))[0]
+overview_file = sorted(overview_dir.glob("09__*__topic_info.csv"))[0]
 df_topic_overview = pd.read_csv(overview_file)[["Topic", "Representation"]]
-
 
 # -------------------------
 # Helpers: load + extract + topic assignment
@@ -351,7 +350,7 @@ def plot_topic_network(
     node_colors = [cmap(int(t) % 20) for t in G.nodes]
 
     counts = np.array([G.nodes[t]["count"] for t in G.nodes], dtype=float)
-    node_sizes = counts / (counts.max() / 3000) if counts.size else []
+    node_sizes = counts / (counts.max() / 5000) if counts.size else []
 
     edges = list(G.edges())
     if edges:
@@ -378,7 +377,7 @@ def plot_topic_network(
         legend_lines.append(f"T{t} ({cnt}): {kw}")
 
     fig, (ax, ax_leg) = plt.subplots(1, 2, figsize=(26, 12),
-                                     gridspec_kw={"width_ratios": [3, 1]})
+                                     gridspec_kw={"width_ratios": [2, 1]})
     ax.set_aspect("equal")
     ax.set_axis_off()
 
@@ -494,7 +493,6 @@ print(f"Average topics per network: {df_canvas_stances.groupby(['key','wave'])['
 # Individual overlay
 # =========================================================================
 
-import matplotlib.colors as mcolors
 from matplotlib.backends.backend_pdf import PdfPages
 
 # -------------------------
@@ -524,7 +522,7 @@ IND_CFG = dict(
 # -------------------------
 _cmap = plt.get_cmap("tab20")
 _counts_arr     = np.array([G.nodes[t]["count"] for t in G.nodes], dtype=float)
-_node_sizes     = _counts_arr / (_counts_arr.max() / 3000) if _counts_arr.size else np.array([])
+_node_sizes     = _counts_arr / (_counts_arr.max() / 5000) if _counts_arr.size else np.array([])
 _node_color_map = {t: _cmap(int(t) % 20) for t in G.nodes}
 _node_order     = list(G.nodes)
 
@@ -541,11 +539,7 @@ def _fade(rgba, fade):
     return tuple(r)
 
 _pop_node_faded = [_fade(_cmap(int(t) % 20), IND_CFG["BG_NODE_FADE"]) for t in G.nodes]
-_pop_edge_faded = [
-    _fade(np.array(mcolors.to_rgba(IND_CFG["EDGE_COLORS"][G.edges[u, v]["polarity"]])),
-          IND_CFG["BG_EDGE_FADE"])
-    for u, v in _pop_edges
-]
+_pop_edge_faded = ["#cccccc" for _ in _pop_edges]
 
 # topic legend text (built once, used on PDF legend page)
 _topic_words = {}
