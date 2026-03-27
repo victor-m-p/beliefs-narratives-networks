@@ -36,7 +36,7 @@ def extract_transcript(data, id):
     return transcript
 
 # setup
-wave = wave_1
+wave = wave_1  # toggled manually and run for both wave_1 and wave_2
 model = 'gpt-4.1-2025-04-14' # same as in survey
 
 # load data (from private - contains interviews)

@@ -4,6 +4,9 @@ VMP 2026-02-06 (refactored):
 - Saves figures to ../fig/pagetimes
 - Uses public data (page_times field is safe, doesn't contain interviews)
 
+NOTE: Diagnostic only — figures not reported in manuscript.
+Used to verify participants spent reasonable time on each survey page.
+
 VMP 2026-02-07: tested and run.
 '''
 
@@ -15,7 +18,7 @@ import matplotlib.pyplot as plt
 from utilities import wave_1, wave_2, get_public_path
 
 # setup
-wave = wave_2  # change here for wave 1 vs wave 2
+wave = wave_2  # toggled manually and run for both wave_1 and wave_2
 
 # load data from public (sanitized, but includes page_times)
 curation_path = get_public_path("curation_w{wave}.json", wave=wave)

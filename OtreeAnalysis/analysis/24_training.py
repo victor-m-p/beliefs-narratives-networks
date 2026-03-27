@@ -3,7 +3,8 @@ VMP 2026-02-06 (refactored):
 Analyzes training performance across waves.
 Uses sanitized public data.
 
-VMP 2026-02-07: tested and run.
+OUTPUT: Figure 9 (main text) — fig/training/training.pdf
+
 '''
 
 import os
@@ -17,7 +18,7 @@ from utilities import wave_1, wave_2, get_public_path
 # -------------------------
 # config
 # -------------------------
-outdir = "../fig/consistency"
+outdir = "../fig/training"
 os.makedirs(outdir, exist_ok=True)
 
 # -------------------------

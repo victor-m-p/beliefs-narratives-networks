@@ -7,13 +7,16 @@ Basic reliability across waves:
    - LLM-extracted nodes (W1 vs W2; no limit)
    - human canvas edges (W1 vs W2)
 
-2) Reliability table for network metrics (human networks; embeddings pipeline output).
+2) Reliability table: descriptives + Pearson r for network measures.
 
 Assumes these exist:
-- public/interviews_w*.csv (NOTE: not yet generated - need Phase 0 script)
+- public/interviews_w*.csv
 - public/edges_canvas_w*.csv
 - public/llm_extractions/node_extraction_w*/<model>/*.json
-- Embeddings data (currently gitignored)
+
+OUTPUT: 
+Figure 3 (main text) — fig/reliability/reliability.svg
+Table S4 fig/tables/reliability_descriptives.tex
 
 VMP 2026-02-07: tested and run.
 """
@@ -26,7 +29,6 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 
 from scipy.stats import pearsonr
-import networkx as nx
 
 from utilities import wave_1, wave_2, get_public_path, get_llm_extraction_path
 
@@ -35,7 +37,7 @@ from utilities import wave_1, wave_2, get_public_path, get_llm_extraction_path
 # -------------------------
 MODEL = "gpt-4.1-2025-04-14"
 
-outdir = "../fig/consistency"
+outdir = "../fig/reliability"
 os.makedirs(outdir, exist_ok=True)
 
 # -------------------------
@@ -195,7 +197,6 @@ scatter_ax(axes[2], edges_wide,
            tick_step=5)     # force integer grid
 
 plt.tight_layout()
-plt.savefig(os.path.join(outdir, "reliability.pdf"))
 plt.savefig(os.path.join(outdir, "reliability.svg"))
 
 # -------------------------
@@ -267,12 +268,9 @@ table = pd.DataFrame(table_rows)
 print("\n=== Descriptives and reliability ===")
 print(table.to_string(index=False, float_format=lambda v: f"{v:.2f}"))
 
-# save CSV
+# save LaTeX — Table S4
 table_dir = "../fig/tables"
 os.makedirs(table_dir, exist_ok=True)
-table.to_csv(os.path.join(table_dir, "reliability_descriptives.csv"), index=False)
-
-# save LaTeX
 latex = table.to_latex(
     index=False,
     float_format="%.2f",
@@ -315,125 +313,3 @@ print(f"Networks with no supporting edges   : {no_support:.1f}%")
 print(f"Networks with both types            : {has_both:.1f}%")
 
 
-''' CONSIDER WHETHER WE WANT THE BELOW:
-
-# -------------------------
-# 3) network metric reliability (human; embeddings pipeline)
-# -------------------------
-nodes_all = pd.read_csv("../data/public/embeddings/nodes.csv")
-edges_hum = pd.read_csv("../data/public/embeddings/edge_hum.csv")
-
-# id = key_wave to compare across waves later
-nodes_all["id"] = nodes_all["key"].astype(str) + "_" + nodes_all["wave"].astype(str)
-edges_hum["id"] = edges_hum["key"].astype(str) + "_" + edges_hum["wave"].astype(str)
-
-# only canvas nodes (include isolates)
-nodes_canvas = nodes_all[nodes_all["canvas"] == True].copy()
-
-def build_graph(edges_df, nodes_df, id_value):
-    G = nx.Graph()
-    nsub = nodes_df[nodes_df["id"] == id_value]
-    esub = edges_df[edges_df["id"] == id_value]
-
-    for _, r in nsub.iterrows():
-        G.add_node(r["stance"])
-
-    for _, r in esub.iterrows():
-        s1, s2 = r.get("stance_1"), r.get("stance_2")
-        if pd.notna(s1) and pd.notna(s2) and s1 != s2:
-            G.add_edge(s1, s2)
-    return G
-
-def metrics_from_graph(G):
-    n = G.number_of_nodes()
-    m = G.number_of_edges()
-    n_iso = nx.number_of_isolates(G)
-    n_comp = nx.number_connected_components(G) if n else 0
-    dens = nx.density(G) if n > 1 else 0.0
-
-    # GCC
-    if n and m:
-        gcc_nodes = max(nx.connected_components(G), key=len)
-        H = G.subgraph(gcc_nodes).copy()
-    else:
-        H = nx.Graph()
-
-    gn = H.number_of_nodes()
-    gm = H.number_of_edges()
-    gdens = nx.density(H) if gn > 1 else 0.0
-
-    if gn >= 2:
-        apl = nx.average_shortest_path_length(H)
-        diam = nx.diameter(H)
-    else:
-        apl = np.nan
-        diam = np.nan
-
-    trans = nx.transitivity(H) if gn >= 3 else np.nan
-    clust = nx.average_clustering(H) if gn >= 2 else np.nan
-
-    return dict(
-        n_nodes=n,
-        n_edges=m,
-        n_isolates=n_iso,
-        n_components=n_comp,
-        density=dens,
-        gcc_nodes=gn,
-        gcc_edges=gm,
-        gcc_density=gdens,
-        gcc_avg_path_length=apl,
-        gcc_diameter=diam,
-        gcc_transitivity=trans,
-        gcc_avg_clustering=clust,
-    )
-
-all_ids = pd.Index(nodes_canvas["id"]).union(edges_hum["id"]).dropna().unique()
-rows = []
-for idv in all_ids:
-    G = build_graph(edges_hum, nodes_canvas, idv)
-    d = metrics_from_graph(G)
-    d["id"] = idv
-    rows.append(d)
-
-net = pd.DataFrame(rows)
-
-# split id -> pid + wave
-net["pid"] = net["id"].str.rsplit("_", n=1).str[0]
-net["wave"] = net["id"].str.rsplit("_", n=1).str[1].astype(int)
-
-metrics = [c for c in net.columns if c not in ["id", "pid", "wave"]]
-
-out_rows = []
-for metric in metrics:
-    wide = net.pivot(index="pid", columns="wave", values=metric)
-    if 1 in wide.columns and 2 in wide.columns:
-        x = wide[1]
-        y = wide[2]
-        corr = x.corr(y)
-    else:
-        corr = np.nan
-
-    out_rows.append(dict(
-        metric=metric,
-        correlation=corr,
-        r_squared=(corr ** 2) if pd.notna(corr) else np.nan,
-        overall_mean=net[metric].mean(skipna=True),
-        overall_sd=net[metric].std(skipna=True),
-    ))
-
-reliability = pd.DataFrame(out_rows).sort_values("metric")
-reliability.to_csv(os.path.join(outdir, "network_metric_reliability.csv"), index=False)
-
-latex = reliability.to_latex(
-    index=False,
-    float_format="%.3f",
-    na_rep="",
-    caption="Reliability and descriptives of network measures (human networks).",
-    label="tab:reliability_network_metrics",
-    escape=True,
-)
-
-with open(os.path.join(outdir, "network_metric_reliability.tex"), "w") as f:
-    f.write(latex)
-
-'''

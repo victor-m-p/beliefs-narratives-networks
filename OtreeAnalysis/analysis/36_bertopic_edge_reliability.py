@@ -53,98 +53,6 @@ def load_edges(edge_csv: Path) -> pd.DataFrame:
     return df[["key", "wave", "topic_1", "topic_2"]].drop_duplicates()
 
 
-def compute_participant_level(presence: pd.DataFrame, edges: pd.DataFrame) -> pd.DataFrame:
-    """Per-participant counts for connected and unconnected W1 pairs."""
-    pres = presence.groupby(["key", "wave"])["topic"].apply(set).to_dict()
-    edge_sets = (
-        edges.groupby(["key", "wave"])
-        .apply(lambda g: set(zip(g["topic_1"], g["topic_2"])), include_groups=False)
-        .to_dict()
-    )
-
-    keys = sorted(set(k for k, w in pres if w == 1) & set(k for k, w in pres if w == 2))
-
-    rows = []
-    for key in keys:
-        topics_w1 = pres.get((key, 1), set())
-        topics_w2 = pres.get((key, 2), set())
-        edges_w1 = edge_sets.get((key, 1), set())
-        edges_w2 = edge_sets.get((key, 2), set())
-
-        # all W1 topic pairs (normalized: t1 < t2)
-        topics_w1_sorted = sorted(topics_w1)
-        all_pairs = set()
-        for i, t1 in enumerate(topics_w1_sorted):
-            for t2 in topics_w1_sorted[i + 1:]:
-                all_pairs.add((t1, t2))
-
-        # connected (edge in W1)
-        conn_n = 0
-        conn_both_w2 = 0
-        conn_edge_w2 = 0
-        # unconnected (no edge in W1)
-        unconn_n = 0
-        unconn_both_w2 = 0
-        unconn_edge_w2 = 0
-
-        for t1, t2 in all_pairs:
-            both_in_w2 = (t1 in topics_w2) and (t2 in topics_w2)
-            edge_in_w2 = (t1, t2) in edges_w2
-
-            if (t1, t2) in edges_w1:
-                conn_n += 1
-                conn_both_w2 += both_in_w2
-                conn_edge_w2 += edge_in_w2
-            else:
-                unconn_n += 1
-                unconn_both_w2 += both_in_w2
-                unconn_edge_w2 += edge_in_w2
-
-        rows.append(dict(
-            key=key,
-            conn_n=conn_n,
-            conn_both_w2=conn_both_w2,
-            conn_edge_w2=conn_edge_w2,
-            unconn_n=unconn_n,
-            unconn_both_w2=unconn_both_w2,
-            unconn_edge_w2=unconn_edge_w2,
-        ))
-
-    return pd.DataFrame(rows)
-
-
-def safe_div(a, b):
-    return a / b if b > 0 else np.nan
-
-
-def aggregate(df_part: pd.DataFrame) -> dict:
-    """Average participant-level rates (each participant weighted equally)."""
-    df = df_part.copy()
-
-    # per-participant rates (NaN if denominator is 0)
-    df["conn_p_both_w2"] = df.apply(lambda r: safe_div(r["conn_both_w2"], r["conn_n"]), axis=1)
-    df["conn_p_edge_w2"] = df.apply(lambda r: safe_div(r["conn_edge_w2"], r["conn_n"]), axis=1)
-    df["unconn_p_both_w2"] = df.apply(lambda r: safe_div(r["unconn_both_w2"], r["unconn_n"]), axis=1)
-    df["unconn_p_edge_w2"] = df.apply(lambda r: safe_div(r["unconn_edge_w2"], r["unconn_n"]), axis=1)
-
-    return dict(
-        n_participants=len(df),
-        conn_n=int(df["conn_n"].sum()),
-        conn_p_both_w2=df["conn_p_both_w2"].mean(),
-        conn_p_edge_w2=df["conn_p_edge_w2"].mean(),
-        unconn_n=int(df["unconn_n"].sum()),
-        unconn_p_both_w2=df["unconn_p_both_w2"].mean(),
-        unconn_p_edge_w2=df["unconn_p_edge_w2"].mean(),
-    )
-
-
-# =============================================================================
-# ANALYSIS 1: Conditional edge persistence (per-participant W1 pair universe)
-# =============================================================================
-# For each W1 topic pair: is it connected or not?
-# Then: do both topics reappear in W2? Does the edge reappear in W2?
-# Reported separately for connected vs unconnected W1 pairs.
-# =============================================================================
 top10 = pd.read_csv(TOP10_PATH)
 r = top10.iloc[8]
 label = f"09__{r.embed_model_outname}__run_{r.run_id}"
@@ -154,28 +62,6 @@ stmt_csv = STMT_DIR / f"{label}__statement_topics.csv"
 
 presence = pd.read_csv(stmt_csv)[["key", "wave", "topic"]].drop_duplicates()
 edges = load_edges(edge_csv)
-
-df_part = compute_participant_level(presence, edges)
-agg = aggregate(df_part)
-
-print(f"Run: {label}")
-print(f"N participants: {agg['n_participants']}")
-print()
-print(f"{'':20s} {'Connected':>12s} {'Unconnected':>12s}")
-print(f"{'N pairs':20s} {agg['conn_n']:12d} {agg['unconn_n']:12d}")
-print(f"{'P(both in W2)':20s} {agg['conn_p_both_w2']:12.3f} {agg['unconn_p_both_w2']:12.3f}")
-print(f"{'P(edge in W2)':20s} {agg['conn_p_edge_w2']:12.3f} {agg['unconn_p_edge_w2']:12.3f}")
-print(f"{'edge / both':20s} {agg['conn_p_edge_w2']/agg['conn_p_both_w2']:12.3f} {agg['unconn_p_edge_w2']/agg['unconn_p_both_w2']:12.3f}")
-
-# =============================================================================
-# ANALYSIS 2: Within- vs between-person phi (global pair universe)
-# =============================================================================
-# Binary vector per participant: length = all unique (t1, t2) topic-pairs
-# phi_matrix(A, B)[i,j] = phi between participant i's W1 edge vector
-#                          and participant j's W2 edge vector.
-# Diagonal = within-person; off-diagonal = between-person.
-# =============================================================================
-
 
 PLOT_MAX_OTHER = 500
 EDGE_PHI_OUTDIR = OUTDIR / "edge_phi"
@@ -245,25 +131,15 @@ def phi_matrix(A: np.ndarray, B: np.ndarray, eps: float = 1e-12) -> np.ndarray:
     return out
 
 
-## TMP (delete again.)
-presence 
-edges
-
 # Build binary matrices for selected run using shared helper
 A_edge, B_edge, common_keys, all_topics, all_pairs = build_edge_matrices(presence, edges)
 n_keys = len(common_keys) # n=210
 n_pairs = len(all_pairs) # n=136
 print(f"\nEdge-phi: {n_pairs} possible topic-pair columns ({len(all_topics)} topics)")
 print(f"Edge-phi: {n_keys} participants with data in both waves")
-np.mean(A_edge)*136 # 6.4 edges (dedup., topics.)
-np.mean(B_edge)*136 # 6.6 edges (dedup., topics.)
-all_topics # good (16)
-all_pairs # good (136)
 
 # Phi matrix and extract within/between
 P_edge = phi_matrix(A_edge, B_edge)
-P_edge.shape # 210 x 210
-P_edge[0]
 
 rng = np.random.default_rng(42)
 self_phi  = np.diag(P_edge) # shape 210
@@ -273,46 +149,7 @@ other_phi = other_phi[np.isfinite(other_phi)]
 if len(other_phi) > PLOT_MAX_OTHER:
     other_phi = rng.choice(other_phi, size=PLOT_MAX_OTHER, replace=False)
 
-print(f"Within-person phi:  mean={self_phi.mean():.3f}  SD={self_phi.std():.3f}  N={len(self_phi)}")
-print(f"Between-person phi: mean={other_phi.mean():.3f}  SD={other_phi.std():.3f}  N={len(other_phi)}")
-
-# ---- Within-person 2x2 contingency table (participant-level averages) ----
-# Rows = W1 edge status, Columns = W2 edge status.
-# Each cell is computed per participant across all n_pairs columns, then averaged.
-# Universe: all global topic pairs (n_pairs), including pairs the participant never had.
-a_pp = (A_edge * B_edge).sum(axis=1).astype(float)              # W1 present, W2 present
-b_pp = (A_edge * (1 - B_edge)).sum(axis=1).astype(float)        # W1 present, W2 absent
-c_pp = ((1 - A_edge) * B_edge).sum(axis=1).astype(float)        # W1 absent,  W2 present
-d_pp = ((1 - A_edge) * (1 - B_edge)).sum(axis=1).astype(float)  # W1 absent,  W2 absent
-
-# Table 1: raw counts (mean number of pairs per participant in each cell)
-print(f"\n=== Within-person 2x2 contingency — raw counts (mean pairs per participant, N={n_keys}) ===")
-print(f"  Rows = W1 edge status | Columns = W2 edge status")
-print(f"                   W2 present    W2 absent")
-print(f"  W1 present   a = {a_pp.mean():8.2f}    b = {b_pp.mean():8.2f}    row total = {(a_pp + b_pp).mean():.2f}")
-print(f"  W1 absent    c = {c_pp.mean():8.2f}    d = {d_pp.mean():8.2f}    row total = {(c_pp + d_pp).mean():.2f}")
-print(f"  (SD:         a = {a_pp.std():8.2f}    b = {b_pp.std():8.2f}    c = {c_pp.std():.2f}    d = {d_pp.std():.2f})")
-
-# Table 2: % of all n_pairs (each cell as share of the global pair universe)
-total = a_pp + b_pp + c_pp + d_pp  # equals n_pairs for every participant
-print(f"\n=== Within-person 2x2 contingency — % of all {n_pairs} pairs (participant-level means) ===")
-print(f"  Rows = W1 edge status | Columns = W2 edge status")
-print(f"                   W2 present    W2 absent")
-print(f"  W1 present   a = {(a_pp / total * 100).mean():7.1f}%    b = {(b_pp / total * 100).mean():7.1f}%")
-print(f"  W1 absent    c = {(c_pp / total * 100).mean():7.1f}%    d = {(d_pp / total * 100).mean():7.1f}%")
-
-# Table 3: row percentages (conditional on W1 status — the most interpretable)
-# Row 1: given edge present in W1, what % persisted into W2?
-# Row 2: given edge absent in W1,  what % appeared in W2?
-row1_total = a_pp + b_pp
-row2_total = c_pp + d_pp
-print(f"\n=== Within-person 2x2 contingency — row percentages (participant-level means) ===")
-print(f"  Rows = W1 edge status | Columns = W2 edge status")
-print(f"  Row % = conditional on W1 status: P(W2 | W1)")
-print(f"                   W2 present              W2 absent         Row N")
-print(f"  W1 present   a = {(a_pp / row1_total * 100).mean():7.1f}%    b = {(b_pp / row1_total * 100).mean():7.1f}%    n = {row1_total.mean():.2f}")
-print(f"  W1 absent    c = {(c_pp / row2_total * 100).mean():7.1f}%    d = {(d_pp / row2_total * 100).mean():7.1f}%    n = {row2_total.mean():.2f}")
-
+# ---- Plot: within- vs between-person phi ----
 label_self  = r"$\phi_{\mathrm{within}}$"
 label_other = r"$\phi_{\mathrm{between}}$"
 
@@ -333,6 +170,15 @@ mean_se_plot_side(
     **PLOT_STYLE,
 )
 print(f"Saved: {EDGE_PHI_OUTDIR / 'edge_phi_boxdots.svg'}")
+
+# ---- Within-person 2x2 contingency table ----
+# Rows = W1 edge status, Columns = W2 edge status.
+# Each cell computed per participant across all n_pairs columns, then averaged.
+# Universe: all global topic pairs, including pairs the participant never had.
+a_pp = (A_edge * B_edge).sum(axis=1).astype(float)              # W1 present, W2 present
+b_pp = (A_edge * (1 - B_edge)).sum(axis=1).astype(float)        # W1 present, W2 absent
+c_pp = ((1 - A_edge) * B_edge).sum(axis=1).astype(float)        # W1 absent,  W2 present
+d_pp = ((1 - A_edge) * (1 - B_edge)).sum(axis=1).astype(float)  # W1 absent,  W2 absent
 
 # ---- Summary table: edge phi across all 10 candidate runs ----
 summary_rows = []
@@ -420,56 +266,3 @@ cont_outname = TABLES_DIR / "edge_contingency_table.tex"
 with open(cont_outname, "w", encoding="utf-8") as f:
     f.write(contingency_latex)
 print(f"Saved: {cont_outname}")
-
-r'''
-def jaccard_matrix(A: np.ndarray, B: np.ndarray, eps: float = 1e-12) -> np.ndarray:
-    """N×N Jaccard matrix: entry [i,j] = |A[i] ∩ B[j]| / |A[i] ∪ B[j]|.
-
-    Ignores shared absences (d), so it is not inflated by sparse vectors
-    the way phi can be.
-    """
-    a = A @ B.T                          # intersection size
-    sumA = A.sum(axis=1)[:, None]        # |A[i]|
-    sumB = B.sum(axis=1)[None, :]        # |B[j]|
-    union = sumA + sumB - a              # |A[i] ∪ B[j]|
-    out = np.full_like(a, np.nan, dtype=float)
-    ok = union > eps
-    out[ok] = a[ok] / union[ok]
-    return out
-
-
-# ---- Jaccard: same structure, ignores shared absences ----
-J_edge = jaccard_matrix(A_edge, B_edge)
-
-self_jac  = np.diag(J_edge)
-other_jac = J_edge[~np.eye(n_keys, dtype=bool)]
-
-self_jac  = self_jac[np.isfinite(self_jac)]
-other_jac = other_jac[np.isfinite(other_jac)]
-if len(other_jac) > PLOT_MAX_OTHER:
-    other_jac = rng.choice(other_jac, size=PLOT_MAX_OTHER, replace=False)
-
-print(f"\nWithin-person Jaccard:  mean={self_jac.mean():.3f}  SD={self_jac.std():.3f}  N={len(self_jac)}")
-print(f"Between-person Jaccard: mean={other_jac.mean():.3f}  SD={other_jac.std():.3f}  N={len(other_jac)}")
-
-label_self  = r"$J_{\mathrm{within}}$"
-label_other = r"$J_{\mathrm{between}}$"
-
-df_edge_jac = pd.DataFrame({
-    "group": [label_self] * len(self_jac) + [label_other] * len(other_jac),
-    "value": np.concatenate([self_jac, other_jac]),
-})
-
-mean_se_plot_side(
-    df_edge_jac,
-    xcol="group",
-    ycol="value",
-    xlab="",
-    ylab="Jaccard similarity",
-    title="",
-    order=[label_self, label_other],
-    outname=str(EDGE_PHI_OUTDIR / "edge_jaccard_boxdots.svg"),
-    **PLOT_STYLE,
-)
-print(f"Saved: {EDGE_PHI_OUTDIR / 'edge_jaccard_boxdots.svg'}")
-'''

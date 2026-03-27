@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 from utilities import wave_2, wave_1, get_public_path
 
-wave = wave_2  # run both wave_1 and wave_2
+wave = wave_2  # toggled manually and run for both wave_1 and wave_2
 
 # --- load from public (sanitized) ---
 distractors_path = get_public_path("distractors_w{wave}.json", wave=wave)

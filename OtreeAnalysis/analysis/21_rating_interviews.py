@@ -4,6 +4,8 @@ VMP 2026-02-06 (refactored):
 Analyzes interview ratings across both waves.
 Uses sanitized public data (interview_rating field is safe).
 
+OUTPUT: SI Figure S10 (top panel) — combined with 22_rating_nodes.py output.
+
 VMP 2026-02-07: tested and run.
 '''
 
@@ -116,7 +118,6 @@ axes[1].set_ylabel("")
 fig.suptitle("Ratings of the LLM-guided interview")
 sns.despine()
 plt.tight_layout()
-plt.savefig(os.path.join(outpath_fig, "interview.pdf"), bbox_inches='tight')
 plt.savefig(os.path.join(outpath_fig, "interview.svg"), bbox_inches='tight')
 plt.close(fig)
 

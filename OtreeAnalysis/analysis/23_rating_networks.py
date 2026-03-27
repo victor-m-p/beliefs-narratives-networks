@@ -6,7 +6,9 @@ Two plots of raw network ratings:
   (2) LLM vs LLM + Random
 
 Input: public/distractors_w*.json (sanitized)
-Output: ../fig/rating_networks/
+Output: ../fig/ratings/
+
+OUTPUT: Figure 5A (canvas_rating.svg) and Figure 5B (llm_rating.svg).
 """
 
 import os
@@ -23,7 +25,7 @@ from helpers import mean_se_plot_side
 # -------------------------
 wave = wave_2
 
-outdir = "../fig/rating_networks"
+outdir = "../fig/ratings"
 os.makedirs(outdir, exist_ok=True)
 
 SOURCE_LABEL = {

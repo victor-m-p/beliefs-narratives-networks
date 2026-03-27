@@ -6,6 +6,8 @@ Real vs distractor summaries.
 One figure with Wave 1 and Wave 2 side-by-side (optional shaded exclusion bands).
 Uses sanitized public data (node ratings are safe).
 
+OUTPUT: SI Figure S10 (bottom panel) — combined with 21_rating_interviews.py output.
+
 VMP 2026-02-07: tested and run.
 '''
 
@@ -184,6 +186,5 @@ plt.tight_layout(rect=[0, 0.08, 1, 1])
 fig.suptitle("Ratings of LLM-generated summaries", y=1.02)
 sns.despine()
 plt.tight_layout()
-plt.savefig(os.path.join(FIG_DIR, "nodes.pdf"), bbox_inches="tight")
 plt.savefig(os.path.join(FIG_DIR, "nodes.svg"), bbox_inches="tight")
 plt.close(fig)
