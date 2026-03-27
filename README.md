@@ -1,6 +1,6 @@
 # beliefs-narratives-networks
 
-Code and survey instrument for "Visual Network tool: Individual belief networks from LLM-guided interviews and a visual canvas" (https://osf.io/preprints/psyarxiv/ypfz6_v1).
+Code and survey instrument for "Visual Network Tool: Individual Belief Networks from LLM-guided Interviews and a Visual Canvas" (https://osf.io/preprints/psyarxiv/ypfz6_v1).
 
 ## Refactoring note
 
@@ -12,8 +12,7 @@ Between 2026-02-06 and 2026-02-08, the codebase was refactored with Claude Code 
 beliefs-narratives-networks/
   OtreeAnalysis/     # Analysis pipeline (data processing, figures, topic models)
   otreesurvey/       # oTree survey instrument (LLM-adaptive interviews, belief mapping)
-  demo/              # demo from Feb, 4 2026.
-  (Video snippets and screenshots)
+  demo/              # demo from February 4 2026.(Video snippets and screenshots)
 ```
 
 See the README in each subdirectory for details:
