@@ -11,7 +11,7 @@ Reads:
   ../data/public/distractors_w*.json
 
 Writes:
-  ../fig/networks/all_networks.pdf
+  ../fig/networks/all_networks.pdf            → Figure 2 (main text)
   ../fig/networks/individual/<i>_<key>.svg   (one per participant)
 """
 

@@ -65,7 +65,7 @@ Scripts are numbered by phase. The first digit indicates the phase; scripts with
 | `25_concurrent.py`         | `fig/concurrent/`                                                    | Figure 6                | Concurrent validity: canvas vs pairwise and canvas vs LLM heatmaps       |
 | `27_reliability.py`        | `fig/reliability/`                                                   | Figure 3, Table S4      | Test-retest reliability: scatter panels (words, nodes, edges) + stats    |
 | `28_canvas_distance.py`    | `fig/canvas_distance/`                                               | SI Figure S11           | Canvas distance analysis: connected nodes placed closer?                 |
-| `29_network_plots.py`      | `fig/networks/`                                                      | —                       | Individual belief network visualizations for all participants            |
+| `29_network_plots.py`      | `fig/networks/`                                                      | Figure 2                | Individual belief network visualizations for all participants            |
 | `30_prepare_nodes.py`      | `data/public/`                                                       | —                       | Prepares `nodes.csv` for BERTopic (flags canvas presence)                |
 | `31_bertopic_fit.py`       | `data/public/bertopic/`                                              | —                       | BERTopic grid search across 4 embedding models and ~18 parameter combos  |
 | `32_bertopic_select.py`    | `data/public/bertopic/selection/`                                    | —                       | Selects top-10 BERTopic runs by DBCV score                               |

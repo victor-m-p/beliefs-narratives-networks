@@ -1,5 +1,5 @@
 """
-31_bertopic_retest.py
+36_node_reliability.py
 
 VMP 2026-02-02
 Node-topic test-retest reliability across waves.
