@@ -1,12 +1,10 @@
 # Demo - Visual Network Tool
 
+see: VN Tool Demo.mp4
+
 ## /Screenshots:
 
 - Screenshots of most pages.
-
-## /Videos:
-
-- Video snippets of the three main parts of the Visual Network Tool.
 
 ## Full recording accessible at Zenodo:
 

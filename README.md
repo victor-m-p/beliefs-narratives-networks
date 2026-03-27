@@ -2,11 +2,15 @@
 
 Code and survey instrument for "Visual Network Tool: Individual Belief Networks from LLM-guided Interviews and a Visual Canvas" (https://osf.io/preprints/psyarxiv/ypfz6_v1).
 
+## Demo
+
+**[▶ Watch the tool demo (video)](demo/VN%20Tool%20Demo.mp4)**
+
 ## Changelog
 
-Between 2026-02-06 and 2026-02-08, the codebase was refactored with Claude Code before release of the first OSF version of the preprint (see /manuscript)
+Between 2026-02-06 and 2026-02-08, the codebase was refactored with Claude Code before release of the first OSF version of the preprint.
 
-The codebase changed from 2026-02-08 to 2026-03-27 for the second OSF version of the preprint (see /manuscript)
+The codebase changed from 2026-02-08 to 2026-03-27 for the second OSF version of the preprint.
 
 ## Repository structure
 
