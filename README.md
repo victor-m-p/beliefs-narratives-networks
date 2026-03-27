@@ -4,9 +4,9 @@ Code and survey instrument for "Visual Network Tool: Individual Belief Networks 
 
 ## Changelog
 
-Between 2026-02-06 and 2026-02-08, the codebase was refactored with Claude Code before release of the first OSF version of the preprint (see /Manuscript)
+Between 2026-02-06 and 2026-02-08, the codebase was refactored with Claude Code before release of the first OSF version of the preprint (see /manuscript)
 
-The codebase changed from 2026-02-08 to 2026-03-27 for the second OSF version of the preprint (see /Manuscript)
+The codebase changed from 2026-02-08 to 2026-03-27 for the second OSF version of the preprint (see /manuscript)
 
 ## Repository structure
 

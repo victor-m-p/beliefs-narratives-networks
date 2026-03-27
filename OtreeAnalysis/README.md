@@ -1,11 +1,3 @@
-# OtreeAnalysis
-
-Analysis and data for "Visual Network tool: Individual belief networks from LLM-guided interviews and a visual canvas" preprint (Victor Møller Poulsen, Peter Steiglechner, Henrik Olsson, Mirta Galesic).
-
-## Refactoring note
-
-Between 2026-02-06 and 2026-02-08 the codebase was refactored with Claude Code to separate sensitive data from shareable analysis outputs. All scripts were verified, reproduced, and rerun by Victor Møller Poulsen. Because extra precaution was taken to anonymize data (e.g., remove names) some results (e.g., specific topics) cannot be exactly identical. Otherwise everything was reproduced.
-
 ## Directory structure
 
 ```
@@ -65,35 +57,35 @@ Scripts are numbered by phase. The first digit indicates the phase; scripts with
 
 ### Phase 2: Analysis and figures
 
-| Script                    | Output directory               | Manuscript figure(s)                       | Description                                                              |
-| ------------------------- | ------------------------------ | ------------------------------------------ | ------------------------------------------------------------------------ |
-| `20_pagetimes.py`         | `fig/pagetimes/`               | —                                          | Survey completion time distributions (diagnostic)                        |
-| `21_rating_interviews.py` | `fig/ratings/`                 | SI Figure S10 (top)                        | Interview rating distributions (overall, relevance, ease, etc.)          |
-| `22_rating_nodes.py`      | `fig/ratings/`                 | SI Figure S10 (bottom)                     | Node accuracy ratings (real vs fake distractor summaries)                |
-| `23_rating_networks.py`   | `fig/ratings/`                 | Figure 5A, 5B                              | Network comparison ratings: canvas vs random, LLM vs random              |
-| `24_training.py`          | `fig/training/`                | Figure 9                                   | Training task accuracy across trials (support vs conflict edges)         |
-| `25_concurrent.py`        | `fig/concurrent/`              | Figure 6                                   | Concurrent validity: canvas vs pairwise and canvas vs LLM heatmaps      |
-| `27_reliability.py`       | `fig/reliability/`             | Figure 3, Table S4                         | Test-retest reliability: scatter panels (words, nodes, edges) + stats    |
-| `28_canvas_distance.py`   | `fig/canvas_distance/`         | SI Figure S11                              | Canvas distance analysis: connected nodes placed closer?                 |
-| `29_network_plots.py`     | `fig/networks/`                | —                                          | Individual belief network visualizations for all participants            |
-| `30_prepare_nodes.py`     | `data/public/`                 | —                                          | Prepares `nodes.csv` for BERTopic (flags canvas presence)                |
-| `31_bertopic_fit.py`      | `data/public/bertopic/`        | —                                          | BERTopic grid search across 4 embedding models and ~18 parameter combos  |
-| `32_bertopic_select.py`   | `data/public/bertopic/selection/` | —                                       | Selects top-10 BERTopic runs by DBCV score                               |
-| `33_bertopic_map.py`      | `data/public/bertopic_mapping/`, `data/public/bertopic_mapping_llm/` | — | Maps top-10 topics onto canvas and LLM edges separately          |
-| `34_bertopic_plot.py`     | `fig/bertopic_mapping/`        | —                                          | 2×2 per-participant stance/topic network plots (canvas and LLM versions) |
-| `35_bertopic_tables.py`   | `fig/bertopic_mapping/`        | SI Table S1.6                              | BERTopic topic overview (keywords, examples) as LaTeX longtable          |
-| `36_node_reliability.py`  | `fig/node_reliability/`        | Figure 4, Table S6                         | Node-topic test-retest reliability: phi coefficients, all 10 models      |
-| `37_edge_reliability.py`  | `fig/edge_reliability/`        | Figure 4, Table S7                         | Edge-topic test-retest reliability: phi coefficients + contingency table |
-| `38_criterion.py`         | `fig/criterion/`               | Figure 7, SI Figure S12                    | Criterion validity: topic persistence by W1 topic degree                 |
-| `39_collective_network.py`| `fig/collective_network/`      | Figure 8                                   | Population-level topic network (spectral ring layout)                    |
+| Script                     | Output directory                                                     | Manuscript figure(s)    | Description                                                              |
+| -------------------------- | -------------------------------------------------------------------- | ----------------------- | ------------------------------------------------------------------------ |
+| `20_pagetimes.py`          | `fig/pagetimes/`                                                     | —                       | Survey completion time distributions (diagnostic)                        |
+| `21_rating_interviews.py`  | `fig/ratings/`                                                       | SI Figure S10 (top)     | Interview rating distributions (overall, relevance, ease, etc.)          |
+| `22_rating_nodes.py`       | `fig/ratings/`                                                       | SI Figure S10 (bottom)  | Node accuracy ratings (real vs fake distractor summaries)                |
+| `23_rating_networks.py`    | `fig/ratings/`                                                       | Figure 5A, 5B           | Network comparison ratings: canvas vs random, LLM vs random              |
+| `24_training.py`           | `fig/training/`                                                      | Figure 9                | Training task accuracy across trials (support vs conflict edges)         |
+| `25_concurrent.py`         | `fig/concurrent/`                                                    | Figure 6                | Concurrent validity: canvas vs pairwise and canvas vs LLM heatmaps       |
+| `27_reliability.py`        | `fig/reliability/`                                                   | Figure 3, Table S4      | Test-retest reliability: scatter panels (words, nodes, edges) + stats    |
+| `28_canvas_distance.py`    | `fig/canvas_distance/`                                               | SI Figure S11           | Canvas distance analysis: connected nodes placed closer?                 |
+| `29_network_plots.py`      | `fig/networks/`                                                      | —                       | Individual belief network visualizations for all participants            |
+| `30_prepare_nodes.py`      | `data/public/`                                                       | —                       | Prepares `nodes.csv` for BERTopic (flags canvas presence)                |
+| `31_bertopic_fit.py`       | `data/public/bertopic/`                                              | —                       | BERTopic grid search across 4 embedding models and ~18 parameter combos  |
+| `32_bertopic_select.py`    | `data/public/bertopic/selection/`                                    | —                       | Selects top-10 BERTopic runs by DBCV score                               |
+| `33_bertopic_map.py`       | `data/public/bertopic_mapping/`, `data/public/bertopic_mapping_llm/` | —                       | Maps top-10 topics onto canvas and LLM edges separately                  |
+| `34_bertopic_plot.py`      | `fig/bertopic_mapping/`                                              | —                       | 2×2 per-participant stance/topic network plots (canvas and LLM versions) |
+| `35_bertopic_tables.py`    | `fig/bertopic_mapping/`                                              | SI Table S1.6           | BERTopic topic overview (keywords, examples) as LaTeX longtable          |
+| `36_node_reliability.py`   | `fig/node_reliability/`                                              | Figure 4, Table S6      | Node-topic test-retest reliability: phi coefficients, all 10 models      |
+| `37_edge_reliability.py`   | `fig/edge_reliability/`                                              | Figure 4, Table S7      | Edge-topic test-retest reliability: phi coefficients + contingency table |
+| `38_criterion.py`          | `fig/criterion/`                                                     | Figure 7, SI Figure S12 | Criterion validity: topic persistence by W1 topic degree                 |
+| `39_collective_network.py` | `fig/collective_network/`                                            | Figure 8                | Population-level topic network (spectral ring layout)                    |
 
 ### Shared modules
 
-| File               | Used by                                                                                  |
-| ------------------ | ---------------------------------------------------------------------------------------- |
-| `utilities.py`     | All scripts (constants, path helpers, embedding model specs)                             |
+| File               | Used by                                                                                      |
+| ------------------ | -------------------------------------------------------------------------------------------- |
+| `utilities.py`     | All scripts (constants, path helpers, embedding model specs)                                 |
 | `helpers.py`       | `01`, `12`, `23`, `25`, `27`, `28`, `29`, `36`, `37`, `38`, `39` (data extraction, plotting) |
-| `llm_utilities.py` | `03` (OpenAI API calls, prompt templates, Pydantic response models)                      |
+| `llm_utilities.py` | `03` (OpenAI API calls, prompt templates, Pydantic response models)                          |
 
 ## Reproduction
 
