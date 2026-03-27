@@ -2,9 +2,11 @@
 
 Code and survey instrument for "Visual Network Tool: Individual Belief Networks from LLM-guided Interviews and a Visual Canvas" (https://osf.io/preprints/psyarxiv/ypfz6_v1).
 
-## Refactoring note
+## Changelog
 
-Between 2026-02-06 and 2026-02-08, the codebase was refactored with Claude Code to separate sensitive participant data from shareable analysis outputs, sanitize all scripts for public release, and remove hardcoded secrets. All analysis scripts were verified, reproduced, and rerun by Victor Møller Poulsen.
+Between 2026-02-06 and 2026-02-08, the codebase was refactored with Claude Code before release of the first OSF version of the preprint (see /Manuscript)
+
+The codebase changed from 2026-02-08 to 2026-03-27 for the second OSF version of the preprint (see /Manuscript)
 
 ## Repository structure
 
