@@ -1,10 +1,14 @@
 # Global
+edge_coding/
 .DS_Store
 .claude/
 *.env
 *.otreezip
 *__pycache__
 *.sqlite3
+
+# Prepare BN Experiment (will live in its own GitHub, but starting here)
+bn_experiment
 
 # Analysis - Block sensitive scripts (only pre_cleaning contains hardcoded IDs)
 # Note: 01-03 (curation, post_cleaning, llm_nodes) can be pushed but won't run without private data

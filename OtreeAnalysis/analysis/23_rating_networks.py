@@ -109,3 +109,9 @@ se_summary = (
 
 print("\nMean + SE of raw ratings (participant-level means, all four sources):")
 print(se_summary.to_string(float_format="{:.4f}".format))
+
+# -------------------------
+# Numbers for results section
+# -------------------------
+for source, row in se_summary.iterrows():
+    print(f"{source}: M={row['mean']:.1f}, SD={row['sd']:.1f}")

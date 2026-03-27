@@ -302,10 +302,10 @@ long = pd.concat([
 n_nets = len(long)
 
 print(f"\n=== Pooled stats across both waves (N = {n_nets} networks) ===")
-print(f"Avg accepted nodes :  {long['accepted'].mean():.2f}  (SD {long['accepted'].std():.2f})")
-print(f"Avg canvas edges   :  {long['total'].mean():.2f}  (SD {long['total'].std():.2f})")
-print(f"  - supporting     :  {long['support'].mean():.2f}  (SD {long['support'].std():.2f})")
-print(f"  - conflicting    :  {long['conflict'].mean():.2f}  (SD {long['conflict'].std():.2f})")
+for col, label in [("accepted", "Accepted nodes"), ("total", "Canvas edges"),
+                   ("support", "Supporting edges"), ("conflict", "Conflicting edges")]:
+    s = long[col]
+    print(f"{label:25s}  mean={s.mean():.2f}  SD={s.std():.2f}  min={s.min():.0f}  max={s.max():.0f}")
 
 no_conflict  = (long["conflict"] == 0).mean() * 100
 no_support   = (long["support"]  == 0).mean() * 100

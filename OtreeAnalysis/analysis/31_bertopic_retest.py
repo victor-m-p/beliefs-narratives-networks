@@ -215,7 +215,7 @@ for rank, r in enumerate(top10.itertuples(index=False), 1):
         ylab=r"Phi coefficient ($\phi$)",
         title="",
         order=[label_self, label_other],
-        outname=str(out_run / "topic_presence_phi_boxdots.pdf"),
+        outname=str(out_run / "topic_presence_phi_boxdots.svg"),
         **PLOT_STYLE,
     )
     

@@ -14,27 +14,22 @@ os.makedirs(outpath, exist_ok=True)
 
 # test-retest
 with_outliers = pd.read_csv("../fig/BERTopic/retest/phi__excludeOutliersFalse/overview_phi.csv")
-without_outliers = pd.read_csv("../fig/BERTopic/retest/phi__excludeOutliersTrue/overview_phi.csv")
 
 ## phi coefficient
 ### for the main model (with outliers)
-with_outliers['mean_self'].iloc[0] #.36
-with_outliers['mean_other'].iloc[0] # .10
-
-### for the main model (without outliers)
-without_outliers['mean_self'].iloc[0] # .31 
-without_outliers['mean_other'].iloc[0] # .03
+with_outliers['mean_self'].iloc[8] #.48
+with_outliers['mean_other'].iloc[8] # .18
 
 ### across all 10 models (phi)
-with_outliers['mean_self'].mean() # .38
-with_outliers['mean_self'].min() # .34
-with_outliers['mean_self'].max() # .43
+with_outliers['mean_self'].mean() # .39
+with_outliers['mean_self'].min() # .32
+with_outliers['mean_self'].max() # .48
 
 # AUC
-with_outliers['auc'].iloc[0] # .80
-with_outliers['auc'].mean() # .78
-with_outliers['auc'].max() # .82
-with_outliers['auc'].min() # .72
+with_outliers['auc'].iloc[0] # .78
+with_outliers['auc'].mean() # .77
+with_outliers['auc'].max() # .80
+with_outliers['auc'].min() # .73
 
 '''
 Create table including outliers with phi and AUC.
@@ -79,9 +74,7 @@ with open(outname, "w", encoding="utf-8") as f:
 ### table of the overview for the selected model ###
 bertopic_path = "../data/public/bertopic/selection/overview/"
 from pathlib import Path
-_matches = sorted(Path(bertopic_path).glob("01__*__topic_overview.csv"))
-if not _matches:
-    raise FileNotFoundError("No 01__* topic_overview file found in " + bertopic_path)
+_matches = sorted(Path(bertopic_path).glob("09__*__topic_overview.csv"))
 bertopic_df = pd.read_csv(_matches[0])
 
 # helpers for writing a nice latex table
@@ -117,6 +110,11 @@ d["Example"] = d.apply(_join_reps, axis=1)
 d["Topic_num"] = pd.to_numeric(d["Topic"], errors="coerce")
 d = d.sort_values(["Topic_num", "Topic"], kind="mergesort").drop(columns="Topic_num")
 
+# truncate to 5 keywords
+d["Keywords"] = d["Keywords"].apply(
+    lambda s: ", ".join(str(s).split(", ")[:5]) if pd.notna(s) else ""
+)
+
 # escape
 d["Keywords"] = d["Keywords"].map(_esc)
 d["Example"] = d["Example"].map(_esc)
@@ -149,4 +147,27 @@ lines += [r"\end{longtable}", r"\endgroup"]
 outname = os.path.join(outpath, "BERTopic_overview.txt")
 with open(outname, "w", encoding="utf-8") as f:
     f.write("\n".join(lines) + "\n")
-print("Wrote:", outname)
+
+### participant coverage per topic (model 09__) ###
+stmt_path = "../data/public/bertopic/selection/statement_topics/"
+_stmt_matches = sorted(Path(stmt_path).glob("09__*__statement_topics.csv"))
+stmt_df = pd.read_csv(_stmt_matches[0])
+
+n_participants = stmt_df["key"].nunique()
+
+# one row per (participant, topic) pair, then count
+coverage = (
+    stmt_df[["key", "topic"]].drop_duplicates()
+    .groupby("topic")["key"].count()
+    .reset_index(name="n_participants")
+)
+coverage["pct_participants"] = coverage["n_participants"] / n_participants * 100
+
+# merge in topic labels from the overview file
+topic_labels = bertopic_df.rename(columns={"Topic": "topic", "Keywords": "keywords"})[["topic", "keywords"]]
+coverage = coverage.merge(topic_labels, on="topic", how="left")
+coverage = coverage.sort_values("topic").reset_index(drop=True)
+
+print(f"N participants (across both waves): {n_participants}")
+print(coverage[["topic", "keywords", "n_participants", "pct_participants"]].to_string(index=False))
+

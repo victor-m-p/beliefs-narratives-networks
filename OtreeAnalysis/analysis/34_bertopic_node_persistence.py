@@ -155,7 +155,8 @@ def plot_selected(pp_bin: pd.DataFrame, baseline: float, outpath: Path) -> None:
     plt.close(fig)
 
 
-def plot_all10(all_means: list[list[float]], outpath: Path) -> None:
+def plot_all10(all_means: list[list[float]], outpath: Path,
+               ylim: tuple[float, float] | None = None) -> None:
     """One mean line per model, all 10 overlaid."""
     x_base = np.arange(len(LABELS), dtype=float)
 
@@ -164,6 +165,9 @@ def plot_all10(all_means: list[list[float]], outpath: Path) -> None:
     for means in all_means:
         ax.plot(x_base, means, "o-", color="lightsteelblue",
                 markersize=4, linewidth=1.0, alpha=0.7, zorder=2)
+
+    if ylim is not None:
+        ax.set_ylim(ylim)
 
     ax.set_xticks(x_base)
     ax.set_xticklabels(LABELS, fontsize=13)
@@ -208,9 +212,13 @@ for rank, r in enumerate(top10.itertuples(index=False), 1):
 plot_selected(pp_bin_c1, baseline_c1, OUTDIR / "persistence_a1_canvas_selected.svg")
 plot_selected(pp_bin_l1, baseline_l1, OUTDIR / "persistence_a1_llm_selected.svg")
 
-# Plot 3 & 4: all 10 models, mean lines only
-plot_all10(canvas_means_all, OUTDIR / "persistence_a1_canvas_all10.svg")
-plot_all10(llm_means_all,    OUTDIR / "persistence_a1_llm_all10.svg")
+# Plot 3 & 4: all 10 models, mean lines only — shared y-axis
+_all10_flat = [v for means in canvas_means_all + llm_means_all for v in means if not np.isnan(v)]
+_pad = 0.05 * (max(_all10_flat) - min(_all10_flat))
+_shared_ylim = (min(_all10_flat) - _pad, max(_all10_flat) + _pad)
+
+plot_all10(canvas_means_all, OUTDIR / "persistence_a1_canvas_all10.svg", ylim=_shared_ylim)
+plot_all10(llm_means_all,    OUTDIR / "persistence_a1_llm_all10.svg",    ylim=_shared_ylim)
 
 print("\nSaved to:", OUTDIR)
 
@@ -267,59 +275,3 @@ export_df = (
 export_df.to_csv(OUTDIR / "topic_persistence.csv", index=False)
 print(f"\nSaved mixed-effects CSV: {len(export_df)} rows, {export_df['participant_id'].nunique()} participants")
 print("Saved to:", OUTDIR / "topic_persistence_mixed.csv")
-
-# -----------------------------
-# Extra: no-outlier and unweighted variants (canvas, selected + all 10)
-# -----------------------------
-
-def compute_degree_no_outlier(edge_csv: Path) -> pd.DataFrame:
-    """Weighted degree, excluding all edges that touch topic -1."""
-    df = pd.read_csv(edge_csv)[["wave", "key", "topic_1", "topic_2"]]
-    df = df[df["wave"] == 1].copy()
-    df = normalize_ab(df, "topic_1", "topic_2")
-    df = df[(df["topic_1"] != -1) & (df["topic_2"] != -1)]
-    df = df.groupby(["key", "topic_1", "topic_2"], as_index=False).size().rename(columns={"size": "n_edges"})
-    deg1 = df.groupby(["key", "topic_1"])["n_edges"].sum().reset_index(name="degree_wt").rename(columns={"topic_1": "topic"})
-    cross = df[df["topic_1"] != df["topic_2"]]
-    deg2 = cross.groupby(["key", "topic_2"])["n_edges"].sum().reset_index(name="degree_wt").rename(columns={"topic_2": "topic"})
-    return pd.concat([deg1, deg2], ignore_index=True).groupby(["key", "topic"], as_index=False)["degree_wt"].sum()
-
-
-no_out_means_all, unwt_means_all = [], []
-pp_bin_no_out = pp_bin_unwt = pd.DataFrame()
-baseline_no_out = baseline_unwt = float("nan")
-
-for rank, r in enumerate(top10.itertuples(index=False), 1):
-    label    = f"{rank:02d}__{r.embed_model_outname}__run_{r.run_id}"
-    stmt_csv = STMT_DIR / f"{label}__statement_topics.csv"
-    edge_csv = SEL_MAP / f"edge_mapping__{label}.csv"
-
-    # no-outlier: filter topic -1 from nodes too
-    nodes_no_out = load_nodes(stmt_csv)
-    nodes_no_out = nodes_no_out[nodes_no_out["topic"] != -1]
-    df_no_out = build_base_df(nodes_no_out, compute_degree_no_outlier(edge_csv))
-    pp_no_out = get_pp_bin(df_no_out)
-    no_out_means_all.append(bin_means(pp_no_out))
-
-    # unweighted
-    df_unwt = build_base_df(load_nodes(stmt_csv), compute_degree_unweighted(edge_csv))
-    pp_unwt = get_pp_bin(df_unwt)
-    unwt_means_all.append(bin_means(pp_unwt))
-
-    if rank == 1:
-        pp_bin_no_out   = pp_no_out
-        baseline_no_out = get_baseline(df_no_out)
-        pp_bin_unwt     = pp_unwt
-        baseline_unwt   = get_baseline(df_unwt)
-
-    print(f"[ok-extra] rank {rank}")
-
-# Selected model plots
-plot_selected(pp_bin_no_out, baseline_no_out, OUTDIR / "persistence_a1_canvas_no_outlier.svg")
-plot_selected(pp_bin_unwt,   baseline_unwt,   OUTDIR / "persistence_a1_canvas_unweighted.svg")
-
-# All-10 spaghetti plots
-plot_all10(no_out_means_all, OUTDIR / "persistence_a1_canvas_no_outlier_all10.svg")
-plot_all10(unwt_means_all,   OUTDIR / "persistence_a1_canvas_unweighted_all10.svg")
-
-print("\nSaved extra plots to:", OUTDIR)
