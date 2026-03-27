@@ -57,8 +57,7 @@ from pathlib import Path
 # 0) Config
 # -----------------------------
 
-emb_dir = "../data/public/embeddings"
-nodes_path = os.path.join(emb_dir, "nodes.csv")
+nodes_path = "../data/public/nodes.csv"
 
 def reset_dir(path: str, must_contain: str = "bertopic") -> None:
     """Delete + recreate directory. Safety: refuses unless `must_contain` is in resolved path."""
