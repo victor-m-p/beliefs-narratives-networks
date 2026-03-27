@@ -16,7 +16,7 @@ Assumes these exist:
 
 OUTPUT: 
 Figure 3 (main text) — fig/reliability/reliability.svg
-Table S4 fig/tables/reliability_descriptives.tex
+Table S4 fig/reliability/reliability_descriptives.tex
 
 VMP 2026-02-07: tested and run.
 """
@@ -269,8 +269,6 @@ print("\n=== Descriptives and reliability ===")
 print(table.to_string(index=False, float_format=lambda v: f"{v:.2f}"))
 
 # save LaTeX — Table S4
-table_dir = "../fig/tables"
-os.makedirs(table_dir, exist_ok=True)
 latex = table.to_latex(
     index=False,
     float_format="%.2f",
@@ -279,9 +277,9 @@ latex = table.to_latex(
     label="tab:reliability_descriptives",
     escape=True,
 )
-with open(os.path.join(table_dir, "reliability_descriptives.tex"), "w") as f:
+with open(os.path.join(outdir, "reliability_descriptives.tex"), "w", encoding="utf-8") as f:
     f.write(latex)
-print("Saved table to", table_dir)
+print("Saved table to", outdir)
 
 # -------------------------
 # 4) pooled (across both waves) quick stats
@@ -311,5 +309,3 @@ has_both     = ((long["conflict"] > 0) & (long["support"] > 0)).mean() * 100
 print(f"\nNetworks with no conflicting edges  : {no_conflict:.1f}%")
 print(f"Networks with no supporting edges   : {no_support:.1f}%")
 print(f"Networks with both types            : {has_both:.1f}%")
-
-

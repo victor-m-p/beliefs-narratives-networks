@@ -1,17 +1,19 @@
 """
-VMP 2026-02-02
+30_bertopic_select.py
 
+VMP 2026-02-02
 Select TOP10 BERTopic runs and copy key artifacts into:
 
-../data/data-<date_w2>/topics_bertopic/selection/
+../data/public/bertopic/selection/
   statement_topics/
   overview/
 
 Also writes:
   selection/overview_top10.csv
-  selection/manifest.csv
+  selection/manifest.csv  (for manual inspection; not read by downstream scripts)
 
 VMP 2026-02-08: tested and run.
+VMP 2026-03-27: updated docstring paths.
 """
 
 import os

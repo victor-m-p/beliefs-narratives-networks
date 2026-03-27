@@ -15,7 +15,7 @@ def safe_json_loads(value, fallback="NA"):
         return fallback
 
 
-# Used by: 28_bertopic_prepare.py
+# Used by: 28_prepare_nodes.py
 def extract_nodes(data_dict, node_type):
     df_nodes = pd.concat(
         (
@@ -27,31 +27,8 @@ def extract_nodes(data_dict, node_type):
     return df_nodes
 
 
-# Used by: 28_bertopic_prepare.py
-def extract_LLM_edges(data_dict, mdl):
-    df_edges = pd.concat(
-        (
-            pd.DataFrame(v['LLM'][mdl]).assign(key=k)
-            for k, v in data_dict.items()
-        ),
-        ignore_index=True
-    )
-    return df_edges
 
-
-# Used by: 28_bertopic_prepare.py
-def extract_hum_edges(data_dict, type):
-    df_edges = pd.concat(
-        (
-            pd.DataFrame(v['edges'][type]).assign(key=k)
-            for k, v in data_dict.items()
-        ),
-        ignore_index=True
-    )
-    return df_edges
-
-
-# Used by: 34_bertopic_pred.py
+# Used by: 34_criterion.py
 def normalize_ab(df, a='a', b='b'):
     """Normalize a-b columns so that a <= b."""
     df = df.copy()

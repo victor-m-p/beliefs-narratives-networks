@@ -1,5 +1,5 @@
 """
-bertopic_grid_base.py
+29_bertopic_fit.py
 
 VMP 2026-01-26
 Phase A: Base BERTopic grid search across embedding models.
@@ -15,19 +15,26 @@ Phase A: Base BERTopic grid search across embedding models.
       * Save a run summary row:
           n_topics, outlier_rate, outlier_0_ratio, dbcv, distortion, mean_assigned_prob
 
+Inputs:
+  ../data/public/nodes.csv  (from 28_prepare_nodes.py)
+
 Outputs:
-../data/data-<date>/topics_bertopic/<model_outname>/runs/run_<run_id>/*
-../data/data-<date>/topics_bertopic/<model_outname>/base_grid_summary.csv
-../data/data-<date>/topics_bertopic/overview_all_models__base_grid_summary.csv  (sorted by DBCV desc)
+  ../data/public/bertopic/<model_outname>/runs/run_<run_id>/params.json
+  ../data/public/bertopic/<model_outname>/runs/run_<run_id>/topic_info.csv
+  ../data/public/bertopic/<model_outname>/runs/run_<run_id>/topic_overview.csv
+  ../data/public/bertopic/<model_outname>/runs/run_<run_id>/statement_topics.csv
+  ../data/public/bertopic/<model_outname>/base_grid_summary.csv
+  ../data/public/bertopic/overview_all_models__base_grid_summary.csv  (sorted by DBCV desc)
 
 Notes:
-- This script does NOT do topic reduction (nr_topics K). That's the next step.
+- This script does NOT do topic reduction (nr_topics K). That's the next step (30_bertopic_select.py).
 - mean_assigned_prob: mean (over non-outlier docs) of P(assigned topic | doc), if mapping is unambiguous.
 - DBCV uses HDBSCAN's built-in relative_validity_ (can be NaN in degenerate cases).
 - outlier_rate: fraction assigned to topic -1 (noise).
 - outlier_0_ratio: (topic -1 + topic 0) fraction (paper-compatible, but topic 0 is not "outlier" by default).
 
 VMP 2026-02-08: tested and run.
+VMP 2026-03-27: updated docstring; fixed DBCV typo.
 """
 
 import os
@@ -369,7 +376,7 @@ for mspec in EMB_MODELS:
                 min_samples=hcfg["min_samples"],
                 metric="euclidean",
                 cluster_selection_method="eom",
-                gen_min_span_tree=True, # for DCBV
+                gen_min_span_tree=True, # for DBCV
                 prediction_data=True,
             )
 

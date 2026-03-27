@@ -1,29 +1,25 @@
 """
-VMP 2026-02-02
+32_bertopic_map.py
 
-Create stance-edge → topic-edge mappings
-ONLY for the TOP10 selected BERTopic runs.
+VMP 2026-02-02
+Maps BERTopic topic assignments onto participant edges for the TOP10 selected runs.
+Produces two sets of mappings: human canvas edges and LLM-extracted edges.
+Outliers (topic == -1) included in lookup.
 
 Reads:
-  ../data/data-<date_w2>/topics_bertopic/selection/
-    overview_top10.csv
-    statement_topics/*.csv
+  ../data/public/bertopic/selection/overview_top10.csv
+  ../data/public/bertopic/selection/statement_topics/<label>__statement_topics.csv
+  ../data/public/distractors_w*.json
 
 Writes:
-  ../data/data-<date_w2>/mapping_bertopic/selection/
-    edge_mapping__<label>.csv
+  ../data/public/bertopic_mapping/edge_mapping__<label>.csv        (human canvas edges)
+  ../data/public/bertopic_mapping_llm/edge_mapping_llm__<label>.csv  (LLM edges)
 
 VMP 2026-02-08: tested and run.
+VMP 2026-03-27: removed EXCLUDE_OUTLIERS toggle (always include); cleaned up docstring.
 """
 
 from __future__ import annotations
-
-'''
-VMP 2026-02-06 (refactored):
-Maps BERTopic topics to participant edges.
-Uses sanitized public data.
-Works with gitignored topics_bertopic and mapping_bertopic folders.
-'''
 
 import json
 import shutil
@@ -44,8 +40,6 @@ STATEMENT_DIR = SELECTION_ROOT / "statement_topics"
 OUT_ROOT = Path("../data/public/bertopic_mapping")
 WIPE_OUT_ROOT = True
 
-EXCLUDE_OUTLIERS_IN_LOOKUP = False
-
 EDGE_KEY = ("edges", "edges_3")  # v["edges"]["edges_3"]
 
 
@@ -65,7 +59,6 @@ distractors_w2_path = get_public_path("distractors_w{wave}.json", wave=wave_2)
 
 with open(distractors_w1_path, encoding='utf-8') as f:
     data_w1 = json.load(f)
-data_w1['242bdf6bc5bb0b94']['edges']['edges_3']
 
 with open(distractors_w2_path, encoding='utf-8') as f:
     data_w2 = json.load(f)
@@ -122,9 +115,6 @@ for rank, r in enumerate(top10.itertuples(index=False), 1):
     df_topics["topic"] = pd.to_numeric(df_topics["topic"], errors="raise").astype(int)
 
     df_topics = df_topics[df_topics["wave"].isin([1, 2])].copy()
-
-    if EXCLUDE_OUTLIERS_IN_LOOKUP:
-        df_topics = df_topics[df_topics["topic"] != -1].copy()
 
     keep_cols = [c for c in ["key", "wave", "stance", "topic", "topic_conf", "assigned_prob"]
                  if c in df_topics.columns]
@@ -186,9 +176,7 @@ print("\nDone. Wrote human-edge mappings to:", OUT_ROOT.resolve())
 # =============================================================
 # LLM-extracted edges  (same topic mapping, different edge source)
 # =============================================================
-# reuse the same topic lookup here since the nodes are shared
-# only difference is where the edges live. 
-# this is not used in the preprint but testing this for the main submission.
+# reuse the same topic lookup; only difference is where the edges live.
 
 LLM_OUT_ROOT = Path("../data/public/bertopic_mapping_llm")
 if WIPE_OUT_ROOT:
@@ -238,9 +226,6 @@ for rank, r in enumerate(top10.itertuples(index=False), 1):
     df_topics["stance"] = df_topics["stance"].astype(str).str.strip()
     df_topics["topic"] = pd.to_numeric(df_topics["topic"], errors="raise").astype(int)
     df_topics = df_topics[df_topics["wave"].isin([1, 2])].copy()
-
-    if EXCLUDE_OUTLIERS_IN_LOOKUP:
-        df_topics = df_topics[df_topics["topic"] != -1].copy()
 
     keep_cols = [c for c in ["key", "wave", "stance", "topic", "topic_conf", "assigned_prob"]
                  if c in df_topics.columns]

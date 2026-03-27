@@ -1,20 +1,23 @@
 """
-VMP 2026-02-06 (refactored)
+33_bertopic_plot.py
 
+VMP 2026-02-06 (refactored)
 2x2 per-participant stance/topic network plots for ONE selected BERTopic run.
+Outlier topic (-1) included. Produces plots for both canvas edges and LLM edges.
 
 Input:
-  ../data/topics_bertopic/selection/overview_top10.csv
-  ../data/topics_bertopic/selection/statement_topics/<label>__statement_topics.csv
-  public/distractors_w*.json (sanitized)
+  ../data/public/bertopic/selection/overview_top10.csv
+  ../data/public/bertopic/selection/statement_topics/<label>__statement_topics.csv
+  ../data/public/distractors_w*.json
 
 Output (PDF only):
-  ../fig/BERTopic/stance_topic/<label>__outlierFalse/individual/*.pdf
-  ../fig/BERTopic/stance_topic/<label>__outlierFalse/<label>__ALL.pdf
-
-and same for outlierTrue
+  ../fig/bertopic_mapping/stance_topic/<label>/individual/*.pdf
+  ../fig/bertopic_mapping/stance_topic/<label>/<label>__ALL.pdf
+  ../fig/bertopic_mapping/stance_topic_llm/<label>/individual/*.pdf
+  ../fig/bertopic_mapping/stance_topic_llm/<label>/<label>__LLM__ALL.pdf
 
 VMP 2026-02-08: tested and run.
+VMP 2026-03-27: removed EXCLUDE_OUTLIER_TOPIC toggle; simplified output paths.
 """
 
 from __future__ import annotations
@@ -36,8 +39,6 @@ from utilities import wave_1, wave_2, get_public_path
 # -------------------------
 # Config (tweak here)
 # -------------------------
-EXCLUDE_OUTLIER_TOPIC = False  # toggle manually True/False
-
 POS_KEY, EDGES_KEY = "pos_3", "edges_3"
 CANVAS, PAD = 585, 25
 
@@ -65,7 +66,7 @@ if not _matches:
 LABEL = _matches[0].stem.replace("__statement_topics", "")
 
 # Output folders
-OUTROOT = Path(f"../fig/BERTopic/stance_topic/{LABEL}__outlier{EXCLUDE_OUTLIER_TOPIC}")
+OUTROOT = Path(f"../fig/bertopic_mapping/stance_topic/{LABEL}")
 OUTIND  = OUTROOT / "individual"
 OUTIND.mkdir(parents=True, exist_ok=True)
 
@@ -91,8 +92,6 @@ df_stmt["key"] = df_stmt["key"].astype(str)
 df_stmt["wave"] = pd.to_numeric(df_stmt["wave"], errors="raise").astype(int)
 df_stmt["stance"] = df_stmt["stance"].astype(str).str.strip()
 df_stmt["topic"] = pd.to_numeric(df_stmt["topic"], errors="raise").astype(int)
-if EXCLUDE_OUTLIER_TOPIC:
-    df_stmt = df_stmt[df_stmt["topic"] != -1].copy()
 
 
 # -------------------------
@@ -126,7 +125,6 @@ def topics_present(data_by_key, key, s2t):
         t = s2t.get(str(s).strip())
         if t is None: continue
         t = int(t)
-        if EXCLUDE_OUTLIER_TOPIC and t == -1: continue
         out.add(t)
     return out
 
@@ -174,7 +172,6 @@ def build_topic_graph(data_by_key, key, s2t, tcolor):
         t = s2t.get(str(stance).strip())
         if t is None: continue
         t = int(t)
-        if EXCLUDE_OUTLIER_TOPIC and t == -1: continue
         members.setdefault(t, []).append(xy)
 
     topics = sorted(members)
@@ -194,7 +191,6 @@ def build_topic_graph(data_by_key, key, s2t, tcolor):
         t1, t2 = s2t.get(s1), s2t.get(s2)
         if t1 is None or t2 is None: continue
         t1, t2 = int(t1), int(t2)
-        if EXCLUDE_OUTLIER_TOPIC and (t1 == -1 or t2 == -1): continue
         pol = e.get("polarity")
         if pol not in {"positive", "negative"}: continue
 
@@ -300,12 +296,10 @@ print("Merged ->", out_pdf)
 # =============================================================
 # LLM-extracted edges  (same nodes & positions, different edges)
 # =============================================================
-# Not used in the preprint; testing for main submission.
 # Node positions come from the participant canvas (pos_3) as before;
-# only the edge list changes: d["LLM"]["edge_results"] instead of
-# d["edges"]["edges_3"].
+# only the edge list changes: d["LLM"]["edge_results"] instead of d["edges"]["edges_3"].
 
-LLM_OUTROOT = Path(f"../fig/BERTopic/stance_topic_llm/{LABEL}__outlier{EXCLUDE_OUTLIER_TOPIC}")
+LLM_OUTROOT = Path(f"../fig/bertopic_mapping/stance_topic_llm/{LABEL}")
 LLM_OUTIND  = LLM_OUTROOT / "individual"
 LLM_OUTIND.mkdir(parents=True, exist_ok=True)
 
@@ -361,7 +355,6 @@ def build_topic_graph_llm(data_by_key, key, s2t, tcolor):
         t = s2t.get(str(stance).strip())
         if t is None: continue
         t = int(t)
-        if EXCLUDE_OUTLIER_TOPIC and t == -1: continue
         members.setdefault(t, []).append(xy)
 
     topics = sorted(members)
@@ -381,7 +374,6 @@ def build_topic_graph_llm(data_by_key, key, s2t, tcolor):
         t1, t2 = s2t.get(s1), s2t.get(s2)
         if t1 is None or t2 is None: continue
         t1, t2 = int(t1), int(t2)
-        if EXCLUDE_OUTLIER_TOPIC and (t1 == -1 or t2 == -1): continue
         pol = e.get("polarity")
         if pol not in {"positive", "negative"}: continue
 
