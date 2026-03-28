@@ -1,6 +1,6 @@
 # beliefs-narratives-networks
 
-Code and survey instrument for "Visual Network Tool: Individual Belief Networks from LLM-guided Interviews and a Visual Canvas" (https://osf.io/preprints/psyarxiv/ypfz6_v1).
+Code and survey instrument for "Visual Network Tool: Individual Belief Networks from LLM-guided Interviews and a Visual Canvas" (https://osf.io/preprints/psyarxiv/ypfz6_v2).
 
 ## Demo
 
