@@ -1,6 +1,6 @@
 # otreesurvey
 
-oTree v6 survey instrument for "Visual Network tool: Individual belief networks from LLM-guided interviews and a visual canvas" preprint (Victor Møller Poulsen, Peter Steiglechner, Henrik Olsson, Mirta Galesic).
+oTree v6 survey instrument for "Visual Network Tool: Individual Belief Networks from LLM-guided Interviews and a Visual Canvas" (https://osf.io/preprints/psyarxiv/ypfz6_v2)
 
 ## Setup
 
