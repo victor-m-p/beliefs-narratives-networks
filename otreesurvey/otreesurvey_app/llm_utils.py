@@ -209,7 +209,7 @@ Expected output:
 "results": [
     {{
         "stance_1": "I live with vegetarians",
-        "stance_1": "I love the taste of meat",
+        "stance_2": "I love the taste of meat",
         "polarity": "negative",
         "explicitness": "explicit",
         "strength": 80,
@@ -217,7 +217,7 @@ Expected output:
     }},
     {{
         "stance_1": "I live with vegetarians",
-        "stance_1": "Social contacts are concerned about animal welfare",
+        "stance_2": "Social contacts are concerned about animal welfare",
         "polarity": "positive",
         "explicitness": "implicit",
         "strength": 70,
@@ -225,7 +225,7 @@ Expected output:
     }},
     {{
         "stance_1": "I rarely cook meat",
-        "stance_1": "I live with vegetarians",
+        "stance_2": "I live with vegetarians",
         "polarity": "positive",
         "explicitness": "explicit",
         "strength": 90,
@@ -233,7 +233,7 @@ Expected output:
     }},
     {{
         "stance_1": "Social contacts are concerned about animal welfare", 
-        "stance_1": "I rarely cook meat",
+        "stance_2": "I rarely cook meat",
         "polarity": "positive",
         "explicitness": "explicit",
         "strength": 70,
@@ -241,7 +241,7 @@ Expected output:
     }},
     {{
         "stance_1": "I love the taste of meat",
-        "stance_1": "I rarely cook meat",
+        "stance_2": "I rarely cook meat",
         "polarity": "negative",
         "explicitness": "explicit",
         "strength": 90,
@@ -249,7 +249,7 @@ Expected output:
     }},
     {{
         "stance_1": "I love the taste of meat",
-        "stance_1": "My family serves meat during visits",
+        "stance_2": "My family serves meat during visits",
         "polarity": "positive",
         "explicitness": "implicit",
         "strength": 30,
@@ -257,7 +257,7 @@ Expected output:
     }},
     {{
         "stance_1": "I am concerned about climate change",
-        "stance_1": "I rarely cook meat",
+        "stance_2": "I rarely cook meat",
         "polarity": "positive",
         "explicitness": "explicit",
         "strength": 80,
@@ -265,7 +265,7 @@ Expected output:
     }}
     {{
         "stance_1": "I love the taste of meat",
-        "stance_1": "I am concerned about climate change",
+        "stance_2": "I am concerned about climate change",
         "polarity": "negative",
         "explicitness": "implicit",
         "strength": 50,
