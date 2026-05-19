@@ -312,9 +312,12 @@
 
         el.addEventListener('dragstart', (ev) => {
           ev.dataTransfer.setData('text/plain', JSON.stringify({ label, idx }));
+          ev.dataTransfer.effectAllowed = 'copy';
 
           const dragImg = document.createElement('canvas');
           dragImg.width = dragImg.height = 2 * R + 8;
+          dragImg.style.cssText = 'position:fixed;left:-9999px;top:-9999px';
+          document.body.appendChild(dragImg);
           const c = dragImg.getContext('2d');
           c.beginPath();
           c.arc(dragImg.width / 2, dragImg.height / 2, R, 0, Math.PI * 2);
@@ -325,6 +328,7 @@
             dragImg.width / 2,
             dragImg.height / 2
           );
+          setTimeout(() => document.body.removeChild(dragImg), 0);
         });
 
         stageEl.appendChild(el);
@@ -392,8 +396,12 @@
       return { x: canvas.width / 2, y: canvas.height / 2 };
     }
 
+    canvas.addEventListener('dragenter', (e) => {
+      e.preventDefault();
+    });
     canvas.addEventListener('dragover', (e) => {
       e.preventDefault();
+      e.dataTransfer.dropEffect = 'copy';
       canvas.classList.add('drop-ok');
     });
     canvas.addEventListener('dragleave', () => {

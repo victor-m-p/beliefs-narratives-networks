@@ -60,9 +60,9 @@ STMT_DIR = SEL / "statement_topics"
 
 # Choose the run: pick whichever model is ranked 01 (best DBCV)
 # otherwise manually input LABEL.
-_matches = sorted(STMT_DIR.glob("01__*__statement_topics.csv"))
+_matches = sorted(STMT_DIR.glob("09__*__statement_topics.csv"))
 if not _matches:
-    raise FileNotFoundError("No 01__* statement_topics file found in " + str(STMT_DIR))
+    raise FileNotFoundError("No 09__* statement_topics file found in " + str(STMT_DIR))
 LABEL = _matches[0].stem.replace("__statement_topics", "")
 
 # Output folders
