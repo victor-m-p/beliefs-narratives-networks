@@ -10,14 +10,16 @@ Input:
   ../data/public/bertopic/selection/statement_topics/<label>__statement_topics.csv
   ../data/public/distractors_w*.json
 
-Output (PDF only):
-  ../fig/bertopic_mapping/stance_topic/<label>/individual/*.pdf
+Output:
+  ../fig/bertopic_mapping/stance_topic/<label>/individual/*.svg
   ../fig/bertopic_mapping/stance_topic/<label>/<label>__ALL.pdf
-  ../fig/bertopic_mapping/stance_topic_llm/<label>/individual/*.pdf
+  ../fig/bertopic_mapping/stance_topic_llm/<label>/individual/*.svg
   ../fig/bertopic_mapping/stance_topic_llm/<label>/<label>__LLM__ALL.pdf
 
 VMP 2026-02-08: tested and run.
 VMP 2026-03-27: removed EXCLUDE_OUTLIER_TOPIC toggle; simplified output paths.
+VMP 2026-07-28: individual files now saved as SVG instead of PDF; merged ALL.pdf
+                 built directly via PdfPages instead of concatenating per-key PDFs.
 """
 
 from __future__ import annotations
@@ -32,7 +34,7 @@ import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
-from pypdf import PdfWriter
+from matplotlib.backends.backend_pdf import PdfPages
 
 from utilities import wave_1, wave_2, get_public_path
 
@@ -271,23 +273,18 @@ def plot_2x2(key):
 # -------------------------
 # Run
 # -------------------------
-# wipe individual pdfs
-for p in OUTIND.glob("*.pdf"):
+# wipe individual svgs
+for p in OUTIND.glob("*.svg"):
     p.unlink()
 
-# export individuals
-for k in keys:
-    fig = plot_2x2(k)
-    fig.savefig(OUTIND / f"{clean_filename(k)}.pdf")
-    plt.close(fig)
-
-# merge
+# export individuals (svg) + merged PDF (built in the same pass)
 out_pdf = OUTROOT / f"{LABEL}__ALL.pdf"
-writer = PdfWriter()
-for p in sorted(OUTIND.glob("*.pdf")):
-    writer.append(str(p))
-with open(out_pdf, "wb") as f:
-    writer.write(f)
+with PdfPages(out_pdf) as pdf:
+    for i, k in enumerate(keys):
+        fig = plot_2x2(k)
+        fig.savefig(OUTIND / f"{i + 1:02d}_{clean_filename(k)}.svg")
+        pdf.savefig(fig)
+        plt.close(fig)
 
 print("Saved:", OUTROOT)
 print("Merged ->", out_pdf)
@@ -303,7 +300,7 @@ LLM_OUTROOT = Path(f"../fig/bertopic_mapping/stance_topic_llm/{LABEL}")
 LLM_OUTIND  = LLM_OUTROOT / "individual"
 LLM_OUTIND.mkdir(parents=True, exist_ok=True)
 
-for p in LLM_OUTIND.glob("*.pdf"):
+for p in LLM_OUTIND.glob("*.svg"):
     p.unlink()
 
 
@@ -416,18 +413,14 @@ def plot_2x2_llm(key):
     return fig
 
 
-# --- export LLM individual + merged PDF ---
-for k in keys:
-    fig = plot_2x2_llm(k)
-    fig.savefig(LLM_OUTIND / f"{clean_filename(k)}.pdf")
-    plt.close(fig)
-
+# --- export LLM individual (svg) + merged PDF (same pass) ---
 llm_out_pdf = LLM_OUTROOT / f"{LABEL}__LLM__ALL.pdf"
-writer = PdfWriter()
-for p in sorted(LLM_OUTIND.glob("*.pdf")):
-    writer.append(str(p))
-with open(llm_out_pdf, "wb") as f:
-    writer.write(f)
+with PdfPages(llm_out_pdf) as pdf:
+    for i, k in enumerate(keys):
+        fig = plot_2x2_llm(k)
+        fig.savefig(LLM_OUTIND / f"{i + 1:02d}_{clean_filename(k)}.svg")
+        pdf.savefig(fig)
+        plt.close(fig)
 
 print("Saved LLM:", LLM_OUTROOT)
 print("Merged LLM ->", llm_out_pdf)
