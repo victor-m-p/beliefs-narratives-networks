@@ -1,5 +1,5 @@
 """
-34_criterion.py
+38_criterion.py
 
 VMP 2026-03-15
 Criterion validity: topic persistence as a function of wave-1 topic degree.
@@ -52,7 +52,7 @@ JITTER_V  = 0.015   # small vertical spread for 0/1 pileups
 
 
 # -----------------------------
-# Data helpers (mirrors 34_)
+# Data helpers
 # -----------------------------
 def compute_degree_w1(edge_csv: Path) -> pd.DataFrame:
     df = pd.read_csv(edge_csv)[["wave", "key", "topic_1", "topic_2"]]
