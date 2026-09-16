@@ -25,6 +25,8 @@ The interview pages support voice input via a speech-to-text service ([voice-whi
 - `PairInterviewLLM.html`
 - `PairInterviewOpen.html`
 
+The templates call the endpoint from the browser without an `Authorization` header, so deploy the server with `API_TOKEN` unset (otherwise requests are rejected with 401) and restrict access with `ALLOWED_ORIGINS` set to your survey's domain instead.
+
 ## Deployment
 
 1. Update `wave` in `settings.py`

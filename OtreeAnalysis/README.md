@@ -63,7 +63,7 @@ Scripts are numbered by phase. The first digit indicates the phase; scripts with
 | `23_rating_networks.py`    | `fig/ratings/`                                                       | Figure 5A, 5B           | Network comparison ratings: canvas vs random, LLM vs random              |
 | `24_training.py`           | `fig/training/`                                                      | Figure 9                | Training task accuracy across trials (support vs conflict edges)         |
 | `25_concurrent.py`         | `fig/concurrent/`                                                    | Figure 6                | Concurrent validity: canvas vs pairwise and canvas vs LLM heatmaps       |
-| `27_reliability.py`        | `fig/reliability/`                                                   | Figure 3, Table S4      | Test-retest reliability: scatter panels (words, nodes, edges) + stats    |
+| `27_reliability.py`        | `fig/reliability/`                                                   | Figure 3, Table S4      | Test-retest reliability: scatter panels (words, nodes, edges) + stats, incl. network metrics (mean degree, density, centralization, transitivity); Figure 2 example metrics |
 | `28_canvas_distance.py`    | `fig/canvas_distance/`                                               | SI Figure S11           | Canvas distance analysis: connected nodes placed closer?                 |
 | `29_network_plots.py`      | `fig/networks/`                                                      | Figure 2                | Individual belief network visualizations for all participants            |
 | `30_prepare_nodes.py`      | `data/public/`                                                       | —                       | Prepares `nodes.csv` for BERTopic (flags canvas presence)                |
@@ -74,7 +74,7 @@ Scripts are numbered by phase. The first digit indicates the phase; scripts with
 | `35_bertopic_tables.py`    | `fig/bertopic_mapping/`                                              | SI Table S1.6           | BERTopic topic overview (keywords, examples) as LaTeX longtable          |
 | `36_node_reliability.py`   | `fig/node_reliability/`                                              | Figure 4, Table S6      | Node-topic test-retest reliability: phi coefficients, all 10 models      |
 | `37_edge_reliability.py`   | `fig/edge_reliability/`                                              | Figure 4, Table S7      | Edge-topic test-retest reliability: phi coefficients + contingency table |
-| `38_criterion.py`          | `fig/criterion/`                                                     | Figure 7, SI Figure S12 | Criterion validity: topic persistence by W1 topic degree                 |
+| `38_criterion.py`          | `fig/criterion/`                                                     | Figure 7, SI Figure S12, Table S9 | Criterion validity: topic persistence by W1 topic degree; topic-level retention vs. new topics in W2 |
 | `39_collective_network.py` | `fig/collective_network/`                                            | Figure 8                | Population-level topic network (spectral ring layout)                    |
 
 ### Shared modules

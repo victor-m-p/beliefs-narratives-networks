@@ -43,7 +43,7 @@ Reads:
 
 Writes:
   ../fig/tool_approach/tool_approach_per_participant.csv
-  ../fig/tool_approach/training_vs_real.svg
+  ../fig/tool_approach/training_vs_real.pdf
 """
 
 import os
@@ -171,9 +171,9 @@ print(f"\nSaved {outdir}/tool_approach_per_participant.csv")
 # -------------------------
 # plot: the three correlations, on shared axes so they are comparable
 # -------------------------
-TITLE_SIZE = 15
-LABEL_SIZE = 14
-TICK_SIZE = 12
+TITLE_SIZE = 19
+LABEL_SIZE = 18
+TICK_SIZE = 15
 
 lo = min(df[["training", "real_w1", "real_w2"]].min()) - 0.2
 hi = max(df[["training", "real_w1", "real_w2"]].max()) + 0.2
@@ -189,16 +189,16 @@ for ax, (xcol, ycol, xlabel, ylabel, label) in zip(axes, COMPARISONS):
     xs = np.linspace(lo, hi, 100)
     ax.plot(xs, slope * xs + intercept, color="black", linewidth=1.4)
 
-    r, _ = pearsonr(x, y)
     ax.set_xlim(lo, hi)
     ax.set_ylim(lo, hi)
     ax.set_aspect("equal", adjustable="box")
     ax.set_xlabel(xlabel, fontsize=LABEL_SIZE)
     ax.set_ylabel(ylabel, fontsize=LABEL_SIZE)
-    ax.set_title(f"{label}: r = {r:+.2f}", fontsize=TITLE_SIZE)
+    # correlations are reported in the text, not on the panels
+    ax.set_title(label, fontsize=TITLE_SIZE)
     ax.tick_params(axis="both", labelsize=TICK_SIZE)
 
 plt.tight_layout()
-plt.savefig(os.path.join(outdir, "training_vs_real.svg"), bbox_inches="tight")
-print(f"Saved {outdir}/training_vs_real.svg")
+plt.savefig(os.path.join(outdir, "training_vs_real.pdf"), bbox_inches="tight")
+print(f"Saved {outdir}/training_vs_real.pdf")
 plt.show()
