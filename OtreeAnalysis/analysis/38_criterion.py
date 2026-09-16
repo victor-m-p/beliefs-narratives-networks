@@ -48,6 +48,15 @@ STMT_DIR   = SEL_TOPICS / "statement_topics"
 OUTDIR = Path("../fig/criterion")
 OUTDIR.mkdir(parents=True, exist_ok=True)
 
+# The SELECTED BERTopic fit: row 8 (0-based) of overview_top10.csv, i.e. model
+# 09__ — all-MiniLM-L6-v2, n_neighbors=45, n_components=10, min_cluster_size=75.
+# It is not the DBCV-best fit (that is rank 1); it was chosen by manual
+# inspection of the 10 candidates, and is the fit the manuscript reports and
+# interprets throughout (34, 35, 36, 37, 39 use it too).
+SELECTED_IDX  = 8
+SELECTED_RANK = SELECTED_IDX + 1          # 1-based, matches the 09__ file prefix
+SELECTED_RUN  = "20260210_222432_3c9714b4"
+
 BINS   = [-0.5, 1.5, 3.5, np.inf]
 LABELS = ["0-1", "2-3", "4+"]
 
@@ -191,9 +200,15 @@ def plot_all10(all_means: list[list[float]], outpath: Path,
 # -----------------------------
 top10 = pd.read_csv(TOP10_PATH)
 
+# guard: the selection file must still list the selected fit where we expect it,
+# otherwise every downstream output would silently describe a different model
+assert top10.iloc[SELECTED_IDX].run_id == SELECTED_RUN, (
+    f"row {SELECTED_IDX} of overview_top10.csv is {top10.iloc[SELECTED_IDX].run_id}, "
+    f"expected {SELECTED_RUN}")
+
 canvas_means_all, llm_means_all = [], []
-pp_bin_c1 = pp_bin_l1 = pd.DataFrame()
-baseline_c1 = baseline_l1 = float("nan")
+pp_bin_c_sel = pp_bin_l_sel = pd.DataFrame()
+baseline_c_sel = baseline_l_sel = float("nan")
 
 for rank, r in enumerate(top10.itertuples(index=False), 1):
     label    = f"{rank:02d}__{r.embed_model_outname}__run_{r.run_id}"
@@ -209,15 +224,16 @@ for rank, r in enumerate(top10.itertuples(index=False), 1):
     pp_bin_l = get_pp_bin(df_l)
     llm_means_all.append(bin_means(pp_bin_l))
 
-    if rank == 1:
-        pp_bin_c1, baseline_c1 = pp_bin_c, get_baseline(df_c)
-        pp_bin_l1, baseline_l1 = pp_bin_l, get_baseline(df_l)
+    if rank == SELECTED_RANK:
+        pp_bin_c_sel, baseline_c_sel = pp_bin_c, get_baseline(df_c)
+        pp_bin_l_sel, baseline_l_sel = pp_bin_l, get_baseline(df_l)
 
     print(f"[ok] rank {rank}")
 
-# Plot 1 & 2: selected model raw dots
-plot_selected(pp_bin_c1, baseline_c1, OUTDIR / "persistence_a1_canvas_selected.svg")
-plot_selected(pp_bin_l1, baseline_l1, OUTDIR / "persistence_a1_llm_selected.svg")
+# Plot 1 & 2: raw dots for the SELECTED fit (09__), the one the manuscript
+# reports and interprets throughout — not the DBCV-best fit (rank 1)
+plot_selected(pp_bin_c_sel, baseline_c_sel, OUTDIR / "persistence_a1_canvas_selected.svg")
+plot_selected(pp_bin_l_sel, baseline_l_sel, OUTDIR / "persistence_a1_llm_selected.svg")
 
 # Plot 3 & 4: all 10 models, mean lines only — shared y-axis
 _all10_flat = [v for means in canvas_means_all + llm_means_all for v in means if not np.isnan(v)]
@@ -231,7 +247,7 @@ print("\nSaved to:", OUTDIR)
 
 
 # -----------------------------
-# Topic-level persistence table (rank-1 / canvas) — Table S9
+# Topic-level persistence table (selected fit / canvas) — Table S9
 # -----------------------------
 # Built on the FULL participant x topic grid, not only the pairs a participant
 # had in wave 1, so both conditionals can be read symmetrically:
@@ -245,24 +261,23 @@ print("\nSaved to:", OUTDIR)
 # because they are complementary and sum to the participants: the topics with
 # the highest retention are exactly those with the fewest participants
 # available to pick them up, so those rates rest on small samples.
-r1_idx   = 8                      # 0-based index for model 09
-r1       = top10.iloc[r1_idx]
-label_r1 = f"{r1_idx+1:02d}__{r1.embed_model_outname}__run_{r1.run_id}"
-nodes_r1 = load_nodes(STMT_DIR / f"{label_r1}__statement_topics.csv")
-deg_r1   = compute_degree_w1(SEL_MAP / f"edge_mapping__{label_r1}.csv")
-df_r1    = build_base_df(nodes_r1, deg_r1)
+sel        = top10.iloc[SELECTED_IDX]
+label_sel  = f"{SELECTED_RANK:02d}__{sel.embed_model_outname}__run_{sel.run_id}"
+nodes_sel  = load_nodes(STMT_DIR / f"{label_sel}__statement_topics.csv")
+deg_sel    = compute_degree_w1(SEL_MAP / f"edge_mapping__{label_sel}.csv")
+df_sel     = build_base_df(nodes_sel, deg_sel)
 
-w1_r1 = nodes_r1[nodes_r1["wave"] == 1][["key", "topic"]].drop_duplicates()
-w2_r1 = nodes_r1[nodes_r1["wave"] == 2][["key", "topic"]].drop_duplicates()
+w1_sel = nodes_sel[nodes_sel["wave"] == 1][["key", "topic"]].drop_duplicates()
+w2_sel = nodes_sel[nodes_sel["wave"] == 2][["key", "topic"]].drop_duplicates()
 
-participants = sorted(nodes_r1["key"].unique())
-topics       = sorted(nodes_r1["topic"].unique())
+participants = sorted(nodes_sel["key"].unique())
+topics       = sorted(nodes_sel["topic"].unique())
 
 grid = pd.MultiIndex.from_product([participants, topics],
                                   names=["key", "topic"]).to_frame(index=False)
-grid = grid.merge(w1_r1.assign(in_w1=1), on=["key", "topic"], how="left")
-grid = grid.merge(w2_r1.assign(in_w2=1), on=["key", "topic"], how="left")
-grid = grid.merge(deg_r1, on=["key", "topic"], how="left")
+grid = grid.merge(w1_sel.assign(in_w1=1), on=["key", "topic"], how="left")
+grid = grid.merge(w2_sel.assign(in_w2=1), on=["key", "topic"], how="left")
+grid = grid.merge(deg_sel, on=["key", "topic"], how="left")
 grid[["in_w1", "in_w2", "degree_wt"]] = (
     grid[["in_w1", "in_w2", "degree_wt"]].fillna(0).astype(int))
 
@@ -287,7 +302,7 @@ assert (topic_tbl["N present (W1)"] + topic_tbl["N absent (W1)"]
         == len(participants)).all()
 
 # the wave-1 columns must reproduce the frame the figures above are built on
-_check = df_r1.groupby("topic").agg(n=("present_w2", "size"),
+_check = df_sel.groupby("topic").agg(n=("present_w2", "size"),
                                     p=("present_w2", "mean"),
                                     d=("degree_wt", "mean")).reset_index()
 _check = topic_tbl.merge(_check, left_on="Topic", right_on="topic")
@@ -312,10 +327,10 @@ print("\nSaved topic table to:", OUTDIR / "topic_persistence_table.tex")
 # -----------------------------
 # Participant-level CSV for mixed-effects analysis
 # -----------------------------
-deg_unwt = compute_degree_unweighted(SEL_MAP / f"edge_mapping__{label_r1}.csv")
+deg_unwt = compute_degree_unweighted(SEL_MAP / f"edge_mapping__{label_sel}.csv")
 
 export_df = (
-    df_r1[["key", "topic", "degree_wt", "present_w2"]]
+    df_sel[["key", "topic", "degree_wt", "present_w2"]]
     .merge(deg_unwt.rename(columns={"degree_wt": "degree_unwt"}), on=["key", "topic"], how="left")
     .fillna({"degree_unwt": 0})
     .assign(degree_unwt=lambda d: d["degree_unwt"].astype(int))
@@ -341,8 +356,8 @@ print("Saved to:", OUTDIR / "topic_persistence.csv")
 # The topic-level table asks, per topic, how often it is retained or appears
 # anew. A reviewer could equally mean the participant-level reading: how much of
 # an individual's wave-2 belief set is new. Printed only, not saved.
-w1_topics = w1_r1.groupby("key")["topic"].apply(set).reindex(participants)
-w2_topics = w2_r1.groupby("key")["topic"].apply(set).reindex(participants)
+w1_topics = w1_sel.groupby("key")["topic"].apply(set).reindex(participants)
+w2_topics = w2_sel.groupby("key")["topic"].apply(set).reindex(participants)
 
 assert w1_topics.notna().all() and w2_topics.notna().all()
 
